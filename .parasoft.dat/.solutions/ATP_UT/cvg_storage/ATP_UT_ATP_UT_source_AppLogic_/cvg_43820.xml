@@ -1,0 +1,952 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="-9205700801684599649 -9205700801684572707 -8658980545320477267 -9205700801684599555" uniqueId2MainId="CPP://-6304304857971232436 CPP://-6304304857971233149 CPP://3651556958929383337 CPP://-6304304857971232467" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;21;InitMarshalManageData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;125;GetMarCoupCmdSlvTrainId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;90;GetMarCoupCmdSetCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;623;GetUncoupleCondition" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;548;SetCoupleCondition" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;488;GetMarMidSideEHookConSttsLst" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;304;RunMarReqTimer" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;175;SetMarEtbnNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;281;RunEHookTimer" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;246;SetMarshallingProcess" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;220;GetMarshalTrainType" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;346;SetIsRetainMarshalArea" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;534;SetMarMHookCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;327;RunMarStageTimer" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;524;SetMarOppoEHookCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;376;SetMarshallingSttsLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;110;GetMarCoupCmdMstTrainId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;299;StopMarReqTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;613;GetMarManualCoupleRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;380;GetMarshallingSttsLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;100;GetMarCoupCmdLastSetCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;421;SetMarTryPullStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;251;GetMarshallingProcess" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;475;SetMarMidSideEHookTelSttsLst" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;225;SetMarshalTrainTypeLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;361;GetIsRetainMarshalAreaLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;503;SetMarUncoupleActiveEndTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;160;GetMarUncoupInitAtpType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;466;SetMarMidSideMHookConSttsLst" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;240;GetMarshallingSide" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;497;GetMarCoupleActiveChngTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;603;GetMarTryPullCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;230;GetMarshalTrainTypeLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;155;SetMarCoupCancelCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;484;SetMarMidSideEHookConSttsLst" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;105;GetMarCoupCmdStopAreaId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;199;SetMarEtbnLocalMarNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;351;GetIsRetainMarshalArea" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;650;GetMarManualUncoupleRqst" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;271;InitEHookTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;140;GetMarCoupCmdMstOutDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;568;SetMarshallReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;479;GetMarMidSideEHookTelSttsLst" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;366;SetMarshallingStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;135;GetMarCoupCmdSlvTrainDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;584;GetVehicleCheckSelf" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;370;GetMarshallingStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;493;SetMarCoupleActiveChngTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;553;GetCoupleCondition" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;120;GetMarCoupCmdMstTrainDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;385;SetMarMstTrainId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;539;GetMarMHookCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;430;SetMarMidSideMHookCenStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;322;StopMarStageTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;60;InitMarCoupleHandleData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;599;SetMarTryPullCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;416;GetMarSlvCoupleSide" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;425;GetMarTryPullStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;46;InitMarshalCmdStruData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;639;SetMarTryPushCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;312;GetMarStageTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;519;GetMarLocalEHookCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;645;SetMarManualUncoupleRqst" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;558;SetPassiveCoupleCondition" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;563;GetPassiveCoupleCondition" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;389;GetMarMstTrainId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;150;GetMarCoupCancelCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;394;SetMarMstCoupleSide" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;507;GetMarUncoupleActiveEndTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;594;GetMarTryPullRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;452;GetMarMidSideEHookTelStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;194;GetMarEtbnLocalMarNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;628;SetUncoupleCondition" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;115;GetMarCoupCmdMstMarNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;82;SetMarCoupCmd" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;95;SetMarCoupCmdLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;574;GetMarshallReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;448;SetMarMidSideEHookTelStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;412;SetMarSlvCoupleSide" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;256;SetMarshalProcessLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;356;SetIsRetainMarshalAreaLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;579;SetVehicleCheckSelf" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;317;InitMarStageTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;215;SetMarshalTrainType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;261;GetMarshalProcessLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;457;SetMarMidSideEHookConStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;589;SetMarTryPullRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;294;InitMarReqTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;403;SetMarSlvTrainId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;335;GetMarEHookSttsChngTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;209;SetMarEtbnOtherMarNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;235;SetMarshallingSide" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;204;GetMarEtbnOtherMarNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;398;GetMarMstCoupleSide" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;434;GetMarMidSideMHookCenStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;443;GetMarMidSideMHookConStts" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;470;GetMarMidSideMHookConSttsLst" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;514;SetMarLocalEHookCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;165;SetMarUncoupInitAtpType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;266;GetEHookTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;529;GetMarOppoEHookCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;289;GetMarReqTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;72;InitMarUncoupleHandleData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;407;GetMarSlvTrainId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;461;GetMarMidSideEHookConStts" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;145;GetMarCoupCmdSlvOutDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;608;SetMarManualCoupleRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;276;StopEHookTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;634;GetMarTryPushCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;170;GetMarEtbnNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;340;SetMarEHookSttsChngTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;439;SetMarMidSideMHookConStts" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;130;GetMarCoupCmdSlvMarNum" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;443;GetMarMidSideMHookConStts">
+      <CtxCvg ctx="-9205700801684572707" ids="GetMarMidSideMHookConStts" cnts="3" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;220;GetMarshalTrainType">
+      <CtxCvg ctx="-8658980545320477267" ids="GetMarshalTrainType" cnts="3" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;461;GetMarMidSideEHookConStts">
+      <CtxCvg ctx="-9205700801684599649" ids="GetMarMidSideEHookConStts" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-9205700801684599555" ids="GetMarMidSideEHookConStts" cnts="3" paths="1" expect="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;140;GetMarCoupCmdMstOutDir" show="true">
+      <CvgElem id="GetMarCoupCmdMstOutDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="142" locStartPos="1" locEndLn="142" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;553;GetCoupleCondition" show="true">
+      <CvgElem id="GetCoupleCondition" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="555" locStartPos="1" locEndLn="555" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;389;GetMarMstTrainId" show="true">
+      <CvgElem id="GetMarMstTrainId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="391" locStartPos="1" locEndLn="391" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;246;SetMarshallingProcess" show="true">
+      <CvgElem id="SetMarshallingProcess" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="248" locStartPos="1" locEndLn="248" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;448;SetMarMidSideEHookTelStts" show="true">
+      <CvgElem id="SetMarMidSideEHookTelStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="450" locStartPos="1" locEndLn="450" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;312;GetMarStageTimer" show="true">
+      <CvgElem id="GetMarStageTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="314" locStartPos="1" locEndLn="314" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;115;GetMarCoupCmdMstMarNum" show="true">
+      <CvgElem id="GetMarCoupCmdMstMarNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="117" locStartPos="1" locEndLn="117" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;170;GetMarEtbnNum" show="true">
+      <CvgElem id="GetMarEtbnNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="172" locStartPos="4" locEndLn="172" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;529;GetMarOppoEHookCmd" show="true">
+      <CvgElem id="GetMarOppoEHookCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="531" locStartPos="1" locEndLn="531" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;130;GetMarCoupCmdSlvMarNum" show="true">
+      <CvgElem id="GetMarCoupCmdSlvMarNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="132" locStartPos="1" locEndLn="132" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;563;GetPassiveCoupleCondition" show="true">
+      <CvgElem id="GetPassiveCoupleCondition" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="565" locStartPos="1" locEndLn="565" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;95;SetMarCoupCmdLast" show="true">
+      <CvgElem id="SetMarCoupCmdLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="97" locStartPos="1" locEndLn="97" locEndPos="151" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;407;GetMarSlvTrainId" show="true">
+      <CvgElem id="GetMarSlvTrainId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="409" locStartPos="1" locEndLn="409" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;165;SetMarUncoupInitAtpType" show="true">
+      <CvgElem id="SetMarUncoupInitAtpType" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="167" locStartPos="1" locEndLn="167" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;403;SetMarSlvTrainId" show="true">
+      <CvgElem id="SetMarSlvTrainId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="405" locStartPos="1" locEndLn="405" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;497;GetMarCoupleActiveChngTag" show="true">
+      <CvgElem id="GetMarCoupleActiveChngTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="499" locStartPos="1" locEndLn="499" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;261;GetMarshalProcessLast" show="true">
+      <CvgElem id="GetMarshalProcessLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="263" locStartPos="1" locEndLn="263" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;613;GetMarManualCoupleRequest" show="true">
+      <CvgElem id="GetMarManualCoupleRequest" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="615" locStartPos="1" locEndLn="615" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;475;SetMarMidSideEHookTelSttsLst" show="true">
+      <CvgElem id="SetMarMidSideEHookTelSttsLst" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="477" locStartPos="1" locEndLn="477" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;322;StopMarStageTimer" show="true">
+      <CvgElem id="StopMarStageTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="324" locStartPos="1" locEndLn="324" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;256;SetMarshalProcessLast" show="true">
+      <CvgElem id="SetMarshalProcessLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="258" locStartPos="1" locEndLn="258" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;276;StopEHookTimer" show="true">
+      <CvgElem id="StopEHookTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="278" locStartPos="1" locEndLn="278" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;125;GetMarCoupCmdSlvTrainId" show="true">
+      <CvgElem id="GetMarCoupCmdSlvTrainId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="127" locStartPos="1" locEndLn="127" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;366;SetMarshallingStts" show="true">
+      <CvgElem id="SetMarshallingStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="368" locStartPos="1" locEndLn="368" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;294;InitMarReqTimer" show="true">
+      <CvgElem id="InitMarReqTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="296" locStartPos="1" locEndLn="296" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;457;SetMarMidSideEHookConStts" show="true">
+      <CvgElem id="SetMarMidSideEHookConStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="459" locStartPos="1" locEndLn="459" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;370;GetMarshallingStts" show="true">
+      <CvgElem id="GetMarshallingStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="372" locStartPos="1" locEndLn="372" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;430;SetMarMidSideMHookCenStts" show="true">
+      <CvgElem id="SetMarMidSideMHookCenStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="432" locStartPos="1" locEndLn="432" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;519;GetMarLocalEHookCmd" show="true">
+      <CvgElem id="GetMarLocalEHookCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="521" locStartPos="1" locEndLn="521" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;60;InitMarCoupleHandleData" show="true">
+      <CvgElem id="InitMarCoupleHandleData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="63" locStartPos="1" locEndLn="69" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;145;GetMarCoupCmdSlvOutDir" show="true">
+      <CvgElem id="GetMarCoupCmdSlvOutDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="147" locStartPos="1" locEndLn="147" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;361;GetIsRetainMarshalAreaLast" show="true">
+      <CvgElem id="GetIsRetainMarshalAreaLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="363" locStartPos="1" locEndLn="363" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;439;SetMarMidSideMHookConStts" show="true">
+      <CvgElem id="SetMarMidSideMHookConStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="441" locStartPos="1" locEndLn="441" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;220;GetMarshalTrainType" show="true">
+      <CvgElem id="GetMarshalTrainType" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="222" locStartPos="1" locEndLn="222" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;584;GetVehicleCheckSelf" show="true">
+      <CvgElem id="GetVehicleCheckSelf" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="586" locStartPos="1" locEndLn="586" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;230;GetMarshalTrainTypeLast" show="true">
+      <CvgElem id="GetMarshalTrainTypeLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="232" locStartPos="1" locEndLn="232" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;299;StopMarReqTimer" show="true">
+      <CvgElem id="StopMarReqTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="301" locStartPos="1" locEndLn="301" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;470;GetMarMidSideMHookConSttsLst" show="true">
+      <CvgElem id="GetMarMidSideMHookConSttsLst" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="472" locStartPos="1" locEndLn="472" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;603;GetMarTryPullCmd" show="true">
+      <CvgElem id="GetMarTryPullCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="605" locStartPos="1" locEndLn="605" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;634;GetMarTryPushCmd" show="true">
+      <CvgElem id="GetMarTryPushCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="636" locStartPos="1" locEndLn="636" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;110;GetMarCoupCmdMstTrainId" show="true">
+      <CvgElem id="GetMarCoupCmdMstTrainId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="112" locStartPos="1" locEndLn="112" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;346;SetIsRetainMarshalArea" show="true">
+      <CvgElem id="SetIsRetainMarshalArea" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="348" locStartPos="1" locEndLn="348" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;82;SetMarCoupCmd" show="true">
+      <CvgElem id="SetMarCoupCmd" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="84" locStartPos="5" locEndLn="84" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="86" locStartPos="2" locEndLn="86" locEndPos="125" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="88" locStartPos="0" locEndLn="88" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;340;SetMarEHookSttsChngTimer" show="true">
+      <CvgElem id="SetMarEHookSttsChngTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="343" locStartPos="1" locEndLn="343" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;589;SetMarTryPullRequest" show="true">
+      <CvgElem id="SetMarTryPullRequest" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="591" locStartPos="1" locEndLn="591" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;599;SetMarTryPullCmd" show="true">
+      <CvgElem id="SetMarTryPullCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="601" locStartPos="1" locEndLn="601" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;194;GetMarEtbnLocalMarNum" show="true">
+      <CvgElem id="GetMarEtbnLocalMarNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="196" locStartPos="4" locEndLn="196" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;335;GetMarEHookSttsChngTimer" show="true">
+      <CvgElem id="GetMarEHookSttsChngTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="337" locStartPos="1" locEndLn="337" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;514;SetMarLocalEHookCmd" show="true">
+      <CvgElem id="SetMarLocalEHookCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="516" locStartPos="1" locEndLn="516" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;412;SetMarSlvCoupleSide" show="true">
+      <CvgElem id="SetMarSlvCoupleSide" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="414" locStartPos="1" locEndLn="414" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;215;SetMarshalTrainType" show="true">
+      <CvgElem id="SetMarshalTrainType" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="217" locStartPos="1" locEndLn="217" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;539;GetMarMHookCmd" show="true">
+      <CvgElem id="GetMarMHookCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="541" locStartPos="1" locEndLn="541" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;304;RunMarReqTimer" show="true">
+      <CvgElem id="RunMarReqTimer" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="306" locStartPos="5" locEndLn="306" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="308" locStartPos="2" locEndLn="308" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="310" locStartPos="0" locEndLn="310" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;434;GetMarMidSideMHookCenStts" show="true">
+      <CvgElem id="GetMarMidSideMHookCenStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="436" locStartPos="1" locEndLn="436" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;466;SetMarMidSideMHookConSttsLst" show="true">
+      <CvgElem id="SetMarMidSideMHookConSttsLst" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="468" locStartPos="1" locEndLn="468" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;160;GetMarUncoupInitAtpType" show="true">
+      <CvgElem id="GetMarUncoupInitAtpType" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="162" locStartPos="1" locEndLn="162" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;416;GetMarSlvCoupleSide" show="true">
+      <CvgElem id="GetMarSlvCoupleSide" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="418" locStartPos="1" locEndLn="418" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;385;SetMarMstTrainId" show="true">
+      <CvgElem id="SetMarMstTrainId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="387" locStartPos="1" locEndLn="387" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;479;GetMarMidSideEHookTelSttsLst" show="true">
+      <CvgElem id="GetMarMidSideEHookTelSttsLst" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="481" locStartPos="1" locEndLn="481" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;72;InitMarUncoupleHandleData" show="true">
+      <CvgElem id="InitMarUncoupleHandleData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="75" locStartPos="1" locEndLn="78" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;120;GetMarCoupCmdMstTrainDir" show="true">
+      <CvgElem id="GetMarCoupCmdMstTrainDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="122" locStartPos="1" locEndLn="122" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;503;SetMarUncoupleActiveEndTag" show="true">
+      <CvgElem id="SetMarUncoupleActiveEndTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="505" locStartPos="1" locEndLn="505" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;240;GetMarshallingSide" show="true">
+      <CvgElem id="GetMarshallingSide" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="242" locStartPos="1" locEndLn="242" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;645;SetMarManualUncoupleRqst" show="true">
+      <CvgElem id="SetMarManualUncoupleRqst" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="647" locStartPos="1" locEndLn="647" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;204;GetMarEtbnOtherMarNum" show="true">
+      <CvgElem id="GetMarEtbnOtherMarNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="206" locStartPos="1" locEndLn="206" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;199;SetMarEtbnLocalMarNum" show="true">
+      <CvgElem id="SetMarEtbnLocalMarNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="201" locStartPos="4" locEndLn="201" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;484;SetMarMidSideEHookConSttsLst" show="true">
+      <CvgElem id="SetMarMidSideEHookConSttsLst" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="486" locStartPos="1" locEndLn="486" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;488;GetMarMidSideEHookConSttsLst" show="true">
+      <CvgElem id="GetMarMidSideEHookConSttsLst" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="490" locStartPos="1" locEndLn="490" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;628;SetUncoupleCondition" show="true">
+      <CvgElem id="SetUncoupleCondition" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="630" locStartPos="1" locEndLn="630" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;281;RunEHookTimer" show="true">
+      <CvgElem id="RunEHookTimer" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="283" locStartPos="5" locEndLn="283" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="285" locStartPos="2" locEndLn="285" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="287" locStartPos="0" locEndLn="287" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;327;RunMarStageTimer" show="true">
+      <CvgElem id="RunMarStageTimer" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="329" locStartPos="5" locEndLn="329" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="331" locStartPos="2" locEndLn="331" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="333" locStartPos="0" locEndLn="333" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;394;SetMarMstCoupleSide" show="true">
+      <CvgElem id="SetMarMstCoupleSide" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="396" locStartPos="1" locEndLn="396" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;380;GetMarshallingSttsLast" show="true">
+      <CvgElem id="GetMarshallingSttsLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="382" locStartPos="1" locEndLn="382" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;443;GetMarMidSideMHookConStts" show="true">
+      <CvgElem id="GetMarMidSideMHookConStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="445" locStartPos="1" locEndLn="445" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;425;GetMarTryPullStts" show="true">
+      <CvgElem id="GetMarTryPullStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="427" locStartPos="1" locEndLn="427" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;209;SetMarEtbnOtherMarNum" show="true">
+      <CvgElem id="SetMarEtbnOtherMarNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="211" locStartPos="1" locEndLn="211" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;289;GetMarReqTimer" show="true">
+      <CvgElem id="GetMarReqTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="291" locStartPos="1" locEndLn="291" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;594;GetMarTryPullRequest" show="true">
+      <CvgElem id="GetMarTryPullRequest" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="596" locStartPos="1" locEndLn="596" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;452;GetMarMidSideEHookTelStts" show="true">
+      <CvgElem id="GetMarMidSideEHookTelStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="454" locStartPos="1" locEndLn="454" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;507;GetMarUncoupleActiveEndTag" show="true">
+      <CvgElem id="GetMarUncoupleActiveEndTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="509" locStartPos="1" locEndLn="509" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;548;SetCoupleCondition" show="true">
+      <CvgElem id="SetCoupleCondition" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="550" locStartPos="1" locEndLn="550" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;150;GetMarCoupCancelCmd" show="true">
+      <CvgElem id="GetMarCoupCancelCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="152" locStartPos="1" locEndLn="152" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;135;GetMarCoupCmdSlvTrainDir" show="true">
+      <CvgElem id="GetMarCoupCmdSlvTrainDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="137" locStartPos="1" locEndLn="137" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;90;GetMarCoupCmdSetCmd" show="true">
+      <CvgElem id="GetMarCoupCmdSetCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="92" locStartPos="1" locEndLn="92" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;421;SetMarTryPullStts" show="true">
+      <CvgElem id="SetMarTryPullStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="423" locStartPos="1" locEndLn="423" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;574;GetMarshallReq" show="true">
+      <CvgElem id="GetMarshallReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="576" locStartPos="1" locEndLn="576" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;534;SetMarMHookCmd" show="true">
+      <CvgElem id="SetMarMHookCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="536" locStartPos="1" locEndLn="536" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;251;GetMarshallingProcess" show="true">
+      <CvgElem id="GetMarshallingProcess" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="253" locStartPos="1" locEndLn="253" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;271;InitEHookTimer" show="true">
+      <CvgElem id="InitEHookTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="273" locStartPos="1" locEndLn="273" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;155;SetMarCoupCancelCmd" show="true">
+      <CvgElem id="SetMarCoupCancelCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="157" locStartPos="1" locEndLn="157" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;21;InitMarshalManageData" show="true">
+      <CvgElem id="InitMarshalManageData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="24" locStartPos="1" locEndLn="42" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;356;SetIsRetainMarshalAreaLast" show="true">
+      <CvgElem id="SetIsRetainMarshalAreaLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="358" locStartPos="1" locEndLn="358" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;266;GetEHookTimer" show="true">
+      <CvgElem id="GetEHookTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="268" locStartPos="1" locEndLn="268" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;46;InitMarshalCmdStruData" show="true">
+      <CvgElem id="InitMarshalCmdStruData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="49" locStartPos="1" locEndLn="57" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;105;GetMarCoupCmdStopAreaId" show="true">
+      <CvgElem id="GetMarCoupCmdStopAreaId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="107" locStartPos="1" locEndLn="107" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;524;SetMarOppoEHookCmd" show="true">
+      <CvgElem id="SetMarOppoEHookCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="526" locStartPos="1" locEndLn="526" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;558;SetPassiveCoupleCondition" show="true">
+      <CvgElem id="SetPassiveCoupleCondition" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="560" locStartPos="1" locEndLn="560" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;461;GetMarMidSideEHookConStts" show="true">
+      <CvgElem id="GetMarMidSideEHookConStts" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="463" locStartPos="1" locEndLn="463" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;175;SetMarEtbnNum" show="true">
+      <CvgElem id="SetMarEtbnNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="177" locStartPos="4" locEndLn="177" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;568;SetMarshallReq" show="true">
+      <CvgElem id="SetMarshallReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="571" locStartPos="1" locEndLn="571" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;317;InitMarStageTimer" show="true">
+      <CvgElem id="InitMarStageTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="319" locStartPos="1" locEndLn="319" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;100;GetMarCoupCmdLastSetCmd" show="true">
+      <CvgElem id="GetMarCoupCmdLastSetCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="102" locStartPos="1" locEndLn="102" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;639;SetMarTryPushCmd" show="true">
+      <CvgElem id="SetMarTryPushCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="641" locStartPos="1" locEndLn="641" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;650;GetMarManualUncoupleRqst" show="true">
+      <CvgElem id="GetMarManualUncoupleRqst" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="652" locStartPos="1" locEndLn="652" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;225;SetMarshalTrainTypeLast" show="true">
+      <CvgElem id="SetMarshalTrainTypeLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="227" locStartPos="1" locEndLn="227" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;235;SetMarshallingSide" show="true">
+      <CvgElem id="SetMarshallingSide" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="237" locStartPos="1" locEndLn="237" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;608;SetMarManualCoupleRequest" show="true">
+      <CvgElem id="SetMarManualCoupleRequest" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="610" locStartPos="1" locEndLn="610" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;579;SetVehicleCheckSelf" show="true">
+      <CvgElem id="SetVehicleCheckSelf" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="581" locStartPos="1" locEndLn="581" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;623;GetUncoupleCondition" show="true">
+      <CvgElem id="GetUncoupleCondition" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="625" locStartPos="1" locEndLn="625" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;376;SetMarshallingSttsLast" show="true">
+      <CvgElem id="SetMarshallingSttsLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="378" locStartPos="1" locEndLn="378" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;351;GetIsRetainMarshalArea" show="true">
+      <CvgElem id="GetIsRetainMarshalArea" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="353" locStartPos="1" locEndLn="353" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;398;GetMarMstCoupleSide" show="true">
+      <CvgElem id="GetMarMstCoupleSide" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="400" locStartPos="1" locEndLn="400" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;493;SetMarCoupleActiveChngTag" show="true">
+      <CvgElem id="SetMarCoupleActiveChngTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="495" locStartPos="1" locEndLn="495" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

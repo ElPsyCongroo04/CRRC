@@ -1,0 +1,1717 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1836;GetRcvCamParkingFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2254;GetCamEscDoorTc2Status" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2087;GetSendCamheadSegOffset" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1829;GetRcvCamPlatformId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2073;GetSendCamctrlLevel" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2171;GetSendCamMaInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2115;GetSendCamtailDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1792;GetRcvCamRecommendedSpeed" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1780;GetCamTC1DoorCtrlMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1616;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2101;GetSendCamtailSegId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1726;GetRcvCamStartConfirm" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2515;GetRcvCamJumpSta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2444;SetCamRemoteDoorCloseReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1969;SetSendCamSpeed" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;532;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1465;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamAtsCmdInfo" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1962;SetSendCamtailDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2044;GetSendCamSwVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2282;GetRcvCamTrainWorkCond" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;686;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfoChk" total="262145" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2051;GetSendCamDataVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2358;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc1CabCoverStaus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1786;GetCamTC2DoorCtrlMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1681;GetRcvCamGalSndCycNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1293;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2457;GetcamModeRequestReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2024;SetSendCamDataVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1998;SetSendCamebiLocDiplacement" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;625;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfo" total="8" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2491;GetCamFaoSpecialCtrl" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2240;GetCamEscDoorTc1Status" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1700;GetRcvCamDataVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2210;SetSendCamSnowModeStationID" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1340;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamCycleInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2012;SetSendCamMaInfo" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2260;SetCamsleepRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1941;SetSendCamheadDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2416;SetToCamPsdIsolateInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2005;SetSendCamatpDI" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;189;PowerInitSndCamData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2150;GetSendCamebiLocDiplacement" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1885;SetRcvCamDo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1857;GetRcvCamBrdCastRlt" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2470;GetSendCamWorkCond" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1927;SetSendCamheadSegId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;100;InitRcvCamInfoData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2450;SetCamTestReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2484;SetSendCamWorkCond" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1498;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo" total="30" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1934;SetSendCamheadSegOffset" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1807;GetRcvCamLeaveTrainInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2268;GetRcvCamVehicleIo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1843;GetRcvCamParkingPrecision" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1913;SetSendCamStBtn" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;354;CamMsgSnd" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2330;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc1EscDoorStausStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1871;GetRcvCamCloseDoorHint" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;863;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfoChk" total="2049" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2180;GetCamSndToAtsStaInfoBuf" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2030;SetSendCamSwVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2532;GetSndCamSubFrmStru" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;564;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1035;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare" total="294912" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1741;GetRcvCamLocalDoorCtrlMode" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2094;GetSendCamheadDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1815;GetRcvCamDoorOperation" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2164;GetSendCamBrdCstCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2372;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc2CabCoverStaus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2302;GetCamBrakeHoldStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2186;GetAtpRcvCamOpWarning" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1892;GetRcvCamAo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1864;GetRcvCamStopTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2398;GetRcvCamDataStru" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1720;GetRcvCamFAMMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2521;GetCamSnowAndRainStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1693;GetRcvCamSwVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1390;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamTimeInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2129;GetSendCamebiSpeed" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2122;GetSendCamSpeed" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2430;GetPSDIsolatFromCam" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2527;GetRcvCamSubFrmStru" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1920;SetSendCamctrlLevel" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2157;GetSendCamatpDI" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1734;GetRcvCamSkipStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2407;SetCamClearingPsg" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2059;GetSendCamOutCamEnable" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2143;GetSendCamarModing" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2503;GetRcvCamJumpDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2497;SetFaoCamSpecialCtrl" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2392;GetAtpSendCamData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;407;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1900;SetSendCamOutCamEnable" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2509;GetRcvCamJumpReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2296;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamDerailmentStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2316;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamVehicleFireAlarmStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2193;SetSendCamSnowModeCmd" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;117;InitSndCamInfoData" total="8" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1799;GetRcvCamStopPointDis" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1976;SetSendCamebiSpeed" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2066;GetSendCamStBtn" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2080;GetSendCamheadSegId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1984;SetSendCamzeroSpeedTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2386;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamWashButtonStaus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1991;SetSendCamarModing" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1955;SetSendCamtailSegOffset" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1948;SetSendCamtailSegId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2344;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc2EscDoorStaus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2226;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamVehicleFireAlarm" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1687;GetRcvCamCtrlTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1707;GetRcvCamBtnPressedAck" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2437;SetCamRemoteDoorOpenReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;202;CamMsgRcv" total="148" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1421;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamCtrlAddInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1850;GetRcvCamDevFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1906;SetSendCamOutFamEnable" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1878;GetRcvCamDo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;979;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk" total="13" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1774;GetRcvCamDoorCtrlMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2108;GetSendCamtailSegOffset" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1714;GetRcvCamAMMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1822;GetRcvCamTractionStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2037;SetSendCamBrdCstCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2136;GetSendCamzeroSpeedTag" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2005;SetSendCamatpDI" show="true">
+      <CvgElem id="SetSendCamatpDI" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2008" locStartPos="4" locEndLn="2008" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1892;GetRcvCamAo" show="true">
+      <CvgElem id="GetRcvCamAo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1895" locStartPos="4" locEndLn="1895" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1774;GetRcvCamDoorCtrlMode" show="true">
+      <CvgElem id="GetRcvCamDoorCtrlMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1777" locStartPos="4" locEndLn="1777" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1955;SetSendCamtailSegOffset" show="true">
+      <CvgElem id="SetSendCamtailSegOffset" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1958" locStartPos="4" locEndLn="1958" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1734;GetRcvCamSkipStatus" show="true">
+      <CvgElem id="GetRcvCamSkipStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1737" locStartPos="4" locEndLn="1737" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2503;GetRcvCamJumpDir" show="true">
+      <CvgElem id="GetRcvCamJumpDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2506" locStartPos="4" locEndLn="2506" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2372;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc2CabCoverStaus" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc2CabCoverStaus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2375" locStartPos="4" locEndLn="2375" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2012;SetSendCamMaInfo" show="true">
+      <CvgElem id="SetSendCamMaInfo" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="2015" locStartPos="8" locEndLn="2015" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="2018" locStartPos="8" locEndLn="2019" locEndPos="108" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="2021" locStartPos="0" locEndLn="2021" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2073;GetSendCamctrlLevel" show="true">
+      <CvgElem id="GetSendCamctrlLevel" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2076" locStartPos="4" locEndLn="2076" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2066;GetSendCamStBtn" show="true">
+      <CvgElem id="GetSendCamStBtn" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2069" locStartPos="4" locEndLn="2069" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2430;GetPSDIsolatFromCam" show="true">
+      <CvgElem id="GetPSDIsolatFromCam" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2433" locStartPos="1" locEndLn="2433" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1829;GetRcvCamPlatformId" show="true">
+      <CvgElem id="GetRcvCamPlatformId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1832" locStartPos="4" locEndLn="1832" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2051;GetSendCamDataVer" show="true">
+      <CvgElem id="GetSendCamDataVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2054" locStartPos="4" locEndLn="2054" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2484;SetSendCamWorkCond" show="true">
+      <CvgElem id="SetSendCamWorkCond" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2488" locStartPos="1" locEndLn="2488" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2226;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamVehicleFireAlarm" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamVehicleFireAlarm" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2229" locStartPos="1" locEndLn="2229" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1786;GetCamTC2DoorCtrlMode" show="true">
+      <CvgElem id="GetCamTC2DoorCtrlMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1789" locStartPos="4" locEndLn="1789" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1976;SetSendCamebiSpeed" show="true">
+      <CvgElem id="SetSendCamebiSpeed" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1979" locStartPos="4" locEndLn="1979" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2407;SetCamClearingPsg" show="true">
+      <CvgElem id="SetCamClearingPsg" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2410" locStartPos="1" locEndLn="2412" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1864;GetRcvCamStopTimer" show="true">
+      <CvgElem id="GetRcvCamStopTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1867" locStartPos="4" locEndLn="1867" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1390;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamTimeInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamTimeInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1393" locStartPos="4" locEndLn="1410" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2527;GetRcvCamSubFrmStru" show="true">
+      <CvgElem id="GetRcvCamSubFrmStru" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2529" locStartPos="4" locEndLn="2529" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1421;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamCtrlAddInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamCtrlAddInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1424" locStartPos="4" locEndLn="1454" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1885;SetRcvCamDo" show="true">
+      <CvgElem id="SetRcvCamDo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1888" locStartPos="4" locEndLn="1888" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1948;SetSendCamtailSegId" show="true">
+      <CvgElem id="SetSendCamtailSegId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1951" locStartPos="4" locEndLn="1951" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1871;GetRcvCamCloseDoorHint" show="true">
+      <CvgElem id="GetRcvCamCloseDoorHint" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1874" locStartPos="4" locEndLn="1874" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2186;GetAtpRcvCamOpWarning" show="true">
+      <CvgElem id="GetAtpRcvCamOpWarning" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2189" locStartPos="4" locEndLn="2189" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2150;GetSendCamebiLocDiplacement" show="true">
+      <CvgElem id="GetSendCamebiLocDiplacement" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2153" locStartPos="4" locEndLn="2153" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2157;GetSendCamatpDI" show="true">
+      <CvgElem id="GetSendCamatpDI" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2160" locStartPos="4" locEndLn="2160" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2115;GetSendCamtailDir" show="true">
+      <CvgElem id="GetSendCamtailDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2118" locStartPos="4" locEndLn="2118" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2268;GetRcvCamVehicleIo" show="true">
+      <CvgElem id="GetRcvCamVehicleIo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2271" locStartPos="4" locEndLn="2271" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1700;GetRcvCamDataVer" show="true">
+      <CvgElem id="GetRcvCamDataVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1703" locStartPos="4" locEndLn="1703" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1720;GetRcvCamFAMMode" show="true">
+      <CvgElem id="GetRcvCamFAMMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1723" locStartPos="4" locEndLn="1723" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2532;GetSndCamSubFrmStru" show="true">
+      <CvgElem id="GetSndCamSubFrmStru" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2535" locStartPos="4" locEndLn="2535" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2296;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamDerailmentStatus" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamDerailmentStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2299" locStartPos="4" locEndLn="2299" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1498;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo" pathsNo="30">
+        <BlckInfo id="1" blckTrans="2;6">
+          <PathBlckLoc locStartln="1501" locStartPos="4" locEndLn="1519" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="1522" locStartPos="12" locEndLn="1522" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5">
+          <PathBlckLoc locStartln="1525" locStartPos="12" locEndLn="1526" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="1531" locStartPos="12" locEndLn="1532" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1535" locStartPos="8" locEndLn="1545" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1549" locStartPos="8" locEndLn="1549" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;21">
+          <PathBlckLoc locStartln="1553" locStartPos="4" locEndLn="1559" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;14">
+          <PathBlckLoc locStartln="1562" locStartPos="8" locEndLn="1574" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="1577" locStartPos="17" locEndLn="1577" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12;13">
+          <PathBlckLoc locStartln="1577" locStartPos="25" locEndLn="1577" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="10">
+          <PathBlckLoc locStartln="1577" locStartPos="42" locEndLn="1577" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="11">
+          <PathBlckLoc locStartln="1580" locStartPos="16" locEndLn="1583" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14">
+          <PathBlckLoc locStartln="1585" locStartPos="8" locEndLn="1585" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;20">
+          <PathBlckLoc locStartln="1587" locStartPos="8" locEndLn="1590" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="1593" locStartPos="17" locEndLn="1593" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="16">
+          <PathBlckLoc locStartln="1593" locStartPos="40" locEndLn="1593" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="18;19">
+          <PathBlckLoc locStartln="1593" locStartPos="25" locEndLn="1593" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="1602" locStartPos="8" locEndLn="1602" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="17">
+          <PathBlckLoc locStartln="1596" locStartPos="16" locEndLn="1600" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="">
+          <PathBlckLoc locStartln="1604" locStartPos="4" locEndLn="1604" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21">
+          <PathBlckLoc locStartln="1603" locStartPos="4" locEndLn="1603" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2193;SetSendCamSnowModeCmd" show="true">
+      <CvgElem id="SetSendCamSnowModeCmd" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="2196" locStartPos="8" locEndLn="2196" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="2199" locStartPos="8" locEndLn="2199" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="2204" locStartPos="8" locEndLn="2204" locEndPos="66" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="">
+          <PathBlckLoc locStartln="2208" locStartPos="0" locEndLn="2208" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1340;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamCycleInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamCycleInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1343" locStartPos="4" locEndLn="1379" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2330;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc1EscDoorStausStatus" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc1EscDoorStausStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2333" locStartPos="4" locEndLn="2333" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2437;SetCamRemoteDoorOpenReq" show="true">
+      <CvgElem id="SetCamRemoteDoorOpenReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2440" locStartPos="1" locEndLn="2440" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1900;SetSendCamOutCamEnable" show="true">
+      <CvgElem id="SetSendCamOutCamEnable" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1903" locStartPos="4" locEndLn="1903" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2030;SetSendCamSwVer" show="true">
+      <CvgElem id="SetSendCamSwVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2033" locStartPos="4" locEndLn="2033" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1693;GetRcvCamSwVer" show="true">
+      <CvgElem id="GetRcvCamSwVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1696" locStartPos="4" locEndLn="1696" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2497;SetFaoCamSpecialCtrl" show="true">
+      <CvgElem id="SetFaoCamSpecialCtrl" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2500" locStartPos="4" locEndLn="2500" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1807;GetRcvCamLeaveTrainInfo" show="true">
+      <CvgElem id="GetRcvCamLeaveTrainInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1810" locStartPos="4" locEndLn="1810" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2515;GetRcvCamJumpSta" show="true">
+      <CvgElem id="GetRcvCamJumpSta" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2518" locStartPos="4" locEndLn="2518" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1792;GetRcvCamRecommendedSpeed" show="true">
+      <CvgElem id="GetRcvCamRecommendedSpeed" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1795" locStartPos="4" locEndLn="1795" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2059;GetSendCamOutCamEnable" show="true">
+      <CvgElem id="GetSendCamOutCamEnable" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2062" locStartPos="4" locEndLn="2062" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2260;SetCamsleepRequest" show="true">
+      <CvgElem id="SetCamsleepRequest" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2263" locStartPos="4" locEndLn="2263" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1998;SetSendCamebiLocDiplacement" show="true">
+      <CvgElem id="SetSendCamebiLocDiplacement" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2001" locStartPos="4" locEndLn="2001" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2302;GetCamBrakeHoldStatus" show="true">
+      <CvgElem id="GetCamBrakeHoldStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2305" locStartPos="4" locEndLn="2305" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;532;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="535" locStartPos="4" locEndLn="539" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="542" locStartPos="8" locEndLn="543" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="546" locStartPos="8" locEndLn="547" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="550" locStartPos="8" locEndLn="550" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="">
+          <PathBlckLoc locStartln="553" locStartPos="4" locEndLn="553" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2457;GetcamModeRequestReq" show="true">
+      <CvgElem id="GetcamModeRequestReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2460" locStartPos="4" locEndLn="2460" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2094;GetSendCamheadDir" show="true">
+      <CvgElem id="GetSendCamheadDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2097" locStartPos="4" locEndLn="2097" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2087;GetSendCamheadSegOffset" show="true">
+      <CvgElem id="GetSendCamheadSegOffset" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2090" locStartPos="4" locEndLn="2090" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;686;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfoChk" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfoChk" pathsNo="262145">
+        <BlckInfo id="1" blckTrans="2;39">
+          <PathBlckLoc locStartln="689" locStartPos="4" locEndLn="692" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="694" locStartPos="8" locEndLn="696" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="698" locStartPos="12" locEndLn="698" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="702" locStartPos="12" locEndLn="702" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="705" locStartPos="12" locEndLn="705" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="709" locStartPos="12" locEndLn="709" locEndPos="117" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="712" locStartPos="12" locEndLn="712" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;10">
+          <PathBlckLoc locStartln="716" locStartPos="12" locEndLn="716" locEndPos="135" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="719" locStartPos="12" locEndLn="719" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="723" locStartPos="12" locEndLn="725" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="728" locStartPos="12" locEndLn="728" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;14">
+          <PathBlckLoc locStartln="732" locStartPos="12" locEndLn="732" locEndPos="125" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14">
+          <PathBlckLoc locStartln="735" locStartPos="12" locEndLn="735" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;16">
+          <PathBlckLoc locStartln="739" locStartPos="12" locEndLn="739" locEndPos="137" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="742" locStartPos="12" locEndLn="742" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="750" locStartPos="12" locEndLn="750" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="746" locStartPos="11" locEndLn="747" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="757" locStartPos="12" locEndLn="757" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19;20">
+          <PathBlckLoc locStartln="754" locStartPos="12" locEndLn="754" locEndPos="167" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="768" locStartPos="12" locEndLn="768" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21;22">
+          <PathBlckLoc locStartln="761" locStartPos="12" locEndLn="765" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24">
+          <PathBlckLoc locStartln="785" locStartPos="12" locEndLn="785" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23;24">
+          <PathBlckLoc locStartln="782" locStartPos="12" locEndLn="782" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26">
+          <PathBlckLoc locStartln="792" locStartPos="12" locEndLn="792" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25;26">
+          <PathBlckLoc locStartln="789" locStartPos="12" locEndLn="789" locEndPos="75" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28">
+          <PathBlckLoc locStartln="801" locStartPos="12" locEndLn="801" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;28">
+          <PathBlckLoc locStartln="796" locStartPos="12" locEndLn="798" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="808" locStartPos="12" locEndLn="808" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29;30">
+          <PathBlckLoc locStartln="804" locStartPos="12" locEndLn="805" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="816" locStartPos="12" locEndLn="816" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31;32">
+          <PathBlckLoc locStartln="813" locStartPos="11" locEndLn="813" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35;36">
+          <PathBlckLoc locStartln="835" locStartPos="12" locEndLn="838" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36">
+          <PathBlckLoc locStartln="841" locStartPos="12" locEndLn="841" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33;34">
+          <PathBlckLoc locStartln="819" locStartPos="12" locEndLn="819" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34">
+          <PathBlckLoc locStartln="822" locStartPos="12" locEndLn="822" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="39">
+          <PathBlckLoc locStartln="851" locStartPos="4" locEndLn="851" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="">
+          <PathBlckLoc locStartln="852" locStartPos="4" locEndLn="852" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37;38">
+          <PathBlckLoc locStartln="845" locStartPos="12" locEndLn="845" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="38">
+          <PathBlckLoc locStartln="848" locStartPos="12" locEndLn="849" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2491;GetCamFaoSpecialCtrl" show="true">
+      <CvgElem id="GetCamFaoSpecialCtrl" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2494" locStartPos="4" locEndLn="2494" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2164;GetSendCamBrdCstCmd" show="true">
+      <CvgElem id="GetSendCamBrdCstCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2167" locStartPos="4" locEndLn="2167" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;564;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="567" locStartPos="4" locEndLn="571" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="574" locStartPos="8" locEndLn="604" locEndPos="106" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="607" locStartPos="8" locEndLn="608" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="611" locStartPos="8" locEndLn="611" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="">
+          <PathBlckLoc locStartln="614" locStartPos="4" locEndLn="614" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1799;GetRcvCamStopPointDis" show="true">
+      <CvgElem id="GetRcvCamStopPointDis" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1802" locStartPos="4" locEndLn="1802" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2044;GetSendCamSwVer" show="true">
+      <CvgElem id="GetSendCamSwVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2047" locStartPos="4" locEndLn="2047" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;202;CamMsgRcv" show="true">
+      <CvgElem id="CamMsgRcv" pathsNo="148">
+        <BlckInfo id="1" blckTrans="2;39">
+          <PathBlckLoc locStartln="205" locStartPos="4" locEndLn="223" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="226" locStartPos="8" locEndLn="228" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5;38">
+          <PathBlckLoc locStartln="228" locStartPos="35" locEndLn="228" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="3">
+          <PathBlckLoc locStartln="228" locStartPos="53" locEndLn="228" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="231" locStartPos="12" locEndLn="246" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="249" locStartPos="16" locEndLn="251" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;36">
+          <PathBlckLoc locStartln="255" locStartPos="16" locEndLn="255" locEndPos="66" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="258" locStartPos="21" locEndLn="258" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="11;25">
+          <PathBlckLoc locStartln="258" locStartPos="29" locEndLn="258" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="9">
+          <PathBlckLoc locStartln="258" locStartPos="54" locEndLn="258" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13;15;17;19;21">
+          <PathBlckLoc locStartln="261" locStartPos="20" locEndLn="264" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="24">
+          <PathBlckLoc locStartln="268" locStartPos="24" locEndLn="271" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="24">
+          <PathBlckLoc locStartln="275" locStartPos="24" locEndLn="278" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="24">
+          <PathBlckLoc locStartln="282" locStartPos="24" locEndLn="285" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="24">
+          <PathBlckLoc locStartln="288" locStartPos="24" locEndLn="291" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="24">
+          <PathBlckLoc locStartln="294" locStartPos="24" locEndLn="295" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26;27">
+          <PathBlckLoc locStartln="299" locStartPos="20" locEndLn="301" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="10">
+          <PathBlckLoc locStartln="297" locStartPos="16" locEndLn="297" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28">
+          <PathBlckLoc locStartln="310" locStartPos="20" locEndLn="310" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="28">
+          <PathBlckLoc locStartln="302" locStartPos="16" locEndLn="306" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="320" locStartPos="20" locEndLn="320" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29;30">
+          <PathBlckLoc locStartln="314" locStartPos="20" locEndLn="317" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32;33">
+          <PathBlckLoc locStartln="327" locStartPos="20" locEndLn="332" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31;34">
+          <PathBlckLoc locStartln="324" locStartPos="20" locEndLn="324" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35">
+          <PathBlckLoc locStartln="342" locStartPos="20" locEndLn="342" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="37">
+          <PathBlckLoc locStartln="344" locStartPos="12" locEndLn="344" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33">
+          <PathBlckLoc locStartln="334" locStartPos="24" locEndLn="337" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="35">
+          <PathBlckLoc locStartln="339" locStartPos="16" locEndLn="339" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="39">
+          <PathBlckLoc locStartln="351" locStartPos="4" locEndLn="351" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="">
+          <PathBlckLoc locStartln="352" locStartPos="0" locEndLn="352" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37">
+          <PathBlckLoc locStartln="348" locStartPos="16" locEndLn="348" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="4">
+          <PathBlckLoc locStartln="350" locStartPos="8" locEndLn="350" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;863;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfoChk" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfoChk" pathsNo="2049">
+        <BlckInfo id="1" blckTrans="2;25">
+          <PathBlckLoc locStartln="866" locStartPos="4" locEndLn="870" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="872" locStartPos="8" locEndLn="876" locEndPos="114" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="879" locStartPos="12" locEndLn="879" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="882" locStartPos="12" locEndLn="884" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="887" locStartPos="12" locEndLn="887" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="890" locStartPos="12" locEndLn="892" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="895" locStartPos="12" locEndLn="895" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;10">
+          <PathBlckLoc locStartln="898" locStartPos="12" locEndLn="900" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="903" locStartPos="12" locEndLn="903" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="906" locStartPos="12" locEndLn="906" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="910" locStartPos="12" locEndLn="910" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;14">
+          <PathBlckLoc locStartln="914" locStartPos="12" locEndLn="914" locEndPos="75" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14">
+          <PathBlckLoc locStartln="918" locStartPos="12" locEndLn="918" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;16">
+          <PathBlckLoc locStartln="921" locStartPos="12" locEndLn="921" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="925" locStartPos="12" locEndLn="925" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="932" locStartPos="12" locEndLn="932" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="928" locStartPos="12" locEndLn="928" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="948" locStartPos="12" locEndLn="948" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19;20">
+          <PathBlckLoc locStartln="935" locStartPos="12" locEndLn="945" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="956" locStartPos="12" locEndLn="956" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21;22">
+          <PathBlckLoc locStartln="951" locStartPos="12" locEndLn="953" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24">
+          <PathBlckLoc locStartln="963" locStartPos="12" locEndLn="964" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23;24">
+          <PathBlckLoc locStartln="960" locStartPos="12" locEndLn="960" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="">
+          <PathBlckLoc locStartln="968" locStartPos="4" locEndLn="968" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25">
+          <PathBlckLoc locStartln="966" locStartPos="4" locEndLn="966" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1465;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamAtsCmdInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamAtsCmdInfo" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1468" locStartPos="4" locEndLn="1480" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="1483" locStartPos="8" locEndLn="1484" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="1487" locStartPos="4" locEndLn="1487" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1941;SetSendCamheadDir" show="true">
+      <CvgElem id="SetSendCamheadDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1944" locStartPos="4" locEndLn="1944" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2450;SetCamTestReq" show="true">
+      <CvgElem id="SetCamTestReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2453" locStartPos="4" locEndLn="2453" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2521;GetCamSnowAndRainStatus" show="true">
+      <CvgElem id="GetCamSnowAndRainStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2524" locStartPos="1" locEndLn="2524" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1850;GetRcvCamDevFault" show="true">
+      <CvgElem id="GetRcvCamDevFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1853" locStartPos="4" locEndLn="1853" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1714;GetRcvCamAMMode" show="true">
+      <CvgElem id="GetRcvCamAMMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1717" locStartPos="4" locEndLn="1717" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1934;SetSendCamheadSegOffset" show="true">
+      <CvgElem id="SetSendCamheadSegOffset" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1937" locStartPos="4" locEndLn="1937" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;100;InitRcvCamInfoData" show="true">
+      <CvgElem id="InitRcvCamInfoData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="103" locStartPos="4" locEndLn="113" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1857;GetRcvCamBrdCastRlt" show="true">
+      <CvgElem id="GetRcvCamBrdCastRlt" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1860" locStartPos="4" locEndLn="1860" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1035;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare" pathsNo="294912">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1038" locStartPos="4" locEndLn="1060" locEndPos="105" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="1063" locStartPos="8" locEndLn="1063" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="1068" locStartPos="8" locEndLn="1068" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="1072" locStartPos="4" locEndLn="1078" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1081" locStartPos="8" locEndLn="1081" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1086" locStartPos="8" locEndLn="1086" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="1090" locStartPos="8" locEndLn="1090" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="1092" locStartPos="8" locEndLn="1092" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="1096" locStartPos="8" locEndLn="1096" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="1099" locStartPos="4" locEndLn="1111" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13">
+          <PathBlckLoc locStartln="1114" locStartPos="8" locEndLn="1114" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="1119" locStartPos="8" locEndLn="1119" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="1132" locStartPos="4" locEndLn="1135" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="16">
+          <PathBlckLoc locStartln="1138" locStartPos="8" locEndLn="1138" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="1143" locStartPos="8" locEndLn="1143" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="1153" locStartPos="8" locEndLn="1153" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="1147" locStartPos="4" locEndLn="1150" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20;21">
+          <PathBlckLoc locStartln="1160" locStartPos="8" locEndLn="1163" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19;22">
+          <PathBlckLoc locStartln="1157" locStartPos="7" locEndLn="1157" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="1168" locStartPos="4" locEndLn="1168" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21">
+          <PathBlckLoc locStartln="1166" locStartPos="12" locEndLn="1166" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24">
+          <PathBlckLoc locStartln="1174" locStartPos="8" locEndLn="1174" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23;24">
+          <PathBlckLoc locStartln="1171" locStartPos="8" locEndLn="1171" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26">
+          <PathBlckLoc locStartln="1181" locStartPos="8" locEndLn="1181" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25;26">
+          <PathBlckLoc locStartln="1178" locStartPos="8" locEndLn="1178" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28">
+          <PathBlckLoc locStartln="1188" locStartPos="8" locEndLn="1188" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;28">
+          <PathBlckLoc locStartln="1185" locStartPos="8" locEndLn="1185" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="1195" locStartPos="8" locEndLn="1195" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29;30">
+          <PathBlckLoc locStartln="1192" locStartPos="8" locEndLn="1192" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="1202" locStartPos="8" locEndLn="1202" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31;32">
+          <PathBlckLoc locStartln="1199" locStartPos="8" locEndLn="1199" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35">
+          <PathBlckLoc locStartln="1218" locStartPos="8" locEndLn="1218" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36;37">
+          <PathBlckLoc locStartln="1222" locStartPos="4" locEndLn="1227" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33;34">
+          <PathBlckLoc locStartln="1205" locStartPos="4" locEndLn="1210" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="35">
+          <PathBlckLoc locStartln="1213" locStartPos="8" locEndLn="1213" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="39;40">
+          <PathBlckLoc locStartln="1240" locStartPos="4" locEndLn="1242" locEndPos="102" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="41">
+          <PathBlckLoc locStartln="1244" locStartPos="8" locEndLn="1244" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="38">
+          <PathBlckLoc locStartln="1230" locStartPos="8" locEndLn="1230" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="38">
+          <PathBlckLoc locStartln="1234" locStartPos="8" locEndLn="1234" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="42" blckTrans="43;44">
+          <PathBlckLoc locStartln="1254" locStartPos="12" locEndLn="1254" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="43" blckTrans="45">
+          <PathBlckLoc locStartln="1257" locStartPos="12" locEndLn="1257" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="41">
+          <PathBlckLoc locStartln="1248" locStartPos="8" locEndLn="1248" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="41" blckTrans="42;46">
+          <PathBlckLoc locStartln="1251" locStartPos="8" locEndLn="1251" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="46" blckTrans="47">
+          <PathBlckLoc locStartln="1269" locStartPos="8" locEndLn="1269" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="47" blckTrans="48;49">
+          <PathBlckLoc locStartln="1273" locStartPos="8" locEndLn="1273" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="44" blckTrans="45">
+          <PathBlckLoc locStartln="1262" locStartPos="12" locEndLn="1262" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="45" blckTrans="47">
+          <PathBlckLoc locStartln="1265" locStartPos="4" locEndLn="1265" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="50" blckTrans="">
+          <PathBlckLoc locStartln="1283" locStartPos="0" locEndLn="1283" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="49" blckTrans="50">
+          <PathBlckLoc locStartln="1281" locStartPos="8" locEndLn="1281" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="48" blckTrans="50">
+          <PathBlckLoc locStartln="1276" locStartPos="8" locEndLn="1276" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;979;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk" pathsNo="13">
+        <BlckInfo id="1" blckTrans="2;13">
+          <PathBlckLoc locStartln="981" locStartPos="4" locEndLn="987" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="989" locStartPos="8" locEndLn="992" locEndPos="120" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="994" locStartPos="12" locEndLn="995" locEndPos="125" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="999" locStartPos="13" locEndLn="999" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7;10">
+          <PathBlckLoc locStartln="999" locStartPos="30" locEndLn="999" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="5">
+          <PathBlckLoc locStartln="999" locStartPos="79" locEndLn="999" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="1003" locStartPos="16" locEndLn="1004" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="1007" locStartPos="16" locEndLn="1008" locEndPos="148" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="6">
+          <PathBlckLoc locStartln="1013" locStartPos="8" locEndLn="1013" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="1016" locStartPos="12" locEndLn="1016" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="1019" locStartPos="12" locEndLn="1020" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="1022" locStartPos="4" locEndLn="1022" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="1024" locStartPos="4" locEndLn="1024" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1741;GetRcvCamLocalDoorCtrlMode" show="true">
+      <CvgElem id="GetRcvCamLocalDoorCtrlMode" pathsNo="3">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1744" locStartPos="4" locEndLn="1753" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="7">
+          <PathBlckLoc locStartln="1756" locStartPos="8" locEndLn="1756" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="1759" locStartPos="13" locEndLn="1759" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="7">
+          <PathBlckLoc locStartln="1762" locStartPos="8" locEndLn="1762" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1765" locStartPos="4" locEndLn="1767" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="">
+          <PathBlckLoc locStartln="1771" locStartPos="4" locEndLn="1771" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2101;GetSendCamtailSegId" show="true">
+      <CvgElem id="GetSendCamtailSegId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2104" locStartPos="4" locEndLn="2104" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2171;GetSendCamMaInfo" show="true">
+      <CvgElem id="GetSendCamMaInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2175" locStartPos="4" locEndLn="2175" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2392;GetAtpSendCamData" show="true">
+      <CvgElem id="GetAtpSendCamData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2395" locStartPos="4" locEndLn="2395" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;407;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="410" locStartPos="4" locEndLn="416" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="419" locStartPos="8" locEndLn="510" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="513" locStartPos="8" locEndLn="514" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="517" locStartPos="8" locEndLn="517" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="">
+          <PathBlckLoc locStartln="520" locStartPos="4" locEndLn="520" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2444;SetCamRemoteDoorCloseReq" show="true">
+      <CvgElem id="SetCamRemoteDoorCloseReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2447" locStartPos="1" locEndLn="2447" locEndPos="66" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;354;CamMsgSnd" show="true">
+      <CvgElem id="CamMsgSnd" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="357" locStartPos="4" locEndLn="387" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="388" locStartPos="4" locEndLn="390" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="393" locStartPos="8" locEndLn="393" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="">
+          <PathBlckLoc locStartln="396" locStartPos="0" locEndLn="396" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1780;GetCamTC1DoorCtrlMode" show="true">
+      <CvgElem id="GetCamTC1DoorCtrlMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1783" locStartPos="4" locEndLn="1783" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1726;GetRcvCamStartConfirm" show="true">
+      <CvgElem id="GetRcvCamStartConfirm" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1729" locStartPos="4" locEndLn="1729" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2316;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamVehicleFireAlarmStatus" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamVehicleFireAlarmStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2319" locStartPos="4" locEndLn="2319" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1984;SetSendCamzeroSpeedTag" show="true">
+      <CvgElem id="SetSendCamzeroSpeedTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1987" locStartPos="4" locEndLn="1987" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2240;GetCamEscDoorTc1Status" show="true">
+      <CvgElem id="GetCamEscDoorTc1Status" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2243" locStartPos="1" locEndLn="2243" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2122;GetSendCamSpeed" show="true">
+      <CvgElem id="GetSendCamSpeed" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2125" locStartPos="4" locEndLn="2125" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2136;GetSendCamzeroSpeedTag" show="true">
+      <CvgElem id="GetSendCamzeroSpeedTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2139" locStartPos="4" locEndLn="2139" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1843;GetRcvCamParkingPrecision" show="true">
+      <CvgElem id="GetRcvCamParkingPrecision" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1846" locStartPos="4" locEndLn="1846" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2180;GetCamSndToAtsStaInfoBuf" show="true">
+      <CvgElem id="GetCamSndToAtsStaInfoBuf" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2183" locStartPos="4" locEndLn="2183" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2509;GetRcvCamJumpReq" show="true">
+      <CvgElem id="GetRcvCamJumpReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2512" locStartPos="4" locEndLn="2512" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1962;SetSendCamtailDir" show="true">
+      <CvgElem id="SetSendCamtailDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1965" locStartPos="4" locEndLn="1965" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1822;GetRcvCamTractionStatus" show="true">
+      <CvgElem id="GetRcvCamTractionStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1825" locStartPos="4" locEndLn="1825" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2254;GetCamEscDoorTc2Status" show="true">
+      <CvgElem id="GetCamEscDoorTc2Status" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2257" locStartPos="1" locEndLn="2257" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;625;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfo" pathsNo="8">
+        <BlckInfo id="1" blckTrans="2;10">
+          <PathBlckLoc locStartln="628" locStartPos="4" locEndLn="634" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;8">
+          <PathBlckLoc locStartln="638" locStartPos="8" locEndLn="641" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="643" locStartPos="17" locEndLn="643" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="6;7">
+          <PathBlckLoc locStartln="643" locStartPos="34" locEndLn="643" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="4">
+          <PathBlckLoc locStartln="643" locStartPos="83" locEndLn="643" locEndPos="95" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="5">
+          <PathBlckLoc locStartln="646" locStartPos="16" locEndLn="651" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="654" locStartPos="8" locEndLn="654" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="657" locStartPos="12" locEndLn="658" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="660" locStartPos="4" locEndLn="660" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="662" locStartPos="8" locEndLn="664" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13">
+          <PathBlckLoc locStartln="667" locStartPos="8" locEndLn="667" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="672" locStartPos="8" locEndLn="672" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="675" locStartPos="4" locEndLn="675" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1991;SetSendCamarModing" show="true">
+      <CvgElem id="SetSendCamarModing" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1994" locStartPos="4" locEndLn="1994" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1836;GetRcvCamParkingFlag" show="true">
+      <CvgElem id="GetRcvCamParkingFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1839" locStartPos="4" locEndLn="1839" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2358;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc1CabCoverStaus" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc1CabCoverStaus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2361" locStartPos="4" locEndLn="2361" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2386;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamWashButtonStaus" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamWashButtonStaus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2389" locStartPos="4" locEndLn="2389" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2037;SetSendCamBrdCstCmd" show="true">
+      <CvgElem id="SetSendCamBrdCstCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2040" locStartPos="4" locEndLn="2040" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1927;SetSendCamheadSegId" show="true">
+      <CvgElem id="SetSendCamheadSegId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1930" locStartPos="4" locEndLn="1930" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1293;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1296" locStartPos="4" locEndLn="1303" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="1306" locStartPos="8" locEndLn="1307" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="1311" locStartPos="4" locEndLn="1319" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="1322" locStartPos="8" locEndLn="1323" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="">
+          <PathBlckLoc locStartln="1327" locStartPos="4" locEndLn="1329" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2080;GetSendCamheadSegId" show="true">
+      <CvgElem id="GetSendCamheadSegId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2083" locStartPos="4" locEndLn="2083" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2282;GetRcvCamTrainWorkCond" show="true">
+      <CvgElem id="GetRcvCamTrainWorkCond" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2285" locStartPos="1" locEndLn="2285" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1707;GetRcvCamBtnPressedAck" show="true">
+      <CvgElem id="GetRcvCamBtnPressedAck" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1710" locStartPos="4" locEndLn="1710" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1616;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;9">
+          <PathBlckLoc locStartln="1619" locStartPos="4" locEndLn="1646" locEndPos="101" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;7">
+          <PathBlckLoc locStartln="1650" locStartPos="12" locEndLn="1650" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="1653" locStartPos="16" locEndLn="1653" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="6">
+          <PathBlckLoc locStartln="1656" locStartPos="16" locEndLn="1656" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="1661" locStartPos="16" locEndLn="1661" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="8">
+          <PathBlckLoc locStartln="1663" locStartPos="8" locEndLn="1663" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="1667" locStartPos="12" locEndLn="1667" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="1669" locStartPos="4" locEndLn="1669" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="1673" locStartPos="8" locEndLn="1673" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="">
+          <PathBlckLoc locStartln="1677" locStartPos="4" locEndLn="1677" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1906;SetSendCamOutFamEnable" show="true">
+      <CvgElem id="SetSendCamOutFamEnable" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1909" locStartPos="4" locEndLn="1909" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2470;GetSendCamWorkCond" show="true">
+      <CvgElem id="GetSendCamWorkCond" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2473" locStartPos="1" locEndLn="2473" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2129;GetSendCamebiSpeed" show="true">
+      <CvgElem id="GetSendCamebiSpeed" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2132" locStartPos="4" locEndLn="2132" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1920;SetSendCamctrlLevel" show="true">
+      <CvgElem id="SetSendCamctrlLevel" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1923" locStartPos="4" locEndLn="1923" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1687;GetRcvCamCtrlTag" show="true">
+      <CvgElem id="GetRcvCamCtrlTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1690" locStartPos="4" locEndLn="1690" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2024;SetSendCamDataVer" show="true">
+      <CvgElem id="SetSendCamDataVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2027" locStartPos="4" locEndLn="2027" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1913;SetSendCamStBtn" show="true">
+      <CvgElem id="SetSendCamStBtn" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1916" locStartPos="4" locEndLn="1916" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;189;PowerInitSndCamData" show="true">
+      <CvgElem id="PowerInitSndCamData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="192" locStartPos="4" locEndLn="198" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2416;SetToCamPsdIsolateInfo" show="true">
+      <CvgElem id="SetToCamPsdIsolateInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2419" locStartPos="1" locEndLn="2419" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2398;GetRcvCamDataStru" show="true">
+      <CvgElem id="GetRcvCamDataStru" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2402" locStartPos="4" locEndLn="2402" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2344;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc2EscDoorStaus" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|GetCamTc2EscDoorStaus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2347" locStartPos="4" locEndLn="2347" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1815;GetRcvCamDoorOperation" show="true">
+      <CvgElem id="GetRcvCamDoorOperation" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1818" locStartPos="4" locEndLn="1818" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1681;GetRcvCamGalSndCycNum" show="true">
+      <CvgElem id="GetRcvCamGalSndCycNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1684" locStartPos="4" locEndLn="1684" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;117;InitSndCamInfoData" show="true">
+      <CvgElem id="InitSndCamInfoData" pathsNo="8">
+        <BlckInfo id="1" blckTrans="2">
+          <PathBlckLoc locStartln="120" locStartPos="4" locEndLn="133" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4;5">
+          <PathBlckLoc locStartln="133" locStartPos="27" locEndLn="133" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="2">
+          <PathBlckLoc locStartln="133" locStartPos="52" locEndLn="133" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="3">
+          <PathBlckLoc locStartln="136" locStartPos="2" locEndLn="136" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="140" locStartPos="6" locEndLn="140" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="8;9">
+          <PathBlckLoc locStartln="140" locStartPos="24" locEndLn="140" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="6">
+          <PathBlckLoc locStartln="140" locStartPos="49" locEndLn="140" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="7">
+          <PathBlckLoc locStartln="143" locStartPos="2" locEndLn="143" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="147" locStartPos="4" locEndLn="155" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12;13">
+          <PathBlckLoc locStartln="155" locStartPos="24" locEndLn="155" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="10">
+          <PathBlckLoc locStartln="155" locStartPos="49" locEndLn="155" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="11">
+          <PathBlckLoc locStartln="158" locStartPos="3" locEndLn="158" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="164" locStartPos="4" locEndLn="183" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1969;SetSendCamSpeed" show="true">
+      <CvgElem id="SetSendCamSpeed" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1972" locStartPos="4" locEndLn="1972" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1878;GetRcvCamDo" show="true">
+      <CvgElem id="GetRcvCamDo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1881" locStartPos="4" locEndLn="1881" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2210;SetSendCamSnowModeStationID" show="true">
+      <CvgElem id="SetSendCamSnowModeStationID" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2213" locStartPos="1" locEndLn="2213" locEndPos="66" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2108;GetSendCamtailSegOffset" show="true">
+      <CvgElem id="GetSendCamtailSegOffset" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2111" locStartPos="4" locEndLn="2111" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2143;GetSendCamarModing" show="true">
+      <CvgElem id="GetSendCamarModing" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2146" locStartPos="4" locEndLn="2146" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

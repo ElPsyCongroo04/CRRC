@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\BaliseInfoData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetPreNextBaliseId" name="ZbCSetPreNextBaliseIdX" decorated_name="void SetPreNextBaliseId(UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetPreNextBaliseId (UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetPreNextBaliseId (UINT32_T baliseId) </orig_declaration>
+         <user_decl_header>BaliseInfoHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitBaliseInfoData" name="ZbCInitBaliseInfoDataX" decorated_name="void InitBaliseInfoData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="28" col="6"/>
+    </Function>
+    <Function id="GetBalCurBaliseId" name="ZbBGetBalCurBaliseIdX" decorated_name="UINT32_T GetBalCurBaliseId(void)">
+      <definition type="orig" source="code" file_id="1" line="44" col="10"/>
+    </Function>
+    <Function id="SetBalCurBaliseId" name="ZbBSetBalCurBaliseIdX" decorated_name="void SetBalCurBaliseId(const UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBalCurBaliseId (const UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBalCurBaliseId (const UINT32_T baliseId) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="50" col="6"/>
+    </Function>
+    <Function id="GetBackBaliseId" name="ZPGetBackBaliseIdX" decorated_name="UINT32_T GetBackBaliseId(void)">
+      <definition type="orig" source="code" file_id="1" line="57" col="10"/>
+    </Function>
+    <Function id="SetBackBaliseId" name="ZPSetBackBaliseIdX" decorated_name="void SetBackBaliseId(const UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBackBaliseId (const UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBackBaliseId (const UINT32_T baliseId) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="66" col="6"/>
+    </Function>
+    <Function id="GetBaliseDisBtwBalise" name="ZbFGetBaliseDisBtwBaliseX" decorated_name="UINT32_T GetBaliseDisBtwBalise(void)">
+      <definition type="orig" source="code" file_id="1" line="74" col="10"/>
+    </Function>
+    <Function id="SetBaliseDisBtwBalise" name="ZbFSetBaliseDisBtwBaliseX" decorated_name="void SetBaliseDisBtwBalise(const UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBaliseDisBtwBalise (const UINT32_T disBtwBalise) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBaliseDisBtwBalise (const UINT32_T disBtwBalise) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="82" col="6"/>
+    </Function>
+    <Function id="GetLostBaliStartPntSegId" name="ZbIGetLostBaliStartPntSegIdX" decorated_name="UINT16_T GetLostBaliStartPntSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="89" col="10"/>
+    </Function>
+    <Function id="GetLostBaliStartPntSegOffset" name="ZbMGetLostBaliStartPntSegOffsetX" decorated_name="UINT32_T GetLostBaliStartPntSegOffset(void)">
+      <definition type="orig" source="code" file_id="1" line="96" col="10"/>
+    </Function>
+    <Function id="GetLostBaliStartPntSegRunDir" name="ZbMGetLostBaliStartPntSegRunDirX" decorated_name="UINT8_T GetLostBaliStartPntSegRunDir(void)">
+      <definition type="orig" source="code" file_id="1" line="104" col="9"/>
+    </Function>
+    <Function id="SetLoseBaliStartPntLoc" name="ZbGSetLoseBaliStartPntLocX" decorated_name="void SetLoseBaliStartPntLoc(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="112" col="6"/>
+    </Function>
+    <Function id="GetLostBaliNum" name="ZOGetLostBaliNumX" decorated_name="UINT8_T GetLostBaliNum(void)">
+      <definition type="orig" source="code" file_id="1" line="122" col="9"/>
+    </Function>
+    <Function id="SetLostBaliNum" name="ZOSetLostBaliNumX" decorated_name="void SetLostBaliNum(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="129" col="6"/>
+    </Function>
+    <Function id="GetOldBaliId" name="ZMGetOldBaliIdX" decorated_name="UINT32_T GetOldBaliId(void)">
+      <definition type="orig" source="code" file_id="1" line="137" col="10"/>
+    </Function>
+    <Function id="SetOldBaliId" name="ZMSetOldBaliIdX" decorated_name="void SetOldBaliId(const UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetOldBaliId (const UINT32_T oldBaliId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetOldBaliId (const UINT32_T oldBaliId) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="145" col="6"/>
+    </Function>
+    <Function id="GetTempOldBaliId" name="ZbAGetTempOldBaliIdX" decorated_name="UINT32_T GetTempOldBaliId(void)">
+      <definition type="orig" source="code" file_id="1" line="151" col="10"/>
+    </Function>
+    <Function id="SetTempOldBaliId" name="ZbASetTempOldBaliIdX" decorated_name="void SetTempOldBaliId(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="159" col="6"/>
+    </Function>
+    <Function id="GetOldBaliAttri" name="ZPGetOldBaliAttriX" decorated_name="UINT16_T GetOldBaliAttri(void)">
+      <definition type="orig" source="code" file_id="1" line="168" col="10"/>
+    </Function>
+    <Function id="SetOldBaliAttri" name="ZPSetOldBaliAttriX" decorated_name="void SetOldBaliAttri(const UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetOldBaliAttri (const UINT16_T oldBaliAttri) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetOldBaliAttri (const UINT16_T oldBaliAttri) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="176" col="6"/>
+    </Function>
+    <Function id="GetBaliIdDelayTime" name="ZbCGetBaliIdDelayTimeX" decorated_name="INT32_T GetBaliIdDelayTime(void)">
+      <definition type="orig" source="code" file_id="1" line="184" col="9"/>
+    </Function>
+    <Function id="SetBaliIdDelayTime" name="ZbCSetBaliIdDelayTimeX" decorated_name="void SetBaliIdDelayTime(const INT32_T)">
+      <definition type="orig" source="code" file_id="1" line="192" col="6"/>
+    </Function>
+    <Function id="GetBaliIdDBVerCmp" name="ZbBGetBaliIdDBVerCmpX" decorated_name="UINT8_T GetBaliIdDBVerCmp(void)">
+      <definition type="orig" source="code" file_id="1" line="199" col="9"/>
+    </Function>
+    <Function id="SetBaliIdDBVerCmp" name="ZbBSetBaliIdDBVerCmpX" decorated_name="void SetBaliIdDBVerCmp(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="207" col="6"/>
+    </Function>
+    <Function id="SetBaliIdDelayDist" name="ZbCSetBaliIdDelayDistX" decorated_name="void SetBaliIdDelayDist(const INT32_T)">
+      <definition type="orig" source="code" file_id="1" line="214" col="6"/>
+    </Function>
+    <Function id="GetBaliIdDelayDist" name="ZbCGetBaliIdDelayDistX" decorated_name="INT32_T GetBaliIdDelayDist(void)">
+      <definition type="orig" source="code" file_id="1" line="221" col="9"/>
+    </Function>
+    <Function id="GetLoseBaliEndLocSeg" name="ZbEGetLoseBaliEndLocSegX" decorated_name="UINT16_T GetLoseBaliEndLocSeg(void)">
+      <definition type="orig" source="code" file_id="1" line="228" col="10"/>
+    </Function>
+    <Function id="GetLoseBaliEndLocOffset" name="ZbHGetLoseBaliEndLocOffsetX" decorated_name="UINT32_T GetLoseBaliEndLocOffset(void)">
+      <definition type="orig" source="code" file_id="1" line="235" col="10"/>
+    </Function>
+    <Function id="GetLoseBaliEndLocDir" name="ZbEGetLoseBaliEndLocDirX" decorated_name="UINT8_T GetLoseBaliEndLocDir(void)">
+      <definition type="orig" source="code" file_id="1" line="242" col="9"/>
+    </Function>
+    <Function id="SetLoseBaliEndPntLoc" name="ZbESetLoseBaliEndPntLocX" decorated_name="void SetLoseBaliEndPntLoc(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="248" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" type="LC">
+  <VersionInfos>
+    <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="6879355972414437138 8943048379491817788 6879355972414467645 6879355972414409242 8943048379491795553 8943048379491795741 6879355972414439004 6879355972414409148 6879355972414410081 6879355972414409054 6879355972414468672 6879355972414439937 6879355972414468860 6879355972414439843 8943048379491796486 6879355972414378526 6879355972414408100 8943048379491817694 6879355972414438816 8943048379491796580 6879355972414469626 7118569311992827407 6879355972414438910 6879355972414467927 6879355972414438071 6879355972414409987 8943048379491795647 6879355972414437977 6879355972414410269 8943048379491818554 6879355972414468766 6879355972414466900 6879355972414410175 6879355972414408309 6879355972414439098 8943048379491817600 6879355972414437883 8943048379491796674 6879355972414466806 6879355972414379292 6879355972414408215 6879355972414467833 6879355972414467739" uniqueId2MainId="CPP://590838629488715680 CPP://-4833333892991065079 CPP://590838629488716703 CPP://590838629488714874 CPP://-4833333892991064831 CPP://-4833333892991064893 CPP://590838629488715866 CPP://590838629488714843 CPP://590838629488714936 CPP://590838629488714812 CPP://590838629488716827 CPP://590838629488715959 CPP://590838629488716889 CPP://590838629488715928 CPP://-4833333892991064924 CPP://590838629488713789 CPP://590838629488714719 CPP://-4833333892991065048 CPP://590838629488715804 CPP://-4833333892991064955 CPP://590838629488716920 CPP://4219018218075471163 CPP://590838629488715835 CPP://590838629488716796 CPP://590838629488715773 CPP://590838629488714905 CPP://-4833333892991064862 CPP://590838629488715742 CPP://590838629488714998 CPP://-4833333892991065110 CPP://590838629488716858 CPP://590838629488716672 CPP://590838629488714967 CPP://590838629488714781 CPP://590838629488715897 CPP://-4833333892991065017 CPP://590838629488715711 CPP://-4833333892991064986 CPP://590838629488716641 CPP://590838629488713820 CPP://590838629488714750 CPP://590838629488716765 CPP://590838629488716734" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1845;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo" total="25" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2101;SetSendMmiYear" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2181;SetSendMmiTargetSpeed" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2122;SetSendMmiHour" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2320;SetSendMmiDoorStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1981;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SetSerialNumber" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2356;SetSendMmiBrakeStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2275;SetSndMmiInParkWindowsStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2195;SetSendMmiTargetDistance" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2430;SetSendMmiAllowDailyInspection" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;553;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo" total="112" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2150;SetSendMmiCurVelocity" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2482;GETMmi_broadcast_request" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2363;SetSendMmiDoorControlMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2511;GetHMISetCREEPrelieveRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2083;GetRcvMmiMMISV" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2466;SetSendMmiTacSwVersion" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;498;MmiMsgRcv" total="18" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2162;SetSendMmiallowableVelocity" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2267;SetSendMmiTrainIntegrityStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2390;SetSendMmiActivationTrain" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2168;GetSendMmiallowableVelocity" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2076;GetRcvMmiTc2WhlB" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1943;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|AddFaultTextId" total="9" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2281;SetSndMmiPreselectionMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2058;GetRcvMmiTc1WhlA" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2224;SetSendMmiCurDrivingMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1419;GetShowTextInfo" total="94" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2438;SetSendMmiTrainNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;419;SetSendMmiDestination" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2130;SetSendMmiMinute" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2290;SetSendMmiParkDist" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2095;SetSendMmiAtpControl" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2020;GetSendMmiFaoFaultPtr" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2138;SetSendMmisecond" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2533;GetHMISendallowDailyInspection" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;427;SetSendMmicurrentSta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2002;GetSendMmiStru" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;445;SetSendMmiError" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2420;SetSendMmiAlarm" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2253;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SetSndMmiTacsControl" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2526;SetHMISendPowerSelfChkStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2026;SetSendMmiFaoEstbFail" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2545;GetHMIInfoForSendToTAC" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2008;GetRcvMmiStru" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2383;SetSendMmiDoorB" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2412;SetSendMmiBroadcastingTest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2539;SetHMISendallowDailyInspection" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2188;SetSndMmiLimitSpdChangeDistance" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2052;GetRcvMmiWhlSet" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2108;SetSendMmiMonth" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2348;SetSendMmiCutOffStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2404;SetSendMmiJumpStopInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2231;SetSendMmiTrainGroundCommStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2046;GetRcvMmiTrainNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2396;SetSendMmiDepartureInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1996;GetLogRcvMmiStru" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2239;SetSndMmiTrainInOrExitCarArea" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2473;GetHMIPreSetMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2305;GetSendMmiTrainShuttleInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2312;SetSendMmiTrainShuttleInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;452;MmiMsgSnd" total="19" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2504;GetHMISetCREEPenableRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2298;SetSendMmiOpenDoorEnableInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;411;SetSendMmiNextStation" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;437;SetSendMmiParkTime" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1990;GetLogSendMmiStru" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;106;InitSndMmiInfoData" total="7" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2039;GetRcvMmiDriverNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2014;SetSendMmiFaoFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2032;GetSendMmiFaoEstbFailPtr" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2497;GetHMISetEBrelieveRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;99;InitRcvMmiInfoData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2445;SetSendMmiAtpSoftwareVersion" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2452;SetSendMmiAtpDataVersion" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2520;GetHMIPowerSelfChkStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2327;SetSendMmiPlatformDoorStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2371;SetSendMmiAffectBrakeInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2156;SetSendMmiDirection" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2174;SetSendMmieBSpeed" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2208;AddSendMmiAvalMode" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2341;SetSendMmiEBStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2459;SetSendMmiAtoSoftwareVersion" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2144;GetRcvMmiButtonCode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2089;SetSendMmiMMIDisplayStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2064;GetRcvMmiTc1WhlB" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2334;SetSendMmiBackStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2070;GetRcvMmiTc2WhlA" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;159;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SndMmiCycleInfo" total="117" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2377;SetSendMmiDoorA" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2201;SetSendMmiPreMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;842;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare" total="181" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2260;SetSendMmiWheelCheckSuccessTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2490;GetHMISetEBenableRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;128;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|PackSndMmiData" total="7" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2115;SetSendMmiDay" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="LC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2032;GetSendMmiFaoEstbFailPtr">
+      <CtxCvg ctx="8943048379491817788" ids="2035" />
+      <CtxCvg ctx="6879355972414437138" ids="2035" />
+      <CtxCvg ctx="6879355972414467645" ids="2035" />
+      <CtxCvg ctx="8943048379491795553" ids="2035" />
+      <CtxCvg ctx="6879355972414409242" ids="2035" />
+      <CtxCvg ctx="8943048379491795741" ids="2035" />
+      <CtxCvg ctx="6879355972414410081" ids="2035" />
+      <CtxCvg ctx="6879355972414409148" ids="2035" />
+      <CtxCvg ctx="6879355972414439004" ids="2035" />
+      <CtxCvg ctx="6879355972414468672" ids="2035" />
+      <CtxCvg ctx="6879355972414409054" ids="2035" />
+      <CtxCvg ctx="6879355972414439937" ids="2035" />
+      <CtxCvg ctx="6879355972414468860" ids="2035" />
+      <CtxCvg ctx="6879355972414439843" ids="2035" />
+      <CtxCvg ctx="8943048379491796486" ids="2035" />
+      <CtxCvg ctx="6879355972414378526" ids="2035" />
+      <CtxCvg ctx="6879355972414408100" ids="2035" />
+      <CtxCvg ctx="8943048379491817694" ids="2035" />
+      <CtxCvg ctx="6879355972414438816" ids="2035" />
+      <CtxCvg ctx="8943048379491796580" ids="2035" />
+      <CtxCvg ctx="6879355972414469626" ids="2035" />
+      <CtxCvg ctx="7118569311992827407" ids="2035" />
+      <CtxCvg ctx="6879355972414438910" ids="2035" />
+      <CtxCvg ctx="6879355972414467927" ids="2035" />
+      <CtxCvg ctx="8943048379491795647" ids="2035" />
+      <CtxCvg ctx="6879355972414409987" ids="2035" />
+      <CtxCvg ctx="6879355972414438071" ids="2035" />
+      <CtxCvg ctx="6879355972414468766" ids="2035" />
+      <CtxCvg ctx="8943048379491818554" ids="2035" />
+      <CtxCvg ctx="6879355972414410269" ids="2035" />
+      <CtxCvg ctx="6879355972414437977" ids="2035" />
+      <CtxCvg ctx="6879355972414466900" ids="2035" />
+      <CtxCvg ctx="6879355972414410175" ids="2035" />
+      <CtxCvg ctx="6879355972414408309" ids="2035" />
+      <CtxCvg ctx="8943048379491817600" ids="2035" />
+      <CtxCvg ctx="6879355972414439098" ids="2035" />
+      <CtxCvg ctx="8943048379491796674" ids="2035" />
+      <CtxCvg ctx="6879355972414437883" ids="2035" />
+      <CtxCvg ctx="6879355972414466806" ids="2035" />
+      <CtxCvg ctx="6879355972414379292" ids="2035" />
+      <CtxCvg ctx="6879355972414467833" ids="2035" />
+      <CtxCvg ctx="6879355972414408215" ids="2035" />
+      <CtxCvg ctx="6879355972414467739" ids="2035" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="LC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2327;SetSendMmiPlatformDoorStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2330" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2404;SetSendMmiJumpStopInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2407" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2281;SetSndMmiPreselectionMode" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2282" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2039;GetRcvMmiDriverNum" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2042" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2334;SetSendMmiBackStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2337" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2320;SetSendMmiDoorStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2323" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;419;SetSendMmiDestination" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="423" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;411;SetSendMmiNextStation" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="414" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2452;SetSendMmiAtpDataVersion" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2455" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2008;GetRcvMmiStru" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2011" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1943;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|AddFaultTextId" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="1956 1959 1968 1953 1952 1965 1949 1946 1960" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2144;GetRcvMmiButtonCode" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2147" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2473;GetHMIPreSetMode" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2476" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2396;SetSendMmiDepartureInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2399" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2150;SetSendMmiCurVelocity" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2153" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2438;SetSendMmiTrainNum" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2441" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2052;GetRcvMmiWhlSet" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2055" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2032;GetSendMmiFaoEstbFailPtr" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2035" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2174;SetSendMmieBSpeed" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2177" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2420;SetSendMmiAlarm" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2423" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2390;SetSendMmiActivationTrain" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2393" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2002;GetSendMmiStru" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2005" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1996;GetLogRcvMmiStru" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="1999" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;427;SetSendMmicurrentSta" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="431" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2058;GetRcvMmiTc1WhlA" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2061" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2341;SetSendMmiEBStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2344" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2253;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SetSndMmiTacsControl" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2256" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2101;SetSendMmiYear" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2104" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2260;SetSendMmiWheelCheckSuccessTag" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2263" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2130;SetSendMmiMinute" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2133" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2275;SetSndMmiInParkWindowsStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2278" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2168;GetSendMmiallowableVelocity" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2171" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1981;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SetSerialNumber" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="1984" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2305;GetSendMmiTrainShuttleInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2308" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2026;SetSendMmiFaoEstbFail" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2029" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2201;SetSendMmiPreMode" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2204" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2356;SetSendMmiBrakeStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2359" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2383;SetSendMmiDoorB" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2386" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2497;GetHMISetEBrelieveRequest" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2500" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2459;SetSendMmiAtoSoftwareVersion" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2462" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2156;SetSendMmiDirection" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2159" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2115;SetSendMmiDay" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2118" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2046;GetRcvMmiTrainNum" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2049" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2138;SetSendMmisecond" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2141" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2430;SetSendMmiAllowDailyInspection" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2433" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2412;SetSendMmiBroadcastingTest" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2415" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2539;SetHMISendallowDailyInspection" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2542" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2195;SetSendMmiTargetDistance" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2198" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2490;GetHMISetEBenableRequest" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2493" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2020;GetSendMmiFaoFaultPtr" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2023" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2083;GetRcvMmiMMISV" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2086" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;99;InitRcvMmiInfoData" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="102" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;128;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|PackSndMmiData" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="136 139 140 144 131 148 132" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2371;SetSendMmiAffectBrakeInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2374" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2231;SetSendMmiTrainGroundCommStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2234" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2504;GetHMISetCREEPenableRequest" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2507" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2224;SetSendMmiCurDrivingMode" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2227" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2076;GetRcvMmiTc2WhlB" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2079" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2526;SetHMISendPowerSelfChkStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2529" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1990;GetLogSendMmiStru" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="1993" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2482;GETMmi_broadcast_request" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2486" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;437;SetSendMmiParkTime" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="440" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2188;SetSndMmiLimitSpdChangeDistance" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2191" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;498;MmiMsgRcv" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="509 517 511 504 505 513 524 501 502 503 527 520 521 533 531 540 539 538" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2064;GetRcvMmiTc1WhlB" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2067" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2363;SetSendMmiDoorControlMode" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2366" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2520;GetHMIPowerSelfChkStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2523" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2122;SetSendMmiHour" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2125" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2298;SetSendMmiOpenDoorEnableInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2301" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2533;GetHMISendallowDailyInspection" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2536" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2181;SetSendMmiTargetSpeed" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2184" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2290;SetSendMmiParkDist" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2293" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2445;SetSendMmiAtpSoftwareVersion" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2448" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2239;SetSndMmiTrainInOrExitCarArea" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2242" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1845;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="1913 1849 1848 1916 1850 1907 1906 1898 1903 1888 1889 1895 1883 1880 1886 1876 1865 1924 1870 1923 1871 1868 1920 1931 1861" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2545;GetHMIInfoForSendToTAC" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2548" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2267;SetSendMmiTrainIntegrityStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2270" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1419;GetShowTextInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="1762 1643 1641 1491 1765 1488 1771 1502 1768 1633 1638 1499 1496 1663 1783 1780 1660 1651 1485 1785 1648 1655 1791 1482 1788 1653 1608 1728 1731 1526 1611 1520 1614 1734 1523 1737 1532 1602 1738 1535 1744 1508 1747 1626 1505 1629 1631 1751 1517 1617 1754 1623 1514 1424 1580 1579 1577 1711 1572 1573 1570 1598 1715 1594 1834 1593 1591 1423 1587 1422 1586 1584 1670 1665 1544 1461 1677 1541 1811 1673 1810 1675 1538 1565 1685 1682 1801 1562 1693 1559 1797 1794 1688 1690" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;159;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SndMmiCycleInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="273 272 277 276 281 280 285 284 256 257 260 261 264 265 268 269 305 304 309 308 313 312 317 316 288 289 292 293 296 297 300 301 343 342 339 338 351 350 347 346 324 325 320 321 335 332 333 328 329 373 375 371 370 383 378 358 359 354 355 366 367 362 363 400 404 394 397 396 387 386 170 169 174 173 163 162 166 186 185 188 189 178 177 182 181 205 204 201 200 197 196 193 192 220 221 216 217 212 213 208 209 237 236 233 232 229 228 225 224 252 253 248 249 244 245 240 241" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2108;SetSendMmiMonth" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2111" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;842;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="1374 1102 1371 1098 1368 1092 1365 1363 1362 1358 1117 1119 1118 1354 1351 1349 1110 1346 1105 1345 1132 1401 1129 1397 1125 1122 1395 1150 1390 1391 1148 1384 1387 1144 1381 1141 1378 1137 1306 1033 1305 882 1311 1310 884 887 1038 1298 890 1303 893 1028 1049 866 868 1292 870 1055 1282 1041 873 876 1287 1044 1284 879 851 850 849 1064 1341 855 854 853 852 1069 859 858 1059 1331 857 1330 856 863 1335 1334 860 1061 1320 1321 1082 1087 1325 1326 1084 1073 1315 846 1079 847 1076 1220 957 1223 952 1218 955 1228 950 944 947 941 1237 1232 936 1234 939 1244 933 1247 928 1252 923 920 1261 917 1259 914 912 1256 909 1269 1266 906 1264 1278 903 900 1274 898 1152 1017 1154 1020 1158 1023 1163 1011 1014 1166 1001 1172 1006 993 1177 1180 996 998 1185 985 1189 988 978 1194 976 1192 1199 982 1197 981 1202 970 975 1207 974 1204 973 960 1215 1212 965" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2377;SetSendMmiDoorA" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2380" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2162;SetSendMmiallowableVelocity" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2165" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2511;GetHMISetCREEPrelieveRequest" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2514" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;553;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="821 817 558 559 556 830 557 825 566 800 562 561 803 560 813 573 815 572 569 799 796 770 768 769 608 614 618 621 626 630 633 638 576 577 580 581 584 585 588 589 593 592 597 596 601 600 604 686 685 683 682 680 679 677 676 674 673 703 700 701 698 697 694 695 692 691 688 689 653 652 655 649 650 644 647 646 640 643 668 670 671 664 665 667 661 662 656 658 659 737 736 713 712 715 716 719 718 704 707 706 709 710 728 730 731 733 734 721 722 724 725 727" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2089;SetSendMmiMMIDisplayStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2092" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;452;MmiMsgSnd" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="478 479 477 475 473 470 468 465 495 461 460 459 458 457 456 455 486 481 483" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2466;SetSendMmiTacSwVersion" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2469" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2095;SetSendMmiAtpControl" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2098" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;445;SetSendMmiError" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="448" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2348;SetSendMmiCutOffStatus" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2351" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2070;GetRcvMmiTc2WhlA" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2073" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2208;AddSendMmiAvalMode" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2219 2211 2214" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2014;SetSendMmiFaoFault" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2017" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2312;SetSendMmiTrainShuttleInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="2315" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;106;InitSndMmiInfoData" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" show="true" lns="115 114 113 112 110 111 109" />
+  </ResultInfo>
+</CvgData>

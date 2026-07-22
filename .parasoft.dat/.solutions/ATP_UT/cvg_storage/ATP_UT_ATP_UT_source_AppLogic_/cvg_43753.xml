@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" type="BC">
+  <VersionInfos>
+    <StorageInfo ownerId="BC" resultId="BlockCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="BC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;497;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|btmLinkHaltProc" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;68;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|btmCommLinkManage" total="17" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;272;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|btmLinkNormalProc" total="36" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;591;GetBtmLinkSta" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;176;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|btmLinkBulidProc" total="14" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;517;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|BtmCpsHandle" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;611;GetBtmMainSysId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;605;SetBtmLinkSta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;576;GetBtmLinkStaErrNo" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;47;BtmProcess" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="BC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;611;GetBtmMainSysId" infos="1,615,4,615,21," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;576;GetBtmLinkStaErrNo" infos="2,584,8,584,55, 1,579,4,581,63, 3,587,4,587,17," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;272;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|btmLinkNormalProc" infos="36,445,16,445,41, 12,353,28,356,78, 9,332,33,340,105, 43,467,8,467,66, 10,344,28,345,97, 3,304,16,304,91, 16,370,33,370,116, 47,481,8,481,65, 8,329,28,329,53, 48,484,4,484,18, 11,349,33,350,114, 31,424,20,424,45, 4,307,20,307,109, 35,438,16,440,84, 25,395,24,397,94, 13,359,32,361,101, 45,474,8,474,67, 17,374,28,375,53, 26,402,24,402,49, 1,275,4,298,47, 6,315,24,316,93, 30,417,20,419,92, 14,366,32,366,57, 44,471,9,471,40, 2,301,12,301,36, 34,432,12,435,63, 39,452,8,453,76, 29,411,16,414,68, 46,478,9,478,41, 7,322,24,326,133, 41,460,8,460,67, 5,310,20,312,50, 40,457,9,457,36, 18,380,28,381,88, 24,389,20,392,72, 42,464,9,464,35," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;68;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|btmCommLinkManage" infos="14,124,12,130,51, 24,156,8,156,31, 21,151,8,151,14, 4,84,12,87,42, 19,144,8,148,14, 3,79,8,81,38, 13,121,17,121,43, 7,104,12,106,49, 1,71,4,74,54, 25,159,8,162,31, 9,108,8,108,14, 12,116,12,118,42, 6,93,12,99,51, 17,140,8,140,14, 5,90,17,90,43, 11,111,8,113,38, 15,135,12,137,49," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;47;BtmProcess" infos="1,56,4,56,19," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;176;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|btmLinkBulidProc" infos="7,214,24,215,93, 10,226,24,226,49, 6,209,24,209,49, 18,257,8,258,76, 19,261,4,261,18, 1,179,4,192,46, 3,198,16,198,116, 2,195,11,195,80, 14,240,16,241,82, 16,249,12,250,77, 4,201,20,201,50, 9,221,20,223,68, 11,231,24,232,89, 5,204,20,206,68," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;591;GetBtmLinkSta" infos="2,599,8,599,61, 1,594,4,596,63, 3,602,4,602,19," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;517;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|BtmCpsHandle" infos="2,536,8,563,80, 1,520,4,532,97," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;497;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWBtmManageWBtmHandleWc|btmLinkHaltProc" infos="1,500,4,503,61," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c;605;SetBtmLinkSta" infos="1,608,4,608,57," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BtmManage/BtmHandle.c" show="true" />
+  </ResultInfo>
+</CvgData>

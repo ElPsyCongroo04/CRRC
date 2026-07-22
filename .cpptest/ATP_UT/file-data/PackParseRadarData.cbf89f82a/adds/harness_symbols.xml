@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\RcvSendManage\PackParseRadarData.c" id="1"/>
+    <Function id="sprintf" name="ZHsprintf5X" decorated_name="int sprintf(char *, const char *, ...)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE int __cdecl </declaration_prefix>
+         <declaration_suffix>_Stub_sprintf (char * _Dest, const char * _Format, ...) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE int __cdecl sprintf (char * _Dest, const char * _Format, ...) </orig_declaration>
+         <return_expression>return 0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="ShortFromChar" name="ZNShortFromCharX" decorated_name="UINT16_T ShortFromChar(const UINT8_T *)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_ShortFromChar (const UINT8_T  bufferPtr[]) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T ShortFromChar (const UINT8_T  bufferPtr[]) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>Endian.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRadarActiveSpd" name="ZbBGetRadarActiveSpdX" decorated_name="UINT16_T GetRadarActiveSpd(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRadarActiveSpd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetRadarActiveSpd () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>AtpMeaSpeedConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvRadarNumMin" name="ZbBGetRcvRadarNumMinX" decorated_name="UINT8_T GetRcvRadarNumMin(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvRadarNumMin (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvRadarNumMin () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpMeaSpeedConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvRadarNumMax" name="ZbBGetRcvRadarNumMaxX" decorated_name="UINT8_T GetRcvRadarNumMax(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvRadarNumMax (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvRadarNumMax () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpMeaSpeedConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvRadarNumHigh" name="ZbCGetRcvRadarNumHighX" decorated_name="UINT8_T GetRcvRadarNumHigh(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvRadarNumHigh (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvRadarNumHigh () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpMeaSpeedConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="MemoryCpy" name="ZJMemoryCpyX" decorated_name="UINT8_T MemoryCpy(void *, UINT32_T, const void *, UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemoryCpy (void * pDest, UINT32_T destBuffSize, const void * pSrc, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T MemoryCpy (void * pDest, UINT32_T destBuffSize, const void * pSrc, UINT32_T count) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCirQueuePkgCount" name="ZbDGetCirQueuePkgCountX" decorated_name="UINT32_T GetCirQueuePkgCount(const CirQueueStruct_T *)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCirQueuePkgCount (const CirQueueStruct_T * pCirQueueStru) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetCirQueuePkgCount (const CirQueueStruct_T * pCirQueueStru) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>CirQueueStruct.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCirQueuePkgData" name="ZbCGetCirQueuePkgDataX" decorated_name="UINT32_T GetCirQueuePkgData(CirQueueStruct_T *, UINT8_T *, UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCirQueuePkgData (CirQueueStruct_T * pCirQueueStru, UINT8_T * pDataBuf, UINT32_T dataLen) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetCirQueuePkgData (CirQueueStruct_T * pCirQueueStru, UINT8_T * pDataBuf, UINT32_T dataLen) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>CirQueueStruct.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRadarMsgRcvDataQueue" name="ZbHGetRadarMsgRcvDataQueueX" decorated_name="CirQueueStruct_T * GetRadarMsgRcvDataQueue(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE CirQueueStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetRadarMsgRcvDataQueue (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE CirQueueStruct_T * GetRadarMsgRcvDataQueue () </orig_declaration>
+         <return_expression>return (CirQueueStruct_T *)0;</return_expression>
+         <user_decl_header>CommData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="LogPrintf_T" name="ZLLogPrintf_TX" decorated_name="void LogPrintf_T(UINT8_T, UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_LogPrintf_T (UINT8_T logLevel, UINT32_T LogSize) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void LogPrintf_T (UINT8_T logLevel, UINT32_T LogSize) </orig_declaration>
+         <user_decl_header>ScpLog.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddSysRadarInErrNo" name="ZbCAddSysRadarInErrNoX" decorated_name="void AddSysRadarInErrNo(const UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddSysRadarInErrNo (const UINT32_T radarInputErrorCode) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddSysRadarInErrNo (const UINT32_T radarInputErrorCode) </orig_declaration>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitRcvRadarData" name="ZbAInitRcvRadarDataX" decorated_name="void InitRcvRadarData(void)">
+      <definition type="orig" source="code" file_id="1" line="48" col="6"/>
+    </Function>
+    <Function id="RadarMsgRcv" name="ZLRadarMsgRcvX" decorated_name="void RadarMsgRcv(void)">
+      <definition type="orig" source="code" file_id="1" line="61" col="6"/>
+    </Function>
+    <Function id="RadarParseDataPre" name="ZbBRadarParseDataPreX" decorated_name="void RadarParseDataPre(const UINT8_T *, UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_RadarParseDataPre (const UINT8_T  RecvBuff[], UINT32_T dataLen) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void RadarParseDataPre (const UINT8_T  RecvBuff[], UINT32_T dataLen) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="153" col="20"/>
+    </Function>
+    <Function id="RcvRadarDataChkProc" name="ZbDRcvRadarDataChkProcX" decorated_name="void RcvRadarDataChkProc(const UINT8_T *, UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_RcvRadarDataChkProc (const UINT8_T  pRecvBuff[], UINT32_T dataLen) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void RcvRadarDataChkProc (const UINT8_T  pRecvBuff[], UINT32_T dataLen) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="254" col="20"/>
+    </Function>
+    <Function id="RadarFrmFcsChk" name="ZORadarFrmFcsChkX" decorated_name="UINT8_T RadarFrmFcsChk(const UINT8_T *, UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_RadarFrmFcsChk (const UINT8_T  pRecvBuff[], UINT32_T dataLen) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T RadarFrmFcsChk (const UINT8_T  pRecvBuff[], UINT32_T dataLen) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="350" col="23"/>
+    </Function>
+    <Function id="RadarSpdScuInit" name="ZPRadarSpdScuInitX" decorated_name="void RadarSpdScuInit(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_RadarSpdScuInit (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void RadarSpdScuInit (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="555" col="20"/>
+    </Function>
+    <Function id="GetRadarSpeed" name="ZNGetRadarSpeedX" decorated_name="UINT16_T GetRadarSpeed(void)">
+      <definition type="orig" source="code" file_id="1" line="566" col="10"/>
+    </Function>
+    <Function id="SetRadarSpeed" name="ZNSetRadarSpeedX" decorated_name="void SetRadarSpeed(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="572" col="6"/>
+    </Function>
+    <Function id="GetRadarDir" name="ZLGetRadarDirX" decorated_name="UINT8_T GetRadarDir(void)">
+      <definition type="orig" source="code" file_id="1" line="579" col="9"/>
+    </Function>
+    <Function id="GetRadarPerSpace" name="ZbAGetRadarPerSpaceX" decorated_name="UINT32_T GetRadarPerSpace(void)">
+      <definition type="orig" source="code" file_id="1" line="587" col="10"/>
+    </Function>
+    <Function id="GetRadarSpace" name="ZNGetRadarSpaceX" decorated_name="UINT32_T GetRadarSpace(void)">
+      <definition type="orig" source="code" file_id="1" line="594" col="10"/>
+    </Function>
+    <Function id="GetRadarSta" name="ZLGetRadarStaX" decorated_name="UINT8_T GetRadarSta(void)">
+      <definition type="orig" source="code" file_id="1" line="602" col="9"/>
+    </Function>
+    <Function id="SetRadarSta" name="ZLSetRadarStaX" decorated_name="void SetRadarSta(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetRadarSta (UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetRadarSta (UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseRadarData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="608" col="6"/>
+    </Function>
+    <Function id="GetRcvRadarNum" name="ZOGetRcvRadarNumX" decorated_name="UINT8_T GetRcvRadarNum(void)">
+      <definition type="orig" source="code" file_id="1" line="614" col="9"/>
+    </Function>
+    <Function id="GetUsableRadarNum" name="ZbBGetUsableRadarNumX" decorated_name="UINT8_T GetUsableRadarNum(void)">
+      <definition type="orig" source="code" file_id="1" line="620" col="9"/>
+    </Function>
+    <Function id="GetHighRadarNum" name="ZPGetHighRadarNumX" decorated_name="UINT8_T GetHighRadarNum(void)">
+      <definition type="orig" source="code" file_id="1" line="627" col="9"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

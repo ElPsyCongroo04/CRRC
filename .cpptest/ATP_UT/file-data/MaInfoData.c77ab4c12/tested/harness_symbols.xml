@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\MaInfoData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="UpdateSwitchStatus" name="ZbCUpdateSwitchStatusX" decorated_name="UINT8_T UpdateSwitchStatus(SwitchStatus_T *, UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_UpdateSwitchStatus (SwitchStatus_T * switchStatusBuff, UINT16_T switchNum) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T UpdateSwitchStatus (SwitchStatus_T * switchStatusBuff, UINT16_T switchNum) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DataInterfaceHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitObjAndTlsStru" name="ZbBInitObjAndTlsStruX" decorated_name="void InitObjAndTlsStru(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitObjAndTlsStru (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitObjAndTlsStru (const UINT8_T value) </orig_declaration>
+         <user_decl_header>DmuAtpDataHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitMaInfoData" name="ZOInitMaInfoDataX" decorated_name="void InitMaInfoData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="21" col="6"/>
+    </Function>
+    <Function id="GetMaInfoMAValidTimer" name="ZbFGetMaInfoMAValidTimerX" decorated_name="UINT16_T GetMaInfoMAValidTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="31" col="10"/>
+    </Function>
+    <Function id="SetMaInfoMAValidTimer" name="ZbFSetMaInfoMAValidTimerX" decorated_name="void SetMaInfoMAValidTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="38" col="6"/>
+    </Function>
+    <Function id="GetMaInfoMaRangeError" name="ZbFGetMaInfoMaRangeErrorX" decorated_name="UINT8_T GetMaInfoMaRangeError(void)">
+      <definition type="orig" source="code" file_id="1" line="45" col="9"/>
+    </Function>
+    <Function id="SetMaInfoMaRangeError" name="ZbFSetMaInfoMaRangeErrorX" decorated_name="void SetMaInfoMaRangeError(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="52" col="6"/>
+    </Function>
+    <Function id="GetMaUsabilityFlag" name="ZbCGetMaUsabilityFlagX" decorated_name="UINT8_T GetMaUsabilityFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="60" col="9"/>
+    </Function>
+    <Function id="SetMaUsabilityFlag" name="ZbCSetMaUsabilityFlagX" decorated_name="void SetMaUsabilityFlag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="67" col="6"/>
+    </Function>
+    <Function id="GetMaValid" name="ZKGetMaValidX" decorated_name="UINT8_T GetMaValid(void)">
+      <definition type="orig" source="code" file_id="1" line="73" col="9"/>
+    </Function>
+    <Function id="SetMaValid" name="ZKSetMaValidX" decorated_name="void SetMaValid(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="80" col="6"/>
+    </Function>
+    <Function id="InitMaData" name="ZKInitMaDataX" decorated_name="void InitMaData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="87" col="6"/>
+    </Function>
+    <Function id="GetMaInfoRecord" name="ZPGetMaInfoRecordX" decorated_name="MaDataStruct_T GetMaInfoRecord(void)">
+      <definition type="orig" source="code" file_id="1" line="108" col="16"/>
+    </Function>
+    <Function id="GetMaData" name="ZJGetMaDataX" decorated_name="MaDataStruct_T * GetMaData(void)">
+      <definition type="orig" source="code" file_id="1" line="116" col="17"/>
+    </Function>
+    <Function id="GetMaLen" name="ZIGetMaLenX" decorated_name="UINT16_T GetMaLen(void)">
+      <definition type="orig" source="code" file_id="1" line="123" col="10"/>
+    </Function>
+    <Function id="GetMaStartSegId" name="ZPGetMaStartSegIdX" decorated_name="UINT16_T GetMaStartSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="131" col="10"/>
+    </Function>
+    <Function id="SetMaStartSegId" name="ZPSetMaStartSegIdX" decorated_name="void SetMaStartSegId(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="138" col="6"/>
+    </Function>
+    <Function id="GetMaStartSegOffset" name="ZbDGetMaStartSegOffsetX" decorated_name="UINT32_T GetMaStartSegOffset(void)">
+      <definition type="orig" source="code" file_id="1" line="145" col="10"/>
+    </Function>
+    <Function id="SetMaStartSegOffset" name="ZbDSetMaStartSegOffsetX" decorated_name="void SetMaStartSegOffset(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="152" col="6"/>
+    </Function>
+    <Function id="GetMaStartDir" name="ZNGetMaStartDirX" decorated_name="UINT8_T GetMaStartDir(void)">
+      <definition type="orig" source="code" file_id="1" line="159" col="9"/>
+    </Function>
+    <Function id="SetMaStartDir" name="ZNSetMaStartDirX" decorated_name="void SetMaStartDir(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="166" col="6"/>
+    </Function>
+    <Function id="GetMaEndSegId" name="ZNGetMaEndSegIdX" decorated_name="UINT16_T GetMaEndSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="173" col="10"/>
+    </Function>
+    <Function id="SetMaEndSegId" name="ZNSetMaEndSegIdX" decorated_name="void SetMaEndSegId(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="180" col="6"/>
+    </Function>
+    <Function id="GetMaEndSegOffset" name="ZbBGetMaEndSegOffsetX" decorated_name="UINT32_T GetMaEndSegOffset(void)">
+      <definition type="orig" source="code" file_id="1" line="187" col="10"/>
+    </Function>
+    <Function id="SetMaEndSegOffset" name="ZbBSetMaEndSegOffsetX" decorated_name="void SetMaEndSegOffset(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="194" col="6"/>
+    </Function>
+    <Function id="GetMaEndDir" name="ZLGetMaEndDirX" decorated_name="UINT8_T GetMaEndDir(void)">
+      <definition type="orig" source="code" file_id="1" line="201" col="9"/>
+    </Function>
+    <Function id="SetMaEndDir" name="ZLSetMaEndDirX" decorated_name="void SetMaEndDir(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="208" col="6"/>
+    </Function>
+    <Function id="GetMaEndMaType" name="ZOGetMaEndMaTypeX" decorated_name="UINT8_T GetMaEndMaType(void)">
+      <definition type="orig" source="code" file_id="1" line="215" col="9"/>
+    </Function>
+    <Function id="SetMaEndMaType" name="ZOSetMaEndMaTypeX" decorated_name="void SetMaEndMaType(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="221" col="6"/>
+    </Function>
+    <Function id="GetMaDisMaEndToHead" name="ZbDGetMaDisMaEndToHeadX" decorated_name="UINT32_T GetMaDisMaEndToHead(void)">
+      <definition type="orig" source="code" file_id="1" line="228" col="10"/>
+    </Function>
+    <Function id="SetMaDisMaEndToHead" name="ZbDSetMaDisMaEndToHeadX" decorated_name="void SetMaDisMaEndToHead(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="235" col="6"/>
+    </Function>
+    <Function id="GetMaObstableNum" name="ZbAGetMaObstableNumX" decorated_name="UINT8_T GetMaObstableNum(void)">
+      <definition type="orig" source="code" file_id="1" line="242" col="9"/>
+    </Function>
+    <Function id="GetMaObstInfo" name="ZNGetMaObstInfoX" decorated_name="ObstInfo_T * GetMaObstInfo(void)">
+      <definition type="orig" source="code" file_id="1" line="248" col="13"/>
+    </Function>
+    <Function id="GetMaTsrNum" name="ZLGetMaTsrNumX" decorated_name="UINT8_T GetMaTsrNum(void)">
+      <definition type="orig" source="code" file_id="1" line="255" col="9"/>
+    </Function>
+    <Function id="GetMaTsrInfo" name="ZMGetMaTsrInfoX" decorated_name="TSRInfo_T * GetMaTsrInfo(void)">
+      <definition type="orig" source="code" file_id="1" line="263" col="12"/>
+    </Function>
+    <Function id="GetMaSpksNum" name="ZMGetMaSpksNumX" decorated_name="UINT8_T GetMaSpksNum(void)">
+      <definition type="orig" source="code" file_id="1" line="269" col="9"/>
+    </Function>
+    <Function id="GetMaSpksInfo" name="ZNGetMaSpksInfoX" decorated_name="ObstInfo_T * GetMaSpksInfo(void)">
+      <definition type="orig" source="code" file_id="1" line="277" col="13"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

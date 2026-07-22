@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\DoorManage\DoorHandle.c" id="1"/>
+    <Function id="sprintf" name="ZHsprintf5X" decorated_name="int sprintf(char *, const char *, ...)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE int __cdecl </declaration_prefix>
+         <declaration_suffix>_Stub_sprintf (char * _Dest, const char * _Format, ...) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE int __cdecl sprintf (char * _Dest, const char * _Format, ...) </orig_declaration>
+         <return_expression>return 0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="CheckSopPointIsAr" name="ZbBCheckSopPointIsArX" decorated_name="UINT8_T CheckSopPointIsAr(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_CheckSopPointIsAr (const UINT16_T stopPointId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T CheckSopPointIsAr (const UINT16_T stopPointId) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>ArData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpRmDoorEnable" name="ZbCGetAtpRmDoorEnableX" decorated_name="UINT8_T GetAtpRmDoorEnable(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpRmDoorEnable (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetAtpRmDoorEnable () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpRmConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetIndexIdStopPointDataStru" name="ZbLGetIndexIdStopPointDataStruX" decorated_name="const StopPoint_T * GetIndexIdStopPointDataStru(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE const StopPoint_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetIndexIdStopPointDataStru (const UINT16_T stopPointId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE const StopPoint_T * GetIndexIdStopPointDataStru (const UINT16_T stopPointId) </orig_declaration>
+         <return_expression>return (const StopPoint_T *)0;</return_expression>
+         <user_decl_header>StopPointData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetStopPtIdBySegDirAttribute" name="ZbMGetStopPtIdBySegDirAttributeX" decorated_name="UINT16_T GetStopPtIdBySegDirAttribute(UINT16_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetStopPtIdBySegDirAttribute (UINT16_T segId, UINT8_T dir, UINT32_T attribute) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetStopPtIdBySegDirAttribute (UINT16_T segId, UINT8_T dir, UINT32_T attribute) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>StopPointData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSearchDoorOpreation" name="ZbGGetSearchDoorOpreationX" decorated_name="UINT8_T GetSearchDoorOpreation(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSearchDoorOpreation (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetSearchDoorOpreation () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DmuAtpDataHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpDoorConfig" name="ZbAGetAtpDoorConfigX" decorated_name="UINT8_T GetAtpDoorConfig(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpDoorConfig (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetAtpDoorConfig () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpDoorConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetDoorStatuErrHandle" name="ZbFGetDoorStatuErrHandleX" decorated_name="UINT8_T GetDoorStatuErrHandle(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDoorStatuErrHandle (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetDoorStatuErrHandle () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpDoorConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpFamOpenDoorTimeMax" name="ZbIGetAtpFamOpenDoorTimeMaxX" decorated_name="UINT32_T GetAtpFamOpenDoorTimeMax(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpFamOpenDoorTimeMax (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetAtpFamOpenDoorTimeMax () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>AtpDoorConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="LogPrintf_T" name="ZLLogPrintf_TX" decorated_name="void LogPrintf_T(UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_LogPrintf_T (UINT8_T logLevel, UINT32_T LogSize) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void LogPrintf_T (UINT8_T logLevel, UINT32_T LogSize) </orig_declaration>
+         <user_decl_header>ScpLog.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainCurSpeed" name="ZbAGetTrainCurSpeedX" decorated_name="UINT16_T GetTrainCurSpeed(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainCurSpeed (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainCurSpeed () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainZeroSpeedTag" name="ZbEGetTrainZeroSpeedTagX" decorated_name="UINT8_T GetTrainZeroSpeedTag(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainZeroSpeedTag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainZeroSpeedTag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainStopSteady" name="ZbCGetTrainStopSteadyX" decorated_name="UINT8_T GetTrainStopSteady(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainStopSteady (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainStopSteady () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCHSegId" name="ZbBGetTrainLOCHSegIdX" decorated_name="UINT16_T GetTrainLOCHSegId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCHSegId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainLOCHSegId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCHSegOffSet" name="ZbFGetTrainLOCHSegOffSetX" decorated_name="UINT32_T GetTrainLOCHSegOffSet(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCHSegOffSet (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTrainLOCHSegOffSet () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCTSegId" name="ZbBGetTrainLOCTSegIdX" decorated_name="UINT16_T GetTrainLOCTSegId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCTSegId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainLOCTSegId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCHMaxSegId" name="ZbEGetTrainLOCHMaxSegIdX" decorated_name="UINT16_T GetTrainLOCHMaxSegId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCHMaxSegId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainLOCHMaxSegId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCHMaxDir" name="ZbCGetTrainLOCHMaxDirX" decorated_name="UINT8_T GetTrainLOCHMaxDir(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCHMaxDir (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainLOCHMaxDir () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCTMinSegId" name="ZbEGetTrainLOCTMinSegIdX" decorated_name="UINT16_T GetTrainLOCTMinSegId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCTMinSegId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainLOCTMinSegId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCTMinSegOffSet" name="ZbIGetTrainLOCTMinSegOffSetX" decorated_name="UINT32_T GetTrainLOCTMinSegOffSet(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCTMinSegOffSet (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTrainLOCTMinSegOffSet () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLocalCabActive" name="ZbGGetTrainLocalCabActiveX" decorated_name="UINT8_T GetTrainLocalCabActive(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLocalCabActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainLocalCabActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainOppoCabActive" name="ZbFGetTrainOppoCabActiveX" decorated_name="UINT8_T GetTrainOppoCabActive(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainOppoCabActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainOppoCabActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaDoorStatus" name="ZbCGetInMeaDoorStatusX" decorated_name="UINT8_T GetInMeaDoorStatus(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaDoorStatus (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaDoorStatus () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaLeftDoorStatus" name="ZbGGetInMeaLeftDoorStatusX" decorated_name="UINT8_T GetInMeaLeftDoorStatus(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaLeftDoorStatus (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaLeftDoorStatus () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaRightDoorStatus" name="ZbHGetInMeaRightDoorStatusX" decorated_name="UINT8_T GetInMeaRightDoorStatus(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaRightDoorStatus (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaRightDoorStatus () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaEbStatus" name="ZbAGetInMeaEbStatusX" decorated_name="UINT8_T GetInMeaEbStatus(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaEbStatus (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaEbStatus () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaBrakeHoldStatus" name="ZbHGetInMeaBrakeHoldStatusX" decorated_name="UINT8_T GetInMeaBrakeHoldStatus(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaBrakeHoldStatus (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaBrakeHoldStatus () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaRightDoorOpenBtn" name="ZbIGetInMeaRightDoorOpenBtnX" decorated_name="UINT8_T GetInMeaRightDoorOpenBtn(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaRightDoorOpenBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaRightDoorOpenBtn () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaRightDoorCloseBtn" name="ZbJGetInMeaRightDoorCloseBtnX" decorated_name="UINT8_T GetInMeaRightDoorCloseBtn(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaRightDoorCloseBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaRightDoorCloseBtn () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaLeftDoorOpenBtn" name="ZbHGetInMeaLeftDoorOpenBtnX" decorated_name="UINT8_T GetInMeaLeftDoorOpenBtn(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaLeftDoorOpenBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaLeftDoorOpenBtn () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaLeftDoorCloseBtn" name="ZbIGetInMeaLeftDoorCloseBtnX" decorated_name="UINT8_T GetInMeaLeftDoorCloseBtn(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaLeftDoorCloseBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaLeftDoorCloseBtn () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetDoorLeftPsdCtlCmd" name="ZbEGetDoorLeftPsdCtlCmdX" decorated_name="UINT8_T GetDoorLeftPsdCtlCmd(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDoorLeftPsdCtlCmd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetDoorLeftPsdCtlCmd () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetDoorLeftPsdCtlCmd" name="ZbESetDoorLeftPsdCtlCmdX" decorated_name="void SetDoorLeftPsdCtlCmd(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetDoorLeftPsdCtlCmd (const UINT8_T leftPsdCtlCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetDoorLeftPsdCtlCmd (const UINT8_T leftPsdCtlCmd) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetDoorRightPsdCtlCmd" name="ZbFGetDoorRightPsdCtlCmdX" decorated_name="UINT8_T GetDoorRightPsdCtlCmd(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDoorRightPsdCtlCmd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetDoorRightPsdCtlCmd () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetDoorRightPsdCtlCmd" name="ZbFSetDoorRightPsdCtlCmdX" decorated_name="void SetDoorRightPsdCtlCmd(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetDoorRightPsdCtlCmd (const UINT8_T rightPsdCtlCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetDoorRightPsdCtlCmd (const UINT8_T rightPsdCtlCmd) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetDoorLeftCtlCmd" name="ZbBGetDoorLeftCtlCmdX" decorated_name="UINT8_T GetDoorLeftCtlCmd(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDoorLeftCtlCmd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetDoorLeftCtlCmd () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetDoorLeftCtlCmd" name="ZbBSetDoorLeftCtlCmdX" decorated_name="void SetDoorLeftCtlCmd(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetDoorLeftCtlCmd (const UINT8_T leftDoorCtlCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetDoorLeftCtlCmd (const UINT8_T leftDoorCtlCmd) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetDoorRightCtlCmd" name="ZbCGetDoorRightCtlCmdX" decorated_name="UINT8_T GetDoorRightCtlCmd(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDoorRightCtlCmd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetDoorRightCtlCmd () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetDoorRightCtlCmd" name="ZbCSetDoorRightCtlCmdX" decorated_name="void SetDoorRightCtlCmd(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetDoorRightCtlCmd (const UINT8_T rightDoorCtlCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetDoorRightCtlCmd (const UINT8_T rightDoorCtlCmd) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetOutLeftDoorEnable" name="ZbEGetOutLeftDoorEnableX" decorated_name="UINT8_T GetOutLeftDoorEnable(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetOutLeftDoorEnable (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetOutLeftDoorEnable () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetOutLeftDoorEnable" name="ZbESetOutLeftDoorEnableX" decorated_name="void SetOutLeftDoorEnable(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetOutLeftDoorEnable (const UINT8_T outLeftDoorEnable) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetOutLeftDoorEnable (const UINT8_T outLeftDoorEnable) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetOutRightDoorEnable" name="ZbFGetOutRightDoorEnableX" decorated_name="UINT8_T GetOutRightDoorEnable(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetOutRightDoorEnable (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetOutRightDoorEnable () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetOutRightDoorEnable" name="ZbFSetOutRightDoorEnableX" decorated_name="void SetOutRightDoorEnable(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetOutRightDoorEnable (const UINT8_T outRightDoorEnable) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetOutRightDoorEnable (const UINT8_T outRightDoorEnable) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetDoorEnable" name="ZNSetDoorEnableX" decorated_name="void SetDoorEnable(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetDoorEnable (const UINT8_T doorEnable) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetDoorEnable (const UINT8_T doorEnable) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetDoorRemoteOpenReq" name="ZbESetDoorRemoteOpenReqX" decorated_name="void SetDoorRemoteOpenReq(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetDoorRemoteOpenReq (const UINT8_T openCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetDoorRemoteOpenReq (const UINT8_T openCmd) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetDoorRemoteCloseReq" name="ZbFSetDoorRemoteCloseReqX" decorated_name="void SetDoorRemoteCloseReq(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetDoorRemoteCloseReq (const UINT8_T closeCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetDoorRemoteCloseReq (const UINT8_T closeCmd) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetDoorFamOpenDoorTimer" name="ZbHGetDoorFamOpenDoorTimerX" decorated_name="UINT32_T GetDoorFamOpenDoorTimer(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDoorFamOpenDoorTimer (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetDoorFamOpenDoorTimer () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetDoorFamOpenDoorTimer" name="ZbHSetDoorFamOpenDoorTimerX" decorated_name="void SetDoorFamOpenDoorTimer(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetDoorFamOpenDoorTimer (const UINT32_T openDoorTimer) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetDoorFamOpenDoorTimer (const UINT32_T openDoorTimer) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddSysPsdCtlErrNo" name="ZbBAddSysPsdCtlErrNoX" decorated_name="void AddSysPsdCtlErrNo(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddSysPsdCtlErrNo (const UINT32_T psdCtlErrNo) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddSysPsdCtlErrNo (const UINT32_T psdCtlErrNo) </orig_declaration>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddSysCutTractionRsn" name="ZbEAddSysCutTractionRsnX" decorated_name="void AddSysCutTractionRsn(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddSysCutTractionRsn (const UINT32_T cutTractionRsn) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddSysCutTractionRsn (const UINT32_T cutTractionRsn) </orig_declaration>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetStationArea" name="ZOGetStationAreaX" decorated_name="UINT8_T GetStationArea(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetStationArea (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetStationArea () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainInStopArea" name="ZbCGetTrainInStopAreaX" decorated_name="UINT8_T GetTrainInStopArea(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainInStopArea (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainInStopArea () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetStationPoint" name="ZPGetStationPointX" decorated_name="UINT8_T GetStationPoint(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetStationPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetStationPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetStopPointId" name="ZOGetStopPointIdX" decorated_name="UINT16_T GetStopPointId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetStopPointId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetStopPointId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetStopInAtp" name="ZMGetStopInAtpX" decorated_name="UINT8_T GetStopInAtp(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetStopInAtp (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetStopInAtp () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvAtoCabDoorCtrlMode" name="ZbIGetRcvAtoCabDoorCtrlModeX" decorated_name="UINT8_T GetRcvAtoCabDoorCtrlMode(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvAtoCabDoorCtrlMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvAtoCabDoorCtrlMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseAtoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvAtoDoorOperation" name="ZbGGetRcvAtoDoorOperationX" decorated_name="UINT8_T GetRcvAtoDoorOperation(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvAtoDoorOperation (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvAtoDoorOperation () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseAtoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetFaoSpecialCtrl" name="ZbBSetFaoSpecialCtrlX" decorated_name="void SetFaoSpecialCtrl(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetFaoSpecialCtrl (UINT8_T faoSpecialCtrl) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetFaoSpecialCtrl (UINT8_T faoSpecialCtrl) </orig_declaration>
+         <user_decl_header>PackParseAtoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="OutputEbReason" name="ZOOutputEbReasonX" decorated_name="void OutputEbReason(const UINT8_T, const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_OutputEbReason (const UINT8_T ebType, const UINT32_T ebReason) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void OutputEbReason (const UINT8_T ebType, const UINT32_T ebReason) </orig_declaration>
+         <user_decl_header>EbAndCutOffTrackOut.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="RelieveEbReason" name="ZPRelieveEbReasonX" decorated_name="void RelieveEbReason(const UINT8_T, const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_RelieveEbReason (const UINT8_T ebType, const UINT32_T ebReason) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void RelieveEbReason (const UINT8_T ebType, const UINT32_T ebReason) </orig_declaration>
+         <user_decl_header>EbAndCutOffTrackOut.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRemoteDoorCtrlCmd" name="ZbEGetRemoteDoorCtrlCmdX" decorated_name="UINT8_T GetRemoteDoorCtrlCmd(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRemoteDoorCtrlCmd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRemoteDoorCtrlCmd () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseTacInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetPlatPSDInfo" name="ZOGetPlatPSDInfoX" decorated_name="const PlatStatusInfoStruct_T * GetPlatPSDInfo(UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE const PlatStatusInfoStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetPlatPSDInfo (UINT8_T * psdNum) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE const PlatStatusInfoStruct_T * GetPlatPSDInfo (UINT8_T * psdNum) </orig_declaration>
+         <return_expression>return (const PlatStatusInfoStruct_T *)0;</return_expression>
+         <user_decl_header>PackParseTacInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetRemoteOpenDoorCmdRe" name="ZbGSetRemoteOpenDoorCmdReX" decorated_name="void SetRemoteOpenDoorCmdRe(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetRemoteOpenDoorCmdRe (const UINT8_T openCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetRemoteOpenDoorCmdRe (const UINT8_T openCmd) </orig_declaration>
+         <user_decl_header>PackParseTacInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetPsdDevIdIBySegId" name="ZbDGetPsdDevIdIBySegIdX" decorated_name="UINT32_T GetPsdDevIdIBySegId(UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetPsdDevIdIBySegId (UINT16_T segId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetPsdDevIdIBySegId (UINT16_T segId) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>ShieldDoorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainMarshallingNum" name="ZbGGetTrainMarshallingNumX" decorated_name="UINT8_T GetTrainMarshallingNum(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainMarshallingNum (UINT8_T trainType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainMarshallingNum (UINT8_T trainType) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainType" name="ZMGetTrainTypeX" decorated_name="UINT8_T GetTrainType(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainType (const UINT32_T DevName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainType (const UINT32_T DevName) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainTypeConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainInitAtpLongDevName" name="ZbKGetTrainInitAtpLongDevNameX" decorated_name="UINT32_T GetTrainInitAtpLongDevName(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainInitAtpLongDevName (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTrainInitAtpLongDevName () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainInitData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainInitTrainLength" name="ZbHGetTrainInitTrainLengthX" decorated_name="UINT16_T GetTrainInitTrainLength(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainInitTrainLength (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainInitTrainLength () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainInitHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainInitTrainWorstEbAcc" name="ZbLGetTrainInitTrainWorstEbAccX" decorated_name="UINT8_T GetTrainInitTrainWorstEbAcc(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainInitTrainWorstEbAcc (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainInitTrainWorstEbAcc () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainInitHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSegDataStrulength" name="ZbEGetSegDataStrulengthX" decorated_name="UINT32_T GetSegDataStrulength(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSegDataStrulength (const UINT16_T segId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetSegDataStrulength (const UINT16_T segId) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>SegData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetPsdStatus" name="ZMGetPsdStatusX" decorated_name="UINT8_T GetPsdStatus(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetPsdStatus (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetPsdStatus () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PsdInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvCamDoorOperation" name="ZbGGetRcvCamDoorOperationX" decorated_name="UINT8_T GetRcvCamDoorOperation(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvCamDoorOperation (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvCamDoorOperation () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseCamData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpBackRunbackDisMax" name="ZbHGetAtpBackRunbackDisMaxX" decorated_name="UINT16_T GetAtpBackRunbackDisMax(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpBackRunbackDisMax (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetAtpBackRunbackDisMax () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>AtpBackRunConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRunDrvMode" name="ZNGetRunDrvModeX" decorated_name="UINT8_T GetRunDrvMode(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRunDrvMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRunDrvMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRunFamEmpower" name="ZbAGetRunFamEmpowerX" decorated_name="UINT8_T GetRunFamEmpower(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRunFamEmpower (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRunFamEmpower () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetRunFamEmpower" name="ZbASetRunFamEmpowerX" decorated_name="void SetRunFamEmpower(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetRunFamEmpower (const UINT8_T famEmpower) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetRunFamEmpower (const UINT8_T famEmpower) </orig_declaration>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRunFamEmpowerLast" name="ZbEGetRunFamEmpowerLastX" decorated_name="UINT8_T GetRunFamEmpowerLast(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRunFamEmpowerLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRunFamEmpowerLast () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetConfigCycleTime" name="ZbCGetConfigCycleTimeX" decorated_name="UINT16_T GetConfigCycleTime(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetConfigCycleTime (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetConfigCycleTime () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="DoorSupFunc" name="ZLDoorSupFuncX" decorated_name="void DoorSupFunc(void)">
+      <definition type="orig" source="code" file_id="1" line="61" col="6"/>
+    </Function>
+    <Function id="DoorCtrlFunc" name="ZMDoorCtrlFuncX" decorated_name="void DoorCtrlFunc(void)">
+      <definition type="orig" source="code" file_id="1" line="236" col="6"/>
+    </Function>
+    <Function id="OpenDoorTimer" name="ZNOpenDoorTimerX" decorated_name="void OpenDoorTimer(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_OpenDoorTimer (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void OpenDoorTimer (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="646" col="20"/>
+    </Function>
+    <Function id="DoorEnableOutCheck" name="ZbCDoorEnableOutCheckX" decorated_name="UINT8_T DoorEnableOutCheck(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_DoorEnableOutCheck (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T DoorEnableOutCheck (void) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="739" col="23"/>
+    </Function>
+    <Function id="RemoteDoorCtrlProcess" name="ZbFRemoteDoorCtrlProcessX" decorated_name="void RemoteDoorCtrlProcess(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_RemoteDoorCtrlProcess (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void RemoteDoorCtrlProcess (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="804" col="20"/>
+    </Function>
+    <Function id="GetTrainLocDoorRange" name="ZbEGetTrainLocDoorRangeX" decorated_name="UINT8_T GetTrainLocDoorRange(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1100" col="10"/>
+    </Function>
+    <Variable name="ZMg_AtpLogBuffX" id="g_AtpLogBuff" decorated_name="CHAR_T  g_AtpLogBuff[10000]" needed="true">
+      <stub_declaration complete="true">
+         <declaration>CHAR_T  CppTest_Variable_Auto_Stub_g_AtpLogBuff[10000]</declaration>
+         <orig_declaration>extern CHAR_T  g_AtpLogBuff[10000]</orig_declaration>
+         <return_expression> = {&apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;, &apos;\0&apos;}</return_expression>
+         <user_decl_header>ScpLog.h</user_decl_header>
+         <linkage_start>EXTERN_C_LINKAGE_START</linkage_start>
+         <linkage_end>EXTERN_C_LINKAGE_END</linkage_end>
+      </stub_declaration>
+    </Variable>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

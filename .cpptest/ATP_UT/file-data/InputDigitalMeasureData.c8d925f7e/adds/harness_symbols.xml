@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\InputDigitalMeasureData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLocalCabActive" name="ZbGGetTrainLocalCabActiveX" decorated_name="UINT8_T GetTrainLocalCabActive(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLocalCabActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainLocalCabActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainOppoCabActive" name="ZbFGetTrainOppoCabActiveX" decorated_name="UINT8_T GetTrainOppoCabActive(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainOppoCabActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainOppoCabActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitInMeaInfoData" name="ZbBInitInMeaInfoDataX" decorated_name="void InitInMeaInfoData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="22" col="6"/>
+    </Function>
+    <Function id="GetInMeaTrainIntegrity" name="ZbGGetInMeaTrainIntegrityX" decorated_name="UINT8_T GetInMeaTrainIntegrity(void)">
+      <definition type="orig" source="code" file_id="1" line="31" col="9"/>
+    </Function>
+    <Function id="SetInMeaTrainIntegrity" name="ZbGSetInMeaTrainIntegrityX" decorated_name="void SetInMeaTrainIntegrity(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="38" col="6"/>
+    </Function>
+    <Function id="GetInMeaTrainIntegrityLast" name="ZbKGetInMeaTrainIntegrityLastX" decorated_name="UINT8_T GetInMeaTrainIntegrityLast(void)">
+      <definition type="orig" source="code" file_id="1" line="45" col="9"/>
+    </Function>
+    <Function id="SetInMeaTrainIntegrityLast" name="ZbKSetInMeaTrainIntegrityLastX" decorated_name="void SetInMeaTrainIntegrityLast(void)">
+      <definition type="orig" source="code" file_id="1" line="52" col="6"/>
+    </Function>
+    <Function id="GetInMeaTrainIntegrityLast2" name="ZbLGetInMeaTrainIntegrityLast2X" decorated_name="UINT8_T GetInMeaTrainIntegrityLast2(void)">
+      <definition type="orig" source="code" file_id="1" line="58" col="9"/>
+    </Function>
+    <Function id="SetInMeaTrainIntegrityLast2" name="ZbLSetInMeaTrainIntegrityLast2X" decorated_name="void SetInMeaTrainIntegrityLast2(void)">
+      <definition type="orig" source="code" file_id="1" line="65" col="6"/>
+    </Function>
+    <Function id="GetInMeaDoorStatus" name="ZbCGetInMeaDoorStatusX" decorated_name="UINT8_T GetInMeaDoorStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="71" col="9"/>
+    </Function>
+    <Function id="SetInMeaDoorStatus" name="ZbCSetInMeaDoorStatusX" decorated_name="void SetInMeaDoorStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="78" col="6"/>
+    </Function>
+    <Function id="GetInMeaLeftDoorStatus" name="ZbGGetInMeaLeftDoorStatusX" decorated_name="UINT8_T GetInMeaLeftDoorStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="85" col="9"/>
+    </Function>
+    <Function id="SetInMeaLeftDoorStatus" name="ZbGSetInMeaLeftDoorStatusX" decorated_name="void SetInMeaLeftDoorStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="92" col="6"/>
+    </Function>
+    <Function id="GetInMeaRightDoorStatus" name="ZbHGetInMeaRightDoorStatusX" decorated_name="UINT8_T GetInMeaRightDoorStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="99" col="9"/>
+    </Function>
+    <Function id="SetInMeaRightDoorStatus" name="ZbHSetInMeaRightDoorStatusX" decorated_name="void SetInMeaRightDoorStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="107" col="6"/>
+    </Function>
+    <Function id="GetInMeaDoorStatusLast" name="ZbGGetInMeaDoorStatusLastX" decorated_name="UINT8_T GetInMeaDoorStatusLast(void)">
+      <definition type="orig" source="code" file_id="1" line="115" col="9"/>
+    </Function>
+    <Function id="SetInMeaDoorStatusLast" name="ZbGSetInMeaDoorStatusLastX" decorated_name="void SetInMeaDoorStatusLast(void)">
+      <definition type="orig" source="code" file_id="1" line="122" col="6"/>
+    </Function>
+    <Function id="GetInMeaADB" name="ZLGetInMeaADBX" decorated_name="UINT8_T GetInMeaADB(void)">
+      <definition type="orig" source="code" file_id="1" line="129" col="9"/>
+    </Function>
+    <Function id="SetInMeaADB" name="ZLSetInMeaADBX" decorated_name="void SetInMeaADB(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="136" col="6"/>
+    </Function>
+    <Function id="GetInMeaCutOffTraction" name="ZbGGetInMeaCutOffTractionX" decorated_name="UINT8_T GetInMeaCutOffTraction(void)">
+      <definition type="orig" source="code" file_id="1" line="142" col="9"/>
+    </Function>
+    <Function id="SetInMeaCutOffTraction" name="ZbGSetInMeaCutOffTractionX" decorated_name="void SetInMeaCutOffTraction(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="149" col="6"/>
+    </Function>
+    <Function id="GetInMeaEbStatus" name="ZbAGetInMeaEbStatusX" decorated_name="UINT8_T GetInMeaEbStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="156" col="9"/>
+    </Function>
+    <Function id="SetInMeaEbStatus" name="ZbASetInMeaEbStatusX" decorated_name="void SetInMeaEbStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="163" col="6"/>
+    </Function>
+    <Function id="GetInMeaBrakeHoldStatus" name="ZbHGetInMeaBrakeHoldStatusX" decorated_name="UINT8_T GetInMeaBrakeHoldStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="169" col="9"/>
+    </Function>
+    <Function id="SetInMeaBrakeHoldStatus" name="ZbHSetInMeaBrakeHoldStatusX" decorated_name="void SetInMeaBrakeHoldStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="176" col="6"/>
+    </Function>
+    <Function id="GetInMeaEbRelayChk" name="ZbCGetInMeaEbRelayChkX" decorated_name="UINT8_T GetInMeaEbRelayChk(void)">
+      <definition type="orig" source="code" file_id="1" line="183" col="9"/>
+    </Function>
+    <Function id="SetInMeaEbRelayChk" name="ZbCSetInMeaEbRelayChkX" decorated_name="void SetInMeaEbRelayChk(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="190" col="6"/>
+    </Function>
+    <Function id="GetInMeaZeroSpdRelayChk" name="ZbHGetInMeaZeroSpdRelayChkX" decorated_name="UINT8_T GetInMeaZeroSpdRelayChk(void)">
+      <definition type="orig" source="code" file_id="1" line="196" col="9"/>
+    </Function>
+    <Function id="SetInMeaZeroSpdRelayChk" name="ZbHSetInMeaZeroSpdRelayChkX" decorated_name="void SetInMeaZeroSpdRelayChk(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="202" col="6"/>
+    </Function>
+    <Function id="GetInMeaPullEnableRelayChk" name="ZbKGetInMeaPullEnableRelayChkX" decorated_name="UINT8_T GetInMeaPullEnableRelayChk(void)">
+      <definition type="orig" source="code" file_id="1" line="208" col="9"/>
+    </Function>
+    <Function id="SetInMeaPullEnableRelayChk" name="ZbKSetInMeaPullEnableRelayChkX" decorated_name="void SetInMeaPullEnableRelayChk(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="215" col="6"/>
+    </Function>
+    <Function id="GetInMeaAssureBtn" name="ZbBGetInMeaAssureBtnX" decorated_name="UINT8_T GetInMeaAssureBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="222" col="9"/>
+    </Function>
+    <Function id="SetInMeaAssureBtn" name="ZbBSetInMeaAssureBtnX" decorated_name="void SetInMeaAssureBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="228" col="6"/>
+    </Function>
+    <Function id="GetInMeaAssureBtnLast" name="ZbFGetInMeaAssureBtnLastX" decorated_name="UINT8_T GetInMeaAssureBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="234" col="9"/>
+    </Function>
+    <Function id="SetInMeaAssureBtnLast" name="ZbFSetInMeaAssureBtnLastX" decorated_name="void SetInMeaAssureBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="240" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalAssureBtn" name="ZbGGetInMeaLocalAssureBtnX" decorated_name="UINT8_T GetInMeaLocalAssureBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="246" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalAssureBtn" name="ZbGSetInMeaLocalAssureBtnX" decorated_name="void SetInMeaLocalAssureBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="253" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoAssureBtn" name="ZbFGetInMeaOppoAssureBtnX" decorated_name="UINT8_T GetInMeaOppoAssureBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="260" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoAssureBtn" name="ZbFSetInMeaOppoAssureBtnX" decorated_name="void SetInMeaOppoAssureBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="267" col="6"/>
+    </Function>
+    <Function id="GetInMeaModeUpTag" name="ZbBGetInMeaModeUpTagX" decorated_name="UINT8_T GetInMeaModeUpTag(void)">
+      <definition type="orig" source="code" file_id="1" line="273" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalModeUpTag" name="ZbGSetInMeaLocalModeUpTagX" decorated_name="void SetInMeaLocalModeUpTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="280" col="6"/>
+    </Function>
+    <Function id="GetInMeaModeUpTagLast" name="ZbFGetInMeaModeUpTagLastX" decorated_name="UINT8_T GetInMeaModeUpTagLast(void)">
+      <definition type="orig" source="code" file_id="1" line="287" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalModeUpTagLast" name="ZbKSetInMeaLocalModeUpTagLastX" decorated_name="void SetInMeaLocalModeUpTagLast(void)">
+      <definition type="orig" source="code" file_id="1" line="294" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalDoorEnBtnLast" name="ZbKGetInMeaLocalDoorEnBtnLastX" decorated_name="UINT8_T GetInMeaLocalDoorEnBtnLast(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaLocalDoorEnBtnLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaLocalDoorEnBtnLast (void) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="300" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalDoorEnBtnLast" name="ZbKSetInMeaLocalDoorEnBtnLastX" decorated_name="void SetInMeaLocalDoorEnBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="307" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoDoorEnBtnLast" name="ZbJGetInMeaOppoDoorEnBtnLastX" decorated_name="UINT8_T GetInMeaOppoDoorEnBtnLast(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaOppoDoorEnBtnLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaOppoDoorEnBtnLast (void) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="313" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoDoorEnBtnLast" name="ZbJSetInMeaOppoDoorEnBtnLastX" decorated_name="void SetInMeaOppoDoorEnBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="320" col="6"/>
+    </Function>
+    <Function id="GetInMeaModeDownTag" name="ZbDGetInMeaModeDownTagX" decorated_name="UINT8_T GetInMeaModeDownTag(void)">
+      <definition type="orig" source="code" file_id="1" line="326" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalModeDownTag" name="ZbISetInMeaLocalModeDownTagX" decorated_name="void SetInMeaLocalModeDownTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="333" col="6"/>
+    </Function>
+    <Function id="GetInMeaModeDownTagLast" name="ZbHGetInMeaModeDownTagLastX" decorated_name="UINT8_T GetInMeaModeDownTagLast(void)">
+      <definition type="orig" source="code" file_id="1" line="340" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalModeDownTagLast" name="ZbMSetInMeaLocalModeDownTagLastX" decorated_name="void SetInMeaLocalModeDownTagLast(void)">
+      <definition type="orig" source="code" file_id="1" line="347" col="6"/>
+    </Function>
+    <Function id="GetInMeaArBtn" name="ZNGetInMeaArBtnX" decorated_name="UINT8_T GetInMeaArBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="354" col="9"/>
+    </Function>
+    <Function id="SetInMeaArBtn" name="ZNSetInMeaArBtnX" decorated_name="void SetInMeaArBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="360" col="6"/>
+    </Function>
+    <Function id="GetInMeaArBtnLast" name="ZbBGetInMeaArBtnLastX" decorated_name="UINT8_T GetInMeaArBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="367" col="9"/>
+    </Function>
+    <Function id="SetInMeaArBtnLast" name="ZbBSetInMeaArBtnLastX" decorated_name="void SetInMeaArBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="373" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalArBtn" name="ZbCGetInMeaLocalArBtnX" decorated_name="UINT8_T GetInMeaLocalArBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="379" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalArBtn" name="ZbCSetInMeaLocalArBtnX" decorated_name="void SetInMeaLocalArBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="386" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoArBtn" name="ZbBGetInMeaOppoArBtnX" decorated_name="UINT8_T GetInMeaOppoArBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="393" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoArBtn" name="ZbBSetInMeaOppoArBtnX" decorated_name="void SetInMeaOppoArBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="400" col="6"/>
+    </Function>
+    <Function id="GetInMeaRightDoorOpenBtn" name="ZbIGetInMeaRightDoorOpenBtnX" decorated_name="UINT8_T GetInMeaRightDoorOpenBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="407" col="9"/>
+    </Function>
+    <Function id="SetInMeaRightDoorOpenBtn" name="ZbISetInMeaRightDoorOpenBtnX" decorated_name="void SetInMeaRightDoorOpenBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="414" col="6"/>
+    </Function>
+    <Function id="GetInMeaRightDoorCloseBtn" name="ZbJGetInMeaRightDoorCloseBtnX" decorated_name="UINT8_T GetInMeaRightDoorCloseBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="421" col="9"/>
+    </Function>
+    <Function id="SetInMeaRightDoorCloseBtn" name="ZbJSetInMeaRightDoorCloseBtnX" decorated_name="void SetInMeaRightDoorCloseBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="428" col="6"/>
+    </Function>
+    <Function id="GetInMeaLeftDoorOpenBtn" name="ZbHGetInMeaLeftDoorOpenBtnX" decorated_name="UINT8_T GetInMeaLeftDoorOpenBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="435" col="9"/>
+    </Function>
+    <Function id="SetInMeaLeftDoorOpenBtn" name="ZbHSetInMeaLeftDoorOpenBtnX" decorated_name="void SetInMeaLeftDoorOpenBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="443" col="6"/>
+    </Function>
+    <Function id="GetInMeaLeftDoorCloseBtn" name="ZbIGetInMeaLeftDoorCloseBtnX" decorated_name="UINT8_T GetInMeaLeftDoorCloseBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="451" col="9"/>
+    </Function>
+    <Function id="SetInMeaLeftDoorCloseBtn" name="ZbISetInMeaLeftDoorCloseBtnX" decorated_name="void SetInMeaLeftDoorCloseBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="459" col="6"/>
+    </Function>
+    <Function id="GetInMeaDirForwardBtn" name="ZbFGetInMeaDirForwardBtnX" decorated_name="UINT8_T GetInMeaDirForwardBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="466" col="9"/>
+    </Function>
+    <Function id="SetInMeaDirForwardBtn" name="ZbFSetInMeaDirForwardBtnX" decorated_name="void SetInMeaDirForwardBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="472" col="6"/>
+    </Function>
+    <Function id="GetInMeaDirBackBtn" name="ZbCGetInMeaDirBackBtnX" decorated_name="UINT8_T GetInMeaDirBackBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="478" col="9"/>
+    </Function>
+    <Function id="SetInMeaDirBackBtn" name="ZbCSetInMeaDirBackBtnX" decorated_name="void SetInMeaDirBackBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="484" col="6"/>
+    </Function>
+    <Function id="GetInMeaWorkOpenTag" name="ZbDGetInMeaWorkOpenTagX" decorated_name="UINT8_T GetInMeaWorkOpenTag(void)">
+      <definition type="orig" source="code" file_id="1" line="490" col="9"/>
+    </Function>
+    <Function id="SetInMeaWorkOpenTag" name="ZbDSetInMeaWorkOpenTagX" decorated_name="void SetInMeaWorkOpenTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="496" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalKey" name="ZbAGetInMeaLocalKeyX" decorated_name="UINT8_T GetInMeaLocalKey(void)">
+      <definition type="orig" source="code" file_id="1" line="503" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalKey" name="ZbASetInMeaLocalKeyX" decorated_name="void SetInMeaLocalKey(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="509" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoKey" name="ZPGetInMeaOppoKeyX" decorated_name="UINT8_T GetInMeaOppoKey(void)">
+      <definition type="orig" source="code" file_id="1" line="515" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoKey" name="ZPSetInMeaOppoKeyX" decorated_name="void SetInMeaOppoKey(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="521" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoWorkOpenTag" name="ZbHGetInMeaOppoWorkOpenTagX" decorated_name="UINT8_T GetInMeaOppoWorkOpenTag(void)">
+      <definition type="orig" source="code" file_id="1" line="528" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoWorkOpenTag" name="ZbHSetInMeaOppoWorkOpenTagX" decorated_name="void SetInMeaOppoWorkOpenTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="535" col="6"/>
+    </Function>
+    <Function id="GetInMeaAtoRelease" name="ZbCGetInMeaAtoReleaseX" decorated_name="UINT8_T GetInMeaAtoRelease(void)">
+      <definition type="orig" source="code" file_id="1" line="542" col="9"/>
+    </Function>
+    <Function id="SetInMeaAtoRelease" name="ZbCSetInMeaAtoReleaseX" decorated_name="void SetInMeaAtoRelease(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="548" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalDoorEnBtn" name="ZbGGetInMeaLocalDoorEnBtnX" decorated_name="UINT8_T GetInMeaLocalDoorEnBtn(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaLocalDoorEnBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaLocalDoorEnBtn (void) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="555" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalDoorEnBtn" name="ZbGSetInMeaLocalDoorEnBtnX" decorated_name="void SetInMeaLocalDoorEnBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="562" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoDoorEnBtn" name="ZbFGetInMeaOppoDoorEnBtnX" decorated_name="UINT8_T GetInMeaOppoDoorEnBtn(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaOppoDoorEnBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaOppoDoorEnBtn (void) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="568" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoDoorEnBtn" name="ZbFSetInMeaOppoDoorEnBtnX" decorated_name="void SetInMeaOppoDoorEnBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="575" col="6"/>
+    </Function>
+    <Function id="GetInMeaDoorEnBtn" name="ZbBGetInMeaDoorEnBtnX" decorated_name="UINT8_T GetInMeaDoorEnBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="581" col="9"/>
+    </Function>
+    <Function id="GetInMeaDoorEnBtnLast" name="ZbFGetInMeaDoorEnBtnLastX" decorated_name="UINT8_T GetInMeaDoorEnBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="607" col="9"/>
+    </Function>
+    <Function id="GetInMeaOppoLifeState" name="ZbFGetInMeaOppoLifeStateX" decorated_name="UINT8_T GetInMeaOppoLifeState(void)">
+      <definition type="orig" source="code" file_id="1" line="637" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoLifeState" name="ZbFSetInMeaOppoLifeStateX" decorated_name="void SetInMeaOppoLifeState(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="644" col="6"/>
+    </Function>
+    <Function id="GetInMeaBrakeFailure" name="ZbEGetInMeaBrakeFailureX" decorated_name="UINT8_T GetInMeaBrakeFailure(void)">
+      <definition type="orig" source="code" file_id="1" line="650" col="9"/>
+    </Function>
+    <Function id="SetInMeaBrakeFailure" name="ZbESetInMeaBrakeFailureX" decorated_name="void SetInMeaBrakeFailure(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="656" col="6"/>
+    </Function>
+    <Function id="GetInMeaEUMTag" name="ZOGetInMeaEUMTagX" decorated_name="UINT8_T GetInMeaEUMTag(void)">
+      <definition type="orig" source="code" file_id="1" line="662" col="9"/>
+    </Function>
+    <Function id="SetInMeaEUMTag" name="ZOSetInMeaEUMTagX" decorated_name="void SetInMeaEUMTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="669" col="6"/>
+    </Function>
+    <Function id="GetInMeaSleepBtn" name="ZbAGetInMeaSleepBtnX" decorated_name="UINT8_T GetInMeaSleepBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="676" col="9"/>
+    </Function>
+    <Function id="SetInMeaSleepBtn" name="ZbASetInMeaSleepBtnX" decorated_name="void SetInMeaSleepBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="682" col="6"/>
+    </Function>
+    <Function id="GetInMeaAweekBtn" name="ZbAGetInMeaAweekBtnX" decorated_name="UINT8_T GetInMeaAweekBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="688" col="9"/>
+    </Function>
+    <Function id="SetInMeaAweekBtn" name="ZbASetInMeaAweekBtnX" decorated_name="void SetInMeaAweekBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="694" col="6"/>
+    </Function>
+    <Function id="GetInMeaLeftDoorEnableSta" name="ZbJGetInMeaLeftDoorEnableStaX" decorated_name="UINT8_T GetInMeaLeftDoorEnableSta(void)">
+      <definition type="orig" source="code" file_id="1" line="702" col="9"/>
+    </Function>
+    <Function id="SetInMeaLeftDoorEnableSta" name="ZbJSetInMeaLeftDoorEnableStaX" decorated_name="void SetInMeaLeftDoorEnableSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="709" col="6"/>
+    </Function>
+    <Function id="GetInMeaRightDoorEnableSta" name="ZbKGetInMeaRightDoorEnableStaX" decorated_name="UINT8_T GetInMeaRightDoorEnableSta(void)">
+      <definition type="orig" source="code" file_id="1" line="715" col="9"/>
+    </Function>
+    <Function id="SetInMeaRightDoorEnableSta" name="ZbKSetInMeaRightDoorEnableStaX" decorated_name="void SetInMeaRightDoorEnableSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="722" col="6"/>
+    </Function>
+    <Function id="GetInMeaDoorUnlocking" name="ZbFGetInMeaDoorUnlockingX" decorated_name="UINT8_T GetInMeaDoorUnlocking(void)">
+      <definition type="orig" source="code" file_id="1" line="729" col="9"/>
+    </Function>
+    <Function id="SetInMeaDoorUnlocking" name="ZbFSetInMeaDoorUnlockingX" decorated_name="void SetInMeaDoorUnlocking(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="736" col="6"/>
+    </Function>
+    <Function id="GetInMeaEbReleaseNotFam" name="ZbHGetInMeaEbReleaseNotFamX" decorated_name="UINT8_T GetInMeaEbReleaseNotFam(void)">
+      <definition type="orig" source="code" file_id="1" line="743" col="9"/>
+    </Function>
+    <Function id="SetInMeaEbReleaseNotFam" name="ZbHSetInMeaEbReleaseNotFamX" decorated_name="void SetInMeaEbReleaseNotFam(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="750" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalCtrlHandleZero" name="ZbLGetInMeaLocalCtrlHandleZeroX" decorated_name="UINT8_T GetInMeaLocalCtrlHandleZero(void)">
+      <definition type="orig" source="code" file_id="1" line="757" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalCtrlHandleZero" name="ZbLSetInMeaLocalCtrlHandleZeroX" decorated_name="void SetInMeaLocalCtrlHandleZero(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="763" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoCtrlHandleZero" name="ZbKGetInMeaOppoCtrlHandleZeroX" decorated_name="UINT8_T GetInMeaOppoCtrlHandleZero(void)">
+      <definition type="orig" source="code" file_id="1" line="769" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoCtrlHandleZero" name="ZbKSetInMeaOppoCtrlHandleZeroX" decorated_name="void SetInMeaOppoCtrlHandleZero(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="775" col="6"/>
+    </Function>
+    <Function id="GetInMeaEsbBtn" name="ZOGetInMeaEsbBtnX" decorated_name="UINT8_T GetInMeaEsbBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="781" col="9"/>
+    </Function>
+    <Function id="SetInMeaEsbBtn" name="ZOSetInMeaEsbBtnX" decorated_name="void SetInMeaEsbBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="787" col="6"/>
+    </Function>
+    <Function id="GetInMeaSpksBtn" name="ZPGetInMeaSpksBtnX" decorated_name="UINT8_T GetInMeaSpksBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="793" col="9"/>
+    </Function>
+    <Function id="SetInMeaSpksBtn" name="ZPSetInMeaSpksBtnX" decorated_name="void SetInMeaSpksBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="800" col="6"/>
+    </Function>
+    <Function id="GetInMeaWhlSetBtn" name="ZbBGetInMeaWhlSetBtnX" decorated_name="UINT8_T GetInMeaWhlSetBtn(void)">
+      <definition type="orig" source="code" file_id="1" line="807" col="9"/>
+    </Function>
+    <Function id="SetInMeaWhlSetBtn" name="ZbBSetInMeaWhlSetBtnX" decorated_name="void SetInMeaWhlSetBtn(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="813" col="6"/>
+    </Function>
+    <Function id="GetInMeaWhlSetBtnLast" name="ZbFGetInMeaWhlSetBtnLastX" decorated_name="UINT8_T GetInMeaWhlSetBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="820" col="9"/>
+    </Function>
+    <Function id="SetInMeaWhlSetBtnLast" name="ZbFSetInMeaWhlSetBtnLastX" decorated_name="void SetInMeaWhlSetBtnLast(void)">
+      <definition type="orig" source="code" file_id="1" line="826" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalMCoupConSta" name="ZbIGetInMeaLocalMCoupConStaX" decorated_name="UINT8_T GetInMeaLocalMCoupConSta(void)">
+      <definition type="orig" source="code" file_id="1" line="832" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalMCoupConSta" name="ZbISetInMeaLocalMCoupConStaX" decorated_name="void SetInMeaLocalMCoupConSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="838" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoMCoupConSta" name="ZbHGetInMeaOppoMCoupConStaX" decorated_name="UINT8_T GetInMeaOppoMCoupConSta(void)">
+      <definition type="orig" source="code" file_id="1" line="845" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoMCoupConSta" name="ZbHSetInMeaOppoMCoupConStaX" decorated_name="void SetInMeaOppoMCoupConSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="851" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalECoupConSta" name="ZbIGetInMeaLocalECoupConStaX" decorated_name="UINT8_T GetInMeaLocalECoupConSta(void)">
+      <definition type="orig" source="code" file_id="1" line="857" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalECoupConSta" name="ZbISetInMeaLocalECoupConStaX" decorated_name="void SetInMeaLocalECoupConSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="863" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalECoupConStaLast" name="ZbMGetInMeaLocalECoupConStaLastX" decorated_name="UINT8_T GetInMeaLocalECoupConStaLast(void)">
+      <definition type="orig" source="code" file_id="1" line="869" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalECoupConStaLast" name="ZbMSetInMeaLocalECoupConStaLastX" decorated_name="void SetInMeaLocalECoupConStaLast(void)">
+      <definition type="orig" source="code" file_id="1" line="875" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoECoupConSta" name="ZbHGetInMeaOppoECoupConStaX" decorated_name="UINT8_T GetInMeaOppoECoupConSta(void)">
+      <definition type="orig" source="code" file_id="1" line="881" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoECoupConSta" name="ZbHSetInMeaOppoECoupConStaX" decorated_name="void SetInMeaOppoECoupConSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="887" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalECoupTelSta" name="ZbIGetInMeaLocalECoupTelStaX" decorated_name="UINT8_T GetInMeaLocalECoupTelSta(void)">
+      <definition type="orig" source="code" file_id="1" line="892" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalECoupTelSta" name="ZbISetInMeaLocalECoupTelStaX" decorated_name="void SetInMeaLocalECoupTelSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="898" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoECoupTelSta" name="ZbHGetInMeaOppoECoupTelStaX" decorated_name="UINT8_T GetInMeaOppoECoupTelSta(void)">
+      <definition type="orig" source="code" file_id="1" line="903" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoECoupTelSta" name="ZbHSetInMeaOppoECoupTelStaX" decorated_name="void SetInMeaOppoECoupTelSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="909" col="6"/>
+    </Function>
+    <Function id="GetInMeaLocalMCoupCenSta" name="ZbIGetInMeaLocalMCoupCenStaX" decorated_name="UINT8_T GetInMeaLocalMCoupCenSta(void)">
+      <definition type="orig" source="code" file_id="1" line="914" col="9"/>
+    </Function>
+    <Function id="SetInMeaLocalMCoupCenSta" name="ZbISetInMeaLocalMCoupCenStaX" decorated_name="void SetInMeaLocalMCoupCenSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="920" col="6"/>
+    </Function>
+    <Function id="GetInMeaOppoMCoupCenSta" name="ZbHGetInMeaOppoMCoupCenStaX" decorated_name="UINT8_T GetInMeaOppoMCoupCenSta(void)">
+      <definition type="orig" source="code" file_id="1" line="926" col="9"/>
+    </Function>
+    <Function id="SetInMeaOppoMCoupCenSta" name="ZbHSetInMeaOppoMCoupCenStaX" decorated_name="void SetInMeaOppoMCoupCenSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="932" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

@@ -1,0 +1,1813 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="-3399826860484268947 7439007155873996951 2419089170202296098 2420008616777425594 2280983601714526128 7439007155873996206 7439007155873998838 8280707944523972800 8280707944523972706 7439007155873996112 341804384815388165" uniqueId2MainId="CPP://6179751836593946049 CPP://-8491641153857428519 CPP://1073791744712732813 CPP://1073791758025288028 CPP://2762465901126116297 CPP://-8491641153857428488 CPP://-8491641153857428705 CPP://-6061359862291126454 CPP://-6061359862291126423 CPP://-8491641153857428457 CPP://-2627560879395168520" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1530;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide" total="12" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;588;JumpPrtFunc" total="68602" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;84;BackPrtFunc" total="128" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1292;EscDoorHibFunc" total="21" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1434;SetTrainRightDoorHib" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1143;GetBoardIndicatorCtrlCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2188;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|StopRequestTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1055;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance" total="5" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1393;GetTrainLeftDoorHib" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;567;SpksPrtFunc" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2039;GetLastFrontWashing" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1450;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation" total="6" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1960;GetWashCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1014;IsInJumpWindow" total="5" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2241;CarWashFunc" total="132161600" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1999;SetWorkingRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1136;GetATPCycleTime" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;984;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckJumpProtection" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2093;GetLastRearWashing" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2201;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|RunRequestTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2583;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1246;DerailPrtFunc" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1421;GetTrainRightDoorHib" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2147;GetWiperCenteringCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2012;GetCarWashMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2052;SetLastFrontWashing" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2119;GetRearWashFinish" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2078;SetFrontWashFinish" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1920;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|GetForwardBackFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2227;SetCarWashAtcFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2160;SetWiperCenteringCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2175;GetRequestTimerCount" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1406;SetTrainLeftDoorHib" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1379;SetTrainDoorHib" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1150;SetBoardIndicatorCtrlCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1651;DoorHibFunc" total="103" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1178;SetBoardIndicatorTwinkSta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2106;SetLastRearWashing" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;970;GetForwardtmpFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1367;GetTrainDoorHib" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1276;IsAnyOneEscDoorStaLose" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1986;GetWorkingRequest" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1945;InitCarWashStru" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1931;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|SetForwardBackFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;489;TacEbPrtFunc" total="13" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1228;BrkFailFunc" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;539;EsbPrtFunc" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;429;OverSpdFunc" total="10" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1627;GetDoorUnlockingReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2025;SetCarWashMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1122;GetBoardIndicatorTwinkTime" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1973;SetWashCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;318;RollPrtFunc" total="90" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2132;SetRearWashFinish" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1639;SetDoorUnlockingReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2065;GetFrontWashFinish" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2214;GetCarWashAtcFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1164;GetBoardIndicatorTwinkSta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1185;BoardingIndicatorFunc" total="4" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1945;InitCarWashStru">
+      <CtxCvg ctx="-3399826860484268947" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2419089170202296098" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996951" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2420008616777425594" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2280983601714526128" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996206" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873998838" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="8280707944523972800" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="341804384815388165" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996112" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="8280707944523972706" ids="InitCarWashStru" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;489;TacEbPrtFunc" show="true">
+      <CvgElem id="TacEbPrtFunc" pathsNo="13">
+        <BlckInfo id="1" blckTrans="2;13">
+          <PathBlckLoc locStartln="492" locStartPos="1" locEndLn="495" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="499" locStartPos="6" locEndLn="499" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5">
+          <PathBlckLoc locStartln="502" locStartPos="3" locEndLn="502" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="507" locStartPos="3" locEndLn="507" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="510" locStartPos="6" locEndLn="510" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="8">
+          <PathBlckLoc locStartln="513" locStartPos="3" locEndLn="513" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="518" locStartPos="3" locEndLn="518" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;12">
+          <PathBlckLoc locStartln="522" locStartPos="6" locEndLn="522" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;11">
+          <PathBlckLoc locStartln="526" locStartPos="3" locEndLn="530" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="533" locStartPos="4" locEndLn="533" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="535" locStartPos="2" locEndLn="535" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="536" locStartPos="1" locEndLn="536" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="537" locStartPos="0" locEndLn="537" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2201;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|RunRequestTimer" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|RunRequestTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2203" locStartPos="1" locEndLn="2203" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2132;SetRearWashFinish" show="true">
+      <CvgElem id="SetRearWashFinish" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2134" locStartPos="1" locEndLn="2134" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1122;GetBoardIndicatorTwinkTime" show="true">
+      <CvgElem id="GetBoardIndicatorTwinkTime" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1125" locStartPos="1" locEndLn="1125" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1393;GetTrainLeftDoorHib" show="true">
+      <CvgElem id="GetTrainLeftDoorHib" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1396" locStartPos="1" locEndLn="1396" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1185;BoardingIndicatorFunc" show="true">
+      <CvgElem id="BoardingIndicatorFunc" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;8">
+          <PathBlckLoc locStartln="1188" locStartPos="5" locEndLn="1188" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;6">
+          <PathBlckLoc locStartln="1191" locStartPos="6" locEndLn="1191" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="1194" locStartPos="3" locEndLn="1198" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="1201" locStartPos="4" locEndLn="1202" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1204" locStartPos="2" locEndLn="1204" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1208" locStartPos="3" locEndLn="1209" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="1211" locStartPos="1" locEndLn="1211" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="1215" locStartPos="2" locEndLn="1216" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="">
+          <PathBlckLoc locStartln="1218" locStartPos="0" locEndLn="1218" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1986;GetWorkingRequest" show="true">
+      <CvgElem id="GetWorkingRequest" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1988" locStartPos="1" locEndLn="1988" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1999;SetWorkingRequest" show="true">
+      <CvgElem id="SetWorkingRequest" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2001" locStartPos="1" locEndLn="2001" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2052;SetLastFrontWashing" show="true">
+      <CvgElem id="SetLastFrontWashing" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2054" locStartPos="1" locEndLn="2054" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2078;SetFrontWashFinish" show="true">
+      <CvgElem id="SetFrontWashFinish" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2080" locStartPos="1" locEndLn="2080" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2214;GetCarWashAtcFault" show="true">
+      <CvgElem id="GetCarWashAtcFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2216" locStartPos="1" locEndLn="2216" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1651;DoorHibFunc" show="true">
+      <CvgElem id="DoorHibFunc" pathsNo="103">
+        <BlckInfo id="1" blckTrans="2;65">
+          <PathBlckLoc locStartln="1654" locStartPos="1" locEndLn="1660" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;43">
+          <PathBlckLoc locStartln="1663" locStartPos="6" locEndLn="1663" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;38">
+          <PathBlckLoc locStartln="1666" locStartPos="7" locEndLn="1666" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;33">
+          <PathBlckLoc locStartln="1669" locStartPos="4" locEndLn="1673" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;16">
+          <PathBlckLoc locStartln="1675" locStartPos="9" locEndLn="1675" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="1678" locStartPos="6" locEndLn="1681" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="1683" locStartPos="7" locEndLn="1683" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="1687" locStartPos="7" locEndLn="1687" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;11">
+          <PathBlckLoc locStartln="1691" locStartPos="10" locEndLn="1691" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12">
+          <PathBlckLoc locStartln="1693" locStartPos="7" locEndLn="1693" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="1697" locStartPos="7" locEndLn="1697" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;14">
+          <PathBlckLoc locStartln="1701" locStartPos="10" locEndLn="1701" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="15">
+          <PathBlckLoc locStartln="1703" locStartPos="7" locEndLn="1703" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="1707" locStartPos="7" locEndLn="1707" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="32">
+          <PathBlckLoc locStartln="1709" locStartPos="6" locEndLn="1717" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="31">
+          <PathBlckLoc locStartln="1727" locStartPos="7" locEndLn="1732" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="1724" locStartPos="10" locEndLn="1724" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20;21">
+          <PathBlckLoc locStartln="1738" locStartPos="7" locEndLn="1743" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19;29">
+          <PathBlckLoc locStartln="1735" locStartPos="15" locEndLn="1735" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="1749" locStartPos="8" locEndLn="1749" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="22">
+          <PathBlckLoc locStartln="1745" locStartPos="8" locEndLn="1745" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="25">
+          <PathBlckLoc locStartln="1755" locStartPos="8" locEndLn="1755" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23;24">
+          <PathBlckLoc locStartln="1753" locStartPos="11" locEndLn="1753" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26;27">
+          <PathBlckLoc locStartln="1763" locStartPos="11" locEndLn="1763" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25">
+          <PathBlckLoc locStartln="1759" locStartPos="8" locEndLn="1759" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28">
+          <PathBlckLoc locStartln="1769" locStartPos="8" locEndLn="1769" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="28">
+          <PathBlckLoc locStartln="1765" locStartPos="8" locEndLn="1765" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="31">
+          <PathBlckLoc locStartln="1786" locStartPos="7" locEndLn="1786" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="31">
+          <PathBlckLoc locStartln="1771" locStartPos="7" locEndLn="1779" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="1788" locStartPos="5" locEndLn="1788" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35;36">
+          <PathBlckLoc locStartln="1797" locStartPos="8" locEndLn="1797" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="37">
+          <PathBlckLoc locStartln="1799" locStartPos="5" locEndLn="1799" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="34">
+          <PathBlckLoc locStartln="1789" locStartPos="4" locEndLn="1789" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34">
+          <PathBlckLoc locStartln="1791" locStartPos="4" locEndLn="1793" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="39;40">
+          <PathBlckLoc locStartln="1811" locStartPos="4" locEndLn="1816" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="41">
+          <PathBlckLoc locStartln="1818" locStartPos="5" locEndLn="1819" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37">
+          <PathBlckLoc locStartln="1802" locStartPos="4" locEndLn="1804" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="42">
+          <PathBlckLoc locStartln="1805" locStartPos="3" locEndLn="1805" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="42" blckTrans="62">
+          <PathBlckLoc locStartln="1833" locStartPos="2" locEndLn="1833" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="43" blckTrans="44;60">
+          <PathBlckLoc locStartln="1834" locStartPos="11" locEndLn="1834" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="41">
+          <PathBlckLoc locStartln="1822" locStartPos="4" locEndLn="1824" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="41" blckTrans="42">
+          <PathBlckLoc locStartln="1827" locStartPos="4" locEndLn="1831" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="46" blckTrans="51">
+          <PathBlckLoc locStartln="1855" locStartPos="5" locEndLn="1855" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="47" blckTrans="48;49">
+          <PathBlckLoc locStartln="1858" locStartPos="13" locEndLn="1858" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="44" blckTrans="45;58">
+          <PathBlckLoc locStartln="1837" locStartPos="3" locEndLn="1847" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="45" blckTrans="46;47">
+          <PathBlckLoc locStartln="1850" locStartPos="4" locEndLn="1853" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="51" blckTrans="52;53">
+          <PathBlckLoc locStartln="1868" locStartPos="8" locEndLn="1868" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="49" blckTrans="51">
+          <PathBlckLoc locStartln="1863" locStartPos="4" locEndLn="1865" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="48" blckTrans="51">
+          <PathBlckLoc locStartln="1860" locStartPos="5" locEndLn="1860" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="55" blckTrans="57">
+          <PathBlckLoc locStartln="1878" locStartPos="4" locEndLn="1880" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="54" blckTrans="57">
+          <PathBlckLoc locStartln="1875" locStartPos="5" locEndLn="1875" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="53" blckTrans="54;55">
+          <PathBlckLoc locStartln="1873" locStartPos="13" locEndLn="1873" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="52" blckTrans="57">
+          <PathBlckLoc locStartln="1870" locStartPos="5" locEndLn="1870" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="59" blckTrans="62">
+          <PathBlckLoc locStartln="1889" locStartPos="3" locEndLn="1889" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="58" blckTrans="59">
+          <PathBlckLoc locStartln="1885" locStartPos="3" locEndLn="1887" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="57" blckTrans="59">
+          <PathBlckLoc locStartln="1882" locStartPos="4" locEndLn="1882" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="63" blckTrans="64">
+          <PathBlckLoc locStartln="1898" locStartPos="3" locEndLn="1898" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="62" blckTrans="63;64">
+          <PathBlckLoc locStartln="1896" locStartPos="6" locEndLn="1896" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="60" blckTrans="62">
+          <PathBlckLoc locStartln="1892" locStartPos="2" locEndLn="1894" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="64" blckTrans="66">
+          <PathBlckLoc locStartln="1900" locStartPos="1" locEndLn="1900" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="65" blckTrans="66">
+          <PathBlckLoc locStartln="1904" locStartPos="2" locEndLn="1910" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="66" blckTrans="">
+          <PathBlckLoc locStartln="1912" locStartPos="0" locEndLn="1912" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2241;CarWashFunc" show="true">
+      <CvgElem id="CarWashFunc" pathsNo="132161600">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="2244" locStartPos="1" locEndLn="2254" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="10">
+          <PathBlckLoc locStartln="2256" locStartPos="2" locEndLn="2256" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="2258" locStartPos="10" locEndLn="2258" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="10">
+          <PathBlckLoc locStartln="2260" locStartPos="2" locEndLn="2260" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="2262" locStartPos="10" locEndLn="2262" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="10">
+          <PathBlckLoc locStartln="2264" locStartPos="2" locEndLn="2264" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="10">
+          <PathBlckLoc locStartln="2267" locStartPos="1" locEndLn="2269" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;98">
+          <PathBlckLoc locStartln="2273" locStartPos="1" locEndLn="2284" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13;23;33;43">
+          <PathBlckLoc locStartln="2286" locStartPos="10" locEndLn="2286" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;21">
+          <PathBlckLoc locStartln="2290" locStartPos="7" locEndLn="2290" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;16">
+          <PathBlckLoc locStartln="2293" locStartPos="8" locEndLn="2293" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="20">
+          <PathBlckLoc locStartln="2295" locStartPos="5" locEndLn="2297" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="19">
+          <PathBlckLoc locStartln="2304" locStartPos="6" locEndLn="2308" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="2302" locStartPos="9" locEndLn="2302" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="2315" locStartPos="4" locEndLn="2315" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19">
+          <PathBlckLoc locStartln="2312" locStartPos="6" locEndLn="2313" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="46">
+          <PathBlckLoc locStartln="2317" locStartPos="3" locEndLn="2317" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21">
+          <PathBlckLoc locStartln="2316" locStartPos="3" locEndLn="2316" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24;31">
+          <PathBlckLoc locStartln="2320" locStartPos="7" locEndLn="2320" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="30">
+          <PathBlckLoc locStartln="2327" locStartPos="6" locEndLn="2329" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25;26">
+          <PathBlckLoc locStartln="2325" locStartPos="9" locEndLn="2325" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="29">
+          <PathBlckLoc locStartln="2336" locStartPos="7" locEndLn="2340" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;28">
+          <PathBlckLoc locStartln="2334" locStartPos="10" locEndLn="2334" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="2347" locStartPos="5" locEndLn="2347" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29">
+          <PathBlckLoc locStartln="2344" locStartPos="7" locEndLn="2345" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="46">
+          <PathBlckLoc locStartln="2357" locStartPos="3" locEndLn="2357" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31">
+          <PathBlckLoc locStartln="2356" locStartPos="3" locEndLn="2356" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35;36">
+          <PathBlckLoc locStartln="2365" locStartPos="9" locEndLn="2365" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="40">
+          <PathBlckLoc locStartln="2367" locStartPos="6" locEndLn="2369" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34;41">
+          <PathBlckLoc locStartln="2360" locStartPos="7" locEndLn="2360" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="39">
+          <PathBlckLoc locStartln="2385" locStartPos="7" locEndLn="2386" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="40">
+          <PathBlckLoc locStartln="2388" locStartPos="5" locEndLn="2388" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37;38">
+          <PathBlckLoc locStartln="2375" locStartPos="10" locEndLn="2375" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="39">
+          <PathBlckLoc locStartln="2377" locStartPos="7" locEndLn="2381" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="43" blckTrans="46">
+          <PathBlckLoc locStartln="2401" locStartPos="3" locEndLn="2401" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="41">
+          <PathBlckLoc locStartln="2398" locStartPos="3" locEndLn="2398" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="41" blckTrans="46">
+          <PathBlckLoc locStartln="2399" locStartPos="3" locEndLn="2399" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="46" blckTrans="47;48">
+          <PathBlckLoc locStartln="2407" locStartPos="6" locEndLn="2408" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="47" blckTrans="48">
+          <PathBlckLoc locStartln="2411" locStartPos="3" locEndLn="2411" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="51" blckTrans="52;53">
+          <PathBlckLoc locStartln="2420" locStartPos="12" locEndLn="2420" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="50" blckTrans="55">
+          <PathBlckLoc locStartln="2418" locStartPos="4" locEndLn="2418" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="49" blckTrans="50;51">
+          <PathBlckLoc locStartln="2416" locStartPos="7" locEndLn="2416" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="48" blckTrans="49;56">
+          <PathBlckLoc locStartln="2414" locStartPos="6" locEndLn="2414" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="55" blckTrans="56">
+          <PathBlckLoc locStartln="2428" locStartPos="2" locEndLn="2428" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="53" blckTrans="55">
+          <PathBlckLoc locStartln="2426" locStartPos="4" locEndLn="2426" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="52" blckTrans="55">
+          <PathBlckLoc locStartln="2421" locStartPos="3" locEndLn="2423" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="59" blckTrans="60;61">
+          <PathBlckLoc locStartln="2436" locStartPos="12" locEndLn="2436" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="58" blckTrans="63">
+          <PathBlckLoc locStartln="2434" locStartPos="4" locEndLn="2434" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="57" blckTrans="58;59">
+          <PathBlckLoc locStartln="2432" locStartPos="7" locEndLn="2432" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="56" blckTrans="57;64">
+          <PathBlckLoc locStartln="2430" locStartPos="6" locEndLn="2430" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="63" blckTrans="64">
+          <PathBlckLoc locStartln="2444" locStartPos="2" locEndLn="2444" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="61" blckTrans="63">
+          <PathBlckLoc locStartln="2442" locStartPos="4" locEndLn="2442" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="60" blckTrans="63">
+          <PathBlckLoc locStartln="2437" locStartPos="3" locEndLn="2439" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="68" blckTrans="71">
+          <PathBlckLoc locStartln="2455" locStartPos="3" locEndLn="2457" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="69" blckTrans="71">
+          <PathBlckLoc locStartln="2460" locStartPos="4" locEndLn="2460" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="71" blckTrans="72;73">
+          <PathBlckLoc locStartln="2464" locStartPos="7" locEndLn="2464" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="64" blckTrans="65;83">
+          <PathBlckLoc locStartln="2447" locStartPos="6" locEndLn="2447" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="65" blckTrans="66;67">
+          <PathBlckLoc locStartln="2450" locStartPos="7" locEndLn="2450" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="66" blckTrans="71">
+          <PathBlckLoc locStartln="2452" locStartPos="4" locEndLn="2452" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="67" blckTrans="68;69">
+          <PathBlckLoc locStartln="2454" locStartPos="12" locEndLn="2454" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="76" blckTrans="77;78">
+          <PathBlckLoc locStartln="2475" locStartPos="3" locEndLn="2478" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="77" blckTrans="78">
+          <PathBlckLoc locStartln="2480" locStartPos="4" locEndLn="2480" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="78" blckTrans="79;80">
+          <PathBlckLoc locStartln="2484" locStartPos="7" locEndLn="2484" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="79" blckTrans="80">
+          <PathBlckLoc locStartln="2486" locStartPos="4" locEndLn="2486" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="72" blckTrans="76">
+          <PathBlckLoc locStartln="2466" locStartPos="4" locEndLn="2466" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="73" blckTrans="74;75">
+          <PathBlckLoc locStartln="2470" locStartPos="8" locEndLn="2470" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="74" blckTrans="75">
+          <PathBlckLoc locStartln="2472" locStartPos="5" locEndLn="2472" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="75" blckTrans="76">
+          <PathBlckLoc locStartln="2474" locStartPos="3" locEndLn="2474" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="85" blckTrans="86">
+          <PathBlckLoc locStartln="2502" locStartPos="4" locEndLn="2502" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="84" blckTrans="85;86">
+          <PathBlckLoc locStartln="2500" locStartPos="7" locEndLn="2500" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="87" blckTrans="88">
+          <PathBlckLoc locStartln="2508" locStartPos="4" locEndLn="2508" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="86" blckTrans="87;88">
+          <PathBlckLoc locStartln="2506" locStartPos="7" locEndLn="2506" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="81" blckTrans="82">
+          <PathBlckLoc locStartln="2493" locStartPos="4" locEndLn="2493" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="80" blckTrans="81;82">
+          <PathBlckLoc locStartln="2488" locStartPos="3" locEndLn="2491" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="83" blckTrans="84;93">
+          <PathBlckLoc locStartln="2497" locStartPos="6" locEndLn="2497" locEndPos="128" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="82" blckTrans="83">
+          <PathBlckLoc locStartln="2495" locStartPos="2" locEndLn="2495" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="93" blckTrans="94;95">
+          <PathBlckLoc locStartln="2532" locStartPos="6" locEndLn="2532" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="92" blckTrans="93">
+          <PathBlckLoc locStartln="2528" locStartPos="2" locEndLn="2528" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="95" blckTrans="96;97">
+          <PathBlckLoc locStartln="2539" locStartPos="6" locEndLn="2540" locEndPos="103" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="94" blckTrans="95">
+          <PathBlckLoc locStartln="2534" locStartPos="3" locEndLn="2534" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="89" blckTrans="90">
+          <PathBlckLoc locStartln="2514" locStartPos="4" locEndLn="2514" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="88" blckTrans="89;90">
+          <PathBlckLoc locStartln="2512" locStartPos="7" locEndLn="2512" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="91" blckTrans="92">
+          <PathBlckLoc locStartln="2526" locStartPos="4" locEndLn="2526" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="90" blckTrans="91;92">
+          <PathBlckLoc locStartln="2524" locStartPos="7" locEndLn="2524" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="102" blckTrans="103;104">
+          <PathBlckLoc locStartln="2557" locStartPos="5" locEndLn="2557" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="103" blckTrans="104">
+          <PathBlckLoc locStartln="2559" locStartPos="2" locEndLn="2560" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="100" blckTrans="101;102">
+          <PathBlckLoc locStartln="2552" locStartPos="5" locEndLn="2552" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="101" blckTrans="102">
+          <PathBlckLoc locStartln="2554" locStartPos="2" locEndLn="2554" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="98" blckTrans="99;100">
+          <PathBlckLoc locStartln="2547" locStartPos="5" locEndLn="2547" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="99" blckTrans="100">
+          <PathBlckLoc locStartln="2549" locStartPos="2" locEndLn="2549" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="96" blckTrans="97">
+          <PathBlckLoc locStartln="2542" locStartPos="3" locEndLn="2542" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="97" blckTrans="98">
+          <PathBlckLoc locStartln="2545" locStartPos="1" locEndLn="2545" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="106" blckTrans="">
+          <PathBlckLoc locStartln="2573" locStartPos="0" locEndLn="2573" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="104" blckTrans="105;106">
+          <PathBlckLoc locStartln="2563" locStartPos="5" locEndLn="2563" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="105" blckTrans="106">
+          <PathBlckLoc locStartln="2565" locStartPos="2" locEndLn="2571" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1406;SetTrainLeftDoorHib" show="true">
+      <CvgElem id="SetTrainLeftDoorHib" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1409" locStartPos="1" locEndLn="1409" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;984;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckJumpProtection" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckJumpProtection" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="987" locStartPos="1" locEndLn="999" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="1002" locStartPos="2" locEndLn="1002" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="1007" locStartPos="2" locEndLn="1007" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="">
+          <PathBlckLoc locStartln="1010" locStartPos="1" locEndLn="1010" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;539;EsbPrtFunc" show="true">
+      <CvgElem id="EsbPrtFunc" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;8">
+          <PathBlckLoc locStartln="542" locStartPos="5" locEndLn="542" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="545" locStartPos="6" locEndLn="545" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="7">
+          <PathBlckLoc locStartln="548" locStartPos="3" locEndLn="548" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="553" locStartPos="7" locEndLn="553" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="556" locStartPos="4" locEndLn="556" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="558" locStartPos="2" locEndLn="558" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="559" locStartPos="1" locEndLn="559" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="563" locStartPos="2" locEndLn="563" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="">
+          <PathBlckLoc locStartln="565" locStartPos="0" locEndLn="565" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1178;SetBoardIndicatorTwinkSta" show="true">
+      <CvgElem id="SetBoardIndicatorTwinkSta" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1181" locStartPos="1" locEndLn="1181" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2175;GetRequestTimerCount" show="true">
+      <CvgElem id="GetRequestTimerCount" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2177" locStartPos="1" locEndLn="2177" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2012;GetCarWashMode" show="true">
+      <CvgElem id="GetCarWashMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2014" locStartPos="1" locEndLn="2014" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1150;SetBoardIndicatorCtrlCmd" show="true">
+      <CvgElem id="SetBoardIndicatorCtrlCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1153" locStartPos="1" locEndLn="1153" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;84;BackPrtFunc" show="true">
+      <CvgElem id="BackPrtFunc" pathsNo="128">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="87" locStartPos="1" locEndLn="108" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="111" locStartPos="8" locEndLn="111" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="116" locStartPos="8" locEndLn="116" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;26">
+          <PathBlckLoc locStartln="121" locStartPos="5" locEndLn="121" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;12">
+          <PathBlckLoc locStartln="124" locStartPos="6" locEndLn="127" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;10">
+          <PathBlckLoc locStartln="130" locStartPos="7" locEndLn="130" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="133" locStartPos="16" locEndLn="136" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="139" locStartPos="5" locEndLn="139" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="11">
+          <PathBlckLoc locStartln="143" locStartPos="4" locEndLn="149" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="155" locStartPos="16" locEndLn="156" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="25">
+          <PathBlckLoc locStartln="159" locStartPos="2" locEndLn="159" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;23">
+          <PathBlckLoc locStartln="161" locStartPos="11" locEndLn="161" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;21">
+          <PathBlckLoc locStartln="164" locStartPos="3" locEndLn="167" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;16">
+          <PathBlckLoc locStartln="170" locStartPos="16" locEndLn="171" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="20">
+          <PathBlckLoc locStartln="174" locStartPos="20" locEndLn="174" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="20">
+          <PathBlckLoc locStartln="179" locStartPos="20" locEndLn="179" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="176" locStartPos="13" locEndLn="176" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="20">
+          <PathBlckLoc locStartln="184" locStartPos="20" locEndLn="184" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="190" locStartPos="16" locEndLn="191" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="22">
+          <PathBlckLoc locStartln="186" locStartPos="3" locEndLn="186" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="25">
+          <PathBlckLoc locStartln="196" locStartPos="2" locEndLn="198" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="25">
+          <PathBlckLoc locStartln="194" locStartPos="2" locEndLn="194" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="47">
+          <PathBlckLoc locStartln="201" locStartPos="8" locEndLn="201" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28;31">
+          <PathBlckLoc locStartln="212" locStartPos="7" locEndLn="212" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;33">
+          <PathBlckLoc locStartln="206" locStartPos="6" locEndLn="209" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="220" locStartPos="5" locEndLn="220" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29;30">
+          <PathBlckLoc locStartln="215" locStartPos="16" locEndLn="217" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="230" locStartPos="16" locEndLn="231" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="32">
+          <PathBlckLoc locStartln="224" locStartPos="4" locEndLn="225" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35;36">
+          <PathBlckLoc locStartln="239" locStartPos="7" locEndLn="239" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="43">
+          <PathBlckLoc locStartln="242" locStartPos="16" locEndLn="243" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="46">
+          <PathBlckLoc locStartln="234" locStartPos="2" locEndLn="234" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34;44">
+          <PathBlckLoc locStartln="236" locStartPos="11" locEndLn="236" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="39;40">
+          <PathBlckLoc locStartln="256" locStartPos="13" locEndLn="256" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="42">
+          <PathBlckLoc locStartln="259" locStartPos="20" locEndLn="259" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37;38">
+          <PathBlckLoc locStartln="248" locStartPos="4" locEndLn="251" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="42">
+          <PathBlckLoc locStartln="254" locStartPos="20" locEndLn="254" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="42" blckTrans="43">
+          <PathBlckLoc locStartln="266" locStartPos="3" locEndLn="266" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="43" blckTrans="46">
+          <PathBlckLoc locStartln="267" locStartPos="2" locEndLn="267" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="42">
+          <PathBlckLoc locStartln="264" locStartPos="20" locEndLn="264" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="46" blckTrans="47">
+          <PathBlckLoc locStartln="272" locStartPos="1" locEndLn="272" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="47" blckTrans="48;55">
+          <PathBlckLoc locStartln="275" locStartPos="5" locEndLn="275" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="44" blckTrans="46">
+          <PathBlckLoc locStartln="269" locStartPos="2" locEndLn="271" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="51" blckTrans="53">
+          <PathBlckLoc locStartln="291" locStartPos="16" locEndLn="291" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="50" blckTrans="51;52">
+          <PathBlckLoc locStartln="288" locStartPos="7" locEndLn="288" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="49" blckTrans="54">
+          <PathBlckLoc locStartln="283" locStartPos="12" locEndLn="283" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="48" blckTrans="49;50">
+          <PathBlckLoc locStartln="278" locStartPos="2" locEndLn="280" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="55" blckTrans="">
+          <PathBlckLoc locStartln="301" locStartPos="4" locEndLn="301" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="54" blckTrans="55">
+          <PathBlckLoc locStartln="299" locStartPos="1" locEndLn="299" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="53" blckTrans="54">
+          <PathBlckLoc locStartln="298" locStartPos="2" locEndLn="298" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="52" blckTrans="53">
+          <PathBlckLoc locStartln="296" locStartPos="4" locEndLn="296" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;429;OverSpdFunc" show="true">
+      <CvgElem id="OverSpdFunc" pathsNo="10">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="432" locStartPos="1" locEndLn="443" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="446" locStartPos="2" locEndLn="446" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="450" locStartPos="2" locEndLn="450" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;15">
+          <PathBlckLoc locStartln="454" locStartPos="5" locEndLn="454" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;10">
+          <PathBlckLoc locStartln="457" locStartPos="6" locEndLn="457" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="460" locStartPos="7" locEndLn="460" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="463" locStartPos="4" locEndLn="463" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="468" locStartPos="4" locEndLn="468" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="14">
+          <PathBlckLoc locStartln="470" locStartPos="2" locEndLn="470" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="474" locStartPos="7" locEndLn="474" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13">
+          <PathBlckLoc locStartln="477" locStartPos="4" locEndLn="477" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="482" locStartPos="4" locEndLn="482" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14">
+          <PathBlckLoc locStartln="484" locStartPos="2" locEndLn="484" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="485" locStartPos="1" locEndLn="485" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="">
+          <PathBlckLoc locStartln="486" locStartPos="0" locEndLn="486" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1945;InitCarWashStru" show="true">
+      <CvgElem id="InitCarWashStru" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1948" locStartPos="1" locEndLn="1949" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;318;RollPrtFunc" show="true">
+      <CvgElem id="RollPrtFunc" pathsNo="90">
+        <BlckInfo id="1" blckTrans="2;11">
+          <PathBlckLoc locStartln="321" locStartPos="1" locEndLn="335" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;10">
+          <PathBlckLoc locStartln="338" locStartPos="6" locEndLn="339" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="342" locStartPos="7" locEndLn="342" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="9">
+          <PathBlckLoc locStartln="345" locStartPos="16" locEndLn="345" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="348" locStartPos="12" locEndLn="348" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="9">
+          <PathBlckLoc locStartln="351" locStartPos="16" locEndLn="351" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="354" locStartPos="3" locEndLn="356" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="357" locStartPos="2" locEndLn="357" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="23">
+          <PathBlckLoc locStartln="358" locStartPos="1" locEndLn="358" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12;21">
+          <PathBlckLoc locStartln="359" locStartPos="10" locEndLn="359" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;20">
+          <PathBlckLoc locStartln="362" locStartPos="6" locEndLn="363" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="366" locStartPos="7" locEndLn="366" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="19">
+          <PathBlckLoc locStartln="369" locStartPos="16" locEndLn="369" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16;17">
+          <PathBlckLoc locStartln="372" locStartPos="12" locEndLn="372" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="19">
+          <PathBlckLoc locStartln="378" locStartPos="3" locEndLn="380" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="19">
+          <PathBlckLoc locStartln="375" locStartPos="16" locEndLn="375" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="381" locStartPos="2" locEndLn="381" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="23">
+          <PathBlckLoc locStartln="384" locStartPos="1" locEndLn="386" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="23">
+          <PathBlckLoc locStartln="382" locStartPos="1" locEndLn="382" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24;29">
+          <PathBlckLoc locStartln="389" locStartPos="5" locEndLn="389" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26">
+          <PathBlckLoc locStartln="399" locStartPos="3" locEndLn="400" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25;26">
+          <PathBlckLoc locStartln="392" locStartPos="2" locEndLn="396" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28">
+          <PathBlckLoc locStartln="409" locStartPos="3" locEndLn="409" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;28">
+          <PathBlckLoc locStartln="403" locStartPos="8" locEndLn="406" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="413" locStartPos="1" locEndLn="415" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="30">
+          <PathBlckLoc locStartln="411" locStartPos="1" locEndLn="411" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="423" locStartPos="2" locEndLn="423" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31;32">
+          <PathBlckLoc locStartln="418" locStartPos="5" locEndLn="418" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="">
+          <PathBlckLoc locStartln="426" locStartPos="0" locEndLn="426" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1920;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|GetForwardBackFlag" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|GetForwardBackFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1922" locStartPos="1" locEndLn="1922" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2147;GetWiperCenteringCmd" show="true">
+      <CvgElem id="GetWiperCenteringCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2149" locStartPos="1" locEndLn="2149" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1367;GetTrainDoorHib" show="true">
+      <CvgElem id="GetTrainDoorHib" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1369" locStartPos="1" locEndLn="1369" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1055;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance" pathsNo="5">
+        <BlckInfo id="1" blckTrans="2;12">
+          <PathBlckLoc locStartln="1058" locStartPos="1" locEndLn="1068" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;10">
+          <PathBlckLoc locStartln="1073" locStartPos="2" locEndLn="1076" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;8">
+          <PathBlckLoc locStartln="1079" locStartPos="3" locEndLn="1080" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="1083" locStartPos="8" locEndLn="1083" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1086" locStartPos="5" locEndLn="1087" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1092" locStartPos="5" locEndLn="1092" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="1094" locStartPos="3" locEndLn="1094" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="1096" locStartPos="3" locEndLn="1098" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="11">
+          <PathBlckLoc locStartln="1099" locStartPos="2" locEndLn="1099" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="1101" locStartPos="2" locEndLn="1103" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13">
+          <PathBlckLoc locStartln="1105" locStartPos="1" locEndLn="1105" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="1107" locStartPos="1" locEndLn="1109" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="1111" locStartPos="1" locEndLn="1111" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1246;DerailPrtFunc" show="true">
+      <CvgElem id="DerailPrtFunc" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1249" locStartPos="1" locEndLn="1256" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="1259" locStartPos="2" locEndLn="1259" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="1261" locStartPos="0" locEndLn="1261" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;567;SpksPrtFunc" show="true">
+      <CvgElem id="SpksPrtFunc" pathsNo="3">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="570" locStartPos="5" locEndLn="570" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="6">
+          <PathBlckLoc locStartln="573" locStartPos="2" locEndLn="573" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="579" locStartPos="6" locEndLn="579" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="582" locStartPos="3" locEndLn="582" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="584" locStartPos="1" locEndLn="584" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="">
+          <PathBlckLoc locStartln="585" locStartPos="0" locEndLn="585" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1164;GetBoardIndicatorTwinkSta" show="true">
+      <CvgElem id="GetBoardIndicatorTwinkSta" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1167" locStartPos="1" locEndLn="1167" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1143;GetBoardIndicatorCtrlCmd" show="true">
+      <CvgElem id="GetBoardIndicatorCtrlCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1146" locStartPos="1" locEndLn="1146" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2119;GetRearWashFinish" show="true">
+      <CvgElem id="GetRearWashFinish" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2121" locStartPos="1" locEndLn="2121" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1627;GetDoorUnlockingReq" show="true">
+      <CvgElem id="GetDoorUnlockingReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1629" locStartPos="1" locEndLn="1629" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1973;SetWashCmd" show="true">
+      <CvgElem id="SetWashCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1975" locStartPos="1" locEndLn="1975" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1639;SetDoorUnlockingReq" show="true">
+      <CvgElem id="SetDoorUnlockingReq" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1641" locStartPos="1" locEndLn="1641" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2039;GetLastFrontWashing" show="true">
+      <CvgElem id="GetLastFrontWashing" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2041" locStartPos="1" locEndLn="2041" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1292;EscDoorHibFunc" show="true">
+      <CvgElem id="EscDoorHibFunc" pathsNo="21">
+        <BlckInfo id="1" blckTrans="2;16">
+          <PathBlckLoc locStartln="1294" locStartPos="1" locEndLn="1298" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;8">
+          <PathBlckLoc locStartln="1301" locStartPos="6" locEndLn="1301" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="1304" locStartPos="7" locEndLn="1304" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="1307" locStartPos="4" locEndLn="1307" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="1310" locStartPos="7" locEndLn="1310" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1313" locStartPos="4" locEndLn="1313" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="1315" locStartPos="2" locEndLn="1315" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="1319" locStartPos="3" locEndLn="1319" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;11">
+          <PathBlckLoc locStartln="1324" locStartPos="6" locEndLn="1324" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12">
+          <PathBlckLoc locStartln="1327" locStartPos="3" locEndLn="1327" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="1332" locStartPos="3" locEndLn="1332" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;14">
+          <PathBlckLoc locStartln="1337" locStartPos="6" locEndLn="1337" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="15">
+          <PathBlckLoc locStartln="1340" locStartPos="3" locEndLn="1340" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="1345" locStartPos="3" locEndLn="1345" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="17">
+          <PathBlckLoc locStartln="1348" locStartPos="1" locEndLn="1348" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="">
+          <PathBlckLoc locStartln="1355" locStartPos="0" locEndLn="1355" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17">
+          <PathBlckLoc locStartln="1352" locStartPos="2" locEndLn="1353" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2025;SetCarWashMode" show="true">
+      <CvgElem id="SetCarWashMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2027" locStartPos="1" locEndLn="2027" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;588;JumpPrtFunc" show="true">
+      <CvgElem id="JumpPrtFunc" pathsNo="68602">
+        <BlckInfo id="1" blckTrans="2;76">
+          <PathBlckLoc locStartln="591" locStartPos="1" locEndLn="625" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;9">
+          <PathBlckLoc locStartln="628" locStartPos="6" locEndLn="628" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="631" locStartPos="7" locEndLn="631" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="8">
+          <PathBlckLoc locStartln="634" locStartPos="4" locEndLn="635" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="639" locStartPos="8" locEndLn="639" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="641" locStartPos="5" locEndLn="641" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="643" locStartPos="3" locEndLn="643" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="644" locStartPos="2" locEndLn="644" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;65">
+          <PathBlckLoc locStartln="646" locStartPos="6" locEndLn="646" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12;19;33;40;47">
+          <PathBlckLoc locStartln="648" locStartPos="11" locEndLn="648" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;16">
+          <PathBlckLoc locStartln="654" locStartPos="9" locEndLn="657" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="660" locStartPos="6" locEndLn="662" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="664" locStartPos="7" locEndLn="666" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="17">
+          <PathBlckLoc locStartln="668" locStartPos="5" locEndLn="668" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="50">
+          <PathBlckLoc locStartln="675" locStartPos="5" locEndLn="675" locEndPos="11" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17">
+          <PathBlckLoc locStartln="672" locStartPos="6" locEndLn="673" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20;24">
+          <PathBlckLoc locStartln="681" locStartPos="9" locEndLn="681" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="23">
+          <PathBlckLoc locStartln="688" locStartPos="7" locEndLn="690" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21;22">
+          <PathBlckLoc locStartln="683" locStartPos="6" locEndLn="685" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="31">
+          <PathBlckLoc locStartln="700" locStartPos="6" locEndLn="702" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23">
+          <PathBlckLoc locStartln="695" locStartPos="7" locEndLn="697" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26;27">
+          <PathBlckLoc locStartln="708" locStartPos="6" locEndLn="710" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25;29">
+          <PathBlckLoc locStartln="706" locStartPos="14" locEndLn="706" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28">
+          <PathBlckLoc locStartln="720" locStartPos="7" locEndLn="722" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="28">
+          <PathBlckLoc locStartln="713" locStartPos="7" locEndLn="715" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="31">
+          <PathBlckLoc locStartln="731" locStartPos="5" locEndLn="734" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="31">
+          <PathBlckLoc locStartln="725" locStartPos="6" locEndLn="727" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="50">
+          <PathBlckLoc locStartln="735" locStartPos="5" locEndLn="735" locEndPos="11" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35">
+          <PathBlckLoc locStartln="748" locStartPos="6" locEndLn="748" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36;37">
+          <PathBlckLoc locStartln="753" locStartPos="9" locEndLn="753" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34;35">
+          <PathBlckLoc locStartln="740" locStartPos="5" locEndLn="745" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="50">
+          <PathBlckLoc locStartln="769" locStartPos="5" locEndLn="769" locEndPos="11" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="38">
+          <PathBlckLoc locStartln="757" locStartPos="6" locEndLn="762" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="38">
+          <PathBlckLoc locStartln="766" locStartPos="6" locEndLn="766" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="42" blckTrans="43;44">
+          <PathBlckLoc locStartln="785" locStartPos="9" locEndLn="785" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="43" blckTrans="45">
+          <PathBlckLoc locStartln="789" locStartPos="6" locEndLn="794" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="41;42">
+          <PathBlckLoc locStartln="775" locStartPos="5" locEndLn="778" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="41" blckTrans="42">
+          <PathBlckLoc locStartln="781" locStartPos="6" locEndLn="781" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="47" blckTrans="50">
+          <PathBlckLoc locStartln="804" locStartPos="5" locEndLn="804" locEndPos="11" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="44" blckTrans="45">
+          <PathBlckLoc locStartln="799" locStartPos="6" locEndLn="799" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="45" blckTrans="50">
+          <PathBlckLoc locStartln="802" locStartPos="5" locEndLn="802" locEndPos="11" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="51" blckTrans="52">
+          <PathBlckLoc locStartln="812" locStartPos="4" locEndLn="813" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="50" blckTrans="51;52">
+          <PathBlckLoc locStartln="808" locStartPos="7" locEndLn="809" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="55" blckTrans="56;57">
+          <PathBlckLoc locStartln="830" locStartPos="8" locEndLn="830" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="54" blckTrans="55;58">
+          <PathBlckLoc locStartln="825" locStartPos="3" locEndLn="827" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="53" blckTrans="54">
+          <PathBlckLoc locStartln="820" locStartPos="4" locEndLn="821" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="52" blckTrans="53;54">
+          <PathBlckLoc locStartln="817" locStartPos="7" locEndLn="817" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="59" blckTrans="60;61">
+          <PathBlckLoc locStartln="846" locStartPos="4" locEndLn="849" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="58" blckTrans="59;62">
+          <PathBlckLoc locStartln="843" locStartPos="7" locEndLn="843" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="57" blckTrans="58">
+          <PathBlckLoc locStartln="840" locStartPos="3" locEndLn="840" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="56" blckTrans="57">
+          <PathBlckLoc locStartln="833" locStartPos="20" locEndLn="837" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="63" blckTrans="64">
+          <PathBlckLoc locStartln="860" locStartPos="4" locEndLn="860" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="62" blckTrans="63;64">
+          <PathBlckLoc locStartln="857" locStartPos="7" locEndLn="857" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="61" blckTrans="62">
+          <PathBlckLoc locStartln="854" locStartPos="3" locEndLn="854" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="60" blckTrans="61">
+          <PathBlckLoc locStartln="852" locStartPos="5" locEndLn="852" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="68" blckTrans="69;70">
+          <PathBlckLoc locStartln="899" locStartPos="7" locEndLn="899" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="69" blckTrans="74">
+          <PathBlckLoc locStartln="902" locStartPos="4" locEndLn="903" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="70" blckTrans="71;72">
+          <PathBlckLoc locStartln="906" locStartPos="12" locEndLn="906" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="71" blckTrans="74">
+          <PathBlckLoc locStartln="909" locStartPos="4" locEndLn="910" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="64" blckTrans="65">
+          <PathBlckLoc locStartln="867" locStartPos="2" locEndLn="867" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="65" blckTrans="66;75">
+          <PathBlckLoc locStartln="870" locStartPos="6" locEndLn="871" locEndPos="120" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="66" blckTrans="67;68">
+          <PathBlckLoc locStartln="876" locStartPos="3" locEndLn="883" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="67" blckTrans="68">
+          <PathBlckLoc locStartln="886" locStartPos="4" locEndLn="894" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="76" blckTrans="77">
+          <PathBlckLoc locStartln="923" locStartPos="2" locEndLn="937" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="77" blckTrans="78;79">
+          <PathBlckLoc locStartln="940" locStartPos="5" locEndLn="942" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="78" blckTrans="79">
+          <PathBlckLoc locStartln="945" locStartPos="2" locEndLn="959" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="79" blckTrans="">
+          <PathBlckLoc locStartln="962" locStartPos="1" locEndLn="963" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="72" blckTrans="74">
+          <PathBlckLoc locStartln="915" locStartPos="4" locEndLn="916" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="74" blckTrans="75">
+          <PathBlckLoc locStartln="918" locStartPos="2" locEndLn="918" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="75" blckTrans="77">
+          <PathBlckLoc locStartln="919" locStartPos="1" locEndLn="919" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1434;SetTrainRightDoorHib" show="true">
+      <CvgElem id="SetTrainRightDoorHib" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1437" locStartPos="1" locEndLn="1437" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2065;GetFrontWashFinish" show="true">
+      <CvgElem id="GetFrontWashFinish" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2067" locStartPos="1" locEndLn="2067" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2160;SetWiperCenteringCmd" show="true">
+      <CvgElem id="SetWiperCenteringCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2162" locStartPos="1" locEndLn="2162" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2227;SetCarWashAtcFault" show="true">
+      <CvgElem id="SetCarWashAtcFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2229" locStartPos="1" locEndLn="2229" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2583;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;7">
+          <PathBlckLoc locStartln="2585" locStartPos="1" locEndLn="2588" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;6">
+          <PathBlckLoc locStartln="2590" locStartPos="6" locEndLn="2590" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="2592" locStartPos="7" locEndLn="2592" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="2594" locStartPos="4" locEndLn="2594" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="2596" locStartPos="2" locEndLn="2596" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="2597" locStartPos="1" locEndLn="2597" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="">
+          <PathBlckLoc locStartln="2598" locStartPos="1" locEndLn="2598" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1276;IsAnyOneEscDoorStaLose" show="true">
+      <CvgElem id="IsAnyOneEscDoorStaLose" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1279" locStartPos="1" locEndLn="1282" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="1285" locStartPos="2" locEndLn="1285" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="1288" locStartPos="1" locEndLn="1288" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1960;GetWashCmd" show="true">
+      <CvgElem id="GetWashCmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1962" locStartPos="1" locEndLn="1962" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;970;GetForwardtmpFlag" show="true">
+      <CvgElem id="GetForwardtmpFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="972" locStartPos="1" locEndLn="972" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1014;IsInJumpWindow" show="true">
+      <CvgElem id="IsInJumpWindow" pathsNo="5">
+        <BlckInfo id="1" blckTrans="2;9">
+          <PathBlckLoc locStartln="1017" locStartPos="1" locEndLn="1028" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;8">
+          <PathBlckLoc locStartln="1031" locStartPos="2" locEndLn="1034" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;7">
+          <PathBlckLoc locStartln="1037" locStartPos="3" locEndLn="1038" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="1041" locStartPos="8" locEndLn="1041" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="1044" locStartPos="5" locEndLn="1044" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1046" locStartPos="3" locEndLn="1046" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="1047" locStartPos="2" locEndLn="1047" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="1048" locStartPos="1" locEndLn="1048" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="">
+          <PathBlckLoc locStartln="1050" locStartPos="1" locEndLn="1050" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1931;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|SetForwardBackFlag" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|SetForwardBackFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1934" locStartPos="1" locEndLn="1934" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1421;GetTrainRightDoorHib" show="true">
+      <CvgElem id="GetTrainRightDoorHib" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1424" locStartPos="1" locEndLn="1424" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1530;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide" pathsNo="12">
+        <BlckInfo id="1" blckTrans="2;29">
+          <PathBlckLoc locStartln="1532" locStartPos="1" locEndLn="1551" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;14">
+          <PathBlckLoc locStartln="1554" locStartPos="6" locEndLn="1554" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;7">
+          <PathBlckLoc locStartln="1557" locStartPos="7" locEndLn="1557" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="1560" locStartPos="8" locEndLn="1560" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="1562" locStartPos="5" locEndLn="1562" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="13">
+          <PathBlckLoc locStartln="1564" locStartPos="3" locEndLn="1564" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;11">
+          <PathBlckLoc locStartln="1565" locStartPos="12" locEndLn="1565" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;10">
+          <PathBlckLoc locStartln="1568" locStartPos="8" locEndLn="1568" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="1570" locStartPos="5" locEndLn="1570" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="13">
+          <PathBlckLoc locStartln="1572" locStartPos="3" locEndLn="1572" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13">
+          <PathBlckLoc locStartln="1575" locStartPos="4" locEndLn="1575" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="28">
+          <PathBlckLoc locStartln="1577" locStartPos="2" locEndLn="1577" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;26">
+          <PathBlckLoc locStartln="1579" locStartPos="11" locEndLn="1579" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16;19">
+          <PathBlckLoc locStartln="1582" locStartPos="7" locEndLn="1582" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="1587" locStartPos="5" locEndLn="1587" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="1585" locStartPos="8" locEndLn="1585" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20;23">
+          <PathBlckLoc locStartln="1590" locStartPos="12" locEndLn="1590" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="25">
+          <PathBlckLoc locStartln="1589" locStartPos="3" locEndLn="1589" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="1595" locStartPos="5" locEndLn="1595" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21;22">
+          <PathBlckLoc locStartln="1593" locStartPos="8" locEndLn="1593" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="25">
+          <PathBlckLoc locStartln="1600" locStartPos="4" locEndLn="1600" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="25">
+          <PathBlckLoc locStartln="1597" locStartPos="3" locEndLn="1597" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="28">
+          <PathBlckLoc locStartln="1602" locStartPos="2" locEndLn="1602" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="28">
+          <PathBlckLoc locStartln="1606" locStartPos="3" locEndLn="1606" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="1612" locStartPos="2" locEndLn="1612" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="30">
+          <PathBlckLoc locStartln="1609" locStartPos="1" locEndLn="1609" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="">
+          <PathBlckLoc locStartln="1615" locStartPos="1" locEndLn="1615" locEndPos="12" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2093;GetLastRearWashing" show="true">
+      <CvgElem id="GetLastRearWashing" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2095" locStartPos="1" locEndLn="2095" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1379;SetTrainDoorHib" show="true">
+      <CvgElem id="SetTrainDoorHib" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1381" locStartPos="1" locEndLn="1381" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1136;GetATPCycleTime" show="true">
+      <CvgElem id="GetATPCycleTime" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="1139" locStartPos="1" locEndLn="1139" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1228;BrkFailFunc" show="true">
+      <CvgElem id="BrkFailFunc" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1231" locStartPos="5" locEndLn="1231" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="1234" locStartPos="2" locEndLn="1234" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="1236" locStartPos="0" locEndLn="1236" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1450;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation" pathsNo="6">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1453" locStartPos="1" locEndLn="1468" locEndPos="115" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="13">
+          <PathBlckLoc locStartln="1471" locStartPos="2" locEndLn="1473" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;11">
+          <PathBlckLoc locStartln="1478" locStartPos="6" locEndLn="1478" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="1481" locStartPos="7" locEndLn="1481" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1484" locStartPos="4" locEndLn="1484" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1489" locStartPos="4" locEndLn="1489" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="1493" locStartPos="3" locEndLn="1496" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="1498" locStartPos="4" locEndLn="1498" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="1504" locStartPos="4" locEndLn="1505" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12">
+          <PathBlckLoc locStartln="1507" locStartPos="2" locEndLn="1507" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="1512" locStartPos="3" locEndLn="1512" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="1514" locStartPos="1" locEndLn="1514" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="1516" locStartPos="1" locEndLn="1516" locEndPos="12" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2188;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|StopRequestTimer" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|StopRequestTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2190" locStartPos="1" locEndLn="2190" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2106;SetLastRearWashing" show="true">
+      <CvgElem id="SetLastRearWashing" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2108" locStartPos="1" locEndLn="2108" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

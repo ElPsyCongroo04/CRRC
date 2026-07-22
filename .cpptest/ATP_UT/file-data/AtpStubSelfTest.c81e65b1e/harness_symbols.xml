@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\stubs\framework\tests\AtpStubSelfTest.c" id="1"/>
+    <Function id="printf" name="ZGprintf5X" decorated_name="int printf(const char *, ...)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE int __cdecl </declaration_prefix>
+         <declaration_suffix>_Stub_printf (const char * _Format, ...) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE int __cdecl printf (const char * _Format, ...) </orig_declaration>
+         <return_expression>return 0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_BeginTest" name="ZbBAtpStub_BeginTestX" decorated_name="void AtpStub_BeginTest(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_BeginTest (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStub_BeginTest () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_EndTest" name="ZPAtpStub_EndTestX" decorated_name="void AtpStub_EndTest(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_EndTest (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStub_EndTest () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_IsCurrentTestManaged" name="ZbMAtpStub_IsCurrentTestManagedX" decorated_name="UINT8_T AtpStub_IsCurrentTestManaged(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_IsCurrentTestManaged (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpStub_IsCurrentTestManaged () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetUInt8State" name="ZbFAtpStub_GetUInt8StateX" decorated_name="AtpStubUInt8State_T * AtpStub_GetUInt8State(AtpStubUInt8Id_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt8State_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetUInt8State (AtpStubUInt8Id_T id) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt8State_T * AtpStub_GetUInt8State (AtpStubUInt8Id_T id) </orig_declaration>
+         <return_expression>return (AtpStubUInt8State_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetUInt16State" name="ZbGAtpStub_GetUInt16StateX" decorated_name="AtpStubUInt16State_T * AtpStub_GetUInt16State(AtpStubUInt16Id_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt16State_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetUInt16State (AtpStubUInt16Id_T id) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt16State_T * AtpStub_GetUInt16State (AtpStubUInt16Id_T id) </orig_declaration>
+         <return_expression>return (AtpStubUInt16State_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetUInt32State" name="ZbGAtpStub_GetUInt32StateX" decorated_name="AtpStubUInt32State_T * AtpStub_GetUInt32State(AtpStubUInt32Id_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt32State_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetUInt32State (AtpStubUInt32Id_T id) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt32State_T * AtpStub_GetUInt32State (AtpStubUInt32Id_T id) </orig_declaration>
+         <return_expression>return (AtpStubUInt32State_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_SetValue" name="ZbFAtpStubUInt8_SetValueX" decorated_name="void AtpStubUInt8_SetValue(AtpStubUInt8State_T *, UINT8_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_SetValue (AtpStubUInt8State_T * state, UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_SetValue (AtpStubUInt8State_T * state, UINT8_T value) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_SetSequence" name="ZbIAtpStubUInt8_SetSequenceX" decorated_name="void AtpStubUInt8_SetSequence(AtpStubUInt8State_T *, const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_SetSequence (AtpStubUInt8State_T * state, const UINT8_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_SetSequence (AtpStubUInt8State_T * state, const UINT8_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_ExpectCalls" name="ZbIAtpStubUInt8_ExpectCallsX" decorated_name="void AtpStubUInt8_ExpectCalls(AtpStubUInt8State_T *, UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_ExpectCalls (AtpStubUInt8State_T * state, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_ExpectCalls (AtpStubUInt8State_T * state, UINT32_T count) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_Next" name="ZbBAtpStubUInt8_NextX" decorated_name="UINT8_T AtpStubUInt8_Next(AtpStubUInt8State_T *, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_Next (AtpStubUInt8State_T * state, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpStubUInt8_Next (AtpStubUInt8State_T * state, const char * stubName) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt16_SetSequence" name="ZbJAtpStubUInt16_SetSequenceX" decorated_name="void AtpStubUInt16_SetSequence(AtpStubUInt16State_T *, const UINT16_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt16_SetSequence (AtpStubUInt16State_T * state, const UINT16_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt16_SetSequence (AtpStubUInt16State_T * state, const UINT16_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt16_Next" name="ZbCAtpStubUInt16_NextX" decorated_name="UINT16_T AtpStubUInt16_Next(AtpStubUInt16State_T *, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt16_Next (AtpStubUInt16State_T * state, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T AtpStubUInt16_Next (AtpStubUInt16State_T * state, const char * stubName) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt32_SetSequence" name="ZbJAtpStubUInt32_SetSequenceX" decorated_name="void AtpStubUInt32_SetSequence(AtpStubUInt32State_T *, const UINT32_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt32_SetSequence (AtpStubUInt32State_T * state, const UINT32_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt32_SetSequence (AtpStubUInt32State_T * state, const UINT32_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt32_ExpectCalls" name="ZbJAtpStubUInt32_ExpectCallsX" decorated_name="void AtpStubUInt32_ExpectCalls(AtpStubUInt32State_T *, UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt32_ExpectCalls (AtpStubUInt32State_T * state, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt32_ExpectCalls (AtpStubUInt32State_T * state, UINT32_T count) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt32_Next" name="ZbCAtpStubUInt32_NextX" decorated_name="UINT32_T AtpStubUInt32_Next(AtpStubUInt32State_T *, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt32_Next (AtpStubUInt32State_T * state, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T AtpStubUInt32_Next (AtpStubUInt32State_T * state, const char * stubName) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetAutoDepSigInputRecord" name="ZcAAtpStub_GetAutoDepSigInputRecordX" decorated_name="AtpStubUInt32InputRecord_T * AtpStub_GetAutoDepSigInputRecord(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt32InputRecord_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetAutoDepSigInputRecord (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt32InputRecord_T * AtpStub_GetAutoDepSigInputRecord () </orig_declaration>
+         <return_expression>return (AtpStubUInt32InputRecord_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetFramWriteInputRecord" name="ZbPAtpStub_GetFramWriteInputRecordX" decorated_name="AtpStubFramWriteInputRecord_T * AtpStub_GetFramWriteInputRecord(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubFramWriteInputRecord_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetFramWriteInputRecord (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubFramWriteInputRecord_T * AtpStub_GetFramWriteInputRecord () </orig_declaration>
+         <return_expression>return (AtpStubFramWriteInputRecord_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_RecordUInt32Input" name="ZbJAtpStub_RecordUInt32InputX" decorated_name="void AtpStub_RecordUInt32Input(AtpStubUInt32InputRecord_T *, UINT32_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_RecordUInt32Input (AtpStubUInt32InputRecord_T * record, UINT32_T value, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStub_RecordUInt32Input (AtpStubUInt32InputRecord_T * record, UINT32_T value, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_RecordFramWriteInput" name="ZbMAtpStub_RecordFramWriteInputX" decorated_name="void AtpStub_RecordFramWriteInput(AtpStubFramWriteInputRecord_T *, UINT8_T *, UINT16_T, UINT16_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_RecordFramWriteInput (AtpStubFramWriteInputRecord_T * record, UINT8_T * data, UINT16_T type, UINT16_T length, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStub_RecordFramWriteInput (AtpStubFramWriteInputRecord_T * record, UINT8_T * data, UINT16_T type, UINT16_T length, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubSelfTest_Assert" name="ZbGAtpStubSelfTest_AssertX" decorated_name="void AtpStubSelfTest_Assert(int, const char *)">
+      <definition type="orig" source="code" file_id="1" line="8" col="6"/>
+    </Function>
+    <Function id="CppTest_GetCurrentTestCaseName" name="ZbOCppTest_GetCurrentTestCaseNameX" decorated_name="const char * CppTest_GetCurrentTestCaseName(void)">
+      <definition type="orig" source="code" file_id="1" line="17" col="14"/>
+    </Function>
+    <Function id="main" name="ZEmainX" decorated_name="int main(void)">
+      <definition type="orig" source="code" file_id="1" line="180" col="5"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

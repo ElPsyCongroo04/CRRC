@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" type="MCDC">
+  <VersionInfos>
+    <StorageInfo ownerId="MCDC" resultId="MCDCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="MCDC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="7439007155873996951 4668299114784009951 2280983601714526128 4668299114784010790 3847402058542082743 3273451860960186939 -5654282476041507106 -5654282476041505313 4668299114784002257 1166662377782021570 341804384815388165 -5654282476041505031 4350481491180392940 -3399826860484268947 3847402058542082837 -5654282476041505219 7973784069678024202 7439007155873998838 -1493642137797032652 -4520545803260036158 -5654282476041506058 7973784069678025135 -4830745867383605369 5760011107739631718 7439007155873996206 7973784069678024947 3847402058542083582 7439007155873996112 -5654282476041507200 -5654282476041506152 -6927587915849315046 -7078880077620647966 -5654282476041507012 -5654282476041505125 1166662377782020825 -5654282476041506246 7973784069678025041" uniqueId2MainId="CPP://-8491641153857428519 CPP://-2402214012712317886 CPP://2762465901126116297 CPP://-2402214012712317948 CPP://-1995934304685118465 CPP://5925110010703109921 CPP://-3808748669814165048 CPP://-3808748669814165203 CPP://-2402214012712317080 CPP://-8856412913634067207 CPP://-2627560879395168520 CPP://-3808748669814165296 CPP://-3747031002532602353 CPP://6179751836593946049 CPP://-1995934304685118496 CPP://-3808748669814165234 CPP://-4540507599446494186 CPP://-8491641153857428705 CPP://8711799381937294241 CPP://-5953393911139517280 CPP://-3808748669814165172 CPP://-4540507599446494279 CPP://-4819045318999339310 CPP://-5473152105868833739 CPP://-8491641153857428488 CPP://-4540507599446494217 CPP://-1995934304685118527 CPP://-8491641153857428457 CPP://-3808748669814165017 CPP://-3808748669814165141 CPP://-4806988851294073334 CPP://1024587607871724082 CPP://-3808748669814165079 CPP://-3808748669814165265 CPP://-8856412913634067176 CPP://-3808748669814165110 CPP://-4540507599446494248" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;170;CmToRmInit" total="2" num="2" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;457;CamToCmInit" total="2" num="2" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;268;RdToRmInit" total="2" num="2" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;415;FAOHold2Station" total="8" num="8" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;57;EumInit" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;482;RDInit" total="2" num="2" />
+  </Stats>
+  <ResultInfo cvgType="MCDC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;268;RdToRmInit">
+      <CtxCvg ctx="4668299114784009951" ids="RdToRmInit:1" decOuts="0" vals="0;0" />
+      <CtxCvg ctx="4668299114784002257" ids="RdToRmInit:1" decOuts="0" vals="0;0" />
+      <CtxCvg ctx="-6927587915849315046" ids="RdToRmInit:1" decOuts="0" vals="0;0" />
+      <CtxCvg ctx="1166662377782020825" ids="RdToRmInit:1" decOuts="1" vals="0;1" />
+      <CtxCvg ctx="1166662377782021570" ids="RdToRmInit:1" decOuts="1" vals="1;X" />
+      <CtxCvg ctx="4668299114784010790" ids="RdToRmInit:1" decOuts="0" vals="0;0" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;57;EumInit">
+      <CtxCvg ctx="-3399826860484268947" ids="EumInit:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="7439007155873996951" ids="EumInit:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="2280983601714526128" ids="EumInit:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="7439007155873996206" ids="EumInit:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="7439007155873998838" ids="EumInit:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="7439007155873996112" ids="EumInit:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="341804384815388165" ids="EumInit:1" decOuts="1" vals="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;457;CamToCmInit">
+      <CtxCvg ctx="3273451860960186939" ids="CamToCmInit:1" decOuts="1" vals="0;1" />
+      <CtxCvg ctx="-7078880077620647966" ids="CamToCmInit:1" decOuts="1" vals="1;X" />
+      <CtxCvg ctx="5760011107739631718" ids="CamToCmInit:1" decOuts="0" vals="0;0" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;170;CmToRmInit">
+      <CtxCvg ctx="3847402058542082837" ids="CmToRmInit:1" decOuts="1" vals="1;X" />
+      <CtxCvg ctx="-4830745867383605369" ids="CmToRmInit:1" decOuts="0" vals="0;0" />
+      <CtxCvg ctx="3847402058542083582" ids="CmToRmInit:1" decOuts="0" vals="0;0" />
+      <CtxCvg ctx="3847402058542082743" ids="CmToRmInit:1" decOuts="1" vals="0;1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;415;FAOHold2Station">
+      <CtxCvg ctx="7973784069678025135" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 1;0 0 0" />
+      <CtxCvg ctx="-5654282476041507106" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 1;0 0 0" />
+      <CtxCvg ctx="7973784069678024947" ids="FAOHold2Station:9 FAOHold2Station:4 FAOHold2Station:3 FAOHold2Station:11 FAOHold2Station:7 FAOHold2Station:1" decOuts="0 0 1 0 0 0" vals="0 1;0 1 0 0 0;X" />
+      <CtxCvg ctx="-5654282476041505313" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 1;0 0 0" />
+      <CtxCvg ctx="-5654282476041505031" ids="FAOHold2Station:1 FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:7 FAOHold2Station:3" decOuts="1 0 0 0 0" vals="1;1 0 0 0 0" />
+      <CtxCvg ctx="-5654282476041507200" ids="FAOHold2Station:4 FAOHold2Station:9 FAOHold2Station:3 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7" decOuts="1 0 1 0 0 0" vals="1;1 0 1 0 1;0 0" />
+      <CtxCvg ctx="-5654282476041506152" ids="FAOHold2Station:7 FAOHold2Station:11 FAOHold2Station:9 FAOHold2Station:1 FAOHold2Station:3" decOuts="1 1 1 0 0" vals="1 1 1 1;0 0" />
+      <CtxCvg ctx="-5654282476041505219" ids="FAOHold2Station:1 FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:7 FAOHold2Station:3" decOuts="1 0 0 0 0" vals="1;1 0 0 0 0" />
+      <CtxCvg ctx="7973784069678024202" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:7 FAOHold2Station:1 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 0 0;X 0" />
+      <CtxCvg ctx="-1493642137797032652" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 1;0 0 0" />
+      <CtxCvg ctx="-5654282476041507012" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 1;0 0 0" />
+      <CtxCvg ctx="-5654282476041506058" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 1;0 0 0" />
+      <CtxCvg ctx="-5654282476041505125" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 1;0 0 0" />
+      <CtxCvg ctx="7973784069678025041" ids="FAOHold2Station:4 FAOHold2Station:9 FAOHold2Station:3 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7" decOuts="0 0 1 0 0 0" vals="0;X 0 1 0 1;0 0" />
+      <CtxCvg ctx="-5654282476041506246" ids="FAOHold2Station:9 FAOHold2Station:11 FAOHold2Station:1 FAOHold2Station:7 FAOHold2Station:3" decOuts="0 0 0 0 0" vals="0 0 1;0 0 0" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;482;RDInit">
+      <CtxCvg ctx="4350481491180392940" ids="RDInit:3 RDInit:1" decOuts="1 1" vals="1 1" />
+      <CtxCvg ctx="-4520545803260036158" ids="RDInit:3 RDInit:1" decOuts="0 0" vals="0 0" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="MCDC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;482;RDInit" show="true">
+      <CvgElem id="RDInit:3" condNo="0">
+        <Loc locStartln="531" locStartPos="8" locEndLn="531" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="RDInit:1" condNo="0">
+        <Loc locStartln="519" locStartPos="8" locEndLn="519" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;170;CmToRmInit" show="true">
+      <CvgElem id="CmToRmInit:1" condNo="1">
+        <Loc locStartln="206" locStartPos="53" locEndLn="206" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="CmToRmInit:1" condNo="0">
+        <Loc locStartln="206" locStartPos="9" locEndLn="206" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;57;EumInit" show="true">
+      <CvgElem id="EumInit:1" condNo="0">
+        <Loc locStartln="98" locStartPos="8" locEndLn="98" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;415;FAOHold2Station" show="true">
+      <CvgElem id="FAOHold2Station:7" condNo="0">
+        <Loc locStartln="435" locStartPos="8" locEndLn="435" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="FAOHold2Station:9" condNo="0">
+        <Loc locStartln="440" locStartPos="8" locEndLn="440" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="FAOHold2Station:1" condNo="1">
+        <Loc locStartln="421" locStartPos="63" locEndLn="421" locEndPos="99" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="FAOHold2Station:1" condNo="0">
+        <Loc locStartln="421" locStartPos="9" locEndLn="421" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="FAOHold2Station:3" condNo="0">
+        <Loc locStartln="426" locStartPos="8" locEndLn="426" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="FAOHold2Station:11" condNo="0">
+        <Loc locStartln="447" locStartPos="8" locEndLn="447" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="FAOHold2Station:4" condNo="1">
+        <Loc locStartln="429" locStartPos="55" locEndLn="429" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="FAOHold2Station:4" condNo="0">
+        <Loc locStartln="429" locStartPos="13" locEndLn="429" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;457;CamToCmInit" show="true">
+      <CvgElem id="CamToCmInit:1" condNo="0">
+        <Loc locStartln="464" locStartPos="9" locEndLn="464" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="CamToCmInit:1" condNo="1">
+        <Loc locStartln="464" locStartPos="53" locEndLn="464" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c;268;RdToRmInit" show="true">
+      <CvgElem id="RdToRmInit:1" condNo="0">
+        <Loc locStartln="289" locStartPos="9" locEndLn="289" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+      <CvgElem id="RdToRmInit:1" condNo="1">
+        <Loc locStartln="289" locStartPos="53" locEndLn="289" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeInit.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

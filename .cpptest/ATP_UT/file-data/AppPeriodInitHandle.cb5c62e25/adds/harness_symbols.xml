@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodInitHandle.c" id="1"/>
+    <Function id="GetInMeaLocalMCoupConSta" name="ZbIGetInMeaLocalMCoupConStaX" decorated_name="UINT8_T GetInMeaLocalMCoupConSta(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaLocalMCoupConSta (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaLocalMCoupConSta () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaOppoMCoupConSta" name="ZbHGetInMeaOppoMCoupConStaX" decorated_name="UINT8_T GetInMeaOppoMCoupConSta(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaOppoMCoupConSta (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaOppoMCoupConSta () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitAssureInfoTagData" name="ZbFInitAssureInfoTagDataX" decorated_name="void InitAssureInfoTagData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitAssureInfoTagData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitAssureInfoTagData () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="SetPowerOffHintFlag" name="ZbDSetPowerOffHintFlagX" decorated_name="void SetPowerOffHintFlag(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetPowerOffHintFlag (const UINT8_T powerOffHintFlag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetPowerOffHintFlag (const UINT8_T powerOffHintFlag) </orig_declaration>
+         <user_decl_header>PowerOffData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="PeriodInitTrainData" name="ZbDPeriodInitTrainDataX" decorated_name="void PeriodInitTrainData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_PeriodInitTrainData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void PeriodInitTrainData () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="PeriodInitSysErrorData" name="ZbGPeriodInitSysErrorDataX" decorated_name="void PeriodInitSysErrorData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_PeriodInitSysErrorData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void PeriodInitSysErrorData () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="SetArLampStatus" name="ZPSetArLampStatusX" decorated_name="void SetArLampStatus(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetArLampStatus (const UINT8_T arLampStatus) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetArLampStatus (const UINT8_T arLampStatus) </orig_declaration>
+         <user_decl_header>ArInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetAtoStButton" name="ZOSetAtoStButtonX" decorated_name="void SetAtoStButton(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetAtoStButton (const UINT8_T atoStButton) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetAtoStButton (const UINT8_T atoStButton) </orig_declaration>
+         <user_decl_header>AtoInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetOutLeftDoorEnable" name="ZbESetOutLeftDoorEnableX" decorated_name="void SetOutLeftDoorEnable(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetOutLeftDoorEnable (const UINT8_T outLeftDoorEnable) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetOutLeftDoorEnable (const UINT8_T outLeftDoorEnable) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetOutRightDoorEnable" name="ZbFSetOutRightDoorEnableX" decorated_name="void SetOutRightDoorEnable(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetOutRightDoorEnable (const UINT8_T outRightDoorEnable) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetOutRightDoorEnable (const UINT8_T outRightDoorEnable) </orig_declaration>
+         <user_decl_header>DoorInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetBalCurBaliseId" name="ZbBSetBalCurBaliseIdX" decorated_name="void SetBalCurBaliseId(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBalCurBaliseId (const UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBalCurBaliseId (const UINT32_T baliseId) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetPrtBackStateTag" name="ZbCSetPrtBackStateTagX" decorated_name="void SetPrtBackStateTag(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetPrtBackStateTag (const UINT8_T backStateTag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetPrtBackStateTag (const UINT8_T backStateTag) </orig_declaration>
+         <user_decl_header>ProtectionData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetPrtRollStateTag" name="ZbCSetPrtRollStateTagX" decorated_name="void SetPrtRollStateTag(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetPrtRollStateTag (const UINT8_T rollStateTag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetPrtRollStateTag (const UINT8_T rollStateTag) </orig_declaration>
+         <user_decl_header>ProtectionData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetPrtRedSigTag" name="ZPSetPrtRedSigTagX" decorated_name="void SetPrtRedSigTag(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetPrtRedSigTag (UINT8_T redSigTag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetPrtRedSigTag (UINT8_T redSigTag) </orig_declaration>
+         <user_decl_header>ProtectionData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpPeriodInit" name="ZNAtpPeriodInitX" decorated_name="void AtpPeriodInit(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpPeriodInit (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpPeriodInit () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="SetStopEnsureSta" name="ZbASetStopEnsureStaX" decorated_name="void SetStopEnsureSta(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetStopEnsureSta (const UINT8_T stopEnsureSta) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetStopEnsureSta (const UINT8_T stopEnsureSta) </orig_declaration>
+         <user_decl_header>StopEnsureHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitSndMmiInfoData" name="ZbCInitSndMmiInfoDataX" decorated_name="void InitSndMmiInfoData(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitSndMmiInfoData (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitSndMmiInfoData (const UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseHMIInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSendMmiFaoFaultPtr" name="ZbFGetSendMmiFaoFaultPtrX" decorated_name="UINT32_T * GetSendMmiFaoFaultPtr(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetSendMmiFaoFaultPtr (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T * GetSendMmiFaoFaultPtr () </orig_declaration>
+         <return_expression>return (UINT32_T *)0;</return_expression>
+         <user_decl_header>PackParseHMIInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSendMmiFaoEstbFailPtr" name="ZbIGetSendMmiFaoEstbFailPtrX" decorated_name="UINT32_T * GetSendMmiFaoEstbFailPtr(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetSendMmiFaoEstbFailPtr (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T * GetSendMmiFaoEstbFailPtr () </orig_declaration>
+         <return_expression>return (UINT32_T *)0;</return_expression>
+         <user_decl_header>PackParseHMIInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitSndAtoInfoData" name="ZbCInitSndAtoInfoDataX" decorated_name="void InitSndAtoInfoData(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitSndAtoInfoData (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitSndAtoInfoData (const UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseAtoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitControlToIdleSendData" name="ZbJInitControlToIdleSendDataX" decorated_name="void InitControlToIdleSendData(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitControlToIdleSendData (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitControlToIdleSendData (const UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseCtlAndIdleInterData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetSndAnaAtpDataFlag" name="ZbESetSndAnaAtpDataFlagX" decorated_name="void SetSndAnaAtpDataFlag(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSndAnaAtpDataFlag (UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSndAnaAtpDataFlag (UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseCtlAndIdleInterData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitRcvBtmFrameData" name="ZbDInitRcvBtmFrameDataX" decorated_name="void InitRcvBtmFrameData(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitRcvBtmFrameData (UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitRcvBtmFrameData (UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitRcvBtmIdleData" name="ZbCInitRcvBtmIdleDataX" decorated_name="void InitRcvBtmIdleData(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitRcvBtmIdleData (UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitRcvBtmIdleData (UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitRcvBaliseData" name="ZbBInitRcvBaliseDataX" decorated_name="void InitRcvBaliseData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitRcvBaliseData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitRcvBaliseData () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="InitIsRecvBaliseData" name="ZbEInitIsRecvBaliseDataX" decorated_name="void InitIsRecvBaliseData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitIsRecvBaliseData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitIsRecvBaliseData () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="InitRcvBaliseDataStruLog" name="ZbIInitRcvBaliseDataStruLogX" decorated_name="void InitRcvBaliseDataStruLog(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitRcvBaliseDataStruLog (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitRcvBaliseDataStruLog () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="SetBaliseIdRecord" name="ZbBSetBaliseIdRecordX" decorated_name="void SetBaliseIdRecord(UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBaliseIdRecord (UINT32_T baliseID) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBaliseIdRecord (UINT32_T baliseID) </orig_declaration>
+         <user_decl_header>PackParseBaliseData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitSndTacInfoData" name="ZbCInitSndTacInfoDataX" decorated_name="void InitSndTacInfoData(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitSndTacInfoData (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitSndTacInfoData (const UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseTacInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitRcvTacTmpInfoData" name="ZbFInitRcvTacTmpInfoDataX" decorated_name="void InitRcvTacTmpInfoData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitRcvTacTmpInfoData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitRcvTacTmpInfoData () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="SetPsdEbTag" name="ZLSetPsdEbTagX" decorated_name="void SetPsdEbTag(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetPsdEbTag (const UINT8_T psdEbtag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetPsdEbTag (const UINT8_T psdEbtag) </orig_declaration>
+         <user_decl_header>PsdHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetEsbEbTag" name="ZLSetEsbEbTagX" decorated_name="void SetEsbEbTag(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetEsbEbTag (const UINT8_T esbEbtag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetEsbEbTag (const UINT8_T esbEbtag) </orig_declaration>
+         <user_decl_header>PsdHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetFaoDataStr" name="ZNGetFaoDataStrX" decorated_name="FaoDataStruct_T * GetFaoDataStr(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE FaoDataStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetFaoDataStr (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE FaoDataStruct_T * GetFaoDataStr () </orig_declaration>
+         <return_expression>return (FaoDataStruct_T *)0;</return_expression>
+         <user_decl_header>FaoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetSlpAwkSleepCond" name="ZbCSetSlpAwkSleepCondX" decorated_name="void SetSlpAwkSleepCond(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSlpAwkSleepCond (UINT8_T cond) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSlpAwkSleepCond (UINT8_T cond) </orig_declaration>
+         <user_decl_header>SleepAwakeData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitSndAomInfoData" name="ZbCInitSndAomInfoDataX" decorated_name="void InitSndAomInfoData(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitSndAomInfoData (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitSndAomInfoData (const UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseAomData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitSndCamInfoData" name="ZbCInitSndCamInfoDataX" decorated_name="void InitSndCamInfoData(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitSndCamInfoData (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitSndCamInfoData (const UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseCamData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetCorLocTag" name="ZMSetCorLocTagX" decorated_name="void SetCorLocTag(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetCorLocTag (UINT8_T cortag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetCorLocTag (UINT8_T cortag) </orig_declaration>
+         <user_decl_header>TrainLocManage.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitMarCoupleHandleData" name="ZbHInitMarCoupleHandleDataX" decorated_name="void InitMarCoupleHandleData(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitMarCoupleHandleData (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitMarCoupleHandleData (const UINT8_T value) </orig_declaration>
+         <user_decl_header>MarshallingData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitMarUncoupleHandleData" name="ZbJInitMarUncoupleHandleDataX" decorated_name="void InitMarUncoupleHandleData(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitMarUncoupleHandleData (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitMarUncoupleHandleData (const UINT8_T value) </orig_declaration>
+         <user_decl_header>MarshallingData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetMarshalTrainType" name="ZbDGetMarshalTrainTypeX" decorated_name="UINT8_T GetMarshalTrainType(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetMarshalTrainType (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetMarshalTrainType () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>MarshallingData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetMarshallingSide" name="ZbCGetMarshallingSideX" decorated_name="UINT8_T GetMarshallingSide(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetMarshallingSide (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetMarshallingSide () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>MarshallingData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetMarMidSideEHookConStts" name="ZbJGetMarMidSideEHookConSttsX" decorated_name="UINT8_T GetMarMidSideEHookConStts(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetMarMidSideEHookConStts (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetMarMidSideEHookConStts () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>MarshallingData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainType" name="ZMGetTrainTypeX" decorated_name="UINT8_T GetTrainType(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainType (const UINT32_T DevName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainType (const UINT32_T DevName) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainTypeConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainInitAtpLongDevName" name="ZbKGetTrainInitAtpLongDevNameX" decorated_name="UINT32_T GetTrainInitAtpLongDevName(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainInitAtpLongDevName (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTrainInitAtpLongDevName () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainInitData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AccordTrainTypeGetConfig" name="ZbIAccordTrainTypeGetConfigX" decorated_name="void AccordTrainTypeGetConfig(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AccordTrainTypeGetConfig (UINT8_T trainType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AccordTrainTypeGetConfig (UINT8_T trainType) </orig_declaration>
+         <user_decl_header>TrainInitHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainInitType" name="ZbAGetTrainInitTypeX" decorated_name="UINT8_T GetTrainInitType(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainInitType (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainInitType () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainInitHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetTrainInitType" name="ZbASetTrainInitTypeX" decorated_name="void SetTrainInitType(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetTrainInitType (UINT8_T trainType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetTrainInitType (UINT8_T trainType) </orig_declaration>
+         <user_decl_header>TrainInitHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitHandleSystemAlarm" name="ZbFInitHandleSystemAlarmX" decorated_name="void InitHandleSystemAlarm(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitHandleSystemAlarm (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitHandleSystemAlarm () </orig_declaration>
+      </stub_declaration>
+    </Function>
+    <Function id="AppPeriodInit" name="ZNAppPeriodInitX" decorated_name="void AppPeriodInit(void)">
+      <definition type="orig" source="code" file_id="1" line="58" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

@@ -1,0 +1,21 @@
+$
+#<Template name="Forward initializer using: unsigned">
+#    <Properties>
+#        <Property key="FLATTEN_IN_WIZARD" />
+#    </Properties> 
+#    <Inputs>
+#        <Input name="FORWARD_INITIALIZER" type="string">
+#            <Source location="tja://types/${TYPE_DIR:unsigned int}/init">
+#                <Argument name="VAR_NAME" value="$VAR_NAME$"/>
+#                <Argument name="INDENT" value="$INDENT$"/>
+#                <Argument name="TYPENAME" value="UINT32_T"/>
+#                <Argument name="IS_CONST" value="$IS_CONST$"/>
+#            </Source>
+#            <Properties>
+#                <Property key="FLATTENED_GROUP"/>
+#            </Properties>
+#        </Input>
+#    </Inputs>
+#</Template>
+\$
+$FORWARD_INITIALIZER$$\$

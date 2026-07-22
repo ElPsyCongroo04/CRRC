@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\stubs\framework\AtpStub.c" id="1"/>
+    <Function id="AtpStub_BeginTest" name="ZbBAtpStub_BeginTestX" decorated_name="void AtpStub_BeginTest(void)">
+      <definition type="orig" source="code" file_id="1" line="97" col="6"/>
+    </Function>
+    <Function id="AtpStub_EndTest" name="ZPAtpStub_EndTestX" decorated_name="void AtpStub_EndTest(void)">
+      <definition type="orig" source="code" file_id="1" line="108" col="6"/>
+    </Function>
+    <Function id="AtpStub_IsCurrentTestManaged" name="ZbMAtpStub_IsCurrentTestManagedX" decorated_name="UINT8_T AtpStub_IsCurrentTestManaged(void)">
+      <definition type="orig" source="code" file_id="1" line="144" col="9"/>
+    </Function>
+    <Function id="AtpStub_GetUInt8State" name="ZbFAtpStub_GetUInt8StateX" decorated_name="AtpStubUInt8State_T * AtpStub_GetUInt8State(AtpStubUInt8Id_T)">
+      <definition type="orig" source="code" file_id="1" line="155" col="23"/>
+    </Function>
+    <Function id="AtpStub_GetUInt16State" name="ZbGAtpStub_GetUInt16StateX" decorated_name="AtpStubUInt16State_T * AtpStub_GetUInt16State(AtpStubUInt16Id_T)">
+      <definition type="orig" source="code" file_id="1" line="168" col="24"/>
+    </Function>
+    <Function id="AtpStub_GetUInt32State" name="ZbGAtpStub_GetUInt32StateX" decorated_name="AtpStubUInt32State_T * AtpStub_GetUInt32State(AtpStubUInt32Id_T)">
+      <definition type="orig" source="code" file_id="1" line="181" col="24"/>
+    </Function>
+    <Function id="AtpStub_GetInt32State" name="ZbFAtpStub_GetInt32StateX" decorated_name="AtpStubInt32State_T * AtpStub_GetInt32State(AtpStubInt32Id_T)">
+      <definition type="orig" source="code" file_id="1" line="194" col="23"/>
+    </Function>
+    <Function id="AtpStub_GetAutoDepSigInputRecord" name="ZcAAtpStub_GetAutoDepSigInputRecordX" decorated_name="AtpStubUInt32InputRecord_T * AtpStub_GetAutoDepSigInputRecord(void)">
+      <definition type="orig" source="code" file_id="1" line="205" col="30"/>
+    </Function>
+    <Function id="AtpStub_GetFramWriteInputRecord" name="ZbPAtpStub_GetFramWriteInputRecordX" decorated_name="AtpStubFramWriteInputRecord_T * AtpStub_GetFramWriteInputRecord(void)">
+      <definition type="orig" source="code" file_id="1" line="210" col="33"/>
+    </Function>
+    <Function id="AtpStub_RecordUInt32Input" name="ZbJAtpStub_RecordUInt32InputX" decorated_name="void AtpStub_RecordUInt32Input(AtpStubUInt32InputRecord_T *, UINT32_T, const char *)">
+      <definition type="orig" source="code" file_id="1" line="215" col="6"/>
+    </Function>
+    <Function id="AtpStub_RecordFramWriteInput" name="ZbMAtpStub_RecordFramWriteInputX" decorated_name="void AtpStub_RecordFramWriteInput(AtpStubFramWriteInputRecord_T *, UINT8_T *, UINT16_T, UINT16_T, const char *)">
+      <definition type="orig" source="code" file_id="1" line="229" col="6"/>
+    </Function>
+    <Function id="AtpStub_GetProtectionInputRecord" name="ZcAAtpStub_GetProtectionInputRecordX" decorated_name="AtpStubProtectionInputRecord_T * AtpStub_GetProtectionInputRecord(AtpStubProtectionInputId_T)">
+      <definition type="orig" source="code" file_id="1" line="249" col="34"/>
+    </Function>
+    <Function id="AtpStub_RecordProtectionInput" name="ZbNAtpStub_RecordProtectionInputX" decorated_name="void AtpStub_RecordProtectionInput(AtpStubProtectionInputRecord_T *, UINT32_T, UINT32_T, UINT32_T, UINT16_T *, const char *)">
+      <definition type="orig" source="code" file_id="1" line="261" col="6"/>
+    </Function>
+    <Function id="AtpStubUInt8_SetValue" name="ZbFAtpStubUInt8_SetValueX" decorated_name="void AtpStubUInt8_SetValue(AtpStubUInt8State_T *, UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="358" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt8_SetSequence" name="ZbIAtpStubUInt8_SetSequenceX" decorated_name="void AtpStubUInt8_SetSequence(AtpStubUInt8State_T *, const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)">
+      <definition type="orig" source="code" file_id="1" line="358" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt8_ExpectCalls" name="ZbIAtpStubUInt8_ExpectCallsX" decorated_name="void AtpStubUInt8_ExpectCalls(AtpStubUInt8State_T *, UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="358" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt8_Next" name="ZbBAtpStubUInt8_NextX" decorated_name="UINT8_T AtpStubUInt8_Next(AtpStubUInt8State_T *, const char *)">
+      <definition type="orig" source="code" file_id="1" line="358" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt16_SetValue" name="ZbGAtpStubUInt16_SetValueX" decorated_name="void AtpStubUInt16_SetValue(AtpStubUInt16State_T *, UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="359" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt16_SetSequence" name="ZbJAtpStubUInt16_SetSequenceX" decorated_name="void AtpStubUInt16_SetSequence(AtpStubUInt16State_T *, const UINT16_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)">
+      <definition type="orig" source="code" file_id="1" line="359" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt16_ExpectCalls" name="ZbJAtpStubUInt16_ExpectCallsX" decorated_name="void AtpStubUInt16_ExpectCalls(AtpStubUInt16State_T *, UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="359" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt16_Next" name="ZbCAtpStubUInt16_NextX" decorated_name="UINT16_T AtpStubUInt16_Next(AtpStubUInt16State_T *, const char *)">
+      <definition type="orig" source="code" file_id="1" line="359" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt32_SetValue" name="ZbGAtpStubUInt32_SetValueX" decorated_name="void AtpStubUInt32_SetValue(AtpStubUInt32State_T *, UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="360" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt32_SetSequence" name="ZbJAtpStubUInt32_SetSequenceX" decorated_name="void AtpStubUInt32_SetSequence(AtpStubUInt32State_T *, const UINT32_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)">
+      <definition type="orig" source="code" file_id="1" line="360" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt32_ExpectCalls" name="ZbJAtpStubUInt32_ExpectCallsX" decorated_name="void AtpStubUInt32_ExpectCalls(AtpStubUInt32State_T *, UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="360" col="1"/>
+    </Function>
+    <Function id="AtpStubUInt32_Next" name="ZbCAtpStubUInt32_NextX" decorated_name="UINT32_T AtpStubUInt32_Next(AtpStubUInt32State_T *, const char *)">
+      <definition type="orig" source="code" file_id="1" line="360" col="1"/>
+    </Function>
+    <Function id="AtpStubInt32_SetValue" name="ZbFAtpStubInt32_SetValueX" decorated_name="void AtpStubInt32_SetValue(AtpStubInt32State_T *, INT32_T)">
+      <definition type="orig" source="code" file_id="1" line="361" col="1"/>
+    </Function>
+    <Function id="AtpStubInt32_SetSequence" name="ZbIAtpStubInt32_SetSequenceX" decorated_name="void AtpStubInt32_SetSequence(AtpStubInt32State_T *, const INT32_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)">
+      <definition type="orig" source="code" file_id="1" line="361" col="1"/>
+    </Function>
+    <Function id="AtpStubInt32_ExpectCalls" name="ZbIAtpStubInt32_ExpectCallsX" decorated_name="void AtpStubInt32_ExpectCalls(AtpStubInt32State_T *, UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="361" col="1"/>
+    </Function>
+    <Function id="AtpStubInt32_Next" name="ZbBAtpStubInt32_NextX" decorated_name="INT32_T AtpStubInt32_Next(AtpStubInt32State_T *, const char *)">
+      <definition type="orig" source="code" file_id="1" line="361" col="1"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

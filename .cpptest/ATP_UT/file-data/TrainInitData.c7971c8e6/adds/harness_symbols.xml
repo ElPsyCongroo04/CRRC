@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\TrainInitData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitTrainInitData" name="ZbBInitTrainInitDataX" decorated_name="void InitTrainInitData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="19" col="6"/>
+    </Function>
+    <Function id="GetTrainInitLocalName" name="ZbFGetTrainInitLocalNameX" decorated_name="UINT16_T GetTrainInitLocalName(void)">
+      <definition type="orig" source="code" file_id="1" line="27" col="10"/>
+    </Function>
+    <Function id="SetTrainInitLocalName" name="ZbFSetTrainInitLocalNameX" decorated_name="void SetTrainInitLocalName(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="34" col="6"/>
+    </Function>
+    <Function id="GetTrainInitAnaDevId" name="ZbEGetTrainInitAnaDevIdX" decorated_name="UINT32_T GetTrainInitAnaDevId(void)">
+      <definition type="orig" source="code" file_id="1" line="41" col="10"/>
+    </Function>
+    <Function id="SetTrainInitAnaDevId" name="ZbESetTrainInitAnaDevIdX" decorated_name="void SetTrainInitAnaDevId(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="49" col="6"/>
+    </Function>
+    <Function id="GetTrainInitAtpLongDevName" name="ZbKGetTrainInitAtpLongDevNameX" decorated_name="UINT32_T GetTrainInitAtpLongDevName(void)">
+      <definition type="orig" source="code" file_id="1" line="56" col="10"/>
+    </Function>
+    <Function id="SetTrainInitAtpLongDevName" name="ZbKSetTrainInitAtpLongDevNameX" decorated_name="void SetTrainInitAtpLongDevName(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="6"/>
+    </Function>
+    <Function id="GetTrainInitLocWinFlag" name="ZbGGetTrainInitLocWinFlagX" decorated_name="UINT8_T GetTrainInitLocWinFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="70" col="9"/>
+    </Function>
+    <Function id="SetTrainInitLocWinFlag" name="ZbGSetTrainInitLocWinFlagX" decorated_name="void SetTrainInitLocWinFlag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="79" col="6"/>
+    </Function>
+    <Function id="GetTrainInitLineNum" name="ZbDGetTrainInitLineNumX" decorated_name="UINT16_T GetTrainInitLineNum(void)">
+      <definition type="orig" source="code" file_id="1" line="86" col="10"/>
+    </Function>
+    <Function id="SetTrainInitLineNum" name="ZbDSetTrainInitLineNumX" decorated_name="void SetTrainInitLineNum(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="93" col="6"/>
+    </Function>
+    <Function id="SetTrainInitBtmFlag" name="ZbDSetTrainInitBtmFlagX" decorated_name="void SetTrainInitBtmFlag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="100" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

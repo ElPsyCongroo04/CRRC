@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" type="MCDC">
+  <VersionInfos>
+    <StorageInfo ownerId="MCDC" resultId="MCDCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="MCDC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;125;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|QueryErrorCode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;58;HandleSystemAlarm" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;100;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm" total="5" num="0" />
+  </Stats>
+  <ResultInfo cvgType="MCDC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;58;HandleSystemAlarm" show="true">
+      <CvgElem id="HandleSystemAlarm:2" condNo="0">
+        <Loc locStartln="68" locStartPos="17" locEndLn="68" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+      <CvgElem id="HandleSystemAlarm:5" condNo="0">
+        <Loc locStartln="76" locStartPos="7" locEndLn="76" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+      <CvgElem id="HandleSystemAlarm:4" condNo="0">
+        <Loc locStartln="73" locStartPos="6" locEndLn="73" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;125;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|QueryErrorCode" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|QueryErrorCode:1" condNo="0">
+        <Loc locStartln="129" locStartPos="5" locEndLn="129" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;100;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm:1" condNo="1">
+        <Loc locStartln="106" locStartPos="44" locEndLn="106" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm:1" condNo="0">
+        <Loc locStartln="106" locStartPos="6" locEndLn="106" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm:2" condNo="1">
+        <Loc locStartln="108" locStartPos="55" locEndLn="108" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm:2" condNo="0">
+        <Loc locStartln="108" locStartPos="7" locEndLn="108" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm:2" condNo="2">
+        <Loc locStartln="108" locStartPos="97" locEndLn="108" locEndPos="134" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

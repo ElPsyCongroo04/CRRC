@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="5538622662959789658 5538622662959759708 5538622662959826087 5538622662959827041 -6431339602755608716 5538622662959759614 5538622662959797373 5538622662959797279 -6431339602755609743 -6431339602755607877 5538622662959730973 5538622662959728992 5538622662959818299 5538622662959788537 5538622662959788631 5538622662959728898 5538622662959731067 -6431339602755607971 5538622662959789564 5538622662959788725 5538622662959729831 5538622662959826202 5538622662959730040 5538622662959767402 5538622662959767496 5538622662959758660 5538622662959729925 5538622662959790403 5538622662959767590 5538622662959789470 5538622662959796419 -6431339602755608904 5538622662959730879 -6431339602755607017 -5271665499335051497 5538622662959848061 5538622662959818487 5538622662959758754 5538622662959818393 5538622662959730785 5538622662959819232 5538622662959759802 -6431339602755608810 5538622662959827135 -6431339602755606923 -6431339602755609649 5538622662959760735 5538622662959848155 5538622662959797164 5538622662959819326 5538622662959760641 5538622662959759896 4323571607009322085 5538622662959758848 -6431339602755607762 5538622662959729086 5538622662959737734 5538622662959819420 5538622662959826947" uniqueId2MainId="CPP://8841512237401863185 CPP://8841512237401862131 CPP://8841512237401864859 CPP://8841512237401864952 CPP://-401789308349774387 CPP://8841512237401862100 CPP://8841512237401863991 CPP://8841512237401863960 CPP://-401789308349774263 CPP://-401789308349774449 CPP://8841512237401861263 CPP://8841512237401861046 CPP://8841512237401864022 CPP://8841512237401863030 CPP://8841512237401863061 CPP://8841512237401861015 CPP://8841512237401861294 CPP://-401789308349774418 CPP://8841512237401863154 CPP://8841512237401863092 CPP://8841512237401861108 CPP://8841512237401864890 CPP://8841512237401861170 CPP://8841512237401862937 CPP://8841512237401862968 CPP://8841512237401862007 CPP://8841512237401861139 CPP://8841512237401863216 CPP://8841512237401862999 CPP://8841512237401863123 CPP://8841512237401863898 CPP://-401789308349774325 CPP://8841512237401861232 CPP://-401789308349774511 CPP://-2749457347969311273 CPP://8841512237401865014 CPP://8841512237401864084 CPP://8841512237401862038 CPP://8841512237401864053 CPP://8841512237401861201 CPP://8841512237401864115 CPP://8841512237401862162 CPP://-401789308349774356 CPP://8841512237401864983 CPP://-401789308349774542 CPP://-401789308349774294 CPP://8841512237401862255 CPP://8841512237401865045 CPP://8841512237401863929 CPP://8841512237401864146 CPP://8841512237401862224 CPP://8841512237401862193 CPP://576510591207444611 CPP://8841512237401862069 CPP://-401789308349774480 CPP://8841512237401861077 CPP://8841512237401861976 CPP://8841512237401864177 CPP://8841512237401864921" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;55;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" total="95" num="17" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;32;ModeMagFunc" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;246;GetStartSetPreModeTag" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;239;StartSetPreModeTag" total="1" num="1" />
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;246;GetStartSetPreModeTag">
+      <CtxCvg ctx="5538622662959729925" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959758660" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959730879" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755608904" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755607017" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959758754" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755608716" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755609743" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755607877" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959730973" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959730785" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959728992" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755608810" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755606923" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755609649" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959728898" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959731067" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755607971" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959729831" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959730040" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="4323571607009322085" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959758848" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-6431339602755607762" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959729086" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959737734" ids="GetStartSetPreModeTag" cnts="3" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;55;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode">
+      <CtxCvg ctx="5538622662959789658" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;10;12;13;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959759708" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959826087" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;17;25;30;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959827041" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;32;33;35;36;38;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755608716" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959759614" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959797373" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959797279" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755609743" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755607877" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959730973" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959728992" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959788537" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;37;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959818299" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959788631" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959728898" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959731067" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755607971" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959789564" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959729831" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959788725" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;5;7;8;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959826202" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;17;27;30;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959730040" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959767402" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;46;47" expect="1" />
+      <CtxCvg ctx="5538622662959767496" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;46;47" expect="1" />
+      <CtxCvg ctx="5538622662959758660" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;41;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959729925" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959767590" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959790403" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;10;11;13;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959789470" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;5;6;8;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959796419" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;17;19;30;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755608904" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959730879" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;41;42;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755607017" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="-5271665499335051497" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959848061" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;32;34;35;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959818487" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;43;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959758754" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;41;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959818393" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;37;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959730785" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959819232" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959759802" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755608810" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959827135" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;32;34;35;36;38;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755606923" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755609649" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959848155" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;32;34;35;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959760735" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;46;47" expect="1" />
+      <CtxCvg ctx="5538622662959797164" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959819326" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;17;21;30;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959760641" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959759896" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959758848" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="4323571607009322085" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="-6431339602755607762" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959737734" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;41;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959729086" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959819420" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;3;4;9;14;16;17;23;30;31;36;38;45;47" expect="1" />
+      <CtxCvg ctx="5538622662959826947" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" cnts="2" paths="1;2;39;40;42;45;47" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;239;StartSetPreModeTag">
+      <CtxCvg ctx="5538622662959826202" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959789658" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959788537" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959790403" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959826087" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959827041" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959819420" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959819326" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959789470" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959796419" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959818393" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="5538622662959788725" ids="StartSetPreModeTag" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;32;ModeMagFunc">
+      <CtxCvg ctx="-5271665499335051497" ids="ModeMagFunc" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;239;StartSetPreModeTag" show="true">
+      <CvgElem id="StartSetPreModeTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="242" locStartPos="4" locEndLn="242" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;55;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWModeManageWModeControlWc|PreSetHighestMode" pathsNo="95">
+        <BlckInfo id="1" blckTrans="2;46">
+          <PathBlckLoc locStartln="58" locStartPos="4" locEndLn="71" locEndPos="102" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;39">
+          <PathBlckLoc locStartln="75" locStartPos="12" locEndLn="75" locEndPos="101" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;37">
+          <PathBlckLoc locStartln="78" locStartPos="12" locEndLn="81" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;9">
+          <PathBlckLoc locStartln="85" locStartPos="16" locEndLn="87" locEndPos="95" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="90" locStartPos="20" locEndLn="93" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="8">
+          <PathBlckLoc locStartln="95" locStartPos="20" locEndLn="97" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="101" locStartPos="24" locEndLn="101" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="16">
+          <PathBlckLoc locStartln="103" locStartPos="16" locEndLn="103" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;14">
+          <PathBlckLoc locStartln="105" locStartPos="25" locEndLn="105" locEndPos="104" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="108" locStartPos="20" locEndLn="111" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13">
+          <PathBlckLoc locStartln="112" locStartPos="20" locEndLn="114" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="118" locStartPos="24" locEndLn="118" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="16">
+          <PathBlckLoc locStartln="120" locStartPos="16" locEndLn="120" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="16">
+          <PathBlckLoc locStartln="122" locStartPos="16" locEndLn="124" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="19;21;23;25;27">
+          <PathBlckLoc locStartln="128" locStartPos="20" locEndLn="130" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;31">
+          <PathBlckLoc locStartln="126" locStartPos="20" locEndLn="126" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="30">
+          <PathBlckLoc locStartln="135" locStartPos="24" locEndLn="138" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="30">
+          <PathBlckLoc locStartln="143" locStartPos="24" locEndLn="146" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="30">
+          <PathBlckLoc locStartln="151" locStartPos="24" locEndLn="153" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="30">
+          <PathBlckLoc locStartln="158" locStartPos="24" locEndLn="160" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="30">
+          <PathBlckLoc locStartln="163" locStartPos="24" locEndLn="164" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32;36">
+          <PathBlckLoc locStartln="169" locStartPos="20" locEndLn="169" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31">
+          <PathBlckLoc locStartln="166" locStartPos="16" locEndLn="166" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35">
+          <PathBlckLoc locStartln="190" locStartPos="20" locEndLn="192" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36">
+          <PathBlckLoc locStartln="193" locStartPos="16" locEndLn="193" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33;34">
+          <PathBlckLoc locStartln="172" locStartPos="20" locEndLn="179" locEndPos="127" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="35">
+          <PathBlckLoc locStartln="182" locStartPos="24" locEndLn="187" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="45">
+          <PathBlckLoc locStartln="202" locStartPos="8" locEndLn="202" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="40;43">
+          <PathBlckLoc locStartln="204" locStartPos="17" locEndLn="204" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="38">
+          <PathBlckLoc locStartln="194" locStartPos="12" locEndLn="194" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="38">
+          <PathBlckLoc locStartln="198" locStartPos="16" locEndLn="200" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="42" blckTrans="45">
+          <PathBlckLoc locStartln="222" locStartPos="8" locEndLn="222" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="43" blckTrans="45">
+          <PathBlckLoc locStartln="224" locStartPos="8" locEndLn="226" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="41;42">
+          <PathBlckLoc locStartln="207" locStartPos="12" locEndLn="216" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="41" blckTrans="42">
+          <PathBlckLoc locStartln="219" locStartPos="16" locEndLn="220" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="46" blckTrans="47">
+          <PathBlckLoc locStartln="233" locStartPos="4" locEndLn="234" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="47" blckTrans="">
+          <PathBlckLoc locStartln="236" locStartPos="0" locEndLn="236" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+        <BlckInfo id="45" blckTrans="47">
+          <PathBlckLoc locStartln="228" locStartPos="4" locEndLn="228" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;32;ModeMagFunc" show="true">
+      <CvgElem id="ModeMagFunc" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="36" locStartPos="4" locEndLn="39" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c;246;GetStartSetPreModeTag" show="true">
+      <CvgElem id="GetStartSetPreModeTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="248" locStartPos="4" locEndLn="248" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ModeManage/ModeControl.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

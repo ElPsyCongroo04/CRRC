@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="3847402058542082837 4350481491180392940 -4830745867383605369 3847402058542082743 3847402058542083582 -4520545803260036158" uniqueId2MainId="CPP://-1995934304685118496 CPP://-3747031002532602353 CPP://-4819045318999339310 CPP://-1995934304685118465 CPP://-1995934304685118527 CPP://-5953393911139517280" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;42;GetPsdStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;20;InitPsdInfoData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;26;GetPSDId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;57;GetPsdIsolatStatus" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;80;SetPsdIsolatStatus" total="11" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;50;SetPsdStatus" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;34;SetPSDId" total="1" num="1" />
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;50;SetPsdStatus">
+      <CtxCvg ctx="4350481491180392940" ids="SetPsdStatus" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542082837" ids="SetPsdStatus" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-4830745867383605369" ids="SetPsdStatus" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-4520545803260036158" ids="SetPsdStatus" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542083582" ids="SetPsdStatus" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542082743" ids="SetPsdStatus" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;34;SetPSDId">
+      <CtxCvg ctx="4350481491180392940" ids="SetPSDId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542082837" ids="SetPSDId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-4830745867383605369" ids="SetPSDId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-4520545803260036158" ids="SetPSDId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542083582" ids="SetPSDId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542082743" ids="SetPSDId" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;20;InitPsdInfoData" show="true">
+      <CvgElem id="InitPsdInfoData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="23" locStartPos="4" locEndLn="23" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;50;SetPsdStatus" show="true">
+      <CvgElem id="SetPsdStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="53" locStartPos="4" locEndLn="53" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;57;GetPsdIsolatStatus" show="true">
+      <CvgElem id="GetPsdIsolatStatus" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;9">
+          <PathBlckLoc locStartln="60" locStartPos="4" locEndLn="64" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="67" locStartPos="13" locEndLn="67" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5;8">
+          <PathBlckLoc locStartln="67" locStartPos="25" locEndLn="67" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="3">
+          <PathBlckLoc locStartln="67" locStartPos="46" locEndLn="67" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="70" locStartPos="16" locEndLn="70" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="73" locStartPos="16" locEndLn="73" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="4">
+          <PathBlckLoc locStartln="75" locStartPos="8" locEndLn="75" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="76" locStartPos="4" locEndLn="76" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="">
+          <PathBlckLoc locStartln="77" locStartPos="4" locEndLn="77" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;80;SetPsdIsolatStatus" show="true">
+      <CvgElem id="SetPsdIsolatStatus" pathsNo="11">
+        <BlckInfo id="1" blckTrans="2;23">
+          <PathBlckLoc locStartln="84" locStartPos="4" locEndLn="89" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="92" locStartPos="13" locEndLn="92" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5;22">
+          <PathBlckLoc locStartln="92" locStartPos="28" locEndLn="92" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="3">
+          <PathBlckLoc locStartln="92" locStartPos="57" locEndLn="92" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;21">
+          <PathBlckLoc locStartln="95" locStartPos="15" locEndLn="95" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="98" locStartPos="20" locEndLn="98" locEndPos="99" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="100" locStartPos="20" locEndLn="100" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="104" locStartPos="20" locEndLn="104" locEndPos="114" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="108" locStartPos="21" locEndLn="108" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12;20">
+          <PathBlckLoc locStartln="108" locStartPos="37" locEndLn="108" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="10">
+          <PathBlckLoc locStartln="108" locStartPos="62" locEndLn="108" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;15">
+          <PathBlckLoc locStartln="111" locStartPos="23" locEndLn="111" locEndPos="99" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="20">
+          <PathBlckLoc locStartln="114" locStartPos="24" locEndLn="117" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16;17">
+          <PathBlckLoc locStartln="122" locStartPos="24" locEndLn="125" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="129" locStartPos="20" locEndLn="129" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17">
+          <PathBlckLoc locStartln="127" locStartPos="28" locEndLn="127" locEndPos="189" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="11">
+          <PathBlckLoc locStartln="130" locStartPos="16" locEndLn="130" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="4">
+          <PathBlckLoc locStartln="132" locStartPos="8" locEndLn="132" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21">
+          <PathBlckLoc locStartln="131" locStartPos="12" locEndLn="131" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="">
+          <PathBlckLoc locStartln="134" locStartPos="0" locEndLn="134" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23">
+          <PathBlckLoc locStartln="133" locStartPos="4" locEndLn="133" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;42;GetPsdStatus" show="true">
+      <CvgElem id="GetPsdStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="45" locStartPos="4" locEndLn="45" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;34;SetPSDId" show="true">
+      <CvgElem id="SetPSDId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="37" locStartPos="4" locEndLn="37" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;26;GetPSDId" show="true">
+      <CvgElem id="GetPSDId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="29" locStartPos="4" locEndLn="29" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="-3399826860484268947 4350481491180392940 7439007155873996951 2280983601714526128 7439007155873996206 7439007155873998838 -4520545803260036158 341804384815388165 7439007155873996112" uniqueId2MainId="CPP://6179751836593946049 CPP://-3747031002532602353 CPP://-8491641153857428519 CPP://2762465901126116297 CPP://-8491641153857428488 CPP://-8491641153857428705 CPP://-5953393911139517280 CPP://-2627560879395168520 CPP://-8491641153857428457" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;24;StpEnsureFunc" total="30" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;118;GetStopEnsureSta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;127;SetStopEnsureSta" total="1" num="1" />
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;127;SetStopEnsureSta">
+      <CtxCvg ctx="4350481491180392940" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-3399826860484268947" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996951" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2280983601714526128" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996206" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873998838" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-4520545803260036158" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996112" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="341804384815388165" ids="SetStopEnsureSta" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;127;SetStopEnsureSta" show="true">
+      <CvgElem id="SetStopEnsureSta" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="130" locStartPos="5" locEndLn="130" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;118;GetStopEnsureSta" show="true">
+      <CvgElem id="GetStopEnsureSta" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="121" locStartPos="4" locEndLn="121" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;24;StpEnsureFunc" show="true">
+      <CvgElem id="StpEnsureFunc" pathsNo="30">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="27" locStartPos="4" locEndLn="38" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="41" locStartPos="8" locEndLn="41" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="46" locStartPos="8" locEndLn="47" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;9">
+          <PathBlckLoc locStartln="51" locStartPos="7" locEndLn="51" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="54" locStartPos="8" locEndLn="57" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="8">
+          <PathBlckLoc locStartln="60" locStartPos="12" locEndLn="60" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="65" locStartPos="12" locEndLn="66" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="68" locStartPos="4" locEndLn="68" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;20">
+          <PathBlckLoc locStartln="72" locStartPos="7" locEndLn="72" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;15">
+          <PathBlckLoc locStartln="75" locStartPos="8" locEndLn="84" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12;13">
+          <PathBlckLoc locStartln="87" locStartPos="15" locEndLn="87" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="14">
+          <PathBlckLoc locStartln="90" locStartPos="16" locEndLn="90" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14">
+          <PathBlckLoc locStartln="95" locStartPos="16" locEndLn="95" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="19">
+          <PathBlckLoc locStartln="97" locStartPos="8" locEndLn="97" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16;17">
+          <PathBlckLoc locStartln="101" locStartPos="15" locEndLn="101" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="109" locStartPos="16" locEndLn="109" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="18">
+          <PathBlckLoc locStartln="104" locStartPos="16" locEndLn="104" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="113" locStartPos="4" locEndLn="113" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19">
+          <PathBlckLoc locStartln="112" locStartPos="8" locEndLn="112" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="">
+          <PathBlckLoc locStartln="115" locStartPos="0" locEndLn="115" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

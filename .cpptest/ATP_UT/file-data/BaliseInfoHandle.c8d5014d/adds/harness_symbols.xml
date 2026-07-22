@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\BaliseManage\BaliseInfoHandle.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetLoseBaliEndLocSeg" name="ZbEGetLoseBaliEndLocSegX" decorated_name="UINT16_T GetLoseBaliEndLocSeg(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetLoseBaliEndLocSeg (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetLoseBaliEndLocSeg () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>BaliseInfoHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetLoseBaliEndLocOffset" name="ZbHGetLoseBaliEndLocOffsetX" decorated_name="UINT32_T GetLoseBaliEndLocOffset(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetLoseBaliEndLocOffset (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetLoseBaliEndLocOffset () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetLoseBaliEndLocDir" name="ZbEGetLoseBaliEndLocDirX" decorated_name="UINT8_T GetLoseBaliEndLocDir(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetLoseBaliEndLocDir (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetLoseBaliEndLocDir () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>BaliseInfoHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetNewLocCalcDis" name="ZbAGetNewLocCalcDisX" decorated_name="UINT8_T GetNewLocCalcDis(const UINT16_T, const UINT32_T, const UINT8_T, const INT32_T, UINT16_T *, UINT32_T *, UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetNewLocCalcDis (const UINT16_T seg1, const UINT32_T offset1, const UINT8_T dir, const INT32_T distance, UINT16_T * outSeg, UINT32_T * outOffset, UINT8_T * outDir) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetNewLocCalcDis (const UINT16_T seg1, const UINT32_T offset1, const UINT8_T dir, const INT32_T distance, UINT16_T * outSeg, UINT32_T * outOffset, UINT8_T * outDir) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DataInterfaceHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetDirBothSegPointVectorDis" name="ZbLGetDirBothSegPointVectorDisX" decorated_name="UINT8_T GetDirBothSegPointVectorDis(const UINT16_T, const UINT32_T, const UINT16_T, const UINT32_T, const UINT8_T, INT32_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDirBothSegPointVectorDis (const UINT16_T startSegId, const UINT32_T startSegoffset, const UINT16_T endSegId, const UINT32_T endSegoffset, const UINT8_T endDir, INT32_T * distance) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetDirBothSegPointVectorDis (const UINT16_T startSegId, const UINT32_T startSegoffset, const UINT16_T endSegId, const UINT32_T endSegoffset, const UINT8_T endDir, INT32_T * distance) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DataInterfaceHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpLocBaliRadiationRadius" name="ZbMGetAtpLocBaliRadiationRadiusX" decorated_name="UINT8_T GetAtpLocBaliRadiationRadius(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpLocBaliRadiationRadius (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetAtpLocBaliRadiationRadius () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpLocConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliseIdLoc" name="ZOGetBaliseIdLocX" decorated_name="UINT8_T GetBaliseIdLoc(const UINT32_T, UINT16_T *, UINT32_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliseIdLoc (const UINT32_T baliseId, UINT16_T * segId, UINT32_T * segOffset) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetBaliseIdLoc (const UINT32_T baliseId, UINT16_T * segId, UINT32_T * segOffset) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DmuAtpDataHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliNumAccordBothPoint" name="ZbJGetBaliNumAccordBothPointX" decorated_name="UINT8_T GetBaliNumAccordBothPoint(const UINT16_T, const UINT32_T, const UINT16_T, const UINT32_T, const UINT8_T, const UINT32_T, LoseBaliseInfoStruct_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliNumAccordBothPoint (const UINT16_T startSegId, const UINT32_T startSegoffset, const UINT16_T endSegId, const UINT32_T endSegoffset, const UINT8_T endDir, const UINT32_T lastBaliseId, LoseBaliseInfoStruct_T * loseBaliInfoStru) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetBaliNumAccordBothPoint (const UINT16_T startSegId, const UINT32_T startSegoffset, const UINT16_T endSegId, const UINT32_T endSegoffset, const UINT8_T endDir, const UINT32_T lastBaliseId, LoseBaliseInfoStruct_T * loseBaliInfoStru) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DmuAtpDataHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainTypeBaliseToHeadDis" name="ZbLGetTrainTypeBaliseToHeadDisX" decorated_name="UINT16_T GetTrainTypeBaliseToHeadDis(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainTypeBaliseToHeadDis (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainTypeBaliseToHeadDis () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainInitHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainInitTrainLength" name="ZbHGetTrainInitTrainLengthX" decorated_name="UINT16_T GetTrainInitTrainLength(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainInitTrainLength (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainInitTrainLength () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainInitHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainCurSpeed" name="ZbAGetTrainCurSpeedX" decorated_name="UINT16_T GetTrainCurSpeed(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainCurSpeed (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainCurSpeed () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainRunDir" name="ZOGetTrainRunDirX" decorated_name="UINT8_T GetTrainRunDir(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainRunDir (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainRunDir () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainPeriodDis" name="ZbBGetTrainPeriodDisX" decorated_name="UINT32_T GetTrainPeriodDis(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainPeriodDis (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTrainPeriodDis () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainMeaDisError" name="ZbDGetTrainMeaDisErrorX" decorated_name="UINT32_T GetTrainMeaDisError(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainMeaDisError (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTrainMeaDisError () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainFirstGetLocTag" name="ZbGGetTrainFirstGetLocTagX" decorated_name="UINT8_T GetTrainFirstGetLocTag(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainFirstGetLocTag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainFirstGetLocTag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLocAllow" name="ZbAGetTrainLocAllowX" decorated_name="LocState_T GetTrainLocAllow(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE LocState_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLocAllow (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE LocState_T GetTrainLocAllow () </orig_declaration>
+         <return_expression>return LOC_NOTLOCALIZED;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetTrainLocAllow" name="ZbASetTrainLocAllowX" decorated_name="void SetTrainLocAllow(const LocState_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetTrainLocAllow (const LocState_T locAllow) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetTrainLocAllow (const LocState_T locAllow) </orig_declaration>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCHSegId" name="ZbBGetTrainLOCHSegIdX" decorated_name="UINT16_T GetTrainLOCHSegId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCHSegId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainLOCHSegId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCHSegOffSet" name="ZbFGetTrainLOCHSegOffSetX" decorated_name="UINT32_T GetTrainLOCHSegOffSet(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCHSegOffSet (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTrainLOCHSegOffSet () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCHDir" name="ZPGetTrainLOCHDirX" decorated_name="UINT8_T GetTrainLOCHDir(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCHDir (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainLOCHDir () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainOppoCabActive" name="ZbFGetTrainOppoCabActiveX" decorated_name="UINT8_T GetTrainOppoCabActive(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainOppoCabActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainOppoCabActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBalCurBaliseId" name="ZbBGetBalCurBaliseIdX" decorated_name="UINT32_T GetBalCurBaliseId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBalCurBaliseId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetBalCurBaliseId () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliseDisBtwBalise" name="ZbFGetBaliseDisBtwBaliseX" decorated_name="UINT32_T GetBaliseDisBtwBalise(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliseDisBtwBalise (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetBaliseDisBtwBalise () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetBaliseDisBtwBalise" name="ZbFSetBaliseDisBtwBaliseX" decorated_name="void SetBaliseDisBtwBalise(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBaliseDisBtwBalise (const UINT32_T disBtwBalise) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBaliseDisBtwBalise (const UINT32_T disBtwBalise) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetLostBaliStartPntSegId" name="ZbIGetLostBaliStartPntSegIdX" decorated_name="UINT16_T GetLostBaliStartPntSegId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetLostBaliStartPntSegId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetLostBaliStartPntSegId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetLostBaliStartPntSegOffset" name="ZbMGetLostBaliStartPntSegOffsetX" decorated_name="UINT32_T GetLostBaliStartPntSegOffset(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetLostBaliStartPntSegOffset (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetLostBaliStartPntSegOffset () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetLostBaliStartPntSegRunDir" name="ZbMGetLostBaliStartPntSegRunDirX" decorated_name="UINT8_T GetLostBaliStartPntSegRunDir(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetLostBaliStartPntSegRunDir (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetLostBaliStartPntSegRunDir () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetLoseBaliStartPntLoc" name="ZbGSetLoseBaliStartPntLocX" decorated_name="void SetLoseBaliStartPntLoc(const UINT16_T, const UINT32_T, const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetLoseBaliStartPntLoc (const UINT16_T seg, const UINT32_T offSet, const UINT8_T dir) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetLoseBaliStartPntLoc (const UINT16_T seg, const UINT32_T offSet, const UINT8_T dir) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetLostBaliNum" name="ZOGetLostBaliNumX" decorated_name="UINT8_T GetLostBaliNum(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetLostBaliNum (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetLostBaliNum () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetLostBaliNum" name="ZOSetLostBaliNumX" decorated_name="void SetLostBaliNum(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetLostBaliNum (const UINT8_T lostBaliNum) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetLostBaliNum (const UINT8_T lostBaliNum) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetOldBaliId" name="ZMGetOldBaliIdX" decorated_name="UINT32_T GetOldBaliId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetOldBaliId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetOldBaliId () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetOldBaliId" name="ZMSetOldBaliIdX" decorated_name="void SetOldBaliId(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetOldBaliId (const UINT32_T oldBaliId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetOldBaliId (const UINT32_T oldBaliId) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTempOldBaliId" name="ZbAGetTempOldBaliIdX" decorated_name="UINT32_T GetTempOldBaliId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTempOldBaliId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTempOldBaliId () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliIdDelayTime" name="ZbCGetBaliIdDelayTimeX" decorated_name="INT32_T GetBaliIdDelayTime(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliIdDelayTime (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT32_T GetBaliIdDelayTime () </orig_declaration>
+         <return_expression>return 0;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetLoseBaliEndPntLoc" name="ZbESetLoseBaliEndPntLocX" decorated_name="void SetLoseBaliEndPntLoc(const UINT16_T, const UINT32_T, const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetLoseBaliEndPntLoc (const UINT16_T seg, const UINT32_T offSet, const UINT8_T dir) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetLoseBaliEndPntLoc (const UINT16_T seg, const UINT32_T offSet, const UINT8_T dir) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddSysLocInvalidRsn" name="ZbDAddSysLocInvalidRsnX" decorated_name="void AddSysLocInvalidRsn(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddSysLocInvalidRsn (const UINT32_T locInvalidRsn) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddSysLocInvalidRsn (const UINT32_T locInvalidRsn) </orig_declaration>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliseDataStruSegId" name="ZbGGetBaliseDataStruSegIdX" decorated_name="UINT16_T GetBaliseDataStruSegId(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliseDataStruSegId (const UINT16_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetBaliseDataStruSegId (const UINT16_T baliseId) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>BaliseData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliseDataStruSegOffset" name="ZbKGetBaliseDataStruSegOffsetX" decorated_name="UINT32_T GetBaliseDataStruSegOffset(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliseDataStruSegOffset (const UINT16_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetBaliseDataStruSegOffset (const UINT16_T baliseId) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitBaliseInfoHandleInfo" name="ZbIInitBaliseInfoHandleInfoX" decorated_name="void InitBaliseInfoHandleInfo(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitBaliseInfoHandleInfo (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitBaliseInfoHandleInfo (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="47" col="6"/>
+    </Function>
+    <Function id="SearchBaliseLose" name="ZbASearchBaliseLoseX" decorated_name="void SearchBaliseLose(void)">
+      <definition type="orig" source="code" file_id="1" line="59" col="6"/>
+    </Function>
+    <Function id="CalcDisBtwBali" name="ZOCalcDisBtwBaliX" decorated_name="void CalcDisBtwBali(void)">
+      <definition type="orig" source="code" file_id="1" line="274" col="6"/>
+    </Function>
+    <Function id="GetLoseBaliOtherBNum" name="ZbEGetLoseBaliOtherBNumX" decorated_name="UINT8_T GetLoseBaliOtherBNum(void)">
+      <definition type="orig" source="code" file_id="1" line="405" col="9"/>
+    </Function>
+    <Function id="GetLoseBaliOtherBId" name="ZbDGetLoseBaliOtherBIdX" decorated_name="UINT32_T GetLoseBaliOtherBId(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="412" col="10"/>
+    </Function>
+    <Function id="GetLoseBaliVBNum" name="ZbAGetLoseBaliVBNumX" decorated_name="UINT8_T GetLoseBaliVBNum(void)">
+      <definition type="orig" source="code" file_id="1" line="418" col="9"/>
+    </Function>
+    <Function id="GetLoseBaliVBId" name="ZPGetLoseBaliVBIdX" decorated_name="UINT32_T GetLoseBaliVBId(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="425" col="10"/>
+    </Function>
+    <Function id="GetPreNextBaliseId" name="ZbCGetPreNextBaliseIdX" decorated_name="UINT32_T GetPreNextBaliseId(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetPreNextBaliseId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetPreNextBaliseId (void) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoHandle.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="431" col="10"/>
+    </Function>
+    <Function id="SetPreNextBaliseId" name="ZbCSetPreNextBaliseIdX" decorated_name="void SetPreNextBaliseId(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="437" col="6"/>
+    </Function>
+    <Function id="GetBaliLoseDis" name="ZOGetBaliLoseDisX" decorated_name="UINT32_T GetBaliLoseDis(void)">
+      <definition type="orig" source="code" file_id="1" line="443" col="10"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

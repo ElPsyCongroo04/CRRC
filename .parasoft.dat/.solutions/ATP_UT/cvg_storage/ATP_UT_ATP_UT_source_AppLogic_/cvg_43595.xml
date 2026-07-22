@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" type="LC">
+  <VersionInfos>
+    <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="-3399826860484268947 7439007155873996951 2280983601714526128 7439007155873996206 7439007155873998838 341804384815388165 7439007155873996112" uniqueId2MainId="CPP://6179751836593946049 CPP://-8491641153857428519 CPP://2762465901126116297 CPP://-8491641153857428488 CPP://-8491641153857428705 CPP://-2627560879395168520 CPP://-8491641153857428457" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;431;GetPreNextBaliseId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;437;SetPreNextBaliseId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;405;GetLoseBaliOtherBNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;412;GetLoseBaliOtherBId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;59;SearchBaliseLose" total="71" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;418;GetLoseBaliVBNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;443;GetBaliLoseDis" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;425;GetLoseBaliVBId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;47;InitBaliseInfoHandleInfo" total="6" num="6" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;274;CalcDisBtwBali" total="37" num="0" />
+  </Stats>
+  <ResultInfo cvgType="LC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;47;InitBaliseInfoHandleInfo">
+      <CtxCvg ctx="-3399826860484268947" ids="55 51 52 53 54 50" />
+      <CtxCvg ctx="7439007155873996951" ids="55 51 52 53 54 50" />
+      <CtxCvg ctx="2280983601714526128" ids="55 51 52 53 54 50" />
+      <CtxCvg ctx="7439007155873996206" ids="55 51 52 53 54 50" />
+      <CtxCvg ctx="7439007155873998838" ids="55 51 52 53 54 50" />
+      <CtxCvg ctx="7439007155873996112" ids="55 51 52 53 54 50" />
+      <CtxCvg ctx="341804384815388165" ids="55 51 52 53 54 50" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="LC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;437;SetPreNextBaliseId" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="440" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;47;InitBaliseInfoHandleInfo" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="51 50 55 54 53 52" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;418;GetLoseBaliVBNum" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="421" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;412;GetLoseBaliOtherBId" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="415" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;405;GetLoseBaliOtherBNum" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="408" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;274;CalcDisBtwBali" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="341 279 339 278 277 336 283 349 280 286 285 284 344 393 392 396 332 331 329 307 374 369 371 311 380 383 315 377 288 357 292 352 295 366 299 360 303" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;59;SearchBaliseLose" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="137 141 140 129 132 134 258 153 156 263 158 261 144 145 146 149 268 151 168 172 160 166 188 63 182 62 180 68 204 69 70 207 71 201 64 65 66 67 78 74 220 84 222 216 81 219 212 213 88 209 91 238 103 100 235 98 233 230 108 228 225 105 119 253 114 249 126 123 243 241 120" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;431;GetPreNextBaliseId" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="434" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;443;GetBaliLoseDis" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="446" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c;425;GetLoseBaliVBId" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/BaliseManage/BaliseInfoHandle.c" show="true" lns="428" />
+  </ResultInfo>
+</CvgData>

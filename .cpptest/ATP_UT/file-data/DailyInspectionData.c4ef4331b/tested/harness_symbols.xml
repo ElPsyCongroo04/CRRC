@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\DailyInspectionData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitDailyInspectionData" name="ZbHInitDailyInspectionDataX" decorated_name="void InitDailyInspectionData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="18" col="6"/>
+    </Function>
+    <Function id="SetDlySpcAllowFlag" name="ZbCSetDlySpcAllowFlagX" decorated_name="void SetDlySpcAllowFlag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="29" col="6"/>
+    </Function>
+    <Function id="GetDlySpcAllowFlag" name="ZbCGetDlySpcAllowFlagX" decorated_name="UINT8_T GetDlySpcAllowFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="36" col="9"/>
+    </Function>
+    <Function id="SetRadioTestRlt" name="ZPSetRadioTestRltX" decorated_name="void SetRadioTestRlt(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="44" col="6"/>
+    </Function>
+    <Function id="GetRadioTestRlt" name="ZPGetRadioTestRltX" decorated_name="UINT8_T GetRadioTestRlt(void)">
+      <definition type="orig" source="code" file_id="1" line="51" col="9"/>
+    </Function>
+    <Function id="SetRadioTestWorkSta" name="ZbDSetRadioTestWorkStaX" decorated_name="void SetRadioTestWorkSta(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="60" col="6"/>
+    </Function>
+    <Function id="GetRadioTestWorkSta" name="ZbDGetRadioTestWorkStaX" decorated_name="UINT8_T GetRadioTestWorkSta(void)">
+      <definition type="orig" source="code" file_id="1" line="68" col="9"/>
+    </Function>
+    <Function id="SetRadioTestSumNum" name="ZbCSetRadioTestSumNumX" decorated_name="void SetRadioTestSumNum(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="76" col="6"/>
+    </Function>
+    <Function id="GetRadioTestSumNum" name="ZbCGetRadioTestSumNumX" decorated_name="UINT8_T GetRadioTestSumNum(void)">
+      <definition type="orig" source="code" file_id="1" line="84" col="9"/>
+    </Function>
+    <Function id="SetRadioTestFailNum" name="ZbDSetRadioTestFailNumX" decorated_name="void SetRadioTestFailNum(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="91" col="6"/>
+    </Function>
+    <Function id="GetRadioTestFailNum" name="ZbDGetRadioTestFailNumX" decorated_name="UINT8_T GetRadioTestFailNum(void)">
+      <definition type="orig" source="code" file_id="1" line="98" col="9"/>
+    </Function>
+    <Function id="SetEbTestSumNum" name="ZPSetEbTestSumNumX" decorated_name="void SetEbTestSumNum(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="106" col="6"/>
+    </Function>
+    <Function id="GetEbTestSumNum" name="ZPGetEbTestSumNumX" decorated_name="UINT8_T GetEbTestSumNum(void)">
+      <definition type="orig" source="code" file_id="1" line="113" col="9"/>
+    </Function>
+    <Function id="SetCamTestNum" name="ZNSetCamTestNumX" decorated_name="void SetCamTestNum(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="119" col="6"/>
+    </Function>
+    <Function id="GetCamTestNum" name="ZNGetCamTestNumX" decorated_name="UINT8_T GetCamTestNum(void)">
+      <definition type="orig" source="code" file_id="1" line="126" col="9"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;396;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali" total="6336" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;179;WhlChkFunc" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;633;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck" total="5" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;677;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaInfoClear" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;557;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis" total="14" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;48;WheelPowerOnInit" total="11" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;695;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcPulseDisByDiam" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;329;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate" total="9" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;205;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali" total="50" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;716;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcDiamByPulseDis" total="2" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;557;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis" pathsNo="14">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="560" locStartPos="4" locEndLn="569" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="572" locStartPos="8" locEndLn="573" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;16">
+          <PathBlckLoc locStartln="577" locStartPos="4" locEndLn="580" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="583" locStartPos="13" locEndLn="583" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7;8">
+          <PathBlckLoc locStartln="583" locStartPos="37" locEndLn="583" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="5">
+          <PathBlckLoc locStartln="583" locStartPos="71" locEndLn="583" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="6">
+          <PathBlckLoc locStartln="585" locStartPos="12" locEndLn="585" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;14">
+          <PathBlckLoc locStartln="588" locStartPos="8" locEndLn="594" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="598" locStartPos="12" locEndLn="601" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12;13">
+          <PathBlckLoc locStartln="601" locStartPos="49" locEndLn="601" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="10">
+          <PathBlckLoc locStartln="601" locStartPos="73" locEndLn="601" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="11">
+          <PathBlckLoc locStartln="603" locStartPos="16" locEndLn="603" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="15">
+          <PathBlckLoc locStartln="607" locStartPos="12" locEndLn="608" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="613" locStartPos="12" locEndLn="613" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="17">
+          <PathBlckLoc locStartln="615" locStartPos="4" locEndLn="615" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="">
+          <PathBlckLoc locStartln="621" locStartPos="0" locEndLn="621" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17">
+          <PathBlckLoc locStartln="619" locStartPos="8" locEndLn="619" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;48;WheelPowerOnInit" show="true">
+      <CvgElem id="WheelPowerOnInit" pathsNo="11">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="51" locStartPos="4" locEndLn="75" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="21">
+          <PathBlckLoc locStartln="78" locStartPos="8" locEndLn="78" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="83" locStartPos="8" locEndLn="85" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="20">
+          <PathBlckLoc locStartln="88" locStartPos="12" locEndLn="88" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="94" locStartPos="17" locEndLn="94" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="8;12">
+          <PathBlckLoc locStartln="94" locStartPos="35" locEndLn="94" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="6">
+          <PathBlckLoc locStartln="94" locStartPos="68" locEndLn="94" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;10">
+          <PathBlckLoc locStartln="97" locStartPos="16" locEndLn="101" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="11">
+          <PathBlckLoc locStartln="104" locStartPos="20" locEndLn="104" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="109" locStartPos="20" locEndLn="115" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="7">
+          <PathBlckLoc locStartln="117" locStartPos="12" locEndLn="117" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="120" locStartPos="12" locEndLn="128" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="15;19">
+          <PathBlckLoc locStartln="128" locStartPos="35" locEndLn="128" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="13">
+          <PathBlckLoc locStartln="128" locStartPos="68" locEndLn="128" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16;17">
+          <PathBlckLoc locStartln="131" locStartPos="16" locEndLn="135" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="143" locStartPos="20" locEndLn="149" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="18">
+          <PathBlckLoc locStartln="138" locStartPos="20" locEndLn="138" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="154" locStartPos="12" locEndLn="159" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="14">
+          <PathBlckLoc locStartln="151" locStartPos="12" locEndLn="151" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="">
+          <PathBlckLoc locStartln="164" locStartPos="4" locEndLn="175" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21">
+          <PathBlckLoc locStartln="161" locStartPos="4" locEndLn="161" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;179;WhlChkFunc" show="true">
+      <CvgElem id="WhlChkFunc" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="183" locStartPos="8" locEndLn="183" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="186" locStartPos="8" locEndLn="186" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="190" locStartPos="4" locEndLn="193" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;205;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali" pathsNo="50">
+        <BlckInfo id="1" blckTrans="2;32">
+          <PathBlckLoc locStartln="208" locStartPos="4" locEndLn="219" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;30">
+          <PathBlckLoc locStartln="222" locStartPos="12" locEndLn="223" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="226" locStartPos="16" locEndLn="226" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="9">
+          <PathBlckLoc locStartln="229" locStartPos="16" locEndLn="230" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="233" locStartPos="21" locEndLn="233" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="9">
+          <PathBlckLoc locStartln="236" locStartPos="16" locEndLn="237" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="242" locStartPos="16" locEndLn="244" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;18">
+          <PathBlckLoc locStartln="248" locStartPos="16" locEndLn="248" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;16">
+          <PathBlckLoc locStartln="251" locStartPos="20" locEndLn="251" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="254" locStartPos="26" locEndLn="254" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="14;15">
+          <PathBlckLoc locStartln="254" locStartPos="44" locEndLn="254" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="12">
+          <PathBlckLoc locStartln="254" locStartPos="77" locEndLn="254" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="13">
+          <PathBlckLoc locStartln="257" locStartPos="24" locEndLn="257" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="17">
+          <PathBlckLoc locStartln="261" locStartPos="20" locEndLn="265" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="19">
+          <PathBlckLoc locStartln="273" locStartPos="12" locEndLn="273" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17">
+          <PathBlckLoc locStartln="270" locStartPos="20" locEndLn="271" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20;28">
+          <PathBlckLoc locStartln="280" locStartPos="16" locEndLn="280" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19">
+          <PathBlckLoc locStartln="275" locStartPos="12" locEndLn="277" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="286" locStartPos="26" locEndLn="286" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21;26">
+          <PathBlckLoc locStartln="283" locStartPos="20" locEndLn="283" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="22">
+          <PathBlckLoc locStartln="286" locStartPos="77" locEndLn="286" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="24;25">
+          <PathBlckLoc locStartln="286" locStartPos="44" locEndLn="286" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="27">
+          <PathBlckLoc locStartln="293" locStartPos="20" locEndLn="297" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="23">
+          <PathBlckLoc locStartln="289" locStartPos="24" locEndLn="289" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="29">
+          <PathBlckLoc locStartln="305" locStartPos="12" locEndLn="305" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27">
+          <PathBlckLoc locStartln="302" locStartPos="20" locEndLn="303" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="31">
+          <PathBlckLoc locStartln="310" locStartPos="8" locEndLn="310" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29">
+          <PathBlckLoc locStartln="307" locStartPos="12" locEndLn="309" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="318" locStartPos="4" locEndLn="318" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31">
+          <PathBlckLoc locStartln="314" locStartPos="12" locEndLn="316" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="">
+          <PathBlckLoc locStartln="319" locStartPos="0" locEndLn="319" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;716;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcDiamByPulseDis" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcDiamByPulseDis" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="719" locStartPos="4" locEndLn="721" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="723" locStartPos="8" locEndLn="723" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="725" locStartPos="4" locEndLn="725" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;329;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate" pathsNo="9">
+        <BlckInfo id="1" blckTrans="2;13">
+          <PathBlckLoc locStartln="332" locStartPos="4" locEndLn="343" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="346" locStartPos="14" locEndLn="346" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5;6">
+          <PathBlckLoc locStartln="346" locStartPos="32" locEndLn="346" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="3">
+          <PathBlckLoc locStartln="346" locStartPos="65" locEndLn="346" locEndPos="78" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="4">
+          <PathBlckLoc locStartln="349" locStartPos="12" locEndLn="350" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="354" locStartPos="8" locEndLn="362" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9;10">
+          <PathBlckLoc locStartln="362" locStartPos="32" locEndLn="362" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="7">
+          <PathBlckLoc locStartln="362" locStartPos="65" locEndLn="362" locEndPos="78" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="8">
+          <PathBlckLoc locStartln="365" locStartPos="12" locEndLn="366" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="370" locStartPos="8" locEndLn="378" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="381" locStartPos="12" locEndLn="382" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="384" locStartPos="4" locEndLn="384" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="385" locStartPos="0" locEndLn="385" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;633;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck" pathsNo="5">
+        <BlckInfo id="1" blckTrans="2;10">
+          <PathBlckLoc locStartln="636" locStartPos="4" locEndLn="642" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;6">
+          <PathBlckLoc locStartln="645" locStartPos="12" locEndLn="645" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="648" locStartPos="16" locEndLn="648" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="651" locStartPos="16" locEndLn="651" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="9">
+          <PathBlckLoc locStartln="653" locStartPos="8" locEndLn="653" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="657" locStartPos="16" locEndLn="657" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="660" locStartPos="16" locEndLn="660" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="662" locStartPos="8" locEndLn="662" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="663" locStartPos="4" locEndLn="663" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="">
+          <PathBlckLoc locStartln="666" locStartPos="4" locEndLn="666" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;695;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcPulseDisByDiam" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcPulseDisByDiam" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="698" locStartPos="4" locEndLn="700" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="702" locStartPos="8" locEndLn="702" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="704" locStartPos="4" locEndLn="704" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;396;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali" pathsNo="6336">
+        <BlckInfo id="1" blckTrans="2;17">
+          <PathBlckLoc locStartln="399" locStartPos="4" locEndLn="412" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;11">
+          <PathBlckLoc locStartln="415" locStartPos="12" locEndLn="416" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="419" locStartPos="12" locEndLn="431" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="434" locStartPos="16" locEndLn="435" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;10">
+          <PathBlckLoc locStartln="439" locStartPos="16" locEndLn="440" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="443" locStartPos="20" locEndLn="443" locEndPos="115" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="446" locStartPos="20" locEndLn="448" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="453" locStartPos="20" locEndLn="455" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="457" locStartPos="12" locEndLn="457" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="16">
+          <PathBlckLoc locStartln="458" locStartPos="8" locEndLn="458" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12;13">
+          <PathBlckLoc locStartln="462" locStartPos="16" locEndLn="462" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="465" locStartPos="16" locEndLn="466" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="470" locStartPos="16" locEndLn="470" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="473" locStartPos="16" locEndLn="474" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="476" locStartPos="8" locEndLn="476" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18;21">
+          <PathBlckLoc locStartln="480" locStartPos="8" locEndLn="480" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17">
+          <PathBlckLoc locStartln="477" locStartPos="4" locEndLn="477" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="486" locStartPos="12" locEndLn="486" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19;20">
+          <PathBlckLoc locStartln="483" locStartPos="12" locEndLn="483" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22;25">
+          <PathBlckLoc locStartln="491" locStartPos="8" locEndLn="491" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21">
+          <PathBlckLoc locStartln="488" locStartPos="4" locEndLn="488" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24">
+          <PathBlckLoc locStartln="497" locStartPos="12" locEndLn="497" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23;24">
+          <PathBlckLoc locStartln="494" locStartPos="12" locEndLn="494" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26;27">
+          <PathBlckLoc locStartln="502" locStartPos="8" locEndLn="502" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25">
+          <PathBlckLoc locStartln="499" locStartPos="4" locEndLn="499" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28;29">
+          <PathBlckLoc locStartln="509" locStartPos="8" locEndLn="509" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27">
+          <PathBlckLoc locStartln="505" locStartPos="8" locEndLn="505" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30;31">
+          <PathBlckLoc locStartln="516" locStartPos="8" locEndLn="516" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29">
+          <PathBlckLoc locStartln="512" locStartPos="8" locEndLn="512" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32;33">
+          <PathBlckLoc locStartln="524" locStartPos="8" locEndLn="524" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31">
+          <PathBlckLoc locStartln="519" locStartPos="8" locEndLn="520" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35">
+          <PathBlckLoc locStartln="536" locStartPos="8" locEndLn="536" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36;37">
+          <PathBlckLoc locStartln="540" locStartPos="8" locEndLn="541" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33">
+          <PathBlckLoc locStartln="527" locStartPos="8" locEndLn="528" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34;35">
+          <PathBlckLoc locStartln="532" locStartPos="8" locEndLn="533" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37">
+          <PathBlckLoc locStartln="544" locStartPos="8" locEndLn="544" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="">
+          <PathBlckLoc locStartln="547" locStartPos="0" locEndLn="547" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;677;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaInfoClear" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaInfoClear" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="681" locStartPos="4" locEndLn="683" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c" type="LC">
+  <VersionInfos>
+    <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="7439007155873996951 2419089170202296098 2280983601714526128 7439007155873996206 4668299114784002257 7439007155873996112 341804384815388165 -3399826860484268947 2420008616777425594 -1350775023757239259 7439007155873998838 8280707944523972800 -8658980545321308601 8280707944523972706 4518828354758568465" uniqueId2MainId="CPP://-8491641153857428519 CPP://1073791744712732813 CPP://2762465901126116297 CPP://-8491641153857428488 CPP://-2402214012712317080 CPP://-8491641153857428457 CPP://-2627560879395168520 CPP://6179751836593946049 CPP://1073791758025288028 CPP://6629556762514153689 CPP://-8491641153857428705 CPP://-6061359862291126454 CPP://3651556958929376610 CPP://-6061359862291126423 CPP://-4806750908007182510" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;18;InitFaoInfoData" total="11" num="11" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;35;GetFaoDataStr" total="1" num="1" />
+  </Stats>
+  <ResultInfo cvgType="LC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;35;GetFaoDataStr">
+      <CtxCvg ctx="4668299114784002257" ids="38" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;18;InitFaoInfoData">
+      <CtxCvg ctx="7439007155873996951" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="2419089170202296098" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="2280983601714526128" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="7439007155873996206" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="7439007155873996112" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="341804384815388165" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="-3399826860484268947" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="2420008616777425594" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="-1350775023757239259" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="7439007155873998838" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="8280707944523972800" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="-8658980545321308601" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="4518828354758568465" ids="21 30 32 31 23 24 25 26 27 28 29" />
+      <CtxCvg ctx="8280707944523972706" ids="21 30 32 31 23 24 25 26 27 28 29" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="LC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;18;InitFaoInfoData" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c" show="true" lns="32 21 23 25 24 27 26 29 28 31 30" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;35;GetFaoDataStr" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c" show="true" lns="38" />
+  </ResultInfo>
+</CvgData>

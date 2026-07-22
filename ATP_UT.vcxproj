@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EFB8D489-0CB6-4F0B-B89C-99BCD94F337D}</ProjectGuid>
+    <RootNamespace>ATP_UT</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(IntDir)%(Filename).pdb</ProgramDataBaseFileName>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\..\LineData\inc;$(ProjectDir)..\..\src\AppLogic\InterPlatform;$(ProjectDir)..\..\src\AppLogic\PeriodHandle;$(ProjectDir)..\..\src\AppLogic\PowerOnHandle;$(ProjectDir)..\..\src\AppLogic\SysDef;$(ProjectDir)..\..\src\WindowsMainManager;$(ProjectDir)..\..\src\AppLogic\DataQuery;$(ProjectDir)..\..\src\AppLogic\DynamicData;$(ProjectDir)..\..\src\AppLogic\SysParaConfig\ConfigData;$(ProjectDir)..\..\src\AppLogic\SysParaConfig\LoadConfig;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\AppCommonManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\AppPeriodManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\BaliseManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\BtmManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\CommManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\DailyInspectionManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\DigitalMeaManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\DoorManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\EbiCalcManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\EbTrackCutManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\HandleSystemAlarm;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\InitManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\LampControl;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\LogManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\MarshallingManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\MaManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\ModeManage;$(ProjectDir)..\..\src\AppLogic\SleepWake;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\WorkCondManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\RomteEBManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\OpenManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\PowerOffManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\ProtectionManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\PsdManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\RadarData;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\RcvSendManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\ReverseManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\SignManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\SleepWakeManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\SpeedManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\StopAreaManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\StopEnsureManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\TimeManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\TractionBrakeManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\TrainBackSecManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\TrainInteChkManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\TrainLocManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\WheelChkManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\ZcManage;$(ProjectDir)..\..\src\AppLogic\PeriodHandle\ZeroSpeedManage;$(ProjectDir)..\..\src\AppLogic\RSSP1;$(ProjectDir)..\..\..\..\ConfigData\inc;$(ProjectDir)..\..\..\..\ScpApp\inc;$(ProjectDir)..\..\..\..\UtilityLib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\ArInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\AssureInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\AtoInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\BaliseInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\CommData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\ComStatusData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\DailyInspectionData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\DoorInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\FaoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\GradeInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\InputDigitalMeasureData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\MaInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\MarshallingData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\PowerOffData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\ProtectionData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\PsdInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\StopAreaData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\SysRunData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\SysRunErrorData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\TrainData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\TrainInitData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\TrainOpgData.c" />
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\WheelData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage\ActiveStandbyDataHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage\ActiveStandbyManage.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodInitHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\BaliseManage\BaliseInfoHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\BtmManage\BtmHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\CommManage\CommunicationHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\DailyInspectionManage\DailyInspectionHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\DigitalMeaManage\InDigitalMeaHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\DigitalMeaManage\OutDigitalMeaHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\DoorManage\DoorHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\EbiCalcManage\EbiCalcHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\EbTrackCutManage\EbAndCutOffTrackOut.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\HandleSystemAlarm\HandleSystemAlarm.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\LampControl\LampControl.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\LogManage\LogManage.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\MaManage\MaHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\MarshallingManage\MarshallingHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeControl.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeInit.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\PowerOffManage\PowerOffHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ProtectionManage\ProtectionHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\PsdManage\PsdHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseAomData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseAtoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBaliseData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBtmData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseCamData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseCtlAndIdleInterData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseHMIInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseRadarData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseTacInfoData.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ReverseManage\ReverseHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RomteEBManage\RemoteEBHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\SleepWakeManage\AwakeFunc.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\SleepWakeManage\SleepFunc.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\SpeedManage\SpeedHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\StopAreaManage\StopAreaHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\StopEnsureManage\StopEnsureHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TimeManage\TimeHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TractionBrakeManage\TractionBrakeHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TrainBackSecManage\TrainBackSecHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TrainInteChkManage\TrainInteChkHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TrainLocManage\TrainLocCpsHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TrainLocManage\TrainLocManage.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\WheelChkManage\WheelCheck.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\WorkCondManage\WorkCondManage.c" />
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ZeroSpeedManage\ZeroSpeed.c" />
+    <ClCompile Include="..\..\src\AppLogic\PowerOnHandle\AppPowerInitHandle.c" />
+    <ClCompile Include="..\..\src\AppLogic\PowerOnHandle\LocAtpCfgInitManager.c" />
+    <ClCompile Include="..\..\src\AppLogic\PowerOnHandle\TrainInitHandle.c" />
+    <ClCompile Include="stubs\autogenerated\auto_432b7128.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="stubs\autogenerated\auto_6e7dad20.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="stubs\autogenerated\auto_ae63cc10.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="stubs\autogenerated\stubs.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="stubs\stub.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\ebtrackcutmanage\TestSuite_EbAndCutOffTrackOut_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\initmanage\TestSuite_ArInit_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\initmanage\TestSuite_RdModeInit_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\modemanage\TestSuite_ModeControl_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\modemanage\TestSuite_ModeHandle_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\modemanage\TestSuite_ModeInit.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\openmanage\TestSuite_OpenModeHandle.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\poweroffmanage\TestSuite_PowerOffHandle.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\protectionmanage\TestSuite_ProtectionHandle_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\reversemanage\TestSuite_ReverseHandle_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\romteebmanage\TestSuite_RemoteEBHandle.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\signmanage\TestSuite_SignHandle.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\stopensuremanage\TestSuite_StopEnsureHandle.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\timemanage\TestSuite_TimeHandle.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\tractionbrakemanage\TestSuite_TractionBrakeHandle_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\trainbacksecmanage\TestSuite_TrainBackSecHandle_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\trainintechkmanage\TestSuite_TrainInteChkHandle_c.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\ArInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\AssureInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\AtoInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\BaliseInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\CommData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\ComStatusData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\DailyInspectionData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\DoorInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\FaoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\GradeInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\InputDigitalMeasureData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\MaInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\MarshallingData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\PowerOffData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\ProtectionData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\PsdInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\StopAreaData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\SysRunData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\SysRunErrorData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\TrainData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\TrainInitData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\TrainOpgData.h" />
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\WheelData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage\ActiveStandbyDataHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage\ActiveStandbyManage.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodInitHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\BaliseManage\BaliseInfoHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\BtmManage\BtmHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\CommManage\CommunicationHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\DailyInspectionManage\DailyInspectionHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\DigitalMeaManage\InDigitalMeaHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\DigitalMeaManage\OutDigitalMeaHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\DoorManage\DoorHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\EbiCalcManage\EbiCalcHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\EbTrackCutManage\EbAndCutOffTrackOut.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\HandleSystemAlarm\HandleSystemAlarm.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\LampControl\LampControl.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\LogManage\LogManage.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\MaManage\MaHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\MarshallingManage\MarshallingHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeControl.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeInit.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\PowerOffManage\PowerOffHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ProtectionManage\ProtectionHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\PsdManage\PsdHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseAomData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseAtoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBaliseData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBtmData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseCamData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseCtlAndIdleInterData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseHMIInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseRadarData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseTacInfoData.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ReverseManage\ReverseHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RomteEBManage\RemoteEBHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\SleepWakeManage\AwakeFunc.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\SleepWakeManage\SleepFunc.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\SpeedManage\SpeedHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\StopAreaManage\StopAreaHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\StopEnsureManage\StopEnsureHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TimeManage\TimeHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TractionBrakeManage\TractionBrakeHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TrainBackSecManage\TrainBackSecHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TrainInteChkManage\TrainInteChkHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TrainLocManage\TrainLocCpsHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TrainLocManage\TrainLocManage.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\WheelChkManage\WheelCheck.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\WorkCondManage\WorkCondManage.h" />
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ZeroSpeedManage\ZeroSpeed.h" />
+    <ClInclude Include="..\..\src\AppLogic\PowerOnHandle\AppPowerInitHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\PowerOnHandle\LocAtpCfgInitManager.h" />
+    <ClInclude Include="..\..\src\AppLogic\PowerOnHandle\TrainInitHandle.h" />
+    <ClInclude Include="..\..\src\AppLogic\SysDef\SystemDefine.h" />
+    <ClInclude Include="..\..\src\AppLogic\SysDef\SystemStructDefine.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

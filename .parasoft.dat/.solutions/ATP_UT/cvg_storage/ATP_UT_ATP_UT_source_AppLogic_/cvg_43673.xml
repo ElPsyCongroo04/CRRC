@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" type="SC">
+  <VersionInfos>
+    <StorageInfo ownerId="SC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="SC" resultId="StmtCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;67;GetTrainTypeTracRemoveTimeout" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;243;GetTrainInitHeadLen" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;39;GetTrainInitType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;45;SetTrainInitType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;199;GetTrainInitTimeEbBrakeBuild" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;184;GetTrainInitTrainWorstEbAcc" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;169;GetTrainInitTrainRotateRate" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;125;GetTrainInitTrainLength" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;52;GetTrainTypeBaliseToHeadDis" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;154;GetTrainInitLineMaxGrade" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;140;GetTrainInitTrainMaxTracAcc" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;257;GetSysMaxTsrSpeedCmps" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;110;GetTrainTypeFrtPsgerToHead" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;96;GetTrainTypeMaxMeasureSpeed" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;229;GetTrainInitMaxLineLimitSpeed" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;23;AccordTrainTypeGetConfig" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;82;GetTrainTypeEmerBrakeTimeout" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;214;GetTrainInitTimeTracCut" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;32;GetAtpTrainConfigStruct" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="SC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;229;GetTrainInitMaxLineLimitSpeed" infos="3,237,8,237,64, 4,240,4,240,32, 2,234,8,234,26, 1,232,4,232,48," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;96;GetTrainTypeMaxMeasureSpeed" infos="4,107,4,107,30, 1,99,4,99,47, 3,104,8,104,59, 2,101,8,101,25," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;39;GetTrainInitType" infos="1,42,4,42,21," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;52;GetTrainTypeBaliseToHeadDis" infos="4,63,4,63,30, 2,57,8,57,25, 1,55,4,55,47, 3,60,8,60,59," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;169;GetTrainInitTrainRotateRate" infos="4,180,4,180,30, 3,177,8,177,60, 2,174,8,174,26, 1,172,4,172,36," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;214;GetTrainInitTimeTracCut" infos="1,217,4,217,43, 2,219,8,219,26, 4,225,4,225,26, 3,222,8,222,52," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;125;GetTrainInitTrainLength" infos="3,133,8,133,52, 1,128,4,128,43, 2,130,8,130,26, 4,136,4,136,26," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;243;GetTrainInitHeadLen" infos="4,254,4,254,30, 1,246,4,246,47, 3,251,8,251,60, 2,248,8,248,26," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;82;GetTrainTypeEmerBrakeTimeout" infos="1,85,4,85,48, 4,92,4,92,31, 3,90,8,90,61, 2,87,8,87,25," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;32;GetAtpTrainConfigStruct" infos="1,35,4,35,24," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;67;GetTrainTypeTracRemoveTimeout" infos="3,75,8,75,63, 4,78,4,78,32, 1,70,4,70,49, 2,72,8,72,25," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;154;GetTrainInitLineMaxGrade" infos="4,165,4,165,27, 2,159,8,159,26, 3,162,8,162,54, 1,157,4,157,44," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;110;GetTrainTypeFrtPsgerToHead" infos="1,113,4,113,46, 3,118,8,118,64, 2,115,8,115,25, 4,121,4,121,29," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;23;AccordTrainTypeGetConfig" infos="1,26,4,26,57, 2,29,4,29,59," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;184;GetTrainInitTrainWorstEbAcc" infos="3,192,8,192,60, 2,189,8,189,26, 1,187,4,187,46, 4,195,4,195,30," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;199;GetTrainInitTimeEbBrakeBuild" infos="3,207,8,207,62, 1,202,4,202,48, 4,210,4,210,31, 2,204,8,204,26," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;140;GetTrainInitTrainMaxTracAcc" infos="4,150,4,150,30, 2,145,8,145,26, 3,148,8,148,60, 1,143,4,143,46," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;45;SetTrainInitType" infos="1,48,4,48,26," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;257;GetSysMaxTsrSpeedCmps" infos="4,268,4,268,23, 3,265,8,265,67, 2,262,8,262,26, 1,260,4,260,40," file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" show="true" />
+  </ResultInfo>
+</CvgData>

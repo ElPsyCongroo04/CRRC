@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PowerOnHandle\TrainInitHandle.c" id="1"/>
+    <Function id="GetIndexIdTrainInfoDataStru" name="ZbLGetIndexIdTrainInfoDataStruX" decorated_name="TrainPerfPara_T * GetIndexIdTrainInfoDataStru(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE TrainPerfPara_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetIndexIdTrainInfoDataStru (const UINT8_T trainType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE TrainPerfPara_T * GetIndexIdTrainInfoDataStru (const UINT8_T trainType) </orig_declaration>
+         <return_expression>return (TrainPerfPara_T *)0;</return_expression>
+         <user_decl_header>TrainInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSystemMaxTsrSpeed" name="ZbEGetSystemMaxTsrSpeedX" decorated_name="UINT8_T GetSystemMaxTsrSpeed(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSystemMaxTsrSpeed (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetSystemMaxTsrSpeed () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SystemConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetIndexIdAtpTrainDataStru" name="ZbKGetIndexIdAtpTrainDataStruX" decorated_name="BnfAtpTrainConfigStruct_T * GetIndexIdAtpTrainDataStru(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE BnfAtpTrainConfigStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetIndexIdAtpTrainDataStru (const UINT8_T trainType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE BnfAtpTrainConfigStruct_T * GetIndexIdAtpTrainDataStru (const UINT8_T trainType) </orig_declaration>
+         <return_expression>return (BnfAtpTrainConfigStruct_T *)0;</return_expression>
+         <user_decl_header>TrainConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AccordTrainTypeGetConfig" name="ZbIAccordTrainTypeGetConfigX" decorated_name="void AccordTrainTypeGetConfig(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="23" col="7"/>
+    </Function>
+    <Function id="GetAtpTrainConfigStruct" name="ZbHGetAtpTrainConfigStructX" decorated_name="const BnfAtpTrainConfigStruct_T * GetAtpTrainConfigStruct(void)">
+      <definition type="orig" source="code" file_id="1" line="32" col="34"/>
+    </Function>
+    <Function id="GetTrainInitType" name="ZbAGetTrainInitTypeX" decorated_name="UINT8_T GetTrainInitType(void)">
+      <definition type="orig" source="code" file_id="1" line="39" col="9"/>
+    </Function>
+    <Function id="SetTrainInitType" name="ZbASetTrainInitTypeX" decorated_name="void SetTrainInitType(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="45" col="6"/>
+    </Function>
+    <Function id="GetTrainTypeBaliseToHeadDis" name="ZbLGetTrainTypeBaliseToHeadDisX" decorated_name="UINT16_T GetTrainTypeBaliseToHeadDis(void)">
+      <definition type="orig" source="code" file_id="1" line="52" col="10"/>
+    </Function>
+    <Function id="GetTrainTypeTracRemoveTimeout" name="ZbNGetTrainTypeTracRemoveTimeoutX" decorated_name="UINT16_T GetTrainTypeTracRemoveTimeout(void)">
+      <definition type="orig" source="code" file_id="1" line="67" col="10"/>
+    </Function>
+    <Function id="GetTrainTypeEmerBrakeTimeout" name="ZbMGetTrainTypeEmerBrakeTimeoutX" decorated_name="UINT16_T GetTrainTypeEmerBrakeTimeout(void)">
+      <definition type="orig" source="code" file_id="1" line="82" col="10"/>
+    </Function>
+    <Function id="GetTrainTypeMaxMeasureSpeed" name="ZbLGetTrainTypeMaxMeasureSpeedX" decorated_name="UINT16_T GetTrainTypeMaxMeasureSpeed(void)">
+      <definition type="orig" source="code" file_id="1" line="96" col="10"/>
+    </Function>
+    <Function id="GetTrainTypeFrtPsgerToHead" name="ZbKGetTrainTypeFrtPsgerToHeadX" decorated_name="UINT16_T GetTrainTypeFrtPsgerToHead(void)">
+      <definition type="orig" source="code" file_id="1" line="110" col="10"/>
+    </Function>
+    <Function id="GetTrainInitTrainLength" name="ZbHGetTrainInitTrainLengthX" decorated_name="UINT16_T GetTrainInitTrainLength(void)">
+      <definition type="orig" source="code" file_id="1" line="125" col="10"/>
+    </Function>
+    <Function id="GetTrainInitTrainMaxTracAcc" name="ZbLGetTrainInitTrainMaxTracAccX" decorated_name="UINT8_T GetTrainInitTrainMaxTracAcc(void)">
+      <definition type="orig" source="code" file_id="1" line="140" col="9"/>
+    </Function>
+    <Function id="GetTrainInitLineMaxGrade" name="ZbIGetTrainInitLineMaxGradeX" decorated_name="UINT16_T GetTrainInitLineMaxGrade(void)">
+      <definition type="orig" source="code" file_id="1" line="154" col="10"/>
+    </Function>
+    <Function id="GetTrainInitTrainRotateRate" name="ZbLGetTrainInitTrainRotateRateX" decorated_name="UINT8_T GetTrainInitTrainRotateRate(void)">
+      <definition type="orig" source="code" file_id="1" line="169" col="9"/>
+    </Function>
+    <Function id="GetTrainInitTrainWorstEbAcc" name="ZbLGetTrainInitTrainWorstEbAccX" decorated_name="UINT8_T GetTrainInitTrainWorstEbAcc(void)">
+      <definition type="orig" source="code" file_id="1" line="184" col="9"/>
+    </Function>
+    <Function id="GetTrainInitTimeEbBrakeBuild" name="ZbMGetTrainInitTimeEbBrakeBuildX" decorated_name="UINT16_T GetTrainInitTimeEbBrakeBuild(void)">
+      <definition type="orig" source="code" file_id="1" line="199" col="10"/>
+    </Function>
+    <Function id="GetTrainInitTimeTracCut" name="ZbHGetTrainInitTimeTracCutX" decorated_name="UINT16_T GetTrainInitTimeTracCut(void)">
+      <definition type="orig" source="code" file_id="1" line="214" col="10"/>
+    </Function>
+    <Function id="GetTrainInitMaxLineLimitSpeed" name="ZbNGetTrainInitMaxLineLimitSpeedX" decorated_name="UINT8_T GetTrainInitMaxLineLimitSpeed(void)">
+      <definition type="orig" source="code" file_id="1" line="229" col="9"/>
+    </Function>
+    <Function id="GetTrainInitHeadLen" name="ZbDGetTrainInitHeadLenX" decorated_name="UINT16_T GetTrainInitHeadLen(void)">
+      <definition type="orig" source="code" file_id="1" line="243" col="10"/>
+    </Function>
+    <Function id="GetSysMaxTsrSpeedCmps" name="ZbFGetSysMaxTsrSpeedCmpsX" decorated_name="UINT16_T GetSysMaxTsrSpeedCmps(void)">
+      <definition type="orig" source="code" file_id="1" line="257" col="10"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

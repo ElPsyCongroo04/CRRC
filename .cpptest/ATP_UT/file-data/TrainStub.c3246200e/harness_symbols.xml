@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\stubs\train\TrainStub.c" id="1"/>
+    <Function id="GetMarEHookSttsChngTimer" name="ZbIGetMarEHookSttsChngTimerX" decorated_name="UINT16_T GetMarEHookSttsChngTimer(void)">
+      <definition type="user" source="code" file_id="1" line="243" col="27"/>
+    </Function>
+    <Function id="GetIsRetainMarshalArea" name="ZbGGetIsRetainMarshalAreaX" decorated_name="UINT8_T GetIsRetainMarshalArea(void)">
+      <definition type="user" source="code" file_id="1" line="142" col="26"/>
+    </Function>
+    <Function id="GetMarMidSideMHookConStts" name="ZbJGetMarMidSideMHookConSttsX" decorated_name="UINT8_T GetMarMidSideMHookConStts(void)">
+      <definition type="user" source="code" file_id="1" line="184" col="26"/>
+    </Function>
+    <Function id="GetMarMidSideEHookConStts" name="ZbJGetMarMidSideEHookConSttsX" decorated_name="UINT8_T GetMarMidSideEHookConStts(void)">
+      <definition type="user" source="code" file_id="1" line="144" col="26"/>
+    </Function>
+    <Function id="GetMarMidSideEHookConSttsLst" name="ZbMGetMarMidSideEHookConSttsLstX" decorated_name="UINT8_T GetMarMidSideEHookConSttsLst(void)">
+      <definition type="user" source="code" file_id="1" line="146" col="26"/>
+    </Function>
+    <Function id="GetMaValid" name="ZKGetMaValidX" decorated_name="UINT8_T GetMaValid(void)">
+      <definition type="user" source="code" file_id="1" line="164" col="26"/>
+    </Function>
+    <Function id="GetMaData" name="ZJGetMaDataX" decorated_name="MaDataStruct_T * GetMaData(void)">
+      <definition type="user" source="code" file_id="1" line="231" col="35"/>
+    </Function>
+    <Function id="GetMaLen" name="ZIGetMaLenX" decorated_name="UINT16_T GetMaLen(void)">
+      <definition type="user" source="code" file_id="1" line="219" col="27"/>
+    </Function>
+    <Function id="GetMaEndMaType" name="ZOGetMaEndMaTypeX" decorated_name="UINT8_T GetMaEndMaType(void)">
+      <definition type="user" source="code" file_id="1" line="162" col="26"/>
+    </Function>
+    <Function id="GetTrainStopSteady" name="ZbCGetTrainStopSteadyX" decorated_name="UINT8_T GetTrainStopSteady(void)">
+      <definition type="user" source="code" file_id="1" line="166" col="26"/>
+    </Function>
+    <Function id="GetTrainOutCutOffTract" name="ZbGGetTrainOutCutOffTractX" decorated_name="UINT8_T GetTrainOutCutOffTract(void)">
+      <definition type="user" source="code" file_id="1" line="158" col="26"/>
+    </Function>
+    <Function id="GetTrainOutEb" name="ZNGetTrainOutEbX" decorated_name="UINT8_T GetTrainOutEb(void)">
+      <definition type="user" source="code" file_id="1" line="160" col="26"/>
+    </Function>
+    <Function id="GetTrainEbed" name="ZMGetTrainEbedX" decorated_name="UINT8_T GetTrainEbed(void)">
+      <definition type="user" source="code" file_id="1" line="148" col="26"/>
+    </Function>
+    <Function id="GetTrainLocalCabActive" name="ZbGGetTrainLocalCabActiveX" decorated_name="UINT8_T GetTrainLocalCabActive(void)">
+      <definition type="user" source="code" file_id="1" line="154" col="26"/>
+    </Function>
+    <Function id="GetTrainOppoCabActive" name="ZbFGetTrainOppoCabActiveX" decorated_name="UINT8_T GetTrainOppoCabActive(void)">
+      <definition type="user" source="code" file_id="1" line="156" col="26"/>
+    </Function>
+    <Function id="GetTrainLocalKeyActive" name="ZbGGetTrainLocalKeyActiveX" decorated_name="UINT8_T GetTrainLocalKeyActive(void)">
+      <definition type="user" source="code" file_id="1" line="150" col="26"/>
+    </Function>
+    <Function id="GetTrainOppoKeyActive" name="ZbFGetTrainOppoKeyActiveX" decorated_name="UINT8_T GetTrainOppoKeyActive(void)">
+      <definition type="user" source="code" file_id="1" line="152" col="26"/>
+    </Function>
+    <Function id="AtpStub_IsCurrentTestManaged" name="ZbMAtpStub_IsCurrentTestManagedX" decorated_name="UINT8_T AtpStub_IsCurrentTestManaged(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_IsCurrentTestManaged (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpStub_IsCurrentTestManaged () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetUInt8State" name="ZbFAtpStub_GetUInt8StateX" decorated_name="AtpStubUInt8State_T * AtpStub_GetUInt8State(AtpStubUInt8Id_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt8State_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetUInt8State (AtpStubUInt8Id_T id) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt8State_T * AtpStub_GetUInt8State (AtpStubUInt8Id_T id) </orig_declaration>
+         <return_expression>return (AtpStubUInt8State_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetUInt16State" name="ZbGAtpStub_GetUInt16StateX" decorated_name="AtpStubUInt16State_T * AtpStub_GetUInt16State(AtpStubUInt16Id_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt16State_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetUInt16State (AtpStubUInt16Id_T id) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt16State_T * AtpStub_GetUInt16State (AtpStubUInt16Id_T id) </orig_declaration>
+         <return_expression>return (AtpStubUInt16State_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_SetValue" name="ZbFAtpStubUInt8_SetValueX" decorated_name="void AtpStubUInt8_SetValue(AtpStubUInt8State_T *, UINT8_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_SetValue (AtpStubUInt8State_T * state, UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_SetValue (AtpStubUInt8State_T * state, UINT8_T value) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_SetSequence" name="ZbIAtpStubUInt8_SetSequenceX" decorated_name="void AtpStubUInt8_SetSequence(AtpStubUInt8State_T *, const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_SetSequence (AtpStubUInt8State_T * state, const UINT8_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_SetSequence (AtpStubUInt8State_T * state, const UINT8_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_ExpectCalls" name="ZbIAtpStubUInt8_ExpectCallsX" decorated_name="void AtpStubUInt8_ExpectCalls(AtpStubUInt8State_T *, UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_ExpectCalls (AtpStubUInt8State_T * state, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_ExpectCalls (AtpStubUInt8State_T * state, UINT32_T count) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_Next" name="ZbBAtpStubUInt8_NextX" decorated_name="UINT8_T AtpStubUInt8_Next(AtpStubUInt8State_T *, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_Next (AtpStubUInt8State_T * state, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpStubUInt8_Next (AtpStubUInt8State_T * state, const char * stubName) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt16_SetValue" name="ZbGAtpStubUInt16_SetValueX" decorated_name="void AtpStubUInt16_SetValue(AtpStubUInt16State_T *, UINT16_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt16_SetValue (AtpStubUInt16State_T * state, UINT16_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt16_SetValue (AtpStubUInt16State_T * state, UINT16_T value) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt16_SetSequence" name="ZbJAtpStubUInt16_SetSequenceX" decorated_name="void AtpStubUInt16_SetSequence(AtpStubUInt16State_T *, const UINT16_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt16_SetSequence (AtpStubUInt16State_T * state, const UINT16_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt16_SetSequence (AtpStubUInt16State_T * state, const UINT16_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt16_ExpectCalls" name="ZbJAtpStubUInt16_ExpectCallsX" decorated_name="void AtpStubUInt16_ExpectCalls(AtpStubUInt16State_T *, UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt16_ExpectCalls (AtpStubUInt16State_T * state, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt16_ExpectCalls (AtpStubUInt16State_T * state, UINT32_T count) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt16_Next" name="ZbCAtpStubUInt16_NextX" decorated_name="UINT16_T AtpStubUInt16_Next(AtpStubUInt16State_T *, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt16_Next (AtpStubUInt16State_T * state, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T AtpStubUInt16_Next (AtpStubUInt16State_T * state, const char * stubName) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetAutoDepSigInputRecord" name="ZcAAtpStub_GetAutoDepSigInputRecordX" decorated_name="AtpStubUInt32InputRecord_T * AtpStub_GetAutoDepSigInputRecord(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt32InputRecord_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetAutoDepSigInputRecord (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt32InputRecord_T * AtpStub_GetAutoDepSigInputRecord () </orig_declaration>
+         <return_expression>return (AtpStubUInt32InputRecord_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_RecordUInt32Input" name="ZbJAtpStub_RecordUInt32InputX" decorated_name="void AtpStub_RecordUInt32Input(AtpStubUInt32InputRecord_T *, UINT32_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_RecordUInt32Input (AtpStubUInt32InputRecord_T * record, UINT32_T value, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStub_RecordUInt32Input (AtpStubUInt32InputRecord_T * record, UINT32_T value, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetIsRetainMarshalArea" name="ZcEAtpLegacyStub_GetIsRetainMarshalAreaX" decorated_name="UINT8_T AtpLegacyStub_GetIsRetainMarshalArea(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetIsRetainMarshalArea (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetIsRetainMarshalArea () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMarEHookSttsChngTimer" name="ZcGAtpLegacyStub_GetMarEHookSttsChngTimerX" decorated_name="UINT16_T AtpLegacyStub_GetMarEHookSttsChngTimer(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMarEHookSttsChngTimer (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T AtpLegacyStub_GetMarEHookSttsChngTimer () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMarMidSideEHookConStts" name="ZcHAtpLegacyStub_GetMarMidSideEHookConSttsX" decorated_name="UINT8_T AtpLegacyStub_GetMarMidSideEHookConStts(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMarMidSideEHookConStts (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetMarMidSideEHookConStts () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMarMidSideEHookConSttsLst" name="ZcKAtpLegacyStub_GetMarMidSideEHookConSttsLstX" decorated_name="UINT8_T AtpLegacyStub_GetMarMidSideEHookConSttsLst(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMarMidSideEHookConSttsLst (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetMarMidSideEHookConSttsLst () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetTrainEbed" name="ZbKAtpLegacyStub_GetTrainEbedX" decorated_name="UINT8_T AtpLegacyStub_GetTrainEbed(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetTrainEbed (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetTrainEbed () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetTrainLocalKeyActive" name="ZcEAtpLegacyStub_GetTrainLocalKeyActiveX" decorated_name="UINT8_T AtpLegacyStub_GetTrainLocalKeyActive(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetTrainLocalKeyActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetTrainLocalKeyActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetTrainOppoKeyActive" name="ZcDAtpLegacyStub_GetTrainOppoKeyActiveX" decorated_name="UINT8_T AtpLegacyStub_GetTrainOppoKeyActive(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetTrainOppoKeyActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetTrainOppoKeyActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetTrainLocalCabActive" name="ZcEAtpLegacyStub_GetTrainLocalCabActiveX" decorated_name="UINT8_T AtpLegacyStub_GetTrainLocalCabActive(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetTrainLocalCabActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetTrainLocalCabActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetTrainOppoCabActive" name="ZcDAtpLegacyStub_GetTrainOppoCabActiveX" decorated_name="UINT8_T AtpLegacyStub_GetTrainOppoCabActive(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetTrainOppoCabActive (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetTrainOppoCabActive () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetTrainOutCutOffTract" name="ZcEAtpLegacyStub_GetTrainOutCutOffTractX" decorated_name="UINT8_T AtpLegacyStub_GetTrainOutCutOffTract(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetTrainOutCutOffTract (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetTrainOutCutOffTract () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetTrainOutEb" name="ZbLAtpLegacyStub_GetTrainOutEbX" decorated_name="UINT8_T AtpLegacyStub_GetTrainOutEb(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetTrainOutEb (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetTrainOutEb () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMaEndMaType" name="ZbMAtpLegacyStub_GetMaEndMaTypeX" decorated_name="UINT8_T AtpLegacyStub_GetMaEndMaType(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMaEndMaType (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetMaEndMaType () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMaValid" name="ZbIAtpLegacyStub_GetMaValidX" decorated_name="UINT8_T AtpLegacyStub_GetMaValid(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMaValid (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetMaValid () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetTrainStopSteady" name="ZcAAtpLegacyStub_GetTrainStopSteadyX" decorated_name="UINT8_T AtpLegacyStub_GetTrainStopSteady(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetTrainStopSteady (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetTrainStopSteady () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetAutoDepSigByPltID" name="ZcCAtpLegacyStub_GetAutoDepSigByPltIDX" decorated_name="UINT8_T AtpLegacyStub_GetAutoDepSigByPltID(const UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetAutoDepSigByPltID (const UINT32_T psdID) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetAutoDepSigByPltID (const UINT32_T psdID) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetFrontEndWashPoint" name="ZcCAtpLegacyStub_GetFrontEndWashPointX" decorated_name="UINT8_T AtpLegacyStub_GetFrontEndWashPoint(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetFrontEndWashPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetFrontEndWashPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetFrontOfTheGaragePoint" name="ZcGAtpLegacyStub_GetFrontOfTheGaragePointX" decorated_name="UINT8_T AtpLegacyStub_GetFrontOfTheGaragePoint(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetFrontOfTheGaragePoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetFrontOfTheGaragePoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetFrontWashFinish" name="ZcAAtpLegacyStub_GetFrontWashFinishX" decorated_name="UINT8_T AtpLegacyStub_GetFrontWashFinish(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetFrontWashFinish (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetFrontWashFinish () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInFrontOfTheGarage" name="ZcDAtpLegacyStub_GetInFrontOfTheGarageX" decorated_name="UINT8_T AtpLegacyStub_GetInFrontOfTheGarage(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInFrontOfTheGarage (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInFrontOfTheGarage () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInInttCouplStopPnt" name="ZcDAtpLegacyStub_GetInInttCouplStopPntX" decorated_name="UINT8_T AtpLegacyStub_GetInInttCouplStopPnt(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInInttCouplStopPnt (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInInttCouplStopPnt () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInttCouplPoint" name="ZbPAtpLegacyStub_GetInttCouplPointX" decorated_name="UINT8_T AtpLegacyStub_GetInttCouplPoint(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInttCouplPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInttCouplPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetIsFrontEndWashPoint" name="ZcEAtpLegacyStub_GetIsFrontEndWashPointX" decorated_name="UINT8_T AtpLegacyStub_GetIsFrontEndWashPoint(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetIsFrontEndWashPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetIsFrontEndWashPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetIsRearEndWashPoint" name="ZcDAtpLegacyStub_GetIsRearEndWashPointX" decorated_name="UINT8_T AtpLegacyStub_GetIsRearEndWashPoint(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetIsRearEndWashPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetIsRearEndWashPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMaLen" name="ZbGAtpLegacyStub_GetMaLenX" decorated_name="UINT16_T AtpLegacyStub_GetMaLen(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMaLen (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T AtpLegacyStub_GetMaLen () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMaData" name="ZbHAtpLegacyStub_GetMaDataX" decorated_name="MaDataStruct_T * AtpLegacyStub_GetMaData(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE MaDataStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMaData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE MaDataStruct_T * AtpLegacyStub_GetMaData () </orig_declaration>
+         <return_expression>return (MaDataStruct_T *)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMarMidSideMHookConStts" name="ZcHAtpLegacyStub_GetMarMidSideMHookConSttsX" decorated_name="UINT8_T AtpLegacyStub_GetMarMidSideMHookConStts(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMarMidSideMHookConStts (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetMarMidSideMHookConStts () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetMarSaveDataChgFlag" name="ZcDAtpLegacyStub_GetMarSaveDataChgFlagX" decorated_name="UINT8_T AtpLegacyStub_GetMarSaveDataChgFlag(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetMarSaveDataChgFlag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetMarSaveDataChgFlag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRearEndWashPoint" name="ZcBAtpLegacyStub_GetRearEndWashPointX" decorated_name="UINT8_T AtpLegacyStub_GetRearEndWashPoint(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRearEndWashPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRearEndWashPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRearWashFinish" name="ZbPAtpLegacyStub_GetRearWashFinishX" decorated_name="UINT8_T AtpLegacyStub_GetRearWashFinish(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRearWashFinish (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRearWashFinish () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetStationArea" name="ZbMAtpLegacyStub_GetStationAreaX" decorated_name="UINT8_T AtpLegacyStub_GetStationArea(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetStationArea (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetStationArea () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="StubTrain_SetIsRetainMarshalArea" name="ZcAStubTrain_SetIsRetainMarshalAreaX" decorated_name="void StubTrain_SetIsRetainMarshalArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="61" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetIsRetainMarshalAreaSequence" name="ZcIStubTrain_SetIsRetainMarshalAreaSequenceX" decorated_name="void StubTrain_SetIsRetainMarshalAreaSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="61" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectIsRetainMarshalAreaCalls" name="ZcIStubTrain_ExpectIsRetainMarshalAreaCallsX" decorated_name="void StubTrain_ExpectIsRetainMarshalAreaCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="61" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetIsRetainMarshalAreaCallCount" name="ZcJStubTrain_GetIsRetainMarshalAreaCallCountX" decorated_name="UINT32_T StubTrain_GetIsRetainMarshalAreaCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="61" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarEHookSttsChngTimer" name="ZcCStubTrain_SetMarEHookSttsChngTimerX" decorated_name="void StubTrain_SetMarEHookSttsChngTimer(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="62" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarEHookSttsChngTimerSequence" name="ZcKStubTrain_SetMarEHookSttsChngTimerSequenceX" decorated_name="void StubTrain_SetMarEHookSttsChngTimerSequence(const UINT16_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="62" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMarEHookSttsChngTimerCalls" name="ZcKStubTrain_ExpectMarEHookSttsChngTimerCallsX" decorated_name="void StubTrain_ExpectMarEHookSttsChngTimerCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="62" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMarEHookSttsChngTimerCallCount" name="ZcLStubTrain_GetMarEHookSttsChngTimerCallCountX" decorated_name="UINT32_T StubTrain_GetMarEHookSttsChngTimerCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="62" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarMidSideEHookConStts" name="ZcDStubTrain_SetMarMidSideEHookConSttsX" decorated_name="void StubTrain_SetMarMidSideEHookConStts(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarMidSideEHookConSttsSequence" name="ZcLStubTrain_SetMarMidSideEHookConSttsSequenceX" decorated_name="void StubTrain_SetMarMidSideEHookConSttsSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMarMidSideEHookConSttsCalls" name="ZcLStubTrain_ExpectMarMidSideEHookConSttsCallsX" decorated_name="void StubTrain_ExpectMarMidSideEHookConSttsCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMarMidSideEHookConSttsCallCount" name="ZcMStubTrain_GetMarMidSideEHookConSttsCallCountX" decorated_name="UINT32_T StubTrain_GetMarMidSideEHookConSttsCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="63" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarMidSideEHookConSttsLst" name="ZcGStubTrain_SetMarMidSideEHookConSttsLstX" decorated_name="void StubTrain_SetMarMidSideEHookConSttsLst(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="64" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarMidSideEHookConSttsLstSequence" name="ZcOStubTrain_SetMarMidSideEHookConSttsLstSequenceX" decorated_name="void StubTrain_SetMarMidSideEHookConSttsLstSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="64" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMarMidSideEHookConSttsLstCalls" name="ZcOStubTrain_ExpectMarMidSideEHookConSttsLstCallsX" decorated_name="void StubTrain_ExpectMarMidSideEHookConSttsLstCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="64" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMarMidSideEHookConSttsLstCallCount" name="ZcPStubTrain_GetMarMidSideEHookConSttsLstCallCountX" decorated_name="UINT32_T StubTrain_GetMarMidSideEHookConSttsLstCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="64" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainEbed" name="ZbGStubTrain_SetTrainEbedX" decorated_name="void StubTrain_SetTrainEbed(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="65" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainEbedSequence" name="ZbOStubTrain_SetTrainEbedSequenceX" decorated_name="void StubTrain_SetTrainEbedSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="65" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectTrainEbedCalls" name="ZbOStubTrain_ExpectTrainEbedCallsX" decorated_name="void StubTrain_ExpectTrainEbedCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="65" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetTrainEbedCallCount" name="ZbPStubTrain_GetTrainEbedCallCountX" decorated_name="UINT32_T StubTrain_GetTrainEbedCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="65" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainLocalKeyActive" name="ZcAStubTrain_SetTrainLocalKeyActiveX" decorated_name="void StubTrain_SetTrainLocalKeyActive(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="66" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainLocalKeyActiveSequence" name="ZcIStubTrain_SetTrainLocalKeyActiveSequenceX" decorated_name="void StubTrain_SetTrainLocalKeyActiveSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="66" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectTrainLocalKeyActiveCalls" name="ZcIStubTrain_ExpectTrainLocalKeyActiveCallsX" decorated_name="void StubTrain_ExpectTrainLocalKeyActiveCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="66" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetTrainLocalKeyActiveCallCount" name="ZcJStubTrain_GetTrainLocalKeyActiveCallCountX" decorated_name="UINT32_T StubTrain_GetTrainLocalKeyActiveCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="66" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainOppoKeyActive" name="ZbPStubTrain_SetTrainOppoKeyActiveX" decorated_name="void StubTrain_SetTrainOppoKeyActive(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="67" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainOppoKeyActiveSequence" name="ZcHStubTrain_SetTrainOppoKeyActiveSequenceX" decorated_name="void StubTrain_SetTrainOppoKeyActiveSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="67" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectTrainOppoKeyActiveCalls" name="ZcHStubTrain_ExpectTrainOppoKeyActiveCallsX" decorated_name="void StubTrain_ExpectTrainOppoKeyActiveCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="67" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetTrainOppoKeyActiveCallCount" name="ZcIStubTrain_GetTrainOppoKeyActiveCallCountX" decorated_name="UINT32_T StubTrain_GetTrainOppoKeyActiveCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="67" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainLocalCabActive" name="ZcAStubTrain_SetTrainLocalCabActiveX" decorated_name="void StubTrain_SetTrainLocalCabActive(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="68" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainLocalCabActiveSequence" name="ZcIStubTrain_SetTrainLocalCabActiveSequenceX" decorated_name="void StubTrain_SetTrainLocalCabActiveSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="68" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectTrainLocalCabActiveCalls" name="ZcIStubTrain_ExpectTrainLocalCabActiveCallsX" decorated_name="void StubTrain_ExpectTrainLocalCabActiveCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="68" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetTrainLocalCabActiveCallCount" name="ZcJStubTrain_GetTrainLocalCabActiveCallCountX" decorated_name="UINT32_T StubTrain_GetTrainLocalCabActiveCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="68" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainOppoCabActive" name="ZbPStubTrain_SetTrainOppoCabActiveX" decorated_name="void StubTrain_SetTrainOppoCabActive(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="69" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainOppoCabActiveSequence" name="ZcHStubTrain_SetTrainOppoCabActiveSequenceX" decorated_name="void StubTrain_SetTrainOppoCabActiveSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="69" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectTrainOppoCabActiveCalls" name="ZcHStubTrain_ExpectTrainOppoCabActiveCallsX" decorated_name="void StubTrain_ExpectTrainOppoCabActiveCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="69" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetTrainOppoCabActiveCallCount" name="ZcIStubTrain_GetTrainOppoCabActiveCallCountX" decorated_name="UINT32_T StubTrain_GetTrainOppoCabActiveCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="69" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainOutCutOffTract" name="ZcAStubTrain_SetTrainOutCutOffTractX" decorated_name="void StubTrain_SetTrainOutCutOffTract(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="70" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainOutCutOffTractSequence" name="ZcIStubTrain_SetTrainOutCutOffTractSequenceX" decorated_name="void StubTrain_SetTrainOutCutOffTractSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="70" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectTrainOutCutOffTractCalls" name="ZcIStubTrain_ExpectTrainOutCutOffTractCallsX" decorated_name="void StubTrain_ExpectTrainOutCutOffTractCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="70" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetTrainOutCutOffTractCallCount" name="ZcJStubTrain_GetTrainOutCutOffTractCallCountX" decorated_name="UINT32_T StubTrain_GetTrainOutCutOffTractCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="70" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainOutEb" name="ZbHStubTrain_SetTrainOutEbX" decorated_name="void StubTrain_SetTrainOutEb(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="71" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainOutEbSequence" name="ZbPStubTrain_SetTrainOutEbSequenceX" decorated_name="void StubTrain_SetTrainOutEbSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="71" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectTrainOutEbCalls" name="ZbPStubTrain_ExpectTrainOutEbCallsX" decorated_name="void StubTrain_ExpectTrainOutEbCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="71" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetTrainOutEbCallCount" name="ZcAStubTrain_GetTrainOutEbCallCountX" decorated_name="UINT32_T StubTrain_GetTrainOutEbCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="71" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMaEndMaType" name="ZbIStubTrain_SetMaEndMaTypeX" decorated_name="void StubTrain_SetMaEndMaType(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="72" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMaEndMaTypeSequence" name="ZcAStubTrain_SetMaEndMaTypeSequenceX" decorated_name="void StubTrain_SetMaEndMaTypeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="72" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMaEndMaTypeCalls" name="ZcAStubTrain_ExpectMaEndMaTypeCallsX" decorated_name="void StubTrain_ExpectMaEndMaTypeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="72" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMaEndMaTypeCallCount" name="ZcBStubTrain_GetMaEndMaTypeCallCountX" decorated_name="UINT32_T StubTrain_GetMaEndMaTypeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="72" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMaValid" name="ZbEStubTrain_SetMaValidX" decorated_name="void StubTrain_SetMaValid(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="73" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMaValidSequence" name="ZbMStubTrain_SetMaValidSequenceX" decorated_name="void StubTrain_SetMaValidSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="73" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMaValidCalls" name="ZbMStubTrain_ExpectMaValidCallsX" decorated_name="void StubTrain_ExpectMaValidCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="73" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMaValidCallCount" name="ZbNStubTrain_GetMaValidCallCountX" decorated_name="UINT32_T StubTrain_GetMaValidCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="73" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainStopSteady" name="ZbMStubTrain_SetTrainStopSteadyX" decorated_name="void StubTrain_SetTrainStopSteady(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="74" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetTrainStopSteadySequence" name="ZcEStubTrain_SetTrainStopSteadySequenceX" decorated_name="void StubTrain_SetTrainStopSteadySequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="74" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectTrainStopSteadyCalls" name="ZcEStubTrain_ExpectTrainStopSteadyCallsX" decorated_name="void StubTrain_ExpectTrainStopSteadyCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="74" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetTrainStopSteadyCallCount" name="ZcFStubTrain_GetTrainStopSteadyCallCountX" decorated_name="UINT32_T StubTrain_GetTrainStopSteadyCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="74" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetAutoDepSigByPltID" name="ZbOStubTrain_SetAutoDepSigByPltIDX" decorated_name="void StubTrain_SetAutoDepSigByPltID(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="75" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetAutoDepSigByPltIDSequence" name="ZcGStubTrain_SetAutoDepSigByPltIDSequenceX" decorated_name="void StubTrain_SetAutoDepSigByPltIDSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="75" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectAutoDepSigByPltIDCalls" name="ZcGStubTrain_ExpectAutoDepSigByPltIDCallsX" decorated_name="void StubTrain_ExpectAutoDepSigByPltIDCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="75" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetAutoDepSigByPltIDCallCount" name="ZcHStubTrain_GetAutoDepSigByPltIDCallCountX" decorated_name="UINT32_T StubTrain_GetAutoDepSigByPltIDCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="75" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetFrontEndWashPoint" name="ZbOStubTrain_SetFrontEndWashPointX" decorated_name="void StubTrain_SetFrontEndWashPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="76" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetFrontEndWashPointSequence" name="ZcGStubTrain_SetFrontEndWashPointSequenceX" decorated_name="void StubTrain_SetFrontEndWashPointSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="76" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectFrontEndWashPointCalls" name="ZcGStubTrain_ExpectFrontEndWashPointCallsX" decorated_name="void StubTrain_ExpectFrontEndWashPointCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="76" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetFrontEndWashPointCallCount" name="ZcHStubTrain_GetFrontEndWashPointCallCountX" decorated_name="UINT32_T StubTrain_GetFrontEndWashPointCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="76" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetFrontOfTheGaragePoint" name="ZcCStubTrain_SetFrontOfTheGaragePointX" decorated_name="void StubTrain_SetFrontOfTheGaragePoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="77" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetFrontOfTheGaragePointSequence" name="ZcKStubTrain_SetFrontOfTheGaragePointSequenceX" decorated_name="void StubTrain_SetFrontOfTheGaragePointSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="77" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectFrontOfTheGaragePointCalls" name="ZcKStubTrain_ExpectFrontOfTheGaragePointCallsX" decorated_name="void StubTrain_ExpectFrontOfTheGaragePointCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="77" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetFrontOfTheGaragePointCallCount" name="ZcLStubTrain_GetFrontOfTheGaragePointCallCountX" decorated_name="UINT32_T StubTrain_GetFrontOfTheGaragePointCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="77" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetFrontWashFinish" name="ZbMStubTrain_SetFrontWashFinishX" decorated_name="void StubTrain_SetFrontWashFinish(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="78" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetFrontWashFinishSequence" name="ZcEStubTrain_SetFrontWashFinishSequenceX" decorated_name="void StubTrain_SetFrontWashFinishSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="78" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectFrontWashFinishCalls" name="ZcEStubTrain_ExpectFrontWashFinishCallsX" decorated_name="void StubTrain_ExpectFrontWashFinishCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="78" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetFrontWashFinishCallCount" name="ZcFStubTrain_GetFrontWashFinishCallCountX" decorated_name="UINT32_T StubTrain_GetFrontWashFinishCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="78" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetInFrontOfTheGarage" name="ZbPStubTrain_SetInFrontOfTheGarageX" decorated_name="void StubTrain_SetInFrontOfTheGarage(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="79" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetInFrontOfTheGarageSequence" name="ZcHStubTrain_SetInFrontOfTheGarageSequenceX" decorated_name="void StubTrain_SetInFrontOfTheGarageSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="79" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectInFrontOfTheGarageCalls" name="ZcHStubTrain_ExpectInFrontOfTheGarageCallsX" decorated_name="void StubTrain_ExpectInFrontOfTheGarageCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="79" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetInFrontOfTheGarageCallCount" name="ZcIStubTrain_GetInFrontOfTheGarageCallCountX" decorated_name="UINT32_T StubTrain_GetInFrontOfTheGarageCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="79" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetInInttCouplStopPnt" name="ZbPStubTrain_SetInInttCouplStopPntX" decorated_name="void StubTrain_SetInInttCouplStopPnt(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="80" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetInInttCouplStopPntSequence" name="ZcHStubTrain_SetInInttCouplStopPntSequenceX" decorated_name="void StubTrain_SetInInttCouplStopPntSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="80" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectInInttCouplStopPntCalls" name="ZcHStubTrain_ExpectInInttCouplStopPntCallsX" decorated_name="void StubTrain_ExpectInInttCouplStopPntCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="80" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetInInttCouplStopPntCallCount" name="ZcIStubTrain_GetInInttCouplStopPntCallCountX" decorated_name="UINT32_T StubTrain_GetInInttCouplStopPntCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="80" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetInttCouplPoint" name="ZbLStubTrain_SetInttCouplPointX" decorated_name="void StubTrain_SetInttCouplPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="81" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetInttCouplPointSequence" name="ZcDStubTrain_SetInttCouplPointSequenceX" decorated_name="void StubTrain_SetInttCouplPointSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="81" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectInttCouplPointCalls" name="ZcDStubTrain_ExpectInttCouplPointCallsX" decorated_name="void StubTrain_ExpectInttCouplPointCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="81" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetInttCouplPointCallCount" name="ZcEStubTrain_GetInttCouplPointCallCountX" decorated_name="UINT32_T StubTrain_GetInttCouplPointCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="81" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetIsFrontEndWashPoint" name="ZcAStubTrain_SetIsFrontEndWashPointX" decorated_name="void StubTrain_SetIsFrontEndWashPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="82" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetIsFrontEndWashPointSequence" name="ZcIStubTrain_SetIsFrontEndWashPointSequenceX" decorated_name="void StubTrain_SetIsFrontEndWashPointSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="82" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectIsFrontEndWashPointCalls" name="ZcIStubTrain_ExpectIsFrontEndWashPointCallsX" decorated_name="void StubTrain_ExpectIsFrontEndWashPointCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="82" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetIsFrontEndWashPointCallCount" name="ZcJStubTrain_GetIsFrontEndWashPointCallCountX" decorated_name="UINT32_T StubTrain_GetIsFrontEndWashPointCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="82" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetIsRearEndWashPoint" name="ZbPStubTrain_SetIsRearEndWashPointX" decorated_name="void StubTrain_SetIsRearEndWashPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="83" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetIsRearEndWashPointSequence" name="ZcHStubTrain_SetIsRearEndWashPointSequenceX" decorated_name="void StubTrain_SetIsRearEndWashPointSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="83" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectIsRearEndWashPointCalls" name="ZcHStubTrain_ExpectIsRearEndWashPointCallsX" decorated_name="void StubTrain_ExpectIsRearEndWashPointCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="83" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetIsRearEndWashPointCallCount" name="ZcIStubTrain_GetIsRearEndWashPointCallCountX" decorated_name="UINT32_T StubTrain_GetIsRearEndWashPointCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="83" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMaLen" name="ZbCStubTrain_SetMaLenX" decorated_name="void StubTrain_SetMaLen(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="84" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMaLenSequence" name="ZbKStubTrain_SetMaLenSequenceX" decorated_name="void StubTrain_SetMaLenSequence(const UINT16_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="84" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMaLenCalls" name="ZbKStubTrain_ExpectMaLenCallsX" decorated_name="void StubTrain_ExpectMaLenCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="84" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMaLenCallCount" name="ZbLStubTrain_GetMaLenCallCountX" decorated_name="UINT32_T StubTrain_GetMaLenCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="84" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMaDataLength" name="ZbJStubTrain_SetMaDataLengthX" decorated_name="void StubTrain_SetMaDataLength(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="85" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMaDataLengthSequence" name="ZcBStubTrain_SetMaDataLengthSequenceX" decorated_name="void StubTrain_SetMaDataLengthSequence(const UINT16_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="85" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMaDataLengthCalls" name="ZcBStubTrain_ExpectMaDataLengthCallsX" decorated_name="void StubTrain_ExpectMaDataLengthCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="85" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMaDataLengthCallCount" name="ZcCStubTrain_GetMaDataLengthCallCountX" decorated_name="UINT32_T StubTrain_GetMaDataLengthCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="85" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarMidSideMHookConStts" name="ZcDStubTrain_SetMarMidSideMHookConSttsX" decorated_name="void StubTrain_SetMarMidSideMHookConStts(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="86" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarMidSideMHookConSttsSequence" name="ZcLStubTrain_SetMarMidSideMHookConSttsSequenceX" decorated_name="void StubTrain_SetMarMidSideMHookConSttsSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="86" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMarMidSideMHookConSttsCalls" name="ZcLStubTrain_ExpectMarMidSideMHookConSttsCallsX" decorated_name="void StubTrain_ExpectMarMidSideMHookConSttsCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="86" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMarMidSideMHookConSttsCallCount" name="ZcMStubTrain_GetMarMidSideMHookConSttsCallCountX" decorated_name="UINT32_T StubTrain_GetMarMidSideMHookConSttsCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="86" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarSaveDataChgFlag" name="ZbPStubTrain_SetMarSaveDataChgFlagX" decorated_name="void StubTrain_SetMarSaveDataChgFlag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="87" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetMarSaveDataChgFlagSequence" name="ZcHStubTrain_SetMarSaveDataChgFlagSequenceX" decorated_name="void StubTrain_SetMarSaveDataChgFlagSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="87" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectMarSaveDataChgFlagCalls" name="ZcHStubTrain_ExpectMarSaveDataChgFlagCallsX" decorated_name="void StubTrain_ExpectMarSaveDataChgFlagCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="87" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetMarSaveDataChgFlagCallCount" name="ZcIStubTrain_GetMarSaveDataChgFlagCallCountX" decorated_name="UINT32_T StubTrain_GetMarSaveDataChgFlagCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="87" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetRearEndWashPoint" name="ZbNStubTrain_SetRearEndWashPointX" decorated_name="void StubTrain_SetRearEndWashPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="88" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetRearEndWashPointSequence" name="ZcFStubTrain_SetRearEndWashPointSequenceX" decorated_name="void StubTrain_SetRearEndWashPointSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="88" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectRearEndWashPointCalls" name="ZcFStubTrain_ExpectRearEndWashPointCallsX" decorated_name="void StubTrain_ExpectRearEndWashPointCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="88" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetRearEndWashPointCallCount" name="ZcGStubTrain_GetRearEndWashPointCallCountX" decorated_name="UINT32_T StubTrain_GetRearEndWashPointCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="88" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetRearWashFinish" name="ZbLStubTrain_SetRearWashFinishX" decorated_name="void StubTrain_SetRearWashFinish(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="89" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetRearWashFinishSequence" name="ZcDStubTrain_SetRearWashFinishSequenceX" decorated_name="void StubTrain_SetRearWashFinishSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="89" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectRearWashFinishCalls" name="ZcDStubTrain_ExpectRearWashFinishCallsX" decorated_name="void StubTrain_ExpectRearWashFinishCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="89" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetRearWashFinishCallCount" name="ZcEStubTrain_GetRearWashFinishCallCountX" decorated_name="UINT32_T StubTrain_GetRearWashFinishCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="89" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetStationArea" name="ZbIStubTrain_SetStationAreaX" decorated_name="void StubTrain_SetStationArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="90" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetStationAreaSequence" name="ZcAStubTrain_SetStationAreaSequenceX" decorated_name="void StubTrain_SetStationAreaSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="90" col="1"/>
+    </Function>
+    <Function id="StubTrain_ExpectStationAreaCalls" name="ZcAStubTrain_ExpectStationAreaCallsX" decorated_name="void StubTrain_ExpectStationAreaCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="90" col="1"/>
+    </Function>
+    <Function id="StubTrain_GetStationAreaCallCount" name="ZcBStubTrain_GetStationAreaCallCountX" decorated_name="UINT32_T StubTrain_GetStationAreaCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="90" col="1"/>
+    </Function>
+    <Function id="StubTrain_SetNeutralDefaults" name="ZbMStubTrain_SetNeutralDefaultsX" decorated_name="void StubTrain_SetNeutralDefaults(void)">
+      <definition type="orig" source="code" file_id="1" line="95" col="6"/>
+    </Function>
+    <Function id="StubTrain_GetAutoDepSigByPltIDInputCount" name="ZcIStubTrain_GetAutoDepSigByPltIDInputCountX" decorated_name="UINT32_T StubTrain_GetAutoDepSigByPltIDInputCount(void)">
+      <definition type="orig" source="code" file_id="1" line="208" col="10"/>
+    </Function>
+    <Function id="StubTrain_GetAutoDepSigByPltIDInputAt" name="ZcFStubTrain_GetAutoDepSigByPltIDInputAtX" decorated_name="UINT32_T StubTrain_GetAutoDepSigByPltIDInputAt(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="211" col="10"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

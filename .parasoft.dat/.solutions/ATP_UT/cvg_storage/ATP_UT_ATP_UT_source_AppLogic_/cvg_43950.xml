@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" type="SCC">
+  <VersionInfos>
+    <StorageInfo ownerId="SCC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="SCC" resultId="SCCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;281;RunEHookTimer" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;82;SetMarCoupCmd" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;327;RunMarStageTimer" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;304;RunMarReqTimer" total="2" num="0" />
+  </Stats>
+  <ResultInfo cvgType="SCC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;82;SetMarCoupCmd" show="true">
+      <CvgElem id="SetMarCoupCmd:1|1">
+        <Loc locStartln="84" locStartPos="5" locEndLn="84" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;304;RunMarReqTimer" show="true">
+      <CvgElem id="RunMarReqTimer:1|1">
+        <Loc locStartln="306" locStartPos="5" locEndLn="306" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;327;RunMarStageTimer" show="true">
+      <CvgElem id="RunMarStageTimer:1|1">
+        <Loc locStartln="329" locStartPos="5" locEndLn="329" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c;281;RunEHookTimer" show="true">
+      <CvgElem id="RunEHookTimer:1|1">
+        <Loc locStartln="283" locStartPos="5" locEndLn="283" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MarshallingData.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

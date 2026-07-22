@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\AssureInfoData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitAssureInfoData" name="ZbCInitAssureInfoDataX" decorated_name="void InitAssureInfoData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="20" col="6"/>
+    </Function>
+    <Function id="InitAssureInfoTagData" name="ZbFInitAssureInfoTagDataX" decorated_name="void InitAssureInfoTagData(void)">
+      <definition type="orig" source="code" file_id="1" line="42" col="6"/>
+    </Function>
+    <Function id="InitAssureInfoTagAckData" name="ZbIInitAssureInfoTagAckDataX" decorated_name="void InitAssureInfoTagAckData(void)">
+      <definition type="orig" source="code" file_id="1" line="55" col="6"/>
+    </Function>
+    <Function id="GetAssureOMTag" name="ZOGetAssureOMTagX" decorated_name="UINT8_T GetAssureOMTag(void)">
+      <definition type="orig" source="code" file_id="1" line="69" col="9"/>
+    </Function>
+    <Function id="SetAssureOMTag" name="ZOSetAssureOMTagX" decorated_name="void SetAssureOMTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="77" col="6"/>
+    </Function>
+    <Function id="GetAssureRMTag" name="ZOGetAssureRMTagX" decorated_name="UINT8_T GetAssureRMTag(void)">
+      <definition type="orig" source="code" file_id="1" line="84" col="9"/>
+    </Function>
+    <Function id="SetAssureRMTag" name="ZOSetAssureRMTagX" decorated_name="void SetAssureRMTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="92" col="6"/>
+    </Function>
+    <Function id="GetAssureBDTag" name="ZOGetAssureBDTagX" decorated_name="UINT8_T GetAssureBDTag(void)">
+      <definition type="orig" source="code" file_id="1" line="100" col="9"/>
+    </Function>
+    <Function id="SetAssureBDTag" name="ZOSetAssureBDTagX" decorated_name="void SetAssureBDTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="109" col="6"/>
+    </Function>
+    <Function id="GetAssureBCTag" name="ZOGetAssureBCTagX" decorated_name="UINT8_T GetAssureBCTag(void)">
+      <definition type="orig" source="code" file_id="1" line="117" col="9"/>
+    </Function>
+    <Function id="SetAssureBCTag" name="ZOSetAssureBCTagX" decorated_name="void SetAssureBCTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="125" col="6"/>
+    </Function>
+    <Function id="GetAssurePMTag" name="ZOGetAssurePMTagX" decorated_name="UINT8_T GetAssurePMTag(void)">
+      <definition type="orig" source="code" file_id="1" line="133" col="9"/>
+    </Function>
+    <Function id="SetAssurePMTag" name="ZOSetAssurePMTagX" decorated_name="void SetAssurePMTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="141" col="6"/>
+    </Function>
+    <Function id="GetAssureOMTagAck" name="ZbBGetAssureOMTagAckX" decorated_name="UINT8_T GetAssureOMTagAck(void)">
+      <definition type="orig" source="code" file_id="1" line="149" col="9"/>
+    </Function>
+    <Function id="SetAssureOMTagAck" name="ZbBSetAssureOMTagAckX" decorated_name="void SetAssureOMTagAck(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="157" col="6"/>
+    </Function>
+    <Function id="GetAssureRMTagAck" name="ZbBGetAssureRMTagAckX" decorated_name="UINT8_T GetAssureRMTagAck(void)">
+      <definition type="orig" source="code" file_id="1" line="165" col="9"/>
+    </Function>
+    <Function id="SetAssureRMTagAck" name="ZbBSetAssureRMTagAckX" decorated_name="void SetAssureRMTagAck(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="173" col="6"/>
+    </Function>
+    <Function id="GetAssureBDTagAck" name="ZbBGetAssureBDTagAckX" decorated_name="UINT8_T GetAssureBDTagAck(void)">
+      <definition type="orig" source="code" file_id="1" line="181" col="9"/>
+    </Function>
+    <Function id="SetAssureBDTagAck" name="ZbBSetAssureBDTagAckX" decorated_name="void SetAssureBDTagAck(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="189" col="6"/>
+    </Function>
+    <Function id="GetAssureBCTagAck" name="ZbBGetAssureBCTagAckX" decorated_name="UINT8_T GetAssureBCTagAck(void)">
+      <definition type="orig" source="code" file_id="1" line="197" col="9"/>
+    </Function>
+    <Function id="SetAssureBCTagAck" name="ZbBSetAssureBCTagAckX" decorated_name="void SetAssureBCTagAck(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="205" col="6"/>
+    </Function>
+    <Function id="GetAssurePMTagAck" name="ZbBGetAssurePMTagAckX" decorated_name="UINT8_T GetAssurePMTagAck(void)">
+      <definition type="orig" source="code" file_id="1" line="213" col="9"/>
+    </Function>
+    <Function id="SetAssurePMTagAck" name="ZbBSetAssurePMTagAckX" decorated_name="void SetAssurePMTagAck(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="220" col="6"/>
+    </Function>
+    <Function id="GetAssureAtoFkycTagAck" name="ZbGGetAssureAtoFkycTagAckX" decorated_name="UINT8_T GetAssureAtoFkycTagAck(void)">
+      <definition type="orig" source="code" file_id="1" line="229" col="9"/>
+    </Function>
+    <Function id="SetAssureAtoFkycTagAck" name="ZbGSetAssureAtoFkycTagAckX" decorated_name="void SetAssureAtoFkycTagAck(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="238" col="6"/>
+    </Function>
+    <Function id="GetAssureAtoErrTagAck" name="ZbFGetAssureAtoErrTagAckX" decorated_name="UINT8_T GetAssureAtoErrTagAck(void)">
+      <definition type="orig" source="code" file_id="1" line="246" col="9"/>
+    </Function>
+    <Function id="SetAssureAtoErrTagAck" name="ZbFSetAssureAtoErrTagAckX" decorated_name="void SetAssureAtoErrTagAck(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="254" col="6"/>
+    </Function>
+    <Function id="GetConfirmBDTag" name="ZPGetConfirmBDTagX" decorated_name="UINT8_T GetConfirmBDTag(void)">
+      <definition type="orig" source="code" file_id="1" line="263" col="9"/>
+    </Function>
+    <Function id="SetConfirmBDTag" name="ZPSetConfirmBDTagX" decorated_name="void SetConfirmBDTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="271" col="6"/>
+    </Function>
+    <Function id="GetConfirmBCTag" name="ZPGetConfirmBCTagX" decorated_name="UINT8_T GetConfirmBCTag(void)">
+      <definition type="orig" source="code" file_id="1" line="279" col="9"/>
+    </Function>
+    <Function id="SetConfirmBCTag" name="ZPSetConfirmBCTagX" decorated_name="void SetConfirmBCTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="288" col="6"/>
+    </Function>
+    <Function id="GetAssureCbtcBackTag" name="ZbEGetAssureCbtcBackTagX" decorated_name="UINT8_T GetAssureCbtcBackTag(void)">
+      <definition type="orig" source="code" file_id="1" line="296" col="9"/>
+    </Function>
+    <Function id="SetAssureCbtcBackTag" name="ZbESetAssureCbtcBackTagX" decorated_name="void SetAssureCbtcBackTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="305" col="6"/>
+    </Function>
+    <Function id="GetAssureCbtcBackTagAck" name="ZbHGetAssureCbtcBackTagAckX" decorated_name="UINT8_T GetAssureCbtcBackTagAck(void)">
+      <definition type="orig" source="code" file_id="1" line="314" col="9"/>
+    </Function>
+    <Function id="SetAssureCbtcBackTagAck" name="ZbHSetAssureCbtcBackTagAckX" decorated_name="void SetAssureCbtcBackTagAck(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="321" col="6"/>
+    </Function>
+    <Function id="GetConfirmCbtcBackTag" name="ZbFGetConfirmCbtcBackTagX" decorated_name="UINT8_T GetConfirmCbtcBackTag(void)">
+      <definition type="orig" source="code" file_id="1" line="329" col="9"/>
+    </Function>
+    <Function id="SetConfirmCbtcBackTag" name="ZbFSetConfirmCbtcBackTagX" decorated_name="void SetConfirmCbtcBackTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="337" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

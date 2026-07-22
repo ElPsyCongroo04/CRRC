@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{162af91d-ef79-446e-9ea6-b78b7e3111d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{b4e9efad-a0b3-4b3f-88d5-40d7218aac24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stubs">
+      <UniqueIdentifier>{0ebcc476-a778-442f-8e6d-b4d2770f2895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic">
+      <UniqueIdentifier>{a8698723-8144-4cd5-92cb-760f6aba0c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\InterPlatform">
+      <UniqueIdentifier>{9f5aef63-8d4c-4839-ae42-dabc3b640738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle">
+      <UniqueIdentifier>{76e056b7-d855-49c2-aad9-d5868e2652ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PowerOnHandle">
+      <UniqueIdentifier>{8737102b-4c1e-4a30-a6fd-2c5e66bdd760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\SysDef">
+      <UniqueIdentifier>{6bed8cbe-f60b-4e11-a4b5-34542a8541d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\AppCommonManage">
+      <UniqueIdentifier>{d3cc57b3-5e10-40bf-a76e-6fb3d9239490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\AppPeriodManage">
+      <UniqueIdentifier>{ece79afd-5f8a-4f72-a179-3db5790c9930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\BaliseManage">
+      <UniqueIdentifier>{440a8fe9-1d26-4a2d-80eb-8671488fb109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\BtmManage">
+      <UniqueIdentifier>{3a99ac32-6df9-4b78-a131-f45c47b0e4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\CommManage">
+      <UniqueIdentifier>{4515a9ae-f947-4e8a-bc62-a84f4562389e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\DailyInspectionManage">
+      <UniqueIdentifier>{c71d4b8e-cf9d-4268-8a3d-56eb7f693331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\DigitalMeaManage">
+      <UniqueIdentifier>{5c0440a6-b932-4ae6-907b-47cc5695c4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\DoorManage">
+      <UniqueIdentifier>{77dad4cc-465f-4e51-b698-82c14236a2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\EbiCalcManage">
+      <UniqueIdentifier>{71ab626c-edc0-4b63-96fe-bf72d094f988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\EbTrackCutManage">
+      <UniqueIdentifier>{5f1a0e00-d8fd-4ecc-9496-d9e651182780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\InitManage">
+      <UniqueIdentifier>{721b7235-55be-4d3e-94bb-37dbd8351e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\LogManage">
+      <UniqueIdentifier>{c91b009d-eba8-48bb-aca0-71849b9131a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\MaManage">
+      <UniqueIdentifier>{895170a3-a4d2-4856-b5a6-72aa50d0010b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\ModeManage">
+      <UniqueIdentifier>{a03a3c6b-79ff-40c9-9677-0ecfcbcc4f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\PowerOffManage">
+      <UniqueIdentifier>{bec94873-88a6-4ba9-97b7-00bccae5bc80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\ProtectionManage">
+      <UniqueIdentifier>{e4704bbf-372f-486d-bd90-45735c808321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\PsdManage">
+      <UniqueIdentifier>{22b19fa6-68a0-4048-a910-aec78487fb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\RadarData">
+      <UniqueIdentifier>{695c3f1d-8ecf-4ff8-978f-5763cb3288c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\RcvSendManage">
+      <UniqueIdentifier>{e19d912a-441b-4fda-883c-6daaeaf8ba0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\ReverseManage">
+      <UniqueIdentifier>{c1f91e84-50b3-499f-a441-ea4c13cac413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\SignManage">
+      <UniqueIdentifier>{cc53bdb6-aa8e-4920-972f-ee26efb9b74d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\SpeedManage">
+      <UniqueIdentifier>{15a8e02c-f431-49b2-b1eb-a7c7d06745b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\StopAreaManage">
+      <UniqueIdentifier>{206c2406-7f43-4d32-8ab7-53b8ad99d015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\StopEnsureManage">
+      <UniqueIdentifier>{f749dcb1-3700-4aa4-ab45-ff37eebe035f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\TimeManage">
+      <UniqueIdentifier>{97399dd7-c30b-4657-a791-e3be9ca29ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\TractionBrakeManage">
+      <UniqueIdentifier>{d21d64ca-8327-467f-b5d5-f0603269f9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\TrainBackSecManage">
+      <UniqueIdentifier>{c82e6aec-fc3c-46cb-9246-a9b3394f7c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\TrainInteChkManage">
+      <UniqueIdentifier>{3c1e6206-04e1-429e-8b36-4d6d454bd5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\TrainLocManage">
+      <UniqueIdentifier>{c7e3ed3c-4604-4348-8f41-7aef4c37eb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\WheelChkManage">
+      <UniqueIdentifier>{6a920aee-def2-4f2e-8cf3-0a2be2306488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\ZcManage">
+      <UniqueIdentifier>{330d6582-872f-4a64-8267-4143417390b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\ZeroSpeedManage">
+      <UniqueIdentifier>{9c8e3b35-be95-4e2b-ada1-43060d194a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\DynamicData">
+      <UniqueIdentifier>{1bfb84f6-6f85-406b-bf34-fd58049a7303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\DataQuery">
+      <UniqueIdentifier>{4f13116f-81a2-4f75-9b06-f1128f29f426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ScpApp">
+      <UniqueIdentifier>{ffc19822-bd0a-4c5e-acba-0ef86882b6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\RSSP1">
+      <UniqueIdentifier>{157659fa-3587-48f4-95b7-f716956d3511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated">
+      <UniqueIdentifier>{20937414-6aed-4b2f-a9ce-c92f9d998f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source">
+      <UniqueIdentifier>{57ad186b-d200-48a2-b7e0-148b191693fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic">
+      <UniqueIdentifier>{22717ce0-e223-406c-a570-733d152c800c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle">
+      <UniqueIdentifier>{789dae49-9ff3-49f9-a4ad-1fd9c89953fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\DailyInspectionManage">
+      <UniqueIdentifier>{9a098c63-4c97-4384-abf7-c17aaa000a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\ModeManage">
+      <UniqueIdentifier>{63617c23-2a32-4c07-9111-5e4397087135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\OpenManage">
+      <UniqueIdentifier>{63364d46-161f-49aa-a181-28d90b85060a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\PowerOffManage">
+      <UniqueIdentifier>{2c6ddb4e-9f7d-43af-9a36-5e6d19bb9b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\SignManage">
+      <UniqueIdentifier>{e7b71417-a8d1-4df9-ba27-7cedcf7446f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\StopEnsureManage">
+      <UniqueIdentifier>{46decfba-cb36-4ada-94f5-e63df08a9211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\TimeManage">
+      <UniqueIdentifier>{f50208ba-fac0-40dd-9b75-9db19f8693e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\TrainBackSecManage">
+      <UniqueIdentifier>{be640e7e-ad75-4683-a3ea-b62973698840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PowerOnHandle">
+      <UniqueIdentifier>{70af6509-14ef-439d-b7f4-9cffe7d5f999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\ActiveStandbyManage">
+      <UniqueIdentifier>{f355f126-d9be-44e0-a94e-f3269de4b169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\RomteEBManage">
+      <UniqueIdentifier>{9a782530-88bf-4d6b-8e79-f196656c30f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\WorkCondManage">
+      <UniqueIdentifier>{7855c3aa-8d33-43cb-9293-2b25bcb644bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\SleepWake">
+      <UniqueIdentifier>{2e2a7d9e-4c36-420c-abe8-be3b1070406b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\RomteEBManage">
+      <UniqueIdentifier>{5aef4182-aaac-466d-a290-e6c16c7142b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stubs\autogenerated">
+      <UniqueIdentifier>{dd0dd7ce-1b66-48cd-a649-e13a57e4bb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\InitManage">
+      <UniqueIdentifier>{e61b34d6-113e-4cd2-9801-5a920c192cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\EbTrackCutManage">
+      <UniqueIdentifier>{7667873e-1d07-45b4-8268-bdd7da7342b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\ProtectionManage">
+      <UniqueIdentifier>{2eb294f8-ad63-4460-a19e-83c27027cf0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\ReverseManage">
+      <UniqueIdentifier>{bfede603-fb6e-4033-8de0-ff6d9f409eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\TractionBrakeManage">
+      <UniqueIdentifier>{bfc175c7-3f85-4d69-baa2-570e0607e291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\autogenerated\source\AppLogic\PeriodHandle\TrainInteChkManage">
+      <UniqueIdentifier>{e7ba6af6-4d00-4b09-a4d3-632106e876fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\LampControl">
+      <UniqueIdentifier>{aa4c5b95-c993-4319-a7e7-4fc170ee1f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\MarshallingManage">
+      <UniqueIdentifier>{3bdfd38e-b396-4e68-87f3-263324d54047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\SleepWakeManage">
+      <UniqueIdentifier>{8eedb1b2-ced2-43ec-8118-f676a4ae33be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AppLogic\PeriodHandle\HandleSystemAlarm">
+      <UniqueIdentifier>{8b0e16a7-1aa5-405b-bc36-0e7d52798478}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodInitHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\AppPeriodManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\BaliseManage\BaliseInfoHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\BaliseManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\BtmManage\BtmHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\BtmManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\CommManage\CommunicationHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\CommManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\DailyInspectionManage\DailyInspectionHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\DailyInspectionManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\DigitalMeaManage\InDigitalMeaHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\DigitalMeaManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\DigitalMeaManage\OutDigitalMeaHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\DigitalMeaManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\DoorManage\DoorHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\DoorManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\EbTrackCutManage\EbAndCutOffTrackOut.c">
+      <Filter>source\AppLogic\PeriodHandle\EbTrackCutManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\LogManage\LogManage.c">
+      <Filter>source\AppLogic\PeriodHandle\LogManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\MaManage\MaHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\MaManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeControl.c">
+      <Filter>source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeInit.c">
+      <Filter>source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\PowerOffManage\PowerOffHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\PowerOffManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ProtectionManage\ProtectionHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\ProtectionManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\PsdManage\PsdHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\PsdManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ReverseManage\ReverseHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\ReverseManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\SpeedManage\SpeedHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\SpeedManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\StopAreaManage\StopAreaHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\StopAreaManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\StopEnsureManage\StopEnsureHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\StopEnsureManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TimeManage\TimeHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\TimeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TractionBrakeManage\TractionBrakeHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\TractionBrakeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TrainBackSecManage\TrainBackSecHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\TrainBackSecManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TrainInteChkManage\TrainInteChkHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\TrainInteChkManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TrainLocManage\TrainLocCpsHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\TrainLocManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\TrainLocManage\TrainLocManage.c">
+      <Filter>source\AppLogic\PeriodHandle\TrainLocManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\WheelChkManage\WheelCheck.c">
+      <Filter>source\AppLogic\PeriodHandle\WheelChkManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ZeroSpeedManage\ZeroSpeed.c">
+      <Filter>source\AppLogic\PeriodHandle\ZeroSpeedManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PowerOnHandle\AppPowerInitHandle.c">
+      <Filter>source\AppLogic\PowerOnHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PowerOnHandle\LocAtpCfgInitManager.c">
+      <Filter>source\AppLogic\PowerOnHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PowerOnHandle\TrainInitHandle.c">
+      <Filter>source\AppLogic\PowerOnHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\openmanage\TestSuite_OpenModeHandle.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\OpenManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\poweroffmanage\TestSuite_PowerOffHandle.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\PowerOffManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\modemanage\TestSuite_ModeInit.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\signmanage\TestSuite_SignHandle.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\SignManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\stopensuremanage\TestSuite_StopEnsureHandle.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\StopEnsureManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\timemanage\TestSuite_TimeHandle.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\TimeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\ArInfoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\AssureInfoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\AtoInfoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\BaliseInfoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\ComStatusData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\DailyInspectionData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\DoorInfoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\FaoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\GradeInfoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\InputDigitalMeasureData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\MaInfoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\PowerOffData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\ProtectionData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\PsdInfoData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\StopAreaData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\SysRunData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\SysRunErrorData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\TrainData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\TrainInitData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\WheelData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage\ActiveStandbyDataHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\ActiveStandbyManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage\ActiveStandbyManage.c">
+      <Filter>source\AppLogic\PeriodHandle\ActiveStandbyManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseAomData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseAtoData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBaliseData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBtmData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseCamData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseCtlAndIdleInterData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseHMIInfoData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseRadarData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseTacInfoData.c">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\RomteEBManage\RemoteEBHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\RomteEBManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\WorkCondManage\WorkCondManage.c">
+      <Filter>source\AppLogic\PeriodHandle\WorkCondManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\romteebmanage\TestSuite_RemoteEBHandle.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\RomteEBManage</Filter>
+    </ClCompile>
+    <ClCompile Include="stubs\autogenerated\auto_6e7dad20.c">
+      <Filter>stubs\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="stubs\autogenerated\auto_432b7128.c">
+      <Filter>stubs\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="stubs\stub.c">
+      <Filter>stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="stubs\autogenerated\stubs.c">
+      <Filter>stubs\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\initmanage\TestSuite_ArInit_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\InitManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\ebtrackcutmanage\TestSuite_EbAndCutOffTrackOut_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\EbTrackCutManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\initmanage\TestSuite_RdModeInit_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\InitManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\modemanage\TestSuite_ModeControl_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\modemanage\TestSuite_ModeHandle_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\protectionmanage\TestSuite_ProtectionHandle_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\ProtectionManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\reversemanage\TestSuite_ReverseHandle_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\ReverseManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\trainbacksecmanage\TestSuite_TrainBackSecHandle_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\TrainBackSecManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\tractionbrakemanage\TestSuite_TractionBrakeHandle_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\TractionBrakeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\autogenerated\source\applogic\periodhandle\trainintechkmanage\TestSuite_TrainInteChkHandle_c.c">
+      <Filter>tests\autogenerated\source\AppLogic\PeriodHandle\TrainInteChkManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\MarshallingData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\CommData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\DynamicData\TrainOpgData.c">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\AppPeriodManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\EbiCalcManage\EbiCalcHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\EbiCalcManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\LampControl\LampControl.c">
+      <Filter>source\AppLogic\PeriodHandle\LampControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\MarshallingManage\MarshallingHandle.c">
+      <Filter>source\AppLogic\PeriodHandle\MarshallingManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\SleepWakeManage\AwakeFunc.c">
+      <Filter>source\AppLogic\PeriodHandle\SleepWakeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\SleepWakeManage\SleepFunc.c">
+      <Filter>source\AppLogic\PeriodHandle\SleepWakeManage</Filter>
+    </ClCompile>
+    <ClCompile Include="stubs\autogenerated\auto_ae63cc10.c">
+      <Filter>stubs\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppLogic\PeriodHandle\HandleSystemAlarm\HandleSystemAlarm.c">
+      <Filter>source\AppLogic\PeriodHandle\HandleSystemAlarm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodInitHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\AppPeriodManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\BaliseManage\BaliseInfoHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\BaliseManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\BtmManage\BtmHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\BtmManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\CommManage\CommunicationHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\CommManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\DailyInspectionManage\DailyInspectionHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\DailyInspectionManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\DigitalMeaManage\InDigitalMeaHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\DigitalMeaManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\DigitalMeaManage\OutDigitalMeaHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\DigitalMeaManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\DoorManage\DoorHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\DoorManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\EbTrackCutManage\EbAndCutOffTrackOut.h">
+      <Filter>source\AppLogic\PeriodHandle\EbTrackCutManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\LogManage\LogManage.h">
+      <Filter>source\AppLogic\PeriodHandle\LogManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\MaManage\MaHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\MaManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeControl.h">
+      <Filter>source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ModeManage\ModeInit.h">
+      <Filter>source\AppLogic\PeriodHandle\ModeManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\PowerOffManage\PowerOffHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\PowerOffManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ProtectionManage\ProtectionHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\ProtectionManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\PsdManage\PsdHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\PsdManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ReverseManage\ReverseHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\ReverseManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\SpeedManage\SpeedHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\SpeedManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\StopAreaManage\StopAreaHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\StopAreaManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\StopEnsureManage\StopEnsureHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\StopEnsureManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TimeManage\TimeHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\TimeManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TractionBrakeManage\TractionBrakeHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\TractionBrakeManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TrainBackSecManage\TrainBackSecHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\TrainBackSecManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TrainInteChkManage\TrainInteChkHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\TrainInteChkManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TrainLocManage\TrainLocCpsHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\TrainLocManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\TrainLocManage\TrainLocManage.h">
+      <Filter>source\AppLogic\PeriodHandle\TrainLocManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\WheelChkManage\WheelCheck.h">
+      <Filter>source\AppLogic\PeriodHandle\WheelChkManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ZeroSpeedManage\ZeroSpeed.h">
+      <Filter>source\AppLogic\PeriodHandle\ZeroSpeedManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\SysDef\SystemDefine.h">
+      <Filter>source\AppLogic\SysDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\SysDef\SystemStructDefine.h">
+      <Filter>source\AppLogic\SysDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PowerOnHandle\AppPowerInitHandle.h">
+      <Filter>source\AppLogic\PowerOnHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PowerOnHandle\LocAtpCfgInitManager.h">
+      <Filter>source\AppLogic\PowerOnHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PowerOnHandle\TrainInitHandle.h">
+      <Filter>source\AppLogic\PowerOnHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\ArInfoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\AssureInfoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\AtoInfoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\BaliseInfoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\ComStatusData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\DailyInspectionData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\DoorInfoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\FaoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\GradeInfoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\InputDigitalMeasureData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\MaInfoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\PowerOffData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\ProtectionData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\PsdInfoData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\StopAreaData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\SysRunData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\SysRunErrorData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\TrainData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\TrainInitData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\WheelData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage\ActiveStandbyDataHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\ActiveStandbyManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\ActiveStandbyManage\ActiveStandbyManage.h">
+      <Filter>source\AppLogic\PeriodHandle\ActiveStandbyManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseAomData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseAtoData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBaliseData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBtmData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseCamData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseCtlAndIdleInterData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseHMIInfoData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseRadarData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RcvSendManage\PackParseTacInfoData.h">
+      <Filter>source\AppLogic\PeriodHandle\RcvSendManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\RomteEBManage\RemoteEBHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\RomteEBManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\WorkCondManage\WorkCondManage.h">
+      <Filter>source\AppLogic\PeriodHandle\WorkCondManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\MarshallingData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\CommData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\DynamicData\TrainOpgData.h">
+      <Filter>source\AppLogic\DynamicData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\AppPeriodManage\AppPeriodHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\AppPeriodManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\EbiCalcManage\EbiCalcHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\EbiCalcManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\LampControl\LampControl.h">
+      <Filter>source\AppLogic\PeriodHandle\LampControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\MarshallingManage\MarshallingHandle.h">
+      <Filter>source\AppLogic\PeriodHandle\MarshallingManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\SleepWakeManage\AwakeFunc.h">
+      <Filter>source\AppLogic\PeriodHandle\SleepWakeManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\SleepWakeManage\SleepFunc.h">
+      <Filter>source\AppLogic\PeriodHandle\SleepWakeManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppLogic\PeriodHandle\HandleSystemAlarm\HandleSystemAlarm.h">
+      <Filter>source\AppLogic\PeriodHandle\HandleSystemAlarm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

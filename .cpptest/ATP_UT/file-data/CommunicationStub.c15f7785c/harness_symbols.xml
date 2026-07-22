@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\stubs\communication\CommunicationStub.c" id="1"/>
+    <Function id="GetRcvAtoBtnPressedAck" name="ZbGGetRcvAtoBtnPressedAckX" decorated_name="UINT8_T GetRcvAtoBtnPressedAck(void)">
+      <definition type="user" source="code" file_id="1" line="101" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoAMMode" name="ZPGetRcvAtoAMModeX" decorated_name="UINT8_T GetRcvAtoAMMode(void)">
+      <definition type="user" source="code" file_id="1" line="99" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoFAMMode" name="ZbAGetRcvAtoFAMModeX" decorated_name="UINT8_T GetRcvAtoFAMMode(void)">
+      <definition type="user" source="code" file_id="1" line="103" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoStartConfirm" name="ZbFGetRcvAtoStartConfirmX" decorated_name="UINT8_T GetRcvAtoStartConfirm(void)">
+      <definition type="user" source="code" file_id="1" line="107" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoCabDoorCtrlMode" name="ZbIGetRcvAtoCabDoorCtrlModeX" decorated_name="UINT8_T GetRcvAtoCabDoorCtrlMode(void)">
+      <definition type="user" source="code" file_id="1" line="87" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoDoorCtrlMode" name="ZbFGetRcvAtoDoorCtrlModeX" decorated_name="UINT8_T GetRcvAtoDoorCtrlMode(void)">
+      <definition type="user" source="code" file_id="1" line="89" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoLeaveTrainInfo" name="ZbHGetRcvAtoLeaveTrainInfoX" decorated_name="UINT8_T GetRcvAtoLeaveTrainInfo(void)">
+      <definition type="user" source="code" file_id="1" line="105" col="26"/>
+    </Function>
+    <Function id="GetVehicleFireAlarm" name="ZbDGetVehicleFireAlarmX" decorated_name="UINT8_T GetVehicleFireAlarm(void)">
+      <definition type="user" source="code" file_id="1" line="93" col="26"/>
+    </Function>
+    <Function id="AtpStub_IsCurrentTestManaged" name="ZbMAtpStub_IsCurrentTestManagedX" decorated_name="UINT8_T AtpStub_IsCurrentTestManaged(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_IsCurrentTestManaged (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpStub_IsCurrentTestManaged () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetUInt8State" name="ZbFAtpStub_GetUInt8StateX" decorated_name="AtpStubUInt8State_T * AtpStub_GetUInt8State(AtpStubUInt8Id_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt8State_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetUInt8State (AtpStubUInt8Id_T id) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt8State_T * AtpStub_GetUInt8State (AtpStubUInt8Id_T id) </orig_declaration>
+         <return_expression>return (AtpStubUInt8State_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_SetValue" name="ZbFAtpStubUInt8_SetValueX" decorated_name="void AtpStubUInt8_SetValue(AtpStubUInt8State_T *, UINT8_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_SetValue (AtpStubUInt8State_T * state, UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_SetValue (AtpStubUInt8State_T * state, UINT8_T value) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_SetSequence" name="ZbIAtpStubUInt8_SetSequenceX" decorated_name="void AtpStubUInt8_SetSequence(AtpStubUInt8State_T *, const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_SetSequence (AtpStubUInt8State_T * state, const UINT8_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_SetSequence (AtpStubUInt8State_T * state, const UINT8_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_ExpectCalls" name="ZbIAtpStubUInt8_ExpectCallsX" decorated_name="void AtpStubUInt8_ExpectCalls(AtpStubUInt8State_T *, UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_ExpectCalls (AtpStubUInt8State_T * state, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_ExpectCalls (AtpStubUInt8State_T * state, UINT32_T count) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_Next" name="ZbBAtpStubUInt8_NextX" decorated_name="UINT8_T AtpStubUInt8_Next(AtpStubUInt8State_T *, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_Next (AtpStubUInt8State_T * state, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpStubUInt8_Next (AtpStubUInt8State_T * state, const char * stubName) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvAtoCabDoorCtrlMode" name="ZcGAtpLegacyStub_GetRcvAtoCabDoorCtrlModeX" decorated_name="UINT8_T AtpLegacyStub_GetRcvAtoCabDoorCtrlMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvAtoCabDoorCtrlMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvAtoCabDoorCtrlMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvAtoDoorCtrlMode" name="ZcDAtpLegacyStub_GetRcvAtoDoorCtrlModeX" decorated_name="UINT8_T AtpLegacyStub_GetRcvAtoDoorCtrlMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvAtoDoorCtrlMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvAtoDoorCtrlMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvAtoFaultTag" name="ZbPAtpLegacyStub_GetRcvAtoFaultTagX" decorated_name="UINT8_T AtpLegacyStub_GetRcvAtoFaultTag(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvAtoFaultTag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvAtoFaultTag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetVehicleFireAlarm" name="ZcBAtpLegacyStub_GetVehicleFireAlarmX" decorated_name="UINT8_T AtpLegacyStub_GetVehicleFireAlarm(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetVehicleFireAlarm (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetVehicleFireAlarm () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetAomRcvAwakeMaintainBtn" name="ZcHAtpLegacyStub_GetAomRcvAwakeMaintainBtnX" decorated_name="UINT8_T AtpLegacyStub_GetAomRcvAwakeMaintainBtn(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetAomRcvAwakeMaintainBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetAomRcvAwakeMaintainBtn () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetAtoStartConfirm" name="ZcAAtpLegacyStub_GetAtoStartConfirmX" decorated_name="UINT8_T AtpLegacyStub_GetAtoStartConfirm(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetAtoStartConfirm (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetAtoStartConfirm () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvAtoAMMode" name="ZbNAtpLegacyStub_GetRcvAtoAMModeX" decorated_name="UINT8_T AtpLegacyStub_GetRcvAtoAMMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvAtoAMMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvAtoAMMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvAtoBtnPressedAck" name="ZcEAtpLegacyStub_GetRcvAtoBtnPressedAckX" decorated_name="UINT8_T AtpLegacyStub_GetRcvAtoBtnPressedAck(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvAtoBtnPressedAck (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvAtoBtnPressedAck () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvAtoFAMMode" name="ZbOAtpLegacyStub_GetRcvAtoFAMModeX" decorated_name="UINT8_T AtpLegacyStub_GetRcvAtoFAMMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvAtoFAMMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvAtoFAMMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvAtoLeaveTrainInfo" name="ZcFAtpLegacyStub_GetRcvAtoLeaveTrainInfoX" decorated_name="UINT8_T AtpLegacyStub_GetRcvAtoLeaveTrainInfo(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvAtoLeaveTrainInfo (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvAtoLeaveTrainInfo () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvAtoStartConfirm" name="ZcDAtpLegacyStub_GetRcvAtoStartConfirmX" decorated_name="UINT8_T AtpLegacyStub_GetRcvAtoStartConfirm(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvAtoStartConfirm (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvAtoStartConfirm () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvCamAMMode" name="ZbNAtpLegacyStub_GetRcvCamAMModeX" decorated_name="UINT8_T AtpLegacyStub_GetRcvCamAMMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvCamAMMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvCamAMMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvCamBtnPressedAck" name="ZcEAtpLegacyStub_GetRcvCamBtnPressedAckX" decorated_name="UINT8_T AtpLegacyStub_GetRcvCamBtnPressedAck(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvCamBtnPressedAck (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvCamBtnPressedAck () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvCamLeaveTrainInfo" name="ZcFAtpLegacyStub_GetRcvCamLeaveTrainInfoX" decorated_name="UINT8_T AtpLegacyStub_GetRcvCamLeaveTrainInfo(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvCamLeaveTrainInfo (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvCamLeaveTrainInfo () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvCamParkingFlag" name="ZcCAtpLegacyStub_GetRcvCamParkingFlagX" decorated_name="UINT8_T AtpLegacyStub_GetRcvCamParkingFlag(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvCamParkingFlag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvCamParkingFlag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRcvCamStartConfirm" name="ZcDAtpLegacyStub_GetRcvCamStartConfirmX" decorated_name="UINT8_T AtpLegacyStub_GetRcvCamStartConfirm(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRcvCamStartConfirm (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRcvCamStartConfirm () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoCabDoorCtrlMode" name="ZcKStubCommunication_SetRcvAtoCabDoorCtrlModeX" decorated_name="void StubCommunication_SetRcvAtoCabDoorCtrlMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="34" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoCabDoorCtrlModeSequence" name="ZdCStubCommunication_SetRcvAtoCabDoorCtrlModeSequenceX" decorated_name="void StubCommunication_SetRcvAtoCabDoorCtrlModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="34" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvAtoCabDoorCtrlModeCalls" name="ZdCStubCommunication_ExpectRcvAtoCabDoorCtrlModeCallsX" decorated_name="void StubCommunication_ExpectRcvAtoCabDoorCtrlModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="34" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvAtoCabDoorCtrlModeCallCount" name="ZdDStubCommunication_GetRcvAtoCabDoorCtrlModeCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvAtoCabDoorCtrlModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="34" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoDoorCtrlMode" name="ZcHStubCommunication_SetRcvAtoDoorCtrlModeX" decorated_name="void StubCommunication_SetRcvAtoDoorCtrlMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="35" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoDoorCtrlModeSequence" name="ZcPStubCommunication_SetRcvAtoDoorCtrlModeSequenceX" decorated_name="void StubCommunication_SetRcvAtoDoorCtrlModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="35" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvAtoDoorCtrlModeCalls" name="ZcPStubCommunication_ExpectRcvAtoDoorCtrlModeCallsX" decorated_name="void StubCommunication_ExpectRcvAtoDoorCtrlModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="35" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvAtoDoorCtrlModeCallCount" name="ZdAStubCommunication_GetRcvAtoDoorCtrlModeCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvAtoDoorCtrlModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="35" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoFaultTag" name="ZcDStubCommunication_SetRcvAtoFaultTagX" decorated_name="void StubCommunication_SetRcvAtoFaultTag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="36" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoFaultTagSequence" name="ZcLStubCommunication_SetRcvAtoFaultTagSequenceX" decorated_name="void StubCommunication_SetRcvAtoFaultTagSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="36" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvAtoFaultTagCalls" name="ZcLStubCommunication_ExpectRcvAtoFaultTagCallsX" decorated_name="void StubCommunication_ExpectRcvAtoFaultTagCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="36" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvAtoFaultTagCallCount" name="ZcMStubCommunication_GetRcvAtoFaultTagCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvAtoFaultTagCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="36" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetVehicleFireAlarm" name="ZcFStubCommunication_SetVehicleFireAlarmX" decorated_name="void StubCommunication_SetVehicleFireAlarm(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="37" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetVehicleFireAlarmSequence" name="ZcNStubCommunication_SetVehicleFireAlarmSequenceX" decorated_name="void StubCommunication_SetVehicleFireAlarmSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="37" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectVehicleFireAlarmCalls" name="ZcNStubCommunication_ExpectVehicleFireAlarmCallsX" decorated_name="void StubCommunication_ExpectVehicleFireAlarmCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="37" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetVehicleFireAlarmCallCount" name="ZcOStubCommunication_GetVehicleFireAlarmCallCountX" decorated_name="UINT32_T StubCommunication_GetVehicleFireAlarmCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="37" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetAomRcvAwakeMaintainBtn" name="ZcLStubCommunication_SetAomRcvAwakeMaintainBtnX" decorated_name="void StubCommunication_SetAomRcvAwakeMaintainBtn(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="38" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetAomRcvAwakeMaintainBtnSequence" name="ZdDStubCommunication_SetAomRcvAwakeMaintainBtnSequenceX" decorated_name="void StubCommunication_SetAomRcvAwakeMaintainBtnSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="38" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectAomRcvAwakeMaintainBtnCalls" name="ZdDStubCommunication_ExpectAomRcvAwakeMaintainBtnCallsX" decorated_name="void StubCommunication_ExpectAomRcvAwakeMaintainBtnCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="38" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetAomRcvAwakeMaintainBtnCallCount" name="ZdEStubCommunication_GetAomRcvAwakeMaintainBtnCallCountX" decorated_name="UINT32_T StubCommunication_GetAomRcvAwakeMaintainBtnCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="38" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetAtoStartConfirm" name="ZcEStubCommunication_SetAtoStartConfirmX" decorated_name="void StubCommunication_SetAtoStartConfirm(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="39" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetAtoStartConfirmSequence" name="ZcMStubCommunication_SetAtoStartConfirmSequenceX" decorated_name="void StubCommunication_SetAtoStartConfirmSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="39" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectAtoStartConfirmCalls" name="ZcMStubCommunication_ExpectAtoStartConfirmCallsX" decorated_name="void StubCommunication_ExpectAtoStartConfirmCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="39" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetAtoStartConfirmCallCount" name="ZcNStubCommunication_GetAtoStartConfirmCallCountX" decorated_name="UINT32_T StubCommunication_GetAtoStartConfirmCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="39" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoAMMode" name="ZcBStubCommunication_SetRcvAtoAMModeX" decorated_name="void StubCommunication_SetRcvAtoAMMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="40" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoAMModeSequence" name="ZcJStubCommunication_SetRcvAtoAMModeSequenceX" decorated_name="void StubCommunication_SetRcvAtoAMModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="40" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvAtoAMModeCalls" name="ZcJStubCommunication_ExpectRcvAtoAMModeCallsX" decorated_name="void StubCommunication_ExpectRcvAtoAMModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="40" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvAtoAMModeCallCount" name="ZcKStubCommunication_GetRcvAtoAMModeCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvAtoAMModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="40" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoBtnPressedAck" name="ZcIStubCommunication_SetRcvAtoBtnPressedAckX" decorated_name="void StubCommunication_SetRcvAtoBtnPressedAck(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="41" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoBtnPressedAckSequence" name="ZdAStubCommunication_SetRcvAtoBtnPressedAckSequenceX" decorated_name="void StubCommunication_SetRcvAtoBtnPressedAckSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="41" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvAtoBtnPressedAckCalls" name="ZdAStubCommunication_ExpectRcvAtoBtnPressedAckCallsX" decorated_name="void StubCommunication_ExpectRcvAtoBtnPressedAckCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="41" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvAtoBtnPressedAckCallCount" name="ZdBStubCommunication_GetRcvAtoBtnPressedAckCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvAtoBtnPressedAckCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="41" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoFAMMode" name="ZcCStubCommunication_SetRcvAtoFAMModeX" decorated_name="void StubCommunication_SetRcvAtoFAMMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="42" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoFAMModeSequence" name="ZcKStubCommunication_SetRcvAtoFAMModeSequenceX" decorated_name="void StubCommunication_SetRcvAtoFAMModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="42" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvAtoFAMModeCalls" name="ZcKStubCommunication_ExpectRcvAtoFAMModeCallsX" decorated_name="void StubCommunication_ExpectRcvAtoFAMModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="42" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvAtoFAMModeCallCount" name="ZcLStubCommunication_GetRcvAtoFAMModeCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvAtoFAMModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="42" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoLeaveTrainInfo" name="ZcJStubCommunication_SetRcvAtoLeaveTrainInfoX" decorated_name="void StubCommunication_SetRcvAtoLeaveTrainInfo(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="43" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoLeaveTrainInfoSequence" name="ZdBStubCommunication_SetRcvAtoLeaveTrainInfoSequenceX" decorated_name="void StubCommunication_SetRcvAtoLeaveTrainInfoSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="43" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvAtoLeaveTrainInfoCalls" name="ZdBStubCommunication_ExpectRcvAtoLeaveTrainInfoCallsX" decorated_name="void StubCommunication_ExpectRcvAtoLeaveTrainInfoCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="43" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvAtoLeaveTrainInfoCallCount" name="ZdCStubCommunication_GetRcvAtoLeaveTrainInfoCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvAtoLeaveTrainInfoCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="43" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoStartConfirm" name="ZcHStubCommunication_SetRcvAtoStartConfirmX" decorated_name="void StubCommunication_SetRcvAtoStartConfirm(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="44" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvAtoStartConfirmSequence" name="ZcPStubCommunication_SetRcvAtoStartConfirmSequenceX" decorated_name="void StubCommunication_SetRcvAtoStartConfirmSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="44" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvAtoStartConfirmCalls" name="ZcPStubCommunication_ExpectRcvAtoStartConfirmCallsX" decorated_name="void StubCommunication_ExpectRcvAtoStartConfirmCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="44" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvAtoStartConfirmCallCount" name="ZdAStubCommunication_GetRcvAtoStartConfirmCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvAtoStartConfirmCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="44" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamAMMode" name="ZcBStubCommunication_SetRcvCamAMModeX" decorated_name="void StubCommunication_SetRcvCamAMMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="45" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamAMModeSequence" name="ZcJStubCommunication_SetRcvCamAMModeSequenceX" decorated_name="void StubCommunication_SetRcvCamAMModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="45" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvCamAMModeCalls" name="ZcJStubCommunication_ExpectRcvCamAMModeCallsX" decorated_name="void StubCommunication_ExpectRcvCamAMModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="45" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvCamAMModeCallCount" name="ZcKStubCommunication_GetRcvCamAMModeCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvCamAMModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="45" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamBtnPressedAck" name="ZcIStubCommunication_SetRcvCamBtnPressedAckX" decorated_name="void StubCommunication_SetRcvCamBtnPressedAck(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="46" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamBtnPressedAckSequence" name="ZdAStubCommunication_SetRcvCamBtnPressedAckSequenceX" decorated_name="void StubCommunication_SetRcvCamBtnPressedAckSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="46" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvCamBtnPressedAckCalls" name="ZdAStubCommunication_ExpectRcvCamBtnPressedAckCallsX" decorated_name="void StubCommunication_ExpectRcvCamBtnPressedAckCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="46" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvCamBtnPressedAckCallCount" name="ZdBStubCommunication_GetRcvCamBtnPressedAckCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvCamBtnPressedAckCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="46" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamLeaveTrainInfo" name="ZcJStubCommunication_SetRcvCamLeaveTrainInfoX" decorated_name="void StubCommunication_SetRcvCamLeaveTrainInfo(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="47" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamLeaveTrainInfoSequence" name="ZdBStubCommunication_SetRcvCamLeaveTrainInfoSequenceX" decorated_name="void StubCommunication_SetRcvCamLeaveTrainInfoSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="47" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvCamLeaveTrainInfoCalls" name="ZdBStubCommunication_ExpectRcvCamLeaveTrainInfoCallsX" decorated_name="void StubCommunication_ExpectRcvCamLeaveTrainInfoCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="47" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvCamLeaveTrainInfoCallCount" name="ZdCStubCommunication_GetRcvCamLeaveTrainInfoCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvCamLeaveTrainInfoCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="47" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamParkingFlag" name="ZcGStubCommunication_SetRcvCamParkingFlagX" decorated_name="void StubCommunication_SetRcvCamParkingFlag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="48" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamParkingFlagSequence" name="ZcOStubCommunication_SetRcvCamParkingFlagSequenceX" decorated_name="void StubCommunication_SetRcvCamParkingFlagSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="48" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvCamParkingFlagCalls" name="ZcOStubCommunication_ExpectRcvCamParkingFlagCallsX" decorated_name="void StubCommunication_ExpectRcvCamParkingFlagCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="48" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvCamParkingFlagCallCount" name="ZcPStubCommunication_GetRcvCamParkingFlagCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvCamParkingFlagCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="48" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamStartConfirm" name="ZcHStubCommunication_SetRcvCamStartConfirmX" decorated_name="void StubCommunication_SetRcvCamStartConfirm(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="49" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetRcvCamStartConfirmSequence" name="ZcPStubCommunication_SetRcvCamStartConfirmSequenceX" decorated_name="void StubCommunication_SetRcvCamStartConfirmSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="49" col="1"/>
+    </Function>
+    <Function id="StubCommunication_ExpectRcvCamStartConfirmCalls" name="ZcPStubCommunication_ExpectRcvCamStartConfirmCallsX" decorated_name="void StubCommunication_ExpectRcvCamStartConfirmCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="49" col="1"/>
+    </Function>
+    <Function id="StubCommunication_GetRcvCamStartConfirmCallCount" name="ZdAStubCommunication_GetRcvCamStartConfirmCallCountX" decorated_name="UINT32_T StubCommunication_GetRcvCamStartConfirmCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="49" col="1"/>
+    </Function>
+    <Function id="StubCommunication_SetNeutralDefaults" name="ZcEStubCommunication_SetNeutralDefaultsX" decorated_name="void StubCommunication_SetNeutralDefaults(void)">
+      <definition type="orig" source="code" file_id="1" line="53" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

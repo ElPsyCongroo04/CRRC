@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\TrainData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSegDevIdBySegId" name="ZbCGetSegDevIdBySegIdX" decorated_name="UINT32_T GetSegDevIdBySegId(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSegDevIdBySegId (const UINT16_T segId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetSegDevIdBySegId (const UINT16_T segId) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>SegData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitTrainLocCpsData" name="ZbDInitTrainLocCpsDataX" decorated_name="void InitTrainLocCpsData(void)">
+      <definition type="orig" source="code" file_id="1" line="24" col="6"/>
+    </Function>
+    <Function id="InitTrainData" name="ZNInitTrainDataX" decorated_name="void InitTrainData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="33" col="6"/>
+    </Function>
+    <Function id="PeriodInitTrainData" name="ZbDPeriodInitTrainDataX" decorated_name="void PeriodInitTrainData(void)">
+      <definition type="orig" source="code" file_id="1" line="56" col="6"/>
+    </Function>
+    <Function id="GetTrainCurSpeed" name="ZbAGetTrainCurSpeedX" decorated_name="UINT16_T GetTrainCurSpeed(void)">
+      <definition type="orig" source="code" file_id="1" line="67" col="10"/>
+    </Function>
+    <Function id="SetTrainCurSpeed" name="ZbASetTrainCurSpeedX" decorated_name="void SetTrainCurSpeed(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="73" col="6"/>
+    </Function>
+    <Function id="GetTrainRunDir" name="ZOGetTrainRunDirX" decorated_name="UINT8_T GetTrainRunDir(void)">
+      <definition type="orig" source="code" file_id="1" line="79" col="9"/>
+    </Function>
+    <Function id="SetTrainRunDir" name="ZOSetTrainRunDirX" decorated_name="void SetTrainRunDir(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="86" col="6"/>
+    </Function>
+    <Function id="SetTrainValidRunDirLast" name="ZbHSetTrainValidRunDirLastX" decorated_name="void SetTrainValidRunDirLast(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="92" col="6"/>
+    </Function>
+    <Function id="GetTrainValidRunDirLast" name="ZbHGetTrainValidRunDirLastX" decorated_name="UINT8_T GetTrainValidRunDirLast(void)">
+      <definition type="orig" source="code" file_id="1" line="99" col="9"/>
+    </Function>
+    <Function id="GetTrainSlipAndSlideTag" name="ZbHGetTrainSlipAndSlideTagX" decorated_name="UINT8_T GetTrainSlipAndSlideTag(void)">
+      <definition type="orig" source="code" file_id="1" line="105" col="9"/>
+    </Function>
+    <Function id="SetTrainSlipAndSlideTag" name="ZbHSetTrainSlipAndSlideTagX" decorated_name="void SetTrainSlipAndSlideTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="112" col="6"/>
+    </Function>
+    <Function id="GetTrainSpeedInRange" name="ZbEGetTrainSpeedInRangeX" decorated_name="UINT8_T GetTrainSpeedInRange(void)">
+      <definition type="orig" source="code" file_id="1" line="118" col="9"/>
+    </Function>
+    <Function id="SetTrainSpeedInRange" name="ZbESetTrainSpeedInRangeX" decorated_name="void SetTrainSpeedInRange(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="124" col="6"/>
+    </Function>
+    <Function id="GetTrainZeroSpeedTimer" name="ZbGGetTrainZeroSpeedTimerX" decorated_name="UINT16_T GetTrainZeroSpeedTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="130" col="10"/>
+    </Function>
+    <Function id="SetTrainZeroSpeedTimer" name="ZbGSetTrainZeroSpeedTimerX" decorated_name="void SetTrainZeroSpeedTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="137" col="6"/>
+    </Function>
+    <Function id="GetTrainZeroSpeedTag" name="ZbEGetTrainZeroSpeedTagX" decorated_name="UINT8_T GetTrainZeroSpeedTag(void)">
+      <definition type="orig" source="code" file_id="1" line="143" col="9"/>
+    </Function>
+    <Function id="SetTrainZeroSpeedTag" name="ZbESetTrainZeroSpeedTagX" decorated_name="UINT8_T SetTrainZeroSpeedTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="150" col="9"/>
+    </Function>
+    <Function id="GetTrainStopSteady" name="ZbCGetTrainStopSteadyX" decorated_name="UINT8_T GetTrainStopSteady(void)">
+      <definition type="orig" source="code" file_id="1" line="170" col="9"/>
+    </Function>
+    <Function id="SetTrainStopSteady" name="ZbCSetTrainStopSteadyX" decorated_name="void SetTrainStopSteady(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="176" col="6"/>
+    </Function>
+    <Function id="GetTrainZeroSpeedTagLast" name="ZbIGetTrainZeroSpeedTagLastX" decorated_name="UINT8_T GetTrainZeroSpeedTagLast(void)">
+      <definition type="orig" source="code" file_id="1" line="182" col="9"/>
+    </Function>
+    <Function id="SetTrainZeroSpeedTagLast" name="ZbISetTrainZeroSpeedTagLastX" decorated_name="void SetTrainZeroSpeedTagLast(void)">
+      <definition type="orig" source="code" file_id="1" line="189" col="6"/>
+    </Function>
+    <Function id="GetTrainSpeedInValidFlag" name="ZbIGetTrainSpeedInValidFlagX" decorated_name="UINT8_T GetTrainSpeedInValidFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="194" col="9"/>
+    </Function>
+    <Function id="SetTrainSpeedInValidFlg" name="ZbHSetTrainSpeedInValidFlgX" decorated_name="void SetTrainSpeedInValidFlg(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="200" col="6"/>
+    </Function>
+    <Function id="GetTrainEbBurstSpeed" name="ZbEGetTrainEbBurstSpeedX" decorated_name="UINT16_T GetTrainEbBurstSpeed(void)">
+      <definition type="orig" source="code" file_id="1" line="206" col="10"/>
+    </Function>
+    <Function id="SetTrainEbBurstSpeed" name="ZbESetTrainEbBurstSpeedX" decorated_name="void SetTrainEbBurstSpeed(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="213" col="6"/>
+    </Function>
+    <Function id="GetTrainAimSpeed" name="ZbAGetTrainAimSpeedX" decorated_name="UINT16_T GetTrainAimSpeed(void)">
+      <definition type="orig" source="code" file_id="1" line="219" col="10"/>
+    </Function>
+    <Function id="SetTrainAimSpeed" name="ZbASetTrainAimSpeedX" decorated_name="void SetTrainAimSpeed(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="226" col="6"/>
+    </Function>
+    <Function id="GetTrainAimType" name="ZPGetTrainAimTypeX" decorated_name="UINT8_T GetTrainAimType(void)">
+      <definition type="orig" source="code" file_id="1" line="232" col="9"/>
+    </Function>
+    <Function id="SetTrainAimType" name="ZPSetTrainAimTypeX" decorated_name="void SetTrainAimType(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="238" col="6"/>
+    </Function>
+    <Function id="GetTrainAimTypeLast" name="ZbDGetTrainAimTypeLastX" decorated_name="UINT8_T GetTrainAimTypeLast(void)">
+      <definition type="orig" source="code" file_id="1" line="244" col="9"/>
+    </Function>
+    <Function id="SetTrainAimTypeLast" name="ZbDSetTrainAimTypeLastX" decorated_name="void SetTrainAimTypeLast(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="250" col="6"/>
+    </Function>
+    <Function id="GetTrainAimId" name="ZNGetTrainAimIdX" decorated_name="UINT16_T GetTrainAimId(void)">
+      <definition type="orig" source="code" file_id="1" line="256" col="10"/>
+    </Function>
+    <Function id="SetTrainAimId" name="ZNSetTrainAimIdX" decorated_name="void SetTrainAimId(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="262" col="6"/>
+    </Function>
+    <Function id="GetTrainAimIdLast" name="ZbBGetTrainAimIdLastX" decorated_name="UINT16_T GetTrainAimIdLast(void)">
+      <definition type="orig" source="code" file_id="1" line="268" col="10"/>
+    </Function>
+    <Function id="SetTrainAimIdLast" name="ZbBSetTrainAimIdLastX" decorated_name="void SetTrainAimIdLast(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="274" col="6"/>
+    </Function>
+    <Function id="GetTrainAimDistance" name="ZbDGetTrainAimDistanceX" decorated_name="UINT32_T GetTrainAimDistance(void)">
+      <definition type="orig" source="code" file_id="1" line="280" col="10"/>
+    </Function>
+    <Function id="SetTrainAimDistance" name="ZbDSetTrainAimDistanceX" decorated_name="void SetTrainAimDistance(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="286" col="6"/>
+    </Function>
+    <Function id="GetTrainOutCutOffTract" name="ZbGGetTrainOutCutOffTractX" decorated_name="UINT8_T GetTrainOutCutOffTract(void)">
+      <definition type="orig" source="code" file_id="1" line="292" col="9"/>
+    </Function>
+    <Function id="SetTrainOutCutOffTract" name="ZbGSetTrainOutCutOffTractX" decorated_name="void SetTrainOutCutOffTract(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="299" col="6"/>
+    </Function>
+    <Function id="GetTrainCutOffTractTimer" name="ZbIGetTrainCutOffTractTimerX" decorated_name="UINT16_T GetTrainCutOffTractTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="306" col="10"/>
+    </Function>
+    <Function id="SetTrainCutOffTractTimer" name="ZbISetTrainCutOffTractTimerX" decorated_name="void SetTrainCutOffTractTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="312" col="6"/>
+    </Function>
+    <Function id="GetTrainOutEb" name="ZNGetTrainOutEbX" decorated_name="UINT8_T GetTrainOutEb(void)">
+      <definition type="orig" source="code" file_id="1" line="318" col="9"/>
+    </Function>
+    <Function id="SetTrainOutEb" name="ZNSetTrainOutEbX" decorated_name="void SetTrainOutEb(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="325" col="6"/>
+    </Function>
+    <Function id="GetTrainEbed" name="ZMGetTrainEbedX" decorated_name="UINT8_T GetTrainEbed(void)">
+      <definition type="orig" source="code" file_id="1" line="332" col="9"/>
+    </Function>
+    <Function id="SetTrainEbed" name="ZMSetTrainEbedX" decorated_name="void SetTrainEbed(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="339" col="6"/>
+    </Function>
+    <Function id="GetTrainEbTimer" name="ZPGetTrainEbTimerX" decorated_name="UINT16_T GetTrainEbTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="345" col="10"/>
+    </Function>
+    <Function id="SetTrainEbTimer" name="ZPSetTrainEbTimerX" decorated_name="void SetTrainEbTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="352" col="6"/>
+    </Function>
+    <Function id="GetTrainAtsRemoteEb" name="ZbDGetTrainAtsRemoteEbX" decorated_name="UINT8_T GetTrainAtsRemoteEb(void)">
+      <definition type="orig" source="code" file_id="1" line="358" col="9"/>
+    </Function>
+    <Function id="SetTrainAtsRemoteEb" name="ZbDSetTrainAtsRemoteEbX" decorated_name="void SetTrainAtsRemoteEb(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="365" col="6"/>
+    </Function>
+    <Function id="GetTrainOcRemoteEb" name="ZbCGetTrainOcRemoteEbX" decorated_name="UINT8_T GetTrainOcRemoteEb(void)">
+      <definition type="orig" source="code" file_id="1" line="371" col="9"/>
+    </Function>
+    <Function id="SetTrainOcRemoteEb" name="ZbCSetTrainOcRemoteEbX" decorated_name="void SetTrainOcRemoteEb(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="378" col="6"/>
+    </Function>
+    <Function id="GetTrainLocPeriodCps" name="ZbEGetTrainLocPeriodCpsX" decorated_name="UINT32_T GetTrainLocPeriodCps(void)">
+      <definition type="orig" source="code" file_id="1" line="384" col="10"/>
+    </Function>
+    <Function id="SetTrainLocPeriodCps" name="ZbESetTrainLocPeriodCpsX" decorated_name="void SetTrainLocPeriodCps(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="390" col="6"/>
+    </Function>
+    <Function id="GetTrainLocCpsFlg" name="ZbBGetTrainLocCpsFlgX" decorated_name="UINT8_T GetTrainLocCpsFlg(void)">
+      <definition type="orig" source="code" file_id="1" line="396" col="9"/>
+    </Function>
+    <Function id="SetTrainLocCpsFlg" name="ZbBSetTrainLocCpsFlgX" decorated_name="void SetTrainLocCpsFlg(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="402" col="6"/>
+    </Function>
+    <Function id="GetTrainLocCpsDir" name="ZbBGetTrainLocCpsDirX" decorated_name="UINT8_T GetTrainLocCpsDir(void)">
+      <definition type="orig" source="code" file_id="1" line="408" col="9"/>
+    </Function>
+    <Function id="SetTrainLocCpsDir" name="ZbBSetTrainLocCpsDirX" decorated_name="void SetTrainLocCpsDir(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="414" col="6"/>
+    </Function>
+    <Function id="GetTrainLocCpsSpace" name="ZbDGetTrainLocCpsSpaceX" decorated_name="UINT32_T GetTrainLocCpsSpace(void)">
+      <definition type="orig" source="code" file_id="1" line="420" col="10"/>
+    </Function>
+    <Function id="SetTrainLocCpsSpace" name="ZbDSetTrainLocCpsSpaceX" decorated_name="void SetTrainLocCpsSpace(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="427" col="6"/>
+    </Function>
+    <Function id="GetTrainLocCpsProcSta" name="ZbFGetTrainLocCpsProcStaX" decorated_name="UINT8_T GetTrainLocCpsProcSta(void)">
+      <definition type="orig" source="code" file_id="1" line="433" col="9"/>
+    </Function>
+    <Function id="SetTrainLocCpsProcSta" name="ZbFSetTrainLocCpsProcStaX" decorated_name="void SetTrainLocCpsProcSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="439" col="6"/>
+    </Function>
+    <Function id="GetTrainMoveTag" name="ZPGetTrainMoveTagX" decorated_name="UINT8_T GetTrainMoveTag(void)">
+      <definition type="orig" source="code" file_id="1" line="445" col="9"/>
+    </Function>
+    <Function id="SetTrainMoveTag" name="ZPSetTrainMoveTagX" decorated_name="void SetTrainMoveTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="452" col="6"/>
+    </Function>
+    <Function id="GetTrainPulseDis" name="ZbAGetTrainPulseDisX" decorated_name="UINT16_T GetTrainPulseDis(void)">
+      <definition type="orig" source="code" file_id="1" line="458" col="10"/>
+    </Function>
+    <Function id="SetTrainPulseDis" name="ZbASetTrainPulseDisX" decorated_name="void SetTrainPulseDis(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="464" col="6"/>
+    </Function>
+    <Function id="GetTrainPeriodDis" name="ZbBGetTrainPeriodDisX" decorated_name="UINT32_T GetTrainPeriodDis(void)">
+      <definition type="orig" source="code" file_id="1" line="470" col="10"/>
+    </Function>
+    <Function id="SetTrainPeriodDis" name="ZbBSetTrainPeriodDisX" decorated_name="void SetTrainPeriodDis(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="476" col="6"/>
+    </Function>
+    <Function id="GetTrainMeaDisError" name="ZbDGetTrainMeaDisErrorX" decorated_name="UINT32_T GetTrainMeaDisError(void)">
+      <definition type="orig" source="code" file_id="1" line="482" col="10"/>
+    </Function>
+    <Function id="SetTrainMeaDisError" name="ZbDSetTrainMeaDisErrorX" decorated_name="void SetTrainMeaDisError(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="488" col="6"/>
+    </Function>
+    <Function id="GetTrainFirstGetLocTag" name="ZbGGetTrainFirstGetLocTagX" decorated_name="UINT8_T GetTrainFirstGetLocTag(void)">
+      <definition type="orig" source="code" file_id="1" line="494" col="9"/>
+    </Function>
+    <Function id="SetTrainFirstGetLocTag" name="ZbGSetTrainFirstGetLocTagX" decorated_name="void SetTrainFirstGetLocTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="501" col="6"/>
+    </Function>
+    <Function id="GetTrainLocAllow" name="ZbAGetTrainLocAllowX" decorated_name="LocState_T GetTrainLocAllow(void)">
+      <definition type="orig" source="code" file_id="1" line="507" col="12"/>
+    </Function>
+    <Function id="SetTrainLocAllow" name="ZbASetTrainLocAllowX" decorated_name="void SetTrainLocAllow(const LocState_T)">
+      <definition type="orig" source="code" file_id="1" line="514" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCH" name="ZMGetTrainLOCHX" decorated_name="Location_T GetTrainLOCH(void)">
+      <definition type="orig" source="code" file_id="1" line="520" col="12"/>
+    </Function>
+    <Function id="GetTrainLOCHSegId" name="ZbBGetTrainLOCHSegIdX" decorated_name="UINT16_T GetTrainLOCHSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="526" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCHSegOffSet" name="ZbFGetTrainLOCHSegOffSetX" decorated_name="UINT32_T GetTrainLOCHSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="532" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCHDir" name="ZPGetTrainLOCHDirX" decorated_name="UINT8_T GetTrainLOCHDir(void)">
+      <definition type="orig" source="code" file_id="1" line="538" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCH" name="ZMSetTrainLOCHX" decorated_name="void SetTrainLOCH(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="544" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCHSegIdLast" name="ZbFGetTrainLOCHSegIdLastX" decorated_name="UINT16_T GetTrainLOCHSegIdLast(void)">
+      <definition type="orig" source="code" file_id="1" line="553" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCHSegOffSetLast" name="ZbJGetTrainLOCHSegOffSetLastX" decorated_name="UINT32_T GetTrainLOCHSegOffSetLast(void)">
+      <definition type="orig" source="code" file_id="1" line="561" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCHDirLast" name="ZbDGetTrainLOCHDirLastX" decorated_name="UINT8_T GetTrainLOCHDirLast(void)">
+      <definition type="orig" source="code" file_id="1" line="568" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCHLast" name="ZbASetTrainLOCHLastX" decorated_name="void SetTrainLOCHLast(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="575" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCT" name="ZMGetTrainLOCTX" decorated_name="Location_T GetTrainLOCT(void)">
+      <definition type="orig" source="code" file_id="1" line="584" col="12"/>
+    </Function>
+    <Function id="GetTrainLOCTSegId" name="ZbBGetTrainLOCTSegIdX" decorated_name="UINT16_T GetTrainLOCTSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="590" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTSegOffSet" name="ZbFGetTrainLOCTSegOffSetX" decorated_name="UINT32_T GetTrainLOCTSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="597" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTDir" name="ZPGetTrainLOCTDirX" decorated_name="UINT8_T GetTrainLOCTDir(void)">
+      <definition type="orig" source="code" file_id="1" line="604" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCT" name="ZMSetTrainLOCTX" decorated_name="void SetTrainLOCT(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="611" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCTSegIdLast" name="ZbFGetTrainLOCTSegIdLastX" decorated_name="UINT16_T GetTrainLOCTSegIdLast(void)">
+      <definition type="orig" source="code" file_id="1" line="620" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTSegOffSetLast" name="ZbJGetTrainLOCTSegOffSetLastX" decorated_name="UINT32_T GetTrainLOCTSegOffSetLast(void)">
+      <definition type="orig" source="code" file_id="1" line="627" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTDirLast" name="ZbDGetTrainLOCTDirLastX" decorated_name="UINT8_T GetTrainLOCTDirLast(void)">
+      <definition type="orig" source="code" file_id="1" line="634" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCTLast" name="ZbASetTrainLOCTLastX" decorated_name="void SetTrainLOCTLast(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="641" col="6"/>
+    </Function>
+    <Function id="GetTrainLocFpd" name="ZOGetTrainLocFpdX" decorated_name="Location_T GetTrainLocFpd(void)">
+      <definition type="orig" source="code" file_id="1" line="651" col="12"/>
+    </Function>
+    <Function id="GetTrainLocFpdSegId" name="ZbDGetTrainLocFpdSegIdX" decorated_name="UINT16_T GetTrainLocFpdSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="657" col="10"/>
+    </Function>
+    <Function id="GetTrainLocFpdSegOffSet" name="ZbHGetTrainLocFpdSegOffSetX" decorated_name="UINT32_T GetTrainLocFpdSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="664" col="10"/>
+    </Function>
+    <Function id="GetTrainLocFpdDir" name="ZbBGetTrainLocFpdDirX" decorated_name="UINT8_T GetTrainLocFpdDir(void)">
+      <definition type="orig" source="code" file_id="1" line="671" col="9"/>
+    </Function>
+    <Function id="SetTrainLocFistPsgerDoor" name="ZbISetTrainLocFistPsgerDoorX" decorated_name="void SetTrainLocFistPsgerDoor(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="677" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCHMax" name="ZPGetTrainLOCHMaxX" decorated_name="Location_T GetTrainLOCHMax(void)">
+      <definition type="orig" source="code" file_id="1" line="685" col="12"/>
+    </Function>
+    <Function id="GetTrainLOCHMaxSegId" name="ZbEGetTrainLOCHMaxSegIdX" decorated_name="UINT16_T GetTrainLOCHMaxSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="691" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCHMaxSegOffSet" name="ZbIGetTrainLOCHMaxSegOffSetX" decorated_name="UINT32_T GetTrainLOCHMaxSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="697" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCHMaxDir" name="ZbCGetTrainLOCHMaxDirX" decorated_name="UINT8_T GetTrainLOCHMaxDir(void)">
+      <definition type="orig" source="code" file_id="1" line="703" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCHMax" name="ZPSetTrainLOCHMaxX" decorated_name="void SetTrainLOCHMax(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="709" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCTMax" name="ZPGetTrainLOCTMaxX" decorated_name="Location_T GetTrainLOCTMax(void)">
+      <definition type="orig" source="code" file_id="1" line="717" col="12"/>
+    </Function>
+    <Function id="GetTrainLOCTMaxSegId" name="ZbEGetTrainLOCTMaxSegIdX" decorated_name="UINT16_T GetTrainLOCTMaxSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="724" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTMaxSegOffSet" name="ZbIGetTrainLOCTMaxSegOffSetX" decorated_name="UINT32_T GetTrainLOCTMaxSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="731" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTMaxDir" name="ZbCGetTrainLOCTMaxDirX" decorated_name="UINT8_T GetTrainLOCTMaxDir(void)">
+      <definition type="orig" source="code" file_id="1" line="738" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCTMax" name="ZPSetTrainLOCTMaxX" decorated_name="void SetTrainLOCTMax(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="745" col="6"/>
+    </Function>
+    <Function id="GetTrainLocFpdMax" name="ZbBGetTrainLocFpdMaxX" decorated_name="Location_T GetTrainLocFpdMax(void)">
+      <definition type="orig" source="code" file_id="1" line="753" col="12"/>
+    </Function>
+    <Function id="GetTrainLocFpdMaxSegId" name="ZbGGetTrainLocFpdMaxSegIdX" decorated_name="UINT16_T GetTrainLocFpdMaxSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="759" col="10"/>
+    </Function>
+    <Function id="GetTrainLocFpdMaxSegOffSet" name="ZbKGetTrainLocFpdMaxSegOffSetX" decorated_name="UINT32_T GetTrainLocFpdMaxSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="765" col="10"/>
+    </Function>
+    <Function id="GetTrainLocFpdMaxDir" name="ZbEGetTrainLocFpdMaxDirX" decorated_name="UINT8_T GetTrainLocFpdMaxDir(void)">
+      <definition type="orig" source="code" file_id="1" line="771" col="9"/>
+    </Function>
+    <Function id="SetTrainLocFistPsgerDoorMax" name="ZbLSetTrainLocFistPsgerDoorMaxX" decorated_name="void SetTrainLocFistPsgerDoorMax(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="777" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCHMin" name="ZPGetTrainLOCHMinX" decorated_name="Location_T GetTrainLOCHMin(void)">
+      <definition type="orig" source="code" file_id="1" line="786" col="12"/>
+    </Function>
+    <Function id="GetTrainLOCHMinSegId" name="ZbEGetTrainLOCHMinSegIdX" decorated_name="UINT16_T GetTrainLOCHMinSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="792" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCHMinSegOffSet" name="ZbIGetTrainLOCHMinSegOffSetX" decorated_name="UINT32_T GetTrainLOCHMinSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="799" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCHMinDir" name="ZbCGetTrainLOCHMinDirX" decorated_name="UINT8_T GetTrainLOCHMinDir(void)">
+      <definition type="orig" source="code" file_id="1" line="806" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCHMin" name="ZPSetTrainLOCHMinX" decorated_name="void SetTrainLOCHMin(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="812" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCTMin" name="ZPGetTrainLOCTMinX" decorated_name="Location_T GetTrainLOCTMin(void)">
+      <definition type="orig" source="code" file_id="1" line="820" col="12"/>
+    </Function>
+    <Function id="GetTrainLOCTMinSegId" name="ZbEGetTrainLOCTMinSegIdX" decorated_name="UINT16_T GetTrainLOCTMinSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="826" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTMinSegOffSet" name="ZbIGetTrainLOCTMinSegOffSetX" decorated_name="UINT32_T GetTrainLOCTMinSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="832" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTMinDir" name="ZbCGetTrainLOCTMinDirX" decorated_name="UINT8_T GetTrainLOCTMinDir(void)">
+      <definition type="orig" source="code" file_id="1" line="838" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCTMin" name="ZPSetTrainLOCTMinX" decorated_name="void SetTrainLOCTMin(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="844" col="6"/>
+    </Function>
+    <Function id="GetTrainLOCTMinSegIdLast" name="ZbIGetTrainLOCTMinSegIdLastX" decorated_name="UINT16_T GetTrainLOCTMinSegIdLast(void)">
+      <definition type="orig" source="code" file_id="1" line="852" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTMinSegOffSetLast" name="ZbMGetTrainLOCTMinSegOffSetLastX" decorated_name="UINT32_T GetTrainLOCTMinSegOffSetLast(void)">
+      <definition type="orig" source="code" file_id="1" line="858" col="10"/>
+    </Function>
+    <Function id="GetTrainLOCTMinDirLast" name="ZbGGetTrainLOCTMinDirLastX" decorated_name="UINT8_T GetTrainLOCTMinDirLast(void)">
+      <definition type="orig" source="code" file_id="1" line="864" col="9"/>
+    </Function>
+    <Function id="SetTrainLOCTMinLast" name="ZbDSetTrainLOCTMinLastX" decorated_name="void SetTrainLOCTMinLast(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="870" col="6"/>
+    </Function>
+    <Function id="GetTrainLocFpdMin" name="ZbBGetTrainLocFpdMinX" decorated_name="Location_T GetTrainLocFpdMin(void)">
+      <definition type="orig" source="code" file_id="1" line="878" col="12"/>
+    </Function>
+    <Function id="GetTrainLocFpdMinSegId" name="ZbGGetTrainLocFpdMinSegIdX" decorated_name="UINT16_T GetTrainLocFpdMinSegId(void)">
+      <definition type="orig" source="code" file_id="1" line="884" col="10"/>
+    </Function>
+    <Function id="GetTainLocFpdMinSegOffSet" name="ZbJGetTainLocFpdMinSegOffSetX" decorated_name="UINT32_T GetTainLocFpdMinSegOffSet(void)">
+      <definition type="orig" source="code" file_id="1" line="891" col="10"/>
+    </Function>
+    <Function id="GetTrainLocFpdMinDir" name="ZbEGetTrainLocFpdMinDirX" decorated_name="UINT8_T GetTrainLocFpdMinDir(void)">
+      <definition type="orig" source="code" file_id="1" line="898" col="9"/>
+    </Function>
+    <Function id="SetTrainLocFistPsgerDoorMin" name="ZbLSetTrainLocFistPsgerDoorMinX" decorated_name="void SetTrainLocFistPsgerDoorMin(const UINT16_T, const UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="904" col="6"/>
+    </Function>
+    <Function id="GetTrainInStopAreaTag" name="ZbFGetTrainInStopAreaTagX" decorated_name="UINT8_T GetTrainInStopAreaTag(void)">
+      <definition type="orig" source="code" file_id="1" line="912" col="9"/>
+    </Function>
+    <Function id="SetTrainInStopAreaTag" name="ZbFSetTrainInStopAreaTagX" decorated_name="void SetTrainInStopAreaTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="919" col="6"/>
+    </Function>
+    <Function id="GetTrainLocalZBState" name="ZbEGetTrainLocalZBStateX" decorated_name="UINT8_T GetTrainLocalZBState(void)">
+      <definition type="orig" source="code" file_id="1" line="926" col="9"/>
+    </Function>
+    <Function id="SetTrainLocalZBState" name="ZbESetTrainLocalZBStateX" decorated_name="void SetTrainLocalZBState(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="932" col="6"/>
+    </Function>
+    <Function id="GetTrainLocalCabActive" name="ZbGGetTrainLocalCabActiveX" decorated_name="UINT8_T GetTrainLocalCabActive(void)">
+      <definition type="orig" source="code" file_id="1" line="938" col="9"/>
+    </Function>
+    <Function id="SetTrainLocalCabActive" name="ZbGSetTrainLocalCabActiveX" decorated_name="void SetTrainLocalCabActive(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="944" col="6"/>
+    </Function>
+    <Function id="GetTrainOppoCabActive" name="ZbFGetTrainOppoCabActiveX" decorated_name="UINT8_T GetTrainOppoCabActive(void)">
+      <definition type="orig" source="code" file_id="1" line="950" col="9"/>
+    </Function>
+    <Function id="SetTrainOppoCabActive" name="ZbFSetTrainOppoCabActiveX" decorated_name="void SetTrainOppoCabActive(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="956" col="6"/>
+    </Function>
+    <Function id="GetTrainLocalKeyActive" name="ZbGGetTrainLocalKeyActiveX" decorated_name="UINT8_T GetTrainLocalKeyActive(void)">
+      <definition type="orig" source="code" file_id="1" line="962" col="9"/>
+    </Function>
+    <Function id="SetTrainLocalKeyActive" name="ZbGSetTrainLocalKeyActiveX" decorated_name="void SetTrainLocalKeyActive(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="968" col="6"/>
+    </Function>
+    <Function id="GetTrainOppoKeyActive" name="ZbFGetTrainOppoKeyActiveX" decorated_name="UINT8_T GetTrainOppoKeyActive(void)">
+      <definition type="orig" source="code" file_id="1" line="974" col="9"/>
+    </Function>
+    <Function id="SetTrainOppoKeyActive" name="ZbFSetTrainOppoKeyActiveX" decorated_name="void SetTrainOppoKeyActive(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="980" col="6"/>
+    </Function>
+    <Function id="GetTrainCabActiveTagLast" name="ZbIGetTrainCabActiveTagLastX" decorated_name="UINT8_T GetTrainCabActiveTagLast(void)">
+      <definition type="orig" source="code" file_id="1" line="986" col="9"/>
+    </Function>
+    <Function id="SetTrainCabActiveTagLast" name="ZbISetTrainCabActiveTagLastX" decorated_name="void SetTrainCabActiveTagLast(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="992" col="6"/>
+    </Function>
+    <Function id="GetTrainCarActive" name="ZbBGetTrainCarActiveX" decorated_name="UINT8_T GetTrainCarActive(void)">
+      <definition type="orig" source="code" file_id="1" line="998" col="9"/>
+    </Function>
+    <Function id="SetTrainCarActive" name="ZbBSetTrainCarActiveX" decorated_name="void SetTrainCarActive(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1004" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

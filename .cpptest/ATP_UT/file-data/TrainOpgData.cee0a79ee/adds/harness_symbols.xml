@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\TrainOpgData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitSpeedData" name="ZNInitSpeedDataX" decorated_name="void InitSpeedData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="18" col="6"/>
+    </Function>
+    <Function id="GetSpeedData" name="ZMGetSpeedDataX" decorated_name="SpeedDataStru_T * GetSpeedData(void)">
+      <definition type="orig" source="code" file_id="1" line="32" col="18"/>
+    </Function>
+    <Function id="GetOpgAData" name="ZLGetOpgADataX" decorated_name="OpgDataStru_T * GetOpgAData(void)">
+      <definition type="orig" source="code" file_id="1" line="38" col="16"/>
+    </Function>
+    <Function id="GetOpgBData" name="ZLGetOpgBDataX" decorated_name="OpgDataStru_T * GetOpgBData(void)">
+      <definition type="orig" source="code" file_id="1" line="44" col="16"/>
+    </Function>
+    <Function id="GetOpgADir" name="ZKGetOpgADirX" decorated_name="UINT8_T GetOpgADir(void)">
+      <definition type="orig" source="code" file_id="1" line="51" col="9"/>
+    </Function>
+    <Function id="GetOpgAFirstPulse" name="ZbBGetOpgAFirstPulseX" decorated_name="UINT16_T GetOpgAFirstPulse(void)">
+      <definition type="orig" source="code" file_id="1" line="57" col="10"/>
+    </Function>
+    <Function id="GetOpgASecondPulse" name="ZbCGetOpgASecondPulseX" decorated_name="UINT16_T GetOpgASecondPulse(void)">
+      <definition type="orig" source="code" file_id="1" line="63" col="10"/>
+    </Function>
+    <Function id="GetOpgAThirdPulse" name="ZbBGetOpgAThirdPulseX" decorated_name="UINT16_T GetOpgAThirdPulse(void)">
+      <definition type="orig" source="code" file_id="1" line="69" col="10"/>
+    </Function>
+    <Function id="GetOpgAFirstPulseTotal" name="ZbGGetOpgAFirstPulseTotalX" decorated_name="UINT32_T GetOpgAFirstPulseTotal(void)">
+      <definition type="orig" source="code" file_id="1" line="75" col="10"/>
+    </Function>
+    <Function id="GetOpgASecondPulseTotal" name="ZbHGetOpgASecondPulseTotalX" decorated_name="UINT32_T GetOpgASecondPulseTotal(void)">
+      <definition type="orig" source="code" file_id="1" line="80" col="10"/>
+    </Function>
+    <Function id="GetOpgAThirdPulseTotal" name="ZbGGetOpgAThirdPulseTotalX" decorated_name="UINT32_T GetOpgAThirdPulseTotal(void)">
+      <definition type="orig" source="code" file_id="1" line="85" col="10"/>
+    </Function>
+    <Function id="GetOpgAPulseChgNum" name="ZbCGetOpgAPulseChgNumX" decorated_name="UINT32_T GetOpgAPulseChgNum(void)">
+      <definition type="orig" source="code" file_id="1" line="91" col="10"/>
+    </Function>
+    <Function id="SetOpgAPulseChgNum" name="ZbCSetOpgAPulseChgNumX" decorated_name="void SetOpgAPulseChgNum(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="97" col="6"/>
+    </Function>
+    <Function id="SetOpgACycPulse" name="ZPSetOpgACycPulseX" decorated_name="void SetOpgACycPulse(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="103" col="6"/>
+    </Function>
+    <Function id="GetOpgATotalPulse" name="ZbBGetOpgATotalPulseX" decorated_name="UINT32_T GetOpgATotalPulse(void)">
+      <definition type="orig" source="code" file_id="1" line="109" col="10"/>
+    </Function>
+    <Function id="SetOpgATotalPulse" name="ZbBSetOpgATotalPulseX" decorated_name="void SetOpgATotalPulse(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="115" col="6"/>
+    </Function>
+    <Function id="GetOpgATotalPulseLast" name="ZbFGetOpgATotalPulseLastX" decorated_name="UINT32_T GetOpgATotalPulseLast(void)">
+      <definition type="orig" source="code" file_id="1" line="121" col="10"/>
+    </Function>
+    <Function id="SetOpgATotalPulseLast" name="ZbFSetOpgATotalPulseLastX" decorated_name="void SetOpgATotalPulseLast(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="127" col="6"/>
+    </Function>
+    <Function id="GetOpgASpd" name="ZKGetOpgASpdX" decorated_name="UINT16_T GetOpgASpd(void)">
+      <definition type="orig" source="code" file_id="1" line="133" col="10"/>
+    </Function>
+    <Function id="GetOpgAStatus" name="ZNGetOpgAStatusX" decorated_name="UINT8_T GetOpgAStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="139" col="9"/>
+    </Function>
+    <Function id="SetOpgAStatus" name="ZNSetOpgAStatusX" decorated_name="void SetOpgAStatus(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="145" col="6"/>
+    </Function>
+    <Function id="GetOpgAErrNo" name="ZMGetOpgAErrNoX" decorated_name="UINT32_T GetOpgAErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="151" col="10"/>
+    </Function>
+    <Function id="AddOpgAErrNo" name="ZMAddOpgAErrNoX" decorated_name="void AddOpgAErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="157" col="6"/>
+    </Function>
+    <Function id="GetOpgBDir" name="ZKGetOpgBDirX" decorated_name="UINT8_T GetOpgBDir(void)">
+      <definition type="orig" source="code" file_id="1" line="172" col="9"/>
+    </Function>
+    <Function id="GetOpgBFirstPulse" name="ZbBGetOpgBFirstPulseX" decorated_name="UINT16_T GetOpgBFirstPulse(void)">
+      <definition type="orig" source="code" file_id="1" line="178" col="10"/>
+    </Function>
+    <Function id="GetOpgBSecondPulse" name="ZbCGetOpgBSecondPulseX" decorated_name="UINT16_T GetOpgBSecondPulse(void)">
+      <definition type="orig" source="code" file_id="1" line="184" col="10"/>
+    </Function>
+    <Function id="GetOpgBThirdPulse" name="ZbBGetOpgBThirdPulseX" decorated_name="UINT16_T GetOpgBThirdPulse(void)">
+      <definition type="orig" source="code" file_id="1" line="190" col="10"/>
+    </Function>
+    <Function id="GetOpgBFirstPulseTotal" name="ZbGGetOpgBFirstPulseTotalX" decorated_name="UINT32_T GetOpgBFirstPulseTotal(void)">
+      <definition type="orig" source="code" file_id="1" line="197" col="10"/>
+    </Function>
+    <Function id="GetOpgBSecondPulseTotal" name="ZbHGetOpgBSecondPulseTotalX" decorated_name="UINT32_T GetOpgBSecondPulseTotal(void)">
+      <definition type="orig" source="code" file_id="1" line="202" col="10"/>
+    </Function>
+    <Function id="GetOpgBThirdPulseTotal" name="ZbGGetOpgBThirdPulseTotalX" decorated_name="UINT32_T GetOpgBThirdPulseTotal(void)">
+      <definition type="orig" source="code" file_id="1" line="207" col="10"/>
+    </Function>
+    <Function id="GetOpgBPulseChgNum" name="ZbCGetOpgBPulseChgNumX" decorated_name="UINT32_T GetOpgBPulseChgNum(void)">
+      <definition type="orig" source="code" file_id="1" line="213" col="10"/>
+    </Function>
+    <Function id="SetOpgBPulseChgNum" name="ZbCSetOpgBPulseChgNumX" decorated_name="void SetOpgBPulseChgNum(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="219" col="6"/>
+    </Function>
+    <Function id="SetOpgBCycPulse" name="ZPSetOpgBCycPulseX" decorated_name="void SetOpgBCycPulse(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="225" col="6"/>
+    </Function>
+    <Function id="GetOpgBTotalPulse" name="ZbBGetOpgBTotalPulseX" decorated_name="UINT32_T GetOpgBTotalPulse(void)">
+      <definition type="orig" source="code" file_id="1" line="231" col="10"/>
+    </Function>
+    <Function id="SetOpgBTotalPulse" name="ZbBSetOpgBTotalPulseX" decorated_name="void SetOpgBTotalPulse(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="237" col="6"/>
+    </Function>
+    <Function id="GetOpgBTotalPulseLast" name="ZbFGetOpgBTotalPulseLastX" decorated_name="UINT32_T GetOpgBTotalPulseLast(void)">
+      <definition type="orig" source="code" file_id="1" line="243" col="10"/>
+    </Function>
+    <Function id="SetOpgBTotalPulseLast" name="ZbFSetOpgBTotalPulseLastX" decorated_name="void SetOpgBTotalPulseLast(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="249" col="6"/>
+    </Function>
+    <Function id="GetOpgBSpd" name="ZKGetOpgBSpdX" decorated_name="UINT16_T GetOpgBSpd(void)">
+      <definition type="orig" source="code" file_id="1" line="255" col="10"/>
+    </Function>
+    <Function id="SetOpgBStatus" name="ZNSetOpgBStatusX" decorated_name="void SetOpgBStatus(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="262" col="6"/>
+    </Function>
+    <Function id="GetOpgBStatus" name="ZNGetOpgBStatusX" decorated_name="UINT8_T GetOpgBStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="268" col="9"/>
+    </Function>
+    <Function id="GetOpgBErrNo" name="ZMGetOpgBErrNoX" decorated_name="UINT32_T GetOpgBErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="274" col="10"/>
+    </Function>
+    <Function id="AddOpgBErrNo" name="ZMAddOpgBErrNoX" decorated_name="void AddOpgBErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="280" col="6"/>
+    </Function>
+    <Function id="GetFusionSpd" name="ZMGetFusionSpdX" decorated_name="UINT16_T GetFusionSpd(void)">
+      <definition type="orig" source="code" file_id="1" line="295" col="10"/>
+    </Function>
+    <Function id="SetFusionSpd" name="ZMSetFusionSpdX" decorated_name="void SetFusionSpd(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="301" col="6"/>
+    </Function>
+    <Function id="GetFusionSpdLast" name="ZbAGetFusionSpdLastX" decorated_name="UINT16_T GetFusionSpdLast(void)">
+      <definition type="orig" source="code" file_id="1" line="307" col="10"/>
+    </Function>
+    <Function id="SetFusionSpdLast" name="ZbASetFusionSpdLastX" decorated_name="void SetFusionSpdLast(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="313" col="6"/>
+    </Function>
+    <Function id="GetFusionDir" name="ZMGetFusionDirX" decorated_name="UINT8_T GetFusionDir(void)">
+      <definition type="orig" source="code" file_id="1" line="319" col="9"/>
+    </Function>
+    <Function id="SetFusionDir" name="ZMSetFusionDirX" decorated_name="void SetFusionDir(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="325" col="6"/>
+    </Function>
+    <Function id="GetFusionSpdStatus" name="ZbCGetFusionSpdStatusX" decorated_name="UINT8_T GetFusionSpdStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="331" col="9"/>
+    </Function>
+    <Function id="SetFusionSpdStatus" name="ZbCSetFusionSpdStatusX" decorated_name="void SetFusionSpdStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="337" col="6"/>
+    </Function>
+    <Function id="GetFusionSpdPrecision" name="ZbFGetFusionSpdPrecisionX" decorated_name="UINT8_T GetFusionSpdPrecision(void)">
+      <definition type="orig" source="code" file_id="1" line="343" col="9"/>
+    </Function>
+    <Function id="SetFusionSpdPrecision" name="ZbFSetFusionSpdPrecisionX" decorated_name="void SetFusionSpdPrecision(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="349" col="6"/>
+    </Function>
+    <Function id="GetFusionRadarState" name="ZbDGetFusionRadarStateX" decorated_name="UINT8_T GetFusionRadarState(void)">
+      <definition type="orig" source="code" file_id="1" line="355" col="9"/>
+    </Function>
+    <Function id="SetFusionRadarState" name="ZbDSetFusionRadarStateX" decorated_name="void SetFusionRadarState(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="361" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

@@ -1,0 +1,800 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;804;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|RemoteDoorCtrlProcess" total="4805" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;61;DoorSupFunc" total="76" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;1100;GetTrainLocDoorRange" total="5" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;646;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|OpenDoorTimer" total="15" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;236;DoorCtrlFunc" total="731566080" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;739;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|DoorEnableOutCheck" total="16" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;646;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|OpenDoorTimer" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|OpenDoorTimer" pathsNo="15">
+        <BlckInfo id="1" blckTrans="2;23">
+          <PathBlckLoc locStartln="648" locStartPos="4" locEndLn="656" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="659" locStartPos="6" locEndLn="660" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="663" locStartPos="3" locEndLn="663" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;12">
+          <PathBlckLoc locStartln="667" locStartPos="6" locEndLn="667" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="670" locStartPos="7" locEndLn="670" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="11">
+          <PathBlckLoc locStartln="673" locStartPos="4" locEndLn="673" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="678" locStartPos="8" locEndLn="678" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="681" locStartPos="20" locEndLn="683" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="688" locStartPos="5" locEndLn="688" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="690" locStartPos="3" locEndLn="690" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="22">
+          <PathBlckLoc locStartln="691" locStartPos="2" locEndLn="691" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;20">
+          <PathBlckLoc locStartln="693" locStartPos="11" locEndLn="693" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="696" locStartPos="7" locEndLn="696" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="19">
+          <PathBlckLoc locStartln="699" locStartPos="4" locEndLn="699" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16;17">
+          <PathBlckLoc locStartln="704" locStartPos="8" locEndLn="704" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="713" locStartPos="5" locEndLn="713" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="18">
+          <PathBlckLoc locStartln="707" locStartPos="20" locEndLn="709" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="22">
+          <PathBlckLoc locStartln="716" locStartPos="2" locEndLn="716" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19">
+          <PathBlckLoc locStartln="715" locStartPos="3" locEndLn="715" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="22">
+          <PathBlckLoc locStartln="718" locStartPos="8" locEndLn="720" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24">
+          <PathBlckLoc locStartln="725" locStartPos="2" locEndLn="725" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="24">
+          <PathBlckLoc locStartln="721" locStartPos="1" locEndLn="721" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="">
+          <PathBlckLoc locStartln="728" locStartPos="1" locEndLn="728" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;61;DoorSupFunc" show="true">
+      <CvgElem id="DoorSupFunc" pathsNo="76">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="64" locStartPos="1" locEndLn="97" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="100" locStartPos="2" locEndLn="100" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;51">
+          <PathBlckLoc locStartln="104" locStartPos="5" locEndLn="104" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="107" locStartPos="6" locEndLn="107" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="50">
+          <PathBlckLoc locStartln="110" locStartPos="12" locEndLn="110" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;14">
+          <PathBlckLoc locStartln="115" locStartPos="7" locEndLn="115" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="118" locStartPos="8" locEndLn="118" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="13">
+          <PathBlckLoc locStartln="121" locStartPos="5" locEndLn="121" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;11">
+          <PathBlckLoc locStartln="124" locStartPos="13" locEndLn="124" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="13">
+          <PathBlckLoc locStartln="129" locStartPos="20" locEndLn="129" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13">
+          <PathBlckLoc locStartln="132" locStartPos="4" locEndLn="134" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="49">
+          <PathBlckLoc locStartln="135" locStartPos="3" locEndLn="135" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;19">
+          <PathBlckLoc locStartln="137" locStartPos="12" locEndLn="137" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16;17">
+          <PathBlckLoc locStartln="140" locStartPos="8" locEndLn="140" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="150" locStartPos="5" locEndLn="150" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="18">
+          <PathBlckLoc locStartln="145" locStartPos="20" locEndLn="145" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20;46">
+          <PathBlckLoc locStartln="153" locStartPos="12" locEndLn="153" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="49">
+          <PathBlckLoc locStartln="152" locStartPos="3" locEndLn="152" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22;33">
+          <PathBlckLoc locStartln="159" locStartPos="9" locEndLn="159" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21;34">
+          <PathBlckLoc locStartln="156" locStartPos="8" locEndLn="156" locEndPos="66" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24;25">
+          <PathBlckLoc locStartln="163" locStartPos="7" locEndLn="166" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23;26">
+          <PathBlckLoc locStartln="161" locStartPos="10" locEndLn="161" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="32">
+          <PathBlckLoc locStartln="170" locStartPos="6" locEndLn="170" locEndPos="7" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25">
+          <PathBlckLoc locStartln="168" locStartPos="8" locEndLn="168" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28;29">
+          <PathBlckLoc locStartln="173" locStartPos="7" locEndLn="176" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;30">
+          <PathBlckLoc locStartln="171" locStartPos="15" locEndLn="171" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="32">
+          <PathBlckLoc locStartln="180" locStartPos="6" locEndLn="180" locEndPos="7" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29">
+          <PathBlckLoc locStartln="178" locStartPos="8" locEndLn="178" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="32">
+          <PathBlckLoc locStartln="182" locStartPos="6" locEndLn="184" locEndPos="7" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35;38">
+          <PathBlckLoc locStartln="187" locStartPos="13" locEndLn="187" locEndPos="106" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36;37">
+          <PathBlckLoc locStartln="189" locStartPos="5" locEndLn="193" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33">
+          <PathBlckLoc locStartln="185" locStartPos="5" locEndLn="185" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="45">
+          <PathBlckLoc locStartln="186" locStartPos="4" locEndLn="186" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="39;42">
+          <PathBlckLoc locStartln="198" locStartPos="13" locEndLn="198" locEndPos="108" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="40;41">
+          <PathBlckLoc locStartln="200" locStartPos="5" locEndLn="203" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37">
+          <PathBlckLoc locStartln="195" locStartPos="6" locEndLn="195" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="45">
+          <PathBlckLoc locStartln="197" locStartPos="4" locEndLn="197" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="42" blckTrans="45">
+          <PathBlckLoc locStartln="211" locStartPos="5" locEndLn="211" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="41">
+          <PathBlckLoc locStartln="205" locStartPos="6" locEndLn="205" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="41" blckTrans="45">
+          <PathBlckLoc locStartln="207" locStartPos="4" locEndLn="207" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="46" blckTrans="49">
+          <PathBlckLoc locStartln="216" locStartPos="7" locEndLn="216" locEndPos="8" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="45" blckTrans="49">
+          <PathBlckLoc locStartln="213" locStartPos="3" locEndLn="213" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="51" blckTrans="52">
+          <PathBlckLoc locStartln="223" locStartPos="2" locEndLn="224" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="50" blckTrans="52">
+          <PathBlckLoc locStartln="219" locStartPos="1" locEndLn="219" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="49" blckTrans="50">
+          <PathBlckLoc locStartln="218" locStartPos="2" locEndLn="218" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="54" blckTrans="">
+          <PathBlckLoc locStartln="232" locStartPos="0" locEndLn="232" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="53" blckTrans="54">
+          <PathBlckLoc locStartln="230" locStartPos="2" locEndLn="230" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="52" blckTrans="53;54">
+          <PathBlckLoc locStartln="227" locStartPos="5" locEndLn="227" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;804;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|RemoteDoorCtrlProcess" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|RemoteDoorCtrlProcess" pathsNo="4805">
+        <BlckInfo id="1" blckTrans="2;72">
+          <PathBlckLoc locStartln="806" locStartPos="1" locEndLn="821" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;66">
+          <PathBlckLoc locStartln="825" locStartPos="2" locEndLn="828" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;25">
+          <PathBlckLoc locStartln="832" locStartPos="7" locEndLn="832" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;8">
+          <PathBlckLoc locStartln="835" locStartPos="8" locEndLn="836" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="839" locStartPos="5" locEndLn="842" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="845" locStartPos="6" locEndLn="846" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="24">
+          <PathBlckLoc locStartln="848" locStartPos="4" locEndLn="848" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;12">
+          <PathBlckLoc locStartln="850" locStartPos="13" locEndLn="851" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;11">
+          <PathBlckLoc locStartln="854" locStartPos="5" locEndLn="857" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="860" locStartPos="6" locEndLn="861" locEndPos="94" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="24">
+          <PathBlckLoc locStartln="863" locStartPos="4" locEndLn="863" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;16">
+          <PathBlckLoc locStartln="868" locStartPos="24" locEndLn="868" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="871" locStartPos="24" locEndLn="874" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="877" locStartPos="28" locEndLn="878" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="22">
+          <PathBlckLoc locStartln="880" locStartPos="20" locEndLn="880" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18;19">
+          <PathBlckLoc locStartln="885" locStartPos="24" locEndLn="888" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;20">
+          <PathBlckLoc locStartln="882" locStartPos="29" locEndLn="882" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="22">
+          <PathBlckLoc locStartln="894" locStartPos="20" locEndLn="894" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19">
+          <PathBlckLoc locStartln="891" locStartPos="28" locEndLn="892" locEndPos="117" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="22">
+          <PathBlckLoc locStartln="896" locStartPos="20" locEndLn="898" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="24">
+          <PathBlckLoc locStartln="899" locStartPos="4" locEndLn="899" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26">
+          <PathBlckLoc locStartln="902" locStartPos="3" locEndLn="904" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="26">
+          <PathBlckLoc locStartln="900" locStartPos="3" locEndLn="900" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28;31">
+          <PathBlckLoc locStartln="911" locStartPos="8" locEndLn="912" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;48">
+          <PathBlckLoc locStartln="908" locStartPos="7" locEndLn="908" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="921" locStartPos="6" locEndLn="922" locEndPos="95" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29;30">
+          <PathBlckLoc locStartln="915" locStartPos="5" locEndLn="918" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32;35">
+          <PathBlckLoc locStartln="926" locStartPos="13" locEndLn="927" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="47">
+          <PathBlckLoc locStartln="924" locStartPos="4" locEndLn="924" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="47">
+          <PathBlckLoc locStartln="939" locStartPos="4" locEndLn="939" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36;39">
+          <PathBlckLoc locStartln="943" locStartPos="24" locEndLn="943" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33;34">
+          <PathBlckLoc locStartln="930" locStartPos="5" locEndLn="933" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34">
+          <PathBlckLoc locStartln="936" locStartPos="6" locEndLn="937" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="45">
+          <PathBlckLoc locStartln="955" locStartPos="20" locEndLn="955" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="40;43">
+          <PathBlckLoc locStartln="957" locStartPos="29" locEndLn="957" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37;38">
+          <PathBlckLoc locStartln="946" locStartPos="24" locEndLn="949" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="38">
+          <PathBlckLoc locStartln="952" locStartPos="28" locEndLn="953" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="42" blckTrans="45">
+          <PathBlckLoc locStartln="969" locStartPos="20" locEndLn="969" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="43" blckTrans="45">
+          <PathBlckLoc locStartln="971" locStartPos="20" locEndLn="973" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="41;42">
+          <PathBlckLoc locStartln="960" locStartPos="24" locEndLn="963" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="41" blckTrans="42">
+          <PathBlckLoc locStartln="966" locStartPos="28" locEndLn="967" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="47" blckTrans="49">
+          <PathBlckLoc locStartln="975" locStartPos="3" locEndLn="975" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="45" blckTrans="47">
+          <PathBlckLoc locStartln="974" locStartPos="4" locEndLn="974" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="51" blckTrans="52;53">
+          <PathBlckLoc locStartln="994" locStartPos="12" locEndLn="995" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="50" blckTrans="57">
+          <PathBlckLoc locStartln="986" locStartPos="16" locEndLn="991" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="49" blckTrans="50;51">
+          <PathBlckLoc locStartln="982" locStartPos="7" locEndLn="983" locEndPos="121" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="48" blckTrans="49">
+          <PathBlckLoc locStartln="977" locStartPos="3" locEndLn="979" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="55" blckTrans="57">
+          <PathBlckLoc locStartln="1011" locStartPos="3" locEndLn="1011" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="54" blckTrans="55">
+          <PathBlckLoc locStartln="1008" locStartPos="5" locEndLn="1009" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="53" blckTrans="54;55">
+          <PathBlckLoc locStartln="1005" locStartPos="8" locEndLn="1005" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="52" blckTrans="57">
+          <PathBlckLoc locStartln="998" locStartPos="16" locEndLn="1000" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="59" blckTrans="60;61">
+          <PathBlckLoc locStartln="1026" locStartPos="12" locEndLn="1027" locEndPos="121" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="58" blckTrans="65">
+          <PathBlckLoc locStartln="1018" locStartPos="16" locEndLn="1023" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="57" blckTrans="58;59">
+          <PathBlckLoc locStartln="1014" locStartPos="7" locEndLn="1015" locEndPos="123" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="63" blckTrans="65">
+          <PathBlckLoc locStartln="1043" locStartPos="3" locEndLn="1043" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="62" blckTrans="63">
+          <PathBlckLoc locStartln="1040" locStartPos="5" locEndLn="1041" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="61" blckTrans="62;63">
+          <PathBlckLoc locStartln="1037" locStartPos="8" locEndLn="1037" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="60" blckTrans="65">
+          <PathBlckLoc locStartln="1030" locStartPos="16" locEndLn="1032" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="68" blckTrans="69;70">
+          <PathBlckLoc locStartln="1056" locStartPos="7" locEndLn="1056" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="69" blckTrans="70">
+          <PathBlckLoc locStartln="1059" locStartPos="4" locEndLn="1068" locEndPos="104" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="70" blckTrans="71">
+          <PathBlckLoc locStartln="1070" locStartPos="2" locEndLn="1070" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="71" blckTrans="75">
+          <PathBlckLoc locStartln="1071" locStartPos="1" locEndLn="1071" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="65" blckTrans="67">
+          <PathBlckLoc locStartln="1044" locStartPos="2" locEndLn="1044" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="66" blckTrans="67">
+          <PathBlckLoc locStartln="1046" locStartPos="2" locEndLn="1048" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="67" blckTrans="68;71">
+          <PathBlckLoc locStartln="1051" locStartPos="6" locEndLn="1053" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="72" blckTrans="73;74">
+          <PathBlckLoc locStartln="1075" locStartPos="6" locEndLn="1075" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="73" blckTrans="74">
+          <PathBlckLoc locStartln="1078" locStartPos="3" locEndLn="1087" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="74" blckTrans="75">
+          <PathBlckLoc locStartln="1089" locStartPos="1" locEndLn="1089" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="75" blckTrans="">
+          <PathBlckLoc locStartln="1090" locStartPos="0" locEndLn="1090" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;1100;GetTrainLocDoorRange" show="true">
+      <CvgElem id="GetTrainLocDoorRange" pathsNo="5">
+        <BlckInfo id="1" blckTrans="2;5">
+          <PathBlckLoc locStartln="1102" locStartPos="1" locEndLn="1110" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="1112" locStartPos="2" locEndLn="1115" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="1117" locStartPos="3" locEndLn="1117" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="11">
+          <PathBlckLoc locStartln="1119" locStartPos="2" locEndLn="1119" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;9">
+          <PathBlckLoc locStartln="1121" locStartPos="10" locEndLn="1121" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="1123" locStartPos="2" locEndLn="1126" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="1128" locStartPos="3" locEndLn="1128" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="11">
+          <PathBlckLoc locStartln="1130" locStartPos="2" locEndLn="1130" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="11">
+          <PathBlckLoc locStartln="1133" locStartPos="1" locEndLn="1135" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="">
+          <PathBlckLoc locStartln="1138" locStartPos="1" locEndLn="1138" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;236;DoorCtrlFunc" show="true">
+      <CvgElem id="DoorCtrlFunc" pathsNo="731566080">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="239" locStartPos="1" locEndLn="250" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="253" locStartPos="2" locEndLn="253" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="258" locStartPos="2" locEndLn="258" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;26">
+          <PathBlckLoc locStartln="263" locStartPos="5" locEndLn="263" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;10">
+          <PathBlckLoc locStartln="266" locStartPos="6" locEndLn="266" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="269" locStartPos="7" locEndLn="269" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="9">
+          <PathBlckLoc locStartln="272" locStartPos="4" locEndLn="272" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="276" locStartPos="4" locEndLn="276" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="25">
+          <PathBlckLoc locStartln="278" locStartPos="2" locEndLn="278" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;23">
+          <PathBlckLoc locStartln="279" locStartPos="11" locEndLn="279" locEndPos="129" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12;21">
+          <PathBlckLoc locStartln="282" locStartPos="7" locEndLn="282" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;17">
+          <PathBlckLoc locStartln="285" locStartPos="4" locEndLn="290" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="293" locStartPos="9" locEndLn="293" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="16">
+          <PathBlckLoc locStartln="294" locStartPos="5" locEndLn="296" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="299" locStartPos="6" locEndLn="299" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18;19">
+          <PathBlckLoc locStartln="305" locStartPos="5" locEndLn="309" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="20">
+          <PathBlckLoc locStartln="301" locStartPos="4" locEndLn="301" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="314" locStartPos="4" locEndLn="314" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19">
+          <PathBlckLoc locStartln="312" locStartPos="6" locEndLn="312" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="319" locStartPos="4" locEndLn="323" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="22">
+          <PathBlckLoc locStartln="315" locStartPos="3" locEndLn="315" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="25">
+          <PathBlckLoc locStartln="329" locStartPos="4" locEndLn="329" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="25">
+          <PathBlckLoc locStartln="326" locStartPos="2" locEndLn="326" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="27">
+          <PathBlckLoc locStartln="331" locStartPos="1" locEndLn="331" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28;29">
+          <PathBlckLoc locStartln="343" locStartPos="1" locEndLn="347" locEndPos="131" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27">
+          <PathBlckLoc locStartln="335" locStartPos="2" locEndLn="339" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30;35">
+          <PathBlckLoc locStartln="353" locStartPos="1" locEndLn="356" locEndPos="75" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29">
+          <PathBlckLoc locStartln="350" locStartPos="2" locEndLn="350" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="362" locStartPos="3" locEndLn="362" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31;32">
+          <PathBlckLoc locStartln="359" locStartPos="6" locEndLn="359" locEndPos="166" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35">
+          <PathBlckLoc locStartln="370" locStartPos="1" locEndLn="370" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36;55">
+          <PathBlckLoc locStartln="374" locStartPos="5" locEndLn="374" locEndPos="165" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33;34">
+          <PathBlckLoc locStartln="365" locStartPos="6" locEndLn="365" locEndPos="167" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34">
+          <PathBlckLoc locStartln="368" locStartPos="3" locEndLn="368" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="39">
+          <PathBlckLoc locStartln="385" locStartPos="4" locEndLn="386" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="39" blckTrans="40;41">
+          <PathBlckLoc locStartln="390" locStartPos="7" locEndLn="392" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37;42">
+          <PathBlckLoc locStartln="377" locStartPos="6" locEndLn="377" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="38;39">
+          <PathBlckLoc locStartln="380" locStartPos="7" locEndLn="382" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="42" blckTrans="43;48">
+          <PathBlckLoc locStartln="401" locStartPos="6" locEndLn="401" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="43" blckTrans="44;45">
+          <PathBlckLoc locStartln="404" locStartPos="7" locEndLn="411" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="40" blckTrans="41">
+          <PathBlckLoc locStartln="395" locStartPos="4" locEndLn="396" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="41" blckTrans="42">
+          <PathBlckLoc locStartln="398" locStartPos="2" locEndLn="398" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="46" blckTrans="47">
+          <PathBlckLoc locStartln="429" locStartPos="4" locEndLn="430" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="47" blckTrans="48">
+          <PathBlckLoc locStartln="432" locStartPos="2" locEndLn="432" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="44" blckTrans="45">
+          <PathBlckLoc locStartln="414" locStartPos="4" locEndLn="415" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="45" blckTrans="46;47">
+          <PathBlckLoc locStartln="419" locStartPos="7" locEndLn="426" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="51" blckTrans="52;53">
+          <PathBlckLoc locStartln="453" locStartPos="7" locEndLn="462" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="50" blckTrans="51">
+          <PathBlckLoc locStartln="449" locStartPos="4" locEndLn="450" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="49" blckTrans="50;51">
+          <PathBlckLoc locStartln="438" locStartPos="7" locEndLn="446" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="48" blckTrans="49;54">
+          <PathBlckLoc locStartln="435" locStartPos="6" locEndLn="435" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="55" blckTrans="56;75">
+          <PathBlckLoc locStartln="472" locStartPos="5" locEndLn="472" locEndPos="166" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="54" blckTrans="55">
+          <PathBlckLoc locStartln="469" locStartPos="1" locEndLn="469" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="53" blckTrans="54">
+          <PathBlckLoc locStartln="468" locStartPos="2" locEndLn="468" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="52" blckTrans="53">
+          <PathBlckLoc locStartln="465" locStartPos="4" locEndLn="466" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="59" blckTrans="60;61">
+          <PathBlckLoc locStartln="488" locStartPos="7" locEndLn="490" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="58" blckTrans="59">
+          <PathBlckLoc locStartln="483" locStartPos="4" locEndLn="484" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="57" blckTrans="58;59">
+          <PathBlckLoc locStartln="478" locStartPos="7" locEndLn="480" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="56" blckTrans="57;62">
+          <PathBlckLoc locStartln="475" locStartPos="6" locEndLn="475" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="63" blckTrans="64;65">
+          <PathBlckLoc locStartln="502" locStartPos="7" locEndLn="509" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="62" blckTrans="63;68">
+          <PathBlckLoc locStartln="499" locStartPos="6" locEndLn="499" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="61" blckTrans="62">
+          <PathBlckLoc locStartln="496" locStartPos="2" locEndLn="496" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="60" blckTrans="61">
+          <PathBlckLoc locStartln="493" locStartPos="4" locEndLn="494" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="68" blckTrans="69;74">
+          <PathBlckLoc locStartln="533" locStartPos="6" locEndLn="533" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="69" blckTrans="70;71">
+          <PathBlckLoc locStartln="536" locStartPos="7" locEndLn="544" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="70" blckTrans="71">
+          <PathBlckLoc locStartln="547" locStartPos="4" locEndLn="548" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="71" blckTrans="72;73">
+          <PathBlckLoc locStartln="551" locStartPos="7" locEndLn="560" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="64" blckTrans="65">
+          <PathBlckLoc locStartln="512" locStartPos="4" locEndLn="513" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="65" blckTrans="66;67">
+          <PathBlckLoc locStartln="517" locStartPos="7" locEndLn="524" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="66" blckTrans="67">
+          <PathBlckLoc locStartln="527" locStartPos="4" locEndLn="528" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="67" blckTrans="68">
+          <PathBlckLoc locStartln="530" locStartPos="2" locEndLn="530" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="76" blckTrans="77">
+          <PathBlckLoc locStartln="574" locStartPos="2" locEndLn="574" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="77" blckTrans="78;79">
+          <PathBlckLoc locStartln="578" locStartPos="5" locEndLn="578" locEndPos="165" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="78" blckTrans="79">
+          <PathBlckLoc locStartln="581" locStartPos="2" locEndLn="581" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="79" blckTrans="80;81">
+          <PathBlckLoc locStartln="585" locStartPos="5" locEndLn="585" locEndPos="167" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="72" blckTrans="73">
+          <PathBlckLoc locStartln="563" locStartPos="4" locEndLn="564" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="73" blckTrans="74">
+          <PathBlckLoc locStartln="566" locStartPos="2" locEndLn="566" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="74" blckTrans="75">
+          <PathBlckLoc locStartln="567" locStartPos="1" locEndLn="567" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="75" blckTrans="76;77">
+          <PathBlckLoc locStartln="569" locStartPos="1" locEndLn="571" locEndPos="165" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="85" blckTrans="86;87">
+          <PathBlckLoc locStartln="606" locStartPos="5" locEndLn="606" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="84" blckTrans="85">
+          <PathBlckLoc locStartln="602" locStartPos="2" locEndLn="602" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="87" blckTrans="88;89">
+          <PathBlckLoc locStartln="614" locStartPos="5" locEndLn="614" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="86" blckTrans="87">
+          <PathBlckLoc locStartln="610" locStartPos="2" locEndLn="610" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="81" blckTrans="82;83">
+          <PathBlckLoc locStartln="592" locStartPos="5" locEndLn="592" locEndPos="169" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="80" blckTrans="81">
+          <PathBlckLoc locStartln="588" locStartPos="2" locEndLn="588" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="83" blckTrans="84;85">
+          <PathBlckLoc locStartln="599" locStartPos="5" locEndLn="599" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="82" blckTrans="83">
+          <PathBlckLoc locStartln="595" locStartPos="2" locEndLn="595" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="89" blckTrans="90;91">
+          <PathBlckLoc locStartln="621" locStartPos="5" locEndLn="621" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="88" blckTrans="89">
+          <PathBlckLoc locStartln="617" locStartPos="2" locEndLn="617" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="91" blckTrans="">
+          <PathBlckLoc locStartln="629" locStartPos="1" locEndLn="629" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="90" blckTrans="91">
+          <PathBlckLoc locStartln="625" locStartPos="2" locEndLn="625" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c;739;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|DoorEnableOutCheck" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWDoorManageWDoorHandleWc|DoorEnableOutCheck" pathsNo="16">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="742" locStartPos="1" locEndLn="749" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="9">
+          <PathBlckLoc locStartln="751" locStartPos="2" locEndLn="751" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;8">
+          <PathBlckLoc locStartln="756" locStartPos="12" locEndLn="756" locEndPos="131" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="759" locStartPos="16" locEndLn="759" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="762" locStartPos="16" locEndLn="762" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="768" locStartPos="16" locEndLn="768" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="770" locStartPos="8" locEndLn="770" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="771" locStartPos="1" locEndLn="771" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;11">
+          <PathBlckLoc locStartln="775" locStartPos="5" locEndLn="775" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="778" locStartPos="8" locEndLn="779" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12;13">
+          <PathBlckLoc locStartln="783" locStartPos="8" locEndLn="784" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="787" locStartPos="8" locEndLn="787" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="791" locStartPos="1" locEndLn="791" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/DoorManage/DoorHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

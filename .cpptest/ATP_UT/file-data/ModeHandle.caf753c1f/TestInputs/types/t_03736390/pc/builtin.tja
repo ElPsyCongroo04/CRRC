@@ -1,0 +1,70 @@
+$
+#<Template name="Builtin type post-condition check">
+#    <Properties>
+#        <Property key="FLATTEN_IN_WIZARD" />
+#    </Properties> 
+#    <Inputs>
+#        <Input name="USE_DATA_SOURCES" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.UseDataSourcesProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="USE_WIZARD_ASSERTIONS" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.UseWizardAssertionsProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="DATA_SOURCE" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.DataSourceColumnCollector">
+#                <Argument name="VAR_NAME" value="assert $VAR_NAME$"/>
+#                <Argument name="VAR_VALUE" value="0"/>
+#            </Source>
+#            <Properties>
+#                <Property key="DISABLE_IN_WIZARD"/>
+#                <Property key="USE_DATA_SOURCES"/>
+#                <Property key="GENERATE_POST_ASSERTIONS"/>
+#            </Properties>
+#         </Input>
+#        <Input name="EXPECTED_VALUE" type="string" >
+#            <Source location="tja://builtin/uint/value" />
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.generator.tja.ItemChooserProvider">
+#				 <Argument name="VALUE" value="ACTUAL" />
+#				 <Argument name="PROP_PREFFERED" value="" />
+#            </Source>
+#            <Properties>
+#                <Property key="DISABLE_IN_AUTOGEN"/>
+#                <Property key="FLATTENED_GROUP"/>
+#            </Properties>
+#        </Input>
+#    </Inputs>
+#</Template>
+\$
+$if KIND == "POST_COND":\$
+$  if TYPENAME == "":\$
+$INDENT$CPPTEST_POST_CONDITION_UINTEGER("$MSG_PREFIX$unsigned int $VAR_NAME$", ( $VAR_NAME$ ));
+$  else:\$
+$INDENT$CPPTEST_POST_CONDITION_UINTEGER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));
+$  end\$
+$elif KIND == "PREPOST_REPORT":\$
+$  if TYPENAME == "":\$
+$INDENT$CPPTEST_REPORT_UINTEGER("$MSG_PREFIX$unsigned int $VAR_NAME$", ( $VAR_NAME$ ));
+$  else:\$
+$INDENT$CPPTEST_REPORT_UINTEGER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));
+$  end\$
+$elif KIND == "POST_ASSERT":\$
+$  if USE_DATA_SOURCES == "TRUE":\$
+$INDENT$CPPTEST_ASSERT_UINTEGER_EQUAL(CPPTEST_DS_GET_UINTEGER("assert $VAR_NAME$"), ( $VAR_NAME$ ) );
+$  elif USE_WIZARD_ASSERTIONS == "TRUE":\$
+$      if EXPECTED_VALUE == "ACTUAL":\$
+$INDENT$CPPTEST_POST_CONDITION_UINTEGER("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));
+$      else:\$
+$INDENT$CPPTEST_ASSERT_UINTEGER_EQUAL($EXPECTED_VALUE$, ( $VAR_NAME$ ) );
+$      end\$
+$  else:\$
+$INDENT$/* CPPTEST_ASSERT_UINTEGER_EQUAL(0, ( $VAR_NAME$ ) ); */
+$  end\$
+$end\$

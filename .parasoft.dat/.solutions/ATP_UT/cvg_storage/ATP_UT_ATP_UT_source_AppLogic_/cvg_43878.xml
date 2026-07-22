@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="7439007155873996951 2419089170202296098 2280983601714526128 7439007155873996206 4668299114784002257 7439007155873996112 341804384815388165 -3399826860484268947 2420008616777425594 -1350775023757239259 7439007155873998838 8280707944523972800 -8658980545321308601 8280707944523972706 4518828354758568465" uniqueId2MainId="CPP://-8491641153857428519 CPP://1073791744712732813 CPP://2762465901126116297 CPP://-8491641153857428488 CPP://-2402214012712317080 CPP://-8491641153857428457 CPP://-2627560879395168520 CPP://6179751836593946049 CPP://1073791758025288028 CPP://6629556762514153689 CPP://-8491641153857428705 CPP://-6061359862291126454 CPP://3651556958929376610 CPP://-6061359862291126423 CPP://-4806750908007182510" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;18;InitFaoInfoData" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;35;GetFaoDataStr" total="1" num="1" />
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;35;GetFaoDataStr">
+      <CtxCvg ctx="4668299114784002257" ids="GetFaoDataStr" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;18;InitFaoInfoData">
+      <CtxCvg ctx="7439007155873996951" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2419089170202296098" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2280983601714526128" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996206" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996112" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="341804384815388165" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-3399826860484268947" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2420008616777425594" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-1350775023757239259" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873998838" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="8280707944523972800" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-8658980545321308601" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="4518828354758568465" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="8280707944523972706" ids="InitFaoInfoData" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;18;InitFaoInfoData" show="true">
+      <CvgElem id="InitFaoInfoData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="21" locStartPos="4" locEndLn="32" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c;35;GetFaoDataStr" show="true">
+      <CvgElem id="GetFaoDataStr" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="38" locStartPos="4" locEndLn="38" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/FaoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

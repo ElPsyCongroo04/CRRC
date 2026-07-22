@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c;170;GetAtpAppInitErrNo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c;86;AtpAppPowerInit" total="9" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c;184;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPowerOnHandleWAppPowerInitHandleWc|AppPowerOnInit" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c;184;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPowerOnHandleWAppPowerInitHandleWc|AppPowerOnInit" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPowerOnHandleWAppPowerInitHandleWc|AppPowerOnInit" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="187" locStartPos="4" locEndLn="250" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c;170;GetAtpAppInitErrNo" show="true">
+      <CvgElem id="GetAtpAppInitErrNo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="173" locStartPos="4" locEndLn="173" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c;86;AtpAppPowerInit" show="true">
+      <CvgElem id="AtpAppPowerInit" pathsNo="9">
+        <BlckInfo id="1" blckTrans="2;5">
+          <PathBlckLoc locStartln="89" locStartPos="4" locEndLn="123" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="126" locStartPos="8" locEndLn="129" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="132" locStartPos="12" locEndLn="135" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="6">
+          <PathBlckLoc locStartln="138" locStartPos="4" locEndLn="138" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="142" locStartPos="8" locEndLn="142" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;10">
+          <PathBlckLoc locStartln="146" locStartPos="8" locEndLn="146" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="149" locStartPos="8" locEndLn="151" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="154" locStartPos="12" locEndLn="156" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="11">
+          <PathBlckLoc locStartln="158" locStartPos="4" locEndLn="158" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="162" locStartPos="8" locEndLn="162" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="">
+          <PathBlckLoc locStartln="166" locStartPos="4" locEndLn="166" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/AppPowerInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

@@ -1,0 +1,284 @@
+$
+#<Template name="Test case for: void CMAMToARModeProcess(void)">
+#    <Properties>
+#        <Property key="testCaseNameHint" value="CMAMToARModeProcess" />
+#        <Property key="testedFunctionAccess" value="global" />
+#        <Property key="testedFunctionFullName" value="void CMAMToARModeProcess(void)" />
+#        <Property key="testedFunctionLocation" value="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\ModeManage\ModeHandle.c" />
+#    </Properties>
+#    <Inputs>
+#        <Input name="TEST_CASE_NAME" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.TestCaseNameProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="TEST_SUITE_NAME" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.TestSuiteNameProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="INITIALIZE_GLOBAL_VARIABLES" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.InitializeGlobalVariablesProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="GENERATE_POST_ASSERTIONS" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.DumpAutoAssertsProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="GENERATE_POST_CONDITIONS" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.DumpPostConditionsProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="GENERATE_PREPOST_REPORTS" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.DumpPrePostReportsProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="PREPOST_REPORT_1" type="string" userName="void _return " >
+#            <Source location="tja://types/${TYPE_DIR:void}/pc">
+#                <Argument name="VAR_NAME" value="_return"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="PREPOST_REPORT" />
+#                <Argument name="MSG_PREFIX" value="Output: " />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="FORCE_EARLY_INIT" />
+#                <Property key="OUTCOME_DATA"/>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="POST_COND_1" type="string" userName="void _return " >
+#            <Source location="tja://types/${TYPE_DIR:void}/pc">
+#                <Argument name="VAR_NAME" value="_return"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="POST_COND" />
+#                <Argument name="MSG_PREFIX" value="" />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="FORCE_EARLY_INIT" />
+#                <Property key="OUTCOME_DATA"/>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="POST_ASSERT_1" type="string" userName="void _return " >
+#            <Source location="tja://types/${TYPE_DIR:void}/pc">
+#                <Argument name="VAR_NAME" value="_return"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="POST_ASSERT" />
+#                <Argument name="MSG_PREFIX" value="" />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="FORCE_EARLY_INIT" />
+#                <Property key="OUTCOME_DATA"/>
+#            </Properties>
+#        </Input>
+#        <Input name="POST_COND_stdout" type="string" userName="stdout" >
+#            <Source location="tja://outstream/pc">
+#                <Argument name="VAR_NAME" value="stdout"/>
+#                <Argument name="STREAM_VAR" value="_stdoutStreamRedirect"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="POST_COND" />
+#                <Argument name="MSG_PREFIX" value="" />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="NOT_REQUIRED_PREFFERED" />
+#                <Property key="STREAM_REDIRECTION"/>
+#                <Property key="OUT_EXT_DEP_DATA"/>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="POST_COND_stderr" type="string" userName="stderr" >
+#            <Source location="tja://outstream/pc">
+#                <Argument name="VAR_NAME" value="stderr"/>
+#                <Argument name="STREAM_VAR" value="_stderrStreamRedirect"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="POST_COND" />
+#                <Argument name="MSG_PREFIX" value="" />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="NOT_REQUIRED_PREFFERED" />
+#                <Property key="STREAM_REDIRECTION"/>
+#                <Property key="OUT_EXT_DEP_DATA"/>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="PREPOST_REPORT_stdin" type="string" userName="stdin" >
+#            <Source location="tja://outstream/pc">
+#                <Argument name="VAR_NAME" value="stdin"/>
+#                <Argument name="STREAM_VAR" value="_stdinStreamRedirect"/>
+#                <Argument name="INDENT" value="    "/>
+#                <Argument name="KIND" value="PREPOST_REPORT" />
+#                <Argument name="MSG_PREFIX" value="Input: " />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="NOT_REQUIRED_PREFFERED" />
+#                <Property key="STREAM_REDIRECTION"/>
+#                <Property key="IN_EXT_DEP_DATA"/>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="PREPOST_REPORT_stdout" type="string" userName="stdout" >
+#            <Source location="tja://outstream/pc">
+#                <Argument name="VAR_NAME" value="stdout"/>
+#                <Argument name="STREAM_VAR" value="_stdoutStreamRedirect"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="PREPOST_REPORT" />
+#                <Argument name="MSG_PREFIX" value="Output: " />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="NOT_REQUIRED_PREFFERED" />
+#                <Property key="STREAM_REDIRECTION"/>
+#                <Property key="OUT_EXT_DEP_DATA"/>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="PREPOST_REPORT_stderr" type="string" userName="stderr" >
+#            <Source location="tja://outstream/pc">
+#                <Argument name="VAR_NAME" value="stderr"/>
+#                <Argument name="STREAM_VAR" value="_stderrStreamRedirect"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="PREPOST_REPORT" />
+#                <Argument name="MSG_PREFIX" value="Output: " />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="NOT_REQUIRED_PREFFERED" />
+#                <Property key="STREAM_REDIRECTION"/>
+#                <Property key="OUT_EXT_DEP_DATA"/>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="POST_ASSERT_stdout" type="string" userName="stdout" >
+#            <Source location="tja://outstream/pc">
+#                <Argument name="VAR_NAME" value="stdout"/>
+#                <Argument name="STREAM_VAR" value="_stdoutStreamRedirect"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="POST_ASSERT" />
+#                <Argument name="MSG_PREFIX" value="" />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="NOT_REQUIRED_PREFFERED" />
+#                <Property key="STREAM_REDIRECTION"/>
+#                <Property key="OUT_EXT_DEP_DATA"/>
+#            </Properties>
+#        </Input>
+#        <Input name="POST_ASSERT_stderr" type="string" userName="stderr" >
+#            <Source location="tja://outstream/pc">
+#                <Argument name="VAR_NAME" value="stderr"/>
+#                <Argument name="STREAM_VAR" value="_stderrStreamRedirect"/>
+#                <Argument name="INDENT" value="        "/>
+#                <Argument name="KIND" value="POST_ASSERT" />
+#                <Argument name="MSG_PREFIX" value="" />
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ANY" />
+#                <Property key="NOT_REQUIRED_PREFFERED" />
+#                <Property key="STREAM_REDIRECTION"/>
+#                <Property key="OUT_EXT_DEP_DATA"/>
+#            </Properties>
+#        </Input>
+#        <Input name="ARG_stdin" type="string" userName="stdin" >
+#            <Source location="tja://istream/value">
+#            </Source>
+#            <Properties>
+#                <Property key="NOT_REQUIRED" value="ACTUAL" />
+#                <Property key="NOT_REQUIRED_PREFFERED" />
+#                <Property key="IN_EXT_DEP_DATA" />
+#                <Property key="STREAM_REDIRECTION"/>
+#            </Properties>
+#        </Input>
+#    </Inputs>
+#</Template>
+\$
+$
+
+  doStdIn = (ARG_stdin != "");
+
+  doStdOut = 0;
+  if doStdOut == 0 and GENERATE_POST_CONDITIONS == "TRUE":
+    doStdOut = (POST_COND_stdout != "");
+  end;
+  if doStdOut == 0 and GENERATE_POST_ASSERTIONS == "TRUE":
+    doStdOut = (POST_ASSERT_stdout != "");
+  end;
+
+  doStdErr = 0;
+  if doStdErr == 0 and GENERATE_POST_CONDITIONS == "TRUE":
+    doStdErr = (POST_COND_stderr != "");
+  end;
+  if doStdErr == 0 and GENERATE_POST_ASSERTIONS == "TRUE":
+    doStdErr = (POST_ASSERT_stderr != "");
+  end;
+
+\$
+$   if doStdIn:\$
+    CppTest_StreamRedirect* _stdinStreamRedirect = CppTest_RedirectStdInput($ARG_stdin$);
+$   end\$
+$   if doStdOut:\$
+    CppTest_StreamRedirect* _stdoutStreamRedirect = CppTest_RedirectStdOutput();
+$   end\$
+$   if doStdErr:\$
+    CppTest_StreamRedirect* _stderrStreamRedirect = CppTest_RedirectStdError();
+$   end\$
+    /* Pre-condition initialization */
+$ if GENERATE_PREPOST_REPORTS == "TRUE": \$
+    /* Pre-condition report */
+$    if doStdIn:\$
+$PREPOST_REPORT_stdin$$\$
+$    end\$
+$ end\$
+    {
+        /* Tested function call */
+        CMAMToARModeProcess();
+$   if GENERATE_PREPOST_REPORTS == "TRUE": \$
+        /* Post-condition report */
+$PREPOST_REPORT_1$$\$
+$  if INITIALIZE_GLOBAL_VARIABLES == "TRUE":\$
+$  end\$
+$    if doStdOut:\$
+$PREPOST_REPORT_stdout$$\$
+$    end\$
+$    if doStdErr:\$
+$PREPOST_REPORT_stderr$$\$
+$    end\$
+$   end \$
+$   if GENERATE_POST_CONDITIONS == "TRUE": \$
+        /* Post-condition check */
+$POST_COND_1$$\$
+$  if INITIALIZE_GLOBAL_VARIABLES == "TRUE":\$
+$  end\$
+$POST_COND_stdout$$\$
+$POST_COND_stderr$$\$
+$   end \$
+$   if GENERATE_POST_ASSERTIONS == "TRUE": \$
+        /* Post-condition check */
+$POST_ASSERT_1$$\$
+$  if INITIALIZE_GLOBAL_VARIABLES == "TRUE":\$
+$  end\$
+$POST_ASSERT_stdout$$\$
+$POST_ASSERT_stderr$$\$
+$   end \$
+    }

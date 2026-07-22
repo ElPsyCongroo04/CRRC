@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\SysRunErrorData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitSysErrorData" name="ZbAInitSysErrorDataX" decorated_name="void InitSysErrorData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="19" col="6"/>
+    </Function>
+    <Function id="PeriodInitSysErrorData" name="ZbGPeriodInitSysErrorDataX" decorated_name="void PeriodInitSysErrorData(void)">
+      <definition type="orig" source="code" file_id="1" line="27" col="6"/>
+    </Function>
+    <Function id="GetSysShutDownErrNo" name="ZbDGetSysShutDownErrNoX" decorated_name="UINT32_T GetSysShutDownErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="39" col="10"/>
+    </Function>
+    <Function id="SetSysShutDownErrNo" name="ZbDSetSysShutDownErrNoX" decorated_name="void SetSysShutDownErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="45" col="6"/>
+    </Function>
+    <Function id="GetSysFramErrNo" name="ZPGetSysFramErrNoX" decorated_name="UINT32_T GetSysFramErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="51" col="10"/>
+    </Function>
+    <Function id="AddSysFramErrNo" name="ZPAddSysFramErrNoX" decorated_name="void AddSysFramErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="57" col="6"/>
+    </Function>
+    <Function id="GetSysSpeedErrNo" name="ZbAGetSysSpeedErrNoX" decorated_name="UINT32_T GetSysSpeedErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="72" col="10"/>
+    </Function>
+    <Function id="AddSysSpeedErrNo" name="ZbAAddSysSpeedErrNoX" decorated_name="void AddSysSpeedErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="80" col="6"/>
+    </Function>
+    <Function id="GetSysRecErrNo" name="ZOGetSysRecErrNoX" decorated_name="UINT32_T GetSysRecErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="95" col="10"/>
+    </Function>
+    <Function id="AddSysRecErrNo" name="ZOAddSysRecErrNoX" decorated_name="void AddSysRecErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="101" col="6"/>
+    </Function>
+    <Function id="GetSysAtpInputLowErrNo" name="ZbGGetSysAtpInputLowErrNoX" decorated_name="UINT32_T GetSysAtpInputLowErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="116" col="10"/>
+    </Function>
+    <Function id="AddSysAtpInputLowErrNo" name="ZbGAddSysAtpInputLowErrNoX" decorated_name="void AddSysAtpInputLowErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="123" col="6"/>
+    </Function>
+    <Function id="GetSysAtpInputLow1ErrNo" name="ZbHGetSysAtpInputLow1ErrNoX" decorated_name="UINT32_T GetSysAtpInputLow1ErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="138" col="10"/>
+    </Function>
+    <Function id="AddSysAtpInputLow1ErrNo" name="ZbHAddSysAtpInputLow1ErrNoX" decorated_name="void AddSysAtpInputLow1ErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="145" col="6"/>
+    </Function>
+    <Function id="GetSysAtpInputHighErrNo" name="ZbHGetSysAtpInputHighErrNoX" decorated_name="UINT32_T GetSysAtpInputHighErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="160" col="10"/>
+    </Function>
+    <Function id="AddSysAtpInputHighErrNo" name="ZbHAddSysAtpInputHighErrNoX" decorated_name="void AddSysAtpInputHighErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="167" col="6"/>
+    </Function>
+    <Function id="GetSysAtpInputHigh1ErrNo" name="ZbIGetSysAtpInputHigh1ErrNoX" decorated_name="UINT32_T GetSysAtpInputHigh1ErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="182" col="10"/>
+    </Function>
+    <Function id="AddSysAtpInputHigh1ErrNo" name="ZbIAddSysAtpInputHigh1ErrNoX" decorated_name="void AddSysAtpInputHigh1ErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="188" col="6"/>
+    </Function>
+    <Function id="GetSysAtoInputErrNo" name="ZbDGetSysAtoInputErrNoX" decorated_name="UINT32_T GetSysAtoInputErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="203" col="10"/>
+    </Function>
+    <Function id="AddSysAtoInputErrNo" name="ZbDAddSysAtoInputErrNoX" decorated_name="void AddSysAtoInputErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="210" col="6"/>
+    </Function>
+    <Function id="GetSysAtoInCycErrNo" name="ZbDGetSysAtoInCycErrNoX" decorated_name="UINT32_T GetSysAtoInCycErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="227" col="10"/>
+    </Function>
+    <Function id="AddSysAtoInCycErrNo" name="ZbDAddSysAtoInCycErrNoX" decorated_name="void AddSysAtoInCycErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="234" col="6"/>
+    </Function>
+    <Function id="GetSysAtoInSlpErrNo" name="ZbDGetSysAtoInSlpErrNoX" decorated_name="UINT32_T GetSysAtoInSlpErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="249" col="10"/>
+    </Function>
+    <Function id="AddSysAtoInSlpErrNo" name="ZbDAddSysAtoInSlpErrNoX" decorated_name="void AddSysAtoInSlpErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="255" col="6"/>
+    </Function>
+    <Function id="GetSysAtoInCtrlAddLowErrNo" name="ZbKGetSysAtoInCtrlAddLowErrNoX" decorated_name="UINT32_T GetSysAtoInCtrlAddLowErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="272" col="10"/>
+    </Function>
+    <Function id="AddSysAtoInCtrlAddLowErrNo" name="ZbKAddSysAtoInCtrlAddLowErrNoX" decorated_name="void AddSysAtoInCtrlAddLowErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="279" col="6"/>
+    </Function>
+    <Function id="GetSysAtoInCtrlAddHighErrNo" name="ZbLGetSysAtoInCtrlAddHighErrNoX" decorated_name="UINT32_T GetSysAtoInCtrlAddHighErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="295" col="10"/>
+    </Function>
+    <Function id="AddSysAtoInCtrlAddHighErrNo" name="ZbLAddSysAtoInCtrlAddHighErrNoX" decorated_name="void AddSysAtoInCtrlAddHighErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="302" col="6"/>
+    </Function>
+    <Function id="GetSysAtoInAlarmErrNo" name="ZbFGetSysAtoInAlarmErrNoX" decorated_name="UINT32_T GetSysAtoInAlarmErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="317" col="10"/>
+    </Function>
+    <Function id="AddSysAtoInAlarmErrNo" name="ZbFAddSysAtoInAlarmErrNoX" decorated_name="void AddSysAtoInAlarmErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="324" col="6"/>
+    </Function>
+    <Function id="GetSysCamInputErrNo" name="ZbDGetSysCamInputErrNoX" decorated_name="UINT32_T GetSysCamInputErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="339" col="10"/>
+    </Function>
+    <Function id="AddSysCamInputErrNo" name="ZbDAddSysCamInputErrNoX" decorated_name="void AddSysCamInputErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="345" col="6"/>
+    </Function>
+    <Function id="GetSysCamInCycErrNo" name="ZbDGetSysCamInCycErrNoX" decorated_name="UINT32_T GetSysCamInCycErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="360" col="10"/>
+    </Function>
+    <Function id="AddCamInCycErrNo" name="ZbAAddCamInCycErrNoX" decorated_name="void AddCamInCycErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="366" col="6"/>
+    </Function>
+    <Function id="GetSysCamInCtrlAddErrNo" name="ZbHGetSysCamInCtrlAddErrNoX" decorated_name="UINT32_T GetSysCamInCtrlAddErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="381" col="10"/>
+    </Function>
+    <Function id="AddSysCamInCtrlAddErrNo" name="ZbHAddSysCamInCtrlAddErrNoX" decorated_name="void AddSysCamInCtrlAddErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="388" col="6"/>
+    </Function>
+    <Function id="GetSysCamInAlarmErrNo" name="ZbFGetSysCamInAlarmErrNoX" decorated_name="UINT32_T GetSysCamInAlarmErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="403" col="10"/>
+    </Function>
+    <Function id="AddSysCamInAlarmErrNo" name="ZbFAddSysCamInAlarmErrNoX" decorated_name="void AddSysCamInAlarmErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="410" col="6"/>
+    </Function>
+    <Function id="GetSysAomInputErrNo" name="ZbDGetSysAomInputErrNoX" decorated_name="UINT32_T GetSysAomInputErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="425" col="10"/>
+    </Function>
+    <Function id="AddSysAomInputErrNo" name="ZbDAddSysAomInputErrNoX" decorated_name="void AddSysAomInputErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="431" col="6"/>
+    </Function>
+    <Function id="GetSysAomInCycErrNo" name="ZbDGetSysAomInCycErrNoX" decorated_name="UINT32_T GetSysAomInCycErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="446" col="10"/>
+    </Function>
+    <Function id="AddSysAomInCycErrNo" name="ZbDAddSysAomInCycErrNoX" decorated_name="void AddSysAomInCycErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="452" col="6"/>
+    </Function>
+    <Function id="GetSysAomInCycHighErrNo" name="ZbHGetSysAomInCycHighErrNoX" decorated_name="UINT32_T GetSysAomInCycHighErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="467" col="10"/>
+    </Function>
+    <Function id="AddSysAomInCycHighErrNo" name="ZbHAddSysAomInCycHighErrNoX" decorated_name="void AddSysAomInCycHighErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="473" col="6"/>
+    </Function>
+    <Function id="GetSysAomInCoupErrNo" name="ZbEGetSysAomInCoupErrNoX" decorated_name="UINT32_T GetSysAomInCoupErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="488" col="10"/>
+    </Function>
+    <Function id="AddSysAomInCoupErrNo" name="ZbEAddSysAomInCoupErrNoX" decorated_name="void AddSysAomInCoupErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="495" col="6"/>
+    </Function>
+    <Function id="GetSysBaliseInErrNo" name="ZbDGetSysBaliseInErrNoX" decorated_name="UINT32_T GetSysBaliseInErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="510" col="10"/>
+    </Function>
+    <Function id="AddSysBaliseInErrNo" name="ZbDAddSysBaliseInErrNoX" decorated_name="void AddSysBaliseInErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="517" col="6"/>
+    </Function>
+    <Function id="GetSysBaliseInfoErrNo" name="ZbFGetSysBaliseInfoErrNoX" decorated_name="UINT32_T GetSysBaliseInfoErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="533" col="10"/>
+    </Function>
+    <Function id="AddSysBaliseInfoErrNo" name="ZbFAddSysBaliseInfoErrNoX" decorated_name="void AddSysBaliseInfoErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="540" col="6"/>
+    </Function>
+    <Function id="GetSysRadarInErrNo" name="ZbCGetSysRadarInErrNoX" decorated_name="UINT32_T GetSysRadarInErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="557" col="10"/>
+    </Function>
+    <Function id="AddSysRadarInErrNo" name="ZbCAddSysRadarInErrNoX" decorated_name="void AddSysRadarInErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="563" col="6"/>
+    </Function>
+    <Function id="GetSysPsdCtlErrNo" name="ZbBGetSysPsdCtlErrNoX" decorated_name="UINT32_T GetSysPsdCtlErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="580" col="10"/>
+    </Function>
+    <Function id="AddSysPsdCtlErrNo" name="ZbBAddSysPsdCtlErrNoX" decorated_name="void AddSysPsdCtlErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="587" col="6"/>
+    </Function>
+    <Function id="GetSysMaInfoErrNo" name="ZbBGetSysMaInfoErrNoX" decorated_name="UINT32_T GetSysMaInfoErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="603" col="10"/>
+    </Function>
+    <Function id="AddSysMaInfoErrNo" name="ZbBAddSysMaInfoErrNoX" decorated_name="void AddSysMaInfoErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="610" col="6"/>
+    </Function>
+    <Function id="GetSysWheelChkErrNo" name="ZbDGetSysWheelChkErrNoX" decorated_name="UINT32_T GetSysWheelChkErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="627" col="10"/>
+    </Function>
+    <Function id="AddSysWheelChkErrNo" name="ZbDAddSysWheelChkErrNoX" decorated_name="void AddSysWheelChkErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="635" col="6"/>
+    </Function>
+    <Function id="GetSysAutoReverseErrNo" name="ZbGGetSysAutoReverseErrNoX" decorated_name="UINT32_T GetSysAutoReverseErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="650" col="10"/>
+    </Function>
+    <Function id="AddSysAutoReverseErrNo" name="ZbGAddSysAutoReverseErrNoX" decorated_name="void AddSysAutoReverseErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="657" col="6"/>
+    </Function>
+    <Function id="GetSysSysCfgDataErrNo" name="ZbFGetSysSysCfgDataErrNoX" decorated_name="UINT32_T GetSysSysCfgDataErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="673" col="10"/>
+    </Function>
+    <Function id="AddSysCfgDataErrNo" name="ZbCAddSysCfgDataErrNoX" decorated_name="void AddSysCfgDataErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="680" col="6"/>
+    </Function>
+    <Function id="GetSysRemainRmRsn" name="ZbBGetSysRemainRmRsnX" decorated_name="UINT32_T GetSysRemainRmRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="698" col="10"/>
+    </Function>
+    <Function id="AddSysRemainRmRsn" name="ZbBAddSysRemainRmRsnX" decorated_name="void AddSysRemainRmRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="705" col="6"/>
+    </Function>
+    <Function id="GetSysTrainLsZeroRsn" name="ZbEGetSysTrainLsZeroRsnX" decorated_name="UINT32_T GetSysTrainLsZeroRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="721" col="10"/>
+    </Function>
+    <Function id="AddSysTrainLsZeroRsn" name="ZbEAddSysTrainLsZeroRsnX" decorated_name="void AddSysTrainLsZeroRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="729" col="6"/>
+    </Function>
+    <Function id="GetSysLocInvalidRsn" name="ZbDGetSysLocInvalidRsnX" decorated_name="UINT32_T GetSysLocInvalidRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="744" col="10"/>
+    </Function>
+    <Function id="AddSysLocInvalidRsn" name="ZbDAddSysLocInvalidRsnX" decorated_name="void AddSysLocInvalidRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="751" col="6"/>
+    </Function>
+    <Function id="GetSysTrainBackSecRsn" name="ZbFGetSysTrainBackSecRsnX" decorated_name="UINT32_T GetSysTrainBackSecRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="766" col="10"/>
+    </Function>
+    <Function id="AddSysTrainBackSecRsn" name="ZbFAddSysTrainBackSecRsnX" decorated_name="void AddSysTrainBackSecRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="773" col="6"/>
+    </Function>
+    <Function id="GetSysArRelayOptLowRsn" name="ZbGGetSysArRelayOptLowRsnX" decorated_name="UINT32_T GetSysArRelayOptLowRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="788" col="10"/>
+    </Function>
+    <Function id="AddSysArRelayOptLowRsn" name="ZbGAddSysArRelayOptLowRsnX" decorated_name="void AddSysArRelayOptLowRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="795" col="6"/>
+    </Function>
+    <Function id="GetSysArRelayOptHighRsn" name="ZbHGetSysArRelayOptHighRsnX" decorated_name="UINT32_T GetSysArRelayOptHighRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="810" col="10"/>
+    </Function>
+    <Function id="AddSysArRelayOptHighRsn" name="ZbHAddSysArRelayOptHighRsnX" decorated_name="void AddSysArRelayOptHighRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="816" col="6"/>
+    </Function>
+    <Function id="GetSysRdModeInitRsn" name="ZbDGetSysRdModeInitRsnX" decorated_name="UINT32_T GetSysRdModeInitRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="831" col="10"/>
+    </Function>
+    <Function id="AddSysRdModeInitRsn" name="ZbDAddSysRdModeInitRsnX" decorated_name="void AddSysRdModeInitRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="837" col="6"/>
+    </Function>
+    <Function id="GetSysMaInfoInitRsn" name="ZbDGetSysMaInfoInitRsnX" decorated_name="UINT32_T GetSysMaInfoInitRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="853" col="10"/>
+    </Function>
+    <Function id="AddSysMaInfoInitRsn" name="ZbDAddSysMaInfoInitRsnX" decorated_name="void AddSysMaInfoInitRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="861" col="6"/>
+    </Function>
+    <Function id="GetSysFamFailRsn" name="ZbAGetSysFamFailRsnX" decorated_name="UINT32_T GetSysFamFailRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="877" col="10"/>
+    </Function>
+    <Function id="SetSysFamFailRsn" name="ZbASetSysFamFailRsnX" decorated_name="void SetSysFamFailRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="883" col="6"/>
+    </Function>
+    <Function id="GetSysFamExitLowRsn" name="ZbDGetSysFamExitLowRsnX" decorated_name="UINT32_T GetSysFamExitLowRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="889" col="10"/>
+    </Function>
+    <Function id="SetSysFamExitLowRsn" name="ZbDSetSysFamExitLowRsnX" decorated_name="void SetSysFamExitLowRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="895" col="6"/>
+    </Function>
+    <Function id="GetSysFamExitHighRsn" name="ZbEGetSysFamExitHighRsnX" decorated_name="UINT32_T GetSysFamExitHighRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="901" col="10"/>
+    </Function>
+    <Function id="SetSysFamExitHighRsn" name="ZbESetSysFamExitHighRsnX" decorated_name="void SetSysFamExitHighRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="907" col="6"/>
+    </Function>
+    <Function id="GetSysCamExitRsn" name="ZbAGetSysCamExitRsnX" decorated_name="UINT32_T GetSysCamExitRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="914" col="10"/>
+    </Function>
+    <Function id="SetSysCamExitRsn" name="ZbASetSysCamExitRsnX" decorated_name="void SetSysCamExitRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="920" col="6"/>
+    </Function>
+    <Function id="GetSysIdleNoSyncRsn" name="ZbDGetSysIdleNoSyncRsnX" decorated_name="UINT32_T GetSysIdleNoSyncRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="926" col="10"/>
+    </Function>
+    <Function id="SetSysIdleNoSyncRsn" name="ZbDSetSysIdleNoSyncRsnX" decorated_name="void SetSysIdleNoSyncRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="932" col="6"/>
+    </Function>
+    <Function id="GetSysAtpHealStaRsn" name="ZbDGetSysAtpHealStaRsnX" decorated_name="UINT32_T GetSysAtpHealStaRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="938" col="10"/>
+    </Function>
+    <Function id="SetSysAtpHealStaErrNoRsn" name="ZbISetSysAtpHealStaErrNoRsnX" decorated_name="void SetSysAtpHealStaErrNoRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="944" col="6"/>
+    </Function>
+    <Function id="GetSysActToSaftyRsn" name="ZbDGetSysActToSaftyRsnX" decorated_name="UINT32_T GetSysActToSaftyRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="950" col="10"/>
+    </Function>
+    <Function id="SetSysActToSaftyRsn" name="ZbDSetSysActToSaftyRsnX" decorated_name="void SetSysActToSaftyRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="956" col="6"/>
+    </Function>
+    <Function id="GetSysStandbyToActRsn" name="ZbFGetSysStandbyToActRsnX" decorated_name="UINT32_T GetSysStandbyToActRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="962" col="10"/>
+    </Function>
+    <Function id="SetSysStandbyToActRsn" name="ZbFSetSysStandbyToActRsnX" decorated_name="void SetSysStandbyToActRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="968" col="6"/>
+    </Function>
+    <Function id="GetSysAtpCtrlStaRsn" name="ZbDGetSysAtpCtrlStaRsnX" decorated_name="UINT32_T GetSysAtpCtrlStaRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="974" col="10"/>
+    </Function>
+    <Function id="SetSysAtpCtrlStaRsn" name="ZbDSetSysAtpCtrlStaRsnX" decorated_name="void SetSysAtpCtrlStaRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="980" col="6"/>
+    </Function>
+    <Function id="GetSysTacInGalInErrNo" name="ZbFGetSysTacInGalInErrNoX" decorated_name="UINT32_T GetSysTacInGalInErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="986" col="10"/>
+    </Function>
+    <Function id="AddSysTacInGalInErrNo" name="ZbFAddSysTacInGalInErrNoX" decorated_name="void AddSysTacInGalInErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="992" col="6"/>
+    </Function>
+    <Function id="GetSysTacInGalOutErrNo" name="ZbGGetSysTacInGalOutErrNoX" decorated_name="UINT32_T GetSysTacInGalOutErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1007" col="10"/>
+    </Function>
+    <Function id="AddSysTacInGalOutErrNo" name="ZbGAddSysTacInGalOutErrNoX" decorated_name="void AddSysTacInGalOutErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1013" col="6"/>
+    </Function>
+    <Function id="GetSysTacInputErrNo" name="ZbDGetSysTacInputErrNoX" decorated_name="UINT32_T GetSysTacInputErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1028" col="10"/>
+    </Function>
+    <Function id="AddSysTacInputErrNo" name="ZbDAddSysTacInputErrNoX" decorated_name="void AddSysTacInputErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1034" col="6"/>
+    </Function>
+    <Function id="GetSysTacInAtoCmdErrNo" name="ZbGGetSysTacInAtoCmdErrNoX" decorated_name="UINT32_T GetSysTacInAtoCmdErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1050" col="10"/>
+    </Function>
+    <Function id="AddSysTacInAtoCmdErrNo" name="ZbGAddSysTacInAtoCmdErrNoX" decorated_name="void AddSysTacInAtoCmdErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1057" col="6"/>
+    </Function>
+    <Function id="GetSysTacInTrainLowErrNo" name="ZbIGetSysTacInTrainLowErrNoX" decorated_name="UINT32_T GetSysTacInTrainLowErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1072" col="10"/>
+    </Function>
+    <Function id="AddSysTacInTrainLowErrNo" name="ZbIAddSysTacInTrainLowErrNoX" decorated_name="void AddSysTacInTrainLowErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1078" col="6"/>
+    </Function>
+    <Function id="GetSysTacInTrainHighErrNo" name="ZbJGetSysTacInTrainHighErrNoX" decorated_name="UINT32_T GetSysTacInTrainHighErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1093" col="10"/>
+    </Function>
+    <Function id="AddSysTacInTrainHighErrNo" name="ZbJAddSysTacInTrainHighErrNoX" decorated_name="void AddSysTacInTrainHighErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1099" col="6"/>
+    </Function>
+    <Function id="GetSysTacInLogOutErrNo" name="ZbGGetSysTacInLogOutErrNoX" decorated_name="UINT32_T GetSysTacInLogOutErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1115" col="10"/>
+    </Function>
+    <Function id="AddSysTacInLogOutErrNo" name="ZbGAddSysTacInLogOutErrNoX" decorated_name="void AddSysTacInLogOutErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1121" col="6"/>
+    </Function>
+    <Function id="GetSysTacInSpeCtrlErrNo" name="ZbHGetSysTacInSpeCtrlErrNoX" decorated_name="UINT32_T GetSysTacInSpeCtrlErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1136" col="10"/>
+    </Function>
+    <Function id="AddSysTacInSpeCtrlErrNo" name="ZbHAddSysTacInSpeCtrlErrNoX" decorated_name="void AddSysTacInSpeCtrlErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1142" col="6"/>
+    </Function>
+    <Function id="GetSysTacInWashCarErrNo" name="ZbHGetSysTacInWashCarErrNoX" decorated_name="UINT32_T GetSysTacInWashCarErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1158" col="10"/>
+    </Function>
+    <Function id="AddSysTacInWashCarErrNo" name="ZbHAddSysTacInWashCarErrNoX" decorated_name="void AddSysTacInWashCarErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1164" col="6"/>
+    </Function>
+    <Function id="GetSysTacInPlatCtrlErrNo" name="ZbIGetSysTacInPlatCtrlErrNoX" decorated_name="UINT32_T GetSysTacInPlatCtrlErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1179" col="10"/>
+    </Function>
+    <Function id="AddSysTacInPlatCtrlErrNo" name="ZbIAddSysTacInPlatCtrlErrNoX" decorated_name="void AddSysTacInPlatCtrlErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1185" col="6"/>
+    </Function>
+    <Function id="GetSysTacInPsdIsoErrNo" name="ZbGGetSysTacInPsdIsoErrNoX" decorated_name="UINT32_T GetSysTacInPsdIsoErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1201" col="10"/>
+    </Function>
+    <Function id="AddSysTacInPsdIsoErrNo" name="ZbGAddSysTacInPsdIsoErrNoX" decorated_name="void AddSysTacInPsdIsoErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1207" col="6"/>
+    </Function>
+    <Function id="GetSysTacInCtrlAddErrNo" name="ZbHGetSysTacInCtrlAddErrNoX" decorated_name="UINT32_T GetSysTacInCtrlAddErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1222" col="10"/>
+    </Function>
+    <Function id="AddSysTacInCtrlAddErrNo" name="ZbHAddSysTacInCtrlAddErrNoX" decorated_name="void AddSysTacInCtrlAddErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1228" col="6"/>
+    </Function>
+    <Function id="GetSysTacInTimeErrNo" name="ZbEGetSysTacInTimeErrNoX" decorated_name="UINT32_T GetSysTacInTimeErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1243" col="10"/>
+    </Function>
+    <Function id="AddSysTacInTimeErrNo" name="ZbEAddSysTacInTimeErrNoX" decorated_name="void AddSysTacInTimeErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1249" col="6"/>
+    </Function>
+    <Function id="GetSysTacInFaoErrNo" name="ZbDGetSysTacInFaoErrNoX" decorated_name="UINT32_T GetSysTacInFaoErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1265" col="10"/>
+    </Function>
+    <Function id="AddSysTacInFaoErrNo" name="ZbDAddSysTacInFaoErrNoX" decorated_name="void AddSysTacInFaoErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1271" col="6"/>
+    </Function>
+    <Function id="GetSysTacInVendorDefHighErrNo" name="ZbNGetSysTacInVendorDefHighErrNoX" decorated_name="UINT32_T GetSysTacInVendorDefHighErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1287" col="10"/>
+    </Function>
+    <Function id="AddSysTacInVendorDefHighErrNo" name="ZbNAddSysTacInVendorDefHighErrNoX" decorated_name="void AddSysTacInVendorDefHighErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1293" col="6"/>
+    </Function>
+    <Function id="GetSysTacInVendorDefLowErrNo" name="ZbMGetSysTacInVendorDefLowErrNoX" decorated_name="UINT32_T GetSysTacInVendorDefLowErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1308" col="10"/>
+    </Function>
+    <Function id="AddSysTacInVendorDefLowErrNo" name="ZbMAddSysTacInVendorDefLowErrNoX" decorated_name="void AddSysTacInVendorDefLowErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1314" col="6"/>
+    </Function>
+    <Function id="GetSysTacInCouplingErrNo" name="ZbIGetSysTacInCouplingErrNoX" decorated_name="UINT32_T GetSysTacInCouplingErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1329" col="10"/>
+    </Function>
+    <Function id="AddSysTacInCouplingErrNo" name="ZbIAddSysTacInCouplingErrNoX" decorated_name="void AddSysTacInCouplingErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1335" col="6"/>
+    </Function>
+    <Function id="GetTacInputCrcCheckErrRsn" name="ZbJGetTacInputCrcCheckErrRsnX" decorated_name="UINT32_T GetTacInputCrcCheckErrRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1350" col="10"/>
+    </Function>
+    <Function id="AddTacInputCrcCheckErrRsn" name="ZbJAddTacInputCrcCheckErrRsnX" decorated_name="void AddTacInputCrcCheckErrRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1357" col="6"/>
+    </Function>
+    <Function id="GetSysMarshallingErrNo" name="ZbGGetSysMarshallingErrNoX" decorated_name="UINT32_T GetSysMarshallingErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1372" col="10"/>
+    </Function>
+    <Function id="AddSysMarshallingErrNo" name="ZbGAddSysMarshallingErrNoX" decorated_name="void AddSysMarshallingErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1379" col="6"/>
+    </Function>
+    <Function id="GetSysMarshallConErrNo" name="ZbGGetSysMarshallConErrNoX" decorated_name="UINT32_T GetSysMarshallConErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1394" col="10"/>
+    </Function>
+    <Function id="AddSysMarshallConErrNo" name="ZbGAddSysMarshallConErrNoX" decorated_name="void AddSysMarshallConErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1400" col="6"/>
+    </Function>
+    <Function id="GetSysCoupleStaErrNo" name="ZbEGetSysCoupleStaErrNoX" decorated_name="UINT32_T GetSysCoupleStaErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1415" col="10"/>
+    </Function>
+    <Function id="AddSysCoupleStaErrNo" name="ZbEAddSysCoupleStaErrNoX" decorated_name="void AddSysCoupleStaErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1421" col="6"/>
+    </Function>
+    <Function id="GetSysTrainDevSttsErrNo" name="ZbHGetSysTrainDevSttsErrNoX" decorated_name="UINT32_T GetSysTrainDevSttsErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1436" col="10"/>
+    </Function>
+    <Function id="AddSysTrainDevSttsErrNo" name="ZbHAddSysTrainDevSttsErrNoX" decorated_name="void AddSysTrainDevSttsErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1442" col="6"/>
+    </Function>
+    <Function id="GetSysJumpErrNo" name="ZPGetSysJumpErrNoX" decorated_name="UINT32_T GetSysJumpErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1457" col="10"/>
+    </Function>
+    <Function id="AddSysJumpErrNo" name="ZPAddSysJumpErrNoX" decorated_name="void AddSysJumpErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1463" col="6"/>
+    </Function>
+    <Function id="GetSysCarWashErrNo" name="ZbCGetSysCarWashErrNoX" decorated_name="UINT32_T GetSysCarWashErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1478" col="10"/>
+    </Function>
+    <Function id="AddSysCarWashErrNo" name="ZbCAddSysCarWashErrNoX" decorated_name="void AddSysCarWashErrNo(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1484" col="6"/>
+    </Function>
+    <Function id="GetSysEbLowRsn" name="ZOGetSysEbLowRsnX" decorated_name="UINT32_T GetSysEbLowRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1499" col="10"/>
+    </Function>
+    <Function id="AddRunEbLowRsn" name="ZOAddRunEbLowRsnX" decorated_name="void AddRunEbLowRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1505" col="6"/>
+    </Function>
+    <Function id="SetSysEbLowRsn" name="ZOSetSysEbLowRsnX" decorated_name="void SetSysEbLowRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1520" col="6"/>
+    </Function>
+    <Function id="GetSysEbHighRsn" name="ZPGetSysEbHighRsnX" decorated_name="UINT32_T GetSysEbHighRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1527" col="10"/>
+    </Function>
+    <Function id="AddSysEbHighRsn" name="ZPAddSysEbHighRsnX" decorated_name="void AddSysEbHighRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1534" col="6"/>
+    </Function>
+    <Function id="SetSysEbHighRsn" name="ZPSetSysEbHighRsnX" decorated_name="void SetSysEbHighRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1549" col="6"/>
+    </Function>
+    <Function id="GetSysEbFaoLowRsn" name="ZbBGetSysEbFaoLowRsnX" decorated_name="UINT32_T GetSysEbFaoLowRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1555" col="10"/>
+    </Function>
+    <Function id="AddSysEbFaoLowRsn" name="ZbBAddSysEbFaoLowRsnX" decorated_name="void AddSysEbFaoLowRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1561" col="6"/>
+    </Function>
+    <Function id="SetSysEbFaoLowRsn" name="ZbBSetSysEbFaoLowRsnX" decorated_name="void SetSysEbFaoLowRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1576" col="6"/>
+    </Function>
+    <Function id="GetSysEbFaoHighRsn" name="ZbCGetSysEbFaoHighRsnX" decorated_name="UINT32_T GetSysEbFaoHighRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1582" col="10"/>
+    </Function>
+    <Function id="AddSysEbFaoHighRsn" name="ZbCAddSysEbFaoHighRsnX" decorated_name="void AddSysEbFaoHighRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1588" col="6"/>
+    </Function>
+    <Function id="SetSysEbFaoHighRsn" name="ZbCSetSysEbFaoHighRsnX" decorated_name="void SetSysEbFaoHighRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1603" col="6"/>
+    </Function>
+    <Function id="GetSysCutTractionRsn" name="ZbEGetSysCutTractionRsnX" decorated_name="UINT32_T GetSysCutTractionRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1609" col="10"/>
+    </Function>
+    <Function id="AddSysCutTractionRsn" name="ZbEAddSysCutTractionRsnX" decorated_name="void AddSysCutTractionRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1616" col="6"/>
+    </Function>
+    <Function id="SetSysCutTractionRsn" name="ZbESetSysCutTractionRsnX" decorated_name="void SetSysCutTractionRsn(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1631" col="6"/>
+    </Function>
+    <Function id="GetSysSleepFultRsn" name="ZbCGetSysSleepFultRsnX" decorated_name="UINT32_T GetSysSleepFultRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1637" col="10"/>
+    </Function>
+    <Function id="AddSysSleepFultRsn" name="ZbCAddSysSleepFultRsnX" decorated_name="void AddSysSleepFultRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1643" col="6"/>
+    </Function>
+    <Function id="GetSysSleepConditionRsn" name="ZbHGetSysSleepConditionRsnX" decorated_name="UINT32_T GetSysSleepConditionRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1660" col="10"/>
+    </Function>
+    <Function id="AddSysSleepConditionRsn" name="ZbHAddSysSleepConditionRsnX" decorated_name="void AddSysSleepConditionRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1666" col="6"/>
+    </Function>
+    <Function id="GetSysAwakeFultLowRsn" name="ZbFGetSysAwakeFultLowRsnX" decorated_name="UINT32_T GetSysAwakeFultLowRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1684" col="10"/>
+    </Function>
+    <Function id="AddSysAwakeFultLowRsn" name="ZbFAddSysAwakeFultLowRsnX" decorated_name="void AddSysAwakeFultLowRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1690" col="6"/>
+    </Function>
+    <Function id="GetSysAwakeFultHighRsn" name="ZbGGetSysAwakeFultHighRsnX" decorated_name="UINT32_T GetSysAwakeFultHighRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1706" col="10"/>
+    </Function>
+    <Function id="AddSysAwakeFultHighRsn" name="ZbGAddSysAwakeFultHighRsnX" decorated_name="void AddSysAwakeFultHighRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1712" col="6"/>
+    </Function>
+    <Function id="GetSysAwakeInitLowRsn" name="ZbFGetSysAwakeInitLowRsnX" decorated_name="UINT32_T GetSysAwakeInitLowRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1728" col="10"/>
+    </Function>
+    <Function id="AddSysAwakeInitLowRsn" name="ZbFAddSysAwakeInitLowRsnX" decorated_name="void AddSysAwakeInitLowRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1733" col="6"/>
+    </Function>
+    <Function id="GetSysAwakeInitHighRsn" name="ZbGGetSysAwakeInitHighRsnX" decorated_name="UINT32_T GetSysAwakeInitHighRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1749" col="10"/>
+    </Function>
+    <Function id="AddSysAwakeInitHighRsn" name="ZbGAddSysAwakeInitHighRsnX" decorated_name="void AddSysAwakeInitHighRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1754" col="6"/>
+    </Function>
+    <Function id="GetSysAwakeObcChkRsn" name="ZbEGetSysAwakeObcChkRsnX" decorated_name="UINT32_T GetSysAwakeObcChkRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1770" col="10"/>
+    </Function>
+    <Function id="AddSysAwakeObcChkRsn" name="ZbEAddSysAwakeObcChkRsnX" decorated_name="void AddSysAwakeObcChkRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1775" col="6"/>
+    </Function>
+    <Function id="GetSysAwakeTestReqRsn" name="ZbFGetSysAwakeTestReqRsnX" decorated_name="UINT32_T GetSysAwakeTestReqRsn(void)">
+      <definition type="orig" source="code" file_id="1" line="1791" col="10"/>
+    </Function>
+    <Function id="AddSysAwakeTestReqRsn" name="ZbFAddSysAwakeTestReqRsnX" decorated_name="void AddSysAwakeTestReqRsn(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1796" col="6"/>
+    </Function>
+    <Function id="GetSysDeviceFaultErrNo" name="ZbGGetSysDeviceFaultErrNoX" decorated_name="UINT32_T GetSysDeviceFaultErrNo(void)">
+      <definition type="orig" source="code" file_id="1" line="1812" col="10"/>
+    </Function>
+    <Function id="AddSysDeviceFaultErrNo" name="ZbGAddSysDeviceFaultErrNoX" decorated_name="void AddSysDeviceFaultErrNo(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="1817" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

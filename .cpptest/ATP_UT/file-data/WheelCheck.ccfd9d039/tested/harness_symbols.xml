@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\WheelChkManage\WheelCheck.c" id="1"/>
+    <Function id="GetShortFromBuffer" name="ZbCGetShortFromBufferX" decorated_name="UINT16_T GetShortFromBuffer(const UINT8_T *, EndianOrderType_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetShortFromBuffer (const UINT8_T  bufferPtr[], EndianOrderType_T endianOrder) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetShortFromBuffer (const UINT8_T  bufferPtr[], EndianOrderType_T endianOrder) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>Endian.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="ShortToChar" name="ZLShortToCharX" decorated_name="void ShortToChar(UINT16_T, UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_ShortToChar (UINT16_T value, UINT8_T  bufferPtr[]) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void ShortToChar (UINT16_T value, UINT8_T  bufferPtr[]) </orig_declaration>
+         <user_decl_header>Endian.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTeethANum" name="ZMGetTeethANumX" decorated_name="UINT16_T GetTeethANum(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTeethANum (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTeethANum () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>AtpMeaSpeedConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTeethBNum" name="ZMGetTeethBNumX" decorated_name="UINT16_T GetTeethBNum(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTeethBNum (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTeethBNum () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>AtpMeaSpeedConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetOpgATotalPulse" name="ZbBGetOpgATotalPulseX" decorated_name="UINT32_T GetOpgATotalPulse(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetOpgATotalPulse (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetOpgATotalPulse () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainOpgData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetOpgBTotalPulse" name="ZbBGetOpgBTotalPulseX" decorated_name="UINT32_T GetOpgBTotalPulse(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetOpgBTotalPulse (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetOpgBTotalPulse () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainOpgData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetFusionSpdStatus" name="ZbCGetFusionSpdStatusX" decorated_name="UINT8_T GetFusionSpdStatus(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetFusionSpdStatus (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetFusionSpdStatus () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainOpgData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRunDrvMode" name="ZNGetRunDrvModeX" decorated_name="UINT8_T GetRunDrvMode(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRunDrvMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRunDrvMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetConfigCycleTime" name="ZbCGetConfigCycleTimeX" decorated_name="UINT16_T GetConfigCycleTime(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetConfigCycleTime (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetConfigCycleTime () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainInitAtpLongDevName" name="ZbKGetTrainInitAtpLongDevNameX" decorated_name="UINT32_T GetTrainInitAtpLongDevName(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainInitAtpLongDevName (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetTrainInitAtpLongDevName () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>TrainInitData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainDevInfo" name="ZPGetTrainDevInfoX" decorated_name="TrainDevInfoStruct_T GetTrainDevInfo(UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE TrainDevInfoStruct_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainDevInfo (UINT32_T devId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE TrainDevInfoStruct_T GetTrainDevInfo (UINT32_T devId) </orig_declaration>
+         <return_expression>static TrainDevInfoStruct_T _MT_svar1;    return _MT_svar1;</return_expression>
+         <user_decl_header>DevInfo.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="FramWriteData" name="ZNFramWriteDataX" decorated_name="UINT8_T FramWriteData(UINT8_T *, UINT16_T, UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_FramWriteData (UINT8_T  data[], UINT16_T type, UINT16_T len) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T FramWriteData (UINT8_T  data[], UINT16_T type, UINT16_T len) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AppInterface.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="FramReadData" name="ZMFramReadDataX" decorated_name="UINT8_T FramReadData(UINT16_T, UINT16_T, UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_FramReadData (UINT16_T type, UINT16_T len, UINT8_T  data[]) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T FramReadData (UINT16_T type, UINT16_T len, UINT8_T  data[]) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AppInterface.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpFunWhlChk" name="ZPGetAtpFunWhlChkX" decorated_name="UINT8_T GetAtpFunWhlChk(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpFunWhlChk (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetAtpFunWhlChk () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpFunConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddSysWheelChkErrNo" name="ZbDAddSysWheelChkErrNoX" decorated_name="void AddSysWheelChkErrNo(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddSysWheelChkErrNo (const UINT32_T wheelChkErrNo) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddSysWheelChkErrNo (const UINT32_T wheelChkErrNo) </orig_declaration>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainStopSteady" name="ZbCGetTrainStopSteadyX" decorated_name="UINT8_T GetTrainStopSteady(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainStopSteady (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainStopSteady () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaWhlSetBtn" name="ZbBGetInMeaWhlSetBtnX" decorated_name="UINT8_T GetInMeaWhlSetBtn(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaWhlSetBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaWhlSetBtn () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetInMeaWhlSetBtnLast" name="ZbFGetInMeaWhlSetBtnLastX" decorated_name="UINT8_T GetInMeaWhlSetBtnLast(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetInMeaWhlSetBtnLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetInMeaWhlSetBtnLast () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>InputDigitalMeasureData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpWheelDiameterMin" name="ZbGGetAtpWheelDiameterMinX" decorated_name="UINT16_T GetAtpWheelDiameterMin(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpWheelDiameterMin (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetAtpWheelDiameterMin () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>AtpWheelConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpWheelDiameterMax" name="ZbGGetAtpWheelDiameterMaxX" decorated_name="UINT16_T GetAtpWheelDiameterMax(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpWheelDiameterMax (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetAtpWheelDiameterMax () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>AtpWheelConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpWheelDiameterChg" name="ZbGGetAtpWheelDiameterChgX" decorated_name="UINT8_T GetAtpWheelDiameterChg(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpWheelDiameterChg (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetAtpWheelDiameterChg () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpWheelConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlAData" name="ZLGetWhlADataX" decorated_name="WheelInfoStruct_T * GetWhlAData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE WheelInfoStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlAData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE WheelInfoStruct_T * GetWhlAData () </orig_declaration>
+         <return_expression>return (WheelInfoStruct_T *)0;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBData" name="ZLGetWhlBDataX" decorated_name="WheelInfoStruct_T * GetWhlBData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE WheelInfoStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE WheelInfoStruct_T * GetWhlBData () </orig_declaration>
+         <return_expression>return (WheelInfoStruct_T *)0;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlPreBaliseId" name="ZbBGetWhlPreBaliseIdX" decorated_name="UINT32_T GetWhlPreBaliseId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlPreBaliseId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetWhlPreBaliseId () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlPreBaliseId" name="ZbBSetWhlPreBaliseIdX" decorated_name="void SetWhlPreBaliseId(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlPreBaliseId (const UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlPreBaliseId (const UINT32_T baliseId) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlCurBaliseId" name="ZbBGetWhlCurBaliseIdX" decorated_name="UINT32_T GetWhlCurBaliseId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlCurBaliseId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetWhlCurBaliseId () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlCurBaliseId" name="ZbBSetWhlCurBaliseIdX" decorated_name="void SetWhlCurBaliseId(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlCurBaliseId (const UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlCurBaliseId (const UINT32_T baliseId) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBaliDisReal" name="ZbBGetWhlBaliDisRealX" decorated_name="UINT32_T GetWhlBaliDisReal(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBaliDisReal (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetWhlBaliDisReal () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlBaliDisReal" name="ZbBSetWhlBaliDisRealX" decorated_name="void SetWhlBaliDisReal(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlBaliDisReal (const UINT32_T baliDisReal) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlBaliDisReal (const UINT32_T baliDisReal) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlAChkSta" name="ZNGetWhlAChkStaX" decorated_name="WcState_T GetWhlAChkSta(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE WcState_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlAChkSta (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE WcState_T GetWhlAChkSta () </orig_declaration>
+         <return_expression>return WHLCHK_NOTSTART;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlAChkSta" name="ZNSetWhlAChkStaX" decorated_name="void SetWhlAChkSta(const WcState_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlAChkSta (const WcState_T chkSta) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlAChkSta (const WcState_T chkSta) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlAChkStaLast" name="ZbBGetWhlAChkStaLastX" decorated_name="WcState_T GetWhlAChkStaLast(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE WcState_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlAChkStaLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE WcState_T GetWhlAChkStaLast () </orig_declaration>
+         <return_expression>return WHLCHK_NOTSTART;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlAChgFlag" name="ZOSetWhlAChgFlagX" decorated_name="void SetWhlAChgFlag(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlAChgFlag (UINT8_T flag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlAChgFlag (UINT8_T flag) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlACaliErrNum" name="ZbBGetWhlACaliErrNumX" decorated_name="UINT8_T GetWhlACaliErrNum(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlACaliErrNum (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetWhlACaliErrNum () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlACaliErrNum" name="ZbBSetWhlACaliErrNumX" decorated_name="void SetWhlACaliErrNum(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlACaliErrNum (UINT8_T num) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlACaliErrNum (UINT8_T num) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlACaliErrEb" name="ZbASetWhlACaliErrEbX" decorated_name="void SetWhlACaliErrEb(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlACaliErrEb (UINT8_T ebSta) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlACaliErrEb (UINT8_T ebSta) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlAPulseDis" name="ZPSetWhlAPulseDisX" decorated_name="void SetWhlAPulseDis(UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlAPulseDis (UINT16_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlAPulseDis (UINT16_T value) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlADefaultWheelVal" name="ZbGGetWhlADefaultWheelValX" decorated_name="UINT16_T GetWhlADefaultWheelVal(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlADefaultWheelVal (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetWhlADefaultWheelVal () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlAWheelVal" name="ZPGetWhlAWheelValX" decorated_name="UINT16_T GetWhlAWheelVal(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlAWheelVal (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetWhlAWheelVal () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddWhlAWheelVal" name="ZPAddWhlAWheelValX" decorated_name="void AddWhlAWheelVal(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddWhlAWheelVal (const UINT16_T wheelVal) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddWhlAWheelVal (const UINT16_T wheelVal) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlAPrePulseCount" name="ZbESetWhlAPrePulseCountX" decorated_name="void SetWhlAPrePulseCount(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlAPrePulseCount (const UINT32_T pulseCount) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlAPrePulseCount (const UINT32_T pulseCount) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlACurPulseCount" name="ZbEGetWhlACurPulseCountX" decorated_name="UINT32_T GetWhlACurPulseCount(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlACurPulseCount (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetWhlACurPulseCount () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlACurPulseCount" name="ZbESetWhlACurPulseCountX" decorated_name="void SetWhlACurPulseCount(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlACurPulseCount (const UINT32_T pulseCount) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlACurPulseCount (const UINT32_T pulseCount) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlAPulseCount" name="ZbBGetWhlAPulseCountX" decorated_name="UINT32_T GetWhlAPulseCount(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlAPulseCount (UINT8_T index) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetWhlAPulseCount (UINT8_T index) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddWhlAPulseCount" name="ZbBAddWhlAPulseCountX" decorated_name="void AddWhlAPulseCount(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddWhlAPulseCount (const UINT32_T pulseCount) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddWhlAPulseCount (const UINT32_T pulseCount) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBChkSta" name="ZNGetWhlBChkStaX" decorated_name="WcState_T GetWhlBChkSta(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE WcState_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBChkSta (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE WcState_T GetWhlBChkSta () </orig_declaration>
+         <return_expression>return WHLCHK_NOTSTART;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlBChkSta" name="ZNSetWhlBChkStaX" decorated_name="void SetWhlBChkSta(const WcState_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlBChkSta (const WcState_T chkSta) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlBChkSta (const WcState_T chkSta) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBChkStaLast" name="ZbBGetWhlBChkStaLastX" decorated_name="WcState_T GetWhlBChkStaLast(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE WcState_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBChkStaLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE WcState_T GetWhlBChkStaLast () </orig_declaration>
+         <return_expression>return WHLCHK_NOTSTART;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlBChgFlag" name="ZOSetWhlBChgFlagX" decorated_name="void SetWhlBChgFlag(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlBChgFlag (UINT8_T flag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlBChgFlag (UINT8_T flag) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBCaliErrNum" name="ZbBGetWhlBCaliErrNumX" decorated_name="UINT8_T GetWhlBCaliErrNum(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBCaliErrNum (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetWhlBCaliErrNum () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlBCaliErrNum" name="ZbBSetWhlBCaliErrNumX" decorated_name="void SetWhlBCaliErrNum(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlBCaliErrNum (UINT8_T num) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlBCaliErrNum (UINT8_T num) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlBCaliErrEb" name="ZbASetWhlBCaliErrEbX" decorated_name="void SetWhlBCaliErrEb(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlBCaliErrEb (UINT8_T ebSta) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlBCaliErrEb (UINT8_T ebSta) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlBPulseDis" name="ZPSetWhlBPulseDisX" decorated_name="void SetWhlBPulseDis(UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlBPulseDis (UINT16_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlBPulseDis (UINT16_T value) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBDefaultWheelVal" name="ZbGGetWhlBDefaultWheelValX" decorated_name="UINT16_T GetWhlBDefaultWheelVal(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBDefaultWheelVal (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetWhlBDefaultWheelVal () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBWheelVal" name="ZPGetWhlBWheelValX" decorated_name="UINT16_T GetWhlBWheelVal(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBWheelVal (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetWhlBWheelVal () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddWhlBWheelVal" name="ZPAddWhlBWheelValX" decorated_name="void AddWhlBWheelVal(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddWhlBWheelVal (const UINT16_T wheelVal) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddWhlBWheelVal (const UINT16_T wheelVal) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlBPrePulseCount" name="ZbESetWhlBPrePulseCountX" decorated_name="void SetWhlBPrePulseCount(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlBPrePulseCount (const UINT32_T pulseCount) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlBPrePulseCount (const UINT32_T pulseCount) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBCurPulseCount" name="ZbEGetWhlBCurPulseCountX" decorated_name="UINT32_T GetWhlBCurPulseCount(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBCurPulseCount (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetWhlBCurPulseCount () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetWhlBCurPulseCount" name="ZbESetWhlBCurPulseCountX" decorated_name="void SetWhlBCurPulseCount(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetWhlBCurPulseCount (const UINT32_T pulseCount) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetWhlBCurPulseCount (const UINT32_T pulseCount) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWhlBPulseCount" name="ZbBGetWhlBPulseCountX" decorated_name="UINT32_T GetWhlBPulseCount(UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWhlBPulseCount (UINT8_T index) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetWhlBPulseCount (UINT8_T index) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddWhlBPulseCount" name="ZbBAddWhlBPulseCountX" decorated_name="void AddWhlBPulseCount(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddWhlBPulseCount (const UINT32_T pulseCount) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddWhlBPulseCount (const UINT32_T pulseCount) </orig_declaration>
+         <user_decl_header>WheelData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBalCurBaliseId" name="ZbBGetBalCurBaliseIdX" decorated_name="UINT32_T GetBalCurBaliseId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBalCurBaliseId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetBalCurBaliseId () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliIdDelayTime" name="ZbCGetBaliIdDelayTimeX" decorated_name="INT32_T GetBaliIdDelayTime(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliIdDelayTime (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT32_T GetBaliIdDelayTime () </orig_declaration>
+         <return_expression>return 0;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliseAttribute" name="ZbCGetBaliseAttributeX" decorated_name="UINT8_T GetBaliseAttribute(UINT32_T, UINT16_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliseAttribute (UINT32_T baliseId, UINT16_T * baliAttri) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetBaliseAttribute (UINT32_T baliseId, UINT16_T * baliAttri) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DmuAtpDataHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetDistBetwBalise" name="ZbBGetDistBetwBaliseX" decorated_name="UINT8_T GetDistBetwBalise(const UINT32_T, const UINT32_T, UINT32_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDistBetwBalise (const UINT32_T BaliId1, const UINT32_T BaliId2, UINT32_T * DistBetwBali) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetDistBetwBalise (const UINT32_T BaliId1, const UINT32_T BaliId2, UINT32_T * DistBetwBali) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>DmuAtpDataHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetVobcIdConfigDiamFailNum" name="ZbKGetVobcIdConfigDiamFailNumX" decorated_name="UINT16_T GetVobcIdConfigDiamFailNum(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetVobcIdConfigDiamFailNum (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetVobcIdConfigDiamFailNum () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>VobcIdConfigData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="OutputEbReason" name="ZOOutputEbReasonX" decorated_name="void OutputEbReason(const UINT8_T, const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_OutputEbReason (const UINT8_T ebType, const UINT32_T ebReason) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void OutputEbReason (const UINT8_T ebType, const UINT32_T ebReason) </orig_declaration>
+         <user_decl_header>EbAndCutOffTrackOut.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvMmiTc1WhlA" name="ZbAGetRcvMmiTc1WhlAX" decorated_name="UINT16_T GetRcvMmiTc1WhlA(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvMmiTc1WhlA (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetRcvMmiTc1WhlA () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>PackParseHMIInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvMmiTc1WhlB" name="ZbAGetRcvMmiTc1WhlBX" decorated_name="UINT16_T GetRcvMmiTc1WhlB(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvMmiTc1WhlB (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetRcvMmiTc1WhlB () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>PackParseHMIInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvMmiTc2WhlA" name="ZbAGetRcvMmiTc2WhlAX" decorated_name="UINT16_T GetRcvMmiTc2WhlA(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvMmiTc2WhlA (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetRcvMmiTc2WhlA () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>PackParseHMIInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvMmiTc2WhlB" name="ZbAGetRcvMmiTc2WhlBX" decorated_name="UINT16_T GetRcvMmiTc2WhlB(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvMmiTc2WhlB (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetRcvMmiTc2WhlB () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>PackParseHMIInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="WheelPowerOnInit" name="ZbAWheelPowerOnInitX" decorated_name="UINT8_T WheelPowerOnInit(void)">
+      <definition type="orig" source="code" file_id="1" line="48" col="9"/>
+    </Function>
+    <Function id="WhlChkFunc" name="ZKWhlChkFuncX" decorated_name="void WhlChkFunc(void)">
+      <definition type="orig" source="code" file_id="1" line="179" col="6"/>
+    </Function>
+    <Function id="ManualWheelDiaCali" name="ZbCManualWheelDiaCaliX" decorated_name="void ManualWheelDiaCali(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_ManualWheelDiaCali (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void ManualWheelDiaCali (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="205" col="20"/>
+    </Function>
+    <Function id="WheelDiaUpdate" name="ZOWheelDiaUpdateX" decorated_name="void WheelDiaUpdate(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_WheelDiaUpdate (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void WheelDiaUpdate (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="329" col="20"/>
+    </Function>
+    <Function id="AutoWheelDiaCali" name="ZbAAutoWheelDiaCaliX" decorated_name="void AutoWheelDiaCali(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AutoWheelDiaCali (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AutoWheelDiaCali (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="396" col="20"/>
+    </Function>
+    <Function id="WheelDiaCaliPrdDis" name="ZbCWheelDiaCaliPrdDisX" decorated_name="void WheelDiaCaliPrdDis(WheelInfoStruct_T *, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_WheelDiaCaliPrdDis (WheelInfoStruct_T * wheel, UINT16_T teethNum) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void WheelDiaCaliPrdDis (WheelInfoStruct_T * wheel, UINT16_T teethNum) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="557" col="20"/>
+    </Function>
+    <Function id="WheelDiaRangeCheck" name="ZbCWheelDiaRangeCheckX" decorated_name="UINT8_T WheelDiaRangeCheck(UINT16_T, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_WheelDiaRangeCheck (UINT16_T diameter, UINT16_T wheelVal) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T WheelDiaRangeCheck (UINT16_T diameter, UINT16_T wheelVal) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="633" col="23"/>
+    </Function>
+    <Function id="WheelDiaInfoClear" name="ZbBWheelDiaInfoClearX" decorated_name="void WheelDiaInfoClear(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_WheelDiaInfoClear (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void WheelDiaInfoClear (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="677" col="20"/>
+    </Function>
+    <Function id="CalcPulseDisByDiam" name="ZbCCalcPulseDisByDiamX" decorated_name="UINT16_T CalcPulseDisByDiam(UINT16_T, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_CalcPulseDisByDiam (UINT16_T Diam, UINT16_T teethNum) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T CalcPulseDisByDiam (UINT16_T Diam, UINT16_T teethNum) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="695" col="24"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

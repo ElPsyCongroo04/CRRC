@@ -1,0 +1,610 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="665851840894733737 665851840894734764 665851840894734858 665851840894733831 665851840894733925 665851840894706123 665851840894706029 665851840894706868 665851840894734952 665851840894734019" uniqueId2MainId="CPP://-704314136753639201 CPP://-704314136753639325 CPP://-704314136753639356 CPP://-704314136753639232 CPP://-704314136753639263 CPP://-704314136753638488 CPP://-704314136753638457 CPP://-704314136753638519 CPP://-704314136753639387 CPP://-704314136753639294" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;114;SetTmsComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;190;SetAtoComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;485;GetAomDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;491;SetAomDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;45;GetOppoAtpComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;334;GetIdleDataUpDateTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;496;GetTacDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;138;GetMmiComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;232;SetCamComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;469;SetAtoDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;480;SetCamDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;474;GetCamDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;152;GetMmiStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;223;GetCamComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;361;GetCamHealState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;260;SetCamStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;394;SetAtpDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;526;SetObcDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;342;SetIdleDataUpDateTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;274;SetOppoAtpStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;388;GetAtpDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;297;GetTacComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;507;GetOppoAtpDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;401;GetAomHealState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;456;SetAomStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;382;SetTacHealState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;281;GetWLanComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;196;GetAtoComuTimerLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;204;SetAtoComuTimerLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;426;GetAomComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;216;SetAtoStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;122;GetMmiComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;146;SetMmiComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;463;GetAtoDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;513;SetOppoAtpDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;414;GetAomComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;210;GetAtoStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;315;SetTacComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;368;SetCamHealState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;450;GetAomStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;165;GetAtoComuStatus" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;444;SetAomComuTimerLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;240;GetCamComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;502;SetTacDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;432;SetAomComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;321;GetTacStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;375;GetTacHealState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;60;GetOppoAtpComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;75;GetOppoAtpComuStatusLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;420;SetAomComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;28;InitComStatusData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;520;GetObcDeviceFault" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;174;SetAtoComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;68;SetOppoAtpComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;90;GetTmsComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;130;SetMmiComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;53;SetOppoAtpComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;182;GetAtoComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;268;GetOppoAtpStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;355;SetAtoHealState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;327;SetTacStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;438;GetAomComuTimerLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;348;GetAtoHealState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;158;SetMmiStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;289;SetWLanComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;254;GetCamStartComplete" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;303;SetTacComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;98;SetTmsComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;248;SetCamComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;83;SetOppoAtpComuStatusLast" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;309;GetTacComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;106;GetTmsComuTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;407;SetAomHealState" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;165;GetAtoComuStatus">
+      <CtxCvg ctx="665851840894734764" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894733737" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894734858" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894733831" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894706123" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894733925" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894706029" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894706868" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894734019" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="665851840894734952" ids="GetAtoComuStatus" cnts="3" paths="1" expect="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;289;SetWLanComuStatus" show="true">
+      <CvgElem id="SetWLanComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="292" locStartPos="4" locEndLn="292" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;196;GetAtoComuTimerLast" show="true">
+      <CvgElem id="GetAtoComuTimerLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="199" locStartPos="4" locEndLn="199" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;394;SetAtpDeviceFault" show="true">
+      <CvgElem id="SetAtpDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="397" locStartPos="4" locEndLn="397" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;182;GetAtoComuTimer" show="true">
+      <CvgElem id="GetAtoComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="185" locStartPos="4" locEndLn="185" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;75;GetOppoAtpComuStatusLast" show="true">
+      <CvgElem id="GetOppoAtpComuStatusLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="78" locStartPos="4" locEndLn="78" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;485;GetAomDeviceFault" show="true">
+      <CvgElem id="GetAomDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="488" locStartPos="8" locEndLn="488" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;146;SetMmiComuTimer" show="true">
+      <CvgElem id="SetMmiComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="149" locStartPos="4" locEndLn="149" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;348;GetAtoHealState" show="true">
+      <CvgElem id="GetAtoHealState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="351" locStartPos="4" locEndLn="351" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;216;SetAtoStartComplete" show="true">
+      <CvgElem id="SetAtoStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="219" locStartPos="4" locEndLn="219" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;334;GetIdleDataUpDateTimer" show="true">
+      <CvgElem id="GetIdleDataUpDateTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="337" locStartPos="4" locEndLn="337" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;327;SetTacStartComplete" show="true">
+      <CvgElem id="SetTacStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="330" locStartPos="4" locEndLn="330" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;53;SetOppoAtpComuStatus" show="true">
+      <CvgElem id="SetOppoAtpComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="56" locStartPos="4" locEndLn="56" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;513;SetOppoAtpDeviceFault" show="true">
+      <CvgElem id="SetOppoAtpDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="516" locStartPos="4" locEndLn="516" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;507;GetOppoAtpDeviceFault" show="true">
+      <CvgElem id="GetOppoAtpDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="510" locStartPos="4" locEndLn="510" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;254;GetCamStartComplete" show="true">
+      <CvgElem id="GetCamStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="257" locStartPos="4" locEndLn="257" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;407;SetAomHealState" show="true">
+      <CvgElem id="SetAomHealState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="410" locStartPos="4" locEndLn="410" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;248;SetCamComuTimer" show="true">
+      <CvgElem id="SetCamComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="251" locStartPos="4" locEndLn="251" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;83;SetOppoAtpComuStatusLast" show="true">
+      <CvgElem id="SetOppoAtpComuStatusLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="86" locStartPos="4" locEndLn="86" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;520;GetObcDeviceFault" show="true">
+      <CvgElem id="GetObcDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="523" locStartPos="1" locEndLn="523" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;260;SetCamStartComplete" show="true">
+      <CvgElem id="SetCamStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="263" locStartPos="4" locEndLn="263" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;321;GetTacStartComplete" show="true">
+      <CvgElem id="GetTacStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="324" locStartPos="4" locEndLn="324" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;361;GetCamHealState" show="true">
+      <CvgElem id="GetCamHealState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="364" locStartPos="4" locEndLn="364" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;432;SetAomComuTimer" show="true">
+      <CvgElem id="SetAomComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="435" locStartPos="4" locEndLn="435" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;450;GetAomStartComplete" show="true">
+      <CvgElem id="GetAomStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="453" locStartPos="4" locEndLn="453" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;420;SetAomComuStatus" show="true">
+      <CvgElem id="SetAomComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="423" locStartPos="4" locEndLn="423" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;138;GetMmiComuTimer" show="true">
+      <CvgElem id="GetMmiComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="141" locStartPos="4" locEndLn="141" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;414;GetAomComuStatus" show="true">
+      <CvgElem id="GetAomComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="417" locStartPos="4" locEndLn="417" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;502;SetTacDeviceFault" show="true">
+      <CvgElem id="SetTacDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="504" locStartPos="4" locEndLn="504" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;355;SetAtoHealState" show="true">
+      <CvgElem id="SetAtoHealState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="358" locStartPos="4" locEndLn="358" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;382;SetTacHealState" show="true">
+      <CvgElem id="SetTacHealState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="385" locStartPos="4" locEndLn="385" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;268;GetOppoAtpStartComplete" show="true">
+      <CvgElem id="GetOppoAtpStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="271" locStartPos="4" locEndLn="271" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;45;GetOppoAtpComuStatus" show="true">
+      <CvgElem id="GetOppoAtpComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="48" locStartPos="4" locEndLn="48" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;28;InitComStatusData" show="true">
+      <CvgElem id="InitComStatusData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="31" locStartPos="4" locEndLn="40" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;444;SetAomComuTimerLast" show="true">
+      <CvgElem id="SetAomComuTimerLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="447" locStartPos="4" locEndLn="447" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;375;GetTacHealState" show="true">
+      <CvgElem id="GetTacHealState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="378" locStartPos="4" locEndLn="378" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;240;GetCamComuTimer" show="true">
+      <CvgElem id="GetCamComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="243" locStartPos="4" locEndLn="243" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;90;GetTmsComuStatus" show="true">
+      <CvgElem id="GetTmsComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="93" locStartPos="4" locEndLn="93" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;165;GetAtoComuStatus" show="true">
+      <CvgElem id="GetAtoComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="168" locStartPos="4" locEndLn="168" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;68;SetOppoAtpComuTimer" show="true">
+      <CvgElem id="SetOppoAtpComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="71" locStartPos="4" locEndLn="71" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;210;GetAtoStartComplete" show="true">
+      <CvgElem id="GetAtoStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="213" locStartPos="4" locEndLn="213" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;303;SetTacComuStatus" show="true">
+      <CvgElem id="SetTacComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="306" locStartPos="4" locEndLn="306" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;309;GetTacComuTimer" show="true">
+      <CvgElem id="GetTacComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="312" locStartPos="4" locEndLn="312" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;401;GetAomHealState" show="true">
+      <CvgElem id="GetAomHealState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="404" locStartPos="4" locEndLn="404" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;297;GetTacComuStatus" show="true">
+      <CvgElem id="GetTacComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="300" locStartPos="4" locEndLn="300" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;152;GetMmiStartComplete" show="true">
+      <CvgElem id="GetMmiStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="155" locStartPos="4" locEndLn="155" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;281;GetWLanComuStatus" show="true">
+      <CvgElem id="GetWLanComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="284" locStartPos="4" locEndLn="284" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;426;GetAomComuTimer" show="true">
+      <CvgElem id="GetAomComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="429" locStartPos="4" locEndLn="429" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;122;GetMmiComuStatus" show="true">
+      <CvgElem id="GetMmiComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="125" locStartPos="4" locEndLn="125" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;438;GetAomComuTimerLast" show="true">
+      <CvgElem id="GetAomComuTimerLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="441" locStartPos="4" locEndLn="441" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;130;SetMmiComuStatus" show="true">
+      <CvgElem id="SetMmiComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="133" locStartPos="4" locEndLn="133" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;526;SetObcDeviceFault" show="true">
+      <CvgElem id="SetObcDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="529" locStartPos="1" locEndLn="529" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;463;GetAtoDeviceFault" show="true">
+      <CvgElem id="GetAtoDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="466" locStartPos="4" locEndLn="466" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;368;SetCamHealState" show="true">
+      <CvgElem id="SetCamHealState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="371" locStartPos="4" locEndLn="371" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;388;GetAtpDeviceFault" show="true">
+      <CvgElem id="GetAtpDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="391" locStartPos="4" locEndLn="391" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;496;GetTacDeviceFault" show="true">
+      <CvgElem id="GetTacDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="499" locStartPos="4" locEndLn="499" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;174;SetAtoComuStatus" show="true">
+      <CvgElem id="SetAtoComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="177" locStartPos="4" locEndLn="177" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;480;SetCamDeviceFault" show="true">
+      <CvgElem id="SetCamDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="482" locStartPos="1" locEndLn="482" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;158;SetMmiStartComplete" show="true">
+      <CvgElem id="SetMmiStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="161" locStartPos="4" locEndLn="161" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;232;SetCamComuStatus" show="true">
+      <CvgElem id="SetCamComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="235" locStartPos="4" locEndLn="235" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;106;GetTmsComuTimer" show="true">
+      <CvgElem id="GetTmsComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="109" locStartPos="4" locEndLn="109" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;315;SetTacComuTimer" show="true">
+      <CvgElem id="SetTacComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="318" locStartPos="4" locEndLn="318" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;223;GetCamComuStatus" show="true">
+      <CvgElem id="GetCamComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="226" locStartPos="4" locEndLn="226" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;274;SetOppoAtpStartComplete" show="true">
+      <CvgElem id="SetOppoAtpStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="277" locStartPos="4" locEndLn="277" locEndPos="66" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;98;SetTmsComuStatus" show="true">
+      <CvgElem id="SetTmsComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="101" locStartPos="4" locEndLn="101" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;491;SetAomDeviceFault" show="true">
+      <CvgElem id="SetAomDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="493" locStartPos="1" locEndLn="493" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;469;SetAtoDeviceFault" show="true">
+      <CvgElem id="SetAtoDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="471" locStartPos="4" locEndLn="471" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;204;SetAtoComuTimerLast" show="true">
+      <CvgElem id="SetAtoComuTimerLast" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="207" locStartPos="4" locEndLn="207" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;474;GetCamDeviceFault" show="true">
+      <CvgElem id="GetCamDeviceFault" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="477" locStartPos="4" locEndLn="477" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;190;SetAtoComuTimer" show="true">
+      <CvgElem id="SetAtoComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="193" locStartPos="4" locEndLn="193" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;342;SetIdleDataUpDateTimer" show="true">
+      <CvgElem id="SetIdleDataUpDateTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="345" locStartPos="4" locEndLn="345" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;456;SetAomStartComplete" show="true">
+      <CvgElem id="SetAomStartComplete" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="459" locStartPos="4" locEndLn="459" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;114;SetTmsComuTimer" show="true">
+      <CvgElem id="SetTmsComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="117" locStartPos="4" locEndLn="117" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c;60;GetOppoAtpComuTimer" show="true">
+      <CvgElem id="GetOppoAtpComuTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="63" locStartPos="4" locEndLn="63" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/ComStatusData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

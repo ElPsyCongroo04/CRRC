@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c;38;ZeroSpdFunc" total="12" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c;25;GetOutputZeroSpd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c;31;SetOutZeroSpd" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c;31;SetOutZeroSpd" show="true">
+      <CvgElem id="SetOutZeroSpd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="34" locStartPos="4" locEndLn="34" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c;25;GetOutputZeroSpd" show="true">
+      <CvgElem id="GetOutputZeroSpd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="28" locStartPos="4" locEndLn="28" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c;38;ZeroSpdFunc" show="true">
+      <CvgElem id="ZeroSpdFunc" pathsNo="12">
+        <BlckInfo id="1" blckTrans="2;6">
+          <PathBlckLoc locStartln="41" locStartPos="4" locEndLn="62" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="65" locStartPos="11" locEndLn="65" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5">
+          <PathBlckLoc locStartln="68" locStartPos="12" locEndLn="69" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="73" locStartPos="12" locEndLn="73" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="75" locStartPos="4" locEndLn="75" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="78" locStartPos="8" locEndLn="79" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="83" locStartPos="8" locEndLn="83" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="85" locStartPos="8" locEndLn="85" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="89" locStartPos="8" locEndLn="89" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="92" locStartPos="8" locEndLn="93" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13">
+          <PathBlckLoc locStartln="95" locStartPos="8" locEndLn="95" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="99" locStartPos="8" locEndLn="99" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="">
+          <PathBlckLoc locStartln="101" locStartPos="0" locEndLn="101" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ZeroSpeedManage/ZeroSpeed.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

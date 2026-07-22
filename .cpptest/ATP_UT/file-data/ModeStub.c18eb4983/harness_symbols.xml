@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\stubs\mode\ModeStub.c" id="1"/>
+    <Function id="GetInMeaModeUpTag" name="ZbBGetInMeaModeUpTagX" decorated_name="UINT8_T GetInMeaModeUpTag(void)">
+      <definition type="user" source="code" file_id="1" line="187" col="26"/>
+    </Function>
+    <Function id="GetInMeaModeUpTagLast" name="ZbFGetInMeaModeUpTagLastX" decorated_name="UINT8_T GetInMeaModeUpTagLast(void)">
+      <definition type="user" source="code" file_id="1" line="166" col="26"/>
+    </Function>
+    <Function id="GetInMeaModeDownTag" name="ZbDGetInMeaModeDownTagX" decorated_name="UINT8_T GetInMeaModeDownTag(void)">
+      <definition type="user" source="code" file_id="1" line="194" col="26"/>
+    </Function>
+    <Function id="GetInMeaModeDownTagLast" name="ZbHGetInMeaModeDownTagLastX" decorated_name="UINT8_T GetInMeaModeDownTagLast(void)">
+      <definition type="user" source="code" file_id="1" line="173" col="26"/>
+    </Function>
+    <Function id="GetInMeaAssureBtn" name="ZbBGetInMeaAssureBtnX" decorated_name="UINT8_T GetInMeaAssureBtn(void)">
+      <definition type="user" source="code" file_id="1" line="152" col="26"/>
+    </Function>
+    <Function id="GetInMeaAssureBtnLast" name="ZbFGetInMeaAssureBtnLastX" decorated_name="UINT8_T GetInMeaAssureBtnLast(void)">
+      <definition type="user" source="code" file_id="1" line="159" col="26"/>
+    </Function>
+    <Function id="GetRunOppoCtrlLevel" name="ZbDGetRunOppoCtrlLevelX" decorated_name="UINT8_T GetRunOppoCtrlLevel(void)">
+      <definition type="user" source="code" file_id="1" line="215" col="26"/>
+    </Function>
+    <Function id="GetRunOppoDrvMode" name="ZbBGetRunOppoDrvModeX" decorated_name="UINT8_T GetRunOppoDrvMode(void)">
+      <definition type="user" source="code" file_id="1" line="222" col="26"/>
+    </Function>
+    <Function id="GetRunCtrlLevel" name="ZPGetRunCtrlLevelX" decorated_name="UINT8_T GetRunCtrlLevel(void)">
+      <definition type="user" source="code" file_id="1" line="208" col="26"/>
+    </Function>
+    <Function id="GetRunAtpMode" name="ZNGetRunAtpModeX" decorated_name="UINT8_T GetRunAtpMode(void)">
+      <definition type="user" source="code" file_id="1" line="138" col="26"/>
+    </Function>
+    <Function id="GetRunPreMode" name="ZNGetRunPreModeX" decorated_name="UINT8_T GetRunPreMode(void)">
+      <definition type="user" source="code" file_id="1" line="229" col="26"/>
+    </Function>
+    <Function id="GetRunPreModeIndex" name="ZbCGetRunPreModeIndexX" decorated_name="UINT8_T GetRunPreModeIndex(void)">
+      <definition type="user" source="code" file_id="1" line="180" col="26"/>
+    </Function>
+    <Function id="GetRunDrvMode" name="ZNGetRunDrvModeX" decorated_name="UINT8_T GetRunDrvMode(void)">
+      <definition type="user" source="code" file_id="1" line="145" col="26"/>
+    </Function>
+    <Function id="GetRunModeConverse" name="ZbCGetRunModeConverseX" decorated_name="UINT8_T GetRunModeConverse(void)">
+      <definition type="user" source="code" file_id="1" line="249" col="26"/>
+    </Function>
+    <Function id="GetRunFamEmpower" name="ZbAGetRunFamEmpowerX" decorated_name="UINT8_T GetRunFamEmpower(void)">
+      <definition type="user" source="code" file_id="1" line="201" col="26"/>
+    </Function>
+    <Function id="GetRunCamEmpower" name="ZbAGetRunCamEmpowerX" decorated_name="UINT8_T GetRunCamEmpower(void)">
+      <definition type="user" source="code" file_id="1" line="247" col="26"/>
+    </Function>
+    <Function id="AtpStub_IsCurrentTestManaged" name="ZbMAtpStub_IsCurrentTestManagedX" decorated_name="UINT8_T AtpStub_IsCurrentTestManaged(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_IsCurrentTestManaged (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpStub_IsCurrentTestManaged () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetUInt8State" name="ZbFAtpStub_GetUInt8StateX" decorated_name="AtpStubUInt8State_T * AtpStub_GetUInt8State(AtpStubUInt8Id_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt8State_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetUInt8State (AtpStubUInt8Id_T id) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt8State_T * AtpStub_GetUInt8State (AtpStubUInt8Id_T id) </orig_declaration>
+         <return_expression>return (AtpStubUInt8State_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStub_GetUInt32State" name="ZbGAtpStub_GetUInt32StateX" decorated_name="AtpStubUInt32State_T * AtpStub_GetUInt32State(AtpStubUInt32Id_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE AtpStubUInt32State_T * </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStub_GetUInt32State (AtpStubUInt32Id_T id) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE AtpStubUInt32State_T * AtpStub_GetUInt32State (AtpStubUInt32Id_T id) </orig_declaration>
+         <return_expression>return (AtpStubUInt32State_T *)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_SetValue" name="ZbFAtpStubUInt8_SetValueX" decorated_name="void AtpStubUInt8_SetValue(AtpStubUInt8State_T *, UINT8_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_SetValue (AtpStubUInt8State_T * state, UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_SetValue (AtpStubUInt8State_T * state, UINT8_T value) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_SetSequence" name="ZbIAtpStubUInt8_SetSequenceX" decorated_name="void AtpStubUInt8_SetSequence(AtpStubUInt8State_T *, const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_SetSequence (AtpStubUInt8State_T * state, const UINT8_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_SetSequence (AtpStubUInt8State_T * state, const UINT8_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_ExpectCalls" name="ZbIAtpStubUInt8_ExpectCallsX" decorated_name="void AtpStubUInt8_ExpectCalls(AtpStubUInt8State_T *, UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_ExpectCalls (AtpStubUInt8State_T * state, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt8_ExpectCalls (AtpStubUInt8State_T * state, UINT32_T count) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt8_Next" name="ZbBAtpStubUInt8_NextX" decorated_name="UINT8_T AtpStubUInt8_Next(AtpStubUInt8State_T *, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt8_Next (AtpStubUInt8State_T * state, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpStubUInt8_Next (AtpStubUInt8State_T * state, const char * stubName) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt32_SetValue" name="ZbGAtpStubUInt32_SetValueX" decorated_name="void AtpStubUInt32_SetValue(AtpStubUInt32State_T *, UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt32_SetValue (AtpStubUInt32State_T * state, UINT32_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt32_SetValue (AtpStubUInt32State_T * state, UINT32_T value) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt32_SetSequence" name="ZbJAtpStubUInt32_SetSequenceX" decorated_name="void AtpStubUInt32_SetSequence(AtpStubUInt32State_T *, const UINT32_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt32_SetSequence (AtpStubUInt32State_T * state, const UINT32_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt32_SetSequence (AtpStubUInt32State_T * state, const UINT32_T * values, UINT32_T count, AtpStubSequenceExhaustPolicy_T policy, const char * stubName) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt32_ExpectCalls" name="ZbJAtpStubUInt32_ExpectCallsX" decorated_name="void AtpStubUInt32_ExpectCalls(AtpStubUInt32State_T *, UINT32_T)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt32_ExpectCalls (AtpStubUInt32State_T * state, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AtpStubUInt32_ExpectCalls (AtpStubUInt32State_T * state, UINT32_T count) </orig_declaration>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpStubUInt32_Next" name="ZbCAtpStubUInt32_NextX" decorated_name="UINT32_T AtpStubUInt32_Next(AtpStubUInt32State_T *, const char *)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpStubUInt32_Next (AtpStubUInt32State_T * state, const char * stubName) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T AtpStubUInt32_Next (AtpStubUInt32State_T * state, const char * stubName) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>AtpStubInternal.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunAtpMode" name="ZbLAtpLegacyStub_GetRunAtpModeX" decorated_name="UINT8_T AtpLegacyStub_GetRunAtpMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunAtpMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunAtpMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunDrvMode" name="ZbLAtpLegacyStub_GetRunDrvModeX" decorated_name="UINT8_T AtpLegacyStub_GetRunDrvMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunDrvMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunDrvMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInMeaAssureBtn" name="ZbPAtpLegacyStub_GetInMeaAssureBtnX" decorated_name="UINT8_T AtpLegacyStub_GetInMeaAssureBtn(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInMeaAssureBtn (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInMeaAssureBtn () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInMeaAssureBtnLast" name="ZcDAtpLegacyStub_GetInMeaAssureBtnLastX" decorated_name="UINT8_T AtpLegacyStub_GetInMeaAssureBtnLast(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInMeaAssureBtnLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInMeaAssureBtnLast () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInMeaModeUpTagLast" name="ZcDAtpLegacyStub_GetInMeaModeUpTagLastX" decorated_name="UINT8_T AtpLegacyStub_GetInMeaModeUpTagLast(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInMeaModeUpTagLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInMeaModeUpTagLast () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInMeaModeDownTagLast" name="ZcFAtpLegacyStub_GetInMeaModeDownTagLastX" decorated_name="UINT8_T AtpLegacyStub_GetInMeaModeDownTagLast(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInMeaModeDownTagLast (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInMeaModeDownTagLast () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunPreModeIndex" name="ZcAAtpLegacyStub_GetRunPreModeIndexX" decorated_name="UINT8_T AtpLegacyStub_GetRunPreModeIndex(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunPreModeIndex (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunPreModeIndex () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInMeaModeUpTag" name="ZbPAtpLegacyStub_GetInMeaModeUpTagX" decorated_name="UINT8_T AtpLegacyStub_GetInMeaModeUpTag(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInMeaModeUpTag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInMeaModeUpTag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetInMeaModeDownTag" name="ZcBAtpLegacyStub_GetInMeaModeDownTagX" decorated_name="UINT8_T AtpLegacyStub_GetInMeaModeDownTag(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetInMeaModeDownTag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetInMeaModeDownTag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunFamEmpower" name="ZbOAtpLegacyStub_GetRunFamEmpowerX" decorated_name="UINT8_T AtpLegacyStub_GetRunFamEmpower(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunFamEmpower (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunFamEmpower () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunCtrlLevel" name="ZbNAtpLegacyStub_GetRunCtrlLevelX" decorated_name="UINT8_T AtpLegacyStub_GetRunCtrlLevel(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunCtrlLevel (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunCtrlLevel () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunOppoCtrlLevel" name="ZcBAtpLegacyStub_GetRunOppoCtrlLevelX" decorated_name="UINT8_T AtpLegacyStub_GetRunOppoCtrlLevel(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunOppoCtrlLevel (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunOppoCtrlLevel () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunOppoDrvMode" name="ZbPAtpLegacyStub_GetRunOppoDrvModeX" decorated_name="UINT8_T AtpLegacyStub_GetRunOppoDrvMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunOppoDrvMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunOppoDrvMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunPreMode" name="ZbLAtpLegacyStub_GetRunPreModeX" decorated_name="UINT8_T AtpLegacyStub_GetRunPreMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunPreMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunPreMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetSlpAwkSleepFlag" name="ZcAAtpLegacyStub_GetSlpAwkSleepFlagX" decorated_name="UINT8_T AtpLegacyStub_GetSlpAwkSleepFlag(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetSlpAwkSleepFlag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetSlpAwkSleepFlag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetCarWashMode" name="ZbMAtpLegacyStub_GetCarWashModeX" decorated_name="UINT8_T AtpLegacyStub_GetCarWashMode(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetCarWashMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetCarWashMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetFaoSpecialCtrl" name="ZbPAtpLegacyStub_GetFaoSpecialCtrlX" decorated_name="UINT8_T AtpLegacyStub_GetFaoSpecialCtrl(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetFaoSpecialCtrl (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetFaoSpecialCtrl () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunCamEmpower" name="ZbOAtpLegacyStub_GetRunCamEmpowerX" decorated_name="UINT8_T AtpLegacyStub_GetRunCamEmpower(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunCamEmpower (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunCamEmpower () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetRunModeConverse" name="ZcAAtpLegacyStub_GetRunModeConverseX" decorated_name="UINT8_T AtpLegacyStub_GetRunModeConverse(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetRunModeConverse (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetRunModeConverse () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetSlpAwkAwakeSta" name="ZbPAtpLegacyStub_GetSlpAwkAwakeStaX" decorated_name="UINT8_T AtpLegacyStub_GetSlpAwkAwakeSta(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetSlpAwkAwakeSta (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetSlpAwkAwakeSta () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_GetSlpAwkSleepStep" name="ZcAAtpLegacyStub_GetSlpAwkSleepStepX" decorated_name="UINT8_T AtpLegacyStub_GetSlpAwkSleepStep(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_GetSlpAwkSleepStep (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T AtpLegacyStub_GetSlpAwkSleepStep () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="AtpLegacyStub_CamExitCmCheck" name="ZbMAtpLegacyStub_CamExitCmCheckX" decorated_name="UINT32_T AtpLegacyStub_CamExitCmCheck(void)" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_AtpLegacyStub_CamExitCmCheck (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T AtpLegacyStub_CamExitCmCheck () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+      </stub_declaration>
+    </Function>
+    <Function id="StubMode_SetRunAtpMode" name="ZbGStubMode_SetRunAtpModeX" decorated_name="void StubMode_SetRunAtpMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="51" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunAtpModeSequence" name="ZbOStubMode_SetRunAtpModeSequenceX" decorated_name="void StubMode_SetRunAtpModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="51" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunAtpModeCalls" name="ZbOStubMode_ExpectRunAtpModeCallsX" decorated_name="void StubMode_ExpectRunAtpModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="51" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunAtpModeCallCount" name="ZbPStubMode_GetRunAtpModeCallCountX" decorated_name="UINT32_T StubMode_GetRunAtpModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="51" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunDrvMode" name="ZbGStubMode_SetRunDrvModeX" decorated_name="void StubMode_SetRunDrvMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="52" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunDrvModeSequence" name="ZbOStubMode_SetRunDrvModeSequenceX" decorated_name="void StubMode_SetRunDrvModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="52" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunDrvModeCalls" name="ZbOStubMode_ExpectRunDrvModeCallsX" decorated_name="void StubMode_ExpectRunDrvModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="52" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunDrvModeCallCount" name="ZbPStubMode_GetRunDrvModeCallCountX" decorated_name="UINT32_T StubMode_GetRunDrvModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="52" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaAssureBtn" name="ZbKStubMode_SetInMeaAssureBtnX" decorated_name="void StubMode_SetInMeaAssureBtn(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="53" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaAssureBtnSequence" name="ZcCStubMode_SetInMeaAssureBtnSequenceX" decorated_name="void StubMode_SetInMeaAssureBtnSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="53" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectInMeaAssureBtnCalls" name="ZcCStubMode_ExpectInMeaAssureBtnCallsX" decorated_name="void StubMode_ExpectInMeaAssureBtnCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="53" col="1"/>
+    </Function>
+    <Function id="StubMode_GetInMeaAssureBtnCallCount" name="ZcDStubMode_GetInMeaAssureBtnCallCountX" decorated_name="UINT32_T StubMode_GetInMeaAssureBtnCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="53" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaAssureBtnLast" name="ZbOStubMode_SetInMeaAssureBtnLastX" decorated_name="void StubMode_SetInMeaAssureBtnLast(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="54" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaAssureBtnLastSequence" name="ZcGStubMode_SetInMeaAssureBtnLastSequenceX" decorated_name="void StubMode_SetInMeaAssureBtnLastSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="54" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectInMeaAssureBtnLastCalls" name="ZcGStubMode_ExpectInMeaAssureBtnLastCallsX" decorated_name="void StubMode_ExpectInMeaAssureBtnLastCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="54" col="1"/>
+    </Function>
+    <Function id="StubMode_GetInMeaAssureBtnLastCallCount" name="ZcHStubMode_GetInMeaAssureBtnLastCallCountX" decorated_name="UINT32_T StubMode_GetInMeaAssureBtnLastCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="54" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaModeUpTagLast" name="ZbOStubMode_SetInMeaModeUpTagLastX" decorated_name="void StubMode_SetInMeaModeUpTagLast(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="55" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaModeUpTagLastSequence" name="ZcGStubMode_SetInMeaModeUpTagLastSequenceX" decorated_name="void StubMode_SetInMeaModeUpTagLastSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="55" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectInMeaModeUpTagLastCalls" name="ZcGStubMode_ExpectInMeaModeUpTagLastCallsX" decorated_name="void StubMode_ExpectInMeaModeUpTagLastCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="55" col="1"/>
+    </Function>
+    <Function id="StubMode_GetInMeaModeUpTagLastCallCount" name="ZcHStubMode_GetInMeaModeUpTagLastCallCountX" decorated_name="UINT32_T StubMode_GetInMeaModeUpTagLastCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="55" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaModeDownTagLast" name="ZcAStubMode_SetInMeaModeDownTagLastX" decorated_name="void StubMode_SetInMeaModeDownTagLast(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="56" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaModeDownTagLastSequence" name="ZcIStubMode_SetInMeaModeDownTagLastSequenceX" decorated_name="void StubMode_SetInMeaModeDownTagLastSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="56" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectInMeaModeDownTagLastCalls" name="ZcIStubMode_ExpectInMeaModeDownTagLastCallsX" decorated_name="void StubMode_ExpectInMeaModeDownTagLastCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="56" col="1"/>
+    </Function>
+    <Function id="StubMode_GetInMeaModeDownTagLastCallCount" name="ZcJStubMode_GetInMeaModeDownTagLastCallCountX" decorated_name="UINT32_T StubMode_GetInMeaModeDownTagLastCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="56" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunPreModeIndex" name="ZbLStubMode_SetRunPreModeIndexX" decorated_name="void StubMode_SetRunPreModeIndex(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="57" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunPreModeIndexSequence" name="ZcDStubMode_SetRunPreModeIndexSequenceX" decorated_name="void StubMode_SetRunPreModeIndexSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="57" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunPreModeIndexCalls" name="ZcDStubMode_ExpectRunPreModeIndexCallsX" decorated_name="void StubMode_ExpectRunPreModeIndexCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="57" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunPreModeIndexCallCount" name="ZcEStubMode_GetRunPreModeIndexCallCountX" decorated_name="UINT32_T StubMode_GetRunPreModeIndexCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="57" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaModeUpTag" name="ZbKStubMode_SetInMeaModeUpTagX" decorated_name="void StubMode_SetInMeaModeUpTag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="58" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaModeUpTagSequence" name="ZcCStubMode_SetInMeaModeUpTagSequenceX" decorated_name="void StubMode_SetInMeaModeUpTagSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="58" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectInMeaModeUpTagCalls" name="ZcCStubMode_ExpectInMeaModeUpTagCallsX" decorated_name="void StubMode_ExpectInMeaModeUpTagCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="58" col="1"/>
+    </Function>
+    <Function id="StubMode_GetInMeaModeUpTagCallCount" name="ZcDStubMode_GetInMeaModeUpTagCallCountX" decorated_name="UINT32_T StubMode_GetInMeaModeUpTagCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="58" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaModeDownTag" name="ZbMStubMode_SetInMeaModeDownTagX" decorated_name="void StubMode_SetInMeaModeDownTag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="59" col="1"/>
+    </Function>
+    <Function id="StubMode_SetInMeaModeDownTagSequence" name="ZcEStubMode_SetInMeaModeDownTagSequenceX" decorated_name="void StubMode_SetInMeaModeDownTagSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="59" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectInMeaModeDownTagCalls" name="ZcEStubMode_ExpectInMeaModeDownTagCallsX" decorated_name="void StubMode_ExpectInMeaModeDownTagCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="59" col="1"/>
+    </Function>
+    <Function id="StubMode_GetInMeaModeDownTagCallCount" name="ZcFStubMode_GetInMeaModeDownTagCallCountX" decorated_name="UINT32_T StubMode_GetInMeaModeDownTagCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="59" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunFamEmpower" name="ZbJStubMode_SetRunFamEmpowerX" decorated_name="void StubMode_SetRunFamEmpower(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="60" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunFamEmpowerSequence" name="ZcBStubMode_SetRunFamEmpowerSequenceX" decorated_name="void StubMode_SetRunFamEmpowerSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="60" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunFamEmpowerCalls" name="ZcBStubMode_ExpectRunFamEmpowerCallsX" decorated_name="void StubMode_ExpectRunFamEmpowerCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="60" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunFamEmpowerCallCount" name="ZcCStubMode_GetRunFamEmpowerCallCountX" decorated_name="UINT32_T StubMode_GetRunFamEmpowerCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="60" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunCtrlLevel" name="ZbIStubMode_SetRunCtrlLevelX" decorated_name="void StubMode_SetRunCtrlLevel(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="61" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunCtrlLevelSequence" name="ZcAStubMode_SetRunCtrlLevelSequenceX" decorated_name="void StubMode_SetRunCtrlLevelSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="61" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunCtrlLevelCalls" name="ZcAStubMode_ExpectRunCtrlLevelCallsX" decorated_name="void StubMode_ExpectRunCtrlLevelCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="61" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunCtrlLevelCallCount" name="ZcBStubMode_GetRunCtrlLevelCallCountX" decorated_name="UINT32_T StubMode_GetRunCtrlLevelCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="61" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunOppoCtrlLevel" name="ZbMStubMode_SetRunOppoCtrlLevelX" decorated_name="void StubMode_SetRunOppoCtrlLevel(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="62" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunOppoCtrlLevelSequence" name="ZcEStubMode_SetRunOppoCtrlLevelSequenceX" decorated_name="void StubMode_SetRunOppoCtrlLevelSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="62" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunOppoCtrlLevelCalls" name="ZcEStubMode_ExpectRunOppoCtrlLevelCallsX" decorated_name="void StubMode_ExpectRunOppoCtrlLevelCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="62" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunOppoCtrlLevelCallCount" name="ZcFStubMode_GetRunOppoCtrlLevelCallCountX" decorated_name="UINT32_T StubMode_GetRunOppoCtrlLevelCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="62" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunOppoDrvMode" name="ZbKStubMode_SetRunOppoDrvModeX" decorated_name="void StubMode_SetRunOppoDrvMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunOppoDrvModeSequence" name="ZcCStubMode_SetRunOppoDrvModeSequenceX" decorated_name="void StubMode_SetRunOppoDrvModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunOppoDrvModeCalls" name="ZcCStubMode_ExpectRunOppoDrvModeCallsX" decorated_name="void StubMode_ExpectRunOppoDrvModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunOppoDrvModeCallCount" name="ZcDStubMode_GetRunOppoDrvModeCallCountX" decorated_name="UINT32_T StubMode_GetRunOppoDrvModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="63" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunPreMode" name="ZbGStubMode_SetRunPreModeX" decorated_name="void StubMode_SetRunPreMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="64" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunPreModeSequence" name="ZbOStubMode_SetRunPreModeSequenceX" decorated_name="void StubMode_SetRunPreModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="64" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunPreModeCalls" name="ZbOStubMode_ExpectRunPreModeCallsX" decorated_name="void StubMode_ExpectRunPreModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="64" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunPreModeCallCount" name="ZbPStubMode_GetRunPreModeCallCountX" decorated_name="UINT32_T StubMode_GetRunPreModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="64" col="1"/>
+    </Function>
+    <Function id="StubMode_SetSlpAwkSleepFlag" name="ZbLStubMode_SetSlpAwkSleepFlagX" decorated_name="void StubMode_SetSlpAwkSleepFlag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="65" col="1"/>
+    </Function>
+    <Function id="StubMode_SetSlpAwkSleepFlagSequence" name="ZcDStubMode_SetSlpAwkSleepFlagSequenceX" decorated_name="void StubMode_SetSlpAwkSleepFlagSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="65" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectSlpAwkSleepFlagCalls" name="ZcDStubMode_ExpectSlpAwkSleepFlagCallsX" decorated_name="void StubMode_ExpectSlpAwkSleepFlagCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="65" col="1"/>
+    </Function>
+    <Function id="StubMode_GetSlpAwkSleepFlagCallCount" name="ZcEStubMode_GetSlpAwkSleepFlagCallCountX" decorated_name="UINT32_T StubMode_GetSlpAwkSleepFlagCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="65" col="1"/>
+    </Function>
+    <Function id="StubMode_SetCarWashMode" name="ZbHStubMode_SetCarWashModeX" decorated_name="void StubMode_SetCarWashMode(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="66" col="1"/>
+    </Function>
+    <Function id="StubMode_SetCarWashModeSequence" name="ZbPStubMode_SetCarWashModeSequenceX" decorated_name="void StubMode_SetCarWashModeSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="66" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectCarWashModeCalls" name="ZbPStubMode_ExpectCarWashModeCallsX" decorated_name="void StubMode_ExpectCarWashModeCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="66" col="1"/>
+    </Function>
+    <Function id="StubMode_GetCarWashModeCallCount" name="ZcAStubMode_GetCarWashModeCallCountX" decorated_name="UINT32_T StubMode_GetCarWashModeCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="66" col="1"/>
+    </Function>
+    <Function id="StubMode_SetFaoSpecialCtrl" name="ZbKStubMode_SetFaoSpecialCtrlX" decorated_name="void StubMode_SetFaoSpecialCtrl(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="67" col="1"/>
+    </Function>
+    <Function id="StubMode_SetFaoSpecialCtrlSequence" name="ZcCStubMode_SetFaoSpecialCtrlSequenceX" decorated_name="void StubMode_SetFaoSpecialCtrlSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="67" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectFaoSpecialCtrlCalls" name="ZcCStubMode_ExpectFaoSpecialCtrlCallsX" decorated_name="void StubMode_ExpectFaoSpecialCtrlCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="67" col="1"/>
+    </Function>
+    <Function id="StubMode_GetFaoSpecialCtrlCallCount" name="ZcDStubMode_GetFaoSpecialCtrlCallCountX" decorated_name="UINT32_T StubMode_GetFaoSpecialCtrlCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="67" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunCamEmpower" name="ZbJStubMode_SetRunCamEmpowerX" decorated_name="void StubMode_SetRunCamEmpower(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="68" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunCamEmpowerSequence" name="ZcBStubMode_SetRunCamEmpowerSequenceX" decorated_name="void StubMode_SetRunCamEmpowerSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="68" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunCamEmpowerCalls" name="ZcBStubMode_ExpectRunCamEmpowerCallsX" decorated_name="void StubMode_ExpectRunCamEmpowerCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="68" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunCamEmpowerCallCount" name="ZcCStubMode_GetRunCamEmpowerCallCountX" decorated_name="UINT32_T StubMode_GetRunCamEmpowerCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="68" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunModeConverse" name="ZbLStubMode_SetRunModeConverseX" decorated_name="void StubMode_SetRunModeConverse(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="69" col="1"/>
+    </Function>
+    <Function id="StubMode_SetRunModeConverseSequence" name="ZcDStubMode_SetRunModeConverseSequenceX" decorated_name="void StubMode_SetRunModeConverseSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="69" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectRunModeConverseCalls" name="ZcDStubMode_ExpectRunModeConverseCallsX" decorated_name="void StubMode_ExpectRunModeConverseCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="69" col="1"/>
+    </Function>
+    <Function id="StubMode_GetRunModeConverseCallCount" name="ZcEStubMode_GetRunModeConverseCallCountX" decorated_name="UINT32_T StubMode_GetRunModeConverseCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="69" col="1"/>
+    </Function>
+    <Function id="StubMode_SetSlpAwkAwakeSta" name="ZbKStubMode_SetSlpAwkAwakeStaX" decorated_name="void StubMode_SetSlpAwkAwakeSta(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="70" col="1"/>
+    </Function>
+    <Function id="StubMode_SetSlpAwkAwakeStaSequence" name="ZcCStubMode_SetSlpAwkAwakeStaSequenceX" decorated_name="void StubMode_SetSlpAwkAwakeStaSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="70" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectSlpAwkAwakeStaCalls" name="ZcCStubMode_ExpectSlpAwkAwakeStaCallsX" decorated_name="void StubMode_ExpectSlpAwkAwakeStaCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="70" col="1"/>
+    </Function>
+    <Function id="StubMode_GetSlpAwkAwakeStaCallCount" name="ZcDStubMode_GetSlpAwkAwakeStaCallCountX" decorated_name="UINT32_T StubMode_GetSlpAwkAwakeStaCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="70" col="1"/>
+    </Function>
+    <Function id="StubMode_SetSlpAwkSleepStep" name="ZbLStubMode_SetSlpAwkSleepStepX" decorated_name="void StubMode_SetSlpAwkSleepStep(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="71" col="1"/>
+    </Function>
+    <Function id="StubMode_SetSlpAwkSleepStepSequence" name="ZcDStubMode_SetSlpAwkSleepStepSequenceX" decorated_name="void StubMode_SetSlpAwkSleepStepSequence(const UINT8_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="71" col="1"/>
+    </Function>
+    <Function id="StubMode_ExpectSlpAwkSleepStepCalls" name="ZcDStubMode_ExpectSlpAwkSleepStepCallsX" decorated_name="void StubMode_ExpectSlpAwkSleepStepCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="71" col="1"/>
+    </Function>
+    <Function id="StubMode_GetSlpAwkSleepStepCallCount" name="ZcEStubMode_GetSlpAwkSleepStepCallCountX" decorated_name="UINT32_T StubMode_GetSlpAwkSleepStepCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="71" col="1"/>
+    </Function>
+    <Function id="StubMode_SetCamExitCmCheck" name="ZbKStubMode_SetCamExitCmCheckX" decorated_name="void StubMode_SetCamExitCmCheck(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="75" col="6"/>
+    </Function>
+    <Function id="StubMode_SetCamExitCmCheckSequence" name="ZcCStubMode_SetCamExitCmCheckSequenceX" decorated_name="void StubMode_SetCamExitCmCheckSequence(const UINT32_T *, UINT32_T, AtpStubSequenceExhaustPolicy_T)">
+      <definition type="orig" source="code" file_id="1" line="77" col="6"/>
+    </Function>
+    <Function id="StubMode_ExpectCamExitCmCheckCalls" name="ZcCStubMode_ExpectCamExitCmCheckCallsX" decorated_name="void StubMode_ExpectCamExitCmCheckCalls(UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="80" col="6"/>
+    </Function>
+    <Function id="StubMode_GetCamExitCmCheckCallCount" name="ZcDStubMode_GetCamExitCmCheckCallCountX" decorated_name="UINT32_T StubMode_GetCamExitCmCheckCallCount(void)">
+      <definition type="orig" source="code" file_id="1" line="82" col="10"/>
+    </Function>
+    <Function id="StubMode_SetNeutralDefaults" name="ZbLStubMode_SetNeutralDefaultsX" decorated_name="void StubMode_SetNeutralDefaults(void)">
+      <definition type="orig" source="code" file_id="1" line="85" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

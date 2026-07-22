@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\SysRunData.c" id="1"/>
+    <Function id="LongFromChar" name="ZMLongFromCharX" decorated_name="UINT32_T LongFromChar(const UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_LongFromChar (const UINT8_T  bufferPtr[]) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T LongFromChar (const UINT8_T  bufferPtr[]) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>Endian.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitSysRunData" name="ZOInitSysRunDataX" decorated_name="void InitSysRunData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="20" col="6"/>
+    </Function>
+    <Function id="GetRunOppoCtrlLevel" name="ZbDGetRunOppoCtrlLevelX" decorated_name="UINT8_T GetRunOppoCtrlLevel(void)">
+      <definition type="orig" source="code" file_id="1" line="31" col="9"/>
+    </Function>
+    <Function id="SetRunOppoCtrlLevel" name="ZbDSetRunOppoCtrlLevelX" decorated_name="void SetRunOppoCtrlLevel(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="38" col="6"/>
+    </Function>
+    <Function id="GetRunOppoDrvMode" name="ZbBGetRunOppoDrvModeX" decorated_name="UINT8_T GetRunOppoDrvMode(void)">
+      <definition type="orig" source="code" file_id="1" line="46" col="9"/>
+    </Function>
+    <Function id="SetRunOppoDrvMode" name="ZbBSetRunOppoDrvModeX" decorated_name="void SetRunOppoDrvMode(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="53" col="6"/>
+    </Function>
+    <Function id="GetRunPeriodCount" name="ZbBGetRunPeriodCountX" decorated_name="UINT32_T GetRunPeriodCount(void)">
+      <definition type="orig" source="code" file_id="1" line="59" col="10"/>
+    </Function>
+    <Function id="SetRunPeriodCount" name="ZbBSetRunPeriodCountX" decorated_name="void SetRunPeriodCount(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="66" col="6"/>
+    </Function>
+    <Function id="GetRunCtrlLevel" name="ZPGetRunCtrlLevelX" decorated_name="UINT8_T GetRunCtrlLevel(void)">
+      <definition type="orig" source="code" file_id="1" line="72" col="9"/>
+    </Function>
+    <Function id="SetRunCtrlLevel" name="ZPSetRunCtrlLevelX" decorated_name="void SetRunCtrlLevel(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="79" col="6"/>
+    </Function>
+    <Function id="GetRunAtpMode" name="ZNGetRunAtpModeX" decorated_name="UINT8_T GetRunAtpMode(void)">
+      <definition type="orig" source="code" file_id="1" line="87" col="9"/>
+    </Function>
+    <Function id="SetRunAtpMode" name="ZNSetRunAtpModeX" decorated_name="void SetRunAtpMode(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="94" col="6"/>
+    </Function>
+    <Function id="GetRunPreMode" name="ZNGetRunPreModeX" decorated_name="UINT8_T GetRunPreMode(void)">
+      <definition type="orig" source="code" file_id="1" line="101" col="9"/>
+    </Function>
+    <Function id="SetRunPreMode" name="ZNSetRunPreModeX" decorated_name="void SetRunPreMode(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="108" col="6"/>
+    </Function>
+    <Function id="GetRunPreModeIndex" name="ZbCGetRunPreModeIndexX" decorated_name="UINT8_T GetRunPreModeIndex(void)">
+      <definition type="orig" source="code" file_id="1" line="116" col="9"/>
+    </Function>
+    <Function id="SetRunPreModeIndex" name="ZbCSetRunPreModeIndexX" decorated_name="void SetRunPreModeIndex(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="123" col="6"/>
+    </Function>
+    <Function id="GetRunDrvMode" name="ZNGetRunDrvModeX" decorated_name="UINT8_T GetRunDrvMode(void)">
+      <definition type="orig" source="code" file_id="1" line="131" col="9"/>
+    </Function>
+    <Function id="SetRunDrvMode" name="ZNSetRunDrvModeX" decorated_name="void SetRunDrvMode(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="138" col="6"/>
+    </Function>
+    <Function id="GetRunModeConverse" name="ZbCGetRunModeConverseX" decorated_name="UINT8_T GetRunModeConverse(void)">
+      <definition type="orig" source="code" file_id="1" line="145" col="9"/>
+    </Function>
+    <Function id="SetRunModeConverse" name="ZbCSetRunModeConverseX" decorated_name="void SetRunModeConverse(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="152" col="6"/>
+    </Function>
+    <Function id="GetRunFamEmpower" name="ZbAGetRunFamEmpowerX" decorated_name="UINT8_T GetRunFamEmpower(void)">
+      <definition type="orig" source="code" file_id="1" line="158" col="9"/>
+    </Function>
+    <Function id="SetRunFamEmpower" name="ZbASetRunFamEmpowerX" decorated_name="void SetRunFamEmpower(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="165" col="6"/>
+    </Function>
+    <Function id="GetRunFamEmpowerLast" name="ZbEGetRunFamEmpowerLastX" decorated_name="UINT8_T GetRunFamEmpowerLast(void)">
+      <definition type="orig" source="code" file_id="1" line="171" col="9"/>
+    </Function>
+    <Function id="SetRunFamEmpowerLast" name="ZbESetRunFamEmpowerLastX" decorated_name="void SetRunFamEmpowerLast(void)">
+      <definition type="orig" source="code" file_id="1" line="178" col="6"/>
+    </Function>
+    <Function id="GetRunCamEmpower" name="ZbAGetRunCamEmpowerX" decorated_name="UINT8_T GetRunCamEmpower(void)">
+      <definition type="orig" source="code" file_id="1" line="184" col="9"/>
+    </Function>
+    <Function id="SetRunCamEmpower" name="ZbASetRunCamEmpowerX" decorated_name="void SetRunCamEmpower(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="191" col="6"/>
+    </Function>
+    <Function id="GetRunPowerOnChkSta" name="ZbDGetRunPowerOnChkStaX" decorated_name="UINT8_T GetRunPowerOnChkSta(void)">
+      <definition type="orig" source="code" file_id="1" line="199" col="9"/>
+    </Function>
+    <Function id="SetRunPowerOnChkSta" name="ZbDSetRunPowerOnChkStaX" decorated_name="void SetRunPowerOnChkSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="206" col="6"/>
+    </Function>
+    <Function id="GetRunCycSelfChkSta" name="ZbDGetRunCycSelfChkStaX" decorated_name="UINT8_T GetRunCycSelfChkSta(void)">
+      <definition type="orig" source="code" file_id="1" line="213" col="9"/>
+    </Function>
+    <Function id="SetRunCycSelfChkSta" name="ZbDSetRunCycSelfChkStaX" decorated_name="void SetRunCycSelfChkSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="220" col="6"/>
+    </Function>
+    <Function id="GetRunSwVersion" name="ZPGetRunSwVersionX" decorated_name="UINT32_T GetRunSwVersion(void)">
+      <definition type="orig" source="code" file_id="1" line="226" col="10"/>
+    </Function>
+    <Function id="GetRunTrainTsrCmd" name="ZbBGetRunTrainTsrCmdX" decorated_name="UINT8_T GetRunTrainTsrCmd(void)">
+      <definition type="orig" source="code" file_id="1" line="235" col="9"/>
+    </Function>
+    <Function id="SetRunTrainTsrCmd" name="ZbBSetRunTrainTsrCmdX" decorated_name="void SetRunTrainTsrCmd(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="242" col="6"/>
+    </Function>
+    <Function id="GetRunTrainTsrVal" name="ZbBGetRunTrainTsrValX" decorated_name="UINT8_T GetRunTrainTsrVal(void)">
+      <definition type="orig" source="code" file_id="1" line="248" col="9"/>
+    </Function>
+    <Function id="SetRunTrainTsrVal" name="ZbBSetRunTrainTsrValX" decorated_name="void SetRunTrainTsrVal(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="255" col="6"/>
+    </Function>
+    <Function id="GetRunWorkCond" name="ZOGetRunWorkCondX" decorated_name="UINT8_T GetRunWorkCond(void)">
+      <definition type="orig" source="code" file_id="1" line="261" col="9"/>
+    </Function>
+    <Function id="SetRunWorkCond" name="ZOSetRunWorkCondX" decorated_name="void SetRunWorkCond(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="266" col="6"/>
+    </Function>
+    <Function id="GetRunWorkCondReverFlg" name="ZbGGetRunWorkCondReverFlgX" decorated_name="UINT8_T GetRunWorkCondReverFlg(void)">
+      <definition type="orig" source="code" file_id="1" line="272" col="9"/>
+    </Function>
+    <Function id="SetRunWorkCondReverFlg" name="ZbGSetRunWorkCondReverFlgX" decorated_name="void SetRunWorkCondReverFlg(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="277" col="6"/>
+    </Function>
+    <Function id="GetConfigCycleTime" name="ZbCGetConfigCycleTimeX" decorated_name="UINT16_T GetConfigCycleTime(void)">
+      <definition type="orig" source="code" file_id="1" line="282" col="10"/>
+    </Function>
+    <Function id="SetConfigCycleTime" name="ZbCSetConfigCycleTimeX" decorated_name="void SetConfigCycleTime(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="289" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

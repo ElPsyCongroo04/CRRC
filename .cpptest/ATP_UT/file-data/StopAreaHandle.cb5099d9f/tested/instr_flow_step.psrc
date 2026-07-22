@@ -1,0 +1,43 @@
+xharness.routineManager "symbol_file=C:\Program Files (x86)\Parasoft\C++test for Visual Studio\9.2\engine\runtime\include/*" command=setProperty property=ignored value=true
+edg.errorThreshold 5
+edgtk.preprocessorExecutable cl.exe
+xharness.symbolsFile D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\.cpptest\ATP_UT\file-data\StopAreaHandle.cb5099d9f\tested\harness_symbols.xml
+xharness.unwantedDeclHeaderInAutoStubConfig StopAreaHandle.c
+xharness.coverageMapFile D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\.cpptest\ATP_UT\file-data\StopAreaHandle.cb5099d9f\tested\new_coverage.map
+xharness.preIncludeHeader D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\.cpptest\ATP_UT\unit-data\current_tubf179707\cpptest_stubconfig.h
+xharness.routineManager symbol_file=* command=setProperty property=canCreateStubsIn value=off
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\StopAreaManage\StopAreaHandle.c" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\ProtectionData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\SysDef\SystemStructDefine.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\SysDef\SystemDefine.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\SysRunData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PowerOnHandle\TrainInitHandle.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\MaInfoData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\MarshallingData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\StopAreaManage\StopAreaHandle.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\EbTrackCutManage\EbAndCutOffTrackOut.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\LogManage\LogManage.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\RcvSendManage\PackParseTacInfoData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\TrainInitData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\TrainData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\StopAreaData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\SysRunErrorData.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\ProtectionManage\ProtectionHandle.h" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager symbol_file=* command=setProperty property=canAddCoverageIn value=off
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\StopAreaManage\StopAreaHandle.c" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\ProtectionData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\SysDef\SystemStructDefine.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\SysDef\SystemDefine.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\SysRunData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PowerOnHandle\TrainInitHandle.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\MaInfoData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\MarshallingData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\StopAreaManage\StopAreaHandle.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\EbTrackCutManage\EbAndCutOffTrackOut.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\LogManage\LogManage.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\RcvSendManage\PackParseTacInfoData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\TrainInitData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\TrainData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\StopAreaData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\SysRunErrorData.h" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\ProtectionManage\ProtectionHandle.h" command=setProperty property=canAddCoverageIn value=on

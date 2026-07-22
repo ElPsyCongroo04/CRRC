@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\DoorInfoData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitDoorInfoData" name="ZbAInitDoorInfoDataX" decorated_name="void InitDoorInfoData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="19" col="6"/>
+    </Function>
+    <Function id="GetDoorLeftPsdCtlCmd" name="ZbEGetDoorLeftPsdCtlCmdX" decorated_name="UINT8_T GetDoorLeftPsdCtlCmd(void)">
+      <definition type="orig" source="code" file_id="1" line="28" col="9"/>
+    </Function>
+    <Function id="SetDoorLeftPsdCtlCmd" name="ZbESetDoorLeftPsdCtlCmdX" decorated_name="void SetDoorLeftPsdCtlCmd(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="35" col="6"/>
+    </Function>
+    <Function id="GetDoorRightPsdCtlCmd" name="ZbFGetDoorRightPsdCtlCmdX" decorated_name="UINT8_T GetDoorRightPsdCtlCmd(void)">
+      <definition type="orig" source="code" file_id="1" line="42" col="9"/>
+    </Function>
+    <Function id="SetDoorRightPsdCtlCmd" name="ZbFSetDoorRightPsdCtlCmdX" decorated_name="void SetDoorRightPsdCtlCmd(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="49" col="6"/>
+    </Function>
+    <Function id="GetDoorLeftCtlCmd" name="ZbBGetDoorLeftCtlCmdX" decorated_name="UINT8_T GetDoorLeftCtlCmd(void)">
+      <definition type="orig" source="code" file_id="1" line="56" col="9"/>
+    </Function>
+    <Function id="SetDoorLeftCtlCmd" name="ZbBSetDoorLeftCtlCmdX" decorated_name="void SetDoorLeftCtlCmd(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="6"/>
+    </Function>
+    <Function id="GetDoorRightCtlCmd" name="ZbCGetDoorRightCtlCmdX" decorated_name="UINT8_T GetDoorRightCtlCmd(void)">
+      <definition type="orig" source="code" file_id="1" line="70" col="9"/>
+    </Function>
+    <Function id="SetDoorRightCtlCmd" name="ZbCSetDoorRightCtlCmdX" decorated_name="void SetDoorRightCtlCmd(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="77" col="6"/>
+    </Function>
+    <Function id="GetOutLeftDoorEnable" name="ZbEGetOutLeftDoorEnableX" decorated_name="UINT8_T GetOutLeftDoorEnable(void)">
+      <definition type="orig" source="code" file_id="1" line="84" col="9"/>
+    </Function>
+    <Function id="SetOutLeftDoorEnable" name="ZbESetOutLeftDoorEnableX" decorated_name="void SetOutLeftDoorEnable(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="91" col="6"/>
+    </Function>
+    <Function id="GetOutRightDoorEnable" name="ZbFGetOutRightDoorEnableX" decorated_name="UINT8_T GetOutRightDoorEnable(void)">
+      <definition type="orig" source="code" file_id="1" line="98" col="9"/>
+    </Function>
+    <Function id="SetOutRightDoorEnable" name="ZbFSetOutRightDoorEnableX" decorated_name="void SetOutRightDoorEnable(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="105" col="6"/>
+    </Function>
+    <Function id="GetDoorEnable" name="ZNGetDoorEnableX" decorated_name="UINT8_T GetDoorEnable(void)">
+      <definition type="orig" source="code" file_id="1" line="113" col="9"/>
+    </Function>
+    <Function id="SetDoorEnable" name="ZNSetDoorEnableX" decorated_name="void SetDoorEnable(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="120" col="6"/>
+    </Function>
+    <Function id="GetDoorRemoteOpenReq" name="ZbEGetDoorRemoteOpenReqX" decorated_name="UINT8_T GetDoorRemoteOpenReq(void)">
+      <definition type="orig" source="code" file_id="1" line="126" col="9"/>
+    </Function>
+    <Function id="SetDoorRemoteOpenReq" name="ZbESetDoorRemoteOpenReqX" decorated_name="void SetDoorRemoteOpenReq(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="132" col="6"/>
+    </Function>
+    <Function id="GetDoorRemoteCloseReq" name="ZbFGetDoorRemoteCloseReqX" decorated_name="UINT8_T GetDoorRemoteCloseReq(void)">
+      <definition type="orig" source="code" file_id="1" line="138" col="9"/>
+    </Function>
+    <Function id="SetDoorRemoteCloseReq" name="ZbFSetDoorRemoteCloseReqX" decorated_name="void SetDoorRemoteCloseReq(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="144" col="6"/>
+    </Function>
+    <Function id="GetDoorFamOpenDoorTimer" name="ZbHGetDoorFamOpenDoorTimerX" decorated_name="UINT32_T GetDoorFamOpenDoorTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="150" col="10"/>
+    </Function>
+    <Function id="SetDoorFamOpenDoorTimer" name="ZbHSetDoorFamOpenDoorTimerX" decorated_name="void SetDoorFamOpenDoorTimer(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="156" col="6"/>
+    </Function>
+    <Function id="GetDoorRevOpenDoorTimer" name="ZbHGetDoorRevOpenDoorTimerX" decorated_name="UINT32_T GetDoorRevOpenDoorTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="163" col="10"/>
+    </Function>
+    <Function id="SetDoorRevOpenDoorTimer" name="ZbHSetDoorRevOpenDoorTimerX" decorated_name="void SetDoorRevOpenDoorTimer(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="169" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

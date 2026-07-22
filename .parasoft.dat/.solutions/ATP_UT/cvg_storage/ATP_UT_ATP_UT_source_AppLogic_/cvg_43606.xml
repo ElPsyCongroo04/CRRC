@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" type="LC">
+  <VersionInfos>
+    <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="3847402058542082837 4350481491180392940 -4830745867383605369 3847402058542082743 3847402058542083582 -4520545803260036158" uniqueId2MainId="CPP://-1995934304685118496 CPP://-3747031002532602353 CPP://-4819045318999339310 CPP://-1995934304685118465 CPP://-1995934304685118527 CPP://-5953393911139517280" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;20;InitPsdInfoData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;42;GetPsdStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;26;GetPSDId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;57;GetPsdIsolatStatus" total="7" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;50;SetPsdStatus" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;80;SetPsdIsolatStatus" total="19" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;34;SetPSDId" total="1" num="1" />
+  </Stats>
+  <ResultInfo cvgType="LC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;34;SetPSDId">
+      <CtxCvg ctx="4350481491180392940" ids="37" />
+      <CtxCvg ctx="3847402058542082837" ids="37" />
+      <CtxCvg ctx="-4830745867383605369" ids="37" />
+      <CtxCvg ctx="-4520545803260036158" ids="37" />
+      <CtxCvg ctx="3847402058542083582" ids="37" />
+      <CtxCvg ctx="3847402058542082743" ids="37" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;50;SetPsdStatus">
+      <CtxCvg ctx="4350481491180392940" ids="53" />
+      <CtxCvg ctx="3847402058542082837" ids="53" />
+      <CtxCvg ctx="-4830745867383605369" ids="53" />
+      <CtxCvg ctx="-4520545803260036158" ids="53" />
+      <CtxCvg ctx="3847402058542083582" ids="53" />
+      <CtxCvg ctx="3847402058542082743" ids="53" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="LC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;26;GetPSDId" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" show="true" lns="29" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;50;SetPsdStatus" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" show="true" lns="53" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;80;SetPsdIsolatStatus" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" show="true" lns="100 98 111 108 104 85 84 117 116 86 115 114 127 92 125 95 123 89 122" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;20;InitPsdInfoData" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" show="true" lns="23" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;42;GetPsdStatus" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" show="true" lns="45" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;34;SetPSDId" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" show="true" lns="37" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c;57;GetPsdIsolatStatus" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PsdInfoData.c" show="true" lns="70 64 67 77 73 61 60" />
+  </ResultInfo>
+</CvgData>

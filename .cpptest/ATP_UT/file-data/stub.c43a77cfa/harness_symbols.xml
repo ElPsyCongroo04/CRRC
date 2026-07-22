@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\stubs\stub.c" id="1"/>
+    <Function id="GetLongFromBuffer" name="ZbBGetLongFromBufferX" decorated_name="UINT32_T GetLongFromBuffer(const UINT8_T *, EndianOrderType_T)">
+      <definition type="user" source="code" file_id="1" line="13555" col="27"/>
+    </Function>
+    <Function id="GetLocCpsSpaceMax" name="ZbBGetLocCpsSpaceMaxX" decorated_name="UINT8_T GetLocCpsSpaceMax(void)">
+      <definition type="user" source="code" file_id="1" line="13323" col="26"/>
+    </Function>
+    <Function id="GetMeaDisRateInit" name="ZbBGetMeaDisRateInitX" decorated_name="UINT8_T GetMeaDisRateInit(void)">
+      <definition type="user" source="code" file_id="1" line="13177" col="26"/>
+    </Function>
+    <Function id="GetMeaDisRateHigh" name="ZbBGetMeaDisRateHighX" decorated_name="UINT8_T GetMeaDisRateHigh(void)">
+      <definition type="user" source="code" file_id="1" line="13362" col="26"/>
+    </Function>
+    <Function id="GetMeaDisRateLow" name="ZbAGetMeaDisRateLowX" decorated_name="UINT8_T GetMeaDisRateLow(void)">
+      <definition type="user" source="code" file_id="1" line="13135" col="26"/>
+    </Function>
+    <Function id="GetSpinAcc" name="ZKGetSpinAccX" decorated_name="UINT16_T GetSpinAcc(void)">
+      <definition type="user" source="code" file_id="1" line="13355" col="27"/>
+    </Function>
+    <Function id="GetSpinTimeMax" name="ZOGetSpinTimeMaxX" decorated_name="UINT16_T GetSpinTimeMax(void)">
+      <definition type="user" source="code" file_id="1" line="13063" col="27"/>
+    </Function>
+    <Function id="GetSpdSmoothNum" name="ZPGetSpdSmoothNumX" decorated_name="UINT8_T GetSpdSmoothNum(void)">
+      <definition type="user" source="code" file_id="1" line="13638" col="26"/>
+    </Function>
+    <Function id="GetOpgType" name="ZKGetOpgTypeX" decorated_name="UINT8_T GetOpgType(void)">
+      <definition type="user" source="code" file_id="1" line="732" col="26"/>
+    </Function>
+    <Function id="GetOpgNum" name="ZJGetOpgNumX" decorated_name="UINT8_T GetOpgNum(void)">
+      <definition type="user" source="code" file_id="1" line="723" col="26"/>
+    </Function>
+    <Function id="GetOpgDefault" name="ZNGetOpgDefaultX" decorated_name="UINT8_T GetOpgDefault(void)">
+      <definition type="user" source="code" file_id="1" line="13330" col="26"/>
+    </Function>
+    <Function id="GetOpgConnectCfg" name="ZbAGetOpgConnectCfgX" decorated_name="UINT8_T GetOpgConnectCfg(void)">
+      <definition type="user" source="code" file_id="1" line="714" col="26"/>
+    </Function>
+    <Function id="GetOpgChannelNum" name="ZbAGetOpgChannelNumX" decorated_name="UINT8_T GetOpgChannelNum(void)">
+      <definition type="user" source="code" file_id="1" line="705" col="26"/>
+    </Function>
+    <Function id="GetTeethANum" name="ZMGetTeethANumX" decorated_name="UINT16_T GetTeethANum(void)">
+      <definition type="user" source="code" file_id="1" line="12973" col="27"/>
+    </Function>
+    <Function id="GetTeethBNum" name="ZMGetTeethBNumX" decorated_name="UINT16_T GetTeethBNum(void)">
+      <definition type="user" source="code" file_id="1" line="12883" col="27"/>
+    </Function>
+    <Function id="AddCirQueueData" name="ZPAddCirQueueDataX" decorated_name="INT8_T AddCirQueueData(CirQueueStruct_T *, const UINT8_T *, UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="520" col="25"/>
+    </Function>
+    <Function id="GetCirQueuePkgCount" name="ZbDGetCirQueuePkgCountX" decorated_name="UINT32_T GetCirQueuePkgCount(const CirQueueStruct_T *)">
+      <definition type="user" source="code" file_id="1" line="572" col="27"/>
+    </Function>
+    <Function id="GetCirQueuePkgData" name="ZbCGetCirQueuePkgDataX" decorated_name="UINT32_T GetCirQueuePkgData(CirQueueStruct_T *, UINT8_T *, UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="581" col="27"/>
+    </Function>
+    <Function id="AddDevComQueueData" name="ZbCAddDevComQueueDataX" decorated_name="INT8_T AddDevComQueueData(DevComCirQueueStruct_T *, const UINT8_T *, UINT32_T, UINT8_T, UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="528" col="25"/>
+    </Function>
+    <Function id="GetInMeaTrainIntegrity" name="ZbGGetInMeaTrainIntegrityX" decorated_name="UINT8_T GetInMeaTrainIntegrity(void)">
+      <definition type="user" source="code" file_id="1" line="9167" col="26"/>
+    </Function>
+    <Function id="GetInMeaDoorStatus" name="ZbCGetInMeaDoorStatusX" decorated_name="UINT8_T GetInMeaDoorStatus(void)">
+      <definition type="user" source="code" file_id="1" line="7268" col="26"/>
+    </Function>
+    <Function id="GetInMeaLeftDoorStatus" name="ZbGGetInMeaLeftDoorStatusX" decorated_name="UINT8_T GetInMeaLeftDoorStatus(void)">
+      <definition type="user" source="code" file_id="1" line="10876" col="26"/>
+    </Function>
+    <Function id="GetInMeaRightDoorStatus" name="ZbHGetInMeaRightDoorStatusX" decorated_name="UINT8_T GetInMeaRightDoorStatus(void)">
+      <definition type="user" source="code" file_id="1" line="10837" col="26"/>
+    </Function>
+    <Function id="GetInMeaCutOffTraction" name="ZbGGetInMeaCutOffTractionX" decorated_name="UINT8_T GetInMeaCutOffTraction(void)">
+      <definition type="user" source="code" file_id="1" line="9461" col="26"/>
+    </Function>
+    <Function id="GetInMeaEbStatus" name="ZbAGetInMeaEbStatusX" decorated_name="UINT8_T GetInMeaEbStatus(void)">
+      <definition type="user" source="code" file_id="1" line="9280" col="26"/>
+    </Function>
+    <Function id="GetInMeaBrakeHoldStatus" name="ZbHGetInMeaBrakeHoldStatusX" decorated_name="UINT8_T GetInMeaBrakeHoldStatus(void)">
+      <definition type="user" source="code" file_id="1" line="11231" col="26"/>
+    </Function>
+    <Function id="GetInMeaModeUpTag" name="ZbBGetInMeaModeUpTagX" decorated_name="UINT8_T GetInMeaModeUpTag(void)">
+      <definition type="user" source="code" file_id="1" line="2792" col="26"/>
+    </Function>
+    <Function id="GetInMeaModeUpTagLast" name="ZbFGetInMeaModeUpTagLastX" decorated_name="UINT8_T GetInMeaModeUpTagLast(void)">
+      <definition type="user" source="code" file_id="1" line="2773" col="26"/>
+    </Function>
+    <Function id="GetInMeaModeDownTag" name="ZbDGetInMeaModeDownTagX" decorated_name="UINT8_T GetInMeaModeDownTag(void)">
+      <definition type="user" source="code" file_id="1" line="2849" col="26"/>
+    </Function>
+    <Function id="GetInMeaModeDownTagLast" name="ZbHGetInMeaModeDownTagLastX" decorated_name="UINT8_T GetInMeaModeDownTagLast(void)">
+      <definition type="user" source="code" file_id="1" line="2830" col="26"/>
+    </Function>
+    <Function id="GetInMeaArBtn" name="ZNGetInMeaArBtnX" decorated_name="UINT8_T GetInMeaArBtn(void)">
+      <definition type="user" source="code" file_id="1" line="6116" col="26"/>
+    </Function>
+    <Function id="GetInMeaArBtnLast" name="ZbBGetInMeaArBtnLastX" decorated_name="UINT8_T GetInMeaArBtnLast(void)">
+      <definition type="user" source="code" file_id="1" line="9583" col="26"/>
+    </Function>
+    <Function id="GetInMeaDirForwardBtn" name="ZbFGetInMeaDirForwardBtnX" decorated_name="UINT8_T GetInMeaDirForwardBtn(void)">
+      <definition type="user" source="code" file_id="1" line="8783" col="26"/>
+    </Function>
+    <Function id="GetInMeaDirBackBtn" name="ZbCGetInMeaDirBackBtnX" decorated_name="UINT8_T GetInMeaDirBackBtn(void)">
+      <definition type="user" source="code" file_id="1" line="8922" col="26"/>
+    </Function>
+    <Function id="GetInMeaLocalKey" name="ZbAGetInMeaLocalKeyX" decorated_name="UINT8_T GetInMeaLocalKey(void)">
+      <definition type="user" source="code" file_id="1" line="12137" col="26"/>
+    </Function>
+    <Function id="GetInMeaOppoKey" name="ZPGetInMeaOppoKeyX" decorated_name="UINT8_T GetInMeaOppoKey(void)">
+      <definition type="user" source="code" file_id="1" line="12156" col="26"/>
+    </Function>
+    <Function id="GetInMeaAtoRelease" name="ZbCGetInMeaAtoReleaseX" decorated_name="UINT8_T GetInMeaAtoRelease(void)">
+      <definition type="user" source="code" file_id="1" line="9610" col="26"/>
+    </Function>
+    <Function id="GetInMeaBrakeFailure" name="ZbEGetInMeaBrakeFailureX" decorated_name="UINT8_T GetInMeaBrakeFailure(void)">
+      <definition type="user" source="code" file_id="1" line="4316" col="26"/>
+    </Function>
+    <Function id="GetInMeaEUMTag" name="ZOGetInMeaEUMTagX" decorated_name="UINT8_T GetInMeaEUMTag(void)">
+      <definition type="user" source="code" file_id="1" line="4177" col="26"/>
+    </Function>
+    <Function id="GetInMeaAssureBtn" name="ZbBGetInMeaAssureBtnX" decorated_name="UINT8_T GetInMeaAssureBtn(void)">
+      <definition type="user" source="code" file_id="1" line="2864" col="26"/>
+    </Function>
+    <Function id="GetInMeaAssureBtnLast" name="ZbFGetInMeaAssureBtnLastX" decorated_name="UINT8_T GetInMeaAssureBtnLast(void)">
+      <definition type="user" source="code" file_id="1" line="2995" col="26"/>
+    </Function>
+    <Function id="GetInMeaADB" name="ZLGetInMeaADBX" decorated_name="UINT8_T GetInMeaADB(void)">
+      <definition type="user" source="code" file_id="1" line="6045" col="26"/>
+    </Function>
+    <Function id="GetInMeaDoorUnlocking" name="ZbFGetInMeaDoorUnlockingX" decorated_name="UINT8_T GetInMeaDoorUnlocking(void)">
+      <definition type="user" source="code" file_id="1" line="11289" col="26"/>
+    </Function>
+    <Function id="GetInMeaLocalCtrlHandleZero" name="ZbLGetInMeaLocalCtrlHandleZeroX" decorated_name="UINT8_T GetInMeaLocalCtrlHandleZero(void)">
+      <definition type="user" source="code" file_id="1" line="9198" col="26"/>
+    </Function>
+    <Function id="GetInMeaEsbBtn" name="ZOGetInMeaEsbBtnX" decorated_name="UINT8_T GetInMeaEsbBtn(void)">
+      <definition type="user" source="code" file_id="1" line="10193" col="26"/>
+    </Function>
+    <Function id="GetInMeaLocalECoupConSta" name="ZbIGetInMeaLocalECoupConStaX" decorated_name="UINT8_T GetInMeaLocalECoupConSta(void)">
+      <definition type="user" source="code" file_id="1" line="12429" col="26"/>
+    </Function>
+    <Function id="GetInMeaLocalECoupConStaLast" name="ZbMGetInMeaLocalECoupConStaLastX" decorated_name="UINT8_T GetInMeaLocalECoupConStaLast(void)">
+      <definition type="user" source="code" file_id="1" line="12452" col="26"/>
+    </Function>
+    <Function id="GetTrainStopSteady" name="ZbCGetTrainStopSteadyX" decorated_name="UINT8_T GetTrainStopSteady(void)">
+      <definition type="user" source="code" file_id="1" line="14538" col="26"/>
+    </Function>
+    <Function id="GetTrainOutCutOffTract" name="ZbGGetTrainOutCutOffTractX" decorated_name="UINT8_T GetTrainOutCutOffTract(void)">
+      <definition type="user" source="code" file_id="1" line="9472" col="26"/>
+    </Function>
+    <Function id="GetTrainOutEb" name="ZNGetTrainOutEbX" decorated_name="UINT8_T GetTrainOutEb(void)">
+      <definition type="user" source="code" file_id="1" line="9136" col="26"/>
+    </Function>
+    <Function id="GetTrainEbed" name="ZMGetTrainEbedX" decorated_name="UINT8_T GetTrainEbed(void)">
+      <definition type="user" source="code" file_id="1" line="9050" col="26"/>
+    </Function>
+    <Function id="GetTrainPeriodDis" name="ZbBGetTrainPeriodDisX" decorated_name="UINT32_T GetTrainPeriodDis(void)">
+      <definition type="user" source="code" file_id="1" line="10163" col="27"/>
+    </Function>
+    <Function id="GetTrainLOCHMaxDir" name="ZbCGetTrainLOCHMaxDirX" decorated_name="UINT8_T GetTrainLOCHMaxDir(void)">
+      <definition type="user" source="code" file_id="1" line="11109" col="26"/>
+    </Function>
+    <Function id="GetTrainLOCTMinSegId" name="ZbEGetTrainLOCTMinSegIdX" decorated_name="UINT16_T GetTrainLOCTMinSegId(void)">
+      <definition type="user" source="code" file_id="1" line="12186" col="27"/>
+    </Function>
+    <Function id="GetTrainLocalCabActive" name="ZbGGetTrainLocalCabActiveX" decorated_name="UINT8_T GetTrainLocalCabActive(void)">
+      <definition type="user" source="code" file_id="1" line="3102" col="26"/>
+    </Function>
+    <Function id="GetTrainOppoCabActive" name="ZbFGetTrainOppoCabActiveX" decorated_name="UINT8_T GetTrainOppoCabActive(void)">
+      <definition type="user" source="code" file_id="1" line="3815" col="26"/>
+    </Function>
+    <Function id="GetTrainLocalKeyActive" name="ZbGGetTrainLocalKeyActiveX" decorated_name="UINT8_T GetTrainLocalKeyActive(void)">
+      <definition type="user" source="code" file_id="1" line="4870" col="26"/>
+    </Function>
+    <Function id="GetTrainOppoKeyActive" name="ZbFGetTrainOppoKeyActiveX" decorated_name="UINT8_T GetTrainOppoKeyActive(void)">
+      <definition type="user" source="code" file_id="1" line="5280" col="26"/>
+    </Function>
+    <Function id="GetPrtBackDist" name="ZOGetPrtBackDistX" decorated_name="UINT32_T GetPrtBackDist(void)">
+      <definition type="user" source="code" file_id="1" line="9213" col="27"/>
+    </Function>
+    <Function id="GetPrtBackPrtDist" name="ZbBGetPrtBackPrtDistX" decorated_name="UINT32_T GetPrtBackPrtDist(void)">
+      <definition type="user" source="code" file_id="1" line="10144" col="27"/>
+    </Function>
+    <Function id="GetPrtBackSpaceCpsTag" name="ZbFGetPrtBackSpaceCpsTagX" decorated_name="UINT8_T GetPrtBackSpaceCpsTag(void)">
+      <definition type="user" source="code" file_id="1" line="10004" col="26"/>
+    </Function>
+    <Function id="GetPrtBackEnableTag" name="ZbDGetPrtBackEnableTagX" decorated_name="UINT8_T GetPrtBackEnableTag(void)">
+      <definition type="user" source="code" file_id="1" line="9491" col="26"/>
+    </Function>
+    <Function id="GetPrtBackStateTag" name="ZbCGetPrtBackStateTagX" decorated_name="UINT8_T GetPrtBackStateTag(void)">
+      <definition type="user" source="code" file_id="1" line="10591" col="26"/>
+    </Function>
+    <Function id="GetPrtBackStateTagLast" name="ZbGGetPrtBackStateTagLastX" decorated_name="UINT8_T GetPrtBackStateTagLast(void)">
+      <definition type="user" source="code" file_id="1" line="10583" col="26"/>
+    </Function>
+    <Function id="GetPrtRollDist" name="ZOGetPrtRollDistX" decorated_name="UINT32_T GetPrtRollDist(void)">
+      <definition type="user" source="code" file_id="1" line="10486" col="27"/>
+    </Function>
+    <Function id="GetPrtRollStateTag" name="ZbCGetPrtRollStateTagX" decorated_name="UINT8_T GetPrtRollStateTag(void)">
+      <definition type="user" source="code" file_id="1" line="10501" col="26"/>
+    </Function>
+    <Function id="GetPrtRollSpaceCpsTag" name="ZbFGetPrtRollSpaceCpsTagX" decorated_name="UINT8_T GetPrtRollSpaceCpsTag(void)">
+      <definition type="user" source="code" file_id="1" line="10536" col="26"/>
+    </Function>
+    <Function id="GetPrtJumpDist" name="ZOGetPrtJumpDistX" decorated_name="INT32_T GetPrtJumpDist(void)">
+      <definition type="user" source="code" file_id="1" line="11036" col="26"/>
+    </Function>
+    <Function id="GetPrtJumpPrtDist" name="ZbBGetPrtJumpPrtDistX" decorated_name="UINT32_T GetPrtJumpPrtDist(void)">
+      <definition type="user" source="code" file_id="1" line="11001" col="27"/>
+    </Function>
+    <Function id="GetPrtJumpStep" name="ZOGetPrtJumpStepX" decorated_name="UINT8_T GetPrtJumpStep(void)">
+      <definition type="user" source="code" file_id="1" line="15960" col="26"/>
+    </Function>
+    <Function id="GetPrtJumpTimes" name="ZPGetPrtJumpTimesX" decorated_name="UINT8_T GetPrtJumpTimes(void)">
+      <definition type="user" source="code" file_id="1" line="11090" col="26"/>
+    </Function>
+    <Function id="GetPrtjumpTimesBack" name="ZbDGetPrtjumpTimesBackX" decorated_name="UINT8_T GetPrtjumpTimesBack(void)">
+      <definition type="user" source="code" file_id="1" line="11071" col="26"/>
+    </Function>
+    <Function id="GetPrtJumpDir" name="ZNGetPrtJumpDirX" decorated_name="UINT8_T GetPrtJumpDir(void)">
+      <definition type="user" source="code" file_id="1" line="10911" col="26"/>
+    </Function>
+    <Function id="GetPrtJumpReq" name="ZNGetPrtJumpReqX" decorated_name="UINT8_T GetPrtJumpReq(void)">
+      <definition type="user" source="code" file_id="1" line="10646" col="26"/>
+    </Function>
+    <Function id="GetPrtJumpSta" name="ZNGetPrtJumpStaX" decorated_name="UINT8_T GetPrtJumpSta(void)">
+      <definition type="user" source="code" file_id="1" line="10363" col="26"/>
+    </Function>
+    <Function id="GetPrtJumpParkingFlg" name="ZbEGetPrtJumpParkingFlgX" decorated_name="UINT8_T GetPrtJumpParkingFlg(void)">
+      <definition type="user" source="code" file_id="1" line="10737" col="26"/>
+    </Function>
+    <Function id="GetPrtJumpAllowCmd" name="ZbCGetPrtJumpAllowCmdX" decorated_name="UINT8_T GetPrtJumpAllowCmd(void)">
+      <definition type="user" source="code" file_id="1" line="15893" col="26"/>
+    </Function>
+    <Function id="GetNextSegId" name="ZMGetNextSegIdX" decorated_name="UINT8_T GetNextSegId(UINT16_T, UINT8_T, UINT16_T *)">
+      <definition type="user" source="code" file_id="1" line="12218" col="26"/>
+    </Function>
+    <Function id="GetStartTime" name="ZMGetStartTimeX" decorated_name="UINT32_T GetStartTime(const UINT8_T, const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="16463" col="27"/>
+    </Function>
+    <Function id="GetHealFailTime" name="ZPGetHealFailTimeX" decorated_name="UINT32_T GetHealFailTime(const UINT8_T, const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="96" col="27"/>
+    </Function>
+    <Function id="GAL_InitDevData" name="ZPGAL_InitDevDataX" decorated_name="UINT32_T GAL_InitDevData(UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="117" col="27"/>
+    </Function>
+    <Function id="GetAwakeLocalSTestEnable" name="ZbIGetAwakeLocalSTestEnableX" decorated_name="UINT8_T GetAwakeLocalSTestEnable(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13597" col="26"/>
+    </Function>
+    <Function id="GetAwakeOppoSTestEnable" name="ZbHGetAwakeOppoSTestEnableX" decorated_name="UINT8_T GetAwakeOppoSTestEnable(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13631" col="26"/>
+    </Function>
+    <Function id="GetAwakeSTestContinue" name="ZbFGetAwakeSTestContinueX" decorated_name="UINT8_T GetAwakeSTestContinue(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13528" col="26"/>
+    </Function>
+    <Function id="GetAwakeSTestAffect" name="ZbDGetAwakeSTestAffectX" decorated_name="UINT8_T GetAwakeSTestAffect(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13569" col="26"/>
+    </Function>
+    <Function id="GetAwakeSTestTimeMax" name="ZbEGetAwakeSTestTimeMaxX" decorated_name="UINT32_T GetAwakeSTestTimeMax(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13658" col="27"/>
+    </Function>
+    <Function id="GetMechanicalBrakTestResult" name="ZbLGetMechanicalBrakTestResultX" decorated_name="UINT8_T GetMechanicalBrakTestResult(void)">
+      <definition type="user" source="code" file_id="1" line="130" col="26"/>
+    </Function>
+    <Function id="GetMechanicalBrakTestTime" name="ZbJGetMechanicalBrakTestTimeX" decorated_name="UINT32_T GetMechanicalBrakTestTime(void)">
+      <definition type="user" source="code" file_id="1" line="137" col="27"/>
+    </Function>
+    <Function id="GetAwakeCamTestTime" name="ZbDGetAwakeCamTestTimeX" decorated_name="UINT32_T GetAwakeCamTestTime(void)">
+      <definition type="user" source="code" file_id="1" line="563" col="27"/>
+    </Function>
+    <Function id="GetObcSelfCheckTestTime" name="ZbHGetObcSelfCheckTestTimeX" decorated_name="UINT32_T GetObcSelfCheckTestTime(void)">
+      <definition type="user" source="code" file_id="1" line="192" col="27"/>
+    </Function>
+    <Function id="GetOcIdByDevId" name="ZOGetOcIdByDevIdX" decorated_name="UINT16_T GetOcIdByDevId(const UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="12823" col="27"/>
+    </Function>
+    <Function id="GetPtOperatStopIdBySpSecAndDir" name="ZbOGetPtOperatStopIdBySpSecAndDirX" decorated_name="UINT16_T GetPtOperatStopIdBySpSecAndDir(const UINT16_T, UINT16_T)">
+      <definition type="user" source="code" file_id="1" line="13459" col="27"/>
+    </Function>
+    <Function id="GetStopPtIdBySegDirAttribute" name="ZbMGetStopPtIdBySegDirAttributeX" decorated_name="UINT16_T GetStopPtIdBySegDirAttribute(UINT16_T, UINT8_T, UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="176" col="27"/>
+    </Function>
+    <Function id="GetStopPointDataStrudir" name="ZbHGetStopPointDataStrudirX" decorated_name="UINT8_T GetStopPointDataStrudir(const UINT16_T)">
+      <definition type="user" source="code" file_id="1" line="16428" col="26"/>
+    </Function>
+    <Function id="GetSegEscapePlat" name="ZbAGetSegEscapePlatX" decorated_name="UINT8_T GetSegEscapePlat(UINT16_T)">
+      <definition type="user" source="code" file_id="1" line="200" col="26"/>
+    </Function>
+    <Function id="GetReverseDir" name="ZNGetReverseDirX" decorated_name="UINT8_T GetReverseDir(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="741" col="26"/>
+    </Function>
+    <Function id="GetTrainBelongOcType" name="ZbEGetTrainBelongOcTypeX" decorated_name="UINT16_T GetTrainBelongOcType(void)">
+      <definition type="user" source="code" file_id="1" line="13077" col="27"/>
+    </Function>
+    <Function id="InitPsdAndDoorStru" name="ZbCInitPsdAndDoorStruX" decorated_name="void InitPsdAndDoorStru(const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="854" col="23"/>
+    </Function>
+    <Function id="InitObjAndTlsStru" name="ZbBInitObjAndTlsStruX" decorated_name="void InitObjAndTlsStru(const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="846" col="23"/>
+    </Function>
+    <Function id="AtpPeriodInit" name="ZNAtpPeriodInitX" decorated_name="void AtpPeriodInit(void)">
+      <definition type="user" source="code" file_id="1" line="838" col="23"/>
+    </Function>
+    <Function id="GetBaliseIdLoc" name="ZOGetBaliseIdLocX" decorated_name="UINT8_T GetBaliseIdLoc(const UINT32_T, UINT16_T *, UINT32_T *)">
+      <definition type="user" source="code" file_id="1" line="660" col="26"/>
+    </Function>
+    <Function id="GetObsInfoLoc" name="ZNGetObsInfoLocX" decorated_name="UINT8_T GetObsInfoLoc(const UINT8_T, ObstInfo_T *)">
+      <definition type="user" source="code" file_id="1" line="687" col="26"/>
+    </Function>
+    <Function id="CalcAtpAddInfo" name="ZOCalcAtpAddInfoX" decorated_name="UINT8_T CalcAtpAddInfo(void)">
+      <definition type="user" source="code" file_id="1" line="617" col="26"/>
+    </Function>
+    <Function id="CheckTrainHeadInStopSec" name="ZbHCheckTrainHeadInStopSecX" decorated_name="UINT8_T CheckTrainHeadInStopSec(const UINT16_T, UINT8_T *, UINT16_T *, UINT16_T *)">
+      <definition type="user" source="code" file_id="1" line="634" col="26"/>
+    </Function>
+    <Function id="GetJumpStopPiontDataStru" name="ZbIGetJumpStopPiontDataStruX" decorated_name="const StopPoint_T * GetJumpStopPiontDataStru(UINT16_T, UINT32_T, UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13024" col="38"/>
+    </Function>
+    <Function id="GetAccessMaOfReverInfo" name="ZbGGetAccessMaOfReverInfoX" decorated_name="UINT8_T GetAccessMaOfReverInfo(const UINT16_T, const UINT32_T, const UINT16_T, const UINT32_T, const UINT16_T, const UINT32_T, const UINT8_T, UINT16_T *, UINT8_T *)">
+      <definition type="user" source="code" file_id="1" line="651" col="26"/>
+    </Function>
+    <Function id="CheckTrainInExitSec" name="ZbDCheckTrainInExitSecX" decorated_name="UINT8_T CheckTrainInExitSec(const UINT16_T, const UINT32_T, const UINT16_T, const UINT32_T, const UINT8_T, UINT16_T *)">
+      <definition type="user" source="code" file_id="1" line="643" col="26"/>
+    </Function>
+    <Function id="CheckIsMAPassMinProtectSec" name="ZbKCheckIsMAPassMinProtectSecX" decorated_name="UINT8_T CheckIsMAPassMinProtectSec(const UINT16_T, const UINT16_T, const UINT32_T, const UINT8_T, const UINT32_T, UINT8_T *)">
+      <definition type="user" source="code" file_id="1" line="625" col="26"/>
+    </Function>
+    <Function id="GetSearchDoorOpreation" name="ZbGGetSearchDoorOpreationX" decorated_name="UINT8_T GetSearchDoorOpreation(void)">
+      <definition type="user" source="code" file_id="1" line="750" col="26"/>
+    </Function>
+    <Function id="GetPsdInfo" name="ZKGetPsdInfoX" decorated_name="PsdInfoStruct_T * GetPsdInfo(UINT8_T *)">
+      <definition type="user" source="code" file_id="1" line="536" col="36"/>
+    </Function>
+    <Function id="GetStaStopAreaPsdInfo" name="ZbFGetStaStopAreaPsdInfoX" decorated_name="UINT8_T GetStaStopAreaPsdInfo(const UINT16_T, const UINT8_T, UINT32_T *)">
+      <definition type="user" source="code" file_id="1" line="759" col="26"/>
+    </Function>
+    <Function id="GetObstInfo" name="ZLGetObstInfoX" decorated_name="UINT8_T GetObstInfo(const Location_T *, const Location_T *, const Location_T *, const Location_T *, const UINT8_T, UINT8_T *, LimitObjFront_T *, UINT8_T *, LimitObjBetweenStruct_T *, UINT32_T *, UINT8_T *, LimitObjFront_T *)">
+      <definition type="user" source="code" file_id="1" line="696" col="26"/>
+    </Function>
+    <Function id="GetSpksObstInfo" name="ZPGetSpksObstInfoX" decorated_name="UINT8_T GetSpksObstInfo(const Location_T *, const Location_T *, const Location_T *, const Location_T *, const UINT8_T, UINT8_T *, LimitObjFront_T *, UINT8_T *, LimitObjBetweenStruct_T *)">
+      <definition type="user" source="code" file_id="1" line="16330" col="26"/>
+    </Function>
+    <Function id="GetLineLimit" name="ZMGetLineLimitX" decorated_name="UINT8_T GetLineLimit(const Location_T *, const Location_T *, const Location_T *, const Location_T *, UINT8_T *, LimitObjFront_T *, UINT8_T *, LimitObjBetweenStruct_T *, UINT8_T *, LimitObjFront_T *)">
+      <definition type="user" source="code" file_id="1" line="669" col="26"/>
+    </Function>
+    <Function id="LDB_GetGradient" name="ZPLDB_GetGradientX" decorated_name="UINT8_T LDB_GetGradient(const UINT16_T, const UINT32_T, const UINT8_T, const UINT16_T, const UINT32_T, const UINT8_T, INT32_T *)">
+      <definition type="user" source="code" file_id="1" line="803" col="26"/>
+    </Function>
+    <Function id="UpdateObjAndTlsStatus" name="ZbFUpdateObjAndTlsStatusX" decorated_name="UINT8_T UpdateObjAndTlsStatus(const ObstInfo_T *, const UINT8_T, const TSRInfo_T *, const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="829" col="26"/>
+    </Function>
+    <Function id="LDB_GetOperationDir" name="ZbDLDB_GetOperationDirX" decorated_name="UINT8_T LDB_GetOperationDir(const UINT8_T, UINT8_T *)">
+      <definition type="user" source="code" file_id="1" line="812" col="26"/>
+    </Function>
+    <Function id="LDB_GetOspInAndDist" name="ZbDLDB_GetOspInAndDistX" decorated_name="UINT8_T LDB_GetOspInAndDist(const UINT16_T, const UINT32_T, const UINT8_T, const UINT16_T, const UINT32_T, const UINT8_T, UINT8_T *, INT32_T *)">
+      <definition type="user" source="code" file_id="1" line="821" col="26"/>
+    </Function>
+    <Function id="GetNextPltBtwPoints" name="ZbDGetNextPltBtwPointsX" decorated_name="UINT8_T GetNextPltBtwPoints(const UINT16_T, const UINT16_T, const UINT8_T, UINT16_T *)">
+      <definition type="user" source="code" file_id="1" line="678" col="26"/>
+    </Function>
+    <Function id="LDB_GetSegmentStartPosOffset" name="ZbMLDB_GetSegmentStartPosOffsetX" decorated_name="UINT32_T LDB_GetSegmentStartPosOffset(const UINT16_T, const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="608" col="27"/>
+    </Function>
+    <Function id="GetOneStopPoint" name="ZPGetOneStopPointX" decorated_name="UINT8_T GetOneStopPoint(const Location_T *, const Location_T *, const Location_T *, const Location_T *, UINT8_T *, LimitObjFront_T *, UINT8_T *, LimitObjBetweenStruct_T *)">
+      <definition type="user" source="code" file_id="1" line="13562" col="26"/>
+    </Function>
+    <Function id="GetStopSecIdByDevId" name="ZbDGetStopSecIdByDevIdX" decorated_name="UINT16_T GetStopSecIdByDevId(UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="546" col="27"/>
+    </Function>
+    <Function id="GetStopSecDevIdByIdxId" name="ZbGGetStopSecDevIdByIdxIdX" decorated_name="UINT32_T GetStopSecDevIdByIdxId(UINT16_T)">
+      <definition type="user" source="code" file_id="1" line="9977" col="27"/>
+    </Function>
+    <Function id="GetVobcExternDevIdByVobcId" name="ZbKGetVobcExternDevIdByVobcIdX" decorated_name="UINT32_T GetVobcExternDevIdByVobcId(const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="16379" col="27"/>
+    </Function>
+    <Function id="GetVobcIdExtByAtoId" name="ZbDGetVobcIdExtByAtoIdX" decorated_name="UINT32_T GetVobcIdExtByAtoId(UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="590" col="27"/>
+    </Function>
+    <Function id="GetVobcIdExtByAtpId" name="ZbDGetVobcIdExtByAtpIdX" decorated_name="UINT32_T GetVobcIdExtByAtpId(UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="599" col="27"/>
+    </Function>
+    <Function id="GetAtpIdByVobcIdExt" name="ZbDGetAtpIdByVobcIdExtX" decorated_name="UINT32_T GetAtpIdByVobcIdExt(const UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="555" col="27"/>
+    </Function>
+    <Function id="GetLocalDevIdByTrainID" name="ZbGGetLocalDevIdByTrainIDX" decorated_name="UINT32_T GetLocalDevIdByTrainID(UINT16_T, DevType_T)">
+      <definition type="user" source="code" file_id="1" line="990" col="27"/>
+    </Function>
+    <Function id="GetOtherDevIdByTrainID" name="ZbGGetOtherDevIdByTrainIDX" decorated_name="UINT32_T GetOtherDevIdByTrainID(UINT16_T, DevType_T)">
+      <definition type="user" source="code" file_id="1" line="998" col="27"/>
+    </Function>
+    <Function id="GetLocalDevIdByTrainDevID" name="ZbJGetLocalDevIdByTrainDevIDX" decorated_name="UINT32_T GetLocalDevIdByTrainDevID(UINT32_T, DevType_T)">
+      <definition type="user" source="code" file_id="1" line="9925" col="27"/>
+    </Function>
+    <Function id="GetOtherDevIdByTrainDevID" name="ZbJGetOtherDevIdByTrainDevIDX" decorated_name="UINT32_T GetOtherDevIdByTrainDevID(UINT32_T, DevType_T)">
+      <definition type="user" source="code" file_id="1" line="9951" col="27"/>
+    </Function>
+    <Function id="GetVobcIdConfigDiamFailNum" name="ZbKGetVobcIdConfigDiamFailNumX" decorated_name="UINT16_T GetVobcIdConfigDiamFailNum(void)">
+      <definition type="user" source="code" file_id="1" line="16372" col="27"/>
+    </Function>
+    <Function id="GetRunOppoCtrlLevel" name="ZbDGetRunOppoCtrlLevelX" decorated_name="UINT8_T GetRunOppoCtrlLevel(void)">
+      <definition type="user" source="code" file_id="1" line="9834" col="26"/>
+    </Function>
+    <Function id="GetRunOppoDrvMode" name="ZbBGetRunOppoDrvModeX" decorated_name="UINT8_T GetRunOppoDrvMode(void)">
+      <definition type="user" source="code" file_id="1" line="9727" col="26"/>
+    </Function>
+    <Function id="GetRunCtrlLevel" name="ZPGetRunCtrlLevelX" decorated_name="UINT8_T GetRunCtrlLevel(void)">
+      <definition type="user" source="code" file_id="1" line="5467" col="26"/>
+    </Function>
+    <Function id="GetRunAtpMode" name="ZNGetRunAtpModeX" decorated_name="UINT8_T GetRunAtpMode(void)">
+      <definition type="user" source="code" file_id="1" line="2578" col="26"/>
+    </Function>
+    <Function id="GetRunPreMode" name="ZNGetRunPreModeX" decorated_name="UINT8_T GetRunPreMode(void)">
+      <definition type="user" source="code" file_id="1" line="4475" col="26"/>
+    </Function>
+    <Function id="GetRunPreModeIndex" name="ZbCGetRunPreModeIndexX" decorated_name="UINT8_T GetRunPreModeIndex(void)">
+      <definition type="user" source="code" file_id="1" line="2807" col="26"/>
+    </Function>
+    <Function id="GetRunDrvMode" name="ZNGetRunDrvModeX" decorated_name="UINT8_T GetRunDrvMode(void)">
+      <definition type="user" source="code" file_id="1" line="1007" col="26"/>
+    </Function>
+    <Function id="GetRunModeConverse" name="ZbCGetRunModeConverseX" decorated_name="UINT8_T GetRunModeConverse(void)">
+      <definition type="user" source="code" file_id="1" line="4371" col="26"/>
+    </Function>
+    <Function id="GetRunFamEmpower" name="ZbAGetRunFamEmpowerX" decorated_name="UINT8_T GetRunFamEmpower(void)">
+      <definition type="user" source="code" file_id="1" line="6750" col="26"/>
+    </Function>
+    <Function id="GetRunCamEmpower" name="ZbAGetRunCamEmpowerX" decorated_name="UINT8_T GetRunCamEmpower(void)">
+      <definition type="user" source="code" file_id="1" line="6461" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoBtnPressedAck" name="ZbGGetRcvAtoBtnPressedAckX" decorated_name="UINT8_T GetRcvAtoBtnPressedAck(void)">
+      <definition type="user" source="code" file_id="1" line="6291" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoAMMode" name="ZPGetRcvAtoAMModeX" decorated_name="UINT8_T GetRcvAtoAMMode(void)">
+      <definition type="user" source="code" file_id="1" line="5934" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoFAMMode" name="ZbAGetRcvAtoFAMModeX" decorated_name="UINT8_T GetRcvAtoFAMMode(void)">
+      <definition type="user" source="code" file_id="1" line="6503" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoStartConfirm" name="ZbFGetRcvAtoStartConfirmX" decorated_name="UINT8_T GetRcvAtoStartConfirm(void)">
+      <definition type="user" source="code" file_id="1" line="12534" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoCabDoorCtrlMode" name="ZbIGetRcvAtoCabDoorCtrlModeX" decorated_name="UINT8_T GetRcvAtoCabDoorCtrlMode(void)">
+      <definition type="user" source="code" file_id="1" line="14084" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoDoorCtrlMode" name="ZbFGetRcvAtoDoorCtrlModeX" decorated_name="UINT8_T GetRcvAtoDoorCtrlMode(void)">
+      <definition type="user" source="code" file_id="1" line="9439" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoRecommendedSpeed" name="ZbJGetRcvAtoRecommendedSpeedX" decorated_name="UINT16_T GetRcvAtoRecommendedSpeed(void)">
+      <definition type="user" source="code" file_id="1" line="10352" col="27"/>
+    </Function>
+    <Function id="GetRcvAtoLeaveTrainInfo" name="ZbHGetRcvAtoLeaveTrainInfoX" decorated_name="UINT8_T GetRcvAtoLeaveTrainInfo(void)">
+      <definition type="user" source="code" file_id="1" line="6997" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoDevFault" name="ZbBGetRcvAtoDevFaultX" decorated_name="UINT8_T GetRcvAtoDevFault(void)">
+      <definition type="user" source="code" file_id="1" line="16680" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoOpWarning" name="ZbCGetRcvAtoOpWarningX" decorated_name="UINT32_T GetRcvAtoOpWarning(void)">
+      <definition type="user" source="code" file_id="1" line="10178" col="27"/>
+    </Function>
+    <Function id="GetVehicleFireAlarm" name="ZbDGetVehicleFireAlarmX" decorated_name="UINT8_T GetVehicleFireAlarm(void)">
+      <definition type="user" source="code" file_id="1" line="6476" col="26"/>
+    </Function>
+    <Function id="GetRcvAtoDerailmentStatus" name="ZbJGetRcvAtoDerailmentStatusX" decorated_name="UINT8_T GetRcvAtoDerailmentStatus(void)">
+      <definition type="user" source="code" file_id="1" line="12237" col="26"/>
+    </Function>
+    <Function id="GetFaoSpecialCtrl" name="ZbBGetFaoSpecialCtrlX" decorated_name="UINT8_T GetFaoSpecialCtrl(void)">
+      <definition type="user" source="code" file_id="1" line="14315" col="26"/>
+    </Function>
+    <Function id="GetWiperCenteringFeedback" name="ZbJGetWiperCenteringFeedbackX" decorated_name="UINT8_T GetWiperCenteringFeedback(void)">
+      <definition type="user" source="code" file_id="1" line="12023" col="26"/>
+    </Function>
+    <Function id="SetTrainLeftDoorHib" name="ZbDSetTrainLeftDoorHibX" decorated_name="void SetTrainLeftDoorHib(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="16260" col="23"/>
+    </Function>
+    <Function id="GetWashCmd" name="ZKGetWashCmdX" decorated_name="UINT8_T GetWashCmd(void)">
+      <definition type="user" source="code" file_id="1" line="11817" col="26"/>
+    </Function>
+    <Function id="GetCarWashMode" name="ZOGetCarWashModeX" decorated_name="UINT8_T GetCarWashMode(void)">
+      <definition type="user" source="code" file_id="1" line="7826" col="26"/>
+    </Function>
+    <Function id="GetLastFrontWashing" name="ZbDGetLastFrontWashingX" decorated_name="UINT8_T GetLastFrontWashing(void)">
+      <definition type="user" source="code" file_id="1" line="12107" col="26"/>
+    </Function>
+    <Function id="GetFrontWashFinish" name="ZbCGetFrontWashFinishX" decorated_name="UINT8_T GetFrontWashFinish(void)">
+      <definition type="user" source="code" file_id="1" line="8290" col="26"/>
+    </Function>
+    <Function id="GetLastRearWashing" name="ZbCGetLastRearWashingX" decorated_name="UINT8_T GetLastRearWashing(void)">
+      <definition type="user" source="code" file_id="1" line="12122" col="26"/>
+    </Function>
+    <Function id="GetRearWashFinish" name="ZbBGetRearWashFinishX" decorated_name="UINT8_T GetRearWashFinish(void)">
+      <definition type="user" source="code" file_id="1" line="8329" col="26"/>
+    </Function>
+    <Function id="GetRequestTimerCount" name="ZbEGetRequestTimerCountX" decorated_name="UINT16_T GetRequestTimerCount(void)">
+      <definition type="user" source="code" file_id="1" line="11984" col="27"/>
+    </Function>
+    <Function id="GetRcvTacAtsCommErrTag" name="ZbGGetRcvTacAtsCommErrTagX" decorated_name="UINT8_T GetRcvTacAtsCommErrTag(void)">
+      <definition type="user" source="code" file_id="1" line="16703" col="26"/>
+    </Function>
+    <Function id="GetTrainDoorHbiCmd" name="ZbCGetTrainDoorHbiCmdX" decorated_name="UINT8_T GetTrainDoorHbiCmd(void)">
+      <definition type="user" source="code" file_id="1" line="11397" col="26"/>
+    </Function>
+    <Function id="GetAutoDepSigByPltID" name="ZbEGetAutoDepSigByPltIDX" decorated_name="UINT8_T GetAutoDepSigByPltID(const UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="8209" col="26"/>
+    </Function>
+    <Function id="GetTacSPKSStatus" name="ZbAGetTacSPKSStatusX" decorated_name="SpksInfoStruct_T * GetTacSPKSStatus(void)">
+      <definition type="user" source="code" file_id="1" line="16477" col="37"/>
+    </Function>
+    <Function id="GetWashTrainModeInfo" name="ZbEGetWashTrainModeInfoX" decorated_name="FaoWashTraInfoStruct_T GetWashTrainModeInfo(void)">
+      <definition type="user" source="code" file_id="1" line="11488" col="41"/>
+    </Function>
+    <Function id="GetMarshalTrainType" name="ZbDGetMarshalTrainTypeX" decorated_name="UINT8_T GetMarshalTrainType(void)">
+      <definition type="user" source="code" file_id="1" line="8356" col="26"/>
+    </Function>
+    <Function id="GetMarshallingSide" name="ZbCGetMarshallingSideX" decorated_name="UINT8_T GetMarshallingSide(void)">
+      <definition type="user" source="code" file_id="1" line="8487" col="26"/>
+    </Function>
+    <Function id="GetMarshallingProcess" name="ZbFGetMarshallingProcessX" decorated_name="UINT8_T GetMarshallingProcess(void)">
+      <definition type="user" source="code" file_id="1" line="8578" col="26"/>
+    </Function>
+    <Function id="GetMarEHookSttsChngTimer" name="ZbIGetMarEHookSttsChngTimerX" decorated_name="UINT16_T GetMarEHookSttsChngTimer(void)">
+      <definition type="user" source="code" file_id="1" line="12467" col="27"/>
+    </Function>
+    <Function id="GetIsRetainMarshalArea" name="ZbGGetIsRetainMarshalAreaX" decorated_name="UINT8_T GetIsRetainMarshalArea(void)">
+      <definition type="user" source="code" file_id="1" line="12410" col="26"/>
+    </Function>
+    <Function id="GetMarMidSideMHookConStts" name="ZbJGetMarMidSideMHookConSttsX" decorated_name="UINT8_T GetMarMidSideMHookConStts(void)">
+      <definition type="user" source="code" file_id="1" line="14123" col="26"/>
+    </Function>
+    <Function id="GetMarMidSideEHookConStts" name="ZbJGetMarMidSideEHookConSttsX" decorated_name="UINT8_T GetMarMidSideEHookConStts(void)">
+      <definition type="user" source="code" file_id="1" line="12371" col="26"/>
+    </Function>
+    <Function id="GetMarMidSideMHookConSttsLst" name="ZbMGetMarMidSideMHookConSttsLstX" decorated_name="UINT8_T GetMarMidSideMHookConSttsLst(void)">
+      <definition type="user" source="code" file_id="1" line="14116" col="26"/>
+    </Function>
+    <Function id="GetMarMidSideEHookConSttsLst" name="ZbMGetMarMidSideEHookConSttsLstX" decorated_name="UINT8_T GetMarMidSideEHookConSttsLst(void)">
+      <definition type="user" source="code" file_id="1" line="12352" col="26"/>
+    </Function>
+    <Function id="GetSysEbLowRsn" name="ZOGetSysEbLowRsnX" decorated_name="UINT32_T GetSysEbLowRsn(void)">
+      <definition type="user" source="code" file_id="1" line="8661" col="27"/>
+    </Function>
+    <Function id="GetSysEbHighRsn" name="ZPGetSysEbHighRsnX" decorated_name="UINT32_T GetSysEbHighRsn(void)">
+      <definition type="user" source="code" file_id="1" line="9550" col="27"/>
+    </Function>
+    <Function id="GetSysEbFaoLowRsn" name="ZbBGetSysEbFaoLowRsnX" decorated_name="UINT32_T GetSysEbFaoLowRsn(void)">
+      <definition type="user" source="code" file_id="1" line="9561" col="27"/>
+    </Function>
+    <Function id="GetSysEbFaoHighRsn" name="ZbCGetSysEbFaoHighRsnX" decorated_name="UINT32_T GetSysEbFaoHighRsn(void)">
+      <definition type="user" source="code" file_id="1" line="9572" col="27"/>
+    </Function>
+    <Function id="GetSysCutTractionRsn" name="ZbEGetSysCutTractionRsnX" decorated_name="UINT32_T GetSysCutTractionRsn(void)">
+      <definition type="user" source="code" file_id="1" line="9109" col="27"/>
+    </Function>
+    <Function id="GetSysJumpErrNo" name="ZPGetSysJumpErrNoX" decorated_name="UINT32_T GetSysJumpErrNo(void)">
+      <definition type="user" source="code" file_id="1" line="16245" col="27"/>
+    </Function>
+    <Function id="GetSysCarWashErrNo" name="ZbCGetSysCarWashErrNoX" decorated_name="UINT32_T GetSysCarWashErrNo(void)">
+      <definition type="user" source="code" file_id="1" line="15410" col="27"/>
+    </Function>
+    <Function id="GetRcvCamBtnPressedAck" name="ZbGGetRcvCamBtnPressedAckX" decorated_name="UINT8_T GetRcvCamBtnPressedAck(void)">
+      <definition type="user" source="code" file_id="1" line="8715" col="26"/>
+    </Function>
+    <Function id="GetRcvCamAMMode" name="ZPGetRcvCamAMModeX" decorated_name="UINT8_T GetRcvCamAMMode(void)">
+      <definition type="user" source="code" file_id="1" line="8726" col="26"/>
+    </Function>
+    <Function id="GetRcvCamStartConfirm" name="ZbFGetRcvCamStartConfirmX" decorated_name="UINT8_T GetRcvCamStartConfirm(void)">
+      <definition type="user" source="code" file_id="1" line="8684" col="26"/>
+    </Function>
+    <Function id="GetRcvCamLeaveTrainInfo" name="ZbHGetRcvCamLeaveTrainInfoX" decorated_name="UINT8_T GetRcvCamLeaveTrainInfo(void)">
+      <definition type="user" source="code" file_id="1" line="8753" col="26"/>
+    </Function>
+    <Function id="GetRcvCamParkingFlag" name="ZbEGetRcvCamParkingFlagX" decorated_name="UINT8_T GetRcvCamParkingFlag(void)">
+      <definition type="user" source="code" file_id="1" line="8764" col="26"/>
+    </Function>
+    <Function id="GetCabChangeTag" name="ZPGetCabChangeTagX" decorated_name="UINT8_T GetCabChangeTag(void)">
+      <definition type="user" source="code" file_id="1" line="9668" col="26"/>
+    </Function>
+    <Function id="LOG_WriteTxt" name="ZMLOG_WriteTxtX" decorated_name="void LOG_WriteTxt(const char *)">
+      <definition type="user" source="code" file_id="1" line="124" col="23"/>
+    </Function>
+    <Function id="LogPrintf_T" name="ZLLogPrintf_TX" decorated_name="void LogPrintf_T(UINT8_T, UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="12830" col="23"/>
+    </Function>
+    <Function id="FramWriteData" name="ZNFramWriteDataX" decorated_name="UINT8_T FramWriteData(UINT8_T *, UINT16_T, UINT16_T)">
+      <definition type="user" source="code" file_id="1" line="13149" col="26"/>
+    </Function>
+    <Function id="FramReadData" name="ZMFramReadDataX" decorated_name="UINT8_T FramReadData(UINT16_T, UINT16_T, UINT8_T *)">
+      <definition type="user" source="code" file_id="1" line="13204" col="26"/>
+    </Function>
+    <Function id="GetAtpBackRunJumpSpeedLimit" name="ZbLGetAtpBackRunJumpSpeedLimitX" decorated_name="UINT16_T GetAtpBackRunJumpSpeedLimit(void)">
+      <definition type="user" source="code" file_id="1" line="16288" col="27"/>
+    </Function>
+    <Function id="GetAtpBackRunJumpPrtDisMax" name="ZbKGetAtpBackRunJumpPrtDisMaxX" decorated_name="UINT16_T GetAtpBackRunJumpPrtDisMax(void)">
+      <definition type="user" source="code" file_id="1" line="12812" col="27"/>
+    </Function>
+    <Function id="GetAtpBackRunJumpDevDisMax" name="ZbKGetAtpBackRunJumpDevDisMaxX" decorated_name="UINT16_T GetAtpBackRunJumpDevDisMax(void)">
+      <definition type="user" source="code" file_id="1" line="13246" col="27"/>
+    </Function>
+    <Function id="GetAtpBackRunJumpTimeMax" name="ZbIGetAtpBackRunJumpTimeMaxX" decorated_name="UINT16_T GetAtpBackRunJumpTimeMax(void)">
+      <definition type="user" source="code" file_id="1" line="12843" col="27"/>
+    </Function>
+    <Function id="GetAtpBackRunRmCfg" name="ZbCGetAtpBackRunRmCfgX" decorated_name="UINT8_T GetAtpBackRunRmCfg(void)">
+      <definition type="user" source="code" file_id="1" line="16351" col="26"/>
+    </Function>
+    <Function id="GetAtpBackRunStopPointDis" name="ZbJGetAtpBackRunStopPointDisX" decorated_name="UINT16_T GetAtpBackRunStopPointDis(void)">
+      <definition type="user" source="code" file_id="1" line="16400" col="27"/>
+    </Function>
+    <Function id="GetAtpFamOpenDoorTimeMax" name="ZbIGetAtpFamOpenDoorTimeMaxX" decorated_name="UINT32_T GetAtpFamOpenDoorTimeMax(void)">
+      <definition type="user" source="code" file_id="1" line="13396" col="27"/>
+    </Function>
+    <Function id="GetAtpRevOpenDoorTimeMax" name="ZbIGetAtpRevOpenDoorTimeMaxX" decorated_name="UINT32_T GetAtpRevOpenDoorTimeMax(void)">
+      <definition type="user" source="code" file_id="1" line="13416" col="27"/>
+    </Function>
+    <Function id="GetAtpDoorOpenCloseTime" name="ZbHGetAtpDoorOpenCloseTimeX" decorated_name="UINT32_T GetAtpDoorOpenCloseTime(void)">
+      <definition type="user" source="code" file_id="1" line="13624" col="27"/>
+    </Function>
+    <Function id="GetAtpEbSpeedCam" name="ZbAGetAtpEbSpeedCamX" decorated_name="UINT16_T GetAtpEbSpeedCam(void)">
+      <definition type="user" source="code" file_id="1" line="13121" col="27"/>
+    </Function>
+    <Function id="GetAtpAimSpdGap" name="ZPGetAtpAimSpdGapX" decorated_name="UINT16_T GetAtpAimSpdGap(void)">
+      <definition type="user" source="code" file_id="1" line="13283" col="27"/>
+    </Function>
+    <Function id="GetAtpCutTracSpdGap" name="ZbDGetAtpCutTracSpdGapX" decorated_name="UINT16_T GetAtpCutTracSpdGap(void)">
+      <definition type="user" source="code" file_id="1" line="13337" col="27"/>
+    </Function>
+    <Function id="GetAtpEbIntervalTime" name="ZbEGetAtpEbIntervalTimeX" decorated_name="UINT16_T GetAtpEbIntervalTime(void)">
+      <definition type="user" source="code" file_id="1" line="13576" col="27"/>
+    </Function>
+    <Function id="GetAtpEbSpeedWash" name="ZbBGetAtpEbSpeedWashX" decorated_name="UINT16_T GetAtpEbSpeedWash(void)">
+      <definition type="user" source="code" file_id="1" line="16456" col="27"/>
+    </Function>
+    <Function id="GetAtpFunArReverse" name="ZbCGetAtpFunArReverseX" decorated_name="UINT8_T GetAtpFunArReverse(void)">
+      <definition type="user" source="code" file_id="1" line="12939" col="26"/>
+    </Function>
+    <Function id="GetAtpFunCarWash" name="ZbAGetAtpFunCarWashX" decorated_name="UINT8_T GetAtpFunCarWash(void)">
+      <definition type="user" source="code" file_id="1" line="12869" col="26"/>
+    </Function>
+    <Function id="GetAtpFunMarshalling" name="ZbEGetAtpFunMarshallingX" decorated_name="UINT8_T GetAtpFunMarshalling(void)">
+      <definition type="user" source="code" file_id="1" line="12836" col="26"/>
+    </Function>
+    <Function id="GetAtpFunDerailPrt" name="ZbCGetAtpFunDerailPrtX" decorated_name="UINT8_T GetAtpFunDerailPrt(void)">
+      <definition type="user" source="code" file_id="1" line="13211" col="26"/>
+    </Function>
+    <Function id="GetAtpFunSpksPrt" name="ZbAGetAtpFunSpksPrtX" decorated_name="UINT8_T GetAtpFunSpksPrt(void)">
+      <definition type="user" source="code" file_id="1" line="13303" col="26"/>
+    </Function>
+    <Function id="GetAtpFunEscDoorHib" name="ZbDGetAtpFunEscDoorHibX" decorated_name="UINT8_T GetAtpFunEscDoorHib(void)">
+      <definition type="user" source="code" file_id="1" line="13114" col="26"/>
+    </Function>
+    <Function id="GetAtpFunDoorHib" name="ZbAGetAtpFunDoorHibX" decorated_name="UINT8_T GetAtpFunDoorHib(void)">
+      <definition type="user" source="code" file_id="1" line="12925" col="26"/>
+    </Function>
+    <Function id="GetAtpFunSleepAwakeFun" name="ZbGGetAtpFunSleepAwakeFunX" decorated_name="UINT8_T GetAtpFunSleepAwakeFun(void)">
+      <definition type="user" source="code" file_id="1" line="12904" col="26"/>
+    </Function>
+    <Function id="GetAtpFunCcuReset" name="ZbBGetAtpFunCcuResetX" decorated_name="UINT8_T GetAtpFunCcuReset(void)">
+      <definition type="user" source="code" file_id="1" line="13431" col="26"/>
+    </Function>
+    <Function id="GetAtpFunStpEnsure" name="ZbCGetAtpFunStpEnsureX" decorated_name="UINT8_T GetAtpFunStpEnsure(void)">
+      <definition type="user" source="code" file_id="1" line="13290" col="26"/>
+    </Function>
+    <Function id="GetAtpFunTrainTSR" name="ZbBGetAtpFunTrainTSRX" decorated_name="UINT8_T GetAtpFunTrainTSR(void)">
+      <definition type="user" source="code" file_id="1" line="12932" col="26"/>
+    </Function>
+    <Function id="GetAtpFunWhlChk" name="ZPGetAtpFunWhlChkX" decorated_name="UINT8_T GetAtpFunWhlChk(void)">
+      <definition type="user" source="code" file_id="1" line="12890" col="26"/>
+    </Function>
+    <Function id="GetAtpFunExitAutoSec" name="ZbEGetAtpFunExitAutoSecX" decorated_name="UINT8_T GetAtpFunExitAutoSec(void)">
+      <definition type="user" source="code" file_id="1" line="13056" col="26"/>
+    </Function>
+    <Function id="GetAtpWheelDiameterMin" name="ZbGGetAtpWheelDiameterMinX" decorated_name="UINT16_T GetAtpWheelDiameterMin(void)">
+      <definition type="user" source="code" file_id="1" line="12918" col="27"/>
+    </Function>
+    <Function id="GetAtpWheelDiameterChg" name="ZbGGetAtpWheelDiameterChgX" decorated_name="UINT8_T GetAtpWheelDiameterChg(void)">
+      <definition type="user" source="code" file_id="1" line="12876" col="26"/>
+    </Function>
+    <Function id="FAOHoldStill" name="ZMFAOHoldStillX" decorated_name="UINT8_T FAOHoldStill(void)">
+      <definition type="user" source="code" file_id="1" line="12946" col="26"/>
+    </Function>
+    <Function id="FAOExit2RMJuge" name="ZOFAOExit2RMJugeX" decorated_name="UINT8_T FAOExit2RMJuge(void)">
+      <definition type="user" source="code" file_id="1" line="13445" col="26"/>
+    </Function>
+    <Function id="FAOExit2CMJuge" name="ZOFAOExit2CMJugeX" decorated_name="UINT8_T FAOExit2CMJuge(void)">
+      <definition type="user" source="code" file_id="1" line="13269" col="26"/>
+    </Function>
+    <Function id="InitSleepAwakeData" name="ZbCInitSleepAwakeDataX" decorated_name="void InitSleepAwakeData(void)">
+      <definition type="user" source="code" file_id="1" line="13369" col="23"/>
+    </Function>
+    <Function id="GetOutRunForward" name="ZbAGetOutRunForwardX" decorated_name="UINT8_T GetOutRunForward(void)">
+      <definition type="user" source="code" file_id="1" line="13382" col="26"/>
+    </Function>
+    <Function id="SetOutRunForward" name="ZbASetOutRunForwardX" decorated_name="void SetOutRunForward(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13084" col="23"/>
+    </Function>
+    <Function id="GetOutRunForBackward" name="ZbEGetOutRunForBackwardX" decorated_name="UINT8_T GetOutRunForBackward(void)">
+      <definition type="user" source="code" file_id="1" line="12862" col="26"/>
+    </Function>
+    <Function id="SetOutRunForBackward" name="ZbESetOutRunForBackwardX" decorated_name="void SetOutRunForBackward(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13297" col="23"/>
+    </Function>
+    <Function id="GetFamModelInstruct" name="ZbDGetFamModelInstructX" decorated_name="UINT8_T GetFamModelInstruct(void)">
+      <definition type="user" source="code" file_id="1" line="12805" col="26"/>
+    </Function>
+    <Function id="SetFamModelInstruct" name="ZbDSetFamModelInstructX" decorated_name="void SetFamModelInstruct(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13171" col="23"/>
+    </Function>
+    <Function id="GetSleepAwakeData" name="ZbBGetSleepAwakeDataX" decorated_name="SleepAwakeDataStruct_T * GetSleepAwakeData(void)">
+      <definition type="user" source="code" file_id="1" line="13472" col="43"/>
+    </Function>
+    <Function id="GetAwakeSyncTestRsnStru" name="ZbHGetAwakeSyncTestRsnStruX" decorated_name="AwakeSyncTestRsnStruct_T * GetAwakeSyncTestRsnStru(void)">
+      <definition type="user" source="code" file_id="1" line="16266" col="45"/>
+    </Function>
+    <Function id="GetSlpAwkLocInfoData" name="ZbEGetSlpAwkLocInfoDataX" decorated_name="SleepAwakeLocInfoStruct_T * GetSlpAwkLocInfoData(void)">
+      <definition type="user" source="code" file_id="1" line="13409" col="46"/>
+    </Function>
+    <Function id="GetSlpAwkCmd" name="ZMGetSlpAwkCmdX" decorated_name="UINT8_T GetSlpAwkCmd(void)">
+      <definition type="user" source="code" file_id="1" line="13617" col="26"/>
+    </Function>
+    <Function id="SetSlpAwkCmd" name="ZMSetSlpAwkCmdX" decorated_name="void SetSlpAwkCmd(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13522" col="23"/>
+    </Function>
+    <Function id="GetSlpAwkSleepCond" name="ZbCGetSlpAwkSleepCondX" decorated_name="UINT8_T GetSlpAwkSleepCond(void)">
+      <definition type="user" source="code" file_id="1" line="13610" col="26"/>
+    </Function>
+    <Function id="SetSlpAwkSleepCond" name="ZbCSetSlpAwkSleepCondX" decorated_name="void SetSlpAwkSleepCond(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13549" col="23"/>
+    </Function>
+    <Function id="GetSlpAwkSleepSta" name="ZbBGetSlpAwkSleepStaX" decorated_name="UINT8_T GetSlpAwkSleepSta(void)">
+      <definition type="user" source="code" file_id="1" line="13542" col="26"/>
+    </Function>
+    <Function id="SetSlpAwkSleepSta" name="ZbBSetSlpAwkSleepStaX" decorated_name="void SetSlpAwkSleepSta(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13466" col="23"/>
+    </Function>
+    <Function id="GetSlpAwkSleepStep" name="ZbCGetSlpAwkSleepStepX" decorated_name="UINT8_T GetSlpAwkSleepStep(void)">
+      <definition type="user" source="code" file_id="1" line="13671" col="26"/>
+    </Function>
+    <Function id="SetSlpAwkSleepStep" name="ZbCSetSlpAwkSleepStepX" decorated_name="void SetSlpAwkSleepStep(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13090" col="23"/>
+    </Function>
+    <Function id="GetSlpAwkAwakeSta" name="ZbBGetSlpAwkAwakeStaX" decorated_name="UINT8_T GetSlpAwkAwakeSta(void)">
+      <definition type="user" source="code" file_id="1" line="13479" col="26"/>
+    </Function>
+    <Function id="SetSlpAwkAwakeSta" name="ZbBSetSlpAwkAwakeStaX" decorated_name="void SetSlpAwkAwakeSta(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13604" col="23"/>
+    </Function>
+    <Function id="GetSlpAwkAwakeStep" name="ZbCGetSlpAwkAwakeStepX" decorated_name="UINT8_T GetSlpAwkAwakeStep(void)">
+      <definition type="user" source="code" file_id="1" line="13590" col="26"/>
+    </Function>
+    <Function id="GetSlpAwkLocValid" name="ZbBGetSlpAwkLocValidX" decorated_name="UINT8_T GetSlpAwkLocValid(void)">
+      <definition type="user" source="code" file_id="1" line="13535" col="26"/>
+    </Function>
+    <Function id="SetSlpAwkLocValid" name="ZbBSetSlpAwkLocValidX" decorated_name="void SetSlpAwkLocValid(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13665" col="23"/>
+    </Function>
+    <Function id="GetSlpAwkLocCrc" name="ZPGetSlpAwkLocCrcX" decorated_name="UINT32_T GetSlpAwkLocCrc(void)">
+      <definition type="user" source="code" file_id="1" line="13583" col="27"/>
+    </Function>
+    <Function id="SetSlpAwkLocCrc" name="ZPSetSlpAwkLocCrcX" decorated_name="void SetSlpAwkLocCrc(UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="13645" col="23"/>
+    </Function>
+    <Function id="SetSlpAwkSleepFlag" name="ZbCSetSlpAwkSleepFlagX" decorated_name="void SetSlpAwkSleepFlag(const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13191" col="23"/>
+    </Function>
+    <Function id="GetSlpAwkSleepFlag" name="ZbCGetSlpAwkSleepFlagX" decorated_name="UINT8_T GetSlpAwkSleepFlag(void)">
+      <definition type="user" source="code" file_id="1" line="13103" col="26"/>
+    </Function>
+    <Function id="GetAwakeFailCause" name="ZbBGetAwakeFailCauseX" decorated_name="UINT32_T GetAwakeFailCause(UINT8_T, UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13142" col="27"/>
+    </Function>
+    <Function id="GetSystemMaxAtpCanopySpeed" name="ZbKGetSystemMaxAtpCanopySpeedX" decorated_name="UINT8_T GetSystemMaxAtpCanopySpeed(void)">
+      <definition type="user" source="code" file_id="1" line="13049" col="26"/>
+    </Function>
+    <Function id="GetAtpLocBaliRadiationRadius" name="ZbMGetAtpLocBaliRadiationRadiusX" decorated_name="UINT8_T GetAtpLocBaliRadiationRadius(void)">
+      <definition type="user" source="code" file_id="1" line="13651" col="26"/>
+    </Function>
+    <Function id="GetMaValid" name="ZKGetMaValidX" decorated_name="UINT8_T GetMaValid(void)">
+      <definition type="user" source="code" file_id="1" line="13686" col="26"/>
+    </Function>
+    <Function id="GetMaData" name="ZJGetMaDataX" decorated_name="MaDataStruct_T * GetMaData(void)">
+      <definition type="user" source="code" file_id="1" line="14155" col="35"/>
+    </Function>
+    <Function id="GetMaLen" name="ZIGetMaLenX" decorated_name="UINT16_T GetMaLen(void)">
+      <definition type="user" source="code" file_id="1" line="14101" col="27"/>
+    </Function>
+    <Function id="GetMaStartDir" name="ZNGetMaStartDirX" decorated_name="UINT8_T GetMaStartDir(void)">
+      <definition type="user" source="code" file_id="1" line="15226" col="26"/>
+    </Function>
+    <Function id="GetMaEndMaType" name="ZOGetMaEndMaTypeX" decorated_name="UINT8_T GetMaEndMaType(void)">
+      <definition type="user" source="code" file_id="1" line="13953" col="26"/>
+    </Function>
+    <Function id="GetRcvAomAwakeMaintainBtn" name="ZbJGetRcvAomAwakeMaintainBtnX" decorated_name="UINT8_T GetRcvAomAwakeMaintainBtn(void)">
+      <definition type="user" source="code" file_id="1" line="16654" col="26"/>
+    </Function>
+    <Function id="GetStationArea" name="ZOGetStationAreaX" decorated_name="UINT8_T GetStationArea(void)">
+      <definition type="user" source="code" file_id="1" line="14176" col="26"/>
+    </Function>
+    <Function id="GetTailInStationArea" name="ZbEGetTailInStationAreaX" decorated_name="UINT8_T GetTailInStationArea(void)">
+      <definition type="user" source="code" file_id="1" line="15264" col="26"/>
+    </Function>
+    <Function id="GetPartOfTrainInStationArea" name="ZbLGetPartOfTrainInStationAreaX" decorated_name="UINT8_T GetPartOfTrainInStationArea(void)">
+      <definition type="user" source="code" file_id="1" line="15295" col="26"/>
+    </Function>
+    <Function id="GetPartOfTrainInSleepAwakeArea" name="ZbOGetPartOfTrainInSleepAwakeAreaX" decorated_name="UINT8_T GetPartOfTrainInSleepAwakeArea(void)">
+      <definition type="user" source="code" file_id="1" line="15421" col="26"/>
+    </Function>
+    <Function id="GetPartOfTrainInRetainMarArea" name="ZbNGetPartOfTrainInRetainMarAreaX" decorated_name="UINT8_T GetPartOfTrainInRetainMarArea(void)">
+      <definition type="user" source="code" file_id="1" line="15657" col="26"/>
+    </Function>
+    <Function id="GetFrontOfTheGaragePoint" name="ZbIGetFrontOfTheGaragePointX" decorated_name="UINT8_T GetFrontOfTheGaragePoint(void)">
+      <definition type="user" source="code" file_id="1" line="14334" col="26"/>
+    </Function>
+    <Function id="GetFrontEndWashPoint" name="ZbEGetFrontEndWashPointX" decorated_name="UINT8_T GetFrontEndWashPoint(void)">
+      <definition type="user" source="code" file_id="1" line="14496" col="26"/>
+    </Function>
+    <Function id="GetRearEndWashPoint" name="ZbDGetRearEndWashPointX" decorated_name="UINT8_T GetRearEndWashPoint(void)">
+      <definition type="user" source="code" file_id="1" line="14473" col="26"/>
+    </Function>
+    <Function id="GetInttCouplPoint" name="ZbBGetInttCouplPointX" decorated_name="UINT8_T GetInttCouplPoint(void)">
+      <definition type="user" source="code" file_id="1" line="14511" col="26"/>
+    </Function>
+    <Function id="GetJumpAllowPoint" name="ZbBGetJumpAllowPointX" decorated_name="UINT8_T GetJumpAllowPoint(void)">
+      <definition type="user" source="code" file_id="1" line="16161" col="26"/>
+    </Function>
+    <Function id="GetDoorRevOpenDoorTimer" name="ZbHGetDoorRevOpenDoorTimerX" decorated_name="UINT32_T GetDoorRevOpenDoorTimer(void)">
+      <definition type="user" source="code" file_id="1" line="15249" col="27"/>
+    </Function>
+    <Function id="GetAtpPassiveCoupleTimeout" name="ZbKGetAtpPassiveCoupleTimeoutX" decorated_name="UINT16_T GetAtpPassiveCoupleTimeout(void)">
+      <definition type="user" source="code" file_id="1" line="16407" col="27"/>
+    </Function>
+    <Function id="GetAtpDecoupleCmdTimeout" name="ZbIGetAtpDecoupleCmdTimeoutX" decorated_name="UINT16_T GetAtpDecoupleCmdTimeout(void)">
+      <definition type="user" source="code" file_id="1" line="16302" col="27"/>
+    </Function>
+    <Function id="GetFlexMarshAreaDatabyDevId" name="ZbLGetFlexMarshAreaDatabyDevIdX" decorated_name="const FLEX_MARSH_AREA_T * GetFlexMarshAreaDatabyDevId(UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="16358" col="44"/>
+    </Function>
+    <Function id="GetFlexMarshAreaId" name="ZbCGetFlexMarshAreaIdX" decorated_name="UINT32_T GetFlexMarshAreaId(UINT16_T)">
+      <definition type="user" source="code" file_id="1" line="16386" col="27"/>
+    </Function>
+    <Function id="GetAtpAtoConfigCrc" name="ZbCGetAtpAtoConfigCrcX" decorated_name="UINT32_T GetAtpAtoConfigCrc(void)">
+      <definition type="user" source="code" file_id="1" line="16316" col="27"/>
+    </Function>
+    <Function id="GetAtpTacConfigCrc" name="ZbCGetAtpTacConfigCrcX" decorated_name="UINT32_T GetAtpTacConfigCrc(void)">
+      <definition type="user" source="code" file_id="1" line="16470" col="27"/>
+    </Function>
+    <Function id="GetAtpCamConfigCrc" name="ZbCGetAtpCamConfigCrcX" decorated_name="UINT32_T GetAtpCamConfigCrc(void)">
+      <definition type="user" source="code" file_id="1" line="16442" col="27"/>
+    </Function>
+    <Function id="GetAtpAomConfigCrc" name="ZbCGetAtpAomConfigCrcX" decorated_name="UINT32_T GetAtpAomConfigCrc(void)">
+      <definition type="user" source="code" file_id="1" line="16344" col="27"/>
+    </Function>
+    <Function id="GetObcConfigCrc" name="ZPGetObcConfigCrcX" decorated_name="UINT32_T GetObcConfigCrc(void)">
+      <definition type="user" source="code" file_id="1" line="16414" col="27"/>
+    </Function>
+    <Function id="GetSpksIdByDevId" name="ZbAGetSpksIdByDevIdX" decorated_name="UINT16_T GetSpksIdByDevId(UINT32_T)">
+      <definition type="user" source="code" file_id="1" line="16295" col="27"/>
+    </Function>
+    <Function id="MmiIdInquire" name="ZMMmiIdInquireX" decorated_name="int MmiIdInquire(void)">
+      <definition type="user" source="code" file_id="1" line="89" col="22"/>
+    </Function>
+    <Function id="SetMmiDevLongId" name="ZPSetMmiDevLongIdX" decorated_name="int SetMmiDevLongId(void)">
+      <definition type="user" source="code" file_id="1" line="103" col="22"/>
+    </Function>
+    <Function id="GetMmiDevLongId" name="ZPGetMmiDevLongIdX" decorated_name="int GetMmiDevLongId(void)">
+      <definition type="user" source="code" file_id="1" line="110" col="22"/>
+    </Function>
+    <Function id="CtrlOppoFamReverse" name="ZbCCtrlOppoFamReverseX" decorated_name="int CtrlOppoFamReverse(void)">
+      <definition type="user" source="code" file_id="1" line="144" col="22"/>
+    </Function>
+    <Function id="CtrlSigleAtpEnterAR" name="ZbDCtrlSigleAtpEnterARX" decorated_name="int CtrlSigleAtpEnterAR(void)">
+      <definition type="user" source="code" file_id="1" line="152" col="22"/>
+    </Function>
+    <Function id="CtrlVOBCReverseBLOC" name="ZbDCtrlVOBCReverseBLOCX" decorated_name="int CtrlVOBCReverseBLOC(void)">
+      <definition type="user" source="code" file_id="1" line="160" col="22"/>
+    </Function>
+    <Function id="GetCiAttributeById" name="ZbCGetCiAttributeByIdX" decorated_name="UINT16_T GetCiAttributeById(UINT16_T)">
+      <definition type="user" source="code" file_id="1" line="168" col="27"/>
+    </Function>
+    <Function id="CamToRmInit" name="ZLCamToRmInitX" decorated_name="int CamToRmInit(void)">
+      <definition type="user" source="code" file_id="1" line="184" col="22"/>
+    </Function>
+    <Function id="TrainDoorHibProcess" name="ZbDTrainDoorHibProcessX" decorated_name="void TrainDoorHibProcess(void)">
+      <definition type="user" source="code" file_id="1" line="264" col="23"/>
+    </Function>
+    <Function id="GetEbSyncActFaoReasonLow" name="ZbIGetEbSyncActFaoReasonLowX" decorated_name="int GetEbSyncActFaoReasonLow(void)">
+      <definition type="user" source="code" file_id="1" line="272" col="22"/>
+    </Function>
+    <Function id="GetEbSyncActReasonHigh" name="ZbGGetEbSyncActReasonHighX" decorated_name="int GetEbSyncActReasonHigh(void)">
+      <definition type="user" source="code" file_id="1" line="281" col="22"/>
+    </Function>
+    <Function id="GetEbSyncActReasonLow" name="ZbFGetEbSyncActReasonLowX" decorated_name="int GetEbSyncActReasonLow(void)">
+      <definition type="user" source="code" file_id="1" line="290" col="22"/>
+    </Function>
+    <Function id="GetRdInitReason" name="ZPGetRdInitReasonX" decorated_name="int GetRdInitReason(void)">
+      <definition type="user" source="code" file_id="1" line="299" col="22"/>
+    </Function>
+    <Function id="GetSegIdByCarWashMachineId" name="ZbKGetSegIdByCarWashMachineIdX" decorated_name="int GetSegIdByCarWashMachineId(void)">
+      <definition type="user" source="code" file_id="1" line="306" col="22"/>
+    </Function>
+    <Function id="GetSysRunRecErrNo" name="ZbBGetSysRunRecErrNoX" decorated_name="int GetSysRunRecErrNo(void)">
+      <definition type="user" source="code" file_id="1" line="315" col="22"/>
+    </Function>
+    <Function id="GetTrainBackSecLogNo" name="ZbEGetTrainBackSecLogNoX" decorated_name="int GetTrainBackSecLogNo(void)">
+      <definition type="user" source="code" file_id="1" line="324" col="22"/>
+    </Function>
+    <Function id="IdleVOBCReverse" name="ZPIdleVOBCReverseX" decorated_name="int IdleVOBCReverse(void)">
+      <definition type="user" source="code" file_id="1" line="332" col="22"/>
+    </Function>
+    <Function id="InitEbReason" name="ZMInitEbReasonX" decorated_name="int InitEbReason(void)">
+      <definition type="user" source="code" file_id="1" line="341" col="22"/>
+    </Function>
+    <Function id="JumpProtection" name="ZOJumpProtectionX" decorated_name="int JumpProtection(void)">
+      <definition type="user" source="code" file_id="1" line="349" col="22"/>
+    </Function>
+    <Function id="ModeControlJudge" name="ZbAModeControlJudgeX" decorated_name="int ModeControlJudge(void)">
+      <definition type="user" source="code" file_id="1" line="357" col="22"/>
+    </Function>
+    <Function id="OverSpeedProtection" name="ZbDOverSpeedProtectionX" decorated_name="int OverSpeedProtection(void)">
+      <definition type="user" source="code" file_id="1" line="366" col="22"/>
+    </Function>
+    <Function id="RdToArInit" name="ZKRdToArInitX" decorated_name="int RdToArInit(void)">
+      <definition type="user" source="code" file_id="1" line="375" col="22"/>
+    </Function>
+    <Function id="RdToBlocCmInit" name="ZORdToBlocCmInitX" decorated_name="int RdToBlocCmInit(void)">
+      <definition type="user" source="code" file_id="1" line="382" col="22"/>
+    </Function>
+    <Function id="RdToFAOInit" name="ZLRdToFAOInitX" decorated_name="int RdToFAOInit(void)">
+      <definition type="user" source="code" file_id="1" line="390" col="22"/>
+    </Function>
+    <Function id="RecordEbFaoReasonHigh" name="ZbFRecordEbFaoReasonHighX" decorated_name="int RecordEbFaoReasonHigh(void)">
+      <definition type="user" source="code" file_id="1" line="398" col="22"/>
+    </Function>
+    <Function id="RecordEbFaoReasonLow" name="ZbERecordEbFaoReasonLowX" decorated_name="int RecordEbFaoReasonLow(void)">
+      <definition type="user" source="code" file_id="1" line="406" col="22"/>
+    </Function>
+    <Function id="RecordEbReasonHigh" name="ZbCRecordEbReasonHighX" decorated_name="int RecordEbReasonHigh(void)">
+      <definition type="user" source="code" file_id="1" line="415" col="22"/>
+    </Function>
+    <Function id="RecordEbReasonLow" name="ZbBRecordEbReasonLowX" decorated_name="int RecordEbReasonLow(void)">
+      <definition type="user" source="code" file_id="1" line="423" col="22"/>
+    </Function>
+    <Function id="RecordEbSyncActFaoReasonHigh" name="ZbMRecordEbSyncActFaoReasonHighX" decorated_name="int RecordEbSyncActFaoReasonHigh(void)">
+      <definition type="user" source="code" file_id="1" line="431" col="22"/>
+    </Function>
+    <Function id="RecordEbSyncActFaoReasonLow" name="ZbLRecordEbSyncActFaoReasonLowX" decorated_name="int RecordEbSyncActFaoReasonLow(void)">
+      <definition type="user" source="code" file_id="1" line="439" col="22"/>
+    </Function>
+    <Function id="RecordEbSyncActReasonHigh" name="ZbJRecordEbSyncActReasonHighX" decorated_name="int RecordEbSyncActReasonHigh(void)">
+      <definition type="user" source="code" file_id="1" line="447" col="22"/>
+    </Function>
+    <Function id="RecordEbSyncActReasonLow" name="ZbIRecordEbSyncActReasonLowX" decorated_name="int RecordEbSyncActReasonLow(void)">
+      <definition type="user" source="code" file_id="1" line="455" col="22"/>
+    </Function>
+    <Function id="RollProtection" name="ZORollProtectionX" decorated_name="int RollProtection(void)">
+      <definition type="user" source="code" file_id="1" line="463" col="22"/>
+    </Function>
+    <Function id="SelfPowerOff" name="ZMSelfPowerOffX" decorated_name="int SelfPowerOff(void)">
+      <definition type="user" source="code" file_id="1" line="471" col="22"/>
+    </Function>
+    <Function id="SetEbReason" name="ZLSetEbReasonX" decorated_name="int SetEbReason(void)">
+      <definition type="user" source="code" file_id="1" line="480" col="22"/>
+    </Function>
+    <Function id="SpksEbProtection" name="ZbASpksEbProtectionX" decorated_name="int SpksEbProtection(void)">
+      <definition type="user" source="code" file_id="1" line="489" col="22"/>
+    </Function>
+    <Function id="StopEnsureProcess" name="ZbBStopEnsureProcessX" decorated_name="int StopEnsureProcess(void)">
+      <definition type="user" source="code" file_id="1" line="497" col="22"/>
+    </Function>
+    <Function id="TimeManage" name="ZKTimeManageX" decorated_name="int TimeManage(void)">
+      <definition type="user" source="code" file_id="1" line="505" col="22"/>
+    </Function>
+    <Function id="TrainDoorHibProcess_A" name="ZbFTrainDoorHibProcess_AX" decorated_name="int TrainDoorHibProcess_A(void)">
+      <definition type="user" source="code" file_id="1" line="512" col="22"/>
+    </Function>
+    <Function id="GetTeethNum" name="ZLGetTeethNumX" decorated_name="UINT8_T GetTeethNum(void)">
+      <definition type="user" source="code" file_id="1" line="768" col="26"/>
+    </Function>
+    <Function id="GetTimeDiff" name="ZLGetTimeDiffX" decorated_name="UINT8_T GetTimeDiff(INT32_T *)">
+      <definition type="user" source="code" file_id="1" line="777" col="26"/>
+    </Function>
+    <Function id="GetTrainBelongCiType" name="ZbEGetTrainBelongCiTypeX" decorated_name="UINT16_T GetTrainBelongCiType(void)">
+      <definition type="user" source="code" file_id="1" line="785" col="27"/>
+    </Function>
+    <Function id="InitCirQueueData" name="ZbAInitCirQueueDataX" decorated_name="UINT8_T InitCirQueueData(CirQueueStruct_T *, UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="794" col="26"/>
+    </Function>
+    <Function id="GetDmuAtpData" name="ZNGetDmuAtpDataX" decorated_name="DmuAtpData_T GetDmuAtpData(void)">
+      <definition type="user" source="code" file_id="1" line="862" col="31"/>
+    </Function>
+    <Function id="BackProtection" name="ZOBackProtectionX" decorated_name="int BackProtection(void)">
+      <definition type="user" source="code" file_id="1" line="871" col="22"/>
+    </Function>
+    <Function id="BaliseObsProtection" name="ZbDBaliseObsProtectionX" decorated_name="int BaliseObsProtection(void)">
+      <definition type="user" source="code" file_id="1" line="880" col="22"/>
+    </Function>
+    <Function id="BlocToCbtcInit" name="ZOBlocToCbtcInitX" decorated_name="int BlocToCbtcInit(void)">
+      <definition type="user" source="code" file_id="1" line="889" col="22"/>
+    </Function>
+    <Function id="BrakeFailureProtection" name="ZbGBrakeFailureProtectionX" decorated_name="int BrakeFailureProtection(void)">
+      <definition type="user" source="code" file_id="1" line="898" col="22"/>
+    </Function>
+    <Function id="CbtcExit" name="ZICbtcExitX" decorated_name="int CbtcExit(void)">
+      <definition type="user" source="code" file_id="1" line="907" col="22"/>
+    </Function>
+    <Function id="CtrlVobcReverseManage" name="ZbFCtrlVobcReverseManageX" decorated_name="int CtrlVobcReverseManage(void)">
+      <definition type="user" source="code" file_id="1" line="915" col="22"/>
+    </Function>
+    <Function id="CutOffTractionProcess" name="ZbFCutOffTractionProcessX" decorated_name="int CutOffTractionProcess(void)">
+      <definition type="user" source="code" file_id="1" line="923" col="22"/>
+    </Function>
+    <Function id="DerailmentProtection" name="ZbEDerailmentProtectionX" decorated_name="int DerailmentProtection(void)">
+      <definition type="user" source="code" file_id="1" line="932" col="22"/>
+    </Function>
+    <Function id="DoubleCtrlCheck" name="ZPDoubleCtrlCheckX" decorated_name="int DoubleCtrlCheck(void)">
+      <definition type="user" source="code" file_id="1" line="941" col="22"/>
+    </Function>
+    <Function id="EBProcess" name="ZJEBProcessX" decorated_name="int EBProcess(void)">
+      <definition type="user" source="code" file_id="1" line="950" col="22"/>
+    </Function>
+    <Function id="EsbEbProtection" name="ZPEsbEbProtectionX" decorated_name="int EsbEbProtection(void)">
+      <definition type="user" source="code" file_id="1" line="958" col="22"/>
+    </Function>
+    <Function id="GetCamExitReason" name="ZbAGetCamExitReasonX" decorated_name="int GetCamExitReason(void)">
+      <definition type="user" source="code" file_id="1" line="966" col="22"/>
+    </Function>
+    <Function id="GetEbReason" name="ZLGetEbReasonX" decorated_name="int GetEbReason(void)">
+      <definition type="user" source="code" file_id="1" line="974" col="22"/>
+    </Function>
+    <Function id="GetEbSyncActFaoReasonHigh" name="ZbJGetEbSyncActFaoReasonHighX" decorated_name="int GetEbSyncActFaoReasonHigh(void)">
+      <definition type="user" source="code" file_id="1" line="982" col="22"/>
+    </Function>
+    <Function id="GetRcvAtoFaultTag" name="ZbBGetRcvAtoFaultTagX" decorated_name="UINT8_T GetRcvAtoFaultTag(void)">
+      <definition type="user" source="code" file_id="1" line="6171" col="26"/>
+    </Function>
+    <Function id="GetAtoStartConfirm" name="ZbCGetAtoStartConfirmX" decorated_name="UINT8_T GetAtoStartConfirm(void)">
+      <definition type="user" source="code" file_id="1" line="6322" col="26"/>
+    </Function>
+    <Function id="GetInFrontOfTheGarage" name="ZbFGetInFrontOfTheGarageX" decorated_name="UINT8_T GetInFrontOfTheGarage(void)">
+      <definition type="user" source="code" file_id="1" line="8085" col="26"/>
+    </Function>
+    <Function id="GetIsFrontEndWashPoint" name="ZbGGetIsFrontEndWashPointX" decorated_name="UINT8_T GetIsFrontEndWashPoint(void)">
+      <definition type="user" source="code" file_id="1" line="8232" col="26"/>
+    </Function>
+    <Function id="GetIsRearEndWashPoint" name="ZbFGetIsRearEndWashPointX" decorated_name="UINT8_T GetIsRearEndWashPoint(void)">
+      <definition type="user" source="code" file_id="1" line="8255" col="26"/>
+    </Function>
+    <Function id="GetSysAtpInputErrNo" name="ZbDGetSysAtpInputErrNoX" decorated_name="UINT32_T GetSysAtpInputErrNo(void)">
+      <definition type="user" source="code" file_id="1" line="9450" col="27"/>
+    </Function>
+    <Function id="CPPTEST_CALL_STUB_CALLBACK" name="ZbKCPPTEST_CALL_STUB_CALLBACKX" decorated_name="int CPPTEST_CALL_STUB_CALLBACK(void)" needed="true">
+      <definition type="user" source="code" file_id="1" line="13438" col="22"/>
+    </Function>
+    <Function id="GetForwardBackFlag" name="ZbCGetForwardBackFlagX" decorated_name="UINT8_T GetForwardBackFlag(void)">
+      <definition type="user" source="code" file_id="1" line="10958" col="26"/>
+    </Function>
+    <Function id="GetCcuResetCmd" name="ZOGetCcuResetCmdX" decorated_name="UINT8_T GetCcuResetCmd(void)">
+      <definition type="user" source="code" file_id="1" line="11156" col="26"/>
+    </Function>
+    <Function id="GetIsOutputCcuResetCmdFlag" name="ZbKGetIsOutputCcuResetCmdFlagX" decorated_name="UINT8_T GetIsOutputCcuResetCmdFlag(void)">
+      <definition type="user" source="code" file_id="1" line="11266" col="26"/>
+    </Function>
+    <Function id="JudgeTrainDoorEscSide" name="ZbFJudgeTrainDoorEscSideX" decorated_name="UINT8_T JudgeTrainDoorEscSide(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="11356" col="26"/>
+    </Function>
+    <Function id="CheckLeaveCarWashArea" name="ZbFCheckLeaveCarWashAreaX" decorated_name="UINT8_T CheckLeaveCarWashArea(const UINT32_T, const UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="12171" col="26"/>
+    </Function>
+    <Function id="GetInInttCouplStopPnt" name="ZbFGetInInttCouplStopPntX" decorated_name="UINT8_T GetInInttCouplStopPnt(void)">
+      <definition type="user" source="code" file_id="1" line="12328" col="26"/>
+    </Function>
+    <Function id="GetAtpFunEsbPrt" name="ZPGetAtpFunEsbPrtX" decorated_name="UINT8_T GetAtpFunEsbPrt(void)">
+      <definition type="user" source="code" file_id="1" line="12897" col="26"/>
+    </Function>
+    <Function id="GetBlocObsDir" name="ZNGetBlocObsDirX" decorated_name="int GetBlocObsDir(void)">
+      <definition type="user" source="code" file_id="1" line="12911" col="22"/>
+    </Function>
+    <Function id="BoardingIndicatorProtectProcess" name="ZbPBoardingIndicatorProtectProcessX" decorated_name="int BoardingIndicatorProtectProcess(void)">
+      <definition type="user" source="code" file_id="1" line="12953" col="22"/>
+    </Function>
+    <Function id="ZcEbProtection" name="ZOZcEbProtectionX" decorated_name="int ZcEbProtection(void)">
+      <definition type="user" source="code" file_id="1" line="12960" col="22"/>
+    </Function>
+    <Function id="AddSlpAwkFramLocClear" name="ZbFAddSlpAwkFramLocClearX" decorated_name="void AddSlpAwkFramLocClear(void)">
+      <definition type="user" source="code" file_id="1" line="12967" col="23"/>
+    </Function>
+    <Function id="SetProtectionErrorCode" name="ZbGSetProtectionErrorCodeX" decorated_name="int SetProtectionErrorCode(void)">
+      <definition type="user" source="code" file_id="1" line="12980" col="22"/>
+    </Function>
+    <Function id="CcuResetCmdProcess" name="ZbCCcuResetCmdProcessX" decorated_name="int CcuResetCmdProcess(void)">
+      <definition type="user" source="code" file_id="1" line="12987" col="22"/>
+    </Function>
+    <Function id="GetIsWashFinishPoint" name="ZbEGetIsWashFinishPointX" decorated_name="int GetIsWashFinishPoint(void)">
+      <definition type="user" source="code" file_id="1" line="12994" col="22"/>
+    </Function>
+    <Function id="InitSysTimeInfo" name="ZPInitSysTimeInfoX" decorated_name="int InitSysTimeInfo(void)">
+      <definition type="user" source="code" file_id="1" line="13001" col="22"/>
+    </Function>
+    <Function id="vCtrlVobcFaoReverse" name="ZbDvCtrlVobcFaoReverseX" decorated_name="int vCtrlVobcFaoReverse(void)">
+      <definition type="user" source="code" file_id="1" line="13008" col="22"/>
+    </Function>
+    <Function id="GetjumpStep" name="ZLGetjumpStepX" decorated_name="int GetjumpStep(void)">
+      <definition type="user" source="code" file_id="1" line="13015" col="22"/>
+    </Function>
+    <Function id="TrainBackSec" name="ZMTrainBackSecX" decorated_name="int TrainBackSec(void)">
+      <definition type="user" source="code" file_id="1" line="13070" col="22"/>
+    </Function>
+    <Function id="AddSlpAwkLocPowerOnInit" name="ZbHAddSlpAwkLocPowerOnInitX" decorated_name="UINT8_T AddSlpAwkLocPowerOnInit(void)">
+      <definition type="user" source="code" file_id="1" line="13096" col="26"/>
+    </Function>
+    <Function id="FAOHold2Revers" name="ZOFAOHold2ReversX" decorated_name="int FAOHold2Revers(void)">
+      <definition type="user" source="code" file_id="1" line="13128" col="22"/>
+    </Function>
+    <Function id="GetOspInfo" name="ZKGetOspInfoX" decorated_name="UINT8_T GetOspInfo(const Location_T *, const Location_T *, const Location_T *, const Location_T *, UINT8_T *, LimitObjFront_T *, UINT8_T *, LimitObjBetweenStruct_T *)">
+      <definition type="user" source="code" file_id="1" line="13164" col="26"/>
+    </Function>
+    <Function id="TrainIntegrityCheck" name="ZbDTrainIntegrityCheckX" decorated_name="int TrainIntegrityCheck(void)">
+      <definition type="user" source="code" file_id="1" line="13184" col="22"/>
+    </Function>
+    <Function id="GetProtectionErrorCode" name="ZbGGetProtectionErrorCodeX" decorated_name="int GetProtectionErrorCode(void)">
+      <definition type="user" source="code" file_id="1" line="13197" col="22"/>
+    </Function>
+    <Function id="SpeedProtection" name="ZPSpeedProtectionX" decorated_name="int SpeedProtection(void)">
+      <definition type="user" source="code" file_id="1" line="13218" col="22"/>
+    </Function>
+    <Function id="AtoRecommendSpeedProtect" name="ZbIAtoRecommendSpeedProtectX" decorated_name="int AtoRecommendSpeedProtect(void)">
+      <definition type="user" source="code" file_id="1" line="13225" col="22"/>
+    </Function>
+    <Function id="Seconds2Calendar" name="ZbASeconds2CalendarX" decorated_name="int Seconds2Calendar(void)">
+      <definition type="user" source="code" file_id="1" line="13232" col="22"/>
+    </Function>
+    <Function id="EscDoorHibProcess" name="ZbBEscDoorHibProcessX" decorated_name="int EscDoorHibProcess(void)">
+      <definition type="user" source="code" file_id="1" line="13239" col="22"/>
+    </Function>
+    <Function id="RemoteEB" name="ZIRemoteEBX" decorated_name="int RemoteEB(void)">
+      <definition type="user" source="code" file_id="1" line="13276" col="22"/>
+    </Function>
+    <Function id="PeriodInitAfterModeConv" name="ZbHPeriodInitAfterModeConvX" decorated_name="int PeriodInitAfterModeConv(void)">
+      <definition type="user" source="code" file_id="1" line="13310" col="22"/>
+    </Function>
+    <Function id="LoadSlpAwkConfData" name="ZbCLoadSlpAwkConfDataX" decorated_name="void LoadSlpAwkConfData(void)">
+      <definition type="user" source="code" file_id="1" line="13317" col="23"/>
+    </Function>
+    <Function id="CalendarToSeconds" name="ZbBCalendarToSecondsX" decorated_name="int CalendarToSeconds(void)">
+      <definition type="user" source="code" file_id="1" line="13348" col="22"/>
+    </Function>
+    <Function id="SetIsWashFinishPoint" name="ZbESetIsWashFinishPointX" decorated_name="int SetIsWashFinishPoint(void)">
+      <definition type="user" source="code" file_id="1" line="13375" col="22"/>
+    </Function>
+    <Function id="AddCarWashErrRsn" name="ZbAAddCarWashErrRsnX" decorated_name="int AddCarWashErrRsn(void)">
+      <definition type="user" source="code" file_id="1" line="13389" col="22"/>
+    </Function>
+    <Function id="AddSlpAwkTestTimerCount" name="ZbHAddSlpAwkTestTimerCountX" decorated_name="void AddSlpAwkTestTimerCount(UINT8_T)">
+      <definition type="user" source="code" file_id="1" line="13403" col="23"/>
+    </Function>
+    <Function id="vStopSupervision" name="ZbAvStopSupervisionX" decorated_name="int vStopSupervision(void)">
+      <definition type="user" source="code" file_id="1" line="13452" col="22"/>
+    </Function>
+    <Function id="GetAomRcvAwakeMaintainBtn" name="ZbJGetAomRcvAwakeMaintainBtnX" decorated_name="UINT8_T GetAomRcvAwakeMaintainBtn(void)">
+      <definition type="user" source="code" file_id="1" line="13893" col="26"/>
+    </Function>
+    <Function id="CamExitCmCheck" name="ZOCamExitCmCheckX" decorated_name="UINT32_T CamExitCmCheck(void)">
+      <definition type="user" source="code" file_id="1" line="13932" col="27"/>
+    </Function>
+    <Function id="GetMarSaveDataChgFlag" name="ZbFGetMarSaveDataChgFlagX" decorated_name="UINT8_T GetMarSaveDataChgFlag(void)">
+      <definition type="user" source="code" file_id="1" line="16273" col="26"/>
+    </Function>
+    <Function id="CcuResetFunc" name="ZMCcuResetFuncX" decorated_name="int CcuResetFunc(void)">
+      <definition type="user" source="code" file_id="1" line="16309" col="22"/>
+    </Function>
+    <Function id="ReverseInChk" name="ZMReverseInChkX" decorated_name="int ReverseInChk(void)">
+      <definition type="user" source="code" file_id="1" line="16323" col="22"/>
+    </Function>
+    <Function id="FaoReverseLocDirByMa" name="ZbEFaoReverseLocDirByMaX" decorated_name="int FaoReverseLocDirByMa(void)">
+      <definition type="user" source="code" file_id="1" line="16337" col="22"/>
+    </Function>
+    <Function id="CtrlVOBCReverseCBTC" name="ZbDCtrlVOBCReverseCBTCX" decorated_name="int CtrlVOBCReverseCBTC(void)">
+      <definition type="user" source="code" file_id="1" line="16365" col="22"/>
+    </Function>
+    <Function id="CtrlVOBCEnterArProc" name="ZbDCtrlVOBCEnterArProcX" decorated_name="int CtrlVOBCEnterArProc(void)">
+      <definition type="user" source="code" file_id="1" line="16393" col="22"/>
+    </Function>
+    <Function id="CtrlVobcFamReverse" name="ZbCCtrlVobcFamReverseX" decorated_name="int CtrlVobcFamReverse(void)">
+      <definition type="user" source="code" file_id="1" line="16421" col="22"/>
+    </Function>
+    <Function id="CtrlVobcAutoReverse" name="ZbDCtrlVobcAutoReverseX" decorated_name="int CtrlVobcAutoReverse(void)">
+      <definition type="user" source="code" file_id="1" line="16435" col="22"/>
+    </Function>
+    <Function id="CtrlOppoAtpReverse" name="ZbCCtrlOppoAtpReverseX" decorated_name="int CtrlOppoAtpReverse(void)">
+      <definition type="user" source="code" file_id="1" line="16449" col="22"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

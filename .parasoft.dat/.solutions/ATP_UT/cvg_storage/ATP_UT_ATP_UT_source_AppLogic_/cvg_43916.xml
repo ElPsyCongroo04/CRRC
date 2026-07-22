@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" type="DC">
+  <VersionInfos>
+    <StorageInfo ownerId="DC" resultId="DecisionCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="DC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;396;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali" total="34" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;633;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck" total="8" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;179;WhlChkFunc" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;557;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis" total="10" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;48;WheelPowerOnInit" total="12" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;695;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcPulseDisByDiam" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;329;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate" total="8" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;205;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali" total="20" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;716;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcDiamByPulseDis" total="2" num="0" />
+  </Stats>
+  <ResultInfo cvgType="DC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;695;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcPulseDisByDiam" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcPulseDisByDiam:1>2">
+        <Loc locStartln="700" locStartPos="8" locEndLn="700" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="702" locStartPos="8" locEndLn="702" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcPulseDisByDiam:1>3">
+        <Loc locStartln="700" locStartPos="8" locEndLn="700" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="704" locStartPos="4" locEndLn="704" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;716;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcDiamByPulseDis" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcDiamByPulseDis:1>3">
+        <Loc locStartln="721" locStartPos="8" locEndLn="721" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="725" locStartPos="4" locEndLn="725" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|CalcDiamByPulseDis:1>2">
+        <Loc locStartln="721" locStartPos="8" locEndLn="721" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="723" locStartPos="8" locEndLn="723" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;179;WhlChkFunc" show="true">
+      <CvgElem id="WhlChkFunc:1>2">
+        <Loc locStartln="183" locStartPos="8" locEndLn="183" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="186" locStartPos="8" locEndLn="186" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WhlChkFunc:1>3">
+        <Loc locStartln="183" locStartPos="8" locEndLn="183" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="190" locStartPos="4" locEndLn="193" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;396;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:13>14">
+        <Loc locStartln="470" locStartPos="16" locEndLn="470" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="473" locStartPos="16" locEndLn="474" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:31>32">
+        <Loc locStartln="524" locStartPos="8" locEndLn="524" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="527" locStartPos="8" locEndLn="528" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:18>19">
+        <Loc locStartln="483" locStartPos="12" locEndLn="483" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="486" locStartPos="12" locEndLn="486" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:27>28">
+        <Loc locStartln="509" locStartPos="8" locEndLn="509" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="512" locStartPos="8" locEndLn="512" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:5>10">
+        <Loc locStartln="439" locStartPos="16" locEndLn="440" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="458" locStartPos="8" locEndLn="458" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:5>6">
+        <Loc locStartln="439" locStartPos="16" locEndLn="440" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="443" locStartPos="20" locEndLn="443" locEndPos="115" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:1>17">
+        <Loc locStartln="412" locStartPos="8" locEndLn="412" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="480" locStartPos="8" locEndLn="480" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:33>35">
+        <Loc locStartln="532" locStartPos="8" locEndLn="533" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="540" locStartPos="8" locEndLn="541" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:29>31">
+        <Loc locStartln="516" locStartPos="8" locEndLn="516" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="524" locStartPos="8" locEndLn="524" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:29>30">
+        <Loc locStartln="516" locStartPos="8" locEndLn="516" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="519" locStartPos="8" locEndLn="520" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:33>34">
+        <Loc locStartln="532" locStartPos="8" locEndLn="533" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="536" locStartPos="8" locEndLn="536" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:17>18">
+        <Loc locStartln="480" locStartPos="8" locEndLn="480" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="483" locStartPos="12" locEndLn="483" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:27>29">
+        <Loc locStartln="509" locStartPos="8" locEndLn="509" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="516" locStartPos="8" locEndLn="516" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:6>7">
+        <Loc locStartln="443" locStartPos="20" locEndLn="443" locEndPos="115" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="446" locStartPos="20" locEndLn="448" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:31>33">
+        <Loc locStartln="524" locStartPos="8" locEndLn="524" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="532" locStartPos="8" locEndLn="533" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:13>15">
+        <Loc locStartln="470" locStartPos="16" locEndLn="470" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="476" locStartPos="8" locEndLn="476" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:3>5">
+        <Loc locStartln="430" locStartPos="16" locEndLn="431" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="439" locStartPos="16" locEndLn="440" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:2>3">
+        <Loc locStartln="415" locStartPos="12" locEndLn="416" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="419" locStartPos="12" locEndLn="431" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:3>4">
+        <Loc locStartln="430" locStartPos="16" locEndLn="431" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="434" locStartPos="16" locEndLn="435" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:2>11">
+        <Loc locStartln="415" locStartPos="12" locEndLn="416" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="462" locStartPos="16" locEndLn="462" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:21>25">
+        <Loc locStartln="491" locStartPos="8" locEndLn="491" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="502" locStartPos="8" locEndLn="502" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:25>26">
+        <Loc locStartln="502" locStartPos="8" locEndLn="502" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="505" locStartPos="8" locEndLn="505" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:35>36">
+        <Loc locStartln="540" locStartPos="8" locEndLn="541" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="544" locStartPos="8" locEndLn="544" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:18>20">
+        <Loc locStartln="483" locStartPos="12" locEndLn="483" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="488" locStartPos="4" locEndLn="488" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:11>13">
+        <Loc locStartln="462" locStartPos="16" locEndLn="462" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="470" locStartPos="16" locEndLn="470" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:6>8">
+        <Loc locStartln="443" locStartPos="20" locEndLn="443" locEndPos="115" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="453" locStartPos="20" locEndLn="455" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:22>24">
+        <Loc locStartln="494" locStartPos="12" locEndLn="494" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="499" locStartPos="4" locEndLn="499" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:22>23">
+        <Loc locStartln="494" locStartPos="12" locEndLn="494" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="497" locStartPos="12" locEndLn="497" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:1>2">
+        <Loc locStartln="412" locStartPos="8" locEndLn="412" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="415" locStartPos="12" locEndLn="416" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:11>12">
+        <Loc locStartln="462" locStartPos="16" locEndLn="462" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="465" locStartPos="16" locEndLn="466" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:21>22">
+        <Loc locStartln="491" locStartPos="8" locEndLn="491" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="494" locStartPos="12" locEndLn="494" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:25>27">
+        <Loc locStartln="502" locStartPos="8" locEndLn="502" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="509" locStartPos="8" locEndLn="509" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:35>37">
+        <Loc locStartln="540" locStartPos="8" locEndLn="541" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="547" locStartPos="0" locEndLn="547" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|AutoWheelDiaCali:17>21">
+        <Loc locStartln="480" locStartPos="8" locEndLn="480" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="491" locStartPos="8" locEndLn="491" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;48;WheelPowerOnInit" show="true">
+      <CvgElem id="WheelPowerOnInit:1>2">
+        <Loc locStartln="75" locStartPos="8" locEndLn="75" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="78" locStartPos="8" locEndLn="78" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:1>3">
+        <Loc locStartln="75" locStartPos="8" locEndLn="75" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="83" locStartPos="8" locEndLn="85" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:3>4">
+        <Loc locStartln="85" locStartPos="12" locEndLn="85" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="88" locStartPos="12" locEndLn="88" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:3>5">
+        <Loc locStartln="85" locStartPos="12" locEndLn="85" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="94" locStartPos="17" locEndLn="94" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:8>9">
+        <Loc locStartln="101" locStartPos="20" locEndLn="101" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="104" locStartPos="20" locEndLn="104" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:13>15">
+        <Loc locStartln="128" locStartPos="35" locEndLn="128" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="131" locStartPos="16" locEndLn="135" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:6>8">
+        <Loc locStartln="94" locStartPos="35" locEndLn="94" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="97" locStartPos="16" locEndLn="101" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:8>10">
+        <Loc locStartln="101" locStartPos="20" locEndLn="101" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="109" locStartPos="20" locEndLn="115" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:6>12">
+        <Loc locStartln="94" locStartPos="35" locEndLn="94" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="120" locStartPos="12" locEndLn="128" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:13>19">
+        <Loc locStartln="128" locStartPos="35" locEndLn="128" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="154" locStartPos="12" locEndLn="159" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:15>16">
+        <Loc locStartln="135" locStartPos="20" locEndLn="135" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="138" locStartPos="20" locEndLn="138" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="WheelPowerOnInit:15>17">
+        <Loc locStartln="135" locStartPos="20" locEndLn="135" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="143" locStartPos="20" locEndLn="149" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;205;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:19>28">
+        <Loc locStartln="280" locStartPos="16" locEndLn="280" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="307" locStartPos="12" locEndLn="309" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:2>3">
+        <Loc locStartln="222" locStartPos="12" locEndLn="223" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="226" locStartPos="16" locEndLn="226" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:1>2">
+        <Loc locStartln="218" locStartPos="8" locEndLn="219" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="222" locStartPos="12" locEndLn="223" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:12>14">
+        <Loc locStartln="254" locStartPos="44" locEndLn="254" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="257" locStartPos="24" locEndLn="257" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:20>26">
+        <Loc locStartln="283" locStartPos="20" locEndLn="283" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="302" locStartPos="20" locEndLn="303" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:5>7">
+        <Loc locStartln="233" locStartPos="21" locEndLn="233" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="242" locStartPos="16" locEndLn="244" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:20>21">
+        <Loc locStartln="283" locStartPos="20" locEndLn="283" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="286" locStartPos="26" locEndLn="286" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:5>6">
+        <Loc locStartln="233" locStartPos="21" locEndLn="233" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="236" locStartPos="16" locEndLn="237" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:12>15">
+        <Loc locStartln="254" locStartPos="44" locEndLn="254" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="261" locStartPos="20" locEndLn="265" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:9>18">
+        <Loc locStartln="248" locStartPos="16" locEndLn="248" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="275" locStartPos="12" locEndLn="277" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:2>30">
+        <Loc locStartln="222" locStartPos="12" locEndLn="223" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="314" locStartPos="12" locEndLn="316" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:3>5">
+        <Loc locStartln="226" locStartPos="16" locEndLn="226" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="233" locStartPos="21" locEndLn="233" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:22>24">
+        <Loc locStartln="286" locStartPos="44" locEndLn="286" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="289" locStartPos="24" locEndLn="289" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:3>4">
+        <Loc locStartln="226" locStartPos="16" locEndLn="226" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="229" locStartPos="16" locEndLn="230" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:10>11">
+        <Loc locStartln="251" locStartPos="20" locEndLn="251" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="254" locStartPos="26" locEndLn="254" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:19>20">
+        <Loc locStartln="280" locStartPos="16" locEndLn="280" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="283" locStartPos="20" locEndLn="283" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:9>10">
+        <Loc locStartln="248" locStartPos="16" locEndLn="248" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="251" locStartPos="20" locEndLn="251" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:1>32">
+        <Loc locStartln="218" locStartPos="8" locEndLn="219" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="319" locStartPos="0" locEndLn="319" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:22>25">
+        <Loc locStartln="286" locStartPos="44" locEndLn="286" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="293" locStartPos="20" locEndLn="297" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|ManualWheelDiaCali:10>16">
+        <Loc locStartln="251" locStartPos="20" locEndLn="251" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="270" locStartPos="20" locEndLn="271" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;329;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate:1>2">
+        <Loc locStartln="343" locStartPos="8" locEndLn="343" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="346" locStartPos="14" locEndLn="346" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate:7>9">
+        <Loc locStartln="362" locStartPos="32" locEndLn="362" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="365" locStartPos="12" locEndLn="366" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate:1>13">
+        <Loc locStartln="343" locStartPos="8" locEndLn="343" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="385" locStartPos="0" locEndLn="385" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate:3>6">
+        <Loc locStartln="346" locStartPos="32" locEndLn="346" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="354" locStartPos="8" locEndLn="362" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate:3>5">
+        <Loc locStartln="346" locStartPos="32" locEndLn="346" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="349" locStartPos="12" locEndLn="350" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate:7>10">
+        <Loc locStartln="362" locStartPos="32" locEndLn="362" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="370" locStartPos="8" locEndLn="378" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate:10>12">
+        <Loc locStartln="378" locStartPos="12" locEndLn="378" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="384" locStartPos="4" locEndLn="384" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaUpdate:10>11">
+        <Loc locStartln="378" locStartPos="12" locEndLn="378" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="381" locStartPos="12" locEndLn="382" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;633;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck:1>10">
+        <Loc locStartln="642" locStartPos="8" locEndLn="642" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="666" locStartPos="4" locEndLn="666" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck:1>2">
+        <Loc locStartln="642" locStartPos="8" locEndLn="642" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="645" locStartPos="12" locEndLn="645" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck:2>6">
+        <Loc locStartln="645" locStartPos="12" locEndLn="645" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="657" locStartPos="16" locEndLn="657" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck:2>3">
+        <Loc locStartln="645" locStartPos="12" locEndLn="645" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="648" locStartPos="16" locEndLn="648" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck:3>4">
+        <Loc locStartln="648" locStartPos="16" locEndLn="648" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="651" locStartPos="16" locEndLn="651" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck:3>5">
+        <Loc locStartln="648" locStartPos="16" locEndLn="648" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="653" locStartPos="8" locEndLn="653" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck:6>7">
+        <Loc locStartln="657" locStartPos="16" locEndLn="657" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="660" locStartPos="16" locEndLn="660" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaRangeCheck:6>8">
+        <Loc locStartln="657" locStartPos="16" locEndLn="657" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="662" locStartPos="8" locEndLn="662" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c;557;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:10>13">
+        <Loc locStartln="601" locStartPos="49" locEndLn="601" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="607" locStartPos="12" locEndLn="608" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:8>9">
+        <Loc locStartln="594" locStartPos="12" locEndLn="594" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="598" locStartPos="12" locEndLn="601" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:10>12">
+        <Loc locStartln="601" locStartPos="49" locEndLn="601" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="603" locStartPos="16" locEndLn="603" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:1>2">
+        <Loc locStartln="569" locStartPos="8" locEndLn="569" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="572" locStartPos="8" locEndLn="573" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:1>3">
+        <Loc locStartln="569" locStartPos="8" locEndLn="569" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="577" locStartPos="4" locEndLn="580" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:5>8">
+        <Loc locStartln="583" locStartPos="37" locEndLn="583" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="588" locStartPos="8" locEndLn="594" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:3>4">
+        <Loc locStartln="580" locStartPos="7" locEndLn="580" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="583" locStartPos="13" locEndLn="583" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:5>7">
+        <Loc locStartln="583" locStartPos="37" locEndLn="583" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="585" locStartPos="12" locEndLn="585" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:3>16">
+        <Loc locStartln="580" locStartPos="7" locEndLn="580" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="619" locStartPos="8" locEndLn="619" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWWheelChkManageWWheelCheckWc|WheelDiaCaliPrdDis:8>14">
+        <Loc locStartln="594" locStartPos="12" locEndLn="594" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+        <Loc locStartln="613" locStartPos="12" locEndLn="613" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/WheelChkManage/WheelCheck.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

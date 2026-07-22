@@ -1,0 +1,1579 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2767;SetIdleToCtlFailSleepAwakeRs" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2653;GetIdleRecvData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;909;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|SndAtpIdeStaInfo" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2886;GetCtrl2IdleMarshalPrcss" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2646;GetIdleSendData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2347;GetCtlToIdleNetComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2162;GetCtlToIdleTrainLOCHSegId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2286;SetCtlToIdleZeroSpeedTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2623;SetCtlToIdleLocCheckResult" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2728;SetIdleToCtlWakeupcmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2741;SetIdleToCtlAwakeCtrlID" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2689;GetCtrlToIdleEbTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2156;SetCtlToIdleTrainLocAllow" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2715;SetRcvAnaAtpDataFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2550;GetIdleToCtlNetComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2780;SetIdleToCtlLocCheckResult" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;660;AtpMsgRcv" total="136" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2265;GetCtlToIdleAtpLocalIntId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2677;GetIdleEbTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2272;SetCtlToIdleAtpLocalIntId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2072;GetCtlToIdlelocalAtpAttri" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2671;GetIdleDataUpdateTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2121;SetCtlToIdlePreSetMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2333;GetCtlToIdleDiameter" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;90;InitControlToIdleSendData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2861;GetCtrlAwakeTestFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2704;SetSndAnaAtpDataFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2422;GetIdleToCtlAtoStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2442;GetIdleToCtlGalSndCycNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2841;GetCtrIdleInterData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2544;GetIdleToCtlObcCheckStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2306;GetCtlToIdleArReversingState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2213;SetCtlToIdleTrainLOCT" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2610;SetIdleToCtlSpdStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2786;GetIdleToCtlWriteNVRAMTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2603;GetIdleToCtlSpdStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2557;SetIdleToCtlNetComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2326;SetCtlToIdleArLampStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2373;GetCtlToIdleFinalAwakeResult" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2754;SetIdleToCtlSleepAwakesta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;127;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpIdleStaInfo" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2812;GetCtlToIdleAwakeCtrlID" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2699;GetSndAnaAtpDataFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2251;GetCtlToIdlePeriodCount" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2532;GetIdleToCtlTacCheckStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2538;GetIdleToCtlCamCheckStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;1390;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|IdleVobcInfoPrepare" total="64" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2206;GetCtlToIdleTrainLOCTDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2583;SetIdleToCtlCmpVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2590;GetIdleToCtlDoorCtrlMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2520;SetIdleToCtlDiameter" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2576;GetIdleToCtlCmpVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2100;GetCtlToIdleCmpVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2872;GetIdleAwakeTestFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2773;GetIdleToCtlLocCheckResult" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2293;GetCtlToIdleArStep" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2827;GetIdleCtrInterData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2760;GetIdleToCtlFailSleepAwakeRs" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2436;GetIdleToCtlPeriodCount" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;1188;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|CtrlVobcInfoPrepare" total="96" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2258;SetCtlToIdlePeriodCount" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2199;GetCtlToIdleTrainLOCTSegOffSet" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2793;SetIdleToCtlWriteNVRAMTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2135;SetCtlToIdleCtrlLevel" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2819;SetCtlToIdleAwakeCtrlID" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2710;GetRcvAnaAtpDataFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;289;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpCtlStaInfo" total="62" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2721;GetIdleToCtlWakeupcmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2806;SetCtlToIdleSleepWakeupcmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2183;SetCtlToIdleTrainLOCH" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2169;GetCtlToIdleTrainLOCHSegOffSet" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2313;SetCtlToIdleArReversingState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2093;SetCtlToIdleNotice" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2513;GetIdleToCtlDiameter" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2747;GetIdleToCtlSleepAwakesta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2394;GetIdleToCtlNotice" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2477;SetIdleToCtlZeroSpeedTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2506;SetIdleToCtlArLampStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;967;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|SndAtpCtlStaInfo" total="90" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2367;SetCtlToIdleActiveDevState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2665;SetIdleDataUpdateTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2659;GetOtherAtpType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2463;SetIdleToCtlAtpLocalIntId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2237;GetCtlToIdleMeasureDistError" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2380;GetIdleToCtllocalAtpAttri" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2491;SetIdleToCtlArStep" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2279;GetCtlToIdleZeroSpeedTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2387;SetIdleToCtllocalAtpAttri" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2229;SetCtlToIdleTrainLOCTMin" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2079;SetCtlToIdlelocalAtpAttri" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2149;SetCtlToIdleDrvMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2114;GetCtlToIdlePreSetMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2354;SetCtlToIdleNetComuStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2408;GetIdleToCtlPreSetMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2142;GetCtlToIdleDrvMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2415;SetIdleToCtlPreSetMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2470;GetIdleToCtlZeroSpeedTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2300;SetCtlToIdleArStep" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2449;SetIdleToCtlPeriodCount" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2526;GetIdleToCtlAtoCheckStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2456;GetIdleToCtlAtpLocalIntId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2128;GetCtlToIdleCtrlLevel" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;875;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|PackSndAtpData" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2848;SetCtrIdleInterData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2880;GetCtrl2IdleTrainType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2221;SetCtlToIdleTrainLOCHMax" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2569;SetIdleToCtlIdleDevState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2616;GetCtlToIdleLocCheckResult" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2799;GetCtlToIdleSleepWakeupcmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2834;SetIdleCtrInterData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;1895;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpIdleStaInfoCheck" total="131073" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2734;GetIdleToCtlAwakeCtrlID" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2631;GetCtrlSendData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2319;GetCtlToIdleArLampStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2360;GetCtlToIdleActiveDevState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2563;GetIdleToCtlIdleDevState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2683;GetIdleStopHotStandbyToActFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2244;SetCtlToIdleMeasureDistError" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2499;GetIdleToCtlArLampStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2086;GetCtlToIdleNotice" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;808;AtpMsgSnd" total="6" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2854;GetCtrIdleCtrTestOver" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2107;SetCtlToIdleCmpVer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2429;SetIdleToCtlaAtoStatus" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2192;GetCtlToIdleTrainLOCTSegId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2484;GetIdleToCtlArStep" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2597;SetIdleToCtlDoorCtrlMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2639;GetCtrlRecvData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2401;SetIdleToCtlNotice" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2340;SetCtlToIdleDiameter" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;101;InitControlToIdleRcvData" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2176;GetCtlToIdleTrainLOCHDir" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2867;SetCtrlAwakeTestFlag" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2229;SetCtlToIdleTrainLOCTMin" show="true">
+      <CvgElem id="SetCtlToIdleTrainLOCTMin" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2232" locStartPos="4" locEndLn="2234" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2880;GetCtrl2IdleTrainType" show="true">
+      <CvgElem id="GetCtrl2IdleTrainType" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2883" locStartPos="4" locEndLn="2883" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2169;GetCtlToIdleTrainLOCHSegOffSet" show="true">
+      <CvgElem id="GetCtlToIdleTrainLOCHSegOffSet" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2172" locStartPos="4" locEndLn="2172" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2872;GetIdleAwakeTestFlag" show="true">
+      <CvgElem id="GetIdleAwakeTestFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2875" locStartPos="4" locEndLn="2875" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2499;GetIdleToCtlArLampStatus" show="true">
+      <CvgElem id="GetIdleToCtlArLampStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2502" locStartPos="4" locEndLn="2502" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2793;SetIdleToCtlWriteNVRAMTag" show="true">
+      <CvgElem id="SetIdleToCtlWriteNVRAMTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2796" locStartPos="4" locEndLn="2796" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2313;SetCtlToIdleArReversingState" show="true">
+      <CvgElem id="SetCtlToIdleArReversingState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2316" locStartPos="4" locEndLn="2316" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2563;GetIdleToCtlIdleDevState" show="true">
+      <CvgElem id="GetIdleToCtlIdleDevState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2566" locStartPos="4" locEndLn="2566" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2827;GetIdleCtrInterData" show="true">
+      <CvgElem id="GetIdleCtrInterData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2830" locStartPos="4" locEndLn="2830" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;90;InitControlToIdleSendData" show="true">
+      <CvgElem id="InitControlToIdleSendData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="93" locStartPos="4" locEndLn="96" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2213;SetCtlToIdleTrainLOCT" show="true">
+      <CvgElem id="SetCtlToIdleTrainLOCT" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2216" locStartPos="4" locEndLn="2218" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2631;GetCtrlSendData" show="true">
+      <CvgElem id="GetCtrlSendData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2634" locStartPos="4" locEndLn="2634" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2265;GetCtlToIdleAtpLocalIntId" show="true">
+      <CvgElem id="GetCtlToIdleAtpLocalIntId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2268" locStartPos="4" locEndLn="2268" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2093;SetCtlToIdleNotice" show="true">
+      <CvgElem id="SetCtlToIdleNotice" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2096" locStartPos="4" locEndLn="2096" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2867;SetCtrlAwakeTestFlag" show="true">
+      <CvgElem id="SetCtrlAwakeTestFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2870" locStartPos="4" locEndLn="2870" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2373;GetCtlToIdleFinalAwakeResult" show="true">
+      <CvgElem id="GetCtlToIdleFinalAwakeResult" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2376" locStartPos="4" locEndLn="2376" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2799;GetCtlToIdleSleepWakeupcmd" show="true">
+      <CvgElem id="GetCtlToIdleSleepWakeupcmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2802" locStartPos="4" locEndLn="2802" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2387;SetIdleToCtllocalAtpAttri" show="true">
+      <CvgElem id="SetIdleToCtllocalAtpAttri" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2390" locStartPos="4" locEndLn="2390" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2544;GetIdleToCtlObcCheckStatus" show="true">
+      <CvgElem id="GetIdleToCtlObcCheckStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2547" locStartPos="4" locEndLn="2547" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2114;GetCtlToIdlePreSetMode" show="true">
+      <CvgElem id="GetCtlToIdlePreSetMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2117" locStartPos="4" locEndLn="2117" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2841;GetCtrIdleInterData" show="true">
+      <CvgElem id="GetCtrIdleInterData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2844" locStartPos="4" locEndLn="2844" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2639;GetCtrlRecvData" show="true">
+      <CvgElem id="GetCtrlRecvData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2642" locStartPos="4" locEndLn="2642" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2237;GetCtlToIdleMeasureDistError" show="true">
+      <CvgElem id="GetCtlToIdleMeasureDistError" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2240" locStartPos="4" locEndLn="2240" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2079;SetCtlToIdlelocalAtpAttri" show="true">
+      <CvgElem id="SetCtlToIdlelocalAtpAttri" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2082" locStartPos="4" locEndLn="2082" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2861;GetCtrlAwakeTestFlag" show="true">
+      <CvgElem id="GetCtrlAwakeTestFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2864" locStartPos="4" locEndLn="2864" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2401;SetIdleToCtlNotice" show="true">
+      <CvgElem id="SetIdleToCtlNotice" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2404" locStartPos="4" locEndLn="2404" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;1390;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|IdleVobcInfoPrepare" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|IdleVobcInfoPrepare" pathsNo="64">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="1393" locStartPos="4" locEndLn="1416" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="1419" locStartPos="8" locEndLn="1419" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="1424" locStartPos="8" locEndLn="1424" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="1428" locStartPos="4" locEndLn="1439" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1442" locStartPos="8" locEndLn="1442" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1447" locStartPos="8" locEndLn="1447" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="1450" locStartPos="7" locEndLn="1450" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="1453" locStartPos="8" locEndLn="1453" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;11">
+          <PathBlckLoc locStartln="1456" locStartPos="7" locEndLn="1456" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="1459" locStartPos="8" locEndLn="1459" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12;13">
+          <PathBlckLoc locStartln="1462" locStartPos="7" locEndLn="1462" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="1465" locStartPos="8" locEndLn="1465" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="1468" locStartPos="7" locEndLn="1468" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="1471" locStartPos="8" locEndLn="1471" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="">
+          <PathBlckLoc locStartln="1495" locStartPos="4" locEndLn="1522" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2506;SetIdleToCtlArLampStatus" show="true">
+      <CvgElem id="SetIdleToCtlArLampStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2509" locStartPos="4" locEndLn="2509" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2780;SetIdleToCtlLocCheckResult" show="true">
+      <CvgElem id="SetIdleToCtlLocCheckResult" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2783" locStartPos="4" locEndLn="2783" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2704;SetSndAnaAtpDataFlag" show="true">
+      <CvgElem id="SetSndAnaAtpDataFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2707" locStartPos="4" locEndLn="2707" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2149;SetCtlToIdleDrvMode" show="true">
+      <CvgElem id="SetCtlToIdleDrvMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2152" locStartPos="4" locEndLn="2152" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2408;GetIdleToCtlPreSetMode" show="true">
+      <CvgElem id="GetIdleToCtlPreSetMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2411" locStartPos="4" locEndLn="2411" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2279;GetCtlToIdleZeroSpeedTag" show="true">
+      <CvgElem id="GetCtlToIdleZeroSpeedTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2282" locStartPos="4" locEndLn="2282" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2773;GetIdleToCtlLocCheckResult" show="true">
+      <CvgElem id="GetIdleToCtlLocCheckResult" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2776" locStartPos="4" locEndLn="2776" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;289;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpCtlStaInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpCtlStaInfo" pathsNo="62">
+        <BlckInfo id="1" blckTrans="2;26">
+          <PathBlckLoc locStartln="292" locStartPos="4" locEndLn="304" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;18">
+          <PathBlckLoc locStartln="309" locStartPos="12" locEndLn="485" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;9">
+          <PathBlckLoc locStartln="488" locStartPos="16" locEndLn="509" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="512" locStartPos="25" locEndLn="512" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7;8">
+          <PathBlckLoc locStartln="512" locStartPos="52" locEndLn="512" locEndPos="102" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="5">
+          <PathBlckLoc locStartln="512" locStartPos="104" locEndLn="512" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="6">
+          <PathBlckLoc locStartln="515" locStartPos="24" locEndLn="522" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="524" locStartPos="16" locEndLn="524" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="528" locStartPos="20" locEndLn="529" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;16">
+          <PathBlckLoc locStartln="532" locStartPos="16" locEndLn="536" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="539" locStartPos="25" locEndLn="539" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="14;15">
+          <PathBlckLoc locStartln="539" locStartPos="52" locEndLn="539" locEndPos="102" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="12">
+          <PathBlckLoc locStartln="539" locStartPos="104" locEndLn="539" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="13">
+          <PathBlckLoc locStartln="542" locStartPos="24" locEndLn="551" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="17">
+          <PathBlckLoc locStartln="553" locStartPos="16" locEndLn="553" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="561" locStartPos="12" locEndLn="561" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17">
+          <PathBlckLoc locStartln="557" locStartPos="20" locEndLn="558" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="607" locStartPos="21" locEndLn="607" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19;24">
+          <PathBlckLoc locStartln="565" locStartPos="12" locEndLn="604" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="20">
+          <PathBlckLoc locStartln="607" locStartPos="100" locEndLn="607" locEndPos="112" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="22;23">
+          <PathBlckLoc locStartln="607" locStartPos="48" locEndLn="607" locEndPos="98" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="25">
+          <PathBlckLoc locStartln="617" locStartPos="12" locEndLn="617" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="21">
+          <PathBlckLoc locStartln="610" locStartPos="20" locEndLn="615" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26">
+          <PathBlckLoc locStartln="626" locStartPos="12" locEndLn="643" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25">
+          <PathBlckLoc locStartln="621" locStartPos="16" locEndLn="622" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28">
+          <PathBlckLoc locStartln="652" locStartPos="8" locEndLn="652" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;28">
+          <PathBlckLoc locStartln="649" locStartPos="8" locEndLn="649" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="">
+          <PathBlckLoc locStartln="654" locStartPos="4" locEndLn="654" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2380;GetIdleToCtllocalAtpAttri" show="true">
+      <CvgElem id="GetIdleToCtllocalAtpAttri" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2383" locStartPos="4" locEndLn="2383" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;875;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|PackSndAtpData" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|PackSndAtpData" pathsNo="3">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="877" locStartPos="4" locEndLn="880" locEndPos="105" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="7">
+          <PathBlckLoc locStartln="883" locStartPos="8" locEndLn="884" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="886" locStartPos="13" locEndLn="886" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="7">
+          <PathBlckLoc locStartln="889" locStartPos="8" locEndLn="890" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="893" locStartPos="4" locEndLn="895" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="">
+          <PathBlckLoc locStartln="897" locStartPos="4" locEndLn="899" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2590;GetIdleToCtlDoorCtrlMode" show="true">
+      <CvgElem id="GetIdleToCtlDoorCtrlMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2593" locStartPos="4" locEndLn="2593" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2244;SetCtlToIdleMeasureDistError" show="true">
+      <CvgElem id="SetCtlToIdleMeasureDistError" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2247" locStartPos="4" locEndLn="2247" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2557;SetIdleToCtlNetComuStatus" show="true">
+      <CvgElem id="SetIdleToCtlNetComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2560" locStartPos="4" locEndLn="2560" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2786;GetIdleToCtlWriteNVRAMTag" show="true">
+      <CvgElem id="GetIdleToCtlWriteNVRAMTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2789" locStartPos="4" locEndLn="2789" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2569;SetIdleToCtlIdleDevState" show="true">
+      <CvgElem id="SetIdleToCtlIdleDevState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2572" locStartPos="4" locEndLn="2572" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2107;SetCtlToIdleCmpVer" show="true">
+      <CvgElem id="SetCtlToIdleCmpVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2110" locStartPos="4" locEndLn="2110" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2576;GetIdleToCtlCmpVer" show="true">
+      <CvgElem id="GetIdleToCtlCmpVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2579" locStartPos="4" locEndLn="2579" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2532;GetIdleToCtlTacCheckStatus" show="true">
+      <CvgElem id="GetIdleToCtlTacCheckStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2535" locStartPos="4" locEndLn="2535" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2819;SetCtlToIdleAwakeCtrlID" show="true">
+      <CvgElem id="SetCtlToIdleAwakeCtrlID" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2822" locStartPos="4" locEndLn="2822" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2597;SetIdleToCtlDoorCtrlMode" show="true">
+      <CvgElem id="SetIdleToCtlDoorCtrlMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2600" locStartPos="4" locEndLn="2600" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2394;GetIdleToCtlNotice" show="true">
+      <CvgElem id="GetIdleToCtlNotice" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2397" locStartPos="4" locEndLn="2397" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2192;GetCtlToIdleTrainLOCTSegId" show="true">
+      <CvgElem id="GetCtlToIdleTrainLOCTSegId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2195" locStartPos="4" locEndLn="2195" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;808;AtpMsgSnd" show="true">
+      <CvgElem id="AtpMsgSnd" pathsNo="6">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="811" locStartPos="4" locEndLn="828" locEndPos="105" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="7">
+          <PathBlckLoc locStartln="831" locStartPos="8" locEndLn="833" locEndPos="159" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="835" locStartPos="13" locEndLn="835" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="7">
+          <PathBlckLoc locStartln="838" locStartPos="8" locEndLn="840" locEndPos="160" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="844" locStartPos="4" locEndLn="846" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="848" locStartPos="4" locEndLn="857" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="858" locStartPos="4" locEndLn="860" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="863" locStartPos="8" locEndLn="863" locEndPos="95" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="">
+          <PathBlckLoc locStartln="865" locStartPos="0" locEndLn="865" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2834;SetIdleCtrInterData" show="true">
+      <CvgElem id="SetIdleCtrInterData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2837" locStartPos="4" locEndLn="2837" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2199;GetCtlToIdleTrainLOCTSegOffSet" show="true">
+      <CvgElem id="GetCtlToIdleTrainLOCTSegOffSet" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2202" locStartPos="4" locEndLn="2202" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2734;GetIdleToCtlAwakeCtrlID" show="true">
+      <CvgElem id="GetIdleToCtlAwakeCtrlID" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2737" locStartPos="4" locEndLn="2737" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;909;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|SndAtpIdeStaInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|SndAtpIdeStaInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="912" locStartPos="4" locEndLn="957" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2760;GetIdleToCtlFailSleepAwakeRs" show="true">
+      <CvgElem id="GetIdleToCtlFailSleepAwakeRs" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2763" locStartPos="4" locEndLn="2763" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2683;GetIdleStopHotStandbyToActFlag" show="true">
+      <CvgElem id="GetIdleStopHotStandbyToActFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2686" locStartPos="4" locEndLn="2686" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2436;GetIdleToCtlPeriodCount" show="true">
+      <CvgElem id="GetIdleToCtlPeriodCount" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2439" locStartPos="4" locEndLn="2439" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2162;GetCtlToIdleTrainLOCHSegId" show="true">
+      <CvgElem id="GetCtlToIdleTrainLOCHSegId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2165" locStartPos="4" locEndLn="2165" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2677;GetIdleEbTag" show="true">
+      <CvgElem id="GetIdleEbTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2680" locStartPos="4" locEndLn="2680" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2812;GetCtlToIdleAwakeCtrlID" show="true">
+      <CvgElem id="GetCtlToIdleAwakeCtrlID" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2815" locStartPos="4" locEndLn="2815" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2306;GetCtlToIdleArReversingState" show="true">
+      <CvgElem id="GetCtlToIdleArReversingState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2309" locStartPos="4" locEndLn="2309" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2326;SetCtlToIdleArLampStatus" show="true">
+      <CvgElem id="SetCtlToIdleArLampStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2329" locStartPos="4" locEndLn="2329" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;660;AtpMsgRcv" show="true">
+      <CvgElem id="AtpMsgRcv" pathsNo="136">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="663" locStartPos="4" locEndLn="679" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="682" locStartPos="8" locEndLn="682" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;38">
+          <PathBlckLoc locStartln="686" locStartPos="4" locEndLn="688" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="690" locStartPos="8" locEndLn="692" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7;37">
+          <PathBlckLoc locStartln="692" locStartPos="35" locEndLn="692" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="5">
+          <PathBlckLoc locStartln="692" locStartPos="53" locEndLn="692" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="695" locStartPos="12" locEndLn="710" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="712" locStartPos="16" locEndLn="716" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;35">
+          <PathBlckLoc locStartln="719" locStartPos="16" locEndLn="719" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="721" locStartPos="16" locEndLn="722" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="13;23">
+          <PathBlckLoc locStartln="722" locStartPos="29" locEndLn="722" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="11">
+          <PathBlckLoc locStartln="722" locStartPos="54" locEndLn="722" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="15;17;19">
+          <PathBlckLoc locStartln="724" locStartPos="20" locEndLn="725" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="22">
+          <PathBlckLoc locStartln="729" locStartPos="24" locEndLn="734" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="22">
+          <PathBlckLoc locStartln="738" locStartPos="24" locEndLn="743" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="22">
+          <PathBlckLoc locStartln="746" locStartPos="24" locEndLn="747" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24;25">
+          <PathBlckLoc locStartln="750" locStartPos="20" locEndLn="751" locEndPos="130" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="12">
+          <PathBlckLoc locStartln="749" locStartPos="16" locEndLn="749" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26">
+          <PathBlckLoc locStartln="760" locStartPos="20" locEndLn="760" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="26">
+          <PathBlckLoc locStartln="752" locStartPos="16" locEndLn="756" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28;32">
+          <PathBlckLoc locStartln="766" locStartPos="20" locEndLn="774" locEndPos="126" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;33">
+          <PathBlckLoc locStartln="763" locStartPos="20" locEndLn="763" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="31">
+          <PathBlckLoc locStartln="780" locStartPos="28" locEndLn="780" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29;30">
+          <PathBlckLoc locStartln="777" locStartPos="28" locEndLn="777" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="787" locStartPos="20" locEndLn="787" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31">
+          <PathBlckLoc locStartln="785" locStartPos="28" locEndLn="785" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="36">
+          <PathBlckLoc locStartln="794" locStartPos="12" locEndLn="794" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36">
+          <PathBlckLoc locStartln="797" locStartPos="16" locEndLn="797" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="34">
+          <PathBlckLoc locStartln="788" locStartPos="16" locEndLn="788" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34">
+          <PathBlckLoc locStartln="791" locStartPos="20" locEndLn="791" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="38" blckTrans="">
+          <PathBlckLoc locStartln="804" locStartPos="0" locEndLn="804" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="6">
+          <PathBlckLoc locStartln="799" locStartPos="8" locEndLn="799" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="38">
+          <PathBlckLoc locStartln="802" locStartPos="4" locEndLn="802" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2333;GetCtlToIdleDiameter" show="true">
+      <CvgElem id="GetCtlToIdleDiameter" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2336" locStartPos="4" locEndLn="2336" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2463;SetIdleToCtlAtpLocalIntId" show="true">
+      <CvgElem id="SetIdleToCtlAtpLocalIntId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2466" locStartPos="4" locEndLn="2466" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2251;GetCtlToIdlePeriodCount" show="true">
+      <CvgElem id="GetCtlToIdlePeriodCount" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2254" locStartPos="4" locEndLn="2254" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2176;GetCtlToIdleTrainLOCHDir" show="true">
+      <CvgElem id="GetCtlToIdleTrainLOCHDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2179" locStartPos="4" locEndLn="2179" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2616;GetCtlToIdleLocCheckResult" show="true">
+      <CvgElem id="GetCtlToIdleLocCheckResult" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2619" locStartPos="4" locEndLn="2619" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2741;SetIdleToCtlAwakeCtrlID" show="true">
+      <CvgElem id="SetIdleToCtlAwakeCtrlID" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2744" locStartPos="4" locEndLn="2744" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2854;GetCtrIdleCtrTestOver" show="true">
+      <CvgElem id="GetCtrIdleCtrTestOver" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2857" locStartPos="4" locEndLn="2857" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2484;GetIdleToCtlArStep" show="true">
+      <CvgElem id="GetIdleToCtlArStep" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2487" locStartPos="4" locEndLn="2487" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2477;SetIdleToCtlZeroSpeedTag" show="true">
+      <CvgElem id="SetIdleToCtlZeroSpeedTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2480" locStartPos="4" locEndLn="2480" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2526;GetIdleToCtlAtoCheckStatus" show="true">
+      <CvgElem id="GetIdleToCtlAtoCheckStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2529" locStartPos="4" locEndLn="2529" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2456;GetIdleToCtlAtpLocalIntId" show="true">
+      <CvgElem id="GetIdleToCtlAtpLocalIntId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2459" locStartPos="4" locEndLn="2459" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2603;GetIdleToCtlSpdStatus" show="true">
+      <CvgElem id="GetIdleToCtlSpdStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2606" locStartPos="4" locEndLn="2606" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2491;SetIdleToCtlArStep" show="true">
+      <CvgElem id="SetIdleToCtlArStep" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2494" locStartPos="4" locEndLn="2494" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;1895;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpIdleStaInfoCheck" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpIdleStaInfoCheck" pathsNo="131073">
+        <BlckInfo id="1" blckTrans="2;37">
+          <PathBlckLoc locStartln="1898" locStartPos="4" locEndLn="1903" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="1905" locStartPos="8" locEndLn="1908" locEndPos="78" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="1911" locStartPos="12" locEndLn="1911" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;6">
+          <PathBlckLoc locStartln="1914" locStartPos="12" locEndLn="1914" locEndPos="148" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6">
+          <PathBlckLoc locStartln="1917" locStartPos="12" locEndLn="1917" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7;8">
+          <PathBlckLoc locStartln="1922" locStartPos="8" locEndLn="1927" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="1930" locStartPos="12" locEndLn="1930" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;10">
+          <PathBlckLoc locStartln="1935" locStartPos="12" locEndLn="1937" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="1940" locStartPos="12" locEndLn="1940" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="1943" locStartPos="12" locEndLn="1943" locEndPos="127" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="1946" locStartPos="12" locEndLn="1946" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;14">
+          <PathBlckLoc locStartln="1951" locStartPos="12" locEndLn="1951" locEndPos="147" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14">
+          <PathBlckLoc locStartln="1954" locStartPos="12" locEndLn="1954" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;16">
+          <PathBlckLoc locStartln="1958" locStartPos="12" locEndLn="1958" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="1961" locStartPos="12" locEndLn="1961" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="1970" locStartPos="12" locEndLn="1970" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="1966" locStartPos="12" locEndLn="1967" locEndPos="140" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="1978" locStartPos="12" locEndLn="1978" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19;20">
+          <PathBlckLoc locStartln="1974" locStartPos="12" locEndLn="1975" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22">
+          <PathBlckLoc locStartln="1986" locStartPos="12" locEndLn="1986" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21;22">
+          <PathBlckLoc locStartln="1983" locStartPos="12" locEndLn="1983" locEndPos="139" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24">
+          <PathBlckLoc locStartln="1993" locStartPos="12" locEndLn="1993" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23;24">
+          <PathBlckLoc locStartln="1990" locStartPos="12" locEndLn="1990" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26">
+          <PathBlckLoc locStartln="2000" locStartPos="12" locEndLn="2000" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25;26">
+          <PathBlckLoc locStartln="1997" locStartPos="12" locEndLn="1997" locEndPos="155" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="28">
+          <PathBlckLoc locStartln="2011" locStartPos="12" locEndLn="2011" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="27;28">
+          <PathBlckLoc locStartln="2004" locStartPos="12" locEndLn="2008" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="30">
+          <PathBlckLoc locStartln="2021" locStartPos="12" locEndLn="2021" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="28" blckTrans="29;30">
+          <PathBlckLoc locStartln="2016" locStartPos="12" locEndLn="2018" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="32">
+          <PathBlckLoc locStartln="2030" locStartPos="12" locEndLn="2030" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31;32">
+          <PathBlckLoc locStartln="2025" locStartPos="12" locEndLn="2027" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="34" blckTrans="35;36">
+          <PathBlckLoc locStartln="2060" locStartPos="12" locEndLn="2060" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="35" blckTrans="36">
+          <PathBlckLoc locStartln="2063" locStartPos="12" locEndLn="2064" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="32" blckTrans="33;34">
+          <PathBlckLoc locStartln="2034" locStartPos="12" locEndLn="2036" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="33" blckTrans="34">
+          <PathBlckLoc locStartln="2039" locStartPos="12" locEndLn="2039" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="36" blckTrans="37">
+          <PathBlckLoc locStartln="2066" locStartPos="4" locEndLn="2066" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="37" blckTrans="">
+          <PathBlckLoc locStartln="2067" locStartPos="4" locEndLn="2067" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2721;GetIdleToCtlWakeupcmd" show="true">
+      <CvgElem id="GetIdleToCtlWakeupcmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2724" locStartPos="4" locEndLn="2724" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2659;GetOtherAtpType" show="true">
+      <CvgElem id="GetOtherAtpType" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2662" locStartPos="4" locEndLn="2662" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2142;GetCtlToIdleDrvMode" show="true">
+      <CvgElem id="GetCtlToIdleDrvMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2145" locStartPos="4" locEndLn="2145" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;127;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpIdleStaInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|RcvAtpIdleStaInfo" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="130" locStartPos="4" locEndLn="133" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="139" locStartPos="12" locEndLn="226" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="268" locStartPos="9" locEndLn="268" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="271" locStartPos="8" locEndLn="271" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="">
+          <PathBlckLoc locStartln="273" locStartPos="4" locEndLn="273" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2360;GetCtlToIdleActiveDevState" show="true">
+      <CvgElem id="GetCtlToIdleActiveDevState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2363" locStartPos="4" locEndLn="2363" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2747;GetIdleToCtlSleepAwakesta" show="true">
+      <CvgElem id="GetIdleToCtlSleepAwakesta" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2750" locStartPos="4" locEndLn="2750" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2728;SetIdleToCtlWakeupcmd" show="true">
+      <CvgElem id="SetIdleToCtlWakeupcmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2731" locStartPos="4" locEndLn="2731" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2300;SetCtlToIdleArStep" show="true">
+      <CvgElem id="SetCtlToIdleArStep" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2303" locStartPos="4" locEndLn="2303" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2442;GetIdleToCtlGalSndCycNum" show="true">
+      <CvgElem id="GetIdleToCtlGalSndCycNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2445" locStartPos="4" locEndLn="2445" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2754;SetIdleToCtlSleepAwakesta" show="true">
+      <CvgElem id="SetIdleToCtlSleepAwakesta" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2757" locStartPos="4" locEndLn="2757" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2848;SetCtrIdleInterData" show="true">
+      <CvgElem id="SetCtrIdleInterData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2851" locStartPos="4" locEndLn="2851" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2286;SetCtlToIdleZeroSpeedTag" show="true">
+      <CvgElem id="SetCtlToIdleZeroSpeedTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2289" locStartPos="4" locEndLn="2289" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2665;SetIdleDataUpdateTag" show="true">
+      <CvgElem id="SetIdleDataUpdateTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2668" locStartPos="4" locEndLn="2668" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2449;SetIdleToCtlPeriodCount" show="true">
+      <CvgElem id="SetIdleToCtlPeriodCount" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2452" locStartPos="4" locEndLn="2452" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2128;GetCtlToIdleCtrlLevel" show="true">
+      <CvgElem id="GetCtlToIdleCtrlLevel" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2131" locStartPos="4" locEndLn="2131" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2354;SetCtlToIdleNetComuStatus" show="true">
+      <CvgElem id="SetCtlToIdleNetComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2357" locStartPos="4" locEndLn="2357" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2470;GetIdleToCtlZeroSpeedTag" show="true">
+      <CvgElem id="GetIdleToCtlZeroSpeedTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2473" locStartPos="4" locEndLn="2473" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2646;GetIdleSendData" show="true">
+      <CvgElem id="GetIdleSendData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2649" locStartPos="4" locEndLn="2649" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2583;SetIdleToCtlCmpVer" show="true">
+      <CvgElem id="SetIdleToCtlCmpVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2586" locStartPos="4" locEndLn="2586" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;1188;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|CtrlVobcInfoPrepare" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|CtrlVobcInfoPrepare" pathsNo="96">
+        <BlckInfo id="1" blckTrans="2;6">
+          <PathBlckLoc locStartln="1191" locStartPos="4" locEndLn="1227" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="1230" locStartPos="12" locEndLn="1230" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5">
+          <PathBlckLoc locStartln="1233" locStartPos="12" locEndLn="1233" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="1238" locStartPos="12" locEndLn="1238" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1240" locStartPos="4" locEndLn="1240" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1242" locStartPos="4" locEndLn="1245" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="1248" locStartPos="4" locEndLn="1254" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="1257" locStartPos="8" locEndLn="1257" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="1262" locStartPos="8" locEndLn="1262" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11;12">
+          <PathBlckLoc locStartln="1267" locStartPos="7" locEndLn="1267" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12">
+          <PathBlckLoc locStartln="1270" locStartPos="8" locEndLn="1270" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13;14">
+          <PathBlckLoc locStartln="1274" locStartPos="7" locEndLn="1274" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14">
+          <PathBlckLoc locStartln="1277" locStartPos="8" locEndLn="1277" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;16">
+          <PathBlckLoc locStartln="1280" locStartPos="7" locEndLn="1280" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="1283" locStartPos="8" locEndLn="1283" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18">
+          <PathBlckLoc locStartln="1289" locStartPos="8" locEndLn="1289" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17;18">
+          <PathBlckLoc locStartln="1286" locStartPos="7" locEndLn="1286" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="">
+          <PathBlckLoc locStartln="1317" locStartPos="4" locEndLn="1374" locEndPos="66" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2319;GetCtlToIdleArLampStatus" show="true">
+      <CvgElem id="GetCtlToIdleArLampStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2322" locStartPos="4" locEndLn="2322" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2221;SetCtlToIdleTrainLOCHMax" show="true">
+      <CvgElem id="SetCtlToIdleTrainLOCHMax" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2224" locStartPos="4" locEndLn="2226" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2806;SetCtlToIdleSleepWakeupcmd" show="true">
+      <CvgElem id="SetCtlToIdleSleepWakeupcmd" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2809" locStartPos="4" locEndLn="2809" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2767;SetIdleToCtlFailSleepAwakeRs" show="true">
+      <CvgElem id="SetIdleToCtlFailSleepAwakeRs" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2770" locStartPos="4" locEndLn="2770" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2121;SetCtlToIdlePreSetMode" show="true">
+      <CvgElem id="SetCtlToIdlePreSetMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2124" locStartPos="4" locEndLn="2124" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2550;GetIdleToCtlNetComuStatus" show="true">
+      <CvgElem id="GetIdleToCtlNetComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2553" locStartPos="4" locEndLn="2553" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2538;GetIdleToCtlCamCheckStatus" show="true">
+      <CvgElem id="GetIdleToCtlCamCheckStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2541" locStartPos="4" locEndLn="2541" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2156;SetCtlToIdleTrainLocAllow" show="true">
+      <CvgElem id="SetCtlToIdleTrainLocAllow" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2159" locStartPos="4" locEndLn="2159" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2623;SetCtlToIdleLocCheckResult" show="true">
+      <CvgElem id="SetCtlToIdleLocCheckResult" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2626" locStartPos="4" locEndLn="2626" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2671;GetIdleDataUpdateTag" show="true">
+      <CvgElem id="GetIdleDataUpdateTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2674" locStartPos="4" locEndLn="2674" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2886;GetCtrl2IdleMarshalPrcss" show="true">
+      <CvgElem id="GetCtrl2IdleMarshalPrcss" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2889" locStartPos="4" locEndLn="2889" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2340;SetCtlToIdleDiameter" show="true">
+      <CvgElem id="SetCtlToIdleDiameter" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2343" locStartPos="4" locEndLn="2343" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;101;InitControlToIdleRcvData" show="true">
+      <CvgElem id="InitControlToIdleRcvData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="104" locStartPos="4" locEndLn="110" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2272;SetCtlToIdleAtpLocalIntId" show="true">
+      <CvgElem id="SetCtlToIdleAtpLocalIntId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2275" locStartPos="4" locEndLn="2275" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2086;GetCtlToIdleNotice" show="true">
+      <CvgElem id="GetCtlToIdleNotice" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2089" locStartPos="4" locEndLn="2089" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2293;GetCtlToIdleArStep" show="true">
+      <CvgElem id="GetCtlToIdleArStep" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2296" locStartPos="4" locEndLn="2296" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2715;SetRcvAnaAtpDataFlag" show="true">
+      <CvgElem id="SetRcvAnaAtpDataFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2718" locStartPos="4" locEndLn="2718" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2415;SetIdleToCtlPreSetMode" show="true">
+      <CvgElem id="SetIdleToCtlPreSetMode" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2418" locStartPos="4" locEndLn="2418" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2206;GetCtlToIdleTrainLOCTDir" show="true">
+      <CvgElem id="GetCtlToIdleTrainLOCTDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2209" locStartPos="4" locEndLn="2209" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2513;GetIdleToCtlDiameter" show="true">
+      <CvgElem id="GetIdleToCtlDiameter" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2516" locStartPos="4" locEndLn="2516" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2135;SetCtlToIdleCtrlLevel" show="true">
+      <CvgElem id="SetCtlToIdleCtrlLevel" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2138" locStartPos="4" locEndLn="2138" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2072;GetCtlToIdlelocalAtpAttri" show="true">
+      <CvgElem id="GetCtlToIdlelocalAtpAttri" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2075" locStartPos="4" locEndLn="2075" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2610;SetIdleToCtlSpdStatus" show="true">
+      <CvgElem id="SetIdleToCtlSpdStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2613" locStartPos="4" locEndLn="2613" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2429;SetIdleToCtlaAtoStatus" show="true">
+      <CvgElem id="SetIdleToCtlaAtoStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2432" locStartPos="4" locEndLn="2432" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2347;GetCtlToIdleNetComuStatus" show="true">
+      <CvgElem id="GetCtlToIdleNetComuStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2350" locStartPos="4" locEndLn="2350" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2183;SetCtlToIdleTrainLOCH" show="true">
+      <CvgElem id="SetCtlToIdleTrainLOCH" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2186" locStartPos="4" locEndLn="2188" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2367;SetCtlToIdleActiveDevState" show="true">
+      <CvgElem id="SetCtlToIdleActiveDevState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2370" locStartPos="4" locEndLn="2370" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;967;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|SndAtpCtlStaInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCtlAndIdleInterDataWc|SndAtpCtlStaInfo" pathsNo="90">
+        <BlckInfo id="1" blckTrans="2;6">
+          <PathBlckLoc locStartln="970" locStartPos="4" locEndLn="989" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="992" locStartPos="12" locEndLn="992" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5">
+          <PathBlckLoc locStartln="995" locStartPos="12" locEndLn="996" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="1001" locStartPos="12" locEndLn="1002" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="1005" locStartPos="8" locEndLn="1010" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="1014" locStartPos="8" locEndLn="1014" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;21">
+          <PathBlckLoc locStartln="1016" locStartPos="4" locEndLn="1070" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9;14">
+          <PathBlckLoc locStartln="1073" locStartPos="8" locEndLn="1090" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="1093" locStartPos="17" locEndLn="1093" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="12;13">
+          <PathBlckLoc locStartln="1093" locStartPos="35" locEndLn="1093" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="10">
+          <PathBlckLoc locStartln="1093" locStartPos="52" locEndLn="1093" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="11">
+          <PathBlckLoc locStartln="1096" locStartPos="16" locEndLn="1099" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14">
+          <PathBlckLoc locStartln="1101" locStartPos="8" locEndLn="1101" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15;20">
+          <PathBlckLoc locStartln="1106" locStartPos="8" locEndLn="1108" locEndPos="78" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16">
+          <PathBlckLoc locStartln="1111" locStartPos="17" locEndLn="1111" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="16">
+          <PathBlckLoc locStartln="1111" locStartPos="57" locEndLn="1111" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="18;19">
+          <PathBlckLoc locStartln="1111" locStartPos="35" locEndLn="1111" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20">
+          <PathBlckLoc locStartln="1120" locStartPos="8" locEndLn="1120" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="17">
+          <PathBlckLoc locStartln="1114" locStartPos="16" locEndLn="1118" locEndPos="78" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22;23">
+          <PathBlckLoc locStartln="1123" locStartPos="4" locEndLn="1137" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21">
+          <PathBlckLoc locStartln="1121" locStartPos="4" locEndLn="1121" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24;25">
+          <PathBlckLoc locStartln="1146" locStartPos="13" locEndLn="1146" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="27">
+          <PathBlckLoc locStartln="1140" locStartPos="8" locEndLn="1142" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="27">
+          <PathBlckLoc locStartln="1159" locStartPos="4" locEndLn="1161" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="27">
+          <PathBlckLoc locStartln="1149" locStartPos="8" locEndLn="1155" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+        <BlckInfo id="27" blckTrans="">
+          <PathBlckLoc locStartln="1163" locStartPos="4" locEndLn="1174" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2258;SetCtlToIdlePeriodCount" show="true">
+      <CvgElem id="SetCtlToIdlePeriodCount" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2261" locStartPos="4" locEndLn="2261" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2689;GetCtrlToIdleEbTag" show="true">
+      <CvgElem id="GetCtrlToIdleEbTag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2692" locStartPos="4" locEndLn="2692" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2422;GetIdleToCtlAtoStatus" show="true">
+      <CvgElem id="GetIdleToCtlAtoStatus" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2425" locStartPos="4" locEndLn="2425" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2710;GetRcvAnaAtpDataFlag" show="true">
+      <CvgElem id="GetRcvAnaAtpDataFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2713" locStartPos="4" locEndLn="2713" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2100;GetCtlToIdleCmpVer" show="true">
+      <CvgElem id="GetCtlToIdleCmpVer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2103" locStartPos="4" locEndLn="2103" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2699;GetSndAnaAtpDataFlag" show="true">
+      <CvgElem id="GetSndAnaAtpDataFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2702" locStartPos="4" locEndLn="2702" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2520;SetIdleToCtlDiameter" show="true">
+      <CvgElem id="SetIdleToCtlDiameter" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2523" locStartPos="4" locEndLn="2523" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c;2653;GetIdleRecvData" show="true">
+      <CvgElem id="GetIdleRecvData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="2656" locStartPos="4" locEndLn="2656" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCtlAndIdleInterData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBaliseData.c" id="1"/>
+    <Function id="MemoryCpy" name="ZJMemoryCpyX" decorated_name="UINT8_T MemoryCpy(void *, UINT32_T, const void *, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemoryCpy (void * pDest, UINT32_T destBuffSize, const void * pSrc, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T MemoryCpy (void * pDest, UINT32_T destBuffSize, const void * pSrc, UINT32_T count) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCirQueuePkgCount" name="ZbDGetCirQueuePkgCountX" decorated_name="UINT32_T GetCirQueuePkgCount(const CirQueueStruct_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCirQueuePkgCount (const CirQueueStruct_T * pCirQueueStru) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetCirQueuePkgCount (const CirQueueStruct_T * pCirQueueStru) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>CirQueueStruct.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCirQueuePkgData" name="ZbCGetCirQueuePkgDataX" decorated_name="UINT32_T GetCirQueuePkgData(CirQueueStruct_T *, UINT8_T *, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCirQueuePkgData (CirQueueStruct_T * pCirQueueStru, UINT8_T * pDataBuf, UINT32_T dataLen) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetCirQueuePkgData (CirQueueStruct_T * pCirQueueStru, UINT8_T * pDataBuf, UINT32_T dataLen) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>CirQueueStruct.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliseIdByIndex" name="ZbCGetBaliseIdByIndexX" decorated_name="UINT32_T GetBaliseIdByIndex(const UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliseIdByIndex (const UINT16_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetBaliseIdByIndex (const UINT16_T baliseId) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetAtpBaliseMapVer" name="ZbCGetAtpBaliseMapVerX" decorated_name="UINT16_T GetAtpBaliseMapVer(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetAtpBaliseMapVer (const UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetAtpBaliseMapVer (const UINT32_T baliseId) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>BaliseData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSwitchIndexByDeviceId2Byte" name="ZbNGetSwitchIndexByDeviceId2ByteX" decorated_name="UINT16_T GetSwitchIndexByDeviceId2Byte(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSwitchIndexByDeviceId2Byte (const UINT32_T DeviceId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetSwitchIndexByDeviceId2Byte (const UINT32_T DeviceId) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>SwitchData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBaliseMsgRcvDataQueue" name="ZbIGetBaliseMsgRcvDataQueueX" decorated_name="CirQueueStruct_T * GetBaliseMsgRcvDataQueue(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE CirQueueStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetBaliseMsgRcvDataQueue (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE CirQueueStruct_T * GetBaliseMsgRcvDataQueue () </orig_declaration>
+         <return_expression>return (CirQueueStruct_T *)0;</return_expression>
+         <user_decl_header>CommData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSegIdByDevId" name="ZPGetSegIdByDevIdX" decorated_name="UINT16_T GetSegIdByDevId(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSegIdByDevId (const UINT32_T segDevId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetSegIdByDevId (const UINT32_T segDevId) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>SegData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBalCurBaliseId" name="ZbBGetBalCurBaliseIdX" decorated_name="UINT32_T GetBalCurBaliseId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBalCurBaliseId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetBalCurBaliseId () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetBalCurBaliseId" name="ZbBSetBalCurBaliseIdX" decorated_name="void SetBalCurBaliseId(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBalCurBaliseId (const UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBalCurBaliseId (const UINT32_T baliseId) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetOldBaliId" name="ZMGetOldBaliIdX" decorated_name="UINT32_T GetOldBaliId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetOldBaliId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetOldBaliId () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetBaliIdDBVerCmp" name="ZbBSetBaliIdDBVerCmpX" decorated_name="void SetBaliIdDBVerCmp(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBaliIdDBVerCmp (const UINT8_T baliDBVerCmp) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBaliIdDBVerCmp (const UINT8_T baliDBVerCmp) </orig_declaration>
+         <user_decl_header>BaliseInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSysBaliseInErrNo" name="ZbDGetSysBaliseInErrNoX" decorated_name="UINT32_T GetSysBaliseInErrNo(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSysBaliseInErrNo (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetSysBaliseInErrNo () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddSysBaliseInErrNo" name="ZbDAddSysBaliseInErrNoX" decorated_name="void AddSysBaliseInErrNo(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddSysBaliseInErrNo (const UINT32_T baliseInErrNo) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddSysBaliseInErrNo (const UINT32_T baliseInErrNo) </orig_declaration>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSysBaliseInfoErrNo" name="ZbFGetSysBaliseInfoErrNoX" decorated_name="UINT32_T GetSysBaliseInfoErrNo(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSysBaliseInfoErrNo (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetSysBaliseInfoErrNo () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddSysBaliseInfoErrNo" name="ZbFAddSysBaliseInfoErrNoX" decorated_name="void AddSysBaliseInfoErrNo(const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_AddSysBaliseInfoErrNo (const UINT32_T baliseInfoErrNo) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void AddSysBaliseInfoErrNo (const UINT32_T baliseInfoErrNo) </orig_declaration>
+         <user_decl_header>SysRunErrorData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetLineNum" name="ZKGetLineNumX" decorated_name="UINT16_T GetLineNum(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetLineNum (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetLineNum () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>ReadBinData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitRcvBaliseData" name="ZbBInitRcvBaliseDataX" decorated_name="void InitRcvBaliseData(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_InitRcvBaliseData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void InitRcvBaliseData (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="58" col="6"/>
+    </Function>
+    <Function id="InitRcvBaliseDataStruLog" name="ZbIInitRcvBaliseDataStruLogX" decorated_name="void InitRcvBaliseDataStruLog(void)">
+      <definition type="orig" source="code" file_id="1" line="101" col="7"/>
+    </Function>
+    <Function id="InitRcvBaliseDataLast" name="ZbFInitRcvBaliseDataLastX" decorated_name="void InitRcvBaliseDataLast(void)">
+      <definition type="orig" source="code" file_id="1" line="108" col="6"/>
+    </Function>
+    <Function id="InitIsRecvBaliseData" name="ZbEInitIsRecvBaliseDataX" decorated_name="void InitIsRecvBaliseData(void)">
+      <definition type="orig" source="code" file_id="1" line="115" col="6"/>
+    </Function>
+    <Function id="SetIsRecvBalise" name="ZPSetIsRecvBaliseX" decorated_name="void SetIsRecvBalise(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetIsRecvBalise (UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetIsRecvBalise (UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseBaliseData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="125" col="6"/>
+    </Function>
+    <Function id="GetIsRecvBalise" name="ZPGetIsRecvBaliseX" decorated_name="UINT8_T GetIsRecvBalise(void)">
+      <definition type="orig" source="code" file_id="1" line="132" col="9"/>
+    </Function>
+    <Function id="SetIsRecvBalise202" name="ZbCSetIsRecvBalise202X" decorated_name="void SetIsRecvBalise202(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetIsRecvBalise202 (UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetIsRecvBalise202 (UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseBaliseData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="139" col="6"/>
+    </Function>
+    <Function id="GetIsRecvBalise202" name="ZbCGetIsRecvBalise202X" decorated_name="UINT8_T GetIsRecvBalise202(void)">
+      <definition type="orig" source="code" file_id="1" line="146" col="9"/>
+    </Function>
+    <Function id="SetIsRecvBalise203" name="ZbCSetIsRecvBalise203X" decorated_name="void SetIsRecvBalise203(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetIsRecvBalise203 (UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetIsRecvBalise203 (UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseBaliseData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="153" col="6"/>
+    </Function>
+    <Function id="GetIsRecvBalise203" name="ZbCGetIsRecvBalise203X" decorated_name="UINT8_T GetIsRecvBalise203(void)">
+      <definition type="orig" source="code" file_id="1" line="160" col="9"/>
+    </Function>
+    <Function id="SetIsRecvBalise204" name="ZbCSetIsRecvBalise204X" decorated_name="void SetIsRecvBalise204(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetIsRecvBalise204 (UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetIsRecvBalise204 (UINT8_T value) </orig_declaration>
+         <user_decl_header>PackParseBaliseData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="167" col="6"/>
+    </Function>
+    <Function id="GetIsRecvBalise204" name="ZbCGetIsRecvBalise204X" decorated_name="UINT8_T GetIsRecvBalise204(void)">
+      <definition type="orig" source="code" file_id="1" line="174" col="9"/>
+    </Function>
+    <Function id="BaliseMsgRcv" name="ZMBaliseMsgRcvX" decorated_name="void BaliseMsgRcv(void)">
+      <definition type="orig" source="code" file_id="1" line="181" col="6"/>
+    </Function>
+    <Function id="ParseRcvBalise" name="ZOParseRcvBaliseX" decorated_name="void ParseRcvBalise(const UINT8_T *, const UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_ParseRcvBalise (const UINT8_T  pRecvBuff[], const UINT16_T len) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void ParseRcvBalise (const UINT8_T  pRecvBuff[], const UINT16_T len) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="246" col="20"/>
+    </Function>
+    <Function id="ParseBaliseMaData" name="ZbBParseBaliseMaDataX" decorated_name="UINT16_T ParseBaliseMaData(const UINT8_T *, const UINT16_T, const UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_ParseBaliseMaData (const UINT8_T  biaRcvDataBuf[], const UINT16_T dataLen, const UINT16_T bitStartPos) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T ParseBaliseMaData (const UINT8_T  biaRcvDataBuf[], const UINT16_T dataLen, const UINT16_T bitStartPos) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="841" col="24"/>
+    </Function>
+    <Function id="ParseBaliseLimitSpdData" name="ZbHParseBaliseLimitSpdDataX" decorated_name="UINT16_T ParseBaliseLimitSpdData(const UINT8_T *, const UINT16_T, const UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_ParseBaliseLimitSpdData (const UINT8_T  biaRcvDataBuf[], const UINT16_T dataLen, const UINT16_T bitStartPos) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T ParseBaliseLimitSpdData (const UINT8_T  biaRcvDataBuf[], const UINT16_T dataLen, const UINT16_T bitStartPos) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1078" col="24"/>
+    </Function>
+    <Function id="GetDataByBitPos" name="ZPGetDataByBitPosX" decorated_name="UINT8_T GetDataByBitPos(const UINT8_T *, const UINT16_T, const UINT16_T, const UINT16_T, UINT32_T *)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetDataByBitPos (const UINT8_T  databuff[], const UINT16_T dataLen, const UINT16_T bitStartPos, const UINT16_T bitSum, UINT32_T * outVal) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetDataByBitPos (const UINT8_T  databuff[], const UINT16_T dataLen, const UINT16_T bitStartPos, const UINT16_T bitSum, UINT32_T * outVal) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1240" col="24"/>
+    </Function>
+    <Function id="BaliseInfoProcess" name="ZbBBaliseInfoProcessX" decorated_name="void BaliseInfoProcess(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_BaliseInfoProcess (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void BaliseInfoProcess (void) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1319" col="20"/>
+    </Function>
+    <Function id="CheckBaliseValid" name="ZbACheckBaliseValidX" decorated_name="UINT8_T CheckBaliseValid(UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_CheckBaliseValid (UINT32_T baliseId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T CheckBaliseValid (UINT32_T baliseId) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1383" col="23"/>
+    </Function>
+    <Function id="GetRcvBaliseIndex" name="ZbBGetRcvBaliseIndexX" decorated_name="UINT32_T GetRcvBaliseIndex(void)">
+      <definition type="orig" source="code" file_id="1" line="1466" col="10"/>
+    </Function>
+    <Function id="GetRcvBaliseLineNum" name="ZbDGetRcvBaliseLineNumX" decorated_name="UINT16_T GetRcvBaliseLineNum(void)">
+      <definition type="orig" source="code" file_id="1" line="1473" col="11"/>
+    </Function>
+    <Function id="GetRcvBaliseMapVer" name="ZbCGetRcvBaliseMapVerX" decorated_name="UINT32_T GetRcvBaliseMapVer(void)">
+      <definition type="orig" source="code" file_id="1" line="1481" col="11"/>
+    </Function>
+    <Function id="GetBaliseRedFrameFlag" name="ZbFGetBaliseRedFrameFlagX" decorated_name="UINT8_T GetBaliseRedFrameFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="1488" col="9"/>
+    </Function>
+    <Function id="GetBalLeuDefaultFrmFlag" name="ZbHGetBalLeuDefaultFrmFlagX" decorated_name="UINT8_T GetBalLeuDefaultFrmFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="1502" col="9"/>
+    </Function>
+    <Function id="GetBalDefaultFrmFlag" name="ZbEGetBalDefaultFrmFlagX" decorated_name="UINT8_T GetBalDefaultFrmFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="1516" col="9"/>
+    </Function>
+    <Function id="GetLeuCiCommSta" name="ZPGetLeuCiCommStaX" decorated_name="UINT8_T GetLeuCiCommSta(void)">
+      <definition type="orig" source="code" file_id="1" line="1530" col="9"/>
+    </Function>
+    <Function id="GetLeuBalCommSta" name="ZbAGetLeuBalCommStaX" decorated_name="UINT8_T GetLeuBalCommSta(void)">
+      <definition type="orig" source="code" file_id="1" line="1537" col="9"/>
+    </Function>
+    <Function id="GetRecvBaliseLogData" name="ZbEGetRecvBaliseLogDataX" decorated_name="RcvBaliseDataStruct_T GetRecvBaliseLogData(void)">
+      <definition type="orig" source="code" file_id="1" line="1545" col="23"/>
+    </Function>
+    <Function id="GetgLogOfBaliseDataBuf" name="ZbGGetgLogOfBaliseDataBufX" decorated_name="UINT8_T * GetgLogOfBaliseDataBuf(void)">
+      <definition type="orig" source="code" file_id="1" line="1552" col="11"/>
+    </Function>
+    <Function id="GetRcvBaliFlag" name="ZOGetRcvBaliFlagX" decorated_name="UINT8_T GetRcvBaliFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="1567" col="9"/>
+    </Function>
+    <Function id="SetRcvBaliFlag" name="ZOSetRcvBaliFlagX" decorated_name="void SetRcvBaliFlag(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetRcvBaliFlag (UINT8_T flag) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetRcvBaliFlag (UINT8_T flag) </orig_declaration>
+         <user_decl_header>PackParseBaliseData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1580" col="6"/>
+    </Function>
+    <Function id="SetBaliseIdRecord" name="ZbBSetBaliseIdRecordX" decorated_name="void SetBaliseIdRecord(UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBaliseIdRecord (UINT32_T baliseID) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBaliseIdRecord (UINT32_T baliseID) </orig_declaration>
+         <user_decl_header>PackParseBaliseData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1585" col="6"/>
+    </Function>
+    <Function id="GetBaliseIdRecord" name="ZbBGetBaliseIdRecordX" decorated_name="UINT32_T GetBaliseIdRecord(void)">
+      <definition type="orig" source="code" file_id="1" line="1590" col="10"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

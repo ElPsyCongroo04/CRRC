@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;20;GetPowerOffHintFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;27;SetPowerOffHintFlag" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;20;GetPowerOffHintFlag" show="true">
+      <CvgElem id="GetPowerOffHintFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="23" locStartPos="4" locEndLn="23" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;27;SetPowerOffHintFlag" show="true">
+      <CvgElem id="SetPowerOffHintFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="30" locStartPos="4" locEndLn="30" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

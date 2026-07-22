@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\ArInfoData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitArInfoData" name="ZOInitArInfoDataX" decorated_name="void InitArInfoData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="19" col="6"/>
+    </Function>
+    <Function id="GetArReversingTag" name="ZbBGetArReversingTagX" decorated_name="UINT8_T GetArReversingTag(void)">
+      <definition type="orig" source="code" file_id="1" line="32" col="9"/>
+    </Function>
+    <Function id="SetArReversingTag" name="ZbBSetArReversingTagX" decorated_name="void SetArReversingTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="40" col="6"/>
+    </Function>
+    <Function id="GetArReversingFirstTag" name="ZbGGetArReversingFirstTagX" decorated_name="UINT8_T GetArReversingFirstTag(void)">
+      <definition type="orig" source="code" file_id="1" line="46" col="9"/>
+    </Function>
+    <Function id="SetArReversingFirstTag" name="ZbGSetArReversingFirstTagX" decorated_name="void SetArReversingFirstTag(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="54" col="6"/>
+    </Function>
+    <Function id="GetArReversingTimer" name="ZbDGetArReversingTimerX" decorated_name="UINT16_T GetArReversingTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="61" col="10"/>
+    </Function>
+    <Function id="SetArReversingTimer" name="ZbDSetArReversingTimerX" decorated_name="void SetArReversingTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="69" col="6"/>
+    </Function>
+    <Function id="GetLocalArRelay" name="ZPGetLocalArRelayX" decorated_name="UINT8_T GetLocalArRelay(void)">
+      <definition type="orig" source="code" file_id="1" line="77" col="9"/>
+    </Function>
+    <Function id="SetLocalArRelay" name="ZPSetLocalArRelayX" decorated_name="void SetLocalArRelay(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="84" col="6"/>
+    </Function>
+    <Function id="GetOppoArRelay" name="ZOGetOppoArRelayX" decorated_name="UINT8_T GetOppoArRelay(void)">
+      <definition type="orig" source="code" file_id="1" line="90" col="9"/>
+    </Function>
+    <Function id="SetOppoArRelay" name="ZOSetOppoArRelayX" decorated_name="void SetOppoArRelay(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="97" col="6"/>
+    </Function>
+    <Function id="GetArEnterARStep" name="ZbAGetArEnterARStepX" decorated_name="UINT8_T GetArEnterARStep(void)">
+      <definition type="orig" source="code" file_id="1" line="105" col="9"/>
+    </Function>
+    <Function id="SetArEnterARStep" name="ZbASetArEnterARStepX" decorated_name="void SetArEnterARStep(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="113" col="6"/>
+    </Function>
+    <Function id="GetArLampStatus" name="ZPGetArLampStatusX" decorated_name="UINT8_T GetArLampStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="121" col="9"/>
+    </Function>
+    <Function id="SetArLampStatus" name="ZPSetArLampStatusX" decorated_name="void SetArLampStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="128" col="6"/>
+    </Function>
+    <Function id="GetArFlashVal" name="ZNGetArFlashValX" decorated_name="UINT8_T GetArFlashVal(void)">
+      <definition type="orig" source="code" file_id="1" line="136" col="9"/>
+    </Function>
+    <Function id="SetArFlashVal" name="ZNSetArFlashValX" decorated_name="void SetArFlashVal(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="144" col="6"/>
+    </Function>
+    <Function id="GetOppoArFlashVal" name="ZbBGetOppoArFlashValX" decorated_name="UINT8_T GetOppoArFlashVal(void)">
+      <definition type="orig" source="code" file_id="1" line="150" col="9"/>
+    </Function>
+    <Function id="SetOppoArFlashVal" name="ZbBSetOppoArFlashValX" decorated_name="void SetOppoArFlashVal(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="158" col="6"/>
+    </Function>
+    <Function id="GetReversingIdleReverseStep" name="ZbLGetReversingIdleReverseStepX" decorated_name="UINT8_T GetReversingIdleReverseStep(void)">
+      <definition type="orig" source="code" file_id="1" line="165" col="9"/>
+    </Function>
+    <Function id="SetReversingIdleReverseStep" name="ZbLSetReversingIdleReverseStepX" decorated_name="void SetReversingIdleReverseStep(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="172" col="6"/>
+    </Function>
+    <Function id="GetReversingCbtcReverseStep" name="ZbLGetReversingCbtcReverseStepX" decorated_name="UINT8_T GetReversingCbtcReverseStep(void)">
+      <definition type="orig" source="code" file_id="1" line="179" col="9"/>
+    </Function>
+    <Function id="SetReversingCbtcReverseStep" name="ZbLSetReversingCbtcReverseStepX" decorated_name="void SetReversingCbtcReverseStep(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="186" col="6"/>
+    </Function>
+    <Function id="GetReverseIdleReverseTimer" name="ZbKGetReverseIdleReverseTimerX" decorated_name="UINT16_T GetReverseIdleReverseTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="192" col="10"/>
+    </Function>
+    <Function id="SetReverseIdleReverseTimer" name="ZbKSetReverseIdleReverseTimerX" decorated_name="void SetReverseIdleReverseTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="199" col="6"/>
+    </Function>
+    <Function id="GetReverseArReversingState" name="ZbKGetReverseArReversingStateX" decorated_name="UINT8_T GetReverseArReversingState(void)">
+      <definition type="orig" source="code" file_id="1" line="206" col="9"/>
+    </Function>
+    <Function id="SetReverseArReversingState" name="ZbKSetReverseArReversingStateX" decorated_name="void SetReverseArReversingState(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="213" col="6"/>
+    </Function>
+    <Function id="GetArProSeState" name="ZPGetArProSeStateX" decorated_name="ArSeState_T GetArProSeState(void)">
+      <definition type="orig" source="code" file_id="1" line="219" col="13"/>
+    </Function>
+    <Function id="SetArProSeState" name="ZPSetArProSeStateX" decorated_name="void SetArProSeState(const ArSeState_T)">
+      <definition type="orig" source="code" file_id="1" line="226" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

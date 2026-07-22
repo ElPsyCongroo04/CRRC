@@ -1,0 +1,27 @@
+$
+#<Template name="Builtin type initialization">
+#    <Properties>
+#        <Property key="FLATTEN_IN_WIZARD" />
+#    </Properties> 
+#    <Inputs>
+#       <Input name="VALUE" type="string">
+#           <Source location="tja://builtin/uint/value">
+#                <Argument name="VAR_NAME" value="$VAR_NAME$"/>
+#           </Source>
+#       </Input>
+#    </Inputs>
+#</Template>
+\$
+$
+print INDENT,;
+if TYPENAME == "":
+    $unsigned$
+else:
+    print TYPENAME,;
+end;
+print " ", VAR_NAME, " ",;
+if TYPENAME == "":
+    $$
+end;
+\$
+ = $VALUE$;$\$

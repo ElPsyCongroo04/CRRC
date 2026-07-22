@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\WorkCondManage\WorkCondManage.c" id="1"/>
+    <Function id="GetRunDrvMode" name="ZNGetRunDrvModeX" decorated_name="UINT8_T GetRunDrvMode(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRunDrvMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRunDrvMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRunWorkCond" name="ZOGetRunWorkCondX" decorated_name="UINT8_T GetRunWorkCond(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRunWorkCond (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRunWorkCond () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetRunWorkCond" name="ZOSetRunWorkCondX" decorated_name="void SetRunWorkCond(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetRunWorkCond (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetRunWorkCond (const UINT8_T value) </orig_declaration>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetRunWorkCondReverFlg" name="ZbGSetRunWorkCondReverFlgX" decorated_name="void SetRunWorkCondReverFlg(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetRunWorkCondReverFlg (const UINT8_T value) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetRunWorkCondReverFlg (const UINT8_T value) </orig_declaration>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetOutTrainPlatfConfirm" name="ZbHGetOutTrainPlatfConfirmX" decorated_name="UINT8_T GetOutTrainPlatfConfirm(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetOutTrainPlatfConfirm (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetOutTrainPlatfConfirm () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseTacInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetOutTrainPlatfCmd" name="ZbDGetOutTrainPlatfCmdX" decorated_name="UINT8_T GetOutTrainPlatfCmd(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetOutTrainPlatfCmd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetOutTrainPlatfCmd () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseTacInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvTacWorkCondCmd" name="ZbEGetRcvTacWorkCondCmdX" decorated_name="UINT8_T GetRcvTacWorkCondCmd(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvTacWorkCondCmd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvTacWorkCondCmd () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseTacInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTransformArea" name="ZbAGetTransformAreaX" decorated_name="UINT8_T GetTransformArea(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTransformArea (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTransformArea () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSleepAwakeArea" name="ZbBGetSleepAwakeAreaX" decorated_name="UINT8_T GetSleepAwakeArea(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSleepAwakeArea (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetSleepAwakeArea () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetWashCarStopArea" name="ZbCGetWashCarStopAreaX" decorated_name="UINT8_T GetWashCarStopArea(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetWashCarStopArea (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetWashCarStopArea () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetStationPoint" name="ZPGetStationPointX" decorated_name="UINT8_T GetStationPoint(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetStationPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetStationPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetReverseAfterPoint" name="ZbEGetReverseAfterPointX" decorated_name="UINT8_T GetReverseAfterPoint(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetReverseAfterPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetReverseAfterPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSlpAwakPoint" name="ZPGetSlpAwakPointX" decorated_name="UINT8_T GetSlpAwakPoint(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSlpAwakPoint (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetSlpAwakPoint () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>StopAreaData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSlpAwkSleepCond" name="ZbCGetSlpAwkSleepCondX" decorated_name="UINT8_T GetSlpAwkSleepCond(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSlpAwkSleepCond (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetSlpAwkSleepCond () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SleepAwakeData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSlpAwkAwakeSta" name="ZbBGetSlpAwkAwakeStaX" decorated_name="UINT8_T GetSlpAwkAwakeSta(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSlpAwkAwakeSta (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetSlpAwkAwakeSta () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SleepAwakeData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSlpAwkSleepFlag" name="ZbCGetSlpAwkSleepFlagX" decorated_name="UINT8_T GetSlpAwkSleepFlag(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSlpAwkSleepFlag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetSlpAwkSleepFlag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>SleepAwakeData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvAomAwakeSleepCmd" name="ZbGGetRcvAomAwakeSleepCmdX" decorated_name="UINT8_T GetRcvAomAwakeSleepCmd(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvAomAwakeSleepCmd (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvAomAwakeSleepCmd () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseAomData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRcvAomAwakeBatterylow" name="ZbIGetRcvAomAwakeBatterylowX" decorated_name="UINT8_T GetRcvAomAwakeBatterylow(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvAomAwakeBatterylow (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvAomAwakeBatterylow () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseAomData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetArriDepotStatusByMa" name="ZbGGetArriDepotStatusByMaX" decorated_name="UINT16_T GetArriDepotStatusByMa(UINT16_T, UINT32_T, UINT16_T, UINT32_T, UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetArriDepotStatusByMa (UINT16_T startSegId, UINT32_T startSegOffset, UINT16_T endSegId, UINT32_T endSegOffset, UINT8_T dir) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetArriDepotStatusByMa (UINT16_T startSegId, UINT32_T startSegOffset, UINT16_T endSegId, UINT32_T endSegOffset, UINT8_T dir) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>DataInterfaceHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetArriGarageStatusByMa" name="ZbHGetArriGarageStatusByMaX" decorated_name="UINT16_T GetArriGarageStatusByMa(UINT16_T, UINT32_T, UINT16_T, UINT32_T, UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetArriGarageStatusByMa (UINT16_T startSegId, UINT32_T startOffset, UINT16_T endSegId, UINT32_T endOffset, UINT8_T dir) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetArriGarageStatusByMa (UINT16_T startSegId, UINT32_T startOffset, UINT16_T endSegId, UINT32_T endOffset, UINT8_T dir) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>DataInterfaceHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSegOcAttribute" name="ZbBGetSegOcAttributeX" decorated_name="UINT16_T GetSegOcAttribute(UINT16_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSegOcAttribute (UINT16_T segId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetSegOcAttribute (UINT16_T segId) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>SegData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainZeroSpeedTag" name="ZbEGetTrainZeroSpeedTagX" decorated_name="UINT8_T GetTrainZeroSpeedTag(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainZeroSpeedTag (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetTrainZeroSpeedTag () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCHSegId" name="ZbBGetTrainLOCHSegIdX" decorated_name="UINT16_T GetTrainLOCHSegId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCHSegId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainLOCHSegId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainLOCTSegId" name="ZbBGetTrainLOCTSegIdX" decorated_name="UINT16_T GetTrainLOCTSegId(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainLOCTSegId (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainLOCTSegId () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCtlToIdleNotice" name="ZbCGetCtlToIdleNoticeX" decorated_name="UINT8_T GetCtlToIdleNotice(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCtlToIdleNotice (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetCtlToIdleNotice () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseCtlAndIdleInterData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetMaData" name="ZJGetMaDataX" decorated_name="MaDataStruct_T * GetMaData(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE MaDataStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetMaData (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE MaDataStruct_T * GetMaData () </orig_declaration>
+         <return_expression>return (MaDataStruct_T *)0;</return_expression>
+         <user_decl_header>MaInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetMaEndMaType" name="ZOGetMaEndMaTypeX" decorated_name="UINT8_T GetMaEndMaType(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetMaEndMaType (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetMaEndMaType () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>MaInfoData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCurAtpCtrlState" name="ZbCGetCurAtpCtrlStateX" decorated_name="UINT8_T GetCurAtpCtrlState(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCurAtpCtrlState (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetCurAtpCtrlState () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>ActiveStandbyManage.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCarWashMode" name="ZOGetCarWashModeX" decorated_name="UINT8_T GetCarWashMode(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCarWashMode (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetCarWashMode () </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>ProtectionHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="IsRcvAwakeCmd" name="ZNIsRcvAwakeCmdX" decorated_name="UINT8_T IsRcvAwakeCmd(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_IsRcvAwakeCmd (UINT8_T uAwakeCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T IsRcvAwakeCmd (UINT8_T uAwakeCmd) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="69" col="23"/>
+    </Function>
+    <Function id="IsRcvSleepCmd" name="ZNIsRcvSleepCmdX" decorated_name="UINT8_T IsRcvSleepCmd(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_IsRcvSleepCmd (UINT8_T uSleepCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T IsRcvSleepCmd (UINT8_T uSleepCmd) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="90" col="23"/>
+    </Function>
+    <Function id="IsStopInSleepAreaOrStation" name="ZbKIsStopInSleepAreaOrStationX" decorated_name="UINT8_T IsStopInSleepAreaOrStation(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_IsStopInSleepAreaOrStation (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T IsStopInSleepAreaOrStation (void) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="135" col="23"/>
+    </Function>
+    <Function id="EnterDeportOperCondition1" name="ZbJEnterDeportOperCondition1X" decorated_name="UINT8_T EnterDeportOperCondition1(UINT8_T, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterDeportOperCondition1 (UINT8_T uWorkCondition, UINT16_T HeadsegType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterDeportOperCondition1 (UINT8_T uWorkCondition, UINT16_T HeadsegType) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="156" col="23"/>
+    </Function>
+    <Function id="EnterMainLineServerCond2" name="ZbIEnterMainLineServerCond2X" decorated_name="UINT8_T EnterMainLineServerCond2(UINT8_T, UINT8_T, UINT16_T, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterMainLineServerCond2 (UINT8_T uWorkCondition, UINT8_T uWorkCondCmd, UINT16_T HeadSegType, UINT16_T RearSegType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterMainLineServerCond2 (UINT8_T uWorkCondition, UINT8_T uWorkCondCmd, UINT16_T HeadSegType, UINT16_T RearSegType) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="180" col="23"/>
+    </Function>
+    <Function id="EnterAwaitCondition1" name="ZbEEnterAwaitCondition1X" decorated_name="UINT8_T EnterAwaitCondition1(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterAwaitCondition1 (UINT8_T uWorkCondition) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterAwaitCondition1 (UINT8_T uWorkCondition) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="205" col="23"/>
+    </Function>
+    <Function id="WashCarToDeport" name="ZPWashCarToDeportX" decorated_name="UINT8_T WashCarToDeport(UINT16_T, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_WashCarToDeport (UINT16_T HeadsegType, UINT16_T RearSegType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T WashCarToDeport (UINT16_T HeadsegType, UINT16_T RearSegType) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="226" col="23"/>
+    </Function>
+    <Function id="EnterDeportOperCondition2" name="ZbJEnterDeportOperCondition2X" decorated_name="UINT8_T EnterDeportOperCondition2(const MaDataStruct_T *, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterDeportOperCondition2 (const MaDataStruct_T * ma, UINT16_T HeadsegType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterDeportOperCondition2 (const MaDataStruct_T * ma, UINT16_T HeadsegType) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="252" col="23"/>
+    </Function>
+    <Function id="EnterMainLineSeverCond3" name="ZbHEnterMainLineSeverCond3X" decorated_name="UINT8_T EnterMainLineSeverCond3(const MaDataStruct_T *)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterMainLineSeverCond3 (const MaDataStruct_T * ma) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterMainLineSeverCond3 (const MaDataStruct_T * ma) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="272" col="23"/>
+    </Function>
+    <Function id="EnterMainLineServerCond1" name="ZbIEnterMainLineServerCond1X" decorated_name="UINT8_T EnterMainLineServerCond1(const MaDataStruct_T *)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterMainLineServerCond1 (const MaDataStruct_T * ma) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterMainLineServerCond1 (const MaDataStruct_T * ma) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="294" col="23"/>
+    </Function>
+    <Function id="EnterMainLineSeverCond4" name="ZbHEnterMainLineSeverCond4X" decorated_name="UINT8_T EnterMainLineSeverCond4(UINT16_T, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterMainLineSeverCond4 (UINT16_T headType, UINT16_T rearType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterMainLineSeverCond4 (UINT16_T headType, UINT16_T rearType) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="316" col="23"/>
+    </Function>
+    <Function id="EnterAwaitCondition2" name="ZbEEnterAwaitCondition2X" decorated_name="UINT8_T EnterAwaitCondition2(UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterAwaitCondition2 (UINT8_T uWorkCondCmd) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterAwaitCondition2 (UINT8_T uWorkCondCmd) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="340" col="23"/>
+    </Function>
+    <Function id="EnterAwaitCondition3" name="ZbEEnterAwaitCondition3X" decorated_name="UINT8_T EnterAwaitCondition3(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterAwaitCondition3 (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterAwaitCondition3 (void) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="362" col="23"/>
+    </Function>
+    <Function id="EnterAwaitCondition4" name="ZbEEnterAwaitCondition4X" decorated_name="UINT8_T EnterAwaitCondition4(void)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterAwaitCondition4 (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterAwaitCondition4 (void) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="386" col="23"/>
+    </Function>
+    <Function id="EnterDeportOperCondition3" name="ZbJEnterDeportOperCondition3X" decorated_name="UINT8_T EnterDeportOperCondition3(UINT16_T, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterDeportOperCondition3 (UINT16_T HeadsegType, UINT16_T RearSegType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterDeportOperCondition3 (UINT16_T HeadsegType, UINT16_T RearSegType) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="408" col="23"/>
+    </Function>
+    <Function id="EnterDeportOperCondition4" name="ZbJEnterDeportOperCondition4X" decorated_name="UINT8_T EnterDeportOperCondition4(UINT16_T, UINT16_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_EnterDeportOperCondition4 (UINT16_T HeadsegType, UINT16_T RearSegType) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T EnterDeportOperCondition4 (UINT16_T HeadsegType, UINT16_T RearSegType) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="433" col="23"/>
+    </Function>
+    <Function id="WorkCndFunc" name="ZLWorkCndFuncX" decorated_name="void WorkCndFunc(void)">
+      <definition type="orig" source="code" file_id="1" line="449" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

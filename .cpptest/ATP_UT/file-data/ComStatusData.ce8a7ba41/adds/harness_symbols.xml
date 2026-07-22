@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\ComStatusData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitComStatusData" name="ZbBInitComStatusDataX" decorated_name="void InitComStatusData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="28" col="6"/>
+    </Function>
+    <Function id="GetOppoAtpComuStatus" name="ZbEGetOppoAtpComuStatusX" decorated_name="UINT8_T GetOppoAtpComuStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="45" col="9"/>
+    </Function>
+    <Function id="SetOppoAtpComuStatus" name="ZbESetOppoAtpComuStatusX" decorated_name="void SetOppoAtpComuStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="53" col="6"/>
+    </Function>
+    <Function id="GetOppoAtpComuTimer" name="ZbDGetOppoAtpComuTimerX" decorated_name="UINT16_T GetOppoAtpComuTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="60" col="10"/>
+    </Function>
+    <Function id="SetOppoAtpComuTimer" name="ZbDSetOppoAtpComuTimerX" decorated_name="void SetOppoAtpComuTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="68" col="6"/>
+    </Function>
+    <Function id="GetOppoAtpComuStatusLast" name="ZbIGetOppoAtpComuStatusLastX" decorated_name="UINT8_T GetOppoAtpComuStatusLast(void)">
+      <definition type="orig" source="code" file_id="1" line="75" col="9"/>
+    </Function>
+    <Function id="SetOppoAtpComuStatusLast" name="ZbISetOppoAtpComuStatusLastX" decorated_name="void SetOppoAtpComuStatusLast(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="83" col="6"/>
+    </Function>
+    <Function id="GetTmsComuStatus" name="ZbAGetTmsComuStatusX" decorated_name="UINT8_T GetTmsComuStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="90" col="9"/>
+    </Function>
+    <Function id="SetTmsComuStatus" name="ZbASetTmsComuStatusX" decorated_name="void SetTmsComuStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="98" col="6"/>
+    </Function>
+    <Function id="GetTmsComuTimer" name="ZPGetTmsComuTimerX" decorated_name="UINT16_T GetTmsComuTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="106" col="10"/>
+    </Function>
+    <Function id="SetTmsComuTimer" name="ZPSetTmsComuTimerX" decorated_name="void SetTmsComuTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="114" col="6"/>
+    </Function>
+    <Function id="GetMmiComuStatus" name="ZbAGetMmiComuStatusX" decorated_name="UINT8_T GetMmiComuStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="122" col="9"/>
+    </Function>
+    <Function id="SetMmiComuStatus" name="ZbASetMmiComuStatusX" decorated_name="void SetMmiComuStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="130" col="6"/>
+    </Function>
+    <Function id="GetMmiComuTimer" name="ZPGetMmiComuTimerX" decorated_name="UINT16_T GetMmiComuTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="138" col="10"/>
+    </Function>
+    <Function id="SetMmiComuTimer" name="ZPSetMmiComuTimerX" decorated_name="void SetMmiComuTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="146" col="6"/>
+    </Function>
+    <Function id="GetMmiStartComplete" name="ZbDGetMmiStartCompleteX" decorated_name="UINT8_T GetMmiStartComplete(void)">
+      <definition type="orig" source="code" file_id="1" line="152" col="9"/>
+    </Function>
+    <Function id="SetMmiStartComplete" name="ZbDSetMmiStartCompleteX" decorated_name="void SetMmiStartComplete(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="158" col="6"/>
+    </Function>
+    <Function id="GetAtoComuStatus" name="ZbAGetAtoComuStatusX" decorated_name="UINT8_T GetAtoComuStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="165" col="9"/>
+    </Function>
+    <Function id="SetAtoComuStatus" name="ZbASetAtoComuStatusX" decorated_name="void SetAtoComuStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="174" col="6"/>
+    </Function>
+    <Function id="GetAtoComuTimer" name="ZPGetAtoComuTimerX" decorated_name="UINT16_T GetAtoComuTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="182" col="10"/>
+    </Function>
+    <Function id="SetAtoComuTimer" name="ZPSetAtoComuTimerX" decorated_name="void SetAtoComuTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="190" col="6"/>
+    </Function>
+    <Function id="GetAtoComuTimerLast" name="ZbDGetAtoComuTimerLastX" decorated_name="UINT16_T GetAtoComuTimerLast(void)">
+      <definition type="orig" source="code" file_id="1" line="196" col="10"/>
+    </Function>
+    <Function id="SetAtoComuTimerLast" name="ZbDSetAtoComuTimerLastX" decorated_name="void SetAtoComuTimerLast(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="204" col="6"/>
+    </Function>
+    <Function id="GetAtoStartComplete" name="ZbDGetAtoStartCompleteX" decorated_name="UINT8_T GetAtoStartComplete(void)">
+      <definition type="orig" source="code" file_id="1" line="210" col="9"/>
+    </Function>
+    <Function id="SetAtoStartComplete" name="ZbDSetAtoStartCompleteX" decorated_name="void SetAtoStartComplete(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="216" col="6"/>
+    </Function>
+    <Function id="GetCamComuStatus" name="ZbAGetCamComuStatusX" decorated_name="UINT8_T GetCamComuStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="223" col="9"/>
+    </Function>
+    <Function id="SetCamComuStatus" name="ZbASetCamComuStatusX" decorated_name="void SetCamComuStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="232" col="6"/>
+    </Function>
+    <Function id="GetCamComuTimer" name="ZPGetCamComuTimerX" decorated_name="UINT16_T GetCamComuTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="240" col="10"/>
+    </Function>
+    <Function id="SetCamComuTimer" name="ZPSetCamComuTimerX" decorated_name="void SetCamComuTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="248" col="6"/>
+    </Function>
+    <Function id="GetCamStartComplete" name="ZbDGetCamStartCompleteX" decorated_name="UINT8_T GetCamStartComplete(void)">
+      <definition type="orig" source="code" file_id="1" line="254" col="9"/>
+    </Function>
+    <Function id="SetCamStartComplete" name="ZbDSetCamStartCompleteX" decorated_name="void SetCamStartComplete(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="260" col="6"/>
+    </Function>
+    <Function id="GetOppoAtpStartComplete" name="ZbHGetOppoAtpStartCompleteX" decorated_name="UINT8_T GetOppoAtpStartComplete(void)">
+      <definition type="orig" source="code" file_id="1" line="268" col="9"/>
+    </Function>
+    <Function id="SetOppoAtpStartComplete" name="ZbHSetOppoAtpStartCompleteX" decorated_name="void SetOppoAtpStartComplete(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="274" col="6"/>
+    </Function>
+    <Function id="GetWLanComuStatus" name="ZbBGetWLanComuStatusX" decorated_name="UINT8_T GetWLanComuStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="281" col="9"/>
+    </Function>
+    <Function id="SetWLanComuStatus" name="ZbBSetWLanComuStatusX" decorated_name="void SetWLanComuStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="289" col="6"/>
+    </Function>
+    <Function id="GetTacComuStatus" name="ZbAGetTacComuStatusX" decorated_name="UINT8_T GetTacComuStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="297" col="9"/>
+    </Function>
+    <Function id="SetTacComuStatus" name="ZbASetTacComuStatusX" decorated_name="void SetTacComuStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="303" col="6"/>
+    </Function>
+    <Function id="GetTacComuTimer" name="ZPGetTacComuTimerX" decorated_name="UINT16_T GetTacComuTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="309" col="10"/>
+    </Function>
+    <Function id="SetTacComuTimer" name="ZPSetTacComuTimerX" decorated_name="void SetTacComuTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="315" col="6"/>
+    </Function>
+    <Function id="GetTacStartComplete" name="ZbDGetTacStartCompleteX" decorated_name="UINT8_T GetTacStartComplete(void)">
+      <definition type="orig" source="code" file_id="1" line="321" col="9"/>
+    </Function>
+    <Function id="SetTacStartComplete" name="ZbDSetTacStartCompleteX" decorated_name="void SetTacStartComplete(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="327" col="6"/>
+    </Function>
+    <Function id="GetIdleDataUpDateTimer" name="ZbGGetIdleDataUpDateTimerX" decorated_name="UINT16_T GetIdleDataUpDateTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="334" col="10"/>
+    </Function>
+    <Function id="SetIdleDataUpDateTimer" name="ZbGSetIdleDataUpDateTimerX" decorated_name="void SetIdleDataUpDateTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="342" col="6"/>
+    </Function>
+    <Function id="GetAtoHealState" name="ZPGetAtoHealStateX" decorated_name="UINT8_T GetAtoHealState(void)">
+      <definition type="orig" source="code" file_id="1" line="348" col="9"/>
+    </Function>
+    <Function id="SetAtoHealState" name="ZPSetAtoHealStateX" decorated_name="void SetAtoHealState(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="355" col="6"/>
+    </Function>
+    <Function id="GetCamHealState" name="ZPGetCamHealStateX" decorated_name="UINT8_T GetCamHealState(void)">
+      <definition type="orig" source="code" file_id="1" line="361" col="9"/>
+    </Function>
+    <Function id="SetCamHealState" name="ZPSetCamHealStateX" decorated_name="void SetCamHealState(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="368" col="6"/>
+    </Function>
+    <Function id="GetTacHealState" name="ZPGetTacHealStateX" decorated_name="UINT8_T GetTacHealState(void)">
+      <definition type="orig" source="code" file_id="1" line="375" col="9"/>
+    </Function>
+    <Function id="SetTacHealState" name="ZPSetTacHealStateX" decorated_name="void SetTacHealState(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="382" col="6"/>
+    </Function>
+    <Function id="GetAtpDeviceFault" name="ZbBGetAtpDeviceFaultX" decorated_name="UINT8_T GetAtpDeviceFault(void)">
+      <definition type="orig" source="code" file_id="1" line="388" col="9"/>
+    </Function>
+    <Function id="SetAtpDeviceFault" name="ZbBSetAtpDeviceFaultX" decorated_name="void SetAtpDeviceFault(const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetAtpDeviceFault (const UINT8_T atpDeviceFault) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetAtpDeviceFault (const UINT8_T atpDeviceFault) </orig_declaration>
+         <user_decl_header>ComStatusData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="394" col="6"/>
+    </Function>
+    <Function id="GetAomHealState" name="ZPGetAomHealStateX" decorated_name="UINT8_T GetAomHealState(void)">
+      <definition type="orig" source="code" file_id="1" line="401" col="9"/>
+    </Function>
+    <Function id="SetAomHealState" name="ZPSetAomHealStateX" decorated_name="void SetAomHealState(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="407" col="6"/>
+    </Function>
+    <Function id="GetAomComuStatus" name="ZbAGetAomComuStatusX" decorated_name="UINT8_T GetAomComuStatus(void)">
+      <definition type="orig" source="code" file_id="1" line="414" col="9"/>
+    </Function>
+    <Function id="SetAomComuStatus" name="ZbASetAomComuStatusX" decorated_name="void SetAomComuStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="420" col="6"/>
+    </Function>
+    <Function id="GetAomComuTimer" name="ZPGetAomComuTimerX" decorated_name="UINT16_T GetAomComuTimer(void)">
+      <definition type="orig" source="code" file_id="1" line="426" col="10"/>
+    </Function>
+    <Function id="SetAomComuTimer" name="ZPSetAomComuTimerX" decorated_name="void SetAomComuTimer(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="432" col="6"/>
+    </Function>
+    <Function id="GetAomComuTimerLast" name="ZbDGetAomComuTimerLastX" decorated_name="UINT16_T GetAomComuTimerLast(void)">
+      <definition type="orig" source="code" file_id="1" line="438" col="10"/>
+    </Function>
+    <Function id="SetAomComuTimerLast" name="ZbDSetAomComuTimerLastX" decorated_name="void SetAomComuTimerLast(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="444" col="6"/>
+    </Function>
+    <Function id="GetAomStartComplete" name="ZbDGetAomStartCompleteX" decorated_name="UINT8_T GetAomStartComplete(void)">
+      <definition type="orig" source="code" file_id="1" line="450" col="9"/>
+    </Function>
+    <Function id="SetAomStartComplete" name="ZbDSetAomStartCompleteX" decorated_name="void SetAomStartComplete(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="456" col="6"/>
+    </Function>
+    <Function id="GetAtoDeviceFault" name="ZbBGetAtoDeviceFaultX" decorated_name="UINT8_T GetAtoDeviceFault(void)">
+      <definition type="orig" source="code" file_id="1" line="463" col="9"/>
+    </Function>
+    <Function id="SetAtoDeviceFault" name="ZbBSetAtoDeviceFaultX" decorated_name="void SetAtoDeviceFault(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="469" col="6"/>
+    </Function>
+    <Function id="GetCamDeviceFault" name="ZbBGetCamDeviceFaultX" decorated_name="UINT8_T GetCamDeviceFault(void)">
+      <definition type="orig" source="code" file_id="1" line="474" col="9"/>
+    </Function>
+    <Function id="SetCamDeviceFault" name="ZbBSetCamDeviceFaultX" decorated_name="void SetCamDeviceFault(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="480" col="6"/>
+    </Function>
+    <Function id="GetAomDeviceFault" name="ZbBGetAomDeviceFaultX" decorated_name="UINT8_T GetAomDeviceFault(void)">
+      <definition type="orig" source="code" file_id="1" line="485" col="9"/>
+    </Function>
+    <Function id="SetAomDeviceFault" name="ZbBSetAomDeviceFaultX" decorated_name="void SetAomDeviceFault(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="491" col="6"/>
+    </Function>
+    <Function id="GetTacDeviceFault" name="ZbBGetTacDeviceFaultX" decorated_name="UINT8_T GetTacDeviceFault(void)">
+      <definition type="orig" source="code" file_id="1" line="496" col="9"/>
+    </Function>
+    <Function id="SetTacDeviceFault" name="ZbBSetTacDeviceFaultX" decorated_name="void SetTacDeviceFault(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="502" col="6"/>
+    </Function>
+    <Function id="GetOppoAtpDeviceFault" name="ZbFGetOppoAtpDeviceFaultX" decorated_name="UINT8_T GetOppoAtpDeviceFault(void)">
+      <definition type="orig" source="code" file_id="1" line="507" col="9"/>
+    </Function>
+    <Function id="SetOppoAtpDeviceFault" name="ZbFSetOppoAtpDeviceFaultX" decorated_name="void SetOppoAtpDeviceFault(const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetOppoAtpDeviceFault (const UINT8_T oppoAtpDeviceFault) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetOppoAtpDeviceFault (const UINT8_T oppoAtpDeviceFault) </orig_declaration>
+         <user_decl_header>ComStatusData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="513" col="6"/>
+    </Function>
+    <Function id="GetObcDeviceFault" name="ZbBGetObcDeviceFaultX" decorated_name="UINT8_T GetObcDeviceFault(void)">
+      <definition type="orig" source="code" file_id="1" line="520" col="9"/>
+    </Function>
+    <Function id="SetObcDeviceFault" name="ZbBSetObcDeviceFaultX" decorated_name="void SetObcDeviceFault(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="526" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

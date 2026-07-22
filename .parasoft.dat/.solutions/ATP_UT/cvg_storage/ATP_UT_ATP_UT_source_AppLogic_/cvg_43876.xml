@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;125;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|QueryErrorCode" total="13" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;46;GetAlarmStruct" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;52;InitHandleSystemAlarm" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;58;HandleSystemAlarm" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;100;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm" total="3" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;46;GetAlarmStruct" show="true">
+      <CvgElem id="GetAlarmStruct" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="48" locStartPos="1" locEndLn="48" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;125;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|QueryErrorCode" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|QueryErrorCode" pathsNo="13">
+        <BlckInfo id="1" blckTrans="2;30">
+          <PathBlckLoc locStartln="127" locStartPos="1" locEndLn="129" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4;6;8;10;12;14;16;18;20;22;24;26">
+          <PathBlckLoc locStartln="131" locStartPos="10" locEndLn="131" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="29">
+          <PathBlckLoc locStartln="135" locStartPos="4" locEndLn="138" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="29">
+          <PathBlckLoc locStartln="140" locStartPos="4" locEndLn="143" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="29">
+          <PathBlckLoc locStartln="145" locStartPos="4" locEndLn="148" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="29">
+          <PathBlckLoc locStartln="150" locStartPos="4" locEndLn="153" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="29">
+          <PathBlckLoc locStartln="155" locStartPos="4" locEndLn="158" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="29">
+          <PathBlckLoc locStartln="160" locStartPos="4" locEndLn="163" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="29">
+          <PathBlckLoc locStartln="165" locStartPos="4" locEndLn="167" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="29">
+          <PathBlckLoc locStartln="169" locStartPos="4" locEndLn="170" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="29">
+          <PathBlckLoc locStartln="172" locStartPos="4" locEndLn="174" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="29">
+          <PathBlckLoc locStartln="176" locStartPos="4" locEndLn="178" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="29">
+          <PathBlckLoc locStartln="180" locStartPos="4" locEndLn="182" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="29">
+          <PathBlckLoc locStartln="184" locStartPos="4" locEndLn="185" locEndPos="10" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="29" blckTrans="31">
+          <PathBlckLoc locStartln="188" locStartPos="1" locEndLn="188" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="31" blckTrans="">
+          <PathBlckLoc locStartln="194" locStartPos="0" locEndLn="194" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="30" blckTrans="31">
+          <PathBlckLoc locStartln="190" locStartPos="1" locEndLn="192" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;52;InitHandleSystemAlarm" show="true">
+      <CvgElem id="InitHandleSystemAlarm" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="55" locStartPos="1" locEndLn="55" locEndPos="98" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;100;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWHandleSystemAlarmWHandleSystemAlarmWc|CheckDoorAlarm" pathsNo="3">
+        <BlckInfo id="1" blckTrans="2;6">
+          <PathBlckLoc locStartln="102" locStartPos="1" locEndLn="106" locEndPos="78" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3;4">
+          <PathBlckLoc locStartln="108" locStartPos="6" locEndLn="108" locEndPos="136" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="5">
+          <PathBlckLoc locStartln="110" locStartPos="3" locEndLn="110" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="114" locStartPos="3" locEndLn="114" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="7">
+          <PathBlckLoc locStartln="117" locStartPos="1" locEndLn="117" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="7">
+          <PathBlckLoc locStartln="120" locStartPos="2" locEndLn="120" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="">
+          <PathBlckLoc locStartln="122" locStartPos="1" locEndLn="122" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c;58;HandleSystemAlarm" show="true">
+      <CvgElem id="HandleSystemAlarm" pathsNo="4">
+        <BlckInfo id="1" blckTrans="2">
+          <PathBlckLoc locStartln="61" locStartPos="1" locEndLn="68" locEndPos="16" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4;11">
+          <PathBlckLoc locStartln="68" locStartPos="17" locEndLn="68" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="2">
+          <PathBlckLoc locStartln="68" locStartPos="36" locEndLn="68" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5;9">
+          <PathBlckLoc locStartln="70" locStartPos="2" locEndLn="73" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="76" locStartPos="7" locEndLn="76" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="8">
+          <PathBlckLoc locStartln="78" locStartPos="3" locEndLn="80" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8">
+          <PathBlckLoc locStartln="84" locStartPos="4" locEndLn="88" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="10">
+          <PathBlckLoc locStartln="92" locStartPos="2" locEndLn="92" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10">
+          <PathBlckLoc locStartln="94" locStartPos="2" locEndLn="96" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="3">
+          <PathBlckLoc locStartln="97" locStartPos="1" locEndLn="97" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="">
+          <PathBlckLoc locStartln="98" locStartPos="0" locEndLn="98" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/HandleSystemAlarm/HandleSystemAlarm.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

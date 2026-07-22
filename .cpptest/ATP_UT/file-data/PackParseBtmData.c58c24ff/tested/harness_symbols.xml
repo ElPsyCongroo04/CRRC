@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\PeriodHandle\RcvSendManage\PackParseBtmData.c" id="1"/>
+    <Function id="ShortToChar" name="ZLShortToCharX" decorated_name="void ShortToChar(UINT16_T, UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_ShortToChar (UINT16_T value, UINT8_T  bufferPtr[]) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void ShortToChar (UINT16_T value, UINT8_T  bufferPtr[]) </orig_declaration>
+         <user_decl_header>Endian.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="LongToChar" name="ZKLongToCharX" decorated_name="void LongToChar(UINT32_T, UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_LongToChar (UINT32_T value, UINT8_T  bufferPtr[]) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void LongToChar (UINT32_T value, UINT8_T  bufferPtr[]) </orig_declaration>
+         <user_decl_header>Endian.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="ShortFromChar" name="ZNShortFromCharX" decorated_name="UINT16_T ShortFromChar(const UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_ShortFromChar (const UINT8_T  bufferPtr[]) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T ShortFromChar (const UINT8_T  bufferPtr[]) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>Endian.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="LongFromChar" name="ZMLongFromCharX" decorated_name="UINT32_T LongFromChar(const UINT8_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_LongFromChar (const UINT8_T  bufferPtr[]) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T LongFromChar (const UINT8_T  bufferPtr[]) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>Endian.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="MemoryCpy" name="ZJMemoryCpyX" decorated_name="UINT8_T MemoryCpy(void *, UINT32_T, const void *, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemoryCpy (void * pDest, UINT32_T destBuffSize, const void * pSrc, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T MemoryCpy (void * pDest, UINT32_T destBuffSize, const void * pSrc, UINT32_T count) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCirQueuePkgCount" name="ZbDGetCirQueuePkgCountX" decorated_name="UINT32_T GetCirQueuePkgCount(const CirQueueStruct_T *)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCirQueuePkgCount (const CirQueueStruct_T * pCirQueueStru) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetCirQueuePkgCount (const CirQueueStruct_T * pCirQueueStru) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>CirQueueStruct.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetCirQueuePkgData" name="ZbCGetCirQueuePkgDataX" decorated_name="UINT32_T GetCirQueuePkgData(CirQueueStruct_T *, UINT8_T *, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetCirQueuePkgData (CirQueueStruct_T * pCirQueueStru, UINT8_T * pDataBuf, UINT32_T dataLen) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetCirQueuePkgData (CirQueueStruct_T * pCirQueueStru, UINT8_T * pDataBuf, UINT32_T dataLen) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>CirQueueStruct.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="AddDevComQueueData" name="ZbCAddDevComQueueDataX" decorated_name="INT8_T AddDevComQueueData(DevComCirQueueStruct_T *, const UINT8_T *, const UINT32_T, const UINT8_T, const UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_AddDevComQueueData (DevComCirQueueStruct_T * pCirQueueStru, const UINT8_T * pDataBuf, const UINT32_T dataLen, const UINT8_T destDevType, const UINT32_T destDevId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T AddDevComQueueData (DevComCirQueueStruct_T * pCirQueueStru, const UINT8_T * pDataBuf, const UINT32_T dataLen, const UINT8_T destDevType, const UINT32_T destDevId) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>CirQueueStruct.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetRunPeriodCount" name="ZbBGetRunPeriodCountX" decorated_name="UINT32_T GetRunPeriodCount(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRunPeriodCount (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T GetRunPeriodCount () </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetConfigCycleTime" name="ZbCGetConfigCycleTimeX" decorated_name="UINT16_T GetConfigCycleTime(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetConfigCycleTime (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetConfigCycleTime () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>SysRunData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetSndDataQueue" name="ZPGetSndDataQueueX" decorated_name="DevComCirQueueStruct_T * GetSndDataQueue(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE DevComCirQueueStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetSndDataQueue (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE DevComCirQueueStruct_T * GetSndDataQueue () </orig_declaration>
+         <return_expression>return (DevComCirQueueStruct_T *)0;</return_expression>
+         <user_decl_header>CommData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBtm1MsgRcvDataQueue" name="ZbGGetBtm1MsgRcvDataQueueX" decorated_name="CirQueueStruct_T * GetBtm1MsgRcvDataQueue(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE CirQueueStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetBtm1MsgRcvDataQueue (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE CirQueueStruct_T * GetBtm1MsgRcvDataQueue () </orig_declaration>
+         <return_expression>return (CirQueueStruct_T *)0;</return_expression>
+         <user_decl_header>CommData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBtm2MsgRcvDataQueue" name="ZbGGetBtm2MsgRcvDataQueueX" decorated_name="CirQueueStruct_T * GetBtm2MsgRcvDataQueue(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE CirQueueStruct_T * </declaration_prefix>
+         <declaration_suffix>_Stub_GetBtm2MsgRcvDataQueue (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE CirQueueStruct_T * GetBtm2MsgRcvDataQueue () </orig_declaration>
+         <return_expression>return (CirQueueStruct_T *)0;</return_expression>
+         <user_decl_header>CommData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetTrainCurSpeed" name="ZbAGetTrainCurSpeedX" decorated_name="UINT16_T GetTrainCurSpeed(void)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetTrainCurSpeed (void) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetTrainCurSpeed () </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>TrainData.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="GetBtmLinkSta" name="ZNGetBtmLinkStaX" decorated_name="UINT8_T GetBtmLinkSta(const UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetBtmLinkSta (const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetBtmLinkSta (const UINT8_T sysId) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>BtmHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="SetBtmLinkSta" name="ZNSetBtmLinkStaX" decorated_name="void SetBtmLinkSta(const UINT8_T, UINT8_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetBtmLinkSta (const UINT8_T sysId, UINT8_T linkSta) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetBtmLinkSta (const UINT8_T sysId, UINT8_T linkSta) </orig_declaration>
+         <user_decl_header>BtmHandle.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="Crc32BtmSignal" name="ZOCrc32BtmSignalX" decorated_name="UINT32_T Crc32BtmSignal(const UINT8_T *, const UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_Crc32BtmSignal (const UINT8_T  inbuf_aU8[], const UINT32_T inLEN_I32) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T Crc32BtmSignal (const UINT8_T  inbuf_aU8[], const UINT32_T inLEN_I32) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="59" col="24"/>
+    </Function>
+    <Function id="Crc32MBtmSignal" name="ZPCrc32MBtmSignalX" decorated_name="UINT32_T Crc32MBtmSignal(const UINT8_T *, const UINT32_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT32_T </declaration_prefix>
+         <declaration_suffix>_Stub_Crc32MBtmSignal (const UINT8_T  inbuf_aU8[], const UINT32_T inLEN_I32) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT32_T Crc32MBtmSignal (const UINT8_T  inbuf_aU8[], const UINT32_T inLEN_I32) </orig_declaration>
+         <return_expression>return 0U;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="123" col="24"/>
+    </Function>
+    <Function id="BtmMsgRcv" name="ZJBtmMsgRcvX" decorated_name="void BtmMsgRcv(void)">
+      <definition type="orig" source="code" file_id="1" line="507" col="6"/>
+    </Function>
+    <Function id="BtmMsgSnd" name="ZJBtmMsgSndX" decorated_name="void BtmMsgSnd(void)">
+      <definition type="orig" source="code" file_id="1" line="567" col="6"/>
+    </Function>
+    <Function id="BtmReplyIdClear" name="ZPBtmReplyIdClearX" decorated_name="void BtmReplyIdClear(void)">
+      <definition type="orig" source="code" file_id="1" line="596" col="6"/>
+    </Function>
+    <Function id="BtmInfoPrepare" name="ZOBtmInfoPrepareX" decorated_name="void BtmInfoPrepare(const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_BtmInfoPrepare (const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void BtmInfoPrepare (const UINT8_T sysId) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="614" col="20"/>
+    </Function>
+    <Function id="InitBtmSndData" name="ZOInitBtmSndDataX" decorated_name="void InitBtmSndData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="742" col="6"/>
+    </Function>
+    <Function id="InitRcvBtmFrameData" name="ZbDInitRcvBtmFrameDataX" decorated_name="void InitRcvBtmFrameData(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="762" col="6"/>
+    </Function>
+    <Function id="InitRcvBtmIdleData" name="ZbCInitRcvBtmIdleDataX" decorated_name="void InitRcvBtmIdleData(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="781" col="6"/>
+    </Function>
+    <Function id="InitBtmBaliData" name="ZPInitBtmBaliDataX" decorated_name="void InitBtmBaliData(UINT8_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="801" col="6"/>
+    </Function>
+    <Function id="ParseRcvBtmData" name="ZPParseRcvBtmDataX" decorated_name="void ParseRcvBtmData(const UINT8_T *, UINT32_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_ParseRcvBtmData (const UINT8_T  pRecvBuff[], UINT32_T dataLen, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void ParseRcvBtmData (const UINT8_T  pRecvBuff[], UINT32_T dataLen, const UINT8_T sysId) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="821" col="20"/>
+    </Function>
+    <Function id="ParseRcvBtmFrame" name="ZbAParseRcvBtmFrameX" decorated_name="void ParseRcvBtmFrame(UINT8_T *, UINT32_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_ParseRcvBtmFrame (UINT8_T  buff[], UINT32_T len, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void ParseRcvBtmFrame (UINT8_T  buff[], UINT32_T len, const UINT8_T sysId) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="999" col="20"/>
+    </Function>
+    <Function id="ParseRcvBtmIdle" name="ZPParseRcvBtmIdleX" decorated_name="void ParseRcvBtmIdle(UINT8_T *, UINT32_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_ParseRcvBtmIdle (UINT8_T  buff[], UINT32_T len, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void ParseRcvBtmIdle (UINT8_T  buff[], UINT32_T len, const UINT8_T sysId) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1085" col="20"/>
+    </Function>
+    <Function id="CheckBtmRcvFrameData" name="ZbECheckBtmRcvFrameDataX" decorated_name="void CheckBtmRcvFrameData(const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_CheckBtmRcvFrameData (const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void CheckBtmRcvFrameData (const UINT8_T sysId) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1151" col="20"/>
+    </Function>
+    <Function id="CheckBtmRcvIdleData" name="ZbDCheckBtmRcvIdleDataX" decorated_name="void CheckBtmRcvIdleData(const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_CheckBtmRcvIdleData (const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void CheckBtmRcvIdleData (const UINT8_T sysId) </orig_declaration>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1244" col="20"/>
+    </Function>
+    <Function id="PackSendBtmData" name="ZPPackSendBtmDataX" decorated_name="UINT8_T PackSendBtmData(UINT8_T *, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_PackSendBtmData (UINT8_T * sendBuff, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T PackSendBtmData (UINT8_T * sendBuff, const UINT8_T sysId) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1330" col="23"/>
+    </Function>
+    <Function id="GetSendBtmRequestID" name="ZbDGetSendBtmRequestIDX" decorated_name="UINT8_T GetSendBtmRequestID(const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetSendBtmRequestID (const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetSendBtmRequestID (const UINT8_T sysId) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1391" col="9"/>
+    </Function>
+    <Function id="SetSendBtmRequestID" name="ZbDSetSendBtmRequestIDX" decorated_name="void SetSendBtmRequestID(UINT8_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1398" col="6"/>
+    </Function>
+    <Function id="AddSendBtmRequestID" name="ZbDAddSendBtmRequestIDX" decorated_name="void AddSendBtmRequestID(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1405" col="6"/>
+    </Function>
+    <Function id="GetSendBtmFrameValidStatus" name="ZbKGetSendBtmFrameValidStatusX" decorated_name="UINT8_T GetSendBtmFrameValidStatus(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1421" col="9"/>
+    </Function>
+    <Function id="SetSendBtmFrameValidStatus" name="ZbKSetSendBtmFrameValidStatusX" decorated_name="void SetSendBtmFrameValidStatus(UINT8_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSendBtmFrameValidStatus (UINT8_T frameValidStatus, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSendBtmFrameValidStatus (UINT8_T frameValidStatus, const UINT8_T sysId) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1428" col="6"/>
+    </Function>
+    <Function id="GetSendBtmPowerAmplifyCmd" name="ZbJGetSendBtmPowerAmplifyCmdX" decorated_name="UINT8_T GetSendBtmPowerAmplifyCmd(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1435" col="9"/>
+    </Function>
+    <Function id="SetSendBtmPowerAmplifyCmd" name="ZbJSetSendBtmPowerAmplifyCmdX" decorated_name="void SetSendBtmPowerAmplifyCmd(UINT8_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSendBtmPowerAmplifyCmd (UINT8_T powerAmplifyCmd, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSendBtmPowerAmplifyCmd (UINT8_T powerAmplifyCmd, const UINT8_T sysId) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1442" col="6"/>
+    </Function>
+    <Function id="GetSendBtmFrameType" name="ZbDGetSendBtmFrameTypeX" decorated_name="UINT8_T GetSendBtmFrameType(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1449" col="9"/>
+    </Function>
+    <Function id="SetSendBtmFrameType" name="ZbDSetSendBtmFrameTypeX" decorated_name="void SetSendBtmFrameType(UINT8_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSendBtmFrameType (UINT8_T frameType, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSendBtmFrameType (UINT8_T frameType, const UINT8_T sysId) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1456" col="6"/>
+    </Function>
+    <Function id="GetSendBtmBaliseSN" name="ZbCGetSendBtmBaliseSNX" decorated_name="UINT16_T GetSendBtmBaliseSN(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1463" col="10"/>
+    </Function>
+    <Function id="SetSendBtmBaliseSN" name="ZbCSetSendBtmBaliseSNX" decorated_name="void SetSendBtmBaliseSN(UINT16_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSendBtmBaliseSN (UINT16_T baliseSN, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSendBtmBaliseSN (UINT16_T baliseSN, const UINT8_T sysId) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1470" col="6"/>
+    </Function>
+    <Function id="GetSendBtmSpeed" name="ZPGetSendBtmSpeedX" decorated_name="UINT16_T GetSendBtmSpeed(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1477" col="10"/>
+    </Function>
+    <Function id="SetSendBtmSpeed" name="ZPSetSendBtmSpeedX" decorated_name="void SetSendBtmSpeed(UINT16_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSendBtmSpeed (UINT16_T speed, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSendBtmSpeed (UINT16_T speed, const UINT8_T sysId) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1484" col="6"/>
+    </Function>
+    <Function id="GetSendBtmDistSum" name="ZbBGetSendBtmDistSumX" decorated_name="UINT32_T GetSendBtmDistSum(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1491" col="10"/>
+    </Function>
+    <Function id="SetSendBtmDistSum" name="ZbBSetSendBtmDistSumX" decorated_name="void SetSendBtmDistSum(UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1498" col="6"/>
+    </Function>
+    <Function id="GetSendBtmTimeStamp" name="ZbDGetSendBtmTimeStampX" decorated_name="UINT32_T GetSendBtmTimeStamp(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1505" col="10"/>
+    </Function>
+    <Function id="SetSendBtmTimeStamp" name="ZbDSetSendBtmTimeStampX" decorated_name="void SetSendBtmTimeStamp(UINT32_T, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSendBtmTimeStamp (UINT32_T timeStamp, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSendBtmTimeStamp (UINT32_T timeStamp, const UINT8_T sysId) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1512" col="6"/>
+    </Function>
+    <Function id="GetSendBtmCRC32M" name="ZbAGetSendBtmCRC32MX" decorated_name="UINT32_T GetSendBtmCRC32M(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1519" col="10"/>
+    </Function>
+    <Function id="SetSendBtmCRC32M" name="ZbASetSendBtmCRC32MX" decorated_name="void SetSendBtmCRC32M(UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1526" col="6"/>
+    </Function>
+    <Function id="GetSendBtmLocalTime" name="ZbDGetSendBtmLocalTimeX" decorated_name="UINT8_T * GetSendBtmLocalTime(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1533" col="10"/>
+    </Function>
+    <Function id="SetSendBtmLocalTime" name="ZbDSetSendBtmLocalTimeX" decorated_name="void SetSendBtmLocalTime(const UINT8_T *, const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE void </declaration_prefix>
+         <declaration_suffix>_Stub_SetSendBtmLocalTime (const UINT8_T * localTime, const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE void SetSendBtmLocalTime (const UINT8_T * localTime, const UINT8_T sysId) </orig_declaration>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1540" col="6"/>
+    </Function>
+    <Function id="GetSendBtmCRC32" name="ZPGetSendBtmCRC32X" decorated_name="UINT32_T GetSendBtmCRC32(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1547" col="10"/>
+    </Function>
+    <Function id="SetSendBtmCRC32" name="ZPSetSendBtmCRC32X" decorated_name="void SetSendBtmCRC32(UINT32_T, const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1554" col="6"/>
+    </Function>
+    <Function id="GetRcvBtmFrameType" name="ZbCGetRcvBtmFrameTypeX" decorated_name="UINT8_T GetRcvBtmFrameType(const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvBtmFrameType (const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT8_T GetRcvBtmFrameType (const UINT8_T sysId) </orig_declaration>
+         <return_expression>return (unsigned char)0;</return_expression>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1562" col="9"/>
+    </Function>
+    <Function id="GetRcvBtmFrameLen" name="ZbBGetRcvBtmFrameLenX" decorated_name="UINT8_T GetRcvBtmFrameLen(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1569" col="9"/>
+    </Function>
+    <Function id="GetRcvBtmFrameRequestID" name="ZbHGetRcvBtmFrameRequestIDX" decorated_name="UINT8_T GetRcvBtmFrameRequestID(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1576" col="9"/>
+    </Function>
+    <Function id="GetRcvBtmFrameReplyID" name="ZbFGetRcvBtmFrameReplyIDX" decorated_name="UINT8_T GetRcvBtmFrameReplyID(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1583" col="9"/>
+    </Function>
+    <Function id="GetRcvBtmFrameBalPaSta" name="ZbGGetRcvBtmFrameBalPaStaX" decorated_name="UINT8_T GetRcvBtmFrameBalPaSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1591" col="9"/>
+    </Function>
+    <Function id="GetRcvBtmFrameAttribute" name="ZbHGetRcvBtmFrameAttributeX" decorated_name="UINT8_T GetRcvBtmFrameAttribute(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1598" col="9"/>
+    </Function>
+    <Function id="GetRcvBtmFrameBaliseSN" name="ZbGGetRcvBtmFrameBaliseSNX" decorated_name="UINT16_T GetRcvBtmFrameBaliseSN(const UINT8_T)" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE UINT16_T </declaration_prefix>
+         <declaration_suffix>_Stub_GetRcvBtmFrameBaliseSN (const UINT8_T sysId) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE UINT16_T GetRcvBtmFrameBaliseSN (const UINT8_T sysId) </orig_declaration>
+         <return_expression>return (unsigned short)0;</return_expression>
+         <user_decl_header>PackParseBtmData.h</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="1606" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmFrameBaliseData" name="ZbIGetRcvBtmFrameBaliseDataX" decorated_name="UINT8_T * GetRcvBtmFrameBaliseData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1613" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmFrameTimeStamp" name="ZbHGetRcvBtmFrameTimeStampX" decorated_name="UINT32_T GetRcvBtmFrameTimeStamp(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1620" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmBalStartTime" name="ZbFGetRcvBtmBalStartTimeX" decorated_name="UINT32_T GetRcvBtmBalStartTime(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1626" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmBalEndTime" name="ZbDGetRcvBtmBalEndTimeX" decorated_name="UINT32_T GetRcvBtmBalEndTime(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1632" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmFrameBalRcvTime" name="ZbIGetRcvBtmFrameBalRcvTimeX" decorated_name="UINT32_T GetRcvBtmFrameBalRcvTime(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1638" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmFrameCRC32" name="ZbDGetRcvBtmFrameCRC32X" decorated_name="UINT32_T GetRcvBtmFrameCRC32(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1646" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmFrameCheckResult" name="ZbJGetRcvBtmFrameCheckResultX" decorated_name="UINT16_T GetRcvBtmFrameCheckResult(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1653" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmIdlePowAmpSta" name="ZbGGetRcvBtmIdlePowAmpStaX" decorated_name="UINT8_T GetRcvBtmIdlePowAmpSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1660" col="9"/>
+    </Function>
+    <Function id="GetRcvBtmIdleBtmWorkSta" name="ZbHGetRcvBtmIdleBtmWorkStaX" decorated_name="UINT8_T GetRcvBtmIdleBtmWorkSta(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1668" col="9"/>
+    </Function>
+    <Function id="GetRcvBtmIdlePackTime" name="ZbFGetRcvBtmIdlePackTimeX" decorated_name="UINT32_T GetRcvBtmIdlePackTime(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1676" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmIdleCRC32C" name="ZbDGetRcvBtmIdleCRC32CX" decorated_name="UINT32_T GetRcvBtmIdleCRC32C(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1683" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmIdleCRC32" name="ZbCGetRcvBtmIdleCRC32X" decorated_name="UINT32_T GetRcvBtmIdleCRC32(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1690" col="10"/>
+    </Function>
+    <Function id="GetRcvBtmIdleCheckResult" name="ZbIGetRcvBtmIdleCheckResultX" decorated_name="UINT16_T GetRcvBtmIdleCheckResult(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="1697" col="10"/>
+    </Function>
+    <Function id="GetSendBtmDataInfo" name="ZbCGetSendBtmDataInfoX" decorated_name="SendBtmDataStruct_T GetSendBtmDataInfo(void)">
+      <definition type="orig" source="code" file_id="1" line="1704" col="21"/>
+    </Function>
+    <Function id="GetRcvBtmDataInfo" name="ZbBGetRcvBtmDataInfoX" decorated_name="RcvBtmDataStruct_T GetRcvBtmDataInfo(void)">
+      <definition type="orig" source="code" file_id="1" line="1711" col="20"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

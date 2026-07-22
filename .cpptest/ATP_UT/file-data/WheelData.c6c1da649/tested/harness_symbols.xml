@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\WheelData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitWheelData" name="ZNInitWheelDataX" decorated_name="void InitWheelData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="21" col="6"/>
+    </Function>
+    <Function id="GetWhlAData" name="ZLGetWhlADataX" decorated_name="WheelInfoStruct_T * GetWhlAData(void)">
+      <definition type="orig" source="code" file_id="1" line="31" col="20"/>
+    </Function>
+    <Function id="GetWhlBData" name="ZLGetWhlBDataX" decorated_name="WheelInfoStruct_T * GetWhlBData(void)">
+      <definition type="orig" source="code" file_id="1" line="37" col="20"/>
+    </Function>
+    <Function id="GetWhlPreBaliseId" name="ZbBGetWhlPreBaliseIdX" decorated_name="UINT32_T GetWhlPreBaliseId(void)">
+      <definition type="orig" source="code" file_id="1" line="43" col="10"/>
+    </Function>
+    <Function id="SetWhlPreBaliseId" name="ZbBSetWhlPreBaliseIdX" decorated_name="void SetWhlPreBaliseId(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="49" col="6"/>
+    </Function>
+    <Function id="GetWhlCurBaliseId" name="ZbBGetWhlCurBaliseIdX" decorated_name="UINT32_T GetWhlCurBaliseId(void)">
+      <definition type="orig" source="code" file_id="1" line="56" col="10"/>
+    </Function>
+    <Function id="SetWhlCurBaliseId" name="ZbBSetWhlCurBaliseIdX" decorated_name="void SetWhlCurBaliseId(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="62" col="6"/>
+    </Function>
+    <Function id="GetWhlBaliDisReal" name="ZbBGetWhlBaliDisRealX" decorated_name="UINT32_T GetWhlBaliDisReal(void)">
+      <definition type="orig" source="code" file_id="1" line="68" col="10"/>
+    </Function>
+    <Function id="SetWhlBaliDisReal" name="ZbBSetWhlBaliDisRealX" decorated_name="void SetWhlBaliDisReal(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="74" col="6"/>
+    </Function>
+    <Function id="GetWhlAChkSta" name="ZNGetWhlAChkStaX" decorated_name="WcState_T GetWhlAChkSta(void)">
+      <definition type="orig" source="code" file_id="1" line="80" col="11"/>
+    </Function>
+    <Function id="SetWhlAChkSta" name="ZNSetWhlAChkStaX" decorated_name="void SetWhlAChkSta(const WcState_T)">
+      <definition type="orig" source="code" file_id="1" line="86" col="6"/>
+    </Function>
+    <Function id="GetWhlAChkStaLast" name="ZbBGetWhlAChkStaLastX" decorated_name="WcState_T GetWhlAChkStaLast(void)">
+      <definition type="orig" source="code" file_id="1" line="92" col="11"/>
+    </Function>
+    <Function id="SetWhlAChkStaLast" name="ZbBSetWhlAChkStaLastX" decorated_name="void SetWhlAChkStaLast(void)">
+      <definition type="orig" source="code" file_id="1" line="98" col="6"/>
+    </Function>
+    <Function id="GetWhlAChgFlag" name="ZOGetWhlAChgFlagX" decorated_name="UINT8_T GetWhlAChgFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="104" col="9"/>
+    </Function>
+    <Function id="SetWhlAChgFlag" name="ZOSetWhlAChgFlagX" decorated_name="void SetWhlAChgFlag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="110" col="6"/>
+    </Function>
+    <Function id="GetWhlACaliErrNum" name="ZbBGetWhlACaliErrNumX" decorated_name="UINT8_T GetWhlACaliErrNum(void)">
+      <definition type="orig" source="code" file_id="1" line="116" col="9"/>
+    </Function>
+    <Function id="SetWhlACaliErrNum" name="ZbBSetWhlACaliErrNumX" decorated_name="void SetWhlACaliErrNum(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="122" col="6"/>
+    </Function>
+    <Function id="GetWhlACaliErrEb" name="ZbAGetWhlACaliErrEbX" decorated_name="UINT8_T GetWhlACaliErrEb(void)">
+      <definition type="orig" source="code" file_id="1" line="128" col="9"/>
+    </Function>
+    <Function id="SetWhlACaliErrEb" name="ZbASetWhlACaliErrEbX" decorated_name="void SetWhlACaliErrEb(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="134" col="6"/>
+    </Function>
+    <Function id="GetWhlAPulseDis" name="ZPGetWhlAPulseDisX" decorated_name="UINT16_T GetWhlAPulseDis(void)">
+      <definition type="orig" source="code" file_id="1" line="140" col="10"/>
+    </Function>
+    <Function id="SetWhlAPulseDis" name="ZPSetWhlAPulseDisX" decorated_name="void SetWhlAPulseDis(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="146" col="6"/>
+    </Function>
+    <Function id="GetWhlADefaultWheelVal" name="ZbGGetWhlADefaultWheelValX" decorated_name="UINT16_T GetWhlADefaultWheelVal(void)">
+      <definition type="orig" source="code" file_id="1" line="152" col="10"/>
+    </Function>
+    <Function id="SetWhlADefaultWheelVal" name="ZbGSetWhlADefaultWheelValX" decorated_name="void SetWhlADefaultWheelVal(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="158" col="6"/>
+    </Function>
+    <Function id="GetWhlACurWheelVal" name="ZbCGetWhlACurWheelValX" decorated_name="UINT16_T GetWhlACurWheelVal(void)">
+      <definition type="orig" source="code" file_id="1" line="164" col="10"/>
+    </Function>
+    <Function id="SetWhlACurWheelVal" name="ZbCSetWhlACurWheelValX" decorated_name="void SetWhlACurWheelVal(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="170" col="6"/>
+    </Function>
+    <Function id="GetWhlAWheelVal" name="ZPGetWhlAWheelValX" decorated_name="UINT16_T GetWhlAWheelVal(void)">
+      <definition type="orig" source="code" file_id="1" line="176" col="10"/>
+    </Function>
+    <Function id="AddWhlAWheelVal" name="ZPAddWhlAWheelValX" decorated_name="void AddWhlAWheelVal(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="182" col="6"/>
+    </Function>
+    <Function id="GetWhlAPrePulseCount" name="ZbEGetWhlAPrePulseCountX" decorated_name="UINT32_T GetWhlAPrePulseCount(void)">
+      <definition type="orig" source="code" file_id="1" line="206" col="10"/>
+    </Function>
+    <Function id="SetWhlAPrePulseCount" name="ZbESetWhlAPrePulseCountX" decorated_name="void SetWhlAPrePulseCount(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="212" col="6"/>
+    </Function>
+    <Function id="GetWhlACurPulseCount" name="ZbEGetWhlACurPulseCountX" decorated_name="UINT32_T GetWhlACurPulseCount(void)">
+      <definition type="orig" source="code" file_id="1" line="218" col="10"/>
+    </Function>
+    <Function id="SetWhlACurPulseCount" name="ZbESetWhlACurPulseCountX" decorated_name="void SetWhlACurPulseCount(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="224" col="6"/>
+    </Function>
+    <Function id="GetWhlAPulseCount" name="ZbBGetWhlAPulseCountX" decorated_name="UINT32_T GetWhlAPulseCount(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="230" col="10"/>
+    </Function>
+    <Function id="AddWhlAPulseCount" name="ZbBAddWhlAPulseCountX" decorated_name="void AddWhlAPulseCount(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="245" col="6"/>
+    </Function>
+    <Function id="GetWhlBChkSta" name="ZNGetWhlBChkStaX" decorated_name="WcState_T GetWhlBChkSta(void)">
+      <definition type="orig" source="code" file_id="1" line="269" col="11"/>
+    </Function>
+    <Function id="SetWhlBChkSta" name="ZNSetWhlBChkStaX" decorated_name="void SetWhlBChkSta(const WcState_T)">
+      <definition type="orig" source="code" file_id="1" line="275" col="6"/>
+    </Function>
+    <Function id="GetWhlBChkStaLast" name="ZbBGetWhlBChkStaLastX" decorated_name="WcState_T GetWhlBChkStaLast(void)">
+      <definition type="orig" source="code" file_id="1" line="281" col="11"/>
+    </Function>
+    <Function id="SetWhlBChkStaLast" name="ZbBSetWhlBChkStaLastX" decorated_name="void SetWhlBChkStaLast(void)">
+      <definition type="orig" source="code" file_id="1" line="287" col="6"/>
+    </Function>
+    <Function id="GetWhlBChgFlag" name="ZOGetWhlBChgFlagX" decorated_name="UINT8_T GetWhlBChgFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="293" col="9"/>
+    </Function>
+    <Function id="SetWhlBChgFlag" name="ZOSetWhlBChgFlagX" decorated_name="void SetWhlBChgFlag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="299" col="6"/>
+    </Function>
+    <Function id="GetWhlBCaliErrNum" name="ZbBGetWhlBCaliErrNumX" decorated_name="UINT8_T GetWhlBCaliErrNum(void)">
+      <definition type="orig" source="code" file_id="1" line="305" col="9"/>
+    </Function>
+    <Function id="SetWhlBCaliErrNum" name="ZbBSetWhlBCaliErrNumX" decorated_name="void SetWhlBCaliErrNum(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="311" col="6"/>
+    </Function>
+    <Function id="GetWhlBCaliErrEb" name="ZbAGetWhlBCaliErrEbX" decorated_name="UINT8_T GetWhlBCaliErrEb(void)">
+      <definition type="orig" source="code" file_id="1" line="317" col="9"/>
+    </Function>
+    <Function id="SetWhlBCaliErrEb" name="ZbASetWhlBCaliErrEbX" decorated_name="void SetWhlBCaliErrEb(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="323" col="6"/>
+    </Function>
+    <Function id="GetWhlBPulseDis" name="ZPGetWhlBPulseDisX" decorated_name="UINT16_T GetWhlBPulseDis(void)">
+      <definition type="orig" source="code" file_id="1" line="329" col="10"/>
+    </Function>
+    <Function id="SetWhlBPulseDis" name="ZPSetWhlBPulseDisX" decorated_name="void SetWhlBPulseDis(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="335" col="6"/>
+    </Function>
+    <Function id="GetWhlBDefaultWheelVal" name="ZbGGetWhlBDefaultWheelValX" decorated_name="UINT16_T GetWhlBDefaultWheelVal(void)">
+      <definition type="orig" source="code" file_id="1" line="341" col="10"/>
+    </Function>
+    <Function id="SetWhlBDefaultWheelVal" name="ZbGSetWhlBDefaultWheelValX" decorated_name="void SetWhlBDefaultWheelVal(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="347" col="6"/>
+    </Function>
+    <Function id="GetWhlBCurWheelVal" name="ZbCGetWhlBCurWheelValX" decorated_name="UINT16_T GetWhlBCurWheelVal(void)">
+      <definition type="orig" source="code" file_id="1" line="353" col="10"/>
+    </Function>
+    <Function id="SetWhlBCurWheelVal" name="ZbCSetWhlBCurWheelValX" decorated_name="void SetWhlBCurWheelVal(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="359" col="6"/>
+    </Function>
+    <Function id="GetWhlBWheelVal" name="ZPGetWhlBWheelValX" decorated_name="UINT16_T GetWhlBWheelVal(void)">
+      <definition type="orig" source="code" file_id="1" line="365" col="10"/>
+    </Function>
+    <Function id="AddWhlBWheelVal" name="ZPAddWhlBWheelValX" decorated_name="void AddWhlBWheelVal(const UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="371" col="6"/>
+    </Function>
+    <Function id="GetWhlBPrePulseCount" name="ZbEGetWhlBPrePulseCountX" decorated_name="UINT32_T GetWhlBPrePulseCount(void)">
+      <definition type="orig" source="code" file_id="1" line="395" col="10"/>
+    </Function>
+    <Function id="SetWhlBPrePulseCount" name="ZbESetWhlBPrePulseCountX" decorated_name="void SetWhlBPrePulseCount(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="401" col="6"/>
+    </Function>
+    <Function id="GetWhlBCurPulseCount" name="ZbEGetWhlBCurPulseCountX" decorated_name="UINT32_T GetWhlBCurPulseCount(void)">
+      <definition type="orig" source="code" file_id="1" line="407" col="10"/>
+    </Function>
+    <Function id="SetWhlBCurPulseCount" name="ZbESetWhlBCurPulseCountX" decorated_name="void SetWhlBCurPulseCount(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="413" col="6"/>
+    </Function>
+    <Function id="GetWhlBPulseCount" name="ZbBGetWhlBPulseCountX" decorated_name="UINT32_T GetWhlBPulseCount(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="419" col="10"/>
+    </Function>
+    <Function id="AddWhlBPulseCount" name="ZbBAddWhlBPulseCountX" decorated_name="void AddWhlBPulseCount(const UINT32_T)">
+      <definition type="orig" source="code" file_id="1" line="434" col="6"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+

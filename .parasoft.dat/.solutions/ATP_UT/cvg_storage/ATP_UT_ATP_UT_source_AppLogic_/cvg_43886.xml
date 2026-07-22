@@ -1,0 +1,1491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" type="DC">
+  <VersionInfos>
+    <StorageInfo ownerId="DC" resultId="DecisionCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="DC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;588;JumpPrtFunc" total="59" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1530;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide" total="22" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;84;BackPrtFunc" total="38" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2241;CarWashFunc" total="82" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1014;IsInJumpWindow" total="8" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1292;EscDoorHibFunc" total="12" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;489;TacEbPrtFunc" total="10" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;984;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckJumpProtection" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1228;BrkFailFunc" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;539;EsbPrtFunc" total="6" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2583;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea" total="6" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1246;DerailPrtFunc" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;429;OverSpdFunc" total="10" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1055;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance" total="8" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1651;DoorHibFunc" total="44" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;567;SpksPrtFunc" total="4" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;318;RollPrtFunc" total="24" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1276;IsAnyOneEscDoorStaLose" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1450;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation" total="8" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1185;BoardingIndicatorFunc" total="6" num="0" />
+  </Stats>
+  <ResultInfo cvgType="DC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;539;EsbPrtFunc" show="true">
+      <CvgElem id="EsbPrtFunc:2>4">
+        <Loc locStartln="545" locStartPos="6" locEndLn="545" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="553" locStartPos="7" locEndLn="553" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EsbPrtFunc:1>2">
+        <Loc locStartln="542" locStartPos="5" locEndLn="542" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="545" locStartPos="6" locEndLn="545" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EsbPrtFunc:4>5">
+        <Loc locStartln="553" locStartPos="7" locEndLn="553" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="556" locStartPos="4" locEndLn="556" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EsbPrtFunc:1>8">
+        <Loc locStartln="542" locStartPos="5" locEndLn="542" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="563" locStartPos="2" locEndLn="563" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EsbPrtFunc:2>3">
+        <Loc locStartln="545" locStartPos="6" locEndLn="545" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="548" locStartPos="3" locEndLn="548" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EsbPrtFunc:4>6">
+        <Loc locStartln="553" locStartPos="7" locEndLn="553" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="558" locStartPos="2" locEndLn="558" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1450;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation:3>4">
+        <Loc locStartln="1478" locStartPos="6" locEndLn="1478" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1481" locStartPos="7" locEndLn="1481" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation:7>9">
+        <Loc locStartln="1496" locStartPos="7" locEndLn="1496" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1504" locStartPos="4" locEndLn="1505" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation:4>5">
+        <Loc locStartln="1481" locStartPos="7" locEndLn="1481" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1484" locStartPos="4" locEndLn="1484" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation:3>11">
+        <Loc locStartln="1478" locStartPos="6" locEndLn="1478" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1512" locStartPos="3" locEndLn="1512" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation:4>6">
+        <Loc locStartln="1481" locStartPos="7" locEndLn="1481" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1489" locStartPos="4" locEndLn="1489" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation:1>3">
+        <Loc locStartln="1466" locStartPos="5" locEndLn="1468" locEndPos="115" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1478" locStartPos="6" locEndLn="1478" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation:1>2">
+        <Loc locStartln="1466" locStartPos="5" locEndLn="1468" locEndPos="115" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1471" locStartPos="2" locEndLn="1473" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainOutStation:7>8">
+        <Loc locStartln="1496" locStartPos="7" locEndLn="1496" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1498" locStartPos="4" locEndLn="1498" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1014;IsInJumpWindow" show="true">
+      <CvgElem id="IsInJumpWindow:2>8">
+        <Loc locStartln="1034" locStartPos="6" locEndLn="1034" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1048" locStartPos="1" locEndLn="1048" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="IsInJumpWindow:2>3">
+        <Loc locStartln="1034" locStartPos="6" locEndLn="1034" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1037" locStartPos="3" locEndLn="1038" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="IsInJumpWindow:3>7">
+        <Loc locStartln="1038" locStartPos="7" locEndLn="1038" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1047" locStartPos="2" locEndLn="1047" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="IsInJumpWindow:3>4">
+        <Loc locStartln="1038" locStartPos="7" locEndLn="1038" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1041" locStartPos="8" locEndLn="1041" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="IsInJumpWindow:4>6">
+        <Loc locStartln="1041" locStartPos="8" locEndLn="1041" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1046" locStartPos="3" locEndLn="1046" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="IsInJumpWindow:1>2">
+        <Loc locStartln="1028" locStartPos="5" locEndLn="1028" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1031" locStartPos="2" locEndLn="1034" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="IsInJumpWindow:4>5">
+        <Loc locStartln="1041" locStartPos="8" locEndLn="1041" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1044" locStartPos="5" locEndLn="1044" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="IsInJumpWindow:1>9">
+        <Loc locStartln="1028" locStartPos="5" locEndLn="1028" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1050" locStartPos="1" locEndLn="1050" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1185;BoardingIndicatorFunc" show="true">
+      <CvgElem id="BoardingIndicatorFunc:2>3">
+        <Loc locStartln="1191" locStartPos="6" locEndLn="1191" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1194" locStartPos="3" locEndLn="1198" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BoardingIndicatorFunc:1>2">
+        <Loc locStartln="1188" locStartPos="5" locEndLn="1188" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1191" locStartPos="6" locEndLn="1191" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BoardingIndicatorFunc:2>6">
+        <Loc locStartln="1191" locStartPos="6" locEndLn="1191" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1208" locStartPos="3" locEndLn="1209" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BoardingIndicatorFunc:1>8">
+        <Loc locStartln="1188" locStartPos="5" locEndLn="1188" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1215" locStartPos="2" locEndLn="1216" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BoardingIndicatorFunc:3>5">
+        <Loc locStartln="1197" locStartPos="7" locEndLn="1198" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1204" locStartPos="2" locEndLn="1204" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BoardingIndicatorFunc:3>4">
+        <Loc locStartln="1197" locStartPos="7" locEndLn="1198" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1201" locStartPos="4" locEndLn="1202" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1055;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance:3>4">
+        <Loc locStartln="1080" locStartPos="7" locEndLn="1080" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1083" locStartPos="8" locEndLn="1083" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance:4>6">
+        <Loc locStartln="1083" locStartPos="8" locEndLn="1083" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1092" locStartPos="5" locEndLn="1092" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance:1>12">
+        <Loc locStartln="1068" locStartPos="5" locEndLn="1068" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1107" locStartPos="1" locEndLn="1109" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance:4>5">
+        <Loc locStartln="1083" locStartPos="8" locEndLn="1083" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1086" locStartPos="5" locEndLn="1087" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance:2>10">
+        <Loc locStartln="1076" locStartPos="6" locEndLn="1076" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1101" locStartPos="2" locEndLn="1103" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance:3>8">
+        <Loc locStartln="1080" locStartPos="7" locEndLn="1080" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1096" locStartPos="3" locEndLn="1098" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance:1>2">
+        <Loc locStartln="1068" locStartPos="5" locEndLn="1068" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1073" locStartPos="2" locEndLn="1076" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckStopPointDistance:2>3">
+        <Loc locStartln="1076" locStartPos="6" locEndLn="1076" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1079" locStartPos="3" locEndLn="1080" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1276;IsAnyOneEscDoorStaLose" show="true">
+      <CvgElem id="IsAnyOneEscDoorStaLose:1>2">
+        <Loc locStartln="1282" locStartPos="5" locEndLn="1282" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1285" locStartPos="2" locEndLn="1285" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="IsAnyOneEscDoorStaLose:1>3">
+        <Loc locStartln="1282" locStartPos="5" locEndLn="1282" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1288" locStartPos="1" locEndLn="1288" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;429;OverSpdFunc" show="true">
+      <CvgElem id="OverSpdFunc:6>7">
+        <Loc locStartln="460" locStartPos="7" locEndLn="460" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="463" locStartPos="4" locEndLn="463" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:6>8">
+        <Loc locStartln="460" locStartPos="7" locEndLn="460" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="468" locStartPos="4" locEndLn="468" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:10>11">
+        <Loc locStartln="474" locStartPos="7" locEndLn="474" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="477" locStartPos="4" locEndLn="477" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:10>12">
+        <Loc locStartln="474" locStartPos="7" locEndLn="474" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="482" locStartPos="4" locEndLn="482" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:5>6">
+        <Loc locStartln="457" locStartPos="6" locEndLn="457" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="460" locStartPos="7" locEndLn="460" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:5>10">
+        <Loc locStartln="457" locStartPos="6" locEndLn="457" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="474" locStartPos="7" locEndLn="474" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:4>5">
+        <Loc locStartln="454" locStartPos="5" locEndLn="454" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="457" locStartPos="6" locEndLn="457" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:1>3">
+        <Loc locStartln="443" locStartPos="5" locEndLn="443" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="450" locStartPos="2" locEndLn="450" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:1>2">
+        <Loc locStartln="443" locStartPos="5" locEndLn="443" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="446" locStartPos="2" locEndLn="446" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="OverSpdFunc:4>15">
+        <Loc locStartln="454" locStartPos="5" locEndLn="454" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="486" locStartPos="0" locEndLn="486" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;84;BackPrtFunc" show="true">
+      <CvgElem id="BackPrtFunc:1>2">
+        <Loc locStartln="105" locStartPos="5" locEndLn="108" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="111" locStartPos="8" locEndLn="111" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:33>44">
+        <Loc locStartln="236" locStartPos="11" locEndLn="236" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="269" locStartPos="2" locEndLn="271" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:1>3">
+        <Loc locStartln="105" locStartPos="5" locEndLn="108" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="116" locStartPos="8" locEndLn="116" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:47>55">
+        <Loc locStartln="275" locStartPos="5" locEndLn="275" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="301" locStartPos="4" locEndLn="301" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:27>31">
+        <Loc locStartln="212" locStartPos="7" locEndLn="212" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="230" locStartPos="16" locEndLn="231" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:12>23">
+        <Loc locStartln="161" locStartPos="11" locEndLn="161" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="196" locStartPos="2" locEndLn="198" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:4>5">
+        <Loc locStartln="121" locStartPos="5" locEndLn="121" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="124" locStartPos="6" locEndLn="127" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:28>30">
+        <Loc locStartln="217" locStartPos="8" locEndLn="217" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="224" locStartPos="4" locEndLn="225" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:14>16">
+        <Loc locStartln="171" locStartPos="8" locEndLn="171" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="176" locStartPos="13" locEndLn="176" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:14>15">
+        <Loc locStartln="171" locStartPos="8" locEndLn="171" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="174" locStartPos="20" locEndLn="174" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:38>39">
+        <Loc locStartln="256" locStartPos="13" locEndLn="256" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="259" locStartPos="20" locEndLn="259" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:5>6">
+        <Loc locStartln="124" locStartPos="6" locEndLn="127" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="130" locStartPos="7" locEndLn="130" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:26>33">
+        <Loc locStartln="206" locStartPos="6" locEndLn="209" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="236" locStartPos="11" locEndLn="236" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:48>50">
+        <Loc locStartln="280" locStartPos="6" locEndLn="280" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="288" locStartPos="7" locEndLn="288" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:6>7">
+        <Loc locStartln="130" locStartPos="7" locEndLn="130" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="133" locStartPos="16" locEndLn="136" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:13>14">
+        <Loc locStartln="167" locStartPos="7" locEndLn="167" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="170" locStartPos="16" locEndLn="171" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:50>51">
+        <Loc locStartln="288" locStartPos="7" locEndLn="288" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="291" locStartPos="16" locEndLn="291" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:50>52">
+        <Loc locStartln="288" locStartPos="7" locEndLn="288" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="296" locStartPos="4" locEndLn="296" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:47>48">
+        <Loc locStartln="275" locStartPos="5" locEndLn="275" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="278" locStartPos="2" locEndLn="280" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:12>13">
+        <Loc locStartln="161" locStartPos="11" locEndLn="161" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="164" locStartPos="3" locEndLn="167" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:34>35">
+        <Loc locStartln="239" locStartPos="7" locEndLn="239" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="242" locStartPos="16" locEndLn="243" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:34>36">
+        <Loc locStartln="239" locStartPos="7" locEndLn="239" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="248" locStartPos="4" locEndLn="251" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:7>9">
+        <Loc locStartln="136" locStartPos="8" locEndLn="136" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="143" locStartPos="4" locEndLn="149" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:7>8">
+        <Loc locStartln="136" locStartPos="8" locEndLn="136" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="139" locStartPos="5" locEndLn="139" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:33>34">
+        <Loc locStartln="236" locStartPos="11" locEndLn="236" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="239" locStartPos="7" locEndLn="239" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:16>17">
+        <Loc locStartln="176" locStartPos="13" locEndLn="176" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="179" locStartPos="20" locEndLn="179" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:36>37">
+        <Loc locStartln="251" locStartPos="8" locEndLn="251" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="254" locStartPos="20" locEndLn="254" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:16>18">
+        <Loc locStartln="176" locStartPos="13" locEndLn="176" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="184" locStartPos="20" locEndLn="184" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:36>38">
+        <Loc locStartln="251" locStartPos="8" locEndLn="251" locEndPos="113" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="256" locStartPos="13" locEndLn="256" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:48>49">
+        <Loc locStartln="280" locStartPos="6" locEndLn="280" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="283" locStartPos="12" locEndLn="283" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:26>27">
+        <Loc locStartln="206" locStartPos="6" locEndLn="209" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="212" locStartPos="7" locEndLn="212" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:38>40">
+        <Loc locStartln="256" locStartPos="13" locEndLn="256" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="264" locStartPos="20" locEndLn="264" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:27>28">
+        <Loc locStartln="212" locStartPos="7" locEndLn="212" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="215" locStartPos="16" locEndLn="217" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:6>10">
+        <Loc locStartln="130" locStartPos="7" locEndLn="130" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="155" locStartPos="16" locEndLn="156" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:4>26">
+        <Loc locStartln="121" locStartPos="5" locEndLn="121" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="206" locStartPos="6" locEndLn="209" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:5>12">
+        <Loc locStartln="124" locStartPos="6" locEndLn="127" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="161" locStartPos="11" locEndLn="161" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:28>29">
+        <Loc locStartln="217" locStartPos="8" locEndLn="217" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="220" locStartPos="5" locEndLn="220" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BackPrtFunc:13>21">
+        <Loc locStartln="167" locStartPos="7" locEndLn="167" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="190" locStartPos="16" locEndLn="191" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;567;SpksPrtFunc" show="true">
+      <CvgElem id="SpksPrtFunc:3>4">
+        <Loc locStartln="579" locStartPos="6" locEndLn="579" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="582" locStartPos="3" locEndLn="582" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="SpksPrtFunc:3>5">
+        <Loc locStartln="579" locStartPos="6" locEndLn="579" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="584" locStartPos="1" locEndLn="584" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="SpksPrtFunc:1>2">
+        <Loc locStartln="570" locStartPos="5" locEndLn="570" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="573" locStartPos="2" locEndLn="573" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="SpksPrtFunc:1>3">
+        <Loc locStartln="570" locStartPos="5" locEndLn="570" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="579" locStartPos="6" locEndLn="579" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;984;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckJumpProtection" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckJumpProtection:1>2">
+        <Loc locStartln="990" locStartPos="5" locEndLn="999" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1002" locStartPos="2" locEndLn="1002" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckJumpProtection:1>3">
+        <Loc locStartln="990" locStartPos="5" locEndLn="999" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1007" locStartPos="2" locEndLn="1007" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2241;CarWashFunc" show="true">
+      <CvgElem id="CarWashFunc:71>73">
+        <Loc locStartln="2464" locStartPos="7" locEndLn="2464" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2470" locStartPos="8" locEndLn="2470" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:71>72">
+        <Loc locStartln="2464" locStartPos="7" locEndLn="2464" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2466" locStartPos="4" locEndLn="2466" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:67>69">
+        <Loc locStartln="2454" locStartPos="12" locEndLn="2454" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2460" locStartPos="4" locEndLn="2460" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:64>83">
+        <Loc locStartln="2447" locStartPos="6" locEndLn="2447" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2497" locStartPos="6" locEndLn="2497" locEndPos="128" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:67>68">
+        <Loc locStartln="2454" locStartPos="12" locEndLn="2454" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2455" locStartPos="3" locEndLn="2457" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:90>92">
+        <Loc locStartln="2524" locStartPos="7" locEndLn="2524" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2528" locStartPos="2" locEndLn="2528" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:90>91">
+        <Loc locStartln="2524" locStartPos="7" locEndLn="2524" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2526" locStartPos="4" locEndLn="2526" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:83>93">
+        <Loc locStartln="2497" locStartPos="6" locEndLn="2497" locEndPos="128" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2532" locStartPos="6" locEndLn="2532" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:104>105">
+        <Loc locStartln="2563" locStartPos="5" locEndLn="2563" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2565" locStartPos="2" locEndLn="2571" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:104>106">
+        <Loc locStartln="2563" locStartPos="5" locEndLn="2563" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2573" locStartPos="0" locEndLn="2573" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:13>14">
+        <Loc locStartln="2290" locStartPos="7" locEndLn="2290" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2293" locStartPos="8" locEndLn="2293" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:56>64">
+        <Loc locStartln="2430" locStartPos="6" locEndLn="2430" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2447" locStartPos="6" locEndLn="2447" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:36>37">
+        <Loc locStartln="2375" locStartPos="10" locEndLn="2375" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2377" locStartPos="7" locEndLn="2381" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:36>38">
+        <Loc locStartln="2375" locStartPos="10" locEndLn="2375" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2385" locStartPos="7" locEndLn="2386" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:23>31">
+        <Loc locStartln="2320" locStartPos="7" locEndLn="2320" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2357" locStartPos="3" locEndLn="2357" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:88>89">
+        <Loc locStartln="2512" locStartPos="7" locEndLn="2512" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2514" locStartPos="4" locEndLn="2514" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:33>34">
+        <Loc locStartln="2360" locStartPos="7" locEndLn="2360" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2365" locStartPos="9" locEndLn="2365" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:95>96">
+        <Loc locStartln="2539" locStartPos="6" locEndLn="2540" locEndPos="103" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2542" locStartPos="3" locEndLn="2542" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:95>97">
+        <Loc locStartln="2539" locStartPos="6" locEndLn="2540" locEndPos="103" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2545" locStartPos="1" locEndLn="2545" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:11>23">
+        <Loc locStartln="2286" locStartPos="10" locEndLn="2286" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2320" locStartPos="7" locEndLn="2320" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:78>80">
+        <Loc locStartln="2484" locStartPos="7" locEndLn="2484" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2488" locStartPos="3" locEndLn="2491" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:76>78">
+        <Loc locStartln="2478" locStartPos="7" locEndLn="2478" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2484" locStartPos="7" locEndLn="2484" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:76>77">
+        <Loc locStartln="2478" locStartPos="7" locEndLn="2478" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2480" locStartPos="4" locEndLn="2480" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:49>51">
+        <Loc locStartln="2416" locStartPos="7" locEndLn="2416" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2420" locStartPos="12" locEndLn="2420" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:49>50">
+        <Loc locStartln="2416" locStartPos="7" locEndLn="2416" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2418" locStartPos="4" locEndLn="2418" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:34>35">
+        <Loc locStartln="2365" locStartPos="9" locEndLn="2365" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2367" locStartPos="6" locEndLn="2369" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:34>36">
+        <Loc locStartln="2365" locStartPos="9" locEndLn="2365" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2375" locStartPos="10" locEndLn="2375" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:93>95">
+        <Loc locStartln="2532" locStartPos="6" locEndLn="2532" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2539" locStartPos="6" locEndLn="2540" locEndPos="103" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:98>100">
+        <Loc locStartln="2547" locStartPos="5" locEndLn="2547" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2552" locStartPos="5" locEndLn="2552" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:93>94">
+        <Loc locStartln="2532" locStartPos="6" locEndLn="2532" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2534" locStartPos="3" locEndLn="2534" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:88>90">
+        <Loc locStartln="2512" locStartPos="7" locEndLn="2512" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2524" locStartPos="7" locEndLn="2524" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:13>21">
+        <Loc locStartln="2290" locStartPos="7" locEndLn="2290" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2317" locStartPos="3" locEndLn="2317" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:26>28">
+        <Loc locStartln="2334" locStartPos="10" locEndLn="2334" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2344" locStartPos="7" locEndLn="2345" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:26>27">
+        <Loc locStartln="2334" locStartPos="10" locEndLn="2334" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2336" locStartPos="7" locEndLn="2340" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:59>61">
+        <Loc locStartln="2436" locStartPos="12" locEndLn="2436" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2442" locStartPos="4" locEndLn="2442" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:11>13">
+        <Loc locStartln="2286" locStartPos="10" locEndLn="2286" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2290" locStartPos="7" locEndLn="2290" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:5>7">
+        <Loc locStartln="2262" locStartPos="10" locEndLn="2262" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2267" locStartPos="1" locEndLn="2269" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:84>85">
+        <Loc locStartln="2500" locStartPos="7" locEndLn="2500" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2502" locStartPos="4" locEndLn="2502" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:84>86">
+        <Loc locStartln="2500" locStartPos="7" locEndLn="2500" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2506" locStartPos="7" locEndLn="2506" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:33>41">
+        <Loc locStartln="2360" locStartPos="7" locEndLn="2360" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2399" locStartPos="3" locEndLn="2399" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:59>60">
+        <Loc locStartln="2436" locStartPos="12" locEndLn="2436" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2437" locStartPos="3" locEndLn="2439" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:5>6">
+        <Loc locStartln="2262" locStartPos="10" locEndLn="2262" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2264" locStartPos="2" locEndLn="2264" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:64>65">
+        <Loc locStartln="2447" locStartPos="6" locEndLn="2447" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2450" locStartPos="7" locEndLn="2450" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:46>48">
+        <Loc locStartln="2407" locStartPos="6" locEndLn="2408" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2414" locStartPos="6" locEndLn="2414" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:16>18">
+        <Loc locStartln="2302" locStartPos="9" locEndLn="2302" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2312" locStartPos="6" locEndLn="2313" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:16>17">
+        <Loc locStartln="2302" locStartPos="9" locEndLn="2302" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2304" locStartPos="6" locEndLn="2308" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:46>47">
+        <Loc locStartln="2407" locStartPos="6" locEndLn="2408" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2411" locStartPos="3" locEndLn="2411" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:1>2">
+        <Loc locStartln="2254" locStartPos="5" locEndLn="2254" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2256" locStartPos="2" locEndLn="2256" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:1>3">
+        <Loc locStartln="2254" locStartPos="5" locEndLn="2254" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2258" locStartPos="10" locEndLn="2258" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:51>52">
+        <Loc locStartln="2420" locStartPos="12" locEndLn="2420" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2421" locStartPos="3" locEndLn="2423" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:51>53">
+        <Loc locStartln="2420" locStartPos="12" locEndLn="2420" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2426" locStartPos="4" locEndLn="2426" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:14>15">
+        <Loc locStartln="2293" locStartPos="8" locEndLn="2293" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2295" locStartPos="5" locEndLn="2297" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:48>49">
+        <Loc locStartln="2414" locStartPos="6" locEndLn="2414" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2416" locStartPos="7" locEndLn="2416" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:14>16">
+        <Loc locStartln="2293" locStartPos="8" locEndLn="2293" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2302" locStartPos="9" locEndLn="2302" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:24>25">
+        <Loc locStartln="2325" locStartPos="9" locEndLn="2325" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2327" locStartPos="6" locEndLn="2329" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:65>67">
+        <Loc locStartln="2450" locStartPos="7" locEndLn="2450" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2454" locStartPos="12" locEndLn="2454" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:11>43">
+        <Loc locStartln="2286" locStartPos="10" locEndLn="2286" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2401" locStartPos="3" locEndLn="2401" locEndPos="9" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:65>66">
+        <Loc locStartln="2450" locStartPos="7" locEndLn="2450" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2452" locStartPos="4" locEndLn="2452" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:24>26">
+        <Loc locStartln="2325" locStartPos="9" locEndLn="2325" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2334" locStartPos="10" locEndLn="2334" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:3>5">
+        <Loc locStartln="2258" locStartPos="10" locEndLn="2258" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2262" locStartPos="10" locEndLn="2262" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:3>4">
+        <Loc locStartln="2258" locStartPos="10" locEndLn="2258" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2260" locStartPos="2" locEndLn="2260" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:10>98">
+        <Loc locStartln="2284" locStartPos="5" locEndLn="2284" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2547" locStartPos="5" locEndLn="2547" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:80>81">
+        <Loc locStartln="2491" locStartPos="7" locEndLn="2491" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2493" locStartPos="4" locEndLn="2493" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:80>82">
+        <Loc locStartln="2491" locStartPos="7" locEndLn="2491" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2495" locStartPos="2" locEndLn="2495" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:83>84">
+        <Loc locStartln="2497" locStartPos="6" locEndLn="2497" locEndPos="128" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2500" locStartPos="7" locEndLn="2500" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:100>101">
+        <Loc locStartln="2552" locStartPos="5" locEndLn="2552" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2554" locStartPos="2" locEndLn="2554" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:100>102">
+        <Loc locStartln="2552" locStartPos="5" locEndLn="2552" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2557" locStartPos="5" locEndLn="2557" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:86>88">
+        <Loc locStartln="2506" locStartPos="7" locEndLn="2506" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2512" locStartPos="7" locEndLn="2512" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:86>87">
+        <Loc locStartln="2506" locStartPos="7" locEndLn="2506" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2508" locStartPos="4" locEndLn="2508" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:73>74">
+        <Loc locStartln="2470" locStartPos="8" locEndLn="2470" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2472" locStartPos="5" locEndLn="2472" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:73>75">
+        <Loc locStartln="2470" locStartPos="8" locEndLn="2470" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2474" locStartPos="3" locEndLn="2474" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:102>104">
+        <Loc locStartln="2557" locStartPos="5" locEndLn="2557" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2563" locStartPos="5" locEndLn="2563" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:56>57">
+        <Loc locStartln="2430" locStartPos="6" locEndLn="2430" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2432" locStartPos="7" locEndLn="2432" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:102>103">
+        <Loc locStartln="2557" locStartPos="5" locEndLn="2557" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2559" locStartPos="2" locEndLn="2560" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:10>11">
+        <Loc locStartln="2284" locStartPos="5" locEndLn="2284" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2286" locStartPos="10" locEndLn="2286" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:23>24">
+        <Loc locStartln="2320" locStartPos="7" locEndLn="2320" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2325" locStartPos="9" locEndLn="2325" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:48>56">
+        <Loc locStartln="2414" locStartPos="6" locEndLn="2414" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2430" locStartPos="6" locEndLn="2430" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:11>33">
+        <Loc locStartln="2286" locStartPos="10" locEndLn="2286" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2360" locStartPos="7" locEndLn="2360" locEndPos="116" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:78>79">
+        <Loc locStartln="2484" locStartPos="7" locEndLn="2484" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2486" locStartPos="4" locEndLn="2486" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:57>59">
+        <Loc locStartln="2432" locStartPos="7" locEndLn="2432" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2436" locStartPos="12" locEndLn="2436" locEndPos="100" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:98>99">
+        <Loc locStartln="2547" locStartPos="5" locEndLn="2547" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2549" locStartPos="2" locEndLn="2549" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="CarWashFunc:57>58">
+        <Loc locStartln="2432" locStartPos="7" locEndLn="2432" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2434" locStartPos="4" locEndLn="2434" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;588;JumpPrtFunc" show="true">
+      <CvgElem id="JumpPrtFunc:55>57">
+        <Loc locStartln="830" locStartPos="8" locEndLn="830" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="840" locStartPos="3" locEndLn="840" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:55>56">
+        <Loc locStartln="830" locStartPos="8" locEndLn="830" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="833" locStartPos="20" locEndLn="837" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:54>58">
+        <Loc locStartln="827" locStartPos="7" locEndLn="827" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="843" locStartPos="7" locEndLn="843" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:58>59">
+        <Loc locStartln="843" locStartPos="7" locEndLn="843" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="846" locStartPos="4" locEndLn="849" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:5>6">
+        <Loc locStartln="639" locStartPos="8" locEndLn="639" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="641" locStartPos="5" locEndLn="641" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:5>7">
+        <Loc locStartln="639" locStartPos="8" locEndLn="639" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="643" locStartPos="3" locEndLn="643" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:10>33">
+        <Loc locStartln="648" locStartPos="11" locEndLn="648" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="740" locStartPos="5" locEndLn="745" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:54>55">
+        <Loc locStartln="827" locStartPos="7" locEndLn="827" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="830" locStartPos="8" locEndLn="830" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:52>54">
+        <Loc locStartln="817" locStartPos="7" locEndLn="817" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="825" locStartPos="3" locEndLn="827" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:52>53">
+        <Loc locStartln="817" locStartPos="7" locEndLn="817" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="820" locStartPos="4" locEndLn="821" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:12>13">
+        <Loc locStartln="654" locStartPos="9" locEndLn="657" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="660" locStartPos="6" locEndLn="662" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:19>20">
+        <Loc locStartln="681" locStartPos="9" locEndLn="681" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="683" locStartPos="6" locEndLn="685" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:24>29">
+        <Loc locStartln="706" locStartPos="14" locEndLn="706" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="731" locStartPos="5" locEndLn="734" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:19>24">
+        <Loc locStartln="681" locStartPos="9" locEndLn="681" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="706" locStartPos="14" locEndLn="706" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:58>62">
+        <Loc locStartln="843" locStartPos="7" locEndLn="843" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="857" locStartPos="7" locEndLn="857" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:9>65">
+        <Loc locStartln="646" locStartPos="6" locEndLn="646" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="870" locStartPos="6" locEndLn="871" locEndPos="120" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:1>2">
+        <Loc locStartln="625" locStartPos="5" locEndLn="625" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="628" locStartPos="6" locEndLn="628" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:10>47">
+        <Loc locStartln="648" locStartPos="11" locEndLn="648" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="804" locStartPos="5" locEndLn="804" locEndPos="11" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:1>76">
+        <Loc locStartln="625" locStartPos="5" locEndLn="625" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="923" locStartPos="2" locEndLn="937" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:50>52">
+        <Loc locStartln="808" locStartPos="7" locEndLn="809" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="817" locStartPos="7" locEndLn="817" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:62>63">
+        <Loc locStartln="857" locStartPos="7" locEndLn="857" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="860" locStartPos="4" locEndLn="860" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:62>64">
+        <Loc locStartln="857" locStartPos="7" locEndLn="857" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="867" locStartPos="2" locEndLn="867" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:50>51">
+        <Loc locStartln="808" locStartPos="7" locEndLn="809" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="812" locStartPos="4" locEndLn="813" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:10>40">
+        <Loc locStartln="648" locStartPos="11" locEndLn="648" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="775" locStartPos="5" locEndLn="778" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:3>4">
+        <Loc locStartln="631" locStartPos="7" locEndLn="631" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="634" locStartPos="4" locEndLn="635" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:2>9">
+        <Loc locStartln="628" locStartPos="6" locEndLn="628" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="646" locStartPos="6" locEndLn="646" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:24>25">
+        <Loc locStartln="706" locStartPos="14" locEndLn="706" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="708" locStartPos="6" locEndLn="710" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:2>3">
+        <Loc locStartln="628" locStartPos="6" locEndLn="628" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="631" locStartPos="7" locEndLn="631" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:3>5">
+        <Loc locStartln="631" locStartPos="7" locEndLn="631" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="639" locStartPos="8" locEndLn="639" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:12>16">
+        <Loc locStartln="654" locStartPos="9" locEndLn="657" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="672" locStartPos="6" locEndLn="673" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:77>78">
+        <Loc locStartln="940" locStartPos="5" locEndLn="942" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="945" locStartPos="2" locEndLn="959" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:77>79">
+        <Loc locStartln="940" locStartPos="5" locEndLn="942" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="962" locStartPos="1" locEndLn="963" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:68>70">
+        <Loc locStartln="899" locStartPos="7" locEndLn="899" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="906" locStartPos="12" locEndLn="906" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:66>68">
+        <Loc locStartln="883" locStartPos="7" locEndLn="883" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="899" locStartPos="7" locEndLn="899" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:66>67">
+        <Loc locStartln="883" locStartPos="7" locEndLn="883" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="886" locStartPos="4" locEndLn="894" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:10>12">
+        <Loc locStartln="648" locStartPos="11" locEndLn="648" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="654" locStartPos="9" locEndLn="657" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:9>10">
+        <Loc locStartln="646" locStartPos="6" locEndLn="646" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="648" locStartPos="11" locEndLn="648" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:59>60">
+        <Loc locStartln="849" locStartPos="8" locEndLn="849" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="852" locStartPos="5" locEndLn="852" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:59>61">
+        <Loc locStartln="849" locStartPos="8" locEndLn="849" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="854" locStartPos="3" locEndLn="854" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:10>19">
+        <Loc locStartln="648" locStartPos="11" locEndLn="648" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="681" locStartPos="9" locEndLn="681" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:65>75">
+        <Loc locStartln="870" locStartPos="6" locEndLn="871" locEndPos="120" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="919" locStartPos="1" locEndLn="919" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:68>69">
+        <Loc locStartln="899" locStartPos="7" locEndLn="899" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="902" locStartPos="4" locEndLn="903" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:20>22">
+        <Loc locStartln="685" locStartPos="10" locEndLn="685" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="695" locStartPos="7" locEndLn="697" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:33>34">
+        <Loc locStartln="745" locStartPos="9" locEndLn="745" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="748" locStartPos="6" locEndLn="748" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:33>35">
+        <Loc locStartln="745" locStartPos="9" locEndLn="745" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="753" locStartPos="9" locEndLn="753" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:20>21">
+        <Loc locStartln="685" locStartPos="10" locEndLn="685" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="688" locStartPos="7" locEndLn="690" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:40>41">
+        <Loc locStartln="778" locStartPos="9" locEndLn="778" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="781" locStartPos="6" locEndLn="781" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:40>42">
+        <Loc locStartln="778" locStartPos="9" locEndLn="778" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="785" locStartPos="9" locEndLn="785" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:35>36">
+        <Loc locStartln="753" locStartPos="9" locEndLn="753" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="757" locStartPos="6" locEndLn="762" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:35>37">
+        <Loc locStartln="753" locStartPos="9" locEndLn="753" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="766" locStartPos="6" locEndLn="766" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:13>14">
+        <Loc locStartln="662" locStartPos="10" locEndLn="662" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="664" locStartPos="7" locEndLn="666" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:13>15">
+        <Loc locStartln="662" locStartPos="10" locEndLn="662" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="668" locStartPos="5" locEndLn="668" locEndPos="6" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:25>27">
+        <Loc locStartln="710" locStartPos="10" locEndLn="710" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="720" locStartPos="7" locEndLn="722" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:65>66">
+        <Loc locStartln="870" locStartPos="6" locEndLn="871" locEndPos="120" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="876" locStartPos="3" locEndLn="883" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:25>26">
+        <Loc locStartln="710" locStartPos="10" locEndLn="710" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="713" locStartPos="7" locEndLn="715" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:70>71">
+        <Loc locStartln="906" locStartPos="12" locEndLn="906" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="909" locStartPos="4" locEndLn="910" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:70>72">
+        <Loc locStartln="906" locStartPos="12" locEndLn="906" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="915" locStartPos="4" locEndLn="916" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:42>43">
+        <Loc locStartln="785" locStartPos="9" locEndLn="785" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="789" locStartPos="6" locEndLn="794" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="JumpPrtFunc:42>44">
+        <Loc locStartln="785" locStartPos="9" locEndLn="785" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="799" locStartPos="6" locEndLn="799" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1530;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:4>5">
+        <Loc locStartln="1560" locStartPos="8" locEndLn="1560" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1562" locStartPos="5" locEndLn="1562" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:15>19">
+        <Loc locStartln="1582" locStartPos="7" locEndLn="1582" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1590" locStartPos="12" locEndLn="1590" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:4>6">
+        <Loc locStartln="1560" locStartPos="8" locEndLn="1560" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1564" locStartPos="3" locEndLn="1564" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:19>23">
+        <Loc locStartln="1590" locStartPos="12" locEndLn="1590" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1600" locStartPos="4" locEndLn="1600" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:15>16">
+        <Loc locStartln="1582" locStartPos="7" locEndLn="1582" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1585" locStartPos="8" locEndLn="1585" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:16>17">
+        <Loc locStartln="1585" locStartPos="8" locEndLn="1585" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1587" locStartPos="5" locEndLn="1587" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:3>4">
+        <Loc locStartln="1557" locStartPos="7" locEndLn="1557" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1560" locStartPos="8" locEndLn="1560" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:16>18">
+        <Loc locStartln="1585" locStartPos="8" locEndLn="1585" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1589" locStartPos="3" locEndLn="1589" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:20>22">
+        <Loc locStartln="1593" locStartPos="8" locEndLn="1593" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1597" locStartPos="3" locEndLn="1597" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:1>2">
+        <Loc locStartln="1551" locStartPos="5" locEndLn="1551" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1554" locStartPos="6" locEndLn="1554" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:8>10">
+        <Loc locStartln="1568" locStartPos="8" locEndLn="1568" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1572" locStartPos="3" locEndLn="1572" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:7>8">
+        <Loc locStartln="1565" locStartPos="12" locEndLn="1565" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1568" locStartPos="8" locEndLn="1568" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:2>14">
+        <Loc locStartln="1554" locStartPos="6" locEndLn="1554" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1579" locStartPos="11" locEndLn="1579" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:20>21">
+        <Loc locStartln="1593" locStartPos="8" locEndLn="1593" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1595" locStartPos="5" locEndLn="1595" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:3>7">
+        <Loc locStartln="1557" locStartPos="7" locEndLn="1557" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1565" locStartPos="12" locEndLn="1565" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:7>11">
+        <Loc locStartln="1565" locStartPos="12" locEndLn="1565" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1575" locStartPos="4" locEndLn="1575" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:14>26">
+        <Loc locStartln="1579" locStartPos="11" locEndLn="1579" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1606" locStartPos="3" locEndLn="1606" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:8>9">
+        <Loc locStartln="1568" locStartPos="8" locEndLn="1568" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1570" locStartPos="5" locEndLn="1570" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:19>20">
+        <Loc locStartln="1590" locStartPos="12" locEndLn="1590" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1593" locStartPos="8" locEndLn="1593" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:2>3">
+        <Loc locStartln="1554" locStartPos="6" locEndLn="1554" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1557" locStartPos="7" locEndLn="1557" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:14>15">
+        <Loc locStartln="1579" locStartPos="11" locEndLn="1579" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1582" locStartPos="7" locEndLn="1582" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|JudgeTrainDoorEscSide:1>29">
+        <Loc locStartln="1551" locStartPos="5" locEndLn="1551" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1612" locStartPos="2" locEndLn="1612" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;318;RollPrtFunc" show="true">
+      <CvgElem id="RollPrtFunc:23>29">
+        <Loc locStartln="389" locStartPos="5" locEndLn="389" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="413" locStartPos="1" locEndLn="415" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:1>2">
+        <Loc locStartln="335" locStartPos="5" locEndLn="335" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="338" locStartPos="6" locEndLn="339" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:2>3">
+        <Loc locStartln="338" locStartPos="6" locEndLn="339" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="342" locStartPos="7" locEndLn="342" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:30>31">
+        <Loc locStartln="418" locStartPos="5" locEndLn="418" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="423" locStartPos="2" locEndLn="423" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:30>32">
+        <Loc locStartln="418" locStartPos="5" locEndLn="418" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="426" locStartPos="0" locEndLn="426" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:3>4">
+        <Loc locStartln="342" locStartPos="7" locEndLn="342" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="345" locStartPos="16" locEndLn="345" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:11>12">
+        <Loc locStartln="359" locStartPos="10" locEndLn="359" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="362" locStartPos="6" locEndLn="363" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:3>5">
+        <Loc locStartln="342" locStartPos="7" locEndLn="342" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="348" locStartPos="12" locEndLn="348" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:12>13">
+        <Loc locStartln="362" locStartPos="6" locEndLn="363" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="366" locStartPos="7" locEndLn="366" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:1>11">
+        <Loc locStartln="335" locStartPos="5" locEndLn="335" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="359" locStartPos="10" locEndLn="359" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:15>17">
+        <Loc locStartln="372" locStartPos="12" locEndLn="372" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="378" locStartPos="3" locEndLn="380" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:15>16">
+        <Loc locStartln="372" locStartPos="12" locEndLn="372" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="375" locStartPos="16" locEndLn="375" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:12>20">
+        <Loc locStartln="362" locStartPos="6" locEndLn="363" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="382" locStartPos="1" locEndLn="382" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:24>26">
+        <Loc locStartln="396" locStartPos="6" locEndLn="396" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="403" locStartPos="8" locEndLn="406" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:13>15">
+        <Loc locStartln="366" locStartPos="7" locEndLn="366" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="372" locStartPos="12" locEndLn="372" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:24>25">
+        <Loc locStartln="396" locStartPos="6" locEndLn="396" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="399" locStartPos="3" locEndLn="400" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:13>14">
+        <Loc locStartln="366" locStartPos="7" locEndLn="366" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="369" locStartPos="16" locEndLn="369" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:11>21">
+        <Loc locStartln="359" locStartPos="10" locEndLn="359" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="384" locStartPos="1" locEndLn="386" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:26>28">
+        <Loc locStartln="406" locStartPos="6" locEndLn="406" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="411" locStartPos="1" locEndLn="411" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:2>10">
+        <Loc locStartln="338" locStartPos="6" locEndLn="339" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="358" locStartPos="1" locEndLn="358" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:26>27">
+        <Loc locStartln="406" locStartPos="6" locEndLn="406" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="409" locStartPos="3" locEndLn="409" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:23>24">
+        <Loc locStartln="389" locStartPos="5" locEndLn="389" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="392" locStartPos="2" locEndLn="396" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:5>6">
+        <Loc locStartln="348" locStartPos="12" locEndLn="348" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="351" locStartPos="16" locEndLn="351" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="RollPrtFunc:5>7">
+        <Loc locStartln="348" locStartPos="12" locEndLn="348" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="354" locStartPos="3" locEndLn="356" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1246;DerailPrtFunc" show="true">
+      <CvgElem id="DerailPrtFunc:1>3">
+        <Loc locStartln="1254" locStartPos="5" locEndLn="1256" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1261" locStartPos="0" locEndLn="1261" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DerailPrtFunc:1>2">
+        <Loc locStartln="1254" locStartPos="5" locEndLn="1256" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1259" locStartPos="2" locEndLn="1259" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;2583;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea:2>6">
+        <Loc locStartln="2590" locStartPos="6" locEndLn="2590" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2597" locStartPos="1" locEndLn="2597" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea:3>4">
+        <Loc locStartln="2592" locStartPos="7" locEndLn="2592" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2594" locStartPos="4" locEndLn="2594" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea:1>7">
+        <Loc locStartln="2588" locStartPos="5" locEndLn="2588" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2598" locStartPos="1" locEndLn="2598" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea:3>5">
+        <Loc locStartln="2592" locStartPos="7" locEndLn="2592" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2596" locStartPos="2" locEndLn="2596" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea:2>3">
+        <Loc locStartln="2590" locStartPos="6" locEndLn="2590" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2592" locStartPos="7" locEndLn="2592" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWProtectionManageWProtectionHandleWc|CheckLeaveCarWashArea:1>2">
+        <Loc locStartln="2588" locStartPos="5" locEndLn="2588" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="2590" locStartPos="6" locEndLn="2590" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1228;BrkFailFunc" show="true">
+      <CvgElem id="BrkFailFunc:1>3">
+        <Loc locStartln="1231" locStartPos="5" locEndLn="1231" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1236" locStartPos="0" locEndLn="1236" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="BrkFailFunc:1>2">
+        <Loc locStartln="1231" locStartPos="5" locEndLn="1231" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1234" locStartPos="2" locEndLn="1234" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1292;EscDoorHibFunc" show="true">
+      <CvgElem id="EscDoorHibFunc:2>8">
+        <Loc locStartln="1301" locStartPos="6" locEndLn="1301" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1319" locStartPos="3" locEndLn="1319" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:9>11">
+        <Loc locStartln="1324" locStartPos="6" locEndLn="1324" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1332" locStartPos="3" locEndLn="1332" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:9>10">
+        <Loc locStartln="1324" locStartPos="6" locEndLn="1324" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1327" locStartPos="3" locEndLn="1327" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:1>16">
+        <Loc locStartln="1298" locStartPos="5" locEndLn="1298" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1352" locStartPos="2" locEndLn="1353" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:3>4">
+        <Loc locStartln="1304" locStartPos="7" locEndLn="1304" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1307" locStartPos="4" locEndLn="1307" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:3>5">
+        <Loc locStartln="1304" locStartPos="7" locEndLn="1304" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1310" locStartPos="7" locEndLn="1310" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:1>2">
+        <Loc locStartln="1298" locStartPos="5" locEndLn="1298" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1301" locStartPos="6" locEndLn="1301" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:12>14">
+        <Loc locStartln="1337" locStartPos="6" locEndLn="1337" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1345" locStartPos="3" locEndLn="1345" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:12>13">
+        <Loc locStartln="1337" locStartPos="6" locEndLn="1337" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1340" locStartPos="3" locEndLn="1340" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:2>3">
+        <Loc locStartln="1301" locStartPos="6" locEndLn="1301" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1304" locStartPos="7" locEndLn="1304" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:5>7">
+        <Loc locStartln="1310" locStartPos="7" locEndLn="1310" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1315" locStartPos="2" locEndLn="1315" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="EscDoorHibFunc:5>6">
+        <Loc locStartln="1310" locStartPos="7" locEndLn="1310" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1313" locStartPos="4" locEndLn="1313" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;1651;DoorHibFunc" show="true">
+      <CvgElem id="DoorHibFunc:51>53">
+        <Loc locStartln="1868" locStartPos="8" locEndLn="1868" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1873" locStartPos="13" locEndLn="1873" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:1>2">
+        <Loc locStartln="1660" locStartPos="5" locEndLn="1660" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1663" locStartPos="6" locEndLn="1663" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:51>52">
+        <Loc locStartln="1868" locStartPos="8" locEndLn="1868" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1870" locStartPos="5" locEndLn="1870" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:18>29">
+        <Loc locStartln="1735" locStartPos="15" locEndLn="1735" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1786" locStartPos="7" locEndLn="1786" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:3>38">
+        <Loc locStartln="1666" locStartPos="7" locEndLn="1666" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1811" locStartPos="4" locEndLn="1816" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:43>44">
+        <Loc locStartln="1834" locStartPos="11" locEndLn="1834" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1837" locStartPos="3" locEndLn="1847" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:43>60">
+        <Loc locStartln="1834" locStartPos="11" locEndLn="1834" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1892" locStartPos="2" locEndLn="1894" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:34>35">
+        <Loc locStartln="1797" locStartPos="8" locEndLn="1797" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1799" locStartPos="5" locEndLn="1799" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:34>36">
+        <Loc locStartln="1797" locStartPos="8" locEndLn="1797" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1802" locStartPos="4" locEndLn="1804" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:38>39">
+        <Loc locStartln="1816" locStartPos="8" locEndLn="1816" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1818" locStartPos="5" locEndLn="1819" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:9>11">
+        <Loc locStartln="1691" locStartPos="10" locEndLn="1691" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1697" locStartPos="7" locEndLn="1697" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:44>58">
+        <Loc locStartln="1847" locStartPos="7" locEndLn="1847" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1885" locStartPos="3" locEndLn="1887" locEndPos="4" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:3>4">
+        <Loc locStartln="1666" locStartPos="7" locEndLn="1666" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1669" locStartPos="4" locEndLn="1673" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:45>46">
+        <Loc locStartln="1853" locStartPos="8" locEndLn="1853" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1855" locStartPos="5" locEndLn="1855" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:45>47">
+        <Loc locStartln="1853" locStartPos="8" locEndLn="1853" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1858" locStartPos="13" locEndLn="1858" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:9>10">
+        <Loc locStartln="1691" locStartPos="10" locEndLn="1691" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1693" locStartPos="7" locEndLn="1693" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:2>3">
+        <Loc locStartln="1663" locStartPos="6" locEndLn="1663" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1666" locStartPos="7" locEndLn="1666" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:22>24">
+        <Loc locStartln="1753" locStartPos="11" locEndLn="1753" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1759" locStartPos="8" locEndLn="1759" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:22>23">
+        <Loc locStartln="1753" locStartPos="11" locEndLn="1753" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1755" locStartPos="8" locEndLn="1755" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:38>40">
+        <Loc locStartln="1816" locStartPos="8" locEndLn="1816" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1822" locStartPos="4" locEndLn="1824" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:18>19">
+        <Loc locStartln="1735" locStartPos="15" locEndLn="1735" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1738" locStartPos="7" locEndLn="1743" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:5>16">
+        <Loc locStartln="1675" locStartPos="9" locEndLn="1675" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1724" locStartPos="10" locEndLn="1724" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:6>8">
+        <Loc locStartln="1681" locStartPos="10" locEndLn="1681" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1687" locStartPos="7" locEndLn="1687" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:12>13">
+        <Loc locStartln="1701" locStartPos="10" locEndLn="1701" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1703" locStartPos="7" locEndLn="1703" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:12>14">
+        <Loc locStartln="1701" locStartPos="10" locEndLn="1701" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1707" locStartPos="7" locEndLn="1707" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:6>7">
+        <Loc locStartln="1681" locStartPos="10" locEndLn="1681" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1683" locStartPos="7" locEndLn="1683" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:25>26">
+        <Loc locStartln="1763" locStartPos="11" locEndLn="1763" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1765" locStartPos="8" locEndLn="1765" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:53>55">
+        <Loc locStartln="1873" locStartPos="13" locEndLn="1873" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1878" locStartPos="4" locEndLn="1880" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:62>64">
+        <Loc locStartln="1896" locStartPos="6" locEndLn="1896" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1900" locStartPos="1" locEndLn="1900" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:25>27">
+        <Loc locStartln="1763" locStartPos="11" locEndLn="1763" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1769" locStartPos="8" locEndLn="1769" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:62>63">
+        <Loc locStartln="1896" locStartPos="6" locEndLn="1896" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1898" locStartPos="3" locEndLn="1898" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:53>54">
+        <Loc locStartln="1873" locStartPos="13" locEndLn="1873" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1875" locStartPos="5" locEndLn="1875" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:4>5">
+        <Loc locStartln="1673" locStartPos="8" locEndLn="1673" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1675" locStartPos="9" locEndLn="1675" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:1>65">
+        <Loc locStartln="1660" locStartPos="5" locEndLn="1660" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1904" locStartPos="2" locEndLn="1910" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:47>49">
+        <Loc locStartln="1858" locStartPos="13" locEndLn="1858" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1863" locStartPos="4" locEndLn="1865" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:19>20">
+        <Loc locStartln="1743" locStartPos="11" locEndLn="1743" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1745" locStartPos="8" locEndLn="1745" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:47>48">
+        <Loc locStartln="1858" locStartPos="13" locEndLn="1858" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1860" locStartPos="5" locEndLn="1860" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:44>45">
+        <Loc locStartln="1847" locStartPos="7" locEndLn="1847" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1850" locStartPos="4" locEndLn="1853" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:19>21">
+        <Loc locStartln="1743" locStartPos="11" locEndLn="1743" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1749" locStartPos="8" locEndLn="1749" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:4>33">
+        <Loc locStartln="1673" locStartPos="8" locEndLn="1673" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1791" locStartPos="4" locEndLn="1793" locEndPos="5" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:16>17">
+        <Loc locStartln="1724" locStartPos="10" locEndLn="1724" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1727" locStartPos="7" locEndLn="1732" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:16>18">
+        <Loc locStartln="1724" locStartPos="10" locEndLn="1724" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1735" locStartPos="15" locEndLn="1735" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:5>6">
+        <Loc locStartln="1675" locStartPos="9" locEndLn="1675" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1678" locStartPos="6" locEndLn="1681" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="DoorHibFunc:2>43">
+        <Loc locStartln="1663" locStartPos="6" locEndLn="1663" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="1834" locStartPos="11" locEndLn="1834" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c;489;TacEbPrtFunc" show="true">
+      <CvgElem id="TacEbPrtFunc:8>12">
+        <Loc locStartln="522" locStartPos="6" locEndLn="522" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="536" locStartPos="1" locEndLn="536" locEndPos="2" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:1>2">
+        <Loc locStartln="495" locStartPos="5" locEndLn="495" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="499" locStartPos="6" locEndLn="499" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:8>9">
+        <Loc locStartln="522" locStartPos="6" locEndLn="522" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="526" locStartPos="3" locEndLn="530" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:9>10">
+        <Loc locStartln="530" locStartPos="7" locEndLn="530" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="533" locStartPos="4" locEndLn="533" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:1>13">
+        <Loc locStartln="495" locStartPos="5" locEndLn="495" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="537" locStartPos="0" locEndLn="537" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:5>7">
+        <Loc locStartln="510" locStartPos="6" locEndLn="510" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="518" locStartPos="3" locEndLn="518" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:5>6">
+        <Loc locStartln="510" locStartPos="6" locEndLn="510" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="513" locStartPos="3" locEndLn="513" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:9>11">
+        <Loc locStartln="530" locStartPos="7" locEndLn="530" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="535" locStartPos="2" locEndLn="535" locEndPos="3" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:2>4">
+        <Loc locStartln="499" locStartPos="6" locEndLn="499" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="507" locStartPos="3" locEndLn="507" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+      <CvgElem id="TacEbPrtFunc:2>3">
+        <Loc locStartln="499" locStartPos="6" locEndLn="499" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+        <Loc locStartln="502" locStartPos="3" locEndLn="502" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ProtectionManage/ProtectionHandle.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

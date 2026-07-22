@@ -1,0 +1,20 @@
+xharness.routineManager "symbol_file=C:\Program Files (x86)\Parasoft\C++test for Visual Studio\9.2\engine\runtime\include/*" command=setProperty property=ignored value=true
+testrunner.compilerCfgFile C:\Program Files (x86)\Parasoft\C++test for Visual Studio\9.2\engine\etc\compilers\vc_10_0\c.psrc
+testrunner.readTestSuites D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\.cpptest\ATP_UT\unit-data\current_tubf179707/testsuites.xml
+testrunner.outputFile D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\.cpptest\ATP_UT\unit-data\current_tubf179707\cpptest_testrunner.c
+testrunner.appMode off
+testrunner.runtimeProperty name=testlog.enabled value="true"
+testrunner.runtimeProperty name=testlog.file value="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\.cpptest\ATP_UT\unit-data\current_tubf179707/cpptest_results.tlog"
+testrunner.runtimeProperty name=testlog.append value="true"
+testrunner.runtimeProperty name=covlog.enabled value="true"
+testrunner.runtimeProperty name=covlog.file value="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\.cpptest\ATP_UT\unit-data\current_tubf179707/cpptest_results.clog"
+testrunner.runtimeProperty name=covlog.append value="true"
+testrunner.runtimeProperty name=coverage.optimize_statements value="false"
+testrunner.runtimeProperty name=coverage.trace_function_calls value="true"
+testrunner.runtimeProperty name=coverage.use_func_def_records value="true"
+testrunner.runtimeProperty name=testcases.timeout value="5000"
+testrunner.runtimeProperty name=testcases.max_messages value="100"
+testrunner.runtimeProperty name=send.post.conditions value="1"
+testrunner.runtimeProperty name=send.reports value="1"
+testrunner.runtimeProperty name=send.passed.asserts value="0"
+testrunner.symbolsFile D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\test\UT1\.cpptest\ATP_UT\unit-data\current_tubf179707\lsi_result

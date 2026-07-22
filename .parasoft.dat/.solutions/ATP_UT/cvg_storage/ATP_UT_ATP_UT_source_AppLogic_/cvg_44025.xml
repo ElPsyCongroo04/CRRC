@@ -1,0 +1,515 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" type="MCDC">
+  <VersionInfos>
+    <StorageInfo ownerId="MCDC" resultId="MCDCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="MCDC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1419;GetShowTextInfo" total="32" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;159;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SndMmiCycleInfo" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1943;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|AddFaultTextId" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1845;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo" total="15" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2208;AddSendMmiAvalMode" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;498;MmiMsgRcv" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;452;MmiMsgSnd" total="6" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;842;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare" total="89" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;553;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo" total="7" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;128;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|PackSndMmiData" total="1" num="0" />
+  </Stats>
+  <ResultInfo cvgType="MCDC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;2208;AddSendMmiAvalMode" show="true">
+      <CvgElem id="AddSendMmiAvalMode:1" condNo="0">
+        <Loc locStartln="2211" locStartPos="8" locEndLn="2211" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1419;GetShowTextInfo" show="true">
+      <CvgElem id="GetShowTextInfo:47" condNo="0">
+        <Loc locStartln="1682" locStartPos="32" locEndLn="1682" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:62" condNo="0">
+        <Loc locStartln="1744" locStartPos="8" locEndLn="1744" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:63" condNo="0">
+        <Loc locStartln="1747" locStartPos="13" locEndLn="1747" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:63" condNo="1">
+        <Loc locStartln="1747" locStartPos="44" locEndLn="1747" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:45" condNo="0">
+        <Loc locStartln="1670" locStartPos="28" locEndLn="1670" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:43" condNo="0">
+        <Loc locStartln="1660" locStartPos="24" locEndLn="1660" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:66" condNo="0">
+        <Loc locStartln="1762" locStartPos="8" locEndLn="1762" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:67" condNo="1">
+        <Loc locStartln="1765" locStartPos="53" locEndLn="1765" locEndPos="93" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:67" condNo="0">
+        <Loc locStartln="1765" locStartPos="13" locEndLn="1765" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:41" condNo="0">
+        <Loc locStartln="1648" locStartPos="20" locEndLn="1648" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:37" condNo="0">
+        <Loc locStartln="1626" locStartPos="12" locEndLn="1626" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:39" condNo="0">
+        <Loc locStartln="1638" locStartPos="16" locEndLn="1638" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:15" condNo="0">
+        <Loc locStartln="1559" locStartPos="8" locEndLn="1559" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:1" condNo="0">
+        <Loc locStartln="1482" locStartPos="8" locEndLn="1482" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:16" condNo="0">
+        <Loc locStartln="1562" locStartPos="12" locEndLn="1562" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:3" condNo="0">
+        <Loc locStartln="1496" locStartPos="8" locEndLn="1496" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:4" condNo="0">
+        <Loc locStartln="1499" locStartPos="12" locEndLn="1499" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:7" condNo="0">
+        <Loc locStartln="1514" locStartPos="8" locEndLn="1514" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:8" condNo="0">
+        <Loc locStartln="1517" locStartPos="12" locEndLn="1517" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:59" condNo="0">
+        <Loc locStartln="1734" locStartPos="13" locEndLn="1734" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:59" condNo="1">
+        <Loc locStartln="1734" locStartPos="40" locEndLn="1734" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:73" condNo="0">
+        <Loc locStartln="1791" locStartPos="17" locEndLn="1791" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:56" condNo="0">
+        <Loc locStartln="1711" locStartPos="8" locEndLn="1711" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:58" condNo="0">
+        <Loc locStartln="1728" locStartPos="8" locEndLn="1728" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:78" condNo="0">
+        <Loc locStartln="1810" locStartPos="8" locEndLn="1810" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:12" condNo="0">
+        <Loc locStartln="1535" locStartPos="12" locEndLn="1535" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:11" condNo="0">
+        <Loc locStartln="1532" locStartPos="8" locEndLn="1532" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:32" condNo="0">
+        <Loc locStartln="1608" locStartPos="8" locEndLn="1608" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:33" condNo="0">
+        <Loc locStartln="1611" locStartPos="12" locEndLn="1611" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:70" condNo="0">
+        <Loc locStartln="1780" locStartPos="8" locEndLn="1780" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:71" condNo="0">
+        <Loc locStartln="1783" locStartPos="12" locEndLn="1783" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="GetShowTextInfo:36" condNo="0">
+        <Loc locStartln="1623" locStartPos="8" locEndLn="1623" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;498;MmiMsgRcv" show="true">
+      <CvgElem id="MmiMsgRcv:5" condNo="0">
+        <Loc locStartln="527" locStartPos="16" locEndLn="527" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="MmiMsgRcv:1" condNo="0">
+        <Loc locStartln="511" locStartPos="8" locEndLn="511" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="MmiMsgRcv:3" condNo="0">
+        <Loc locStartln="517" locStartPos="31" locEndLn="517" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1845;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:18" condNo="0">
+        <Loc locStartln="1913" locStartPos="12" locEndLn="1913" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:19" condNo="0">
+        <Loc locStartln="1916" locStartPos="17" locEndLn="1916" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:14" condNo="0">
+        <Loc locStartln="1903" locStartPos="20" locEndLn="1903" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:8" condNo="0">
+        <Loc locStartln="1886" locStartPos="20" locEndLn="1886" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:7" condNo="0">
+        <Loc locStartln="1883" locStartPos="16" locEndLn="1883" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:6" condNo="0">
+        <Loc locStartln="1876" locStartPos="12" locEndLn="1876" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:13" condNo="3">
+        <Loc locStartln="1900" locStartPos="20" locEndLn="1900" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:13" condNo="0">
+        <Loc locStartln="1898" locStartPos="17" locEndLn="1898" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:13" condNo="2">
+        <Loc locStartln="1899" locStartPos="55" locEndLn="1899" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:13" condNo="1">
+        <Loc locStartln="1899" locStartPos="20" locEndLn="1899" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:12" condNo="0">
+        <Loc locStartln="1895" locStartPos="12" locEndLn="1895" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:3" condNo="0">
+        <Loc locStartln="1868" locStartPos="16" locEndLn="1868" locEndPos="75" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:2" condNo="0">
+        <Loc locStartln="1865" locStartPos="12" locEndLn="1865" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:20" condNo="0">
+        <Loc locStartln="1920" locStartPos="20" locEndLn="1920" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|GetFaultTextInfo:1" condNo="0">
+        <Loc locStartln="1861" locStartPos="8" locEndLn="1861" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;452;MmiMsgSnd" show="true">
+      <CvgElem id="MmiMsgSnd:-4" condNo="0">
+        <Loc locStartln="479" locStartPos="19" locEndLn="479" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="MmiMsgSnd:4" condNo="0">
+        <Loc locStartln="481" locStartPos="12" locEndLn="481" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="MmiMsgSnd:-2" condNo="0">
+        <Loc locStartln="477" locStartPos="23" locEndLn="477" locEndPos="94" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="MmiMsgSnd:2" condNo="0">
+        <Loc locStartln="475" locStartPos="17" locEndLn="475" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="MmiMsgSnd:-3" condNo="0">
+        <Loc locStartln="478" locStartPos="26" locEndLn="478" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="MmiMsgSnd:-3" condNo="1">
+        <Loc locStartln="478" locStartPos="53" locEndLn="478" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;553;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo:5" condNo="0">
+        <Loc locStartln="618" locStartPos="12" locEndLn="618" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo:11" condNo="0">
+        <Loc locStartln="796" locStartPos="21" locEndLn="796" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo:11" condNo="1">
+        <Loc locStartln="796" locStartPos="90" locEndLn="796" locEndPos="128" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo:1" condNo="0">
+        <Loc locStartln="566" locStartPos="9" locEndLn="566" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo:1" condNo="1">
+        <Loc locStartln="566" locStartPos="37" locEndLn="566" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo:8" condNo="0">
+        <Loc locStartln="630" locStartPos="12" locEndLn="630" locEndPos="76" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|RcvMmiCycleInfo:2" condNo="0">
+        <Loc locStartln="604" locStartPos="12" locEndLn="604" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;1943;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|AddFaultTextId" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|AddFaultTextId:1" condNo="0">
+        <Loc locStartln="1949" locStartPos="8" locEndLn="1949" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|AddFaultTextId:3" condNo="0">
+        <Loc locStartln="1956" locStartPos="13" locEndLn="1956" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;159;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SndMmiCycleInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SndMmiCycleInfo:1" condNo="0">
+        <Loc locStartln="166" locStartPos="8" locEndLn="166" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|SndMmiCycleInfo:2" condNo="0">
+        <Loc locStartln="375" locStartPos="12" locEndLn="375" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;128;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|PackSndMmiData" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|PackSndMmiData:1" condNo="0">
+        <Loc locStartln="136" locStartPos="8" locEndLn="136" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c;842;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:19" condNo="0">
+        <Loc locStartln="914" locStartPos="17" locEndLn="914" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:19" condNo="1">
+        <Loc locStartln="914" locStartPos="69" locEndLn="914" locEndPos="114" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:136" condNo="0">
+        <Loc locStartln="1303" locStartPos="12" locEndLn="1303" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:18" condNo="0">
+        <Loc locStartln="912" locStartPos="12" locEndLn="912" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:16" condNo="0">
+        <Loc locStartln="906" locStartPos="12" locEndLn="906" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:14" condNo="1">
+        <Loc locStartln="900" locStartPos="63" locEndLn="900" locEndPos="108" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:14" condNo="0">
+        <Loc locStartln="900" locStartPos="13" locEndLn="900" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:13" condNo="0">
+        <Loc locStartln="898" locStartPos="13" locEndLn="898" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:72" condNo="0">
+        <Loc locStartln="1084" locStartPos="17" locEndLn="1084" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:70" condNo="0">
+        <Loc locStartln="1079" locStartPos="12" locEndLn="1079" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:69" condNo="0">
+        <Loc locStartln="1076" locStartPos="8" locEndLn="1076" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:66" condNo="0">
+        <Loc locStartln="1061" locStartPos="8" locEndLn="1061" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:135" condNo="1">
+        <Loc locStartln="1299" locStartPos="8" locEndLn="1299" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:135" condNo="0">
+        <Loc locStartln="1298" locStartPos="8" locEndLn="1298" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:135" condNo="2">
+        <Loc locStartln="1300" locStartPos="8" locEndLn="1300" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:135" condNo="3">
+        <Loc locStartln="1301" locStartPos="8" locEndLn="1301" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:131" condNo="0">
+        <Loc locStartln="1284" locStartPos="12" locEndLn="1284" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:129" condNo="0">
+        <Loc locStartln="1278" locStartPos="8" locEndLn="1278" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:9" condNo="0">
+        <Loc locStartln="890" locStartPos="16" locEndLn="890" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:7" condNo="0">
+        <Loc locStartln="884" locStartPos="17" locEndLn="884" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:7" condNo="1">
+        <Loc locStartln="884" locStartPos="69" locEndLn="884" locEndPos="114" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:27" condNo="0">
+        <Loc locStartln="936" locStartPos="5" locEndLn="936" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:6" condNo="0">
+        <Loc locStartln="882" locStartPos="12" locEndLn="882" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:29" condNo="1">
+        <Loc locStartln="941" locStartPos="43" locEndLn="941" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:29" condNo="0">
+        <Loc locStartln="941" locStartPos="11" locEndLn="941" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:4" condNo="0">
+        <Loc locStartln="876" locStartPos="12" locEndLn="876" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:61" condNo="0">
+        <Loc locStartln="1041" locStartPos="12" locEndLn="1041" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:21" condNo="0">
+        <Loc locStartln="920" locStartPos="16" locEndLn="920" locEndPos="69" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:60" condNo="2">
+        <Loc locStartln="1038" locStartPos="83" locEndLn="1038" locEndPos="115" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:60" condNo="0">
+        <Loc locStartln="1038" locStartPos="9" locEndLn="1038" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:60" condNo="1">
+        <Loc locStartln="1038" locStartPos="51" locEndLn="1038" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:51" condNo="0">
+        <Loc locStartln="998" locStartPos="8" locEndLn="998" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:166" condNo="0">
+        <Loc locStartln="1395" locStartPos="8" locEndLn="1395" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:54" condNo="0">
+        <Loc locStartln="1014" locStartPos="8" locEndLn="1014" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:56" condNo="0">
+        <Loc locStartln="1020" locStartPos="13" locEndLn="1020" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:164" condNo="2">
+        <Loc locStartln="1385" locStartPos="13" locEndLn="1385" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:164" condNo="3">
+        <Loc locStartln="1385" locStartPos="50" locEndLn="1385" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:164" condNo="1">
+        <Loc locStartln="1384" locStartPos="46" locEndLn="1384" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:164" condNo="0">
+        <Loc locStartln="1384" locStartPos="10" locEndLn="1384" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:162" condNo="0">
+        <Loc locStartln="1378" locStartPos="10" locEndLn="1378" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:162" condNo="1">
+        <Loc locStartln="1378" locStartPos="45" locEndLn="1378" locEndPos="80" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:162" condNo="3">
+        <Loc locStartln="1379" locStartPos="49" locEndLn="1379" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:162" condNo="2">
+        <Loc locStartln="1379" locStartPos="13" locEndLn="1379" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:2" condNo="0">
+        <Loc locStartln="870" locStartPos="13" locEndLn="870" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:2" condNo="1">
+        <Loc locStartln="870" locStartPos="63" locEndLn="870" locEndPos="108" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:124" condNo="0">
+        <Loc locStartln="1266" locStartPos="12" locEndLn="1266" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:95" condNo="0">
+        <Loc locStartln="1163" locStartPos="9" locEndLn="1163" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:95" condNo="1">
+        <Loc locStartln="1163" locStartPos="53" locEndLn="1163" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:160" condNo="1">
+        <Loc locStartln="1371" locStartPos="47" locEndLn="1371" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:160" condNo="2">
+        <Loc locStartln="1372" locStartPos="13" locEndLn="1372" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:160" condNo="0">
+        <Loc locStartln="1371" locStartPos="10" locEndLn="1371" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:160" condNo="3">
+        <Loc locStartln="1372" locStartPos="49" locEndLn="1372" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:98" condNo="0">
+        <Loc locStartln="1177" locStartPos="8" locEndLn="1177" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:122" condNo="0">
+        <Loc locStartln="1261" locStartPos="13" locEndLn="1261" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:1" condNo="0">
+        <Loc locStartln="868" locStartPos="8" locEndLn="868" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:120" condNo="0">
+        <Loc locStartln="1256" locStartPos="8" locEndLn="1256" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:115" condNo="0">
+        <Loc locStartln="1220" locStartPos="8" locEndLn="1220" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:117" condNo="0">
+        <Loc locStartln="1244" locStartPos="8" locEndLn="1244" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:31" condNo="0">
+        <Loc locStartln="947" locStartPos="11" locEndLn="947" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:158" condNo="1">
+        <Loc locStartln="1365" locStartPos="46" locEndLn="1365" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:158" condNo="2">
+        <Loc locStartln="1366" locStartPos="13" locEndLn="1366" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:158" condNo="3">
+        <Loc locStartln="1366" locStartPos="48" locEndLn="1366" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:158" condNo="0">
+        <Loc locStartln="1365" locStartPos="10" locEndLn="1365" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:91" condNo="0">
+        <Loc locStartln="1152" locStartPos="13" locEndLn="1152" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:35" condNo="0">
+        <Loc locStartln="957" locStartPos="10" locEndLn="957" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:33" condNo="0">
+        <Loc locStartln="952" locStartPos="10" locEndLn="952" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:152" condNo="1">
+        <Loc locStartln="1346" locStartPos="42" locEndLn="1346" locEndPos="78" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:152" condNo="0">
+        <Loc locStartln="1346" locStartPos="10" locEndLn="1346" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:152" condNo="2">
+        <Loc locStartln="1347" locStartPos="13" locEndLn="1347" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:152" condNo="3">
+        <Loc locStartln="1347" locStartPos="46" locEndLn="1347" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:89" condNo="0">
+        <Loc locStartln="1148" locStartPos="8" locEndLn="1148" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:154" condNo="0">
+        <Loc locStartln="1351" locStartPos="15" locEndLn="1351" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:154" condNo="3">
+        <Loc locStartln="1352" locStartPos="46" locEndLn="1352" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:154" condNo="2">
+        <Loc locStartln="1352" locStartPos="13" locEndLn="1352" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:154" condNo="1">
+        <Loc locStartln="1351" locStartPos="48" locEndLn="1351" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:87" condNo="0">
+        <Loc locStartln="1141" locStartPos="8" locEndLn="1141" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:113" condNo="1">
+        <Loc locStartln="1215" locStartPos="62" locEndLn="1215" locEndPos="108" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:113" condNo="0">
+        <Loc locStartln="1215" locStartPos="9" locEndLn="1215" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:105" condNo="0">
+        <Loc locStartln="1199" locStartPos="13" locEndLn="1199" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:103" condNo="0">
+        <Loc locStartln="1194" locStartPos="13" locEndLn="1194" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:107" condNo="0">
+        <Loc locStartln="1204" locStartPos="13" locEndLn="1204" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:81" condNo="0">
+        <Loc locStartln="1122" locStartPos="8" locEndLn="1122" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:83" condNo="0">
+        <Loc locStartln="1129" locStartPos="12" locEndLn="1129" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:42" condNo="0">
+        <Loc locStartln="970" locStartPos="8" locEndLn="970" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:44" condNo="0">
+        <Loc locStartln="978" locStartPos="14" locEndLn="978" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:44" condNo="1">
+        <Loc locStartln="978" locStartPos="46" locEndLn="978" locEndPos="72" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:46" condNo="0">
+        <Loc locStartln="985" locStartPos="13" locEndLn="985" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:78" condNo="0">
+        <Loc locStartln="1102" locStartPos="8" locEndLn="1102" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseHMIInfoDataWc|MmiInfoPrepare:101" condNo="0">
+        <Loc locStartln="1189" locStartPos="8" locEndLn="1189" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseHMIInfoData.c" />
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

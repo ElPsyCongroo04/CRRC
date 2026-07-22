@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
+  </VersionInfos>
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c;85;AppPeriodManage" total="2052" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c;300;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWAppPeriodManageWAppPeriodHandleWc|RcvMagFunc" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c;369;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWAppPeriodManageWAppPeriodHandleWc|SndMagFunc" total="2" num="0" />
+  </Stats>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c;369;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWAppPeriodManageWAppPeriodHandleWc|SndMagFunc" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWAppPeriodManageWAppPeriodHandleWc|SndMagFunc" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="371" locStartPos="4" locEndLn="376" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="378" locStartPos="5" locEndLn="383" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="387" locStartPos="1" locEndLn="387" locEndPos="13" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c;300;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWAppPeriodManageWAppPeriodHandleWc|RcvMagFunc" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWAppPeriodManageWAppPeriodHandleWc|RcvMagFunc" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="304" locStartPos="1" locEndLn="355" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c;85;AppPeriodManage" show="true">
+      <CvgElem id="AppPeriodManage" pathsNo="2052">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="88" locStartPos="4" locEndLn="115" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="118" locStartPos="2" locEndLn="118" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4;5">
+          <PathBlckLoc locStartln="122" locStartPos="1" locEndLn="134" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="5">
+          <PathBlckLoc locStartln="136" locStartPos="2" locEndLn="136" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="5" blckTrans="6;7">
+          <PathBlckLoc locStartln="140" locStartPos="5" locEndLn="140" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="6" blckTrans="26">
+          <PathBlckLoc locStartln="143" locStartPos="8" locEndLn="143" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="7" blckTrans="8;9">
+          <PathBlckLoc locStartln="148" locStartPos="8" locEndLn="199" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="8" blckTrans="9">
+          <PathBlckLoc locStartln="202" locStartPos="3" locEndLn="202" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="9" blckTrans="10;11">
+          <PathBlckLoc locStartln="206" locStartPos="6" locEndLn="206" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="10" blckTrans="11">
+          <PathBlckLoc locStartln="209" locStartPos="3" locEndLn="209" locEndPos="15" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="11" blckTrans="12;13">
+          <PathBlckLoc locStartln="213" locStartPos="6" locEndLn="213" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="12" blckTrans="13">
+          <PathBlckLoc locStartln="216" locStartPos="3" locEndLn="216" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="13" blckTrans="14;15">
+          <PathBlckLoc locStartln="220" locStartPos="6" locEndLn="220" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="14" blckTrans="15">
+          <PathBlckLoc locStartln="223" locStartPos="3" locEndLn="223" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="15" blckTrans="16;17">
+          <PathBlckLoc locStartln="227" locStartPos="6" locEndLn="227" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="17" blckTrans="18;19">
+          <PathBlckLoc locStartln="234" locStartPos="6" locEndLn="235" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="16" blckTrans="17">
+          <PathBlckLoc locStartln="230" locStartPos="3" locEndLn="230" locEndPos="20" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="19" blckTrans="20;21">
+          <PathBlckLoc locStartln="241" locStartPos="6" locEndLn="241" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="18" blckTrans="19">
+          <PathBlckLoc locStartln="237" locStartPos="3" locEndLn="237" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="21" blckTrans="22;23">
+          <PathBlckLoc locStartln="248" locStartPos="6" locEndLn="248" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="20" blckTrans="21">
+          <PathBlckLoc locStartln="244" locStartPos="3" locEndLn="244" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="23" blckTrans="24;25">
+          <PathBlckLoc locStartln="255" locStartPos="6" locEndLn="255" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="22" blckTrans="23">
+          <PathBlckLoc locStartln="251" locStartPos="3" locEndLn="251" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="25" blckTrans="26">
+          <PathBlckLoc locStartln="262" locStartPos="2" locEndLn="262" locEndPos="16" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="24" blckTrans="25">
+          <PathBlckLoc locStartln="258" locStartPos="3" locEndLn="258" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="26" blckTrans="">
+          <PathBlckLoc locStartln="267" locStartPos="1" locEndLn="285" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/AppPeriodManage/AppPeriodHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

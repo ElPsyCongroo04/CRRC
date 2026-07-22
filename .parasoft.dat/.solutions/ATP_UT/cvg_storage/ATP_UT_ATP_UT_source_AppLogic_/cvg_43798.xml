@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" type="BC">
+  <VersionInfos>
+    <StorageInfo ownerId="BC" resultId="BlockCoverageStaticInfo" ver="2" />
+    <StorageInfo ownerId="BC" resultId="IDynamicCoverageInfo" ver="2" />
+  </VersionInfos>
+  <CtxList ids="-3399826860484268947 4350481491180392940 7439007155873996951 2280983601714526128 7439007155873996206 7439007155873998838 -4520545803260036158 341804384815388165 7439007155873996112" uniqueId2MainId="CPP://6179751836593946049 CPP://-3747031002532602353 CPP://-8491641153857428519 CPP://2762465901126116297 CPP://-8491641153857428488 CPP://-8491641153857428705 CPP://-5953393911139517280 CPP://-2627560879395168520 CPP://-8491641153857428457" />
+  <Stats>
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;24;StpEnsureFunc" total="15" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;118;GetStopEnsureSta" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;127;SetStopEnsureSta" total="1" num="1" />
+  </Stats>
+  <ResultInfo cvgType="BC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;127;SetStopEnsureSta">
+      <CtxCvg ctx="4350481491180392940" ids="1" />
+      <CtxCvg ctx="-3399826860484268947" ids="1" />
+      <CtxCvg ctx="7439007155873996951" ids="1" />
+      <CtxCvg ctx="2280983601714526128" ids="1" />
+      <CtxCvg ctx="7439007155873996206" ids="1" />
+      <CtxCvg ctx="7439007155873998838" ids="1" />
+      <CtxCvg ctx="-4520545803260036158" ids="1" />
+      <CtxCvg ctx="7439007155873996112" ids="1" />
+      <CtxCvg ctx="341804384815388165" ids="1" />
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="BC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;118;GetStopEnsureSta" infos="1,121,4,121,26," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;127;SetStopEnsureSta" infos="1,130,5,130,36," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c;24;StpEnsureFunc" infos="16,104,16,104,49, 15,101,15,101,31, 7,65,12,66,49, 10,75,8,84,35, 5,54,8,57,41, 1,27,4,38,29, 3,46,8,47,45, 6,60,12,60,38, 17,109,16,109,48, 2,41,8,41,34, 12,90,16,90,49, 4,51,7,51,33, 11,87,15,87,42, 9,72,7,72,33, 13,95,16,95,48," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopEnsureManage/StopEnsureHandle.c" show="true" />
+  </ResultInfo>
+</CvgData>

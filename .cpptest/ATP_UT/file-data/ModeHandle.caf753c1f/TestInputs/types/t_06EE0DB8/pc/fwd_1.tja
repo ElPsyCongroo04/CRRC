@@ -1,0 +1,19 @@
+$
+#<Template name="Post-condition check forward">
+#    <Properties>
+#        <Property key="FLATTEN_IN_WIZARD" />
+#    </Properties> 
+#    <Inputs>
+#        <Input name="FORWARD_PC" type="string">
+#            <Source location="tja://types/${TYPE_DIR:unsigned char}/pc">
+#                <Argument name="VAR_NAME" value="$VAR_NAME$"/>
+#                <Argument name="INDENT" value="$INDENT$"/>
+#                <Argument name="KIND" value="$KIND$"/>
+#                <Argument name="MSG_PREFIX" value="$MSG_PREFIX$"/>
+#                <Argument name="TYPENAME" value="UINT8_T"/>
+#            </Source>
+#        </Input>
+#    </Inputs>
+#</Template>
+\$
+$FORWARD_PC\$

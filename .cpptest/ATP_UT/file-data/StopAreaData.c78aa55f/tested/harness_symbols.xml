@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <File name="D:\CRRC\ATP-UT1-2607-copy\ATP\ATP\src\AppLogic\DynamicData\StopAreaData.c" id="1"/>
+    <Function id="MemorySet" name="ZJMemorySetX" decorated_name="INT8_T MemorySet(void *, UINT32_T, UINT8_T, UINT32_T)" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>EXTERN_C_LINKAGE INT8_T </declaration_prefix>
+         <declaration_suffix>_Stub_MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </declaration_suffix>
+         <orig_declaration>EXTERN_C_LINKAGE INT8_T MemorySet (void * pDest, UINT32_T destBuffSize, UINT8_T c, UINT32_T count) </orig_declaration>
+         <return_expression>return (signed char)0;</return_expression>
+         <user_decl_header>ScpMemory.h</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="InitStopAreaData" name="ZbAInitStopAreaDataX" decorated_name="void InitStopAreaData(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="22" col="6"/>
+    </Function>
+    <Function id="GetTrainInStopSecStatusStru" name="ZbLGetTrainInStopSecStatusStruX" decorated_name="const TrainInStopSecStatusStruct_T * GetTrainInStopSecStatusStru(void)">
+      <definition type="orig" source="code" file_id="1" line="43" col="37"/>
+    </Function>
+    <Function id="GetTrainStopPointTypeStruct" name="ZbLGetTrainStopPointTypeStructX" decorated_name="const TrainStopPointTypeStruct_T * GetTrainStopPointTypeStruct(void)">
+      <definition type="orig" source="code" file_id="1" line="50" col="35"/>
+    </Function>
+    <Function id="GetTrainExitSecStru" name="ZbDGetTrainExitSecStruX" decorated_name="const TrainExitSecStruct_T * GetTrainExitSecStru(void)">
+      <definition type="orig" source="code" file_id="1" line="56" col="29"/>
+    </Function>
+    <Function id="SetHeadStopSecId" name="ZbASetHeadStopSecIdX" decorated_name="void SetHeadStopSecId(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="63" col="6"/>
+    </Function>
+    <Function id="GetHeadStopSecId" name="ZbAGetHeadStopSecIdX" decorated_name="UINT16_T GetHeadStopSecId(void)">
+      <definition type="orig" source="code" file_id="1" line="69" col="10"/>
+    </Function>
+    <Function id="SetStationArea" name="ZOSetStationAreaX" decorated_name="void SetStationArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="75" col="6"/>
+    </Function>
+    <Function id="GetStationArea" name="ZOGetStationAreaX" decorated_name="UINT8_T GetStationArea(void)">
+      <definition type="orig" source="code" file_id="1" line="81" col="9"/>
+    </Function>
+    <Function id="SetTransformArea" name="ZbASetTransformAreaX" decorated_name="void SetTransformArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="87" col="6"/>
+    </Function>
+    <Function id="GetTransformArea" name="ZbAGetTransformAreaX" decorated_name="UINT8_T GetTransformArea(void)">
+      <definition type="orig" source="code" file_id="1" line="93" col="9"/>
+    </Function>
+    <Function id="SetReverseArea" name="ZOSetReverseAreaX" decorated_name="void SetReverseArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="99" col="6"/>
+    </Function>
+    <Function id="GetReverseArea" name="ZOGetReverseAreaX" decorated_name="UINT8_T GetReverseArea(void)">
+      <definition type="orig" source="code" file_id="1" line="105" col="9"/>
+    </Function>
+    <Function id="SetSleepAwakeArea" name="ZbBSetSleepAwakeAreaX" decorated_name="void SetSleepAwakeArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="111" col="6"/>
+    </Function>
+    <Function id="GetSleepAwakeArea" name="ZbBGetSleepAwakeAreaX" decorated_name="UINT8_T GetSleepAwakeArea(void)">
+      <definition type="orig" source="code" file_id="1" line="116" col="9"/>
+    </Function>
+    <Function id="SetWashCarArea" name="ZOSetWashCarAreaX" decorated_name="void SetWashCarArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="121" col="6"/>
+    </Function>
+    <Function id="GetWashCarArea" name="ZOGetWashCarAreaX" decorated_name="UINT8_T GetWashCarArea(void)">
+      <definition type="orig" source="code" file_id="1" line="126" col="9"/>
+    </Function>
+    <Function id="SetWashCarStopArea" name="ZbCSetWashCarStopAreaX" decorated_name="void SetWashCarStopArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="131" col="6"/>
+    </Function>
+    <Function id="GetWashCarStopArea" name="ZbCGetWashCarStopAreaX" decorated_name="UINT8_T GetWashCarStopArea(void)">
+      <definition type="orig" source="code" file_id="1" line="136" col="9"/>
+    </Function>
+    <Function id="SetHeadInRetainMarArea" name="ZbGSetHeadInRetainMarAreaX" decorated_name="void SetHeadInRetainMarArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="141" col="6"/>
+    </Function>
+    <Function id="GetHeadInRetainMarArea" name="ZbGGetHeadInRetainMarAreaX" decorated_name="UINT8_T GetHeadInRetainMarArea(void)">
+      <definition type="orig" source="code" file_id="1" line="148" col="9"/>
+    </Function>
+    <Function id="SetTailStopSecId" name="ZbASetTailStopSecIdX" decorated_name="void SetTailStopSecId(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="157" col="6"/>
+    </Function>
+    <Function id="GetTailStopSecId" name="ZbAGetTailStopSecIdX" decorated_name="UINT16_T GetTailStopSecId(void)">
+      <definition type="orig" source="code" file_id="1" line="163" col="10"/>
+    </Function>
+    <Function id="SetTailInStationArea" name="ZbESetTailInStationAreaX" decorated_name="void SetTailInStationArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="169" col="6"/>
+    </Function>
+    <Function id="GetTailInStationArea" name="ZbEGetTailInStationAreaX" decorated_name="UINT8_T GetTailInStationArea(void)">
+      <definition type="orig" source="code" file_id="1" line="175" col="9"/>
+    </Function>
+    <Function id="SetTailWashRearCarArea" name="ZbGSetTailWashRearCarAreaX" decorated_name="void SetTailWashRearCarArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="181" col="6"/>
+    </Function>
+    <Function id="GetTailWashRearCarArea" name="ZbGGetTailWashRearCarAreaX" decorated_name="UINT8_T GetTailWashRearCarArea(void)">
+      <definition type="orig" source="code" file_id="1" line="187" col="9"/>
+    </Function>
+    <Function id="SetTailInRetainMarArea" name="ZbGSetTailInRetainMarAreaX" decorated_name="void SetTailInRetainMarArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="193" col="6"/>
+    </Function>
+    <Function id="GetTailInRetainMarArea" name="ZbGGetTailInRetainMarAreaX" decorated_name="UINT8_T GetTailInRetainMarArea(void)">
+      <definition type="orig" source="code" file_id="1" line="200" col="9"/>
+    </Function>
+    <Function id="SetTrainInStopArea" name="ZbCSetTrainInStopAreaX" decorated_name="void SetTrainInStopArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="210" col="6"/>
+    </Function>
+    <Function id="GetTrainInStopArea" name="ZbCGetTrainInStopAreaX" decorated_name="UINT8_T GetTrainInStopArea(void)">
+      <definition type="orig" source="code" file_id="1" line="216" col="9"/>
+    </Function>
+    <Function id="SetPartOfTrainInStationArea" name="ZbLSetPartOfTrainInStationAreaX" decorated_name="void SetPartOfTrainInStationArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="222" col="6"/>
+    </Function>
+    <Function id="GetPartOfTrainInStationArea" name="ZbLGetPartOfTrainInStationAreaX" decorated_name="UINT8_T GetPartOfTrainInStationArea(void)">
+      <definition type="orig" source="code" file_id="1" line="228" col="9"/>
+    </Function>
+    <Function id="SetPartOfTrainInTrasformArea" name="ZbMSetPartOfTrainInTrasformAreaX" decorated_name="void SetPartOfTrainInTrasformArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="234" col="6"/>
+    </Function>
+    <Function id="GetPartOfTrainInTrasformArea" name="ZbMGetPartOfTrainInTrasformAreaX" decorated_name="UINT8_T GetPartOfTrainInTrasformArea(void)">
+      <definition type="orig" source="code" file_id="1" line="240" col="9"/>
+    </Function>
+    <Function id="SetPartOfTrainInSleepAwakeArea" name="ZbOSetPartOfTrainInSleepAwakeAreaX" decorated_name="void SetPartOfTrainInSleepAwakeArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="246" col="6"/>
+    </Function>
+    <Function id="GetPartOfTrainInSleepAwakeArea" name="ZbOGetPartOfTrainInSleepAwakeAreaX" decorated_name="UINT8_T GetPartOfTrainInSleepAwakeArea(void)">
+      <definition type="orig" source="code" file_id="1" line="252" col="9"/>
+    </Function>
+    <Function id="SetPartOfTrainInRetainMarArea" name="ZbNSetPartOfTrainInRetainMarAreaX" decorated_name="void SetPartOfTrainInRetainMarArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="258" col="6"/>
+    </Function>
+    <Function id="GetPartOfTrainInRetainMarArea" name="ZbNGetPartOfTrainInRetainMarAreaX" decorated_name="UINT8_T GetPartOfTrainInRetainMarArea(void)">
+      <definition type="orig" source="code" file_id="1" line="264" col="9"/>
+    </Function>
+    <Function id="SetJumpAllowPoint" name="ZbBSetJumpAllowPointX" decorated_name="void SetJumpAllowPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="274" col="6"/>
+    </Function>
+    <Function id="GetJumpAllowPoint" name="ZbBGetJumpAllowPointX" decorated_name="UINT8_T GetJumpAllowPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="280" col="9"/>
+    </Function>
+    <Function id="SetStationPoint" name="ZPSetStationPointX" decorated_name="void SetStationPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="286" col="6"/>
+    </Function>
+    <Function id="GetStationPoint" name="ZPGetStationPointX" decorated_name="UINT8_T GetStationPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="292" col="9"/>
+    </Function>
+    <Function id="SetTransformPoint" name="ZbBSetTransformPointX" decorated_name="void SetTransformPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="298" col="6"/>
+    </Function>
+    <Function id="GetTransformPoint" name="ZbBGetTransformPointX" decorated_name="UINT8_T GetTransformPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="304" col="9"/>
+    </Function>
+    <Function id="SetSignalPoint" name="ZOSetSignalPointX" decorated_name="void SetSignalPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="310" col="6"/>
+    </Function>
+    <Function id="GetSignalPoint" name="ZOGetSignalPointX" decorated_name="UINT8_T GetSignalPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="316" col="9"/>
+    </Function>
+    <Function id="SetReversePoint" name="ZPSetReversePointX" decorated_name="void SetReversePoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="322" col="6"/>
+    </Function>
+    <Function id="GetReversePoint" name="ZPGetReversePointX" decorated_name="UINT8_T GetReversePoint(void)">
+      <definition type="orig" source="code" file_id="1" line="328" col="9"/>
+    </Function>
+    <Function id="SetReversePointType" name="ZbDSetReversePointTypeX" decorated_name="void SetReversePointType(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="334" col="6"/>
+    </Function>
+    <Function id="GetReversePointType" name="ZbDGetReversePointTypeX" decorated_name="UINT8_T GetReversePointType(void)">
+      <definition type="orig" source="code" file_id="1" line="340" col="9"/>
+    </Function>
+    <Function id="SetReverseBeforePoint" name="ZbFSetReverseBeforePointX" decorated_name="void SetReverseBeforePoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="346" col="6"/>
+    </Function>
+    <Function id="GetReverseBeforePoint" name="ZbFGetReverseBeforePointX" decorated_name="UINT8_T GetReverseBeforePoint(void)">
+      <definition type="orig" source="code" file_id="1" line="352" col="9"/>
+    </Function>
+    <Function id="SetReverseAfterPoint" name="ZbESetReverseAfterPointX" decorated_name="void SetReverseAfterPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="358" col="6"/>
+    </Function>
+    <Function id="GetReverseAfterPoint" name="ZbEGetReverseAfterPointX" decorated_name="UINT8_T GetReverseAfterPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="364" col="9"/>
+    </Function>
+    <Function id="SetExitPoint" name="ZMSetExitPointX" decorated_name="void SetExitPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="370" col="6"/>
+    </Function>
+    <Function id="GetExitPoint" name="ZMGetExitPointX" decorated_name="UINT8_T GetExitPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="376" col="9"/>
+    </Function>
+    <Function id="SetStopPointId" name="ZOSetStopPointIdX" decorated_name="void SetStopPointId(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="382" col="6"/>
+    </Function>
+    <Function id="GetStopPointId" name="ZOGetStopPointIdX" decorated_name="UINT16_T GetStopPointId(void)">
+      <definition type="orig" source="code" file_id="1" line="388" col="10"/>
+    </Function>
+    <Function id="SetReverseStopPointId" name="ZbFSetReverseStopPointIdX" decorated_name="void SetReverseStopPointId(UINT16_T)">
+      <definition type="orig" source="code" file_id="1" line="394" col="6"/>
+    </Function>
+    <Function id="GetReverseStopPointId" name="ZbFGetReverseStopPointIdX" decorated_name="UINT16_T GetReverseStopPointId(void)">
+      <definition type="orig" source="code" file_id="1" line="400" col="10"/>
+    </Function>
+    <Function id="SetStopInAtp" name="ZMSetStopInAtpX" decorated_name="void SetStopInAtp(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="406" col="6"/>
+    </Function>
+    <Function id="GetStopInAtp" name="ZMGetStopInAtpX" decorated_name="UINT8_T GetStopInAtp(void)">
+      <definition type="orig" source="code" file_id="1" line="412" col="9"/>
+    </Function>
+    <Function id="SetStopInAto" name="ZMSetStopInAtoX" decorated_name="void SetStopInAto(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="418" col="6"/>
+    </Function>
+    <Function id="GetStopInAto" name="ZMGetStopInAtoX" decorated_name="UINT8_T GetStopInAto(void)">
+      <definition type="orig" source="code" file_id="1" line="424" col="9"/>
+    </Function>
+    <Function id="SetTrainBackActiveWin" name="ZbFSetTrainBackActiveWinX" decorated_name="void SetTrainBackActiveWin(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="430" col="6"/>
+    </Function>
+    <Function id="GetTrainBackActiveWin" name="ZbFGetTrainBackActiveWinX" decorated_name="UINT8_T GetTrainBackActiveWin(void)">
+      <definition type="orig" source="code" file_id="1" line="436" col="9"/>
+    </Function>
+    <Function id="SetSlpAwakPoint" name="ZPSetSlpAwakPointX" decorated_name="void SetSlpAwakPoint(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="442" col="6"/>
+    </Function>
+    <Function id="GetSlpAwakPoint" name="ZPGetSlpAwakPointX" decorated_name="UINT8_T GetSlpAwakPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="448" col="9"/>
+    </Function>
+    <Function id="GetFrontOfTheGaragePoint" name="ZbIGetFrontOfTheGaragePointX" decorated_name="UINT8_T GetFrontOfTheGaragePoint(void)">
+      <definition type="orig" source="code" file_id="1" line="454" col="9"/>
+    </Function>
+    <Function id="SetFrontOfTheGaragePoint" name="ZbISetFrontOfTheGaragePointX" decorated_name="void SetFrontOfTheGaragePoint(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="459" col="6"/>
+    </Function>
+    <Function id="GetFrontEndWashPoint" name="ZbEGetFrontEndWashPointX" decorated_name="UINT8_T GetFrontEndWashPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="464" col="9"/>
+    </Function>
+    <Function id="SetFrontEndWashPoint" name="ZbESetFrontEndWashPointX" decorated_name="void SetFrontEndWashPoint(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="469" col="6"/>
+    </Function>
+    <Function id="GetRearEndWashPoint" name="ZbDGetRearEndWashPointX" decorated_name="UINT8_T GetRearEndWashPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="474" col="9"/>
+    </Function>
+    <Function id="SetRearEndWashPoint" name="ZbDSetRearEndWashPointX" decorated_name="void SetRearEndWashPoint(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="479" col="6"/>
+    </Function>
+    <Function id="GetWashFinishPoint" name="ZbCGetWashFinishPointX" decorated_name="UINT8_T GetWashFinishPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="485" col="9"/>
+    </Function>
+    <Function id="SetWashFinishPoint" name="ZbCSetWashFinishPointX" decorated_name="void SetWashFinishPoint(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="490" col="6"/>
+    </Function>
+    <Function id="SetInttCouplPoint" name="ZbBSetInttCouplPointX" decorated_name="void SetInttCouplPoint(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="495" col="6"/>
+    </Function>
+    <Function id="GetInttCouplPoint" name="ZbBGetInttCouplPointX" decorated_name="UINT8_T GetInttCouplPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="500" col="9"/>
+    </Function>
+    <Function id="SetPssCouplPoint" name="ZbASetPssCouplPointX" decorated_name="void SetPssCouplPoint(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="505" col="6"/>
+    </Function>
+    <Function id="GetPssCouplPoint" name="ZbAGetPssCouplPointX" decorated_name="UINT8_T GetPssCouplPoint(void)">
+      <definition type="orig" source="code" file_id="1" line="510" col="9"/>
+    </Function>
+    <Function id="SetUncouplePoint" name="ZbASetUncouplePointX" decorated_name="void SetUncouplePoint(const UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="515" col="6"/>
+    </Function>
+    <Function id="GetUncouplePoint" name="ZbAGetUncouplePointX" decorated_name="UINT8_T GetUncouplePoint(void)">
+      <definition type="orig" source="code" file_id="1" line="520" col="9"/>
+    </Function>
+    <Function id="SetTrainInExitSecFlag" name="ZbFSetTrainInExitSecFlagX" decorated_name="void SetTrainInExitSecFlag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="528" col="6"/>
+    </Function>
+    <Function id="GetTrainInExitSecFlag" name="ZbFGetTrainInExitSecFlagX" decorated_name="UINT8_T GetTrainInExitSecFlag(void)">
+      <definition type="orig" source="code" file_id="1" line="534" col="9"/>
+    </Function>
+    <Function id="SetItcExitRoute" name="ZPSetItcExitRouteX" decorated_name="void SetItcExitRoute(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="540" col="6"/>
+    </Function>
+    <Function id="GetItcExitRoute" name="ZPGetItcExitRouteX" decorated_name="UINT8_T GetItcExitRoute(void)">
+      <definition type="orig" source="code" file_id="1" line="546" col="9"/>
+    </Function>
+    <Function id="SetCbtcExitRoute" name="ZbASetCbtcExitRouteX" decorated_name="void SetCbtcExitRoute(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="552" col="6"/>
+    </Function>
+    <Function id="GetCbtcExitRoute" name="ZbAGetCbtcExitRouteX" decorated_name="UINT8_T GetCbtcExitRoute(void)">
+      <definition type="orig" source="code" file_id="1" line="558" col="9"/>
+    </Function>
+    <Function id="SetBackDepot" name="ZMSetBackDepotX" decorated_name="void SetBackDepot(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="564" col="6"/>
+    </Function>
+    <Function id="GetBackDepot" name="ZMGetBackDepotX" decorated_name="UINT8_T GetBackDepot(void)">
+      <definition type="orig" source="code" file_id="1" line="570" col="9"/>
+    </Function>
+    <Function id="SetBackCarbarn" name="ZOSetBackCarbarnX" decorated_name="void SetBackCarbarn(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="576" col="6"/>
+    </Function>
+    <Function id="GetBackCarbarn" name="ZOGetBackCarbarnX" decorated_name="UINT8_T GetBackCarbarn(void)">
+      <definition type="orig" source="code" file_id="1" line="582" col="9"/>
+    </Function>
+    <Function id="SetBackDepotLoc" name="ZPSetBackDepotLocX" decorated_name="void SetBackDepotLoc(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="588" col="6"/>
+    </Function>
+    <Function id="GetBackDepotLoc" name="ZPGetBackDepotLocX" decorated_name="UINT8_T GetBackDepotLoc(void)">
+      <definition type="orig" source="code" file_id="1" line="594" col="9"/>
+    </Function>
+    <Function id="SetToMaEndNearCtcEtArea" name="ZbHSetToMaEndNearCtcEtAreaX" decorated_name="void SetToMaEndNearCtcEtArea(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="600" col="6"/>
+    </Function>
+    <Function id="GetToMaEndNearCtcEtArea" name="ZbHGetToMaEndNearCtcEtAreaX" decorated_name="UINT8_T GetToMaEndNearCtcEtArea(void)">
+      <definition type="orig" source="code" file_id="1" line="606" col="9"/>
+    </Function>
+    <Function id="SetInExitAreaByLocTag" name="ZbFSetInExitAreaByLocTagX" decorated_name="void SetInExitAreaByLocTag(UINT8_T)">
+      <definition type="orig" source="code" file_id="1" line="612" col="6"/>
+    </Function>
+    <Function id="GetInExitAreaByLocTag" name="ZbFGetInExitAreaByLocTagX" decorated_name="UINT8_T GetInExitAreaByLocTag(void)">
+      <definition type="orig" source="code" file_id="1" line="618" col="9"/>
+    </Function>
+    <Pragma id="105104712_0_376" type="comment_lib" value="uuid.lib"/>
+    <Pragma id="1640312266_0_79" type="comment_lib" value="uuid.lib"/>
+</Symbols>
+
