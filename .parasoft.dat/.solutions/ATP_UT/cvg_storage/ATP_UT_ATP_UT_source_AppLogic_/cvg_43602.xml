@@ -4,9 +4,16 @@
     <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
     <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
   </VersionInfos>
+  <CtxList ids="-313272976688331044 2170576627065934493" uniqueId2MainId="CPP://4150198036076747339 CPP://-3065871705005238308" />
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c;20;TrainIntegrityFunc" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c;20;TrainIntegrityFunc" total="2" num="2" />
   </Stats>
+  <ResultInfo cvgType="LC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c;20;TrainIntegrityFunc">
+      <CtxCvg ctx="-313272976688331044" ids="23" />
+      <CtxCvg ctx="2170576627065934493" ids="23 26" />
+    </DynCvg>
+  </ResultInfo>
   <ResultInfo cvgType="LC" stat="true">
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c;20;TrainIntegrityFunc" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c" show="true" lns="23 26" />
   </ResultInfo>

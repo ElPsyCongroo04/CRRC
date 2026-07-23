@@ -398,7 +398,66 @@ CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_48);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_49);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_50);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_51);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_52);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_53);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_54);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_55);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_56);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_57);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_58);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_59);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_60);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_61);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_62);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_63);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_64);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_65);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_66);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlARConditionChk_67);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_0);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_1);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_2);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_3);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_4);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_0);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_1);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_2);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_3);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_4);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_5);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_6);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_7);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_8);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_9);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAnyLocReverse_10);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_0);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_1);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_2);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_3);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_4);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_5);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_6);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_7);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_8);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_9);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_10);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_11);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_12);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_13);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_14);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_15);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_16);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_FamAutoReverse_17);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_74);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_75);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_76);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_77);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_78);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_79);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_80);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_81);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_82);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_83);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_IdleRevFunc_22);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_IdleRevFunc_23);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_22);
@@ -473,8 +532,104 @@ CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_40);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_41);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_42);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_43);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_44);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_45);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_46);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_47);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_48);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_49);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_50);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_51);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_52);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_53);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_54);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_55);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_CtrlRevFunc_56);
 CPPTEST_TEST(TestSuite_ReverseHandle_test_IdleRevFunc_47);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_0);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_1);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_2);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_3);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_4);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_5);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_6);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_7);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_8);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_9);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_10);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_11);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_12);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_13);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_14);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_15);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmAutoReverse_16);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_EnterAmAutoReverse_0);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_EnterAmAutoReverse_1);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_0);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_1);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_2);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_3);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_4);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_5);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_6);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_7);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_8);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_9);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_10);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_11);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_AmCmManReverse_12);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_0);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_1);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_2);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_3);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_4);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_5);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_6);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_7);
+CPPTEST_TEST(TestSuite_ReverseHandle_test_ReverseTypeChk_8);
 CPPTEST_TEST_SUITE_END();
+
+void TestSuite_ReverseHandle_test_AmAutoReverse_0();
+void TestSuite_ReverseHandle_test_AmAutoReverse_1();
+void TestSuite_ReverseHandle_test_AmAutoReverse_2();
+void TestSuite_ReverseHandle_test_AmAutoReverse_3();
+void TestSuite_ReverseHandle_test_AmAutoReverse_4();
+void TestSuite_ReverseHandle_test_AmAutoReverse_5();
+void TestSuite_ReverseHandle_test_AmAutoReverse_6();
+void TestSuite_ReverseHandle_test_AmAutoReverse_7();
+void TestSuite_ReverseHandle_test_AmAutoReverse_8();
+void TestSuite_ReverseHandle_test_AmAutoReverse_9();
+void TestSuite_ReverseHandle_test_AmAutoReverse_10();
+void TestSuite_ReverseHandle_test_AmAutoReverse_11();
+void TestSuite_ReverseHandle_test_AmAutoReverse_12();
+void TestSuite_ReverseHandle_test_AmAutoReverse_13();
+void TestSuite_ReverseHandle_test_AmAutoReverse_14();
+void TestSuite_ReverseHandle_test_AmAutoReverse_15();
+void TestSuite_ReverseHandle_test_AmAutoReverse_16();
+void TestSuite_ReverseHandle_test_EnterAmAutoReverse_0();
+void TestSuite_ReverseHandle_test_EnterAmAutoReverse_1();
+void TestSuite_ReverseHandle_test_AmCmManReverse_0();
+void TestSuite_ReverseHandle_test_AmCmManReverse_1();
+void TestSuite_ReverseHandle_test_AmCmManReverse_2();
+void TestSuite_ReverseHandle_test_AmCmManReverse_3();
+void TestSuite_ReverseHandle_test_AmCmManReverse_4();
+void TestSuite_ReverseHandle_test_AmCmManReverse_5();
+void TestSuite_ReverseHandle_test_AmCmManReverse_6();
+void TestSuite_ReverseHandle_test_AmCmManReverse_7();
+void TestSuite_ReverseHandle_test_AmCmManReverse_8();
+void TestSuite_ReverseHandle_test_AmCmManReverse_9();
+void TestSuite_ReverseHandle_test_AmCmManReverse_10();
+void TestSuite_ReverseHandle_test_AmCmManReverse_11();
+void TestSuite_ReverseHandle_test_AmCmManReverse_12();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_0();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_1();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_2();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_3();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_4();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_5();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_6();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_7();
+void TestSuite_ReverseHandle_test_ReverseTypeChk_8();
         
 
 
@@ -872,7 +1027,94 @@ void TestSuite_ReverseHandle_test_CtrlARConditionChk_48();
 void TestSuite_ReverseHandle_test_CtrlARConditionChk_49();
 void TestSuite_ReverseHandle_test_CtrlARConditionChk_50();
 void TestSuite_ReverseHandle_test_CtrlARConditionChk_51();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_52();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_53();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_54();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_55();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_56();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_57();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_58();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_59();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_60();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_61();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_62();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_63();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_64();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_65();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_66();
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_67();
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_0();
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_1();
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_2();
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_3();
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_4();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_0();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_1();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_2();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_3();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_4();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_5();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_6();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_7();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_8();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_9();
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_10();
+void TestSuite_ReverseHandle_test_FamAutoReverse_0();
+void TestSuite_ReverseHandle_test_FamAutoReverse_1();
+void TestSuite_ReverseHandle_test_FamAutoReverse_2();
+void TestSuite_ReverseHandle_test_FamAutoReverse_3();
+void TestSuite_ReverseHandle_test_FamAutoReverse_4();
+void TestSuite_ReverseHandle_test_FamAutoReverse_5();
+void TestSuite_ReverseHandle_test_FamAutoReverse_6();
+void TestSuite_ReverseHandle_test_FamAutoReverse_7();
+void TestSuite_ReverseHandle_test_FamAutoReverse_8();
+void TestSuite_ReverseHandle_test_FamAutoReverse_9();
+void TestSuite_ReverseHandle_test_FamAutoReverse_10();
+void TestSuite_ReverseHandle_test_FamAutoReverse_11();
+void TestSuite_ReverseHandle_test_FamAutoReverse_12();
+void TestSuite_ReverseHandle_test_FamAutoReverse_13();
+void TestSuite_ReverseHandle_test_FamAutoReverse_14();
+void TestSuite_ReverseHandle_test_FamAutoReverse_15();
+void TestSuite_ReverseHandle_test_FamAutoReverse_16();
+void TestSuite_ReverseHandle_test_FamAutoReverse_17();
 void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_74();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_75();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_76();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_77();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_78();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_79();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_80();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_81();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_82();
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_83();
+extern UINT32_T g_CtrlVOBCEnterAR_Target_GetCurAtpCtrlStateCalls;
+extern UINT32_T g_CtrlVOBCEnterAR_Target_GetOppoAtpComuStatusCalls;
+extern UINT32_T g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoCalls;
+extern UINT32_T g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoValue;
+extern UINT32_T g_CtrlVOBCEnterAR_Target_ReverseEnterArInitCalls;
+extern void ResetCtrlVOBCEnterARTargetStubSpy(void);
+
+static void AssertCtrlVOBCEnterARTarget(
+    UINT32_T ctrlStateCalls,
+    UINT32_T oppoComCalls,
+    UINT32_T expectedError)
+{
+    CPPTEST_ASSERT_UINTEGER_EQUAL(
+        ctrlStateCalls,
+        g_CtrlVOBCEnterAR_Target_GetCurAtpCtrlStateCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(
+        oppoComCalls,
+        g_CtrlVOBCEnterAR_Target_GetOppoAtpComuStatusCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(
+        1U,
+        g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(
+        expectedError,
+        g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoValue);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(
+        1U,
+        g_CtrlVOBCEnterAR_Target_ReverseEnterArInitCalls);
+}
 void TestSuite_ReverseHandle_test_IdleRevFunc_22();
 void TestSuite_ReverseHandle_test_IdleRevFunc_23();
 void TestSuite_ReverseHandle_test_CtrlRevFunc_22();
@@ -947,6 +1189,60 @@ void TestSuite_ReverseHandle_test_CtrlRevFunc_40();
 void TestSuite_ReverseHandle_test_CtrlRevFunc_41();
 void TestSuite_ReverseHandle_test_CtrlRevFunc_42();
 void TestSuite_ReverseHandle_test_CtrlRevFunc_43();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_44();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_45();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_46();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_47();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_48();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_49();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_50();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_51();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_52();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_53();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_54();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_55();
+void TestSuite_ReverseHandle_test_CtrlRevFunc_56();
+extern UINT32_T g_CtrlRevFunc_ReverseTypeChkCalls;
+extern UINT32_T g_CtrlRevFunc_FamAutoReverseCalls;
+extern UINT32_T g_CtrlRevFunc_FamAnyLocReverseCalls;
+extern UINT32_T g_CtrlRevFunc_AmAutoReverseCalls;
+extern UINT32_T g_CtrlRevFunc_AmCmManReverseCalls;
+extern UINT32_T g_CtrlRevFunc_EnterAmAutoReverseCalls;
+extern UINT32_T g_CtrlRevFunc_ReverseEnterArInitCalls;
+extern UINT32_T g_CtrlRevFunc_ReverseCBTCInitCalls;
+extern UINT32_T g_CtrlRevFunc_SetReversingIdleReverseStepCalls;
+extern UINT8_T g_CtrlRevFunc_SetReversingIdleReverseStepValue;
+extern UINT32_T g_CtrlRevFunc_SetReverseIdleReverseTimerCalls;
+extern UINT16_T g_CtrlRevFunc_SetReverseIdleReverseTimerValue;
+extern void ResetCtrlRevFuncStubSpy(void);
+
+static void AssertCtrlRevFuncSpies(
+    UINT32_T reverseTypeChkCalls,
+    UINT32_T famAutoReverseCalls,
+    UINT32_T famAnyLocReverseCalls,
+    UINT32_T amAutoReverseCalls,
+    UINT32_T amCmManReverseCalls,
+    UINT32_T enterAmAutoReverseCalls,
+    UINT32_T reverseEnterArInitCalls,
+    UINT32_T reverseCBTCInitCalls,
+    UINT32_T zeroSpeedResetCalls)
+{
+    CPPTEST_ASSERT_UINTEGER_EQUAL(reverseTypeChkCalls, g_CtrlRevFunc_ReverseTypeChkCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(famAutoReverseCalls, g_CtrlRevFunc_FamAutoReverseCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(famAnyLocReverseCalls, g_CtrlRevFunc_FamAnyLocReverseCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(amAutoReverseCalls, g_CtrlRevFunc_AmAutoReverseCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(amCmManReverseCalls, g_CtrlRevFunc_AmCmManReverseCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(enterAmAutoReverseCalls, g_CtrlRevFunc_EnterAmAutoReverseCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(reverseEnterArInitCalls, g_CtrlRevFunc_ReverseEnterArInitCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(reverseCBTCInitCalls, g_CtrlRevFunc_ReverseCBTCInitCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(zeroSpeedResetCalls, g_CtrlRevFunc_SetReversingIdleReverseStepCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(zeroSpeedResetCalls, g_CtrlRevFunc_SetReverseIdleReverseTimerCalls);
+    if (1U == zeroSpeedResetCalls)
+    {
+        CPPTEST_ASSERT_UINTEGER_EQUAL(STEPONE, g_CtrlRevFunc_SetReversingIdleReverseStepValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(DEFAULT_ZERO, g_CtrlRevFunc_SetReverseIdleReverseTimerValue);
+    }
+}
 void TestSuite_ReverseHandle_test_IdleRevFunc_47();
 CPPTEST_TEST_SUITE_REGISTRATION(TestSuite_ReverseHandle);
 
@@ -17035,6 +17331,285 @@ void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_74()
 }
 /* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_74 */
 
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_75 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,1,x,x,x] -> 1
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 本地版本与空闲端版本一致且本端为ACTIVE，后续两个或项均短路。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_75()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(1U, 0U, REVERSE_ENTERAR_NOID);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_75 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_76 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,0,1,1,x] -> 1
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 第一个与项为假，第二个与项为真，通信状态条件短路。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_76()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(2U, 0U, REVERSE_ENTERAR_NOID);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_76 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_77 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,0,1,0,1] -> 1
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 前两个与项均为假，对端通信异常使整个条件为真。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_77()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(2U, 1U, REVERSE_ENTERAR_NOID);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_77 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_78 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 不满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,0,1,0,0] -> 0
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 前两个与项和通信异常条件均为假，执行数据库版本不一致处理。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_78()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(2U, 1U, REVERSE_ENTERAR_DBVER);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_78 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_79 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,x,1,1,x] -> 1
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 首个版本比较为假，其状态条件不求值；第二个与项为真。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_79()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(1U, 0U, REVERSE_ENTERAR_NOID);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_79 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_80 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,x,1,0,1] -> 1
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 首个与项短路、第二个与项为假，对端通信异常使条件为真。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_80()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(1U, 1U, REVERSE_ENTERAR_NOID);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_80 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_81 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 不满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,x,1,0,0] -> 0
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 首个与项短路，第二个与项和通信异常条件均为假。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_81()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(1U, 1U, REVERSE_ENTERAR_DBVER);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_81 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_82 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,x,0,x,1] -> 1
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 两个版本比较均为假，两个控制状态条件均不求值，通信异常使条件为真。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_82()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(0U, 1U, REVERSE_ENTERAR_NOID);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_82 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlVOBCEnterAR_83 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlVOBCEnterAR(void) */
+/**
+ * =测试目的=
+ *   验证CtrlVOBCEnterAR第一步中的版本、主控状态和对端通信复合条件。
+ * - 不满足if (((localCmpVer == idleCmpVer) && ((UINT8_T)ACTIVE == GetCurAtpCtrlState())) || ((localCmpVer == ctrlCmpVer) && ((UINT8_T)ACTIVE != GetCurAtpCtrlState())) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,x,0,x,0] -> 0
+ *
+ * =被测函数=
+ *   CtrlVOBCEnterAR
+ *
+ * =初始条件=
+ *   GetArEnterARStep返回STEPONE，三个版本Getter及状态Getter按当前组合返回。
+ *
+ * =操作步骤=
+ * - 复位目标条件专用Getter计数和输出Spy。
+ * - 调用CtrlVOBCEnterAR。
+ * - 检查控制状态、对端通信Getter的求值次数及错误处理输出。
+ *
+ * =预期结果=
+ * - 两个版本比较均为假且通信正常，整个条件为假。
+ * - 目标条件为真时进入折返点检查并记录REVERSE_ENTERAR_NOID；为假时记录REVERSE_ENTERAR_DBVER。
+ */
+void TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_83()
+{
+    ResetCtrlVOBCEnterARTargetStubSpy();
+    CtrlVOBCEnterAR();
+    AssertCtrlVOBCEnterARTarget(0U, 1U, REVERSE_ENTERAR_DBVER);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlVOBCEnterAR_83 */
+
+
 /* CPPTEST_TEST_CASE_BEGIN test_IdleRevFunc_22 */
 /* CPPTEST_TEST_CASE_CONTEXT void IdleRevFunc(void) */
 /**
@@ -20174,6 +20749,415 @@ void TestSuite_ReverseHandle_test_CtrlRevFunc_43()
 }
 /* CPPTEST_TEST_CASE_END test_CtrlRevFunc_43 */
 
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_44 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 不满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [0,x] -> 0
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - 首个定位条件为假，外层处理被短路；非零速复位两个空闲折返量。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_44()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 1U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_44 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_45 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 不满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,0,x] -> 0
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - 定位条件为真而停稳条件为假，后续外层子条件被短路。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_45()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_45 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_46 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 不满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,0,x] -> 0
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - 定位和停稳条件为真而MA有效条件为假，控制级别条件被短路。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_46()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_46 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_47 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 不满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,0] -> 0
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - 前三个条件为真而控制级别不是TACS，未调用折返类型检查。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_47()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_47 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_48 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 满足if (FAM_MODE == runDrvMode) [1] -> 1
+ * - 满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [1] -> 1
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - 外层条件全真，FAM模式且MA终点为折返属性，只调用FamAutoReverse。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_48()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 1U, 0U, 0U, 0U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_48 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_49 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 不满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [0] -> 0
+ * - 满足else if (ZC_VOBC_MA_END_PASS == maEndMaType) [1] -> 1
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - FAM模式且MA终点为通过属性，只调用FamAnyLocReverse。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_49()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 0U, 1U, 0U, 0U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_49 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_50 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 不满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [0] -> 0
+ * - 不满足else if (ZC_VOBC_MA_END_PASS == maEndMaType) [0] -> 0
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - FAM模式下MA终点不是折返或通过属性，不调用两个FAM处理函数。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_50()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_50 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_51 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 不满足if (FAM_MODE == runDrvMode) [0] -> 0
+ * - 满足if (AR_MODE == runDrvMode) [1] -> 1
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - AR模式只调用AmAutoReverse。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_51()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 0U, 0U, 1U, 0U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_51 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_52 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 满足else if ((AM_MODE == runDrvMode) || (CM_MODE == runDrvMode)) [1,x] -> 1
+ * - 满足if ((REVERSE_TYPE_STA_B == reverseType) || (REVERSE_TYPE_STA_A == reverseType)) [1,x] -> 1
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - AM模式且折返类型为STA_B，只调用AmCmManReverse。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_52()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 0U, 0U, 0U, 1U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_52 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_53 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 满足else if ((AM_MODE == runDrvMode) || (CM_MODE == runDrvMode)) [0,1] -> 1
+ * - 满足if ((REVERSE_TYPE_STA_B == reverseType) || (REVERSE_TYPE_STA_A == reverseType)) [0,1] -> 1
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - CM模式且折返类型为STA_A，只调用AmCmManReverse。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_53()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 0U, 0U, 0U, 1U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_53 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_54 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 满足else if ((AM_MODE == runDrvMode) || (CM_MODE == runDrvMode)) [1,x] -> 1
+ * - 不满足if ((REVERSE_TYPE_STA_B == reverseType) || (REVERSE_TYPE_STA_A == reverseType)) [0,0] -> 0
+ * - 满足else if (REVERSE_TYPE_STA_AR == reverseType) [1] -> 1
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - AM模式且为无人折返类型，只调用EnterAmAutoReverse。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_54()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 0U, 0U, 0U, 0U, 1U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_54 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_55 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 满足else if ((AM_MODE == runDrvMode) || (CM_MODE == runDrvMode)) [0,1] -> 1
+ * - 不满足if ((REVERSE_TYPE_STA_B == reverseType) || (REVERSE_TYPE_STA_A == reverseType)) [0,0] -> 0
+ * - 不满足else if (REVERSE_TYPE_STA_AR == reverseType) [0] -> 0
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - CM模式且折返类型不匹配，调用两个清理函数。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_55()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 0U, 0U, 0U, 0U, 0U, 1U, 1U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_55 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlRevFunc_56 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlRevFunc(void) */
+/**
+ * =测试目的=
+ *   验证CtrlRevFunc的指定条件组合。
+ * - 满足if (((UINT8_T)LOC_LOCALIZED == GetTrainLocAllow()) && (ATP_TRUE == GetTrainStopSteady()) && (MA_VALID_YES == GetMaValid()) && (TACS_LEVEL == GetRunCtrlLevel())) [1,1,1,1] -> 1
+ * - 不满足else if ((AM_MODE == runDrvMode) || (CM_MODE == runDrvMode)) [0,0] -> 0
+ *
+ * =被测函数=
+ *   CtrlRevFunc
+ *
+ * =初始条件=
+ *   Getter用户桩按当前测试用例名返回目标输入，所有CtrlRevFunc专用Spy均已复位。
+ *
+ * =操作步骤=
+ * - 复位CtrlRevFunc专用Spy。
+ * - 调用CtrlRevFunc。
+ * - 检查直接分支函数及零速复位Setter的调用次数和参数。
+ *
+ * =预期结果=
+ * - 非FAM、AR、AM和CM模式，不调用任何模式处理函数。
+ */
+void TestSuite_ReverseHandle_test_CtrlRevFunc_56()
+{
+    ResetCtrlRevFuncStubSpy();
+    CtrlRevFunc();
+    AssertCtrlRevFuncSpies(1U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U);
+}
+/* CPPTEST_TEST_CASE_END test_CtrlRevFunc_56 */
+
+
 /* CPPTEST_TEST_CASE_BEGIN test_IdleRevFunc_47 */
 /* CPPTEST_TEST_CASE_CONTEXT void IdleRevFunc(void) */
 /**
@@ -20212,3 +21196,3062 @@ void TestSuite_ReverseHandle_test_IdleRevFunc_47()
     }
 }
 /* CPPTEST_TEST_CASE_END test_IdleRevFunc_47 */
+
+extern void ResetReverseTypeChkStubSpy(void);
+extern UINT32_T g_ReverseTypeChk_AddSysAutoReverseErrNoCalls;
+extern UINT32_T g_ReverseTypeChk_AddSysAutoReverseErrNoValue;
+extern UINT32_T g_ReverseTypeChk_ReverseEnterArInitCalls;
+extern UINT32_T g_ReverseTypeChk_ReverseCBTCInitCalls;extern void ResetAmAutoReverseStubSpy(void);
+extern void ResetEnterAmAutoReverseStubSpy(void);
+extern UINT32_T g_EnterAmAutoReverse_AddSysAutoReverseErrNoCalls;
+extern UINT32_T g_EnterAmAutoReverse_AddSysAutoReverseErrNoValue;
+extern UINT32_T g_EnterAmAutoReverse_ReverseEnterArInitCalls;
+extern UINT32_T g_EnterAmAutoReverse_ReverseCBTCInitCalls;
+extern UINT32_T g_EnterAmAutoReverse_SetFamModelInstructCalls;
+extern UINT8_T g_EnterAmAutoReverse_SetFamModelInstructValue;
+extern void ResetCtrlARConditionChkStubSpy(void);
+extern UINT32_T g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls;
+extern void ResetCtrlAutoChangeEndStubSpy(void);
+extern UINT32_T g_CtrlAutoChangeEnd_GetCurAtpCtrlStateCalls;
+extern UINT32_T g_CtrlAutoChangeEnd_GetIdleToCtlNoticeCalls;
+extern UINT32_T g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls;
+extern UINT32_T g_CtrlAutoChangeEnd_GetRunAtpModeCalls;
+extern UINT32_T g_CtrlAutoChangeEnd_SetCtlToIdleNoticeCalls;
+extern UINT8_T g_CtrlAutoChangeEnd_SetCtlToIdleNoticeValue;
+extern UINT32_T g_CtrlAutoChangeEnd_SetLocalArRelayCalls;
+extern UINT8_T g_CtrlAutoChangeEnd_SetLocalArRelayValue;
+extern UINT32_T g_CtrlAutoChangeEnd_SetOppoArRelayCalls;
+extern UINT8_T g_CtrlAutoChangeEnd_SetOppoArRelayValue;
+extern UINT32_T g_CtrlAutoChangeEnd_SetOutRunForwardCalls;
+extern UINT8_T g_CtrlAutoChangeEnd_SetOutRunForwardValue;
+extern UINT32_T g_CtrlAutoChangeEnd_SetOutRunForBackwardCalls;
+extern UINT8_T g_CtrlAutoChangeEnd_SetOutRunForBackwardValue;
+extern UINT32_T g_CtrlAutoChangeEnd_SetStopActToSaftyFlagCalls;
+extern UINT8_T g_CtrlAutoChangeEnd_SetStopActToSaftyFlagValue;
+extern void ResetFamAnyLocReverseStubSpy(void);
+extern UINT32_T g_FamAnyLocReverse_GetOppoAtpComuStatusCalls;
+extern UINT32_T g_FamAnyLocReverse_GetRunAtpModeCalls;
+extern UINT32_T g_FamAnyLocReverse_SetArReversingFirstTagCalls;
+extern UINT8_T g_FamAnyLocReverse_SetArReversingFirstTagValue;
+extern UINT32_T g_FamAnyLocReverse_SetStopActToSaftyFlagCalls;
+extern UINT8_T g_FamAnyLocReverse_SetStopActToSaftyFlagValue;
+extern UINT32_T g_FamAnyLocReverse_SetCtlToIdleNoticeCalls;
+extern UINT8_T g_FamAnyLocReverse_SetCtlToIdleNoticeValue;
+extern UINT32_T g_FamAnyLocReverse_SetLocalArRelayCalls;
+extern UINT8_T g_FamAnyLocReverse_SetLocalArRelayValue;
+extern UINT32_T g_FamAnyLocReverse_SetOppoArRelayCalls;
+extern UINT8_T g_FamAnyLocReverse_SetOppoArRelayValue;
+extern UINT32_T g_FamAnyLocReverse_SetOutRunForwardCalls;
+extern UINT8_T g_FamAnyLocReverse_SetOutRunForwardValue;
+extern UINT32_T g_FamAnyLocReverse_SetOutRunForBackwardCalls;
+extern UINT8_T g_FamAnyLocReverse_SetOutRunForBackwardValue;
+extern void ResetFamAutoReverseStubSpy(void);
+extern UINT32_T g_FamAutoReverse_GetInMeaDoorStatusCalls;
+extern UINT32_T g_FamAutoReverse_GetOppoAtpComuStatusCalls;
+extern UINT32_T g_FamAutoReverse_GetRunAtpModeCalls;
+extern UINT32_T g_FamAutoReverse_SetDoorRevOpenDoorTimerCalls;
+extern UINT32_T g_FamAutoReverse_SetDoorRevOpenDoorTimerValue;
+extern UINT32_T g_FamAutoReverse_AddSysAutoReverseErrNoCalls;
+extern UINT32_T g_FamAutoReverse_AddSysAutoReverseErrNoValue;
+extern UINT32_T g_FamAutoReverse_SetCtlToIdleNoticeCalls;
+extern UINT8_T g_FamAutoReverse_SetCtlToIdleNoticeValue;
+extern UINT32_T g_FamAutoReverse_SetArReversingFirstTagCalls;
+extern UINT8_T g_FamAutoReverse_SetArReversingFirstTagValue;
+extern UINT32_T g_FamAutoReverse_SetStopActToSaftyFlagCalls;
+extern UINT8_T g_FamAutoReverse_SetStopActToSaftyFlagValue;
+extern UINT32_T g_FamAutoReverse_SetLocalArRelayCalls;
+extern UINT8_T g_FamAutoReverse_SetLocalArRelayValue;
+extern UINT32_T g_FamAutoReverse_SetOppoArRelayCalls;
+extern UINT8_T g_FamAutoReverse_SetOppoArRelayValue;
+extern UINT32_T g_FamAutoReverse_SetOutRunForwardCalls;
+extern UINT8_T g_FamAutoReverse_SetOutRunForwardValue;
+extern UINT32_T g_FamAutoReverse_SetOutRunForBackwardCalls;
+extern UINT8_T g_FamAutoReverse_SetOutRunForBackwardValue;
+extern UINT32_T g_AmAutoReverse_GetCurAtpCtrlStateCalls;
+extern UINT32_T g_AmAutoReverse_GetReversePointCalls;
+extern UINT32_T g_AmAutoReverse_GetReversePointTypeCalls;
+extern UINT32_T g_AmAutoReverse_GetStopPointIdCalls;
+extern UINT32_T g_AmAutoReverse_GetReverseStopPointIdCalls;
+extern UINT32_T g_AmAutoReverse_GetMaEndMaTypeCalls;
+extern UINT32_T g_AmAutoReverse_GetArReversingFirstTagCalls;
+extern UINT32_T g_AmAutoReverse_GetIdleToCtlNoticeCalls;
+extern UINT32_T g_AmAutoReverse_GetOppoAtpComuStatusCalls;
+extern UINT32_T g_AmAutoReverse_GetInMeaDoorStatusCalls;
+extern UINT32_T g_AmAutoReverse_GetRunAtpModeCalls;
+extern UINT32_T g_AmAutoReverse_SetArReversingTagCalls;
+extern UINT8_T g_AmAutoReverse_SetArReversingTagValue;
+extern UINT32_T g_AmAutoReverse_SetStopActToSaftyFlagCalls;
+extern UINT8_T g_AmAutoReverse_SetStopActToSaftyFlagValue;
+extern UINT32_T g_AmAutoReverse_SetArReversingFirstTagCalls;
+extern UINT8_T g_AmAutoReverse_SetArReversingFirstTagValue;
+extern UINT32_T g_AmAutoReverse_SetRunModeConverseCalls;
+extern UINT8_T g_AmAutoReverse_SetRunModeConverseValue;
+extern UINT32_T g_AmAutoReverse_SetLocalArRelayCalls;
+extern UINT8_T g_AmAutoReverse_SetLocalArRelayValue;
+extern UINT32_T g_AmAutoReverse_SetOppoArRelayCalls;
+extern UINT8_T g_AmAutoReverse_SetOppoArRelayValue;
+extern UINT32_T g_AmAutoReverse_SetOutRunForwardCalls;
+extern UINT8_T g_AmAutoReverse_SetOutRunForwardValue;
+extern UINT32_T g_AmAutoReverse_SetOutRunForBackwardCalls;
+extern UINT8_T g_AmAutoReverse_SetOutRunForBackwardValue;
+extern void ResetAmCmManReverseStubSpy(void);
+extern UINT32_T g_AmCmManReverse_GetReversingCbtcReverseStepCalls;
+extern UINT32_T g_AmCmManReverse_GetIdleToCtlCmpVerCalls;
+extern UINT32_T g_AmCmManReverse_GetObcConfigCrcCalls;
+extern UINT32_T g_AmCmManReverse_GetIdleToCtlPreSetModeCalls;
+extern UINT32_T g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls;
+extern UINT32_T g_AmCmManReverse_GetInMeaArBtnCalls;
+extern UINT32_T g_AmCmManReverse_GetInMeaArBtnLastCalls;
+extern UINT32_T g_AmCmManReverse_GetIdleToCtlNoticeCalls;
+extern UINT32_T g_AmCmManReverse_SetReversingCbtcReverseStepCalls;
+extern UINT8_T g_AmCmManReverse_SetReversingCbtcReverseStepValue;
+extern UINT32_T g_AmCmManReverse_SetSendMmiTrainShuttleInfoCalls;
+extern UINT8_T g_AmCmManReverse_SetSendMmiTrainShuttleInfoValue;
+extern UINT32_T g_AmCmManReverse_SetReversingFalgCalls;
+extern UINT8_T g_AmCmManReverse_SetReversingFalgValue;
+extern UINT32_T g_AmCmManReverse_SetCtlToIdleNoticeCalls;
+extern UINT8_T g_AmCmManReverse_SetCtlToIdleNoticeValue;
+extern UINT32_T g_AmCmManReverse_AddSysAutoReverseErrNoCalls;
+extern UINT32_T g_AmCmManReverse_AddSysAutoReverseErrNoValue;
+extern UINT32_T g_AmCmManReverse_ReverseCBTCInitCalls;
+
+static void InitAmAutoReverseTestData(void)
+{
+    ResetAmAutoReverseStubSpy();
+}
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_0 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (BNF_REVERSE_AREA_AR == (arStopPointAttri & BNF_REVERSE_AREA_AR)) && (stopPointId == reverseStopPointId) && (ZC_VOBC_MA_END_REVERSE == GetMaEndMaType())) [0,x] -> 0
+ *   ATP控制状态不是ACTIVE，后续条件短路，且不置折返进行标志。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_0()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetCurAtpCtrlStateCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetReversePointCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_GetMaEndMaTypeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetArReversingTagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_0 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_1 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (BNF_REVERSE_AREA_AR == (arStopPointAttri & BNF_REVERSE_AREA_AR)) && (stopPointId == reverseStopPointId) && (ZC_VOBC_MA_END_REVERSE == GetMaEndMaType())) [1,0,x] -> 0
+ *   ATP控制状态为ACTIVE，但当前不在折返停车点，后续条件短路。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_1()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetReversePointCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetReversePointTypeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_GetMaEndMaTypeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetArReversingTagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_1 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_2 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (BNF_REVERSE_AREA_AR == (arStopPointAttri & BNF_REVERSE_AREA_AR)) && (stopPointId == reverseStopPointId) && (ZC_VOBC_MA_END_REVERSE == GetMaEndMaType())) [1,1,0,x] -> 0
+ *   停车点属性不包含AR折返区域属性，后续条件短路。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_2()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetReversePointTypeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetStopPointIdCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_GetMaEndMaTypeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetArReversingTagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_2 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_3 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (BNF_REVERSE_AREA_AR == (arStopPointAttri & BNF_REVERSE_AREA_AR)) && (stopPointId == reverseStopPointId) && (ZC_VOBC_MA_END_REVERSE == GetMaEndMaType())) [1,1,1,0,x] -> 0
+ *   当前停车点编号与折返停车点编号不一致。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_3()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetStopPointIdCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetReverseStopPointIdCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_GetMaEndMaTypeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetArReversingTagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_3 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_4 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (BNF_REVERSE_AREA_AR == (arStopPointAttri & BNF_REVERSE_AREA_AR)) && (stopPointId == reverseStopPointId) && (ZC_VOBC_MA_END_REVERSE == GetMaEndMaType())) [1,1,1,1,0] -> 0
+ *   前四项成立，但MA终点类型不是折返类型。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_4()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetMaEndMaTypeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetArReversingTagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_4 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_5 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (BNF_REVERSE_AREA_AR == (arStopPointAttri & BNF_REVERSE_AREA_AR)) && (stopPointId == reverseStopPointId) && (ZC_VOBC_MA_END_REVERSE == GetMaEndMaType())) [1,1,1,1,1] -> 1
+ *   五个子条件全部成立，进入AR换端处理并置折返进行标志。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_5()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetArReversingTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_AmAutoReverse_SetArReversingTagValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetArReversingFirstTagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_5 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_6 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (ATP_FALSE == GetArReversingFirstTag()) [0] -> 0
+ *   首次折返标志已经置位，不重复设置禁止切系标志。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_6()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetArReversingFirstTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetArReversingFirstTagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_6 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_7 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 满足if (ATP_FALSE == GetArReversingFirstTag()) [1] -> 1
+ *   首次进入折返过程，设置禁止切系标志并置首次折返标志。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_7()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetArReversingFirstTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_AmAutoReverse_SetStopActToSaftyFlagValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetArReversingFirstTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_AmAutoReverse_SetArReversingFirstTagValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_7 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_8 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 满足if (((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) && (ATP_CLOSE == GetInMeaDoorStatus())) [1,x,1] -> 1
+ *   已收到位置确认，通信条件短路，车门关闭，进入折出处理。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_8()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetIdleToCtlNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetRunModeConverseCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(RD_TO_AR, g_AmAutoReverse_SetRunModeConverseValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_8 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_9 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) && (ATP_CLOSE == GetInMeaDoorStatus())) [1,x,0] -> 0
+ *   已收到位置确认，但车门未关闭，继续等待。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_9()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetIdleToCtlNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetRunModeConverseCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_9 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_10 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 满足if (((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) && (ATP_CLOSE == GetInMeaDoorStatus())) [0,1,1] -> 1
+ *   未收到位置确认但对端通信异常，且车门关闭，进入折出处理。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_10()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetIdleToCtlNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetRunModeConverseCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(RD_TO_AR, g_AmAutoReverse_SetRunModeConverseValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_10 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_11 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) && (ATP_CLOSE == GetInMeaDoorStatus())) [0,1,0] -> 0
+ *   对端通信异常，但车门未关闭，继续等待。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_11()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetIdleToCtlNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetRunModeConverseCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_11 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_12 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if (((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) && (ATP_CLOSE == GetInMeaDoorStatus())) [0,0,x] -> 0
+ *   未收到位置确认且通信正常，车门条件不求值，继续等待。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_12()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetIdleToCtlNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetRunModeConverseCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_12 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_13 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [1] -> 1
+ *   当前为控本端，吸起对端AR继电器并输出后退方向。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_13()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_DOWN, g_AmAutoReverse_SetLocalArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_UP, g_AmAutoReverse_SetOppoArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_AmAutoReverse_SetOutRunForwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_AmAutoReverse_SetOutRunForBackwardValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_13 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_14 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [0] -> 0
+ *   当前不是控本端，不执行本端控制输出。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_14()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_AmAutoReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetOutRunForBackwardCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_14 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_15 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 满足else if ((UINT8_T)CONTROL_OPPO_ATP == GetRunAtpMode()) [1] -> 1
+ *   对端控制条件成立，吸起本端AR继电器并输出前进方向。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_15()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_AmAutoReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_UP, g_AmAutoReverse_SetLocalArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_DOWN, g_AmAutoReverse_SetOppoArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_AmAutoReverse_SetOutRunForwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmAutoReverse_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_AmAutoReverse_SetOutRunForBackwardValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_15 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmAutoReverse_16 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证AmAutoReverse按照指定短路组合执行。
+ * - 不满足else if ((UINT8_T)CONTROL_OPPO_ATP == GetRunAtpMode()) [0] -> 0
+ *   本端与对端控制条件都不满足，输出保持初始状态。
+ *
+ * =被测函数=
+ *   AmAutoReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出Setter Spy。
+ *
+ * =操作步骤=
+ * - 设置目标条件对应的输入或用户桩返回值
+ * - 调用AmAutoReverse
+ * - 检查Getter调用次数及Setter Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标判断按照指定组合取值并产生对应折返处理结果。
+ */
+void TestSuite_ReverseHandle_test_AmAutoReverse_16()
+{
+    /* Pre-condition initialization */
+    InitAmAutoReverseTestData();
+    {
+        /* Tested function call */
+        AmAutoReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_AmAutoReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmAutoReverse_SetOutRunForBackwardCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmAutoReverse_16 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_0 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPONE数据库版本不一致时结束本轮处理并复位CBTC折返状态。
+ * - 不满足if (idleCmpVer == ctrlCmpVer) [0] -> 0
+ * - 不满足if (DEFAULT_1_VALUE == retVal) [0] -> 0
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_0()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetIdleToCtlCmpVerCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetObcConfigCrcCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_GetIdleToCtlPreSetModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_CBTC_DSUVER_ERROR, g_AmCmManReverse_AddSysAutoReverseErrNoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_ReverseCBTCInitCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_0 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_1 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPONE对端预设CM且零速有效时进入第二步。
+ * - 满足if (idleCmpVer == ctrlCmpVer) [1] -> 1
+ * - 满足if (DEFAULT_1_VALUE == retVal) [1] -> 1
+ * - 满足if ((TACS_CM == idleToCtlPreSetMode) || (TACS_AM == idleToCtlPreSetMode) || (TACS_FAM == idleToCtlPreSetMode)) [1,x,x] -> 1
+ * - 满足if (ZERO_SPEED_TRUE == GetIdleToCtlZeroSpeedTag()) [1] -> 1
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_1()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetIdleToCtlPreSetModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(STEPTWO, g_AmCmManReverse_SetReversingCbtcReverseStepValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_AddSysAutoReverseErrNoCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_1 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_2 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPONE对端预设AM但零速无效时记录速度异常并复位。
+ * - 满足if ((TACS_CM == idleToCtlPreSetMode) || (TACS_AM == idleToCtlPreSetMode) || (TACS_FAM == idleToCtlPreSetMode)) [0,1,x] -> 1
+ * - 不满足if (ZERO_SPEED_TRUE == GetIdleToCtlZeroSpeedTag()) [0] -> 0
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_2()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_CBTC_ANOTHERMODE_SPEED, g_AmCmManReverse_AddSysAutoReverseErrNoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_ReverseCBTCInitCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_2 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_3 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPONE对端预设FAM且零速有效时进入第二步。
+ * - 满足if ((TACS_CM == idleToCtlPreSetMode) || (TACS_AM == idleToCtlPreSetMode) || (TACS_FAM == idleToCtlPreSetMode)) [0,0,1] -> 1
+ * - 满足if (ZERO_SPEED_TRUE == GetIdleToCtlZeroSpeedTag()) [1] -> 1
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_3()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(STEPTWO, g_AmCmManReverse_SetReversingCbtcReverseStepValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_AddSysAutoReverseErrNoCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_3 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_4 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPONE对端预设模式均不满足时记录模式异常并复位。
+ * - 不满足if ((TACS_CM == idleToCtlPreSetMode) || (TACS_AM == idleToCtlPreSetMode) || (TACS_FAM == idleToCtlPreSetMode)) [0,0,0] -> 0
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_4()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetIdleToCtlPreSetModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_CBTC_ANOTHERMODE_ERROR, g_AmCmManReverse_AddSysAutoReverseErrNoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_ReverseCBTCInitCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_4 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_5 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPTWO当前周期AR按钮未按下时短路历史按钮判断并继续等待。
+ * - 不满足if ((ATP_PRESSED == GetInMeaArBtn()) && (ATP_UNPRESSED == GetInMeaArBtnLast())) [0,x] -> 0
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_5()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetInMeaArBtnCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_GetInMeaArBtnLastCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetSendMmiTrainShuttleInfoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(HMI_TURNBACK_AVAIL, g_AmCmManReverse_SetSendMmiTrainShuttleInfoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetReversingFalgCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_5 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_6 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPTWO按钮持续按下、未形成新按下沿时继续等待。
+ * - 不满足if ((ATP_PRESSED == GetInMeaArBtn()) && (ATP_UNPRESSED == GetInMeaArBtnLast())) [1,0] -> 0
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_6()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetInMeaArBtnCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetInMeaArBtnLastCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetReversingFalgCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_6 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_7 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPTWO检测到AR按钮新按下沿时开始折返并进入第三步。
+ * - 满足if ((ATP_PRESSED == GetInMeaArBtn()) && (ATP_UNPRESSED == GetInMeaArBtnLast())) [1,1] -> 1
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_7()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetReversingFalgCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_AmCmManReverse_SetReversingFalgValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TO_OTHER_LOC_NOTICE, g_AmCmManReverse_SetCtlToIdleNoticeValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(STEPTHREE, g_AmCmManReverse_SetReversingCbtcReverseStepValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_7 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_8 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPTHREE发送位置指令并进入第四步。
+ * - 满足switch (GetReversingCbtcReverseStep()) case STEPTHREE
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_8()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetSendMmiTrainShuttleInfoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(HMI_TURNBACK_AVAIL, g_AmCmManReverse_SetSendMmiTrainShuttleInfoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TO_OTHER_LOC_NOTICE, g_AmCmManReverse_SetCtlToIdleNoticeValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(STEPFOUR, g_AmCmManReverse_SetReversingCbtcReverseStepValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_8 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_9 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPFOUR收到对端位置确认时进入第五步。
+ * - 满足if (ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) [1] -> 1
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_9()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetIdleToCtlNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(STEPFIVE, g_AmCmManReverse_SetReversingCbtcReverseStepValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_AddSysAutoReverseErrNoCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_9 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_10 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPFOUR未收到对端位置确认时记录异常并重发位置指令。
+ * - 不满足if (ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) [0] -> 0
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_10()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetIdleToCtlNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_CBTC_NOLOCASSURE_ERROR, g_AmCmManReverse_AddSysAutoReverseErrNoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TO_OTHER_LOC_NOTICE, g_AmCmManReverse_SetCtlToIdleNoticeValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_10 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_11 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证STEPFIVE向司机显示折返进行中提示。
+ * - 满足switch (GetReversingCbtcReverseStep()) case STEPFIVE
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_11()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_SetSendMmiTrainShuttleInfoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(HMI_TURNBACKING, g_AmCmManReverse_SetSendMmiTrainShuttleInfoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetReversingCbtcReverseStepCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_11 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_AmCmManReverse_12 */
+/* CPPTEST_TEST_CASE_CONTEXT void AmCmManReverse(void) */
+/**
+ * =测试目的=
+ *   验证非法CBTC折返步骤进入default并调用初始化。
+ * - 满足switch (GetReversingCbtcReverseStep()) default
+ *
+ * =被测函数=
+ *   AmCmManReverse
+ *
+ * =初始条件=
+ *   复位输入Getter调用计数和输出函数Spy。
+ *
+ * =操作步骤=
+ * - 由用户桩设置本用例对应的CBTC折返步骤和条件输入
+ * - 调用AmCmManReverse
+ * - 检查Getter调用次数及输出函数Spy记录的调用参数
+ *
+ * =预期结果=
+ * - 目标条件按照指定覆盖组合求值，并产生对应折返步骤、提示或错误输出。
+ */
+void TestSuite_ReverseHandle_test_AmCmManReverse_12()
+{
+    /* Pre-condition initialization */
+    ResetAmCmManReverseStubSpy();
+    {
+        /* Tested function call */
+        AmCmManReverse();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_GetReversingCbtcReverseStepCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_AmCmManReverse_ReverseCBTCInitCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_AmCmManReverse_SetSendMmiTrainShuttleInfoCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_AmCmManReverse_12 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_52 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证预设模式两个子条件均为假且对端通信正常时，两个复合判断均不成立。
+ * - 覆盖第一处判断 [0,0,x,x,x,x,x,x,x,x,x] -> 0，第二处判断 [0,0,x,x,x,0] -> 0。
+ * =预期结果=
+ * - CtrlARConditionChk返回UINT8_NULL，且GetAtpCtrlStatBetter因短路不被调用。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_52()
+{
+    UINT8_T _return = UINT8_NULL;
+    /* Pre-condition initialization */
+    ResetCtrlARConditionChkStubSpy();
+    {
+        /* Tested function call */
+        _return = CtrlARConditionChk();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(UINT8_NULL, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_52 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_53 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证预设模式为FAM但ATO设备故障时，两个复合判断均不成立。
+ * - 覆盖第一处判断 [0,1,0,x,x,x,x,x,x,x,x] -> 0，第二处判断 [0,1,0,x,x,0] -> 0。
+ * =预期结果=
+ * - 返回UINT8_NULL，末端状态条件不参与求值。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_53()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(UINT8_NULL, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_53 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_54 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证ATO通信异常且对端通信正常时两个判断均为假。
+ * - 覆盖第一处判断 [1,x,1,0,x,x,x,x,x,x,x] -> 0，第二处判断 [1,x,1,0,x,0] -> 0。
+ * =预期结果=
+ * - 返回UINT8_NULL。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_54()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(UINT8_NULL, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_54 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_55 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证存在断电提示且对端通信正常时两个判断均为假。
+ * - 覆盖第一处判断 [1,x,1,1,0,x,x,x,x,x,x] -> 0，第二处判断 [1,x,1,1,0,0] -> 0。
+ * =预期结果=
+ * - 返回UINT8_NULL。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_55()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(UINT8_NULL, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_55 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_56 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证对端ATP通信异常使第一处判断失败、第二处判断成立。
+ * - 覆盖第一处判断 [1,x,1,1,1,0,x,x,x,x,x] -> 0，第二处判断 [1,x,1,1,1,x] -> 1。
+ * =预期结果=
+ * - 返回ATP_TRUE。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_56()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_56 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_57 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证待控端预设模式两个子条件均为假时，第一处判断失败而第二处左支成立。
+ * - 覆盖第一处判断 [1,x,1,1,1,1,0,0,x,x,x] -> 0。
+ * =预期结果=
+ * - 返回ATP_TRUE。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_57()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_57 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_58 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证两处模式OR的FAM分支，并验证待控端ATO状态条件为假。
+ * - 覆盖第一处判断 [0,1,1,1,1,1,0,1,0,x,x] -> 0。
+ * =预期结果=
+ * - 第二处判断成立并返回ATP_TRUE。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_58()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_58 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_59 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证待控端零速标志条件为假。
+ * - 覆盖第一处判断 [1,x,1,1,1,1,1,x,1,0,x] -> 0。
+ * =预期结果=
+ * - 第二处判断成立并返回ATP_TRUE。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_59()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_59 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_60 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证GetAtpCtrlStatBetter返回WORSE时第一处判断的最后条件为假。
+ * - 覆盖第一处判断 [1,x,1,1,1,1,1,x,1,1,0] -> 0。
+ * =预期结果=
+ * - 第二处判断成立并返回ATP_TRUE，末端Getter调用一次。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_60()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_60 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_61 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证第一处完整复合判断全部满足。
+ * - 覆盖第一处判断 [1,x,1,1,1,1,1,x,1,1,1] -> 1。
+ * =预期结果=
+ * - 返回ATP_TRUE，末端Getter调用一次，else if不再求值。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_61()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_61 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_62 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证预设模式无效但对端ATP通信异常时else if成立。
+ * - 覆盖第二处判断 [0,0,x,x,x,1] -> 1。
+ * =预期结果=
+ * - 返回ATP_TRUE。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_62()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_62 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_63 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证ATO设备故障但对端ATP通信异常时else if成立。
+ * - 覆盖第二处判断 [1,x,0,x,x,1] -> 1。
+ * =预期结果=
+ * - 返回ATP_TRUE。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_63()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_63 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_64 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证ATO通信异常且对端ATP通信异常时else if成立。
+ * - 覆盖第二处判断 [1,x,1,0,x,1] -> 1。
+ * =预期结果=
+ * - 返回ATP_TRUE。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_64()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_64 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_65 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 验证存在断电提示但对端ATP通信异常时else if成立。
+ * - 覆盖第二处判断 [1,x,1,1,0,1] -> 1。
+ * =预期结果=
+ * - 返回ATP_TRUE。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_65()
+{
+    UINT8_T _return = UINT8_NULL;
+    ResetCtrlARConditionChkStubSpy();
+    {
+        _return = CtrlARConditionChk();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_65 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_66 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 满足if (((TACS_AM == preSetMode) || (TACS_FAM == preSetMode)) &&
+ *   (ATP_FALSE == atoFaultTag) && (ATP_COM_NORMAL == atoComuStatus) &&
+ *   (POWEROFF_HINT_NEED_NO == needPowerOff) &&
+ *   (ATP_COM_NORMAL == ctrlAndIdleComuStatus) &&
+ *   ((TACS_AM == idleToCtlPreSetMode) || (TACS_FAM == idleToCtlPreSetMode)) &&
+ *   (ATP_FALSE != idleToCtlAtoStatus) &&
+ *   (ZERO_SPEED_TRUE == idleToCtlZeroSpeedTag) &&
+ *   ((UINT8_T)WORSE != GetAtpCtrlStatBetter()))
+ *   [0,1,1,1,1,1,0,1,1,1,1] -> 1
+ * - 验证本端和待控端预设模式均通过TACS_FAM子条件满足OR表达式，
+ *   其余条件均成立并进入“检查通过”分支。
+ *
+ * =被测函数=
+ * - CtrlARConditionChk
+ *
+ * =初始条件=
+ * - 所有输入由当前测试用例对应的Getter用户桩提供。
+ * - 本端预设模式和待控端预设模式均为TACS_FAM。
+ *
+ * =操作步骤=
+ * - 复位GetAtpCtrlStatBetter调用计数。
+ * - 调用CtrlARConditionChk。
+ * - 检查函数返回值和末端Getter调用次数。
+ *
+ * =预期结果=
+ * - CtrlARConditionChk返回ATP_TRUE。
+ * - GetAtpCtrlStatBetter被调用一次，证明复合条件求值到最后一项。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_66()
+{
+    UINT8_T _return = UINT8_NULL;
+    /* Pre-condition initialization */
+    ResetCtrlARConditionChkStubSpy();
+    {
+        /* Tested function call */
+        _return = CtrlARConditionChk();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_66 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlARConditionChk_67 */
+/* CPPTEST_TEST_CASE_CONTEXT UINT8_T CtrlARConditionChk(void) */
+/**
+ * =测试目的=
+ * - 满足if (((TACS_AM == preSetMode) || (TACS_FAM == preSetMode)) &&
+ *   (ATP_FALSE == atoFaultTag) && (ATP_COM_NORMAL == atoComuStatus) &&
+ *   (POWEROFF_HINT_NEED_NO == needPowerOff) &&
+ *   (ATP_COM_NORMAL == ctrlAndIdleComuStatus) &&
+ *   ((TACS_AM == idleToCtlPreSetMode) || (TACS_FAM == idleToCtlPreSetMode)) &&
+ *   (ATP_FALSE != idleToCtlAtoStatus) &&
+ *   (ZERO_SPEED_TRUE == idleToCtlZeroSpeedTag) &&
+ *   ((UINT8_T)WORSE != GetAtpCtrlStatBetter()))
+ *   [1,x,1,1,1,1,0,1,1,1,1] -> 1
+ * - 固定本端预设模式为TACS_AM，仅使待控端预设模式通过TACS_FAM子条件，
+ *   验证第二个OR表达式的TACS_FAM条件能够独立影响复合判断结果。
+ *
+ * =被测函数=
+ * - CtrlARConditionChk
+ *
+ * =初始条件=
+ * - 所有输入由当前测试用例对应的Getter用户桩提供。
+ * - 本端预设模式为TACS_AM，待控端预设模式为TACS_FAM。
+ *
+ * =操作步骤=
+ * - 复位GetAtpCtrlStatBetter调用计数。
+ * - 调用CtrlARConditionChk。
+ * - 检查函数返回值和末端Getter调用次数。
+ *
+ * =预期结果=
+ * - CtrlARConditionChk返回ATP_TRUE。
+ * - GetAtpCtrlStatBetter被调用一次，证明复合条件求值到最后一项。
+ */
+void TestSuite_ReverseHandle_test_CtrlARConditionChk_67()
+{
+    UINT8_T _return = UINT8_NULL;
+    /* Pre-condition initialization */
+    ResetCtrlARConditionChkStubSpy();
+    {
+        /* Tested function call */
+        _return = CtrlARConditionChk();
+        /* Post-condition check */
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, _return);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlARConditionChk_67 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlAutoChangeEnd_0 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlAutoChangeEnd(void) */
+/**
+ * =测试目的=
+ * - 不满足if ((UINT8_T)ACTIVE == GetCurAtpCtrlState()) [0] -> 0
+ * - 验证ATP不是主控端时外层判断失败，函数不产生换端输出。
+ * =被测函数=
+ * - CtrlAutoChangeEnd
+ * =初始条件=
+ * - GetCurAtpCtrlState桩返回SAFETY。
+ * =操作步骤=
+ * - 复位Getter计数和Setter Spy后调用CtrlAutoChangeEnd。
+ * =预期结果=
+ * - GetCurAtpCtrlState调用一次，SetCtlToIdleNotice不被调用。
+ */
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_0()
+{
+    ResetCtrlAutoChangeEndStubSpy();
+    {
+        CtrlAutoChangeEnd();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_GetCurAtpCtrlStateCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlAutoChangeEnd_0 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlAutoChangeEnd_1 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlAutoChangeEnd(void) */
+/**
+ * =测试目的=
+ * - 满足if ((UINT8_T)ACTIVE == GetCurAtpCtrlState()) [1] -> 1
+ * - 不满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,0] -> 0
+ * - 验证主控端未收到位置确认且对端通信正常时继续等待。
+ * =被测函数=
+ * - CtrlAutoChangeEnd
+ * =初始条件=
+ * - 位置通知无效，对端ATP通信正常。
+ * =操作步骤=
+ * - 复位Spy后调用CtrlAutoChangeEnd。
+ * =预期结果=
+ * - 位置指令输出一次；控制模式和继电器输出均不执行。
+ */
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_1()
+{
+    ResetCtrlAutoChangeEndStubSpy();
+    {
+        CtrlAutoChangeEnd();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TO_OTHER_LOC_NOTICE, g_CtrlAutoChangeEnd_SetCtlToIdleNoticeValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_GetIdleToCtlNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_SetLocalArRelayCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlAutoChangeEnd_1 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlAutoChangeEnd_2 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlAutoChangeEnd(void) */
+/**
+ * =测试目的=
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,x] -> 1
+ * - 满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [1] -> 1
+ * - 验证收到位置确认且控本端时完成本端换端输出。
+ * =被测函数=
+ * - CtrlAutoChangeEnd
+ * =初始条件=
+ * - 主控端有效，收到位置确认，控制模式为CONTROL_LOCAL_ATP。
+ * =操作步骤=
+ * - 复位Spy后调用CtrlAutoChangeEnd。
+ * =预期结果=
+ * - OR第二项因短路不执行；继电器、运行方向和禁止切系输出符合控本端分支。
+ */
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_2()
+{
+    ResetCtrlAutoChangeEndStubSpy();
+    {
+        CtrlAutoChangeEnd();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_DOWN, g_CtrlAutoChangeEnd_SetLocalArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_UP, g_CtrlAutoChangeEnd_SetOppoArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_CtrlAutoChangeEnd_SetOutRunForwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_CtrlAutoChangeEnd_SetOutRunForBackwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_CtrlAutoChangeEnd_SetStopActToSaftyFlagValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlAutoChangeEnd_2 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlAutoChangeEnd_3 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlAutoChangeEnd(void) */
+/**
+ * =测试目的=
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,1] -> 1
+ * - 不满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [0] -> 0
+ * - 满足else if ((UINT8_T)CONTROL_OPPO_ATP == GetRunAtpMode()) [1] -> 1
+ * - 验证未收到位置确认但通信异常且控远端时完成远端换端输出。
+ * =被测函数=
+ * - CtrlAutoChangeEnd
+ * =初始条件=
+ * - 主控端有效，对端通信异常，控制模式为CONTROL_OPPO_ATP。
+ * =操作步骤=
+ * - 复位Spy后调用CtrlAutoChangeEnd。
+ * =预期结果=
+ * - GetRunAtpMode调用两次；输出符合控远端分支。
+ */
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_3()
+{
+    ResetCtrlAutoChangeEndStubSpy();
+    {
+        CtrlAutoChangeEnd();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_CtrlAutoChangeEnd_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_UP, g_CtrlAutoChangeEnd_SetLocalArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_DOWN, g_CtrlAutoChangeEnd_SetOppoArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_CtrlAutoChangeEnd_SetOutRunForwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_CtrlAutoChangeEnd_SetOutRunForBackwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_CtrlAutoChangeEnd_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_CtrlAutoChangeEnd_SetStopActToSaftyFlagValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlAutoChangeEnd_3 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_CtrlAutoChangeEnd_4 */
+/* CPPTEST_TEST_CASE_CONTEXT void CtrlAutoChangeEnd(void) */
+/**
+ * =测试目的=
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,x] -> 1
+ * - 不满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [0] -> 0
+ * - 不满足else if ((UINT8_T)CONTROL_OPPO_ATP == GetRunAtpMode()) [0] -> 0
+ * - 验证确认条件成立但控制模式既非本端也非远端时不产生换端输出。
+ * =被测函数=
+ * - CtrlAutoChangeEnd
+ * =初始条件=
+ * - 主控端有效，收到位置确认，控制模式为IDLE_ATP。
+ * =操作步骤=
+ * - 复位Spy后调用CtrlAutoChangeEnd。
+ * =预期结果=
+ * - GetRunAtpMode调用两次；继电器、方向和禁止切系输出均不执行。
+ */
+void TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_4()
+{
+    ResetCtrlAutoChangeEndStubSpy();
+    {
+        CtrlAutoChangeEnd();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_CtrlAutoChangeEnd_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_CtrlAutoChangeEnd_SetStopActToSaftyFlagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_CtrlAutoChangeEnd_4 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_0 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_CLOSE == GetInMeaDoorStatus()) && ((SINGLE_TRAIN_TYPE == trainType) || ((COUPLED_TRAIN_TYPE == trainType) && (COUPLE_SIDE_FAR == trainType)))) [0,x,x] -> 0
+ * - ATP不是主控端，外层判断短路。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_0()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_0 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_1 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_CLOSE == GetInMeaDoorStatus()) && ((SINGLE_TRAIN_TYPE == trainType) || ((COUPLED_TRAIN_TYPE == trainType) && (COUPLE_SIDE_FAR == trainType)))) [1,0,x] -> 0
+ * - 主控端车门未关闭，列车类型条件不参与求值。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_1()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_1 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_2 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_CLOSE == GetInMeaDoorStatus()) && ((SINGLE_TRAIN_TYPE == trainType) || ((COUPLED_TRAIN_TYPE == trainType) && (COUPLE_SIDE_FAR == trainType)))) [1,1,0,0,x] -> 0
+ * - 列车既不是单编组也不是联挂编组。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_2()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_2 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_3 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_CLOSE == GetInMeaDoorStatus()) && ((SINGLE_TRAIN_TYPE == trainType) || ((COUPLED_TRAIN_TYPE == trainType) && (COUPLE_SIDE_FAR == trainType)))) [1,1,0,1,0] -> 0
+ * - 列车类型为联挂编组，但生产代码将联挂侧常量与trainType比较，最后条件为假。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_3()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_3 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_4 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((LINESEG_CONVER_DIR == headLoc.dir) && (LINESEG_SAME_DIR == maStartLoc.dir)) || ((LINESEG_SAME_DIR == headLoc.dir) && (LINESEG_CONVER_DIR == maStartLoc.dir))) [0,x,0,x] -> 0
+ * - 车头方向既非反向也非同向。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_4()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_4 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_5 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((LINESEG_CONVER_DIR == headLoc.dir) && (LINESEG_SAME_DIR == maStartLoc.dir)) || ((LINESEG_SAME_DIR == headLoc.dir) && (LINESEG_CONVER_DIR == maStartLoc.dir))) [0,x,1,0] -> 0
+ * - 车头同向但MA起点也同向，方向交叉校验失败。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_5()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_5 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_6 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((LINESEG_CONVER_DIR == headLoc.dir) && (LINESEG_SAME_DIR == maStartLoc.dir)) || ((LINESEG_SAME_DIR == headLoc.dir) && (LINESEG_CONVER_DIR == maStartLoc.dir))) [1,0,0,x] -> 0
+ * - 车头反向但MA起点不是同向，方向校验失败。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_6()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_6 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_7 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if (((LINESEG_CONVER_DIR == headLoc.dir) && (LINESEG_SAME_DIR == maStartLoc.dir)) || ((LINESEG_SAME_DIR == headLoc.dir) && (LINESEG_CONVER_DIR == maStartLoc.dir))) [1,1,x,x] -> 1
+ * - 满足if (ATP_FALSE == GetArReversingFirstTag()) [1] -> 1
+ * - 不满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,0] -> 0
+ * - 方向校验通过，首次折返置位，但未收到确认且通信正常。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_7()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetArReversingFirstTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_FamAnyLocReverse_SetArReversingFirstTagValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_FamAnyLocReverse_SetStopActToSaftyFlagValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TO_OTHER_LOC_NOTICE, g_FamAnyLocReverse_SetCtlToIdleNoticeValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_7 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_8 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if (((LINESEG_CONVER_DIR == headLoc.dir) && (LINESEG_SAME_DIR == maStartLoc.dir)) || ((LINESEG_SAME_DIR == headLoc.dir) && (LINESEG_CONVER_DIR == maStartLoc.dir))) [0,x,1,1] -> 1
+ * - 不满足if (ATP_FALSE == GetArReversingFirstTag()) [0] -> 0
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,x] -> 1
+ * - 满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [1] -> 1
+ * - 第二个方向分支通过、位置确认有效且控本端。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_8()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_DOWN, g_FamAnyLocReverse_SetLocalArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_UP, g_FamAnyLocReverse_SetOppoArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_FamAnyLocReverse_SetOutRunForwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_FamAnyLocReverse_SetOutRunForBackwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_FamAnyLocReverse_SetStopActToSaftyFlagValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_8 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_9 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,1] -> 1
+ * - 不满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [0] -> 0
+ * - 满足else if ((UINT8_T)CONTROL_OPPO_ATP == GetRunAtpMode()) [1] -> 1
+ * - 未收到位置确认但通信异常，进入控远端分支。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_9()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_FamAnyLocReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_UP, g_FamAnyLocReverse_SetLocalArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_DOWN, g_FamAnyLocReverse_SetOppoArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_FamAnyLocReverse_SetOutRunForwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_FamAnyLocReverse_SetOutRunForBackwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAnyLocReverse_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_FamAnyLocReverse_SetStopActToSaftyFlagValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_9 */
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAnyLocReverse_10 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAnyLocReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,x] -> 1
+ * - 不满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [0] -> 0
+ * - 不满足else if ((UINT8_T)CONTROL_OPPO_ATP == GetRunAtpMode()) [0] -> 0
+ * - 确认条件成立但控制模式无效，不产生继电器和方向输出。
+ * =被测函数=
+ * - FamAnyLocReverse
+ * =初始条件=
+ * - 输入由当前测试用例对应的Getter用户桩提供。
+ * =操作步骤=
+ * - 复位Spy，调用FamAnyLocReverse并检查可观察输出。
+ * =预期结果=
+ * - 目标短路组合按预期求值，Setter Spy与Getter计数符合目标路径。
+ */
+void TestSuite_ReverseHandle_test_FamAnyLocReverse_10()
+{
+    ResetFamAnyLocReverseStubSpy();
+    {
+        FamAnyLocReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_FamAnyLocReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAnyLocReverse_SetStopActToSaftyFlagCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAnyLocReverse_10 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_0 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (stopPointId == reverseStopPointId)) [0,x,x] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 控制端状态为SAFETY，其余预取输入由用户桩提供。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 记录区域错误，最终写回开门计时。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_0()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_AR_GET_AREAID_ERR, g_FamAutoReverse_AddSysAutoReverseErrNoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetDoorRevOpenDoorTimerCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_0 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_1 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (stopPointId == reverseStopPointId)) [1,0,x] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 控制端激活，GetReversePoint返回ATP_FALSE。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 记录区域错误。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_1()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_AR_GET_AREAID_ERR, g_FamAutoReverse_AddSysAutoReverseErrNoValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_1 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_2 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (stopPointId == reverseStopPointId)) [1,1,0] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 控制端激活、折返点有效，但停车点ID不一致。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 记录区域错误。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_2()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_AR_GET_AREAID_ERR, g_FamAutoReverse_AddSysAutoReverseErrNoValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_2 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_3 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if (((UINT8_T)ACTIVE == GetCurAtpCtrlState()) && (ATP_TRUE == arStopPointIdFlag) && (stopPointId == reverseStopPointId)) [1,1,1] -> 1
+ * - 不满足if ((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) || (BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A))) [0,0] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 外层条件满足，折返区域属性不含站前和站后位。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 不输出位置通知，计时保持预取值。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_3()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(10U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_3 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_4 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if (ATP_FALSE == GetArReversingFirstTag()) [1] -> 1
+ * - 不满足if ((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) || (BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A))) [0,0] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 外层条件满足，首次折返标志为ATP_FALSE。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 禁止切系并置首次折返标志。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_4()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetArReversingFirstTagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_FamAutoReverse_SetArReversingFirstTagValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_FamAutoReverse_SetStopActToSaftyFlagValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_4 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_5 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if ((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) || (BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A))) [1,x] -> 1
+ * - 满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [1,1,x,x,x,x] -> 1
+ * - 不满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,0] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 站前区域、车门打开、未收到确认且对端通信正常。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 输出位置通知，但不输出换端继电器。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_5()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(10U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_5 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_6 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [1,0,1,1,x,x] -> 1
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,x] -> 1
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 站前区域、车门关闭且开门等待达到上限。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 位置确认通过并将开门计时清零。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_6()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_6 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_7 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [1,0,1,0,0,x] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 站前区域、车门关闭且等待时间未达到上限。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 不输出位置通知，开门计时增加一个周期。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_7()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(6U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_7 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_8 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if ((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) || (BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A))) [0,1] -> 1
+ * - 满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [0,x,x,x,1,1] -> 1
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 站后区域且车门关闭。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 进入位置通知处理。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_8()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_8 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_9 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [0,x,x,x,1,0] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 站后区域但车门未关闭。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 开门计时增加一个周期。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_9()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(6U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_9 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_10 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [1,x] -> 1
+ * - 满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [1] -> 1
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 站前门开、收到位置确认、控制本端。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 输出远端驾驶室激活和后退方向。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_10()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_DOWN, g_FamAutoReverse_SetLocalArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_UP, g_FamAutoReverse_SetOppoArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_FamAutoReverse_SetOutRunForwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_FamAutoReverse_SetOutRunForBackwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_FamAutoReverse_SetStopActToSaftyFlagValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_10 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_11 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if ((ATP_TO_OTHER_LOC_NOTICE == GetIdleToCtlNotice()) || (ATP_COM_NORMAL != GetOppoAtpComuStatus())) [0,1] -> 1
+ * - 不满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [0] -> 0
+ * - 满足else if ((UINT8_T)CONTROL_OPPO_ATP == GetRunAtpMode()) [1] -> 1
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 未收到位置确认、对端通信异常、控制远端。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 输出本端驾驶室激活和前进方向。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_11()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_FamAutoReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_UP, g_FamAutoReverse_SetLocalArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ARRELAY_STATUS_DOWN, g_FamAutoReverse_SetOppoArRelayValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TRUE, g_FamAutoReverse_SetOutRunForwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetOutRunForBackwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_FamAutoReverse_SetOutRunForBackwardValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetStopActToSaftyFlagCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_FamAutoReverse_SetStopActToSaftyFlagValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_11 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_12 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if ((UINT8_T)CONTROL_LOCAL_ATP == GetRunAtpMode()) [0] -> 0
+ * - 不满足else if ((UINT8_T)CONTROL_OPPO_ATP == GetRunAtpMode()) [0] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 位置确认成立，但运行控制模式为IDLE_ATP。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 不产生继电器和方向输出。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_12()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_FamAutoReverse_GetRunAtpModeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetLocalArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetOppoArRelayCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetOutRunForwardCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetOutRunForBackwardCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_12 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_13 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [1,0,0,x,0,x] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 站前区域；门状态桩第一次返回关闭、第二次返回打开。
+ * =操作步骤=
+ * - 复位Spy并调用FamAutoReverse。
+ * =预期结果=
+ * - 第二个门状态子条件为假，开门计时增加一个周期。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_13()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(6U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_13 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_14 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [1,0,0,x,1,0] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 同时具有站前和站后属性；门状态依次为关闭、打开、打开。
+ * =操作步骤=
+ * - 复位Getter计数和Setter Spy，调用FamAutoReverse。
+ * =预期结果=
+ * - 站前门状态子表达式失败，站后车门条件也失败，开门计时增加一个周期。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_14()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(3U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetDoorRevOpenDoorTimerCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(6U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_14 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_15 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [1,0,0,x,1,1] -> 1
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 同时具有站前和站后属性；门状态依次为关闭、打开、关闭。
+ * =操作步骤=
+ * - 复位Getter计数和Setter Spy，调用FamAutoReverse。
+ * =预期结果=
+ * - 站后车门条件成立，输出位置通知并将本周期计时置为最大值。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_15()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(3U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TO_OTHER_LOC_NOTICE, g_FamAutoReverse_SetCtlToIdleNoticeValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(10U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_15 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_16 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 不满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [1,0,1,0,1,0] -> 0
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 同时具有站前和站后属性，开门计时未到上限；门状态依次为关闭、关闭、打开。
+ * =操作步骤=
+ * - 复位Getter计数和Setter Spy，调用FamAutoReverse。
+ * =预期结果=
+ * - 站前超时条件和站后车门条件均失败，开门计时增加一个周期。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_16()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(3U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetDoorRevOpenDoorTimerCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(6U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_16 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_FamAutoReverse_17 */
+/* CPPTEST_TEST_CASE_CONTEXT void FamAutoReverse(void) */
+/**
+ * =测试目的=
+ * - 满足if (((BNF_REVERSE_AREA_STA_B == (arStopPointAttri & BNF_REVERSE_AREA_STA_B)) && ((ATP_CLOSE != GetInMeaDoorStatus()) || ((ATP_CLOSE == GetInMeaDoorStatus()) && (revOpenDoorTimer >= revOpenDoorTimeMax)))) || ((BNF_REVERSE_AREA_STA_A == (arStopPointAttri & BNF_REVERSE_AREA_STA_A)) && (ATP_CLOSE == GetInMeaDoorStatus()))) [1,0,1,0,1,1] -> 1
+ * =被测函数=
+ * - FamAutoReverse
+ * =初始条件=
+ * - 同时具有站前和站后属性，开门计时未到上限；三次门状态均为关闭。
+ * =操作步骤=
+ * - 复位Getter计数和Setter Spy，调用FamAutoReverse。
+ * =预期结果=
+ * - 站前超时条件失败但站后车门条件成立，输出位置通知。
+ */
+void TestSuite_ReverseHandle_test_FamAutoReverse_17()
+{
+    ResetFamAutoReverseStubSpy();
+    {
+        FamAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(3U, g_FamAutoReverse_GetInMeaDoorStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_SetCtlToIdleNoticeCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_TO_OTHER_LOC_NOTICE, g_FamAutoReverse_SetCtlToIdleNoticeValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_FamAutoReverse_GetOppoAtpComuStatusCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(10U, g_FamAutoReverse_SetDoorRevOpenDoorTimerValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_FamAutoReverse_17 */
+
+
+
+
+
+/* CPPTEST_TEST_CASE_BEGIN test_EnterAmAutoReverse_0 */
+/* CPPTEST_TEST_CASE_CONTEXT void EnterAmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证EnterAmAutoReverse在控制端无人折返条件检查通过时进入AR主处理。
+ * - 满足if (ATP_TRUE == retVal) [1] -> 1
+ *
+ * =被测函数=
+ *   EnterAmAutoReverse
+ *
+ * =初始条件=
+ *   CtrlARConditionChk所需输入桩配置为检查通过，AR进入步骤使用默认非法步骤。
+ *
+ * =操作步骤=
+ * - 复位EnterAmAutoReverse专用Spy。
+ * - 调用EnterAmAutoReverse。
+ * - 检查CtrlVOBCEnterAR默认分支产生的FAM指示继电器输出。
+ *
+ * =预期结果=
+ * - 条件if (ATP_TRUE == retVal)为真并调用CtrlVOBCEnterAR。
+ * - SetFamModelInstruct被调用一次且参数为ATP_FALSE。
+ * - 不记录REVERSE_ENTERAR_ANOTHER错误，不执行失败分支的ReverseEnterArInit和ReverseCBTCInit。
+ */
+void TestSuite_ReverseHandle_test_EnterAmAutoReverse_0()
+{
+    ResetEnterAmAutoReverseStubSpy();
+    {
+        EnterAmAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_EnterAmAutoReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_EnterAmAutoReverse_ReverseCBTCInitCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_EnterAmAutoReverse_SetFamModelInstructCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(ATP_FALSE, g_EnterAmAutoReverse_SetFamModelInstructValue);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_EnterAmAutoReverse_0 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_EnterAmAutoReverse_1 */
+/* CPPTEST_TEST_CASE_CONTEXT void EnterAmAutoReverse(void) */
+/**
+ * =测试目的=
+ *   验证EnterAmAutoReverse在控制端无人折返条件检查不通过时执行清理和故障记录。
+ * - 不满足if (ATP_TRUE == retVal) [0] -> 0
+ *
+ * =被测函数=
+ *   EnterAmAutoReverse
+ *
+ * =初始条件=
+ *   GetRunPreMode桩返回DEFAULT_ZERO，使CtrlARConditionChk检查不通过。
+ *
+ * =操作步骤=
+ * - 复位EnterAmAutoReverse专用Spy。
+ * - 调用EnterAmAutoReverse。
+ * - 检查错误码和两个清理接口的调用情况。
+ *
+ * =预期结果=
+ * - 条件if (ATP_TRUE == retVal)为假并进入else分支。
+ * - 记录一次REVERSE_ENTERAR_ANOTHER错误。
+ * - ReverseEnterArInit和ReverseCBTCInit各调用一次。
+ * - 不调用CtrlVOBCEnterAR默认分支中的SetFamModelInstruct。
+ */
+void TestSuite_ReverseHandle_test_EnterAmAutoReverse_1()
+{
+    ResetEnterAmAutoReverseStubSpy();
+    {
+        EnterAmAutoReverse();
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_EnterAmAutoReverse_AddSysAutoReverseErrNoCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_ENTERAR_ANOTHER, g_EnterAmAutoReverse_AddSysAutoReverseErrNoValue);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_EnterAmAutoReverse_ReverseEnterArInitCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_EnterAmAutoReverse_ReverseCBTCInitCalls);
+        CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_EnterAmAutoReverse_SetFamModelInstructCalls);
+    }
+}
+/* CPPTEST_TEST_CASE_END test_EnterAmAutoReverse_1 */
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_0 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证MA终点为折返、折返点无效且运行级别非TACS时不进入后续无人折返判断。
+ * - 满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [1] -> 1
+ * - 不满足if ((ATP_TRUE == reversePoint) && (stopPointId == reverseStopPointId)) [0,x] -> 0
+ * - 不满足if ((TACS_LEVEL == runLevel) && (DEFAULT_1_VALUE == maInfoFlag)) [0,x] -> 0
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   MA终点为折返，GetReversePoint返回ATP_FALSE，运行级别为CBTC_LEVEL。
+ *
+ * =操作步骤=
+ * - 复位ReverseTypeChk专用Spy并调用ReverseTypeChk。
+ * - 检查最终折返类型及错误记录。
+ *
+ * =预期结果=
+ * - 最终折返类型为REVERSE_TYPE_STA_NO，且不记录错误。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_0()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_NO, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_0 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_1 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证折返点有效但停车点ID不一致，并覆盖AR区域查询失败路径。
+ * - 满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [1] -> 1
+ * - 不满足if ((ATP_TRUE == reversePoint) && (stopPointId == reverseStopPointId)) [1,0] -> 0
+ * - 满足if ((TACS_LEVEL == runLevel) && (DEFAULT_1_VALUE == maInfoFlag)) [1,1] -> 1
+ * - 满足if (DEFAULT_ZERO == manReverse) [1] -> 1
+ * - 不满足if ((DEFAULT_1_VALUE == arStartWindowRlt) && (RET_TRUE == trainInArStartArea)) [0,x] -> 0
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   停车点ID为10，折返停车点ID为11，AR区域查询返回失败。
+ *
+ * =操作步骤=
+ * - 复位Spy并调用ReverseTypeChk。
+ * - 检查最终折返类型和最后一次错误码。
+ *
+ * =预期结果=
+ * - 最终折返类型为REVERSE_TYPE_STA_NO，最后记录REVERSE_ENTERAR_STARAREA_CHECK。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_1()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_NO, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_ENTERAR_STARAREA_CHECK, g_ReverseTypeChk_AddSysAutoReverseErrNoValue);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_1 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_2 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证MA折返终点、停车点一致且具有站后折返属性时识别站后折返。
+ * - 满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [1] -> 1
+ * - 满足if ((ATP_TRUE == reversePoint) && (stopPointId == reverseStopPointId)) [1,1] -> 1
+ * - 满足if (BNF_REVERSE_AREA_STA_B == (reversePointAttri & BNF_REVERSE_AREA_STA_B)) [1] -> 1
+ * - 满足if ((TACS_LEVEL == runLevel) && (DEFAULT_1_VALUE == maInfoFlag)) [1,1] -> 1
+ * - 不满足if (DEFAULT_ZERO == manReverse) [0] -> 0
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   折返点有效且停车点ID一致，折返点属性包含BNF_REVERSE_AREA_STA_B。
+ *
+ * =操作步骤=
+ * - 复位Spy并调用ReverseTypeChk。
+ * - 检查最终折返类型。
+ *
+ * =预期结果=
+ * - 最终折返类型为REVERSE_TYPE_STA_B，且不记录错误。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_2()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_B, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_2 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_3 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证MA折返终点、停车点一致且不具有站后折返属性时识别站前折返。
+ * - 满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [1] -> 1
+ * - 满足if ((ATP_TRUE == reversePoint) && (stopPointId == reverseStopPointId)) [1,1] -> 1
+ * - 不满足if (BNF_REVERSE_AREA_STA_B == (reversePointAttri & BNF_REVERSE_AREA_STA_B)) [0] -> 0
+ * - 不满足if (DEFAULT_ZERO == manReverse) [0] -> 0
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   折返点有效且停车点ID一致，折返点属性不包含BNF_REVERSE_AREA_STA_B。
+ *
+ * =操作步骤=
+ * - 复位Spy并调用ReverseTypeChk。
+ * - 检查最终折返类型。
+ *
+ * =预期结果=
+ * - 最终折返类型为REVERSE_TYPE_STA_A，且不记录错误。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_3()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_A, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_3 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_4 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证默认MA终点下停车点无折返属性，且AR查询成功但列车不在进入窗。
+ * - 不满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [0] -> 0
+ * - 满足else if (ZC_VOBC_MA_END_DEFAULT == maEndMaType) [1] -> 1
+ * - 不满足if ((RUN_REVERT_STOP_POINT == (pointAttri & RUN_REVERT_STOP_POINT)) && (DEFAULT_ZERO != stopPointId)) [0,x] -> 0
+ * - 满足if (DEFAULT_ZERO == manReverse) [1] -> 1
+ * - 不满足if ((DEFAULT_1_VALUE == arStartWindowRlt) && (RET_TRUE == trainInArStartArea)) [1,0] -> 0
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   MA终点为默认类型，停车点无折返属性，AR查询返回有效但进入窗标志为假。
+ *
+ * =操作步骤=
+ * - 复位Spy并调用ReverseTypeChk。
+ * - 检查最终折返类型和错误码。
+ *
+ * =预期结果=
+ * - 最终折返类型为REVERSE_TYPE_STA_NO，最后记录REVERSE_ENTERAR_STARAREA_CHECK。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_4()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_NO, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_ENTERAR_STARAREA_CHECK, g_ReverseTypeChk_AddSysAutoReverseErrNoValue);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_4 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_5 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证默认MA终点下停车点具有折返属性但ID为零，并成功识别无人折返。
+ * - 满足else if (ZC_VOBC_MA_END_DEFAULT == maEndMaType) [1] -> 1
+ * - 不满足if ((RUN_REVERT_STOP_POINT == (pointAttri & RUN_REVERT_STOP_POINT)) && (DEFAULT_ZERO != stopPointId)) [1,0] -> 0
+ * - 满足if ((TACS_LEVEL == runLevel) && (DEFAULT_1_VALUE == maInfoFlag)) [1,1] -> 1
+ * - 满足if (DEFAULT_ZERO == manReverse) [1] -> 1
+ * - 满足if ((DEFAULT_1_VALUE == arStartWindowRlt) && (RET_TRUE == trainInArStartArea)) [1,1] -> 1
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   停车点ID为零，属性包含RUN_REVERT_STOP_POINT，列车位于有效AR进入窗。
+ *
+ * =操作步骤=
+ * - 复位Spy并调用ReverseTypeChk。
+ * - 检查最终折返类型。
+ *
+ * =预期结果=
+ * - 最终折返类型为REVERSE_TYPE_STA_AR，并记录一次区域类型提示错误。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_5()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_AR, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_MANAGE_NOT_REVERAREA, g_ReverseTypeChk_AddSysAutoReverseErrNoValue);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_5 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_6 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证默认MA终点下有效折返停车点具有运营停车点属性。
+ * - 满足if ((RUN_REVERT_STOP_POINT == (pointAttri & RUN_REVERT_STOP_POINT)) && (DEFAULT_ZERO != stopPointId)) [1,1] -> 1
+ * - 满足if (RUN_OPERAT_STOP_POINT == (pointAttri & RUN_OPERAT_STOP_POINT)) [1] -> 1
+ * - 满足if (DEFAULT_ZERO == manReverse) [1] -> 1
+ * - 不满足if ((DEFAULT_1_VALUE == arStartWindowRlt) && (RET_TRUE == trainInArStartArea)) [0,x] -> 0
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   停车点ID非零，属性同时包含RUN_REVERT_STOP_POINT和RUN_OPERAT_STOP_POINT，AR查询失败。
+ *
+ * =操作步骤=
+ * - 复位Spy并调用ReverseTypeChk。
+ * - 检查最终折返类型和错误码。
+ *
+ * =预期结果=
+ * - 运营停车点条件为真，后续AR查询失败使最终类型为REVERSE_TYPE_STA_NO。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_6()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_NO, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_ENTERAR_STARAREA_CHECK, g_ReverseTypeChk_AddSysAutoReverseErrNoValue);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_6 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_7 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证默认MA终点下有效折返停车点不具有运营停车点属性。
+ * - 满足if ((RUN_REVERT_STOP_POINT == (pointAttri & RUN_REVERT_STOP_POINT)) && (DEFAULT_ZERO != stopPointId)) [1,1] -> 1
+ * - 不满足if (RUN_OPERAT_STOP_POINT == (pointAttri & RUN_OPERAT_STOP_POINT)) [0] -> 0
+ * - 满足if (DEFAULT_ZERO == manReverse) [1] -> 1
+ * - 不满足if ((DEFAULT_1_VALUE == arStartWindowRlt) && (RET_TRUE == trainInArStartArea)) [0,x] -> 0
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   停车点ID非零，属性仅包含RUN_REVERT_STOP_POINT，AR查询失败。
+ *
+ * =操作步骤=
+ * - 复位Spy并调用ReverseTypeChk。
+ * - 检查最终折返类型和错误码。
+ *
+ * =预期结果=
+ * - 运营停车点条件为假，后续AR查询失败使最终类型为REVERSE_TYPE_STA_NO。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_7()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_NO, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_ENTERAR_STARAREA_CHECK, g_ReverseTypeChk_AddSysAutoReverseErrNoValue);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_7 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_ReverseTypeChk_8 */
+/* CPPTEST_TEST_CASE_CONTEXT void ReverseTypeChk(void) */
+/**
+ * =测试目的=
+ *   验证MA终点既非折返也非默认类型时执行错误记录和清理。
+ * - 不满足if (ZC_VOBC_MA_END_REVERSE == maEndMaType) [0] -> 0
+ * - 不满足else if (ZC_VOBC_MA_END_DEFAULT == maEndMaType) [0] -> 0
+ * - 不满足if ((TACS_LEVEL == runLevel) && (DEFAULT_1_VALUE == maInfoFlag)) [1,0] -> 0
+ *
+ * =被测函数=
+ *   ReverseTypeChk
+ *
+ * =初始条件=
+ *   MA终点类型桩返回DEFAULT_ZERO，运行级别为TACS_LEVEL。
+ *
+ * =操作步骤=
+ * - 复位Spy并调用ReverseTypeChk。
+ * - 检查错误码、两个清理接口及最终折返类型。
+ *
+ * =预期结果=
+ * - 记录REVERSE_MANAGE_NOT_MAENDTYPE，两个清理接口各调用一次，最终类型为REVERSE_TYPE_STA_NO。
+ */
+void TestSuite_ReverseHandle_test_ReverseTypeChk_8()
+{
+    ResetReverseTypeChkStubSpy();
+    ReverseInChkType = UINT8_NULL;
+    ReverseTypeChk();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_TYPE_STA_NO, ReverseInChkType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_ReverseTypeChk_AddSysAutoReverseErrNoCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(REVERSE_MANAGE_NOT_MAENDTYPE, g_ReverseTypeChk_AddSysAutoReverseErrNoValue);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_ReverseTypeChk_ReverseEnterArInitCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_ReverseTypeChk_ReverseCBTCInitCalls);
+}
+/* CPPTEST_TEST_CASE_END test_ReverseTypeChk_8 */

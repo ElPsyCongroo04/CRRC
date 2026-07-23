@@ -15,6 +15,16 @@ CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason);
 CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_OutputEbReason);
 CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_OutputEbReason_0);
 CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_0);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_1);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_2);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_3);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_4);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_5);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_6);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_7);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_8);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_9);
+CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_10);
 
 CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_SetEbReason);
 CPPTEST_TEST(TestSuite_EbAndCutOffTrackOut_test_RecordEbSyncActReasonLow);
@@ -45,6 +55,20 @@ void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason();
 void TestSuite_EbAndCutOffTrackOut_test_OutputEbReason();
 void TestSuite_EbAndCutOffTrackOut_test_OutputEbReason_0();
 void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_0();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_1();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_2();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_3();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_4();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_5();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_6();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_7();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_8();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_9();
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_10();
+extern UINT32_T g_RelieveEbReason_SetCalls;
+extern UINT8_T g_RelieveEbReason_SetType;
+extern UINT32_T g_RelieveEbReason_SetValue;
+extern void ResetRelieveEbReasonStubSpy(void);
 
 void TestSuite_EbAndCutOffTrackOut_test_SetEbReason();
 void TestSuite_EbAndCutOffTrackOut_test_RecordEbSyncActReasonLow();
@@ -488,6 +512,332 @@ void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_0()
     }
 }
 /* CPPTEST_TEST_CASE_END test_RelieveEbReason_0 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_1 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位已存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> case EB_TYPE_LOW
+ * - 满足if (ebReason == (tmpEbRsn & ebReason)) [1] -> 1
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_1()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(EB_TYPE_LOW, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_RelieveEbReason_SetCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_LOW, g_RelieveEbReason_SetType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_RelieveEbReason_SetValue);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_1 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_2 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位不存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> case EB_TYPE_LOW
+ * - 不满足if (ebReason == (tmpEbRsn & ebReason)) [0] -> 0
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_2()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(EB_TYPE_LOW, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_RelieveEbReason_SetCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_LOW, g_RelieveEbReason_SetType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_RelieveEbReason_SetValue);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_2 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_3 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位已存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> case EB_TYPE_HIGH
+ * - 满足if (ebReason == (tmpEbRsn & ebReason)) [1] -> 1
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_3()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(EB_TYPE_HIGH, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_RelieveEbReason_SetCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_HIGH, g_RelieveEbReason_SetType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_RelieveEbReason_SetValue);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_3 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_4 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位不存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> case EB_TYPE_HIGH
+ * - 不满足if (ebReason == (tmpEbRsn & ebReason)) [0] -> 0
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_4()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(EB_TYPE_HIGH, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_RelieveEbReason_SetCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_HIGH, g_RelieveEbReason_SetType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_RelieveEbReason_SetValue);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_4 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_5 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位已存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> case EB_TYPE_FAO_LOW
+ * - 满足if (ebReason == (tmpEbRsn & ebReason)) [1] -> 1
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_5()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(EB_TYPE_FAO_LOW, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_RelieveEbReason_SetCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_FAO_LOW, g_RelieveEbReason_SetType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_RelieveEbReason_SetValue);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_5 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_6 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位不存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> case EB_TYPE_FAO_LOW
+ * - 不满足if (ebReason == (tmpEbRsn & ebReason)) [0] -> 0
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_6()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(EB_TYPE_FAO_LOW, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_RelieveEbReason_SetCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_FAO_LOW, g_RelieveEbReason_SetType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_RelieveEbReason_SetValue);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_6 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_7 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位已存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> case EB_TYPE_FAO_HIGH
+ * - 满足if (ebReason == (tmpEbRsn & ebReason)) [1] -> 1
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_7()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(EB_TYPE_FAO_HIGH, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_RelieveEbReason_SetCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_FAO_HIGH, g_RelieveEbReason_SetType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_RelieveEbReason_SetValue);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_7 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_8 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位不存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> case EB_TYPE_FAO_HIGH
+ * - 不满足if (ebReason == (tmpEbRsn & ebReason)) [0] -> 0
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_8()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(EB_TYPE_FAO_HIGH, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_RelieveEbReason_SetCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_FAO_HIGH, g_RelieveEbReason_SetType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(2U, g_RelieveEbReason_SetValue);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_8 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_9 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位已存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> default
+ * - 满足if (ebReason == (tmpEbRsn & ebReason)) [1] -> 1
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_9()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(DEFAULT_ZERO, 0U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_RelieveEbReason_SetCalls);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_9 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_RelieveEbReason_10 */
+/* CPPTEST_TEST_CASE_CONTEXT void RelieveEbReason(const UINT8_T, const UINT32_T) */
+/**
+ * =测试目的=
+ *   验证RelieveEbReason在原因位不存在于当前紧急制动原因中时正确处理目标类型。
+ * - 满足switch (ebType) -> default
+ * - 不满足if (ebReason == (tmpEbRsn & ebReason)) [0] -> 0
+ *
+ * =被测函数=
+ *   RelieveEbReason
+ *
+ * =初始条件=
+ *   对应原因Getter用户桩返回目标掩码，Setter Spy已复位。
+ *
+ * =操作步骤=
+ * - 复位紧急制动原因Setter调用记录。
+ * - 使用目标类型和原因调用RelieveEbReason。
+ * - 检查Setter调用次数、类型和最终原因掩码。
+ *
+ * =预期结果=
+ * - 两个switch均进入目标分支。
+ * - 位判断按照目标组合执行，输出与预期一致。
+ */
+void TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_10()
+{
+    ResetRelieveEbReasonStubSpy();
+    RelieveEbReason(DEFAULT_ZERO, 1U);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_RelieveEbReason_SetCalls);
+}
+/* CPPTEST_TEST_CASE_END test_RelieveEbReason_10 */
 
 /* CPPTEST_TEST_CASE_BEGIN test_SetEbReason */
 /* CPPTEST_TEST_CASE_CONTEXT void SetEbReason(const UINT8_T) */

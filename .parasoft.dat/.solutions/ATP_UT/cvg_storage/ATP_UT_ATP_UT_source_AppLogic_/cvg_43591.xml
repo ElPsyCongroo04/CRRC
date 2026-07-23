@@ -4,18 +4,29 @@
     <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
     <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
   </VersionInfos>
+  <CtxList ids="-3776419369191044532 -3776419369191045559 -3776419369191044626 -3776419369191066485 -3776419369191045465 -3776419369191045371" uniqueId2MainId="CPP://-3605477500874907149 CPP://-3605477500874907025 CPP://-3605477500874907118 CPP://-3605477500874906994 CPP://-3605477500874907056 CPP://-3605477500874907087" />
   <Stats>
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;553;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWStopAreaManageWStopAreaHandleWc|TrainleavePfProtect" total="8" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;38;RedSigPrtFunc" total="13" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;208;StpAreaFunc" total="99" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;84;GetTrainInExitSec" total="43" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;84;GetTrainInExitSec" total="43" num="20" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;513;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWStopAreaManageWStopAreaHandleWc|TrainStopSignalProtect" total="8" num="0" />
   </Stats>
+  <ResultInfo cvgType="LC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;84;GetTrainInExitSec">
+      <CtxCvg ctx="-3776419369191044532" ids="97 96 95 94 93 200 92 201 91 90 197 158 162 198 199 104 87 101 88 89" />
+      <CtxCvg ctx="-3776419369191045371" ids="97 96 95 94 93 200 92 201 91 90 197 158 162 198 199 104 87 101 88 89" />
+      <CtxCvg ctx="-3776419369191045465" ids="97 96 95 94 93 200 92 201 91 90 197 158 162 198 199 104 87 101 88 89" />
+      <CtxCvg ctx="-3776419369191045559" ids="97 96 95 94 93 200 92 201 91 90 197 158 162 198 199 104 87 101 88 89" />
+      <CtxCvg ctx="-3776419369191044626" ids="97 96 95 94 93 200 92 201 91 90 197 158 162 198 199 104 87 101 88 89" />
+      <CtxCvg ctx="-3776419369191066485" ids="97 96 95 94 93 200 92 201 91 90 197 158 162 198 199 104 87 101 88 89" />
+    </DynCvg>
+  </ResultInfo>
   <ResultInfo cvgType="LC" stat="true">
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;84;GetTrainInExitSec" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c" show="true" lns="136 139 201 200 142 197 199 131 198 132 87 158 93 145 92 95 94 89 88 91 151 90 170 101 174 96 97 110 162 167 107 165 104 184 117 191 188 113 126 125 177 122 181" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;553;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWStopAreaManageWStopAreaHandleWc|TrainleavePfProtect" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c" show="true" lns="576 565 561 558 556 572 557 569" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;513;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWStopAreaManageWStopAreaHandleWc|TrainStopSignalProtect" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c" show="true" lns="516 517 518 534 531 527 521 538" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;38;RedSigPrtFunc" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c" show="true" lns="69 70 66 42 76 41 45 75 51 48 54 57 62" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;208;StpAreaFunc" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c" show="true" lns="273 279 276 282 286 257 263 260 266 269 306 309 312 315 289 294 297 300 303 343 339 336 350 346 325 320 332 329 372 369 382 376 379 357 353 366 360 363 408 409 413 402 407 404 395 392 385 388 440 443 446 434 437 425 428 431 416 419 422 479 476 473 470 467 464 220 221 222 461 223 216 217 458 218 219 212 455 213 214 215 452 449 211 239 236 233 230 227 226 497 225 224 254 251 248 490 245 242 482" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;553;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWStopAreaManageWStopAreaHandleWc|TrainleavePfProtect" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c" show="true" lns="576 565 561 558 556 572 557 569" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;38;RedSigPrtFunc" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c" show="true" lns="69 70 66 42 76 41 45 75 51 48 54 57 62" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c;513;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWStopAreaManageWStopAreaHandleWc|TrainStopSignalProtect" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/StopAreaManage/StopAreaHandle.c" show="true" lns="516 517 518 534 531 527 521 538" />
   </ResultInfo>
 </CvgData>

@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_2426500498_1140_2302959289 = 
+CppTestTranslationUnitInfo __CPTR_tui_2426500498_30516_2316989799 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\BaliseInfoHandle.c8d5014d\\adds\\harness_BaliseInfoHandle.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_2426500498_1140_2302959289
+#define __CPTR_tui &__CPTR_tui_2426500498_30516_2316989799
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_2426500498_1140_2302959289 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_2426500498_1140_2302959289 {
-    __CPTR_Initializer_2426500498_1140_2302959289()
+struct __CPTR_Initializer_2426500498_30516_2316989799 {
+    __CPTR_Initializer_2426500498_30516_2316989799()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_2426500498_1140_2302959289()
+    ~__CPTR_Initializer_2426500498_30516_2316989799()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_2426500498_1140_2302959289 __CPTR_initializer_2426500498_1140_2302959289;
+static struct __CPTR_Initializer_2426500498_30516_2316989799 __CPTR_initializer_2426500498_30516_2316989799;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_2426500498_1140_2302959289 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_2426500498_30516_2316989799 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 10 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_2426500498_1140_2302959289 = 
+CppTestCoverageInfo __CPTR_cui_2426500498_30516_2316989799 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_2426500498_1140_2302959289 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_2426500498_1140_2302959289
-#define __CPTR_fid(ID) ID + __CPTR_cui_2426500498_1140_2302959289.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_2426500498_30516_2316989799
+#define __CPTR_fid(ID) ID + __CPTR_cui_2426500498_30516_2316989799.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -63776,7 +63776,7 @@ return lostBaliInfoStru.otherBNum;
 UINT32_T GetLoseBaliOtherBId(UINT8_T num) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[6], 5);cpptestCoverageStmt(1U, 123U, __CPTR_cui, _Insure_funcID, 5);CPPTEST_STACK_TRACE_STMT_INFO(150) 
 
-{UINT32_T __T122166992 =  ((lostBaliInfoStru.otherBId)[num]);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T122166992;}
+{UINT32_T __T111679344 =  ((lostBaliInfoStru.otherBId)[num]);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T111679344;}
 } 
 
 UINT8_T GetLoseBaliVBNum(void) 
@@ -63789,7 +63789,7 @@ return lostBaliInfoStru.vBNum;
 UINT32_T GetLoseBaliVBId(UINT8_T num) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[8], 7);cpptestCoverageStmt(1U, 125U, __CPTR_cui, _Insure_funcID, 7);CPPTEST_STACK_TRACE_STMT_INFO(151) 
 
-{UINT32_T __T122169488 =  ((lostBaliInfoStru.vBId)[num]);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T122169488;}
+{UINT32_T __T111681840 =  ((lostBaliInfoStru.vBId)[num]);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T111681840;}
 } 
 
 UINT32_T GetPreNextBaliseId(void) 

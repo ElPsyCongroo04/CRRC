@@ -151,6 +151,42 @@
         <Loc locStartln="400" locStartPos="16" locEndLn="400" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
       </CvgElem>
     </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c;791;GetDevHealState" show="true">
+      <CvgElem id="GetDevHealState:1>2">
+        <Loc locStartln="797" locStartPos="8" locEndLn="797" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+        <Loc locStartln="800" locStartPos="8" locEndLn="800" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+      </CvgElem>
+      <CvgElem id="GetDevHealState:1>3">
+        <Loc locStartln="797" locStartPos="8" locEndLn="797" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+        <Loc locStartln="803" locStartPos="8" locEndLn="803" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+      </CvgElem>
+      <CvgElem id="GetDevHealState:3>5">
+        <Loc locStartln="803" locStartPos="8" locEndLn="803" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+        <Loc locStartln="824" locStartPos="8" locEndLn="824" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+      </CvgElem>
+      <CvgElem id="GetDevHealState:3>4">
+        <Loc locStartln="803" locStartPos="8" locEndLn="803" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+        <Loc locStartln="806" locStartPos="8" locEndLn="806" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+      </CvgElem>
+      <CvgElem id="GetDevHealState:5>7">
+        <Loc locStartln="824" locStartPos="8" locEndLn="824" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+        <Loc locStartln="830" locStartPos="4" locEndLn="830" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+      </CvgElem>
+      <CvgElem id="GetDevHealState:5>6">
+        <Loc locStartln="824" locStartPos="8" locEndLn="824" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+        <Loc locStartln="827" locStartPos="8" locEndLn="827" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c;846;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWActiveStandbyManageWActiveStandbyManageWc|HotStandbyToActUpdateErr" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWActiveStandbyManageWActiveStandbyManageWc|HotStandbyToActUpdateErr:1>3">
+        <Loc locStartln="849" locStartPos="7" locEndLn="849" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+        <Loc locStartln="860" locStartPos="0" locEndLn="860" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWActiveStandbyManageWActiveStandbyManageWc|HotStandbyToActUpdateErr:1>2">
+        <Loc locStartln="849" locStartPos="7" locEndLn="849" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+        <Loc locStartln="853" locStartPos="8" locEndLn="858" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c;66;CtrlStaFunc" show="true">
       <CvgElem id="CtrlStaFunc:49>51">
         <Loc locStartln="238" locStartPos="11" locEndLn="238" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
@@ -397,42 +433,6 @@
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWActiveStandbyManageWActiveStandbyManageWc|ActToSaftyCheck:5>6">
         <Loc locStartln="456" locStartPos="21" locEndLn="456" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
         <Loc locStartln="459" locStartPos="20" locEndLn="459" locEndPos="92" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c;791;GetDevHealState" show="true">
-      <CvgElem id="GetDevHealState:1>2">
-        <Loc locStartln="797" locStartPos="8" locEndLn="797" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-        <Loc locStartln="800" locStartPos="8" locEndLn="800" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-      </CvgElem>
-      <CvgElem id="GetDevHealState:1>3">
-        <Loc locStartln="797" locStartPos="8" locEndLn="797" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-        <Loc locStartln="803" locStartPos="8" locEndLn="803" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-      </CvgElem>
-      <CvgElem id="GetDevHealState:3>5">
-        <Loc locStartln="803" locStartPos="8" locEndLn="803" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-        <Loc locStartln="824" locStartPos="8" locEndLn="824" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-      </CvgElem>
-      <CvgElem id="GetDevHealState:3>4">
-        <Loc locStartln="803" locStartPos="8" locEndLn="803" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-        <Loc locStartln="806" locStartPos="8" locEndLn="806" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-      </CvgElem>
-      <CvgElem id="GetDevHealState:5>7">
-        <Loc locStartln="824" locStartPos="8" locEndLn="824" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-        <Loc locStartln="830" locStartPos="4" locEndLn="830" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-      </CvgElem>
-      <CvgElem id="GetDevHealState:5>6">
-        <Loc locStartln="824" locStartPos="8" locEndLn="824" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-        <Loc locStartln="827" locStartPos="8" locEndLn="827" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c;846;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWActiveStandbyManageWActiveStandbyManageWc|HotStandbyToActUpdateErr" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWActiveStandbyManageWActiveStandbyManageWc|HotStandbyToActUpdateErr:1>3">
-        <Loc locStartln="849" locStartPos="7" locEndLn="849" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-        <Loc locStartln="860" locStartPos="0" locEndLn="860" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWActiveStandbyManageWActiveStandbyManageWc|HotStandbyToActUpdateErr:1>2">
-        <Loc locStartln="849" locStartPos="7" locEndLn="849" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
-        <Loc locStartln="853" locStartPos="8" locEndLn="858" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/ActiveStandbyManage/ActiveStandbyManage.c;565;AtpCtrlStaChk" show="true">

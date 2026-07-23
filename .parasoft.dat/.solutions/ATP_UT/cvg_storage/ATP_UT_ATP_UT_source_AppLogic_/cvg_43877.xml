@@ -4,7 +4,7 @@
     <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
     <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
   </VersionInfos>
-  <CtxList ids="7439007155873996951 -4830745867383605369 4668299114784009951 2280983601714526128 4668299114784010790 7439007155873996206 3847402058542082743 4668299114784002257 3847402058542083582 1166662377782021570 341804384815388165 7439007155873996112 3847402058542082837 -3399826860484268947 4350481491180392940 2420008616777425594 -6927587915849315046 7439007155873998838 -4520545803260036158 7269195116307746175 1166662377782020825" uniqueId2MainId="CPP://-8491641153857428519 CPP://-4819045318999339310 CPP://-2402214012712317886 CPP://2762465901126116297 CPP://-2402214012712317948 CPP://-8491641153857428488 CPP://-1995934304685118465 CPP://-2402214012712317080 CPP://-1995934304685118527 CPP://-8856412913634067207 CPP://-2627560879395168520 CPP://-8491641153857428457 CPP://-1995934304685118496 CPP://6179751836593946049 CPP://-3747031002532602353 CPP://1073791758025288028 CPP://-4806988851294073334 CPP://-8491641153857428705 CPP://-5953393911139517280 CPP://-4820684575573300912 CPP://-8856412913634067176" />
+  <CtxList ids="7439007155873996951 4668299114784009951 -399797305304928548 2280983601714526128 7225877525561156690 3847402058542082743 4668299114784010790 4668299114784002257 1166662377782021570 341804384815388165 4350481491180392940 -3399826860484268947 3847402058542082837 -3464172413360892043 -399797305304929387 7225877525561155945 7225877525561156972 2090374565093813848 7439007155873998838 -3464172413360892788 -399797305304928642 -4520545803260036158 -4830745867383605369 7225877525561156878 7439007155873996206 7225877525561155851 3847402058542083582 7439007155873996112 2420008616777425594 -6927587915849315046 7225877525561156784 -3464172413360892882 7269195116307746175 1166662377782020825" uniqueId2MainId="CPP://-8491641153857428519 CPP://-2402214012712317886 CPP://-908084213741812334 CPP://2762465901126116297 CPP://6950392739496413706 CPP://-1995934304685118465 CPP://-2402214012712317948 CPP://-2402214012712317080 CPP://-8856412913634067207 CPP://-2627560879395168520 CPP://-3747031002532602353 CPP://6179751836593946049 CPP://-1995934304685118496 CPP://9187633250708934104 CPP://-908084213741812272 CPP://6950392739496413675 CPP://6950392739496413799 CPP://-3048517237590480071 CPP://-8491641153857428705 CPP://9187633250708934073 CPP://-908084213741812303 CPP://-5953393911139517280 CPP://-4819045318999339310 CPP://6950392739496413768 CPP://-8491641153857428488 CPP://6950392739496413644 CPP://-1995934304685118527 CPP://-8491641153857428457 CPP://1073791758025288028 CPP://-4806988851294073334 CPP://6950392739496413737 CPP://9187633250708934042 CPP://-4820684575573300912 CPP://-8856412913634067176" />
   <Stats>
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;194;SetMaEndSegOffset" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;269;GetMaSpksNum" total="1" num="0" />
@@ -23,66 +23,39 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;242;GetMaObstableNum" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;52;SetMaInfoMaRangeError" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;228;GetMaDisMaEndToHead" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;215;GetMaEndMaType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;215;GetMaEndMaType" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;60;GetMaUsabilityFlag" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;31;GetMaInfoMAValidTimer" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;138;SetMaStartSegId" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;123;GetMaLen" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;173;GetMaEndSegId" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;145;GetMaStartSegOffset" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;21;InitMaInfoData" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;255;GetMaTsrNum" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;145;GetMaStartSegOffset" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;173;GetMaEndSegId" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;73;GetMaValid" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;255;GetMaTsrNum" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;201;GetMaEndDir" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;235;SetMaDisMaEndToHead" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;263;GetMaTsrInfo" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;131;GetMaStartSegId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;131;GetMaStartSegId" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;187;GetMaEndSegOffset" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;208;SetMaEndDir" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;45;GetMaInfoMaRangeError" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;116;GetMaData" total="1" num="0" />
   </Stats>
   <ResultInfo cvgType="PC">
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;31;GetMaInfoMAValidTimer">
-      <CtxCvg ctx="-4830745867383605369" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
-      <CtxCvg ctx="2420008616777425594" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
-      <CtxCvg ctx="3847402058542083582" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
-      <CtxCvg ctx="7269195116307746175" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
-    </DynCvg>
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;80;SetMaValid">
-      <CtxCvg ctx="7439007155873996951" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="-4830745867383605369" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="4668299114784009951" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="2280983601714526128" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="4668299114784010790" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="7439007155873996206" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="3847402058542082743" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="4668299114784002257" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="3847402058542083582" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="1166662377782021570" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="341804384815388165" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="7439007155873996112" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="4350481491180392940" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="-3399826860484268947" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="3847402058542082837" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="-6927587915849315046" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="7439007155873998838" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="-4520545803260036158" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="1166662377782020825" ids="SetMaValid" cnts="2" paths="1" expect="1" />
-    </DynCvg>
     <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;87;InitMaData">
-      <CtxCvg ctx="7439007155873996951" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="-4830745867383605369" ids="InitMaData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996951" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="4668299114784009951" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="2280983601714526128" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="4668299114784010790" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="7439007155873996206" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="3847402058542082743" ids="InitMaData" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="4668299114784002257" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="3847402058542083582" ids="InitMaData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="4668299114784002257" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="1166662377782021570" ids="InitMaData" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="341804384815388165" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="7439007155873996112" ids="InitMaData" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="341804384815388165" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="4350481491180392940" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="-3399826860484268947" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="3847402058542082837" ids="InitMaData" cnts="2" paths="1" expect="1" />
@@ -91,12 +64,65 @@
       <CtxCvg ctx="-4520545803260036158" ids="InitMaData" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="1166662377782020825" ids="InitMaData" cnts="2" paths="1" expect="1" />
     </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;131;GetMaStartSegId">
+      <CtxCvg ctx="7225877525561156878" ids="GetMaStartSegId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2090374565093813848" ids="GetMaStartSegId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561156784" ids="GetMaStartSegId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561156972" ids="GetMaStartSegId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561155945" ids="GetMaStartSegId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561156690" ids="GetMaStartSegId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561155851" ids="GetMaStartSegId" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;215;GetMaEndMaType">
+      <CtxCvg ctx="-3464172413360892043" ids="GetMaEndMaType" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-3464172413360892788" ids="GetMaEndMaType" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-3464172413360892882" ids="GetMaEndMaType" cnts="3" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;31;GetMaInfoMAValidTimer">
+      <CtxCvg ctx="-4830745867383605369" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="2420008616777425594" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-399797305304929387" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-399797305304928548" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-399797305304928642" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542083582" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="7269195116307746175" ids="GetMaInfoMAValidTimer" cnts="3" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;80;SetMaValid">
+      <CtxCvg ctx="-4830745867383605369" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996951" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="4668299114784009951" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2280983601714526128" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="4668299114784010790" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996206" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542082743" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542083582" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="4668299114784002257" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1166662377782021570" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996112" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="341804384815388165" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="4350481491180392940" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-3399826860484268947" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3847402058542082837" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-6927587915849315046" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873998838" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-4520545803260036158" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1166662377782020825" ids="SetMaValid" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;145;GetMaStartSegOffset">
+      <CtxCvg ctx="7225877525561156878" ids="GetMaStartSegOffset" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2090374565093813848" ids="GetMaStartSegOffset" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561156784" ids="GetMaStartSegOffset" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561156972" ids="GetMaStartSegOffset" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561155945" ids="GetMaStartSegOffset" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561156690" ids="GetMaStartSegOffset" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7225877525561155851" ids="GetMaStartSegOffset" cnts="2" paths="1" expect="1" />
+    </DynCvg>
   </ResultInfo>
   <ResultInfo cvgType="PC" stat="true">
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;145;GetMaStartSegOffset" show="true">
-      <CvgElem id="GetMaStartSegOffset" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;180;SetMaEndSegId" show="true">
+      <CvgElem id="SetMaEndSegId" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="148" locStartPos="1" locEndLn="148" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+          <PathBlckLoc locStartln="183" locStartPos="1" locEndLn="183" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -107,108 +133,10 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;166;SetMaStartDir" show="true">
-      <CvgElem id="SetMaStartDir" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;73;GetMaValid" show="true">
+      <CvgElem id="GetMaValid" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="169" locStartPos="1" locEndLn="169" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;52;SetMaInfoMaRangeError" show="true">
-      <CvgElem id="SetMaInfoMaRangeError" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="55" locStartPos="4" locEndLn="55" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;31;GetMaInfoMAValidTimer" show="true">
-      <CvgElem id="GetMaInfoMAValidTimer" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="34" locStartPos="4" locEndLn="34" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;255;GetMaTsrNum" show="true">
-      <CvgElem id="GetMaTsrNum" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="258" locStartPos="1" locEndLn="258" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;116;GetMaData" show="true">
-      <CvgElem id="GetMaData" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="119" locStartPos="1" locEndLn="119" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;38;SetMaInfoMAValidTimer" show="true">
-      <CvgElem id="SetMaInfoMAValidTimer" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="41" locStartPos="4" locEndLn="41" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;269;GetMaSpksNum" show="true">
-      <CvgElem id="GetMaSpksNum" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="272" locStartPos="1" locEndLn="272" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;277;GetMaSpksInfo" show="true">
-      <CvgElem id="GetMaSpksInfo" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="280" locStartPos="1" locEndLn="280" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;123;GetMaLen" show="true">
-      <CvgElem id="GetMaLen" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="126" locStartPos="1" locEndLn="126" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;242;GetMaObstableNum" show="true">
-      <CvgElem id="GetMaObstableNum" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="245" locStartPos="1" locEndLn="245" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;173;GetMaEndSegId" show="true">
-      <CvgElem id="GetMaEndSegId" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="176" locStartPos="1" locEndLn="176" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;248;GetMaObstInfo" show="true">
-      <CvgElem id="GetMaObstInfo" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="251" locStartPos="1" locEndLn="251" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;187;GetMaEndSegOffset" show="true">
-      <CvgElem id="GetMaEndSegOffset" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="190" locStartPos="1" locEndLn="190" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;208;SetMaEndDir" show="true">
-      <CvgElem id="SetMaEndDir" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="211" locStartPos="1" locEndLn="211" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;67;SetMaUsabilityFlag" show="true">
-      <CvgElem id="SetMaUsabilityFlag" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="70" locStartPos="4" locEndLn="70" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+          <PathBlckLoc locStartln="76" locStartPos="4" locEndLn="76" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -219,31 +147,10 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;152;SetMaStartSegOffset" show="true">
-      <CvgElem id="SetMaStartSegOffset" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;108;GetMaInfoRecord" show="true">
+      <CvgElem id="GetMaInfoRecord" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="155" locStartPos="1" locEndLn="155" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;21;InitMaInfoData" show="true">
-      <CvgElem id="InitMaInfoData" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="24" locStartPos="4" locEndLn="27" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;87;InitMaData" show="true">
-      <CvgElem id="InitMaData" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="90" locStartPos="1" locEndLn="102" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;221;SetMaEndMaType" show="true">
-      <CvgElem id="SetMaEndMaType" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="224" locStartPos="1" locEndLn="224" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+          <PathBlckLoc locStartln="111" locStartPos="1" locEndLn="111" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -254,38 +161,17 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;108;GetMaInfoRecord" show="true">
-      <CvgElem id="GetMaInfoRecord" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;166;SetMaStartDir" show="true">
+      <CvgElem id="SetMaStartDir" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="111" locStartPos="1" locEndLn="111" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+          <PathBlckLoc locStartln="169" locStartPos="1" locEndLn="169" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;80;SetMaValid" show="true">
-      <CvgElem id="SetMaValid" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;145;GetMaStartSegOffset" show="true">
+      <CvgElem id="GetMaStartSegOffset" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="83" locStartPos="4" locEndLn="83" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;263;GetMaTsrInfo" show="true">
-      <CvgElem id="GetMaTsrInfo" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="266" locStartPos="1" locEndLn="266" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;60;GetMaUsabilityFlag" show="true">
-      <CvgElem id="GetMaUsabilityFlag" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="63" locStartPos="4" locEndLn="63" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;73;GetMaValid" show="true">
-      <CvgElem id="GetMaValid" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="76" locStartPos="4" locEndLn="76" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+          <PathBlckLoc locStartln="148" locStartPos="1" locEndLn="148" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -296,6 +182,83 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;194;SetMaEndSegOffset" show="true">
+      <CvgElem id="SetMaEndSegOffset" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="197" locStartPos="1" locEndLn="197" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;152;SetMaStartSegOffset" show="true">
+      <CvgElem id="SetMaStartSegOffset" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="155" locStartPos="1" locEndLn="155" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;38;SetMaInfoMAValidTimer" show="true">
+      <CvgElem id="SetMaInfoMAValidTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="41" locStartPos="4" locEndLn="41" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;263;GetMaTsrInfo" show="true">
+      <CvgElem id="GetMaTsrInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="266" locStartPos="1" locEndLn="266" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;159;GetMaStartDir" show="true">
+      <CvgElem id="GetMaStartDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="162" locStartPos="1" locEndLn="162" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;31;GetMaInfoMAValidTimer" show="true">
+      <CvgElem id="GetMaInfoMAValidTimer" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="34" locStartPos="4" locEndLn="34" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;60;GetMaUsabilityFlag" show="true">
+      <CvgElem id="GetMaUsabilityFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="63" locStartPos="4" locEndLn="63" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;87;InitMaData" show="true">
+      <CvgElem id="InitMaData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="90" locStartPos="1" locEndLn="102" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;116;GetMaData" show="true">
+      <CvgElem id="GetMaData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="119" locStartPos="1" locEndLn="119" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;80;SetMaValid" show="true">
+      <CvgElem id="SetMaValid" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="83" locStartPos="4" locEndLn="83" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;52;SetMaInfoMaRangeError" show="true">
+      <CvgElem id="SetMaInfoMaRangeError" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="55" locStartPos="4" locEndLn="55" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;228;GetMaDisMaEndToHead" show="true">
       <CvgElem id="GetMaDisMaEndToHead" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
@@ -303,10 +266,17 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;180;SetMaEndSegId" show="true">
-      <CvgElem id="SetMaEndSegId" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;277;GetMaSpksInfo" show="true">
+      <CvgElem id="GetMaSpksInfo" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="183" locStartPos="1" locEndLn="183" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+          <PathBlckLoc locStartln="280" locStartPos="1" locEndLn="280" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;187;GetMaEndSegOffset" show="true">
+      <CvgElem id="GetMaEndSegOffset" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="190" locStartPos="1" locEndLn="190" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -317,10 +287,66 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;194;SetMaEndSegOffset" show="true">
-      <CvgElem id="SetMaEndSegOffset" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;255;GetMaTsrNum" show="true">
+      <CvgElem id="GetMaTsrNum" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="197" locStartPos="1" locEndLn="197" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+          <PathBlckLoc locStartln="258" locStartPos="1" locEndLn="258" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;208;SetMaEndDir" show="true">
+      <CvgElem id="SetMaEndDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="211" locStartPos="1" locEndLn="211" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;242;GetMaObstableNum" show="true">
+      <CvgElem id="GetMaObstableNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="245" locStartPos="1" locEndLn="245" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;248;GetMaObstInfo" show="true">
+      <CvgElem id="GetMaObstInfo" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="251" locStartPos="1" locEndLn="251" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;269;GetMaSpksNum" show="true">
+      <CvgElem id="GetMaSpksNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="272" locStartPos="1" locEndLn="272" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;123;GetMaLen" show="true">
+      <CvgElem id="GetMaLen" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="126" locStartPos="1" locEndLn="126" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;67;SetMaUsabilityFlag" show="true">
+      <CvgElem id="SetMaUsabilityFlag" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="70" locStartPos="4" locEndLn="70" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;173;GetMaEndSegId" show="true">
+      <CvgElem id="GetMaEndSegId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="176" locStartPos="1" locEndLn="176" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;21;InitMaInfoData" show="true">
+      <CvgElem id="InitMaInfoData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="24" locStartPos="4" locEndLn="27" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -331,10 +357,10 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;159;GetMaStartDir" show="true">
-      <CvgElem id="GetMaStartDir" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c;221;SetMaEndMaType" show="true">
+      <CvgElem id="SetMaEndMaType" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="162" locStartPos="1" locEndLn="162" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
+          <PathBlckLoc locStartln="224" locStartPos="1" locEndLn="224" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/MaInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>

@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_749696224_6776_2299367097 = 
+CppTestTranslationUnitInfo __CPTR_tui_749696224_25172_2378032602 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\StopEnsureHandle.ca0eb363f\\tested\\harness_StopEnsureHandle.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_749696224_6776_2299367097
+#define __CPTR_tui &__CPTR_tui_749696224_25172_2378032602
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_749696224_6776_2299367097 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_749696224_6776_2299367097 {
-    __CPTR_Initializer_749696224_6776_2299367097()
+struct __CPTR_Initializer_749696224_25172_2378032602 {
+    __CPTR_Initializer_749696224_25172_2378032602()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_749696224_6776_2299367097()
+    ~__CPTR_Initializer_749696224_25172_2378032602()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_749696224_6776_2299367097 __CPTR_initializer_749696224_6776_2299367097;
+static struct __CPTR_Initializer_749696224_25172_2378032602 __CPTR_initializer_749696224_25172_2378032602;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_749696224_6776_2299367097 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_749696224_25172_2378032602 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 3 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_749696224_6776_2299367097 = 
+CppTestCoverageInfo __CPTR_cui_749696224_25172_2378032602 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_749696224_6776_2299367097 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_749696224_6776_2299367097
-#define __CPTR_fid(ID) ID + __CPTR_cui_749696224_6776_2299367097.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_749696224_25172_2378032602
+#define __CPTR_fid(ID) ID + __CPTR_cui_749696224_25172_2378032602.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -62230,7 +62230,7 @@ void TestSuite_StopEnsureHandle_test_StopEnsureProcess_4();
 void TestSuite_StopEnsureHandle_test_StopEnsureProcess_5(); 
 void TestSuite_StopEnsureHandle_test_StopEnsureProcess_6(); 
 void TestSuite_StopEnsureHandle_test_GetStopEnsureSta(); 
-int TestSuite_StopEnsureHandle_callTest(const char *name) { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_STMT_INFO(105) cpptestIgnoreCurrStackElement(); CPPTEST_STACK_TRACE_STMT_INFO(106) {int __T125800608 =  TestSuite_StopEnsureHandle_callTestStatic(name);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T125800608;}} ;
+int TestSuite_StopEnsureHandle_callTest(const char *name) { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_STMT_INFO(105) cpptestIgnoreCurrStackElement(); CPPTEST_STACK_TRACE_STMT_INFO(106) {int __T120787096 =  TestSuite_StopEnsureHandle_callTestStatic(name);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120787096;}} ;
 
 void TestSuite_StopEnsureHandle_setUp() 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_EXIT_ROUTINE() 

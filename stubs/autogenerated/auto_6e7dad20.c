@@ -1,4 +1,22 @@
 #include "cpptest.h"
+extern int IsFamAutoReverseSpyTestCase(void);
+#include "ReverseHandle.h"
+
+extern UINT32_T g_AmAutoReverse_GetCurAtpCtrlStateCalls;
+extern UINT32_T g_AmAutoReverse_GetReversePointCalls;
+extern UINT32_T g_AmAutoReverse_GetReversePointTypeCalls;
+extern UINT32_T g_AmAutoReverse_GetStopPointIdCalls;
+extern UINT32_T g_AmAutoReverse_GetReverseStopPointIdCalls;
+extern UINT32_T g_AmAutoReverse_GetArReversingFirstTagCalls;
+extern UINT32_T g_AmAutoReverse_GetIdleToCtlNoticeCalls;
+extern UINT32_T g_AmCmManReverse_GetReversingCbtcReverseStepCalls;
+extern UINT32_T g_AmCmManReverse_GetIdleToCtlCmpVerCalls;
+extern UINT32_T g_AmCmManReverse_GetIdleToCtlPreSetModeCalls;
+extern UINT32_T g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls;
+extern UINT32_T g_AmCmManReverse_GetIdleToCtlNoticeCalls;
+extern UINT32_T g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls;
+extern UINT32_T g_CtrlAutoChangeEnd_GetCurAtpCtrlStateCalls;
+extern UINT32_T g_CtrlAutoChangeEnd_GetIdleToCtlNoticeCalls;
 
 /** 
  * This file contains auto-generated stub definitions.
@@ -16998,6 +17016,23 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetInOppositeWorkOpenTag (void)
 EXTERN_C_LINKAGE UINT8_T GetPsdStatus () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetPsdStatus (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_51")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_52")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_53"))
+    {
+        return DEFAULT_ZERO;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_54")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_55")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_56")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_57")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_58")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_59")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_60")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_61"))
+    {
+        return PSD_STATUS_CLOSE;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_70"))
     {
         return PSD_STATUS_OPEN;
@@ -19067,6 +19102,41 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetRunningLevelCtrlLevel (void)
 EXTERN_C_LINKAGE LocState_T GetTrainLocAllow () ;
 EXTERN_C_LINKAGE LocState_T CppTest_Stub_GetTrainLocAllow (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_41"))
+    {
+        return (LocState_T)LOC_NOTLOCALIZED;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_42")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_43")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_44")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_45")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_46")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_47")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_48")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_49")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_50"))
+    {
+        return (LocState_T)LOC_LOCALIZED;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_44"))
+    {
+        return (LocState_T)LOC_NOTLOCALIZED;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_45")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_46")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_47")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_48")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_49")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_50")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_51")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_52")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_53")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_54")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_55")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_56"))
+    {
+        return (LocState_T)LOC_LOCALIZED;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_IsInJumpWindow_4"))
     {
 		return (UINT8_T)LOC_LOCALIZED;
@@ -20433,6 +20503,46 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetSleepAwakeArea (void)
 EXTERN_C_LINKAGE UINT8_T GetTrainZeroSpeedTag () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetTrainZeroSpeedTag (void) 
 {
+    if (CppTest_IsCurrentTestCase(
+            "TestSuite_ProtectionHandle_test_CheckStopPointDistance_0"))
+    {
+        return ZERO_SPEED_FALSE;
+    }
+    if (CppTest_IsCurrentTestCase(
+            "TestSuite_ProtectionHandle_test_CheckStopPointDistance_1")
+        || CppTest_IsCurrentTestCase(
+            "TestSuite_ProtectionHandle_test_CheckStopPointDistance_2")
+        || CppTest_IsCurrentTestCase(
+            "TestSuite_ProtectionHandle_test_CheckStopPointDistance_3")
+        || CppTest_IsCurrentTestCase(
+            "TestSuite_ProtectionHandle_test_CheckStopPointDistance_4"))
+    {
+        return ZERO_SPEED_TRUE;
+    }
+    if (CppTest_IsCurrentTestCase(
+            "TestSuite_TractionBrakeHandle_test_EBProcFunc_15"))
+    {
+        return ZERO_SPEED_FALSE;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_44"))
+    {
+        return ZERO_SPEED_FALSE;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_45")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_46")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_47")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_48")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_49")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_50")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_51")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_52")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_53")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_54")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_55")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_56"))
+    {
+        return ZERO_SPEED_TRUE;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FamExitCamCheck_30"))
     {
         return ZERO_SPEED_TRUE;
@@ -23393,6 +23503,29 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_IsRcvSleepCmd (UINT8_T uSleepCmd)
 EXTERN_C_LINKAGE UINT8_T GetAtoGetAtoBoardErrTagComuStatus () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetAtoComuStatus (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_54")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_64"))
+	{
+		return ATP_COM_FAULT;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_52")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_53")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_55")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_56")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_57")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_58")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_59")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_62")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_63")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_65")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0"))
+	{
+		return ATP_COM_NORMAL;
+	}
     if(CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_AMModeProcess_97"))
     {
         return ATP_COM_NORMAL;
@@ -25393,8 +25526,109 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetInSwitchMeaCutOffTraction (void)
 
 /** User stub definition for function: UINT8_T GetCurAtpCtrlState(void) */
 EXTERN_C_LINKAGE UINT8_T GetCurAtpCtrlState () ;
+extern int IsCtrlVOBCEnterARTargetTestCase(void);
+extern UINT32_T g_CtrlVOBCEnterAR_Target_GetCurAtpCtrlStateCalls;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetCurAtpCtrlState (void) 
 {
+    if (IsCtrlVOBCEnterARTargetTestCase())
+    {
+        ++g_CtrlVOBCEnterAR_Target_GetCurAtpCtrlStateCalls;
+        if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_75")
+            || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_80")
+            || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_81"))
+        {
+            return (UINT8_T)ACTIVE;
+        }
+        if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_77")
+            || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_78"))
+        {
+            if (1U == g_CtrlVOBCEnterAR_Target_GetCurAtpCtrlStateCalls)
+            {
+                return DEFAULT_ZERO;
+            }
+            return (UINT8_T)ACTIVE;
+        }
+        return DEFAULT_ZERO;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_0"))
+    {
+        return (UINT8_T)1U;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_3")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_4")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_5")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_6")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_7")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_8")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_9")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_10")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_11")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_12")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_13")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_14")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_15")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_16")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_17"))
+    {
+        return (UINT8_T)3U;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_0"))
+    {
+        return (UINT8_T)1U; /* SAFETY */
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_3")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_4")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_5")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_6")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10"))
+    {
+        return (UINT8_T)3U; /* ACTIVE */
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_0"))
+    {
+        ++g_CtrlAutoChangeEnd_GetCurAtpCtrlStateCalls;
+        return (UINT8_T)1U; /* SAFETY */
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_3")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_4"))
+    {
+        ++g_CtrlAutoChangeEnd_GetCurAtpCtrlStateCalls;
+        return (UINT8_T)3U; /* ACTIVE */
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_0"))
+    {
+        ++g_AmAutoReverse_GetCurAtpCtrlStateCalls;
+        return (UINT8_T)1U; /* SAFETY */
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_3")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_4")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16"))
+    {
+        ++g_AmAutoReverse_GetCurAtpCtrlStateCalls;
+        return (UINT8_T)3U; /* ACTIVE */
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FamExitCamCheck_31"))
 	{ 
       	return 3;
@@ -28131,6 +28365,14 @@ EXTERN_C_LINKAGE UINT32_T CppTest_Stub_GetProtectionBackDist (void)
 EXTERN_C_LINKAGE UINT16_T GetConfigCycleTime () ;
 EXTERN_C_LINKAGE UINT16_T CppTest_Stub_GetConfigCycleTime (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_7")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_9")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_13")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_14")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_16"))
+    {
+        return 1U;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_EUMModeprocess_18"))
     { 
         return 20001u;
@@ -30288,6 +30530,23 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetMaInfoMaRangeError (void)
 EXTERN_C_LINKAGE UINT16_T GetTrainEbBurstSpeed () ;
 EXTERN_C_LINKAGE UINT16_T CppTest_Stub_GetTrainEbBurstSpeed (void) 
 {
+    if (CppTest_IsCurrentTestCase(
+            "TestSuite_ProtectionHandle_test_CheckJumpProtection_54"))
+    {
+        return DEFAULT_ZERO;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_52")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_53")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_55")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_56")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_57")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_58")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_59")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_60")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_61"))
+    {
+        return 1U;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_12"))
 	{ 
       	return DEFAULT_ZERO;
@@ -35221,6 +35480,22 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetRollStateTag (void)
 EXTERN_C_LINKAGE UINT8_T GetTrainBackActiveWin () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetTrainBackActiveWin (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_42")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_44")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_46")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_47"))
+	{
+      	return RET_TRUE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_41")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_43")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_45")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_48")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_49")
+        || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_50"))
+	{
+      	return RET_FALSE;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_3"))
 	{ 
       	return RET_TRUE;
@@ -37122,6 +37397,20 @@ EXTERN_C_LINKAGE const StopPoint_T * CppTest_Stub_GetIndexIdStopPointDataStru (c
 EXTERN_C_LINKAGE UINT8_T GetNoDirBothSegPointDis (UINT16_T segStartID, UINT32_T startOffset, UINT16_T segEndID, UINT32_T endOffSet, UINT32_T * destDistance) ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetNoDirBothSegPointDis (UINT16_T segStartID, UINT32_T startOffset, UINT16_T segEndID, UINT32_T endOffSet, UINT32_T * destDistance) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_2"))
+	{
+		return RET_FALSE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_3"))
+	{
+		*destDistance = 101U;
+		return RET_TRUE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_4"))
+	{
+		*destDistance = 100U;
+		return RET_TRUE;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_IsInJumpWindow_5"))
 	{ 
 		* destDistance = 3;
@@ -38129,6 +38418,72 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetSleepFlag (void)
 EXTERN_C_LINKAGE UINT8_T GetIdleToCtlNotice () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetIdleToCtlNotice (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_5")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_11")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_15")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_17"))
+    {
+        return DEFAULT_ZERO;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_6")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_8")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_10")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_12"))
+    {
+        return ATP_TO_OTHER_LOC_NOTICE;
+    }
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9"))
+	{
+		return DEFAULT_ZERO;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10"))
+	{
+		return ATP_TO_OTHER_LOC_NOTICE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_1")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_3"))
+	{
+		++g_CtrlAutoChangeEnd_GetIdleToCtlNoticeCalls;
+		return DEFAULT_ZERO;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_2")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_4"))
+	{
+		++g_CtrlAutoChangeEnd_GetIdleToCtlNoticeCalls;
+		return ATP_TO_OTHER_LOC_NOTICE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_9"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlNoticeCalls;
+		return ATP_TO_OTHER_LOC_NOTICE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_10"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlNoticeCalls;
+		return DEFAULT_ZERO;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16"))
+	{
+		++g_AmAutoReverse_GetIdleToCtlNoticeCalls;
+		return ATP_TO_OTHER_LOC_NOTICE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12"))
+	{
+		++g_AmAutoReverse_GetIdleToCtlNoticeCalls;
+		return DEFAULT_ZERO;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_21"))
 	{ 
       	return ATP_TO_OTHER_LOC_NOTICE+1;
@@ -38258,6 +38613,22 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetLocChangeTag (void)
 EXTERN_C_LINKAGE UINT8_T GetTrainLOCHDir () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetTrainLOCHDir (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_4"))
+	{
+		return DEFAULT_ZERO;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_5")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8"))
+	{
+		return LINESEG_SAME_DIR;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_6")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10"))
+	{
+		return LINESEG_CONVER_DIR;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_25"))
 	{
 		return SEG_LOGIC_DIR_DOWN;
@@ -38333,6 +38704,30 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetTrainLOCHDir (void)
 EXTERN_C_LINKAGE UINT8_T GetAtpCtrlStatBetter (void) ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetAtpCtrlStatBetter (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0"))
+	{
+		return (UINT8_T)DEFAULT_1_VALUE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60"))
+	{
+		++g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls;
+		return (UINT8_T)WORSE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61"))
+	{
+		++g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls;
+		return (UINT8_T)SAME;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66"))
+	{
+		++g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls;
+		return (UINT8_T)SAME;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67"))
+	{
+		++g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls;
+		return (UINT8_T)SAME;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_42"))
 	{ 
 	 return (UINT8_T)WORSE;
@@ -38545,6 +38940,43 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetHmiAtbBtn (void)
 EXTERN_C_LINKAGE UINT8_T GetReversingCbtcReverseStep () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetReversingCbtcReverseStep (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_0")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_1")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_2")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_3")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_4"))
+	{
+		++g_AmCmManReverse_GetReversingCbtcReverseStepCalls;
+		return STEPONE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_5")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_6")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_7"))
+	{
+		++g_AmCmManReverse_GetReversingCbtcReverseStepCalls;
+		return STEPTWO;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_8"))
+	{
+		++g_AmCmManReverse_GetReversingCbtcReverseStepCalls;
+		return STEPTHREE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_10"))
+	{
+		++g_AmCmManReverse_GetReversingCbtcReverseStepCalls;
+		return STEPFOUR;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_11"))
+	{
+		++g_AmCmManReverse_GetReversingCbtcReverseStepCalls;
+		return STEPFIVE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_12"))
+	{
+		++g_AmCmManReverse_GetReversingCbtcReverseStepCalls;
+		return (UINT8_T)0xFFU;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCReverseCBTC_15"))
 	{
 		return STEPTWO;
@@ -38716,6 +39148,30 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetHmiLastAtbBtn (void)
 EXTERN_C_LINKAGE UINT32_T GetIdleToCtlCmpVer () ;
 EXTERN_C_LINKAGE UINT32_T CppTest_Stub_GetIdleToCtlCmpVer (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_75")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_76")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_77")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_78"))
+    {
+        return 10U;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_79")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_80")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_81")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_82")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_83"))
+    {
+        return 20U;
+    }
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_0")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_1")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_2")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_3")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_4"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlCmpVerCalls;
+		return 1U;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_25")
 		||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_26")
 		||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_27")
@@ -38776,6 +39232,52 @@ EXTERN_C_LINKAGE UINT8_T GetIdleToCtlPreSetMode () ;
 
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetIdleToCtlPreSetMode (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_57"))
+	{
+		return DEFAULT_ZERO;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_58")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67"))
+	{
+		return TACS_FAM;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_52")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_53")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_54")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_55")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_56")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_59")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_62")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_63")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_64")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_65")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0"))
+	{
+		return TACS_AM;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_1"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlPreSetModeCalls;
+		return TACS_CM;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_2"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlPreSetModeCalls;
+		return TACS_AM;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_3"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlPreSetModeCalls;
+		return TACS_FAM;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_4"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlPreSetModeCalls;
+		return DEFAULT_ZERO;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_44"))
 	{
 		return TACS_FAM;
@@ -38851,6 +39353,40 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetIdleToCtlPreSetMode (void)
 EXTERN_C_LINKAGE UINT8_T GetIdleToCtlZeroSpeedTag () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetIdleToCtlZeroSpeedTag (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_59"))
+	{
+		return ZERO_SPEED_FALSE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_52")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_53")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_54")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_55")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_56")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_57")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_58")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_62")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_63")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_64")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_65")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0"))
+	{
+		return ZERO_SPEED_TRUE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_1")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_3"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls;
+		return ZERO_SPEED_TRUE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_2"))
+	{
+		++g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls;
+		return ZERO_SPEED_FALSE;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_30")||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_41")||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_44"))
 	{
 		return ZERO_SPEED_TRUE;
@@ -38898,6 +39434,69 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetIdleToCtlZeroSpeedTag (void)
 EXTERN_C_LINKAGE UINT8_T GetReversePoint () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetReversePoint (void) 
 {
+    if (IsCtrlVOBCEnterARTargetTestCase())
+    {
+        return ATP_FALSE;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_0"))
+    {
+        return ATP_FALSE;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_3"))
+    {
+        return ATP_TRUE;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_1"))
+    {
+        return ATP_FALSE;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_0")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_3")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_4")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_5")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_6")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_7")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_8")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_9")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_10")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_11")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_12")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_13")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_14")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_15")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_16")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_17"))
+    {
+        return ATP_TRUE;
+    }
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_0")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_1"))
+	{
+		++g_AmAutoReverse_GetReversePointCalls;
+		return ATP_FALSE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_2")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_3")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_4")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16"))
+	{
+		++g_AmAutoReverse_GetReversePointCalls;
+		return ATP_TRUE;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVobcFamReverse_25"))
     {
         return ATP_TRUE;
@@ -39170,6 +39769,72 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetReversePoint (void)
 EXTERN_C_LINKAGE UINT8_T GetReversePointType () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetReversePointType (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_2"))
+    {
+        return BNF_REVERSE_AREA_STA_B;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_3"))
+    {
+        return DEFAULT_ZERO;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_5")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_6")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_7")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_10")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_11")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_12")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_13"))
+    {
+        return BNF_REVERSE_AREA_STA_B;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_8")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_9"))
+    {
+        return BNF_REVERSE_AREA_STA_A;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_14")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_15")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_16")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_17"))
+    {
+        return (BNF_REVERSE_AREA_STA_B | BNF_REVERSE_AREA_STA_A);
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_0")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_3")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_4"))
+    {
+        return DEFAULT_ZERO;
+    }
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_0")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_1")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_2"))
+	{
+		++g_AmAutoReverse_GetReversePointTypeCalls;
+		return DEFAULT_ZERO;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_0")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_1")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_2")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_3")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_4")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16"))
+	{
+		++g_AmAutoReverse_GetReversePointTypeCalls;
+		return BNF_REVERSE_AREA_AR;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVobcFamReverse_25"))
 	{
 		return BNF_REVERSE_AREA_STA_B;
@@ -39316,6 +39981,46 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetReversePointType (void)
 EXTERN_C_LINKAGE UINT16_T GetStopPointId () ;
 EXTERN_C_LINKAGE UINT16_T CppTest_Stub_GetStopPointId (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_5")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_8"))
+    {
+        return DEFAULT_ZERO;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_0")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_3")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_4")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_6")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_7"))
+    {
+        return 10U;
+    }
+    if (IsFamAutoReverseSpyTestCase())
+    {
+        return 1U;
+    }
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_0")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_1")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_2")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_3")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_4")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16"))
+	{
+		++g_AmAutoReverse_GetStopPointIdCalls;
+		return 1U;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVobcFamReverse_25"))
 	{
 		return 1;
@@ -39422,6 +40127,49 @@ EXTERN_C_LINKAGE UINT16_T CppTest_Stub_GetStopPointId (void)
 EXTERN_C_LINKAGE UINT16_T GetReverseStopPointId () ;
 EXTERN_C_LINKAGE UINT16_T CppTest_Stub_GetReverseStopPointId (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_1"))
+    {
+        return 11U;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_0")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_3"))
+    {
+        return 10U;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_2"))
+    {
+        return 2U;
+    }
+    if (IsFamAutoReverseSpyTestCase())
+    {
+        return 1U;
+    }
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_3"))
+	{
+		++g_AmAutoReverse_GetReverseStopPointIdCalls;
+		return 2U;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_0")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_1")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_2")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_4")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16"))
+	{
+		++g_AmAutoReverse_GetReverseStopPointIdCalls;
+		return 1U;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVobcFamReverse_25"))
 	{
 		return 1;
@@ -39742,6 +40490,14 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetInSwitchMeaDoorStatus (void)
 EXTERN_C_LINKAGE UINT8_T CtrlARConditionChk (void) ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_CtrlARConditionChk (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0"))
+	{
+		return ATP_TRUE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_1"))
+	{
+		return ATP_FALSE;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterArProc"))
 	{ 
       	return ATP_TRUE;
@@ -39757,6 +40513,10 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_CtrlARConditionChk (void)
 EXTERN_C_LINKAGE UINT8_T GetArEnterARStep () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetArEnterARStep (void) 
 {
+    if (IsCtrlVOBCEnterARTargetTestCase())
+    {
+        return STEPONE;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_74"))
 	{
 		return STEPTWO;
@@ -41207,6 +41967,29 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetAtoCommErrTag (void)
 EXTERN_C_LINKAGE UINT8_T GetPowerOffHintFlag () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetPowerOffHintFlag (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_55")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_65"))
+	{
+		return POWEROFF_HINT_NEED_YES;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_52")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_53")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_54")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_56")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_57")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_58")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_59")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_62")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_63")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_64")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0"))
+	{
+		return POWEROFF_HINT_NEED_NO;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_51"))
 	{ 
      return POWEROFF_HINT_NEED_NO;
@@ -41298,6 +42081,29 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetPowerOffHintFlag (void)
 EXTERN_C_LINKAGE UINT8_T GetIdleToCtlAtoStatus () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetIdleToCtlAtoStatus (void) 
 {
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_58"))
+	{
+		return ATP_FALSE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_52")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_53")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_54")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_55")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_56")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_57")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_59")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_62")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_63")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_64")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_65")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0"))
+	{
+		return ATP_TRUE;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_30")||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_41")||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_44"))
 	{
 		return ATP_TRUE;
@@ -41349,6 +42155,24 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetIdleToCtlAtoStatus (void)
 EXTERN_C_LINKAGE UINT32_T GetStopPointDataStruattribute (const UINT16_T stopPointId) ;
 EXTERN_C_LINKAGE UINT32_T CppTest_Stub_GetStopPointDataStruattribute (const UINT16_T stopPointId) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_6"))
+    {
+        return (RUN_REVERT_STOP_POINT | RUN_OPERAT_STOP_POINT);
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_5")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_7"))
+    {
+        return RUN_REVERT_STOP_POINT;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_0")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_2")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_3")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_4")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_8"))
+    {
+        return DEFAULT_ZERO;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseInChk_27")||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseInChk_28")||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseInChk_29"))
 	{ 
       	return 0x00000005U;
@@ -41376,6 +42200,22 @@ EXTERN_C_LINKAGE UINT32_T CppTest_Stub_GetStopPointDataStruattribute (const UINT
 EXTERN_C_LINKAGE UINT8_T CheckTrainInArStartArea (const UINT16_T segId, const UINT32_T segOffset, const UINT8_T dir, UINT8_T * trainInArStartArea, UINT16_T * arLampId, UINT16_T * arButtonId) ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_CheckTrainInArStartArea (const UINT16_T segId, const UINT32_T segOffset, const UINT8_T dir, UINT8_T * trainInArStartArea, UINT16_T * arLampId, UINT16_T * arButtonId) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_1")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_6")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_7"))
+    {
+        return DEFAULT_ZERO;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_4"))
+    {
+        *trainInArStartArea = RET_FALSE;
+        return DEFAULT_1_VALUE;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_5"))
+    {
+        *trainInArStartArea = RET_TRUE;
+        return DEFAULT_1_VALUE;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseInChk_33"))
 	{
       	* trainInArStartArea=RET_TRUE;
@@ -41495,6 +42335,20 @@ EXTERN_C_LINKAGE UINT16_T CppTest_Stub_GetReverseIdleReverseTimer (void)
 EXTERN_C_LINKAGE UINT32_T GetCtlToIdleCmpVer () ;
 EXTERN_C_LINKAGE UINT32_T CppTest_Stub_GetCtlToIdleCmpVer (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_76")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_77")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_78")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_79")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_80")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_81"))
+    {
+        return 10U;
+    }
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_82")
+        || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_83"))
+    {
+        return 30U;
+    }
     if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_26")
 		||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_28")
 		||CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_30")
@@ -41549,6 +42403,44 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetInAtoRelease (void)
 EXTERN_C_LINKAGE UINT8_T GetArReversingFirstTag () ;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetArReversingFirstTag (void) 
 {
+    if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_4"))
+    {
+        return ATP_FALSE;
+    }
+    if (IsFamAutoReverseSpyTestCase())
+    {
+        return ATP_TRUE;
+    }
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7"))
+	{
+		return ATP_FALSE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10"))
+	{
+		return ATP_TRUE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7"))
+	{
+		++g_AmAutoReverse_GetArReversingFirstTagCalls;
+		return ATP_FALSE;
+	}
+	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")
+		|| CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16"))
+	{
+		++g_AmAutoReverse_GetArReversingFirstTagCalls;
+		return ATP_TRUE;
+	}
 	if(CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_27"))
 	{
       	return ATP_FALSE;
@@ -42458,8 +43350,15 @@ EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetMmiComuStatus (void)
 
 /** User stub definition for function: UINT8_T GetAomComuStatus(void) */
 EXTERN_C_LINKAGE UINT8_T GetAomComuStatus () ;
+extern UINT32_T g_EBProcFunc15_GetAomComuStatusCalls;
 EXTERN_C_LINKAGE UINT8_T CppTest_Stub_GetAomComuStatus (void) 
 {
+    if (CppTest_IsCurrentTestCase(
+            "TestSuite_TractionBrakeHandle_test_EBProcFunc_15"))
+    {
+        ++g_EBProcFunc15_GetAomComuStatusCalls;
+        return ATP_COM_NORMAL;
+    }
 	if(CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FamExitCmCheck_35"))
     {
         return ATP_COM_NORMAL;

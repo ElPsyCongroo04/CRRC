@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_760329643_47592_2302963744 = 
+CppTestTranslationUnitInfo __CPTR_tui_760329643_10528_2316993668 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\ModeControl.c23d41650\\adds\\harness_ModeControl.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_760329643_47592_2302963744
+#define __CPTR_tui &__CPTR_tui_760329643_10528_2316993668
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_760329643_47592_2302963744 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_760329643_47592_2302963744 {
-    __CPTR_Initializer_760329643_47592_2302963744()
+struct __CPTR_Initializer_760329643_10528_2316993668 {
+    __CPTR_Initializer_760329643_10528_2316993668()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_760329643_47592_2302963744()
+    ~__CPTR_Initializer_760329643_10528_2316993668()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_760329643_47592_2302963744 __CPTR_initializer_760329643_47592_2302963744;
+static struct __CPTR_Initializer_760329643_10528_2316993668 __CPTR_initializer_760329643_10528_2316993668;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_760329643_47592_2302963744 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_760329643_10528_2316993668 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 4 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_760329643_47592_2302963744 = 
+CppTestCoverageInfo __CPTR_cui_760329643_10528_2316993668 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_760329643_47592_2302963744 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_760329643_47592_2302963744
-#define __CPTR_fid(ID) ID + __CPTR_cui_760329643_47592_2302963744.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_760329643_10528_2316993668
+#define __CPTR_fid(ID) ID + __CPTR_cui_760329643_10528_2316993668.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]

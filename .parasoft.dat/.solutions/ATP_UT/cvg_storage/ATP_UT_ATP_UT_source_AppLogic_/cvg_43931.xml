@@ -8,8 +8,8 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;614;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare" total="18" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;59;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32BtmSignal" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1151;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|CheckBtmRcvFrameData" total="14" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;507;BtmMsgRcv" total="8" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;821;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmData" total="26" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;507;BtmMsgRcv" total="8" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1405;AddSendBtmRequestID" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;999;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmFrame" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1244;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|CheckBtmRcvIdleData" total="14" num="0" />
@@ -19,14 +19,98 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1330;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|PackSendBtmData" total="2" num="0" />
   </Stats>
   <ResultInfo cvgType="DC" stat="true">
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;123;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32MBtmSignal" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32MBtmSignal:2>4">
-        <Loc locStartln="167" locStartPos="10" locEndLn="167" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="174" locStartPos="4" locEndLn="174" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;614;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:4>6">
+        <Loc locStartln="636" locStartPos="17" locEndLn="636" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="644" locStartPos="16" locEndLn="644" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32MBtmSignal:2>3">
-        <Loc locStartln="167" locStartPos="10" locEndLn="167" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="170" locStartPos="8" locEndLn="172" locEndPos="12" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:12>13">
+        <Loc locStartln="661" locStartPos="13" locEndLn="661" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="664" locStartPos="11" locEndLn="664" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:4>5">
+        <Loc locStartln="636" locStartPos="17" locEndLn="636" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="639" locStartPos="16" locEndLn="639" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:2>4">
+        <Loc locStartln="628" locStartPos="11" locEndLn="628" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="636" locStartPos="17" locEndLn="636" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:2>3">
+        <Loc locStartln="628" locStartPos="11" locEndLn="628" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="631" locStartPos="12" locEndLn="631" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:8>9">
+        <Loc locStartln="649" locStartPos="11" locEndLn="649" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="652" locStartPos="12" locEndLn="652" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:1>12">
+        <Loc locStartln="625" locStartPos="9" locEndLn="625" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="661" locStartPos="13" locEndLn="661" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:1>2">
+        <Loc locStartln="625" locStartPos="9" locEndLn="625" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="628" locStartPos="11" locEndLn="628" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:25>27">
+        <Loc locStartln="711" locStartPos="7" locEndLn="711" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="718" locStartPos="4" locEndLn="738" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:25>26">
+        <Loc locStartln="711" locStartPos="7" locEndLn="711" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="714" locStartPos="8" locEndLn="714" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:8>10">
+        <Loc locStartln="649" locStartPos="11" locEndLn="649" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="657" locStartPos="12" locEndLn="657" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:15>16">
+        <Loc locStartln="672" locStartPos="17" locEndLn="672" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="675" locStartPos="16" locEndLn="675" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:15>17">
+        <Loc locStartln="672" locStartPos="17" locEndLn="672" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="680" locStartPos="16" locEndLn="680" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:13>14">
+        <Loc locStartln="664" locStartPos="11" locEndLn="664" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="667" locStartPos="12" locEndLn="667" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:13>15">
+        <Loc locStartln="664" locStartPos="11" locEndLn="664" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="672" locStartPos="17" locEndLn="672" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:19>20">
+        <Loc locStartln="685" locStartPos="11" locEndLn="685" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="688" locStartPos="12" locEndLn="688" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:12>23">
+        <Loc locStartln="661" locStartPos="13" locEndLn="661" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="699" locStartPos="8" locEndLn="700" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:19>21">
+        <Loc locStartln="685" locStartPos="11" locEndLn="685" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="693" locStartPos="12" locEndLn="693" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;59;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32BtmSignal" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32BtmSignal:2>4">
+        <Loc locStartln="103" locStartPos="10" locEndLn="103" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="110" locStartPos="4" locEndLn="110" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32BtmSignal:2>3">
+        <Loc locStartln="103" locStartPos="10" locEndLn="103" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="106" locStartPos="8" locEndLn="108" locEndPos="12" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;999;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmFrame" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmFrame:1>3">
+        <Loc locStartln="1009" locStartPos="8" locEndLn="1009" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="1073" locStartPos="0" locEndLn="1073" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmFrame:1>2">
+        <Loc locStartln="1009" locStartPos="8" locEndLn="1009" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="1012" locStartPos="8" locEndLn="1068" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;821;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmData" show="true">
@@ -193,6 +277,24 @@
         <Loc locStartln="1220" locStartPos="12" locEndLn="1220" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
     </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;189;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal:3>6">
+        <Loc locStartln="469" locStartPos="28" locEndLn="469" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="492" locStartPos="8" locEndLn="499" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal:1>7">
+        <Loc locStartln="459" locStartPos="8" locEndLn="459" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="501" locStartPos="4" locEndLn="501" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal:3>5">
+        <Loc locStartln="469" locStartPos="28" locEndLn="469" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="472" locStartPos="12" locEndLn="489" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal:1>2">
+        <Loc locStartln="459" locStartPos="8" locEndLn="459" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="462" locStartPos="8" locEndLn="469" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1244;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|CheckBtmRcvIdleData" show="true">
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|CheckBtmRcvIdleData:8>10">
         <Loc locStartln="1285" locStartPos="12" locEndLn="1285" locEndPos="164" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
@@ -251,78 +353,44 @@
         <Loc locStartln="1263" locStartPos="7" locEndLn="1264" locEndPos="122" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;614;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:4>6">
-        <Loc locStartln="636" locStartPos="17" locEndLn="636" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="644" locStartPos="16" locEndLn="644" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1085;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmIdle" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmIdle:1>2">
+        <Loc locStartln="1092" locStartPos="8" locEndLn="1092" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="1095" locStartPos="8" locEndLn="1138" locEndPos="146" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:12>13">
-        <Loc locStartln="661" locStartPos="13" locEndLn="661" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="664" locStartPos="11" locEndLn="664" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmIdle:1>3">
+        <Loc locStartln="1092" locStartPos="8" locEndLn="1092" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="1140" locStartPos="0" locEndLn="1140" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:4>5">
-        <Loc locStartln="636" locStartPos="17" locEndLn="636" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="639" locStartPos="16" locEndLn="639" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1330;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|PackSendBtmData" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|PackSendBtmData:1>2">
+        <Loc locStartln="1336" locStartPos="8" locEndLn="1336" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="1339" locStartPos="8" locEndLn="1382" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:2>4">
-        <Loc locStartln="628" locStartPos="11" locEndLn="628" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="636" locStartPos="17" locEndLn="636" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|PackSendBtmData:1>3">
+        <Loc locStartln="1336" locStartPos="8" locEndLn="1336" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="1386" locStartPos="4" locEndLn="1386" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:2>3">
-        <Loc locStartln="628" locStartPos="11" locEndLn="628" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="631" locStartPos="12" locEndLn="631" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;123;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32MBtmSignal" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32MBtmSignal:2>4">
+        <Loc locStartln="167" locStartPos="10" locEndLn="167" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="174" locStartPos="4" locEndLn="174" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:8>9">
-        <Loc locStartln="649" locStartPos="11" locEndLn="649" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="652" locStartPos="12" locEndLn="652" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32MBtmSignal:2>3">
+        <Loc locStartln="167" locStartPos="10" locEndLn="167" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="170" locStartPos="8" locEndLn="172" locEndPos="12" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:1>12">
-        <Loc locStartln="625" locStartPos="9" locEndLn="625" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="661" locStartPos="13" locEndLn="661" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1405;AddSendBtmRequestID" show="true">
+      <CvgElem id="AddSendBtmRequestID:1>3">
+        <Loc locStartln="1408" locStartPos="9" locEndLn="1408" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="1416" locStartPos="8" locEndLn="1416" locEndPos="130" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:1>2">
-        <Loc locStartln="625" locStartPos="9" locEndLn="625" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="628" locStartPos="11" locEndLn="628" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:25>27">
-        <Loc locStartln="711" locStartPos="7" locEndLn="711" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="718" locStartPos="4" locEndLn="738" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:25>26">
-        <Loc locStartln="711" locStartPos="7" locEndLn="711" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="714" locStartPos="8" locEndLn="714" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:8>10">
-        <Loc locStartln="649" locStartPos="11" locEndLn="649" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="657" locStartPos="12" locEndLn="657" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:15>16">
-        <Loc locStartln="672" locStartPos="17" locEndLn="672" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="675" locStartPos="16" locEndLn="675" locEndPos="88" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:15>17">
-        <Loc locStartln="672" locStartPos="17" locEndLn="672" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="680" locStartPos="16" locEndLn="680" locEndPos="87" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:13>14">
-        <Loc locStartln="664" locStartPos="11" locEndLn="664" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="667" locStartPos="12" locEndLn="667" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:13>15">
-        <Loc locStartln="664" locStartPos="11" locEndLn="664" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="672" locStartPos="17" locEndLn="672" locEndPos="118" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:19>20">
-        <Loc locStartln="685" locStartPos="11" locEndLn="685" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="688" locStartPos="12" locEndLn="688" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:12>23">
-        <Loc locStartln="661" locStartPos="13" locEndLn="661" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="699" locStartPos="8" locEndLn="700" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|BtmInfoPrepare:19>21">
-        <Loc locStartln="685" locStartPos="11" locEndLn="685" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="693" locStartPos="12" locEndLn="693" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+      <CvgElem id="AddSendBtmRequestID:1>2">
+        <Loc locStartln="1408" locStartPos="9" locEndLn="1408" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
+        <Loc locStartln="1411" locStartPos="8" locEndLn="1411" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;507;BtmMsgRcv" show="true">
@@ -357,74 +425,6 @@
       <CvgElem id="BtmMsgRcv:7>8">
         <Loc locStartln="545" locStartPos="8" locEndLn="545" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
         <Loc locStartln="548" locStartPos="8" locEndLn="551" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1405;AddSendBtmRequestID" show="true">
-      <CvgElem id="AddSendBtmRequestID:1>3">
-        <Loc locStartln="1408" locStartPos="9" locEndLn="1408" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="1416" locStartPos="8" locEndLn="1416" locEndPos="130" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="AddSendBtmRequestID:1>2">
-        <Loc locStartln="1408" locStartPos="9" locEndLn="1408" locEndPos="68" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="1411" locStartPos="8" locEndLn="1411" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1330;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|PackSendBtmData" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|PackSendBtmData:1>2">
-        <Loc locStartln="1336" locStartPos="8" locEndLn="1336" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="1339" locStartPos="8" locEndLn="1382" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|PackSendBtmData:1>3">
-        <Loc locStartln="1336" locStartPos="8" locEndLn="1336" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="1386" locStartPos="4" locEndLn="1386" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;1085;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmIdle" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmIdle:1>2">
-        <Loc locStartln="1092" locStartPos="8" locEndLn="1092" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="1095" locStartPos="8" locEndLn="1138" locEndPos="146" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmIdle:1>3">
-        <Loc locStartln="1092" locStartPos="8" locEndLn="1092" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="1140" locStartPos="0" locEndLn="1140" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;189;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal:3>6">
-        <Loc locStartln="469" locStartPos="28" locEndLn="469" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="492" locStartPos="8" locEndLn="499" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal:1>7">
-        <Loc locStartln="459" locStartPos="8" locEndLn="459" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="501" locStartPos="4" locEndLn="501" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal:3>5">
-        <Loc locStartln="469" locStartPos="28" locEndLn="469" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="472" locStartPos="12" locEndLn="489" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc48MBtmSignal:1>2">
-        <Loc locStartln="459" locStartPos="8" locEndLn="459" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="462" locStartPos="8" locEndLn="469" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;999;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmFrame" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmFrame:1>3">
-        <Loc locStartln="1009" locStartPos="8" locEndLn="1009" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="1073" locStartPos="0" locEndLn="1073" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|ParseRcvBtmFrame:1>2">
-        <Loc locStartln="1009" locStartPos="8" locEndLn="1009" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="1012" locStartPos="8" locEndLn="1068" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c;59;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32BtmSignal" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32BtmSignal:2>4">
-        <Loc locStartln="103" locStartPos="10" locEndLn="103" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="110" locStartPos="4" locEndLn="110" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseBtmDataWc|Crc32BtmSignal:2>3">
-        <Loc locStartln="103" locStartPos="10" locEndLn="103" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
-        <Loc locStartln="106" locStartPos="8" locEndLn="108" locEndPos="12" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseBtmData.c" />
       </CvgElem>
     </StatCvg>
   </ResultInfo>

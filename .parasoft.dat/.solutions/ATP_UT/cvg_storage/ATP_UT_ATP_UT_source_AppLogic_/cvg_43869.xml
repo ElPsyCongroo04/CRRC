@@ -4,13 +4,13 @@
     <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
     <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
   </VersionInfos>
-  <CtxList ids="-3399826860484268947 7439007155873996951 2280983601714526128 7439007155873996206 7439007155873998838 341804384815388165 7439007155873996112" uniqueId2MainId="CPP://6179751836593946049 CPP://-8491641153857428519 CPP://2762465901126116297 CPP://-8491641153857428488 CPP://-8491641153857428705 CPP://-2627560879395168520 CPP://-8491641153857428457" />
+  <CtxList ids="-1713111907578518896 7439007155873996951 -1713111907578519084 -4220946065685675918 2280983601714526128 7439007155873996206 -1713111907578518151 3511329161222692209 341804384815388165 7439007155873996112 -3399826860484268947 -1713111907578491209 -1713111907578518057 7439007155873998838" uniqueId2MainId="CPP://4749251190710928684 CPP://-8491641153857428519 CPP://4749251190710928622 CPP://-8453412229948097766 CPP://2762465901126116297 CPP://-8491641153857428488 CPP://4749251190710928715 CPP://-8187905795336739319 CPP://-2627560879395168520 CPP://-8491641153857428457 CPP://6179751836593946049 CPP://4749251190710929428 CPP://4749251190710928746 CPP://-8491641153857428705" />
   <Stats>
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;235;GetLoseBaliEndLocOffset" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;207;SetBaliIdDBVerCmp" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;137;GetOldBaliId" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;228;GetLoseBaliEndLocSeg" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;89;GetLostBaliStartPntSegId" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;228;GetLoseBaliEndLocSeg" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;28;InitBaliseInfoData" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;159;SetTempOldBaliId" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;74;GetBaliseDisBtwBalise" total="1" num="0" />
@@ -27,7 +27,7 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;168;GetOldBaliAttri" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;176;SetOldBaliAttri" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;104;GetLostBaliStartPntSegRunDir" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;112;SetLoseBaliStartPntLoc" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;112;SetLoseBaliStartPntLoc" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;122;GetLostBaliNum" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;221;GetBaliIdDelayDist" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;66;SetBackBaliseId" total="1" num="0" />
@@ -37,198 +37,39 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;129;SetLostBaliNum" total="1" num="1" />
   </Stats>
   <ResultInfo cvgType="PC">
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;129;SetLostBaliNum">
-      <CtxCvg ctx="-3399826860484268947" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="7439007155873996951" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="2280983601714526128" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="7439007155873996206" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="7439007155873998838" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="7439007155873996112" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="341804384815388165" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
-    </DynCvg>
     <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;145;SetOldBaliId">
       <CtxCvg ctx="-3399826860484268947" ids="SetOldBaliId" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="7439007155873996951" ids="SetOldBaliId" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="2280983601714526128" ids="SetOldBaliId" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="7439007155873996206" ids="SetOldBaliId" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="7439007155873998838" ids="SetOldBaliId" cnts="2" paths="1" expect="1" />
-      <CtxCvg ctx="7439007155873996112" ids="SetOldBaliId" cnts="2" paths="1" expect="1" />
       <CtxCvg ctx="341804384815388165" ids="SetOldBaliId" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996112" ids="SetOldBaliId" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;129;SetLostBaliNum">
+      <CtxCvg ctx="-3399826860484268947" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996951" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="2280983601714526128" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996206" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873998838" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="341804384815388165" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="7439007155873996112" ids="SetLostBaliNum" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;112;SetLoseBaliStartPntLoc">
+      <CtxCvg ctx="-1713111907578518896" ids="SetLoseBaliStartPntLoc" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-1713111907578519084" ids="SetLoseBaliStartPntLoc" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-1713111907578491209" ids="SetLoseBaliStartPntLoc" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-4220946065685675918" ids="SetLoseBaliStartPntLoc" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-1713111907578518057" ids="SetLoseBaliStartPntLoc" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-1713111907578518151" ids="SetLoseBaliStartPntLoc" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="3511329161222692209" ids="SetLoseBaliStartPntLoc" cnts="2" paths="1" expect="1" />
     </DynCvg>
   </ResultInfo>
   <ResultInfo cvgType="PC" stat="true">
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;82;SetBaliseDisBtwBalise" show="true">
-      <CvgElem id="SetBaliseDisBtwBalise" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="85" locStartPos="4" locEndLn="85" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;151;GetTempOldBaliId" show="true">
-      <CvgElem id="GetTempOldBaliId" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="154" locStartPos="4" locEndLn="154" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;235;GetLoseBaliEndLocOffset" show="true">
-      <CvgElem id="GetLoseBaliEndLocOffset" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="238" locStartPos="4" locEndLn="238" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;214;SetBaliIdDelayDist" show="true">
-      <CvgElem id="SetBaliIdDelayDist" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="217" locStartPos="4" locEndLn="217" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;192;SetBaliIdDelayTime" show="true">
-      <CvgElem id="SetBaliIdDelayTime" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="195" locStartPos="4" locEndLn="195" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;137;GetOldBaliId" show="true">
-      <CvgElem id="GetOldBaliId" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="140" locStartPos="4" locEndLn="140" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;168;GetOldBaliAttri" show="true">
       <CvgElem id="GetOldBaliAttri" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
           <PathBlckLoc locStartln="171" locStartPos="4" locEndLn="171" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;66;SetBackBaliseId" show="true">
-      <CvgElem id="SetBackBaliseId" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="69" locStartPos="4" locEndLn="69" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;207;SetBaliIdDBVerCmp" show="true">
-      <CvgElem id="SetBaliIdDBVerCmp" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="210" locStartPos="4" locEndLn="210" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;199;GetBaliIdDBVerCmp" show="true">
-      <CvgElem id="GetBaliIdDBVerCmp" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="202" locStartPos="4" locEndLn="202" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;28;InitBaliseInfoData" show="true">
-      <CvgElem id="InitBaliseInfoData" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="31" locStartPos="4" locEndLn="40" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;112;SetLoseBaliStartPntLoc" show="true">
-      <CvgElem id="SetLoseBaliStartPntLoc" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="115" locStartPos="4" locEndLn="117" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;74;GetBaliseDisBtwBalise" show="true">
-      <CvgElem id="GetBaliseDisBtwBalise" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="77" locStartPos="4" locEndLn="77" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;129;SetLostBaliNum" show="true">
-      <CvgElem id="SetLostBaliNum" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="132" locStartPos="4" locEndLn="132" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;221;GetBaliIdDelayDist" show="true">
-      <CvgElem id="GetBaliIdDelayDist" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="224" locStartPos="4" locEndLn="224" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;89;GetLostBaliStartPntSegId" show="true">
-      <CvgElem id="GetLostBaliStartPntSegId" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="92" locStartPos="4" locEndLn="92" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;184;GetBaliIdDelayTime" show="true">
-      <CvgElem id="GetBaliIdDelayTime" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="187" locStartPos="4" locEndLn="187" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;104;GetLostBaliStartPntSegRunDir" show="true">
-      <CvgElem id="GetLostBaliStartPntSegRunDir" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="107" locStartPos="4" locEndLn="107" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;228;GetLoseBaliEndLocSeg" show="true">
-      <CvgElem id="GetLoseBaliEndLocSeg" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="231" locStartPos="4" locEndLn="231" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;122;GetLostBaliNum" show="true">
-      <CvgElem id="GetLostBaliNum" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="125" locStartPos="4" locEndLn="125" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;248;SetLoseBaliEndPntLoc" show="true">
-      <CvgElem id="SetLoseBaliEndPntLoc" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="251" locStartPos="4" locEndLn="253" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;44;GetBalCurBaliseId" show="true">
-      <CvgElem id="GetBalCurBaliseId" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="47" locStartPos="4" locEndLn="47" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;145;SetOldBaliId" show="true">
-      <CvgElem id="SetOldBaliId" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="148" locStartPos="4" locEndLn="148" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;242;GetLoseBaliEndLocDir" show="true">
-      <CvgElem id="GetLoseBaliEndLocDir" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="245" locStartPos="4" locEndLn="245" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;50;SetBalCurBaliseId" show="true">
-      <CvgElem id="SetBalCurBaliseId" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="53" locStartPos="4" locEndLn="53" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -239,10 +80,38 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;176;SetOldBaliAttri" show="true">
-      <CvgElem id="SetOldBaliAttri" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;82;SetBaliseDisBtwBalise" show="true">
+      <CvgElem id="SetBaliseDisBtwBalise" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="179" locStartPos="4" locEndLn="179" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+          <PathBlckLoc locStartln="85" locStartPos="4" locEndLn="85" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;192;SetBaliIdDelayTime" show="true">
+      <CvgElem id="SetBaliIdDelayTime" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="195" locStartPos="4" locEndLn="195" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;28;InitBaliseInfoData" show="true">
+      <CvgElem id="InitBaliseInfoData" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="31" locStartPos="4" locEndLn="40" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;137;GetOldBaliId" show="true">
+      <CvgElem id="GetOldBaliId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="140" locStartPos="4" locEndLn="140" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;44;GetBalCurBaliseId" show="true">
+      <CvgElem id="GetBalCurBaliseId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="47" locStartPos="4" locEndLn="47" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -253,10 +122,150 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;235;GetLoseBaliEndLocOffset" show="true">
+      <CvgElem id="GetLoseBaliEndLocOffset" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="238" locStartPos="4" locEndLn="238" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;207;SetBaliIdDBVerCmp" show="true">
+      <CvgElem id="SetBaliIdDBVerCmp" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="210" locStartPos="4" locEndLn="210" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;151;GetTempOldBaliId" show="true">
+      <CvgElem id="GetTempOldBaliId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="154" locStartPos="4" locEndLn="154" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;129;SetLostBaliNum" show="true">
+      <CvgElem id="SetLostBaliNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="132" locStartPos="4" locEndLn="132" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;228;GetLoseBaliEndLocSeg" show="true">
+      <CvgElem id="GetLoseBaliEndLocSeg" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="231" locStartPos="4" locEndLn="231" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;176;SetOldBaliAttri" show="true">
+      <CvgElem id="SetOldBaliAttri" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="179" locStartPos="4" locEndLn="179" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;248;SetLoseBaliEndPntLoc" show="true">
+      <CvgElem id="SetLoseBaliEndPntLoc" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="251" locStartPos="4" locEndLn="253" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;74;GetBaliseDisBtwBalise" show="true">
+      <CvgElem id="GetBaliseDisBtwBalise" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="77" locStartPos="4" locEndLn="77" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;184;GetBaliIdDelayTime" show="true">
+      <CvgElem id="GetBaliIdDelayTime" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="187" locStartPos="4" locEndLn="187" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;242;GetLoseBaliEndLocDir" show="true">
+      <CvgElem id="GetLoseBaliEndLocDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="245" locStartPos="4" locEndLn="245" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;66;SetBackBaliseId" show="true">
+      <CvgElem id="SetBackBaliseId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="69" locStartPos="4" locEndLn="69" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;214;SetBaliIdDelayDist" show="true">
+      <CvgElem id="SetBaliIdDelayDist" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="217" locStartPos="4" locEndLn="217" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;145;SetOldBaliId" show="true">
+      <CvgElem id="SetOldBaliId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="148" locStartPos="4" locEndLn="148" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;122;GetLostBaliNum" show="true">
+      <CvgElem id="GetLostBaliNum" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="125" locStartPos="4" locEndLn="125" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;96;GetLostBaliStartPntSegOffset" show="true">
       <CvgElem id="GetLostBaliStartPntSegOffset" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
           <PathBlckLoc locStartln="99" locStartPos="4" locEndLn="99" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;112;SetLoseBaliStartPntLoc" show="true">
+      <CvgElem id="SetLoseBaliStartPntLoc" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="115" locStartPos="4" locEndLn="117" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;50;SetBalCurBaliseId" show="true">
+      <CvgElem id="SetBalCurBaliseId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="53" locStartPos="4" locEndLn="53" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;199;GetBaliIdDBVerCmp" show="true">
+      <CvgElem id="GetBaliIdDBVerCmp" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="202" locStartPos="4" locEndLn="202" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;89;GetLostBaliStartPntSegId" show="true">
+      <CvgElem id="GetLostBaliStartPntSegId" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="92" locStartPos="4" locEndLn="92" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;104;GetLostBaliStartPntSegRunDir" show="true">
+      <CvgElem id="GetLostBaliStartPntSegRunDir" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="107" locStartPos="4" locEndLn="107" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c;221;GetBaliIdDelayDist" show="true">
+      <CvgElem id="GetBaliIdDelayDist" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="224" locStartPos="4" locEndLn="224" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/BaliseInfoData.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>

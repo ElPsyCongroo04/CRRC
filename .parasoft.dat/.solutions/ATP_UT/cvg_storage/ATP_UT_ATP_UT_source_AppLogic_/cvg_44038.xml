@@ -4,6 +4,7 @@
     <StorageInfo ownerId="MCDC" resultId="MCDCoverageStaticInfo" ver="2" />
     <StorageInfo ownerId="MCDC" resultId="IDynamicCoverageInfo" ver="2" />
   </VersionInfos>
+  <CtxList ids="-1713111907578518896 -1713111907578519084 -1713111907578491209 -1713111907578518057 -4220946065685675918 -1713111907578518151 3511329161222692209" uniqueId2MainId="CPP://4749251190710928684 CPP://4749251190710928622 CPP://4749251190710929428 CPP://4749251190710928746 CPP://-8453412229948097766 CPP://4749251190710928715 CPP://-8187905795336739319" />
   <Stats>
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;376;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc" total="15" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;124;LocMagFunc" total="2" num="0" />
@@ -11,14 +12,200 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;808;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit" total="9" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;162;CalcPeriodDis" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;188;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainHTLocChangeHandle" total="29" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1353;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|SearchNextBalise" total="7" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1231;TailSafeLocCalc" total="10" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;997;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc" total="7" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1353;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|SearchNextBalise" total="7" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;620;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection" total="9" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;997;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc" total="7" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1079;LocInvalidFunc" total="6" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1138;HeadSafeLocCalc" total="6" num="0" />
   </Stats>
+  <ResultInfo cvgType="MCDC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1231;TailSafeLocCalc">
+      <CtxCvg ctx="-1713111907578518896" ids="TailSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-1713111907578519084" ids="TailSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-1713111907578491209" ids="TailSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-4220946065685675918" ids="TailSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-1713111907578518057" ids="TailSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-1713111907578518151" ids="TailSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="3511329161222692209" ids="TailSafeLocCalc:1" decOuts="0" vals="0" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1138;HeadSafeLocCalc">
+      <CtxCvg ctx="-1713111907578518896" ids="HeadSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-1713111907578519084" ids="HeadSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-1713111907578491209" ids="HeadSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-4220946065685675918" ids="HeadSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-1713111907578518057" ids="HeadSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="-1713111907578518151" ids="HeadSafeLocCalc:1" decOuts="0" vals="0" />
+      <CtxCvg ctx="3511329161222692209" ids="HeadSafeLocCalc:1" decOuts="0" vals="0" />
+    </DynCvg>
+  </ResultInfo>
   <ResultInfo cvgType="MCDC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;997;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:6" condNo="0">
+        <Loc locStartln="1043" locStartPos="8" locEndLn="1043" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:8" condNo="0">
+        <Loc locStartln="1056" locStartPos="8" locEndLn="1056" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:4" condNo="0">
+        <Loc locStartln="1032" locStartPos="7" locEndLn="1032" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:1" condNo="0">
+        <Loc locStartln="1010" locStartPos="5" locEndLn="1010" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:2" condNo="0">
+        <Loc locStartln="1013" locStartPos="7" locEndLn="1013" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:2" condNo="2">
+        <Loc locStartln="1015" locStartPos="7" locEndLn="1015" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:2" condNo="1">
+        <Loc locStartln="1014" locStartPos="7" locEndLn="1014" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1231;TailSafeLocCalc" show="true">
+      <CvgElem id="TailSafeLocCalc:5" condNo="0">
+        <Loc locStartln="1264" locStartPos="6" locEndLn="1264" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:2" condNo="0">
+        <Loc locStartln="1248" locStartPos="6" locEndLn="1248" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:8" condNo="2">
+        <Loc locStartln="1282" locStartPos="60" locEndLn="1282" locEndPos="107" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:8" condNo="1">
+        <Loc locStartln="1282" locStartPos="11" locEndLn="1282" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:8" condNo="0">
+        <Loc locStartln="1281" locStartPos="10" locEndLn="1281" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:6" condNo="1">
+        <Loc locStartln="1267" locStartPos="51" locEndLn="1267" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:6" condNo="0">
+        <Loc locStartln="1267" locStartPos="8" locEndLn="1267" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:7" condNo="0">
+        <Loc locStartln="1276" locStartPos="8" locEndLn="1276" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:17" condNo="0">
+        <Loc locStartln="1316" locStartPos="6" locEndLn="1316" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="TailSafeLocCalc:1" condNo="0">
+        <Loc locStartln="1241" locStartPos="5" locEndLn="1241" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;162;CalcPeriodDis" show="true">
+      <CvgElem id="CalcPeriodDis:1" condNo="0">
+        <Loc locStartln="169" locStartPos="8" locEndLn="169" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1138;HeadSafeLocCalc" show="true">
+      <CvgElem id="HeadSafeLocCalc:11" condNo="0">
+        <Loc locStartln="1202" locStartPos="6" locEndLn="1202" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="HeadSafeLocCalc:14" condNo="0">
+        <Loc locStartln="1217" locStartPos="6" locEndLn="1217" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="HeadSafeLocCalc:8" condNo="0">
+        <Loc locStartln="1188" locStartPos="6" locEndLn="1188" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="HeadSafeLocCalc:5" condNo="0">
+        <Loc locStartln="1171" locStartPos="6" locEndLn="1171" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="HeadSafeLocCalc:1" condNo="0">
+        <Loc locStartln="1148" locStartPos="5" locEndLn="1148" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="HeadSafeLocCalc:2" condNo="0">
+        <Loc locStartln="1154" locStartPos="6" locEndLn="1154" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;124;LocMagFunc" show="true">
+      <CvgElem id="LocMagFunc:1" condNo="1">
+        <Loc locStartln="150" locStartPos="47" locEndLn="150" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="LocMagFunc:1" condNo="0">
+        <Loc locStartln="150" locStartPos="6" locEndLn="150" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;620;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:13" condNo="0">
+        <Loc locStartln="749" locStartPos="8" locEndLn="749" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:4" condNo="0">
+        <Loc locStartln="698" locStartPos="5" locEndLn="698" locEndPos="16" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:5" condNo="0">
+        <Loc locStartln="704" locStartPos="6" locEndLn="704" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:6" condNo="0">
+        <Loc locStartln="712" locStartPos="8" locEndLn="712" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:6" condNo="1">
+        <Loc locStartln="712" locStartPos="43" locEndLn="712" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:10" condNo="0">
+        <Loc locStartln="732" locStartPos="8" locEndLn="732" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:9" condNo="0">
+        <Loc locStartln="723" locStartPos="8" locEndLn="723" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:9" condNo="1">
+        <Loc locStartln="723" locStartPos="47" locEndLn="723" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:1" condNo="0">
+        <Loc locStartln="654" locStartPos="5" locEndLn="654" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1079;LocInvalidFunc" show="true">
+      <CvgElem id="LocInvalidFunc:1" condNo="0">
+        <Loc locStartln="1082" locStartPos="5" locEndLn="1082" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="LocInvalidFunc:2" condNo="1">
+        <Loc locStartln="1114" locStartPos="39" locEndLn="1114" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="LocInvalidFunc:2" condNo="4">
+        <Loc locStartln="1114" locStartPos="136" locEndLn="1114" locEndPos="156" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="LocInvalidFunc:2" condNo="3">
+        <Loc locStartln="1114" locStartPos="103" locEndLn="1114" locEndPos="123" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="LocInvalidFunc:2" condNo="2">
+        <Loc locStartln="1114" locStartPos="71" locEndLn="1114" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="LocInvalidFunc:2" condNo="0">
+        <Loc locStartln="1114" locStartPos="7" locEndLn="1114" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;808;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:5" condNo="0">
+        <Loc locStartln="866" locStartPos="7" locEndLn="866" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:4" condNo="0">
+        <Loc locStartln="847" locStartPos="7" locEndLn="847" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:7" condNo="0">
+        <Loc locStartln="876" locStartPos="9" locEndLn="876" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:6" condNo="0">
+        <Loc locStartln="872" locStartPos="8" locEndLn="872" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:9" condNo="0">
+        <Loc locStartln="887" locStartPos="11" locEndLn="887" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:8" condNo="0">
+        <Loc locStartln="879" locStartPos="10" locEndLn="879" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:1" condNo="0">
+        <Loc locStartln="831" locStartPos="5" locEndLn="831" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:12" condNo="0">
+        <Loc locStartln="903" locStartPos="11" locEndLn="903" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:3" condNo="0">
+        <Loc locStartln="842" locStartPos="6" locEndLn="842" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1353;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|SearchNextBalise" show="true">
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|SearchNextBalise:3" condNo="0">
         <Loc locStartln="1379" locStartPos="7" locEndLn="1379" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
@@ -40,6 +227,53 @@
       </CvgElem>
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|SearchNextBalise:7" condNo="0">
         <Loc locStartln="1403" locStartPos="7" locEndLn="1403" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;376;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:4" condNo="0">
+        <Loc locStartln="415" locStartPos="6" locEndLn="415" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:3" condNo="1">
+        <Loc locStartln="408" locStartPos="47" locEndLn="408" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:3" condNo="0">
+        <Loc locStartln="408" locStartPos="6" locEndLn="408" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:6" condNo="1">
+        <Loc locStartln="424" locStartPos="51" locEndLn="424" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:6" condNo="0">
+        <Loc locStartln="424" locStartPos="8" locEndLn="424" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:1" condNo="0">
+        <Loc locStartln="392" locStartPos="5" locEndLn="392" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:18" condNo="0">
+        <Loc locStartln="470" locStartPos="7" locEndLn="470" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:28" condNo="0">
+        <Loc locStartln="514" locStartPos="8" locEndLn="514" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:19" condNo="0">
+        <Loc locStartln="474" locStartPos="8" locEndLn="474" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:12" condNo="0">
+        <Loc locStartln="452" locStartPos="7" locEndLn="452" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:26" condNo="0">
+        <Loc locStartln="497" locStartPos="7" locEndLn="497" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:14" condNo="0">
+        <Loc locStartln="458" locStartPos="12" locEndLn="458" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:21" condNo="0">
+        <Loc locStartln="480" locStartPos="13" locEndLn="480" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:11" condNo="0">
+        <Loc locStartln="442" locStartPos="6" locEndLn="442" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:7" condNo="0">
+        <Loc locStartln="430" locStartPos="8" locEndLn="430" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;188;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainHTLocChangeHandle" show="true">
@@ -131,104 +365,6 @@
         <Loc locStartln="195" locStartPos="5" locEndLn="195" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1079;LocInvalidFunc" show="true">
-      <CvgElem id="LocInvalidFunc:1" condNo="0">
-        <Loc locStartln="1082" locStartPos="5" locEndLn="1082" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="LocInvalidFunc:2" condNo="1">
-        <Loc locStartln="1114" locStartPos="39" locEndLn="1114" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="LocInvalidFunc:2" condNo="4">
-        <Loc locStartln="1114" locStartPos="136" locEndLn="1114" locEndPos="156" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="LocInvalidFunc:2" condNo="3">
-        <Loc locStartln="1114" locStartPos="103" locEndLn="1114" locEndPos="123" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="LocInvalidFunc:2" condNo="2">
-        <Loc locStartln="1114" locStartPos="71" locEndLn="1114" locEndPos="91" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="LocInvalidFunc:2" condNo="0">
-        <Loc locStartln="1114" locStartPos="7" locEndLn="1114" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;620;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:13" condNo="0">
-        <Loc locStartln="749" locStartPos="8" locEndLn="749" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:4" condNo="0">
-        <Loc locStartln="698" locStartPos="5" locEndLn="698" locEndPos="16" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:5" condNo="0">
-        <Loc locStartln="704" locStartPos="6" locEndLn="704" locEndPos="17" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:6" condNo="0">
-        <Loc locStartln="712" locStartPos="8" locEndLn="712" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:6" condNo="1">
-        <Loc locStartln="712" locStartPos="43" locEndLn="712" locEndPos="82" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:10" condNo="0">
-        <Loc locStartln="732" locStartPos="8" locEndLn="732" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:9" condNo="0">
-        <Loc locStartln="723" locStartPos="8" locEndLn="723" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:9" condNo="1">
-        <Loc locStartln="723" locStartPos="47" locEndLn="723" locEndPos="81" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocationCorrection:1" condNo="0">
-        <Loc locStartln="654" locStartPos="5" locEndLn="654" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;808;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:5" condNo="0">
-        <Loc locStartln="866" locStartPos="7" locEndLn="866" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:4" condNo="0">
-        <Loc locStartln="847" locStartPos="7" locEndLn="847" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:7" condNo="0">
-        <Loc locStartln="876" locStartPos="9" locEndLn="876" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:6" condNo="0">
-        <Loc locStartln="872" locStartPos="8" locEndLn="872" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:9" condNo="0">
-        <Loc locStartln="887" locStartPos="11" locEndLn="887" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:8" condNo="0">
-        <Loc locStartln="879" locStartPos="10" locEndLn="879" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:1" condNo="0">
-        <Loc locStartln="831" locStartPos="5" locEndLn="831" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:12" condNo="0">
-        <Loc locStartln="903" locStartPos="11" locEndLn="903" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainUnSafeLocInit:3" condNo="0">
-        <Loc locStartln="842" locStartPos="6" locEndLn="842" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1138;HeadSafeLocCalc" show="true">
-      <CvgElem id="HeadSafeLocCalc:11" condNo="0">
-        <Loc locStartln="1202" locStartPos="6" locEndLn="1202" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="HeadSafeLocCalc:14" condNo="0">
-        <Loc locStartln="1217" locStartPos="6" locEndLn="1217" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="HeadSafeLocCalc:8" condNo="0">
-        <Loc locStartln="1188" locStartPos="6" locEndLn="1188" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="HeadSafeLocCalc:5" condNo="0">
-        <Loc locStartln="1171" locStartPos="6" locEndLn="1171" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="HeadSafeLocCalc:1" condNo="0">
-        <Loc locStartln="1148" locStartPos="5" locEndLn="1148" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="HeadSafeLocCalc:2" condNo="0">
-        <Loc locStartln="1154" locStartPos="6" locEndLn="1154" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;545;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocInitAndCorrect" show="true">
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocInitAndCorrect:5" condNo="0">
         <Loc locStartln="572" locStartPos="12" locEndLn="572" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
@@ -244,121 +380,6 @@
       </CvgElem>
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TrainLocInitAndCorrect:7" condNo="0">
         <Loc locStartln="578" locStartPos="12" locEndLn="578" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;124;LocMagFunc" show="true">
-      <CvgElem id="LocMagFunc:1" condNo="1">
-        <Loc locStartln="150" locStartPos="47" locEndLn="150" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="LocMagFunc:1" condNo="0">
-        <Loc locStartln="150" locStartPos="6" locEndLn="150" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;376;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:4" condNo="0">
-        <Loc locStartln="415" locStartPos="6" locEndLn="415" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:3" condNo="1">
-        <Loc locStartln="408" locStartPos="47" locEndLn="408" locEndPos="74" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:3" condNo="0">
-        <Loc locStartln="408" locStartPos="6" locEndLn="408" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:6" condNo="1">
-        <Loc locStartln="424" locStartPos="51" locEndLn="424" locEndPos="85" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:6" condNo="0">
-        <Loc locStartln="424" locStartPos="8" locEndLn="424" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:1" condNo="0">
-        <Loc locStartln="392" locStartPos="5" locEndLn="392" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:18" condNo="0">
-        <Loc locStartln="470" locStartPos="7" locEndLn="470" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:28" condNo="0">
-        <Loc locStartln="514" locStartPos="8" locEndLn="514" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:19" condNo="0">
-        <Loc locStartln="474" locStartPos="8" locEndLn="474" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:12" condNo="0">
-        <Loc locStartln="452" locStartPos="7" locEndLn="452" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:26" condNo="0">
-        <Loc locStartln="497" locStartPos="7" locEndLn="497" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:14" condNo="0">
-        <Loc locStartln="458" locStartPos="12" locEndLn="458" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:21" condNo="0">
-        <Loc locStartln="480" locStartPos="13" locEndLn="480" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:11" condNo="0">
-        <Loc locStartln="442" locStartPos="6" locEndLn="442" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|HeadUnsafeLocCalc:7" condNo="0">
-        <Loc locStartln="430" locStartPos="8" locEndLn="430" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;1231;TailSafeLocCalc" show="true">
-      <CvgElem id="TailSafeLocCalc:5" condNo="0">
-        <Loc locStartln="1264" locStartPos="6" locEndLn="1264" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:2" condNo="0">
-        <Loc locStartln="1248" locStartPos="6" locEndLn="1248" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:8" condNo="2">
-        <Loc locStartln="1282" locStartPos="60" locEndLn="1282" locEndPos="107" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:8" condNo="1">
-        <Loc locStartln="1282" locStartPos="11" locEndLn="1282" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:8" condNo="0">
-        <Loc locStartln="1281" locStartPos="10" locEndLn="1281" locEndPos="28" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:6" condNo="1">
-        <Loc locStartln="1267" locStartPos="51" locEndLn="1267" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:6" condNo="0">
-        <Loc locStartln="1267" locStartPos="8" locEndLn="1267" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:7" condNo="0">
-        <Loc locStartln="1276" locStartPos="8" locEndLn="1276" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:17" condNo="0">
-        <Loc locStartln="1316" locStartPos="6" locEndLn="1316" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="TailSafeLocCalc:1" condNo="0">
-        <Loc locStartln="1241" locStartPos="5" locEndLn="1241" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;997;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:6" condNo="0">
-        <Loc locStartln="1043" locStartPos="8" locEndLn="1043" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:8" condNo="0">
-        <Loc locStartln="1056" locStartPos="8" locEndLn="1056" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:4" condNo="0">
-        <Loc locStartln="1032" locStartPos="7" locEndLn="1032" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:1" condNo="0">
-        <Loc locStartln="1010" locStartPos="5" locEndLn="1010" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:2" condNo="0">
-        <Loc locStartln="1013" locStartPos="7" locEndLn="1013" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:2" condNo="2">
-        <Loc locStartln="1015" locStartPos="7" locEndLn="1015" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWTrainLocManageWTrainLocManageWc|TailUnsafeLocCalc:2" condNo="1">
-        <Loc locStartln="1014" locStartPos="7" locEndLn="1014" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c;162;CalcPeriodDis" show="true">
-      <CvgElem id="CalcPeriodDis:1" condNo="0">
-        <Loc locStartln="169" locStartPos="8" locEndLn="169" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainLocManage/TrainLocManage.c" />
       </CvgElem>
     </StatCvg>
   </ResultInfo>

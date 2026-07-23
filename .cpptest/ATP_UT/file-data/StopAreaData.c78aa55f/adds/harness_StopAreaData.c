@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_3254194404_48728_2302955921 = 
+CppTestTranslationUnitInfo __CPTR_tui_3254194404_27616_2316985947 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\StopAreaData.c78aa55f\\adds\\harness_StopAreaData.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_3254194404_48728_2302955921
+#define __CPTR_tui &__CPTR_tui_3254194404_27616_2316985947
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_3254194404_48728_2302955921 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_3254194404_48728_2302955921 {
-    __CPTR_Initializer_3254194404_48728_2302955921()
+struct __CPTR_Initializer_3254194404_27616_2316985947 {
+    __CPTR_Initializer_3254194404_27616_2316985947()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_3254194404_48728_2302955921()
+    ~__CPTR_Initializer_3254194404_27616_2316985947()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_3254194404_48728_2302955921 __CPTR_initializer_3254194404_48728_2302955921;
+static struct __CPTR_Initializer_3254194404_27616_2316985947 __CPTR_initializer_3254194404_27616_2316985947;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3254194404_48728_2302955921 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3254194404_27616_2316985947 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 98 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_3254194404_48728_2302955921 = 
+CppTestCoverageInfo __CPTR_cui_3254194404_27616_2316985947 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_3254194404_48728_2302955921 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_3254194404_48728_2302955921
-#define __CPTR_fid(ID) ID + __CPTR_cui_3254194404_48728_2302955921.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_3254194404_27616_2316985947
+#define __CPTR_fid(ID) ID + __CPTR_cui_3254194404_27616_2316985947.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -60365,20 +60365,20 @@ CppTest_Stub__Call_MemorySet_MemorySet(&TrainExitSecStru, sizeof(TrainExitSecStr
 const TrainInStopSecStatusStruct_T *GetTrainInStopSecStatusStru(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[3], 2);cpptestCoverageStmt(1U, 11U, __CPTR_cui, _Insure_funcID, 2);CPPTEST_STACK_TRACE_STMT_INFO(12) 
 
-{const TrainInStopSecStatusStruct_T *__T119921192 =  (&TrainInStopSecStatusStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119921192;}
+{const TrainInStopSecStatusStruct_T *__T119896392 =  (&TrainInStopSecStatusStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119896392;}
 } 
 
 
 const TrainStopPointTypeStruct_T *GetTrainStopPointTypeStruct(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[4], 3);cpptestCoverageStmt(1U, 12U, __CPTR_cui, _Insure_funcID, 3);CPPTEST_STACK_TRACE_STMT_INFO(13) 
 
-{const TrainStopPointTypeStruct_T *__T119922088 =  (&TrainStopPointTypeStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119922088;}
+{const TrainStopPointTypeStruct_T *__T119897288 =  (&TrainStopPointTypeStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119897288;}
 } 
 
 const TrainExitSecStruct_T *GetTrainExitSecStru(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[5], 4);cpptestCoverageStmt(1U, 13U, __CPTR_cui, _Insure_funcID, 4);CPPTEST_STACK_TRACE_STMT_INFO(14) 
 
-{const TrainExitSecStruct_T *__T119922984 =  (&TrainExitSecStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119922984;}
+{const TrainExitSecStruct_T *__T119898184 =  (&TrainExitSecStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119898184;}
 } 
 
 

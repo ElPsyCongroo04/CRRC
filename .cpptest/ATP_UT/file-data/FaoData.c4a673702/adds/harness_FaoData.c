@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_2005724253_3036_2302955767 = 
+CppTestTranslationUnitInfo __CPTR_tui_2005724253_24224_2316986004 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\FaoData.c4a673702\\adds\\harness_FaoData.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_2005724253_3036_2302955767
+#define __CPTR_tui &__CPTR_tui_2005724253_24224_2316986004
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_2005724253_3036_2302955767 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_2005724253_3036_2302955767 {
-    __CPTR_Initializer_2005724253_3036_2302955767()
+struct __CPTR_Initializer_2005724253_24224_2316986004 {
+    __CPTR_Initializer_2005724253_24224_2316986004()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_2005724253_3036_2302955767()
+    ~__CPTR_Initializer_2005724253_24224_2316986004()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_2005724253_3036_2302955767 __CPTR_initializer_2005724253_3036_2302955767;
+static struct __CPTR_Initializer_2005724253_24224_2316986004 __CPTR_initializer_2005724253_24224_2316986004;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_2005724253_3036_2302955767 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_2005724253_24224_2316986004 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 2 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_2005724253_3036_2302955767 = 
+CppTestCoverageInfo __CPTR_cui_2005724253_24224_2316986004 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_2005724253_3036_2302955767 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_2005724253_3036_2302955767
-#define __CPTR_fid(ID) ID + __CPTR_cui_2005724253_3036_2302955767.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_2005724253_24224_2316986004
+#define __CPTR_fid(ID) ID + __CPTR_cui_2005724253_24224_2316986004.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -60070,7 +60070,7 @@ FaoDataStru.vFaoAwakeTestTag = 170U; CPPTEST_STACK_TRACE_EXIT_ROUTINE()
 FaoDataStruct_T *GetFaoDataStr(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[3], 2);cpptestCoverageStmt(1U, 11U, __CPTR_cui, _Insure_funcID, 2);CPPTEST_STACK_TRACE_STMT_INFO(12) 
 
-{FaoDataStruct_T *__T119834536 =  (&FaoDataStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119834536;}
+{FaoDataStruct_T *__T119174440 =  (&FaoDataStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119174440;}
 } 
 #line 1 "__TEST_HARNESS__"
 ;

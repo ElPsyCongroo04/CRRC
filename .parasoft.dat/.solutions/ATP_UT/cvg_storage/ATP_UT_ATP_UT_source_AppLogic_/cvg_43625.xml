@@ -4,13 +4,13 @@
     <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
     <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
   </VersionInfos>
-  <CtxList ids="-7917899924165413451 -7917899924165412612 -4830745867383605369 -7917899924165412424 5538622662959827135 3847402058542082743 5538622662959848155 -8392374107995560802 -7640508157392947453 3847402058542083582 -2271185691816772199 3847402058542082837 -7917899924165411658 5538622662959848061 -7917899924165412518 5490313373006223074 -7917899924165413545 -7917899924165413357 5538622662959827041" uniqueId2MainId="CPP://-4171938141149621045 CPP://-4171938141149621107 CPP://-4819045318999339310 CPP://-4171938141149621169 CPP://8841512237401864983 CPP://-1995934304685118465 CPP://8841512237401865045 CPP://-7390576113471008231 CPP://1813473683561925330 CPP://-1995934304685118527 CPP://-4514183819162827007 CPP://-1995934304685118496 CPP://-4171938141149621200 CPP://8841512237401865014 CPP://-4171938141149621138 CPP://-5721964567435004655 CPP://-4171938141149621014 CPP://-4171938141149621076 CPP://8841512237401864952" />
+  <CtxList ids="-7917899924165413451 6881236772726300352 -8500515579175417610 3847402058542082743 2674294406824061329 2674294406824061235 -8392374107995560802 -7640508157392947453 3847402058542082837 -7917899924165411658 2674294406824062168 5538622662959848061 -7917899924165412518 -7917899924165413545 5538622662959827041 -8500515579175419309 -8500515579175418470 2674294406824069883 -8500515579175418376 -7917899924165412612 -4830745867383605369 -7917899924165412424 2674294406824040194 5538622662959827135 5538622662959848155 2674294406824063101 2674294406824062074 3847402058542083582 -2271185691816772199 2674294406824063007 6881236772726301191 2674294406824062262 6881236772726300446 2674294406824061141 5490313373006223074 -7917899924165413357 6881236772726300258 -8500515579175418564 -8500515579175417516 2674294406824063195 2674294406824069977" uniqueId2MainId="CPP://-4171938141149621045 CPP://8681044298233247541 CPP://8449144402871149810 CPP://-1995934304685118465 CPP://6519296179607234092 CPP://6519296179607234061 CPP://-7390576113471008231 CPP://1813473683561925330 CPP://-1995934304685118496 CPP://-4171938141149621200 CPP://6519296179607234154 CPP://8841512237401865014 CPP://-4171938141149621138 CPP://-4171938141149621014 CPP://8841512237401864952 CPP://8449144402871149686 CPP://8449144402871149748 CPP://6519296179607234960 CPP://8449144402871149779 CPP://-4171938141149621107 CPP://-4819045318999339310 CPP://-4171938141149621169 CPP://6519296179607233999 CPP://8841512237401864983 CPP://8841512237401865045 CPP://6519296179607234247 CPP://6519296179607234123 CPP://-1995934304685118527 CPP://-4514183819162827007 CPP://6519296179607234216 CPP://8681044298233247603 CPP://6519296179607234185 CPP://8681044298233247572 CPP://6519296179607234030 CPP://-5721964567435004655 CPP://-4171938141149621076 CPP://8681044298233247510 CPP://8449144402871149717 CPP://8449144402871149841 CPP://6519296179607234278 CPP://6519296179607234991" />
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;125;SetAssureBCTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;125;SetAssureBCTag" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;84;GetAssureRMTag" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;254;SetAssureAtoErrTagAck" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;109;SetAssureBDTag" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;55;InitAssureInfoTagAckData" total="8" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;109;SetAssureBDTag" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;173;SetAssureRMTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;288;SetConfirmBCTag" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;141;SetAssurePMTag" total="1" num="1" />
@@ -21,60 +21,52 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;213;GetAssurePMTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;314;GetAssureCbtcBackTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;321;SetAssureCbtcBackTagAck" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;133;GetAssurePMTag" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;296;GetAssureCbtcBackTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;133;GetAssurePMTag" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;246;GetAssureAtoErrTagAck" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;220;SetAssurePMTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;271;SetConfirmBDTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;220;SetAssurePMTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;329;GetConfirmCbtcBackTag" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;69;GetAssureOMTag" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;205;SetAssureBCTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;77;SetAssureOMTag" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;189;SetAssureBDTagAck" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;205;SetAssureBCTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;20;InitAssureInfoData" total="15" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;189;SetAssureBDTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;157;SetAssureOMTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;197;GetAssureBCTagAck" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;305;SetAssureCbtcBackTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;305;SetAssureCbtcBackTag" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;149;GetAssureOMTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;42;InitAssureInfoTagData" total="6" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;263;GetConfirmBDTag" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;100;GetAssureBDTag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;100;GetAssureBDTag" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;165;GetAssureRMTagAck" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;337;SetConfirmCbtcBackTag" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;117;GetAssureBCTag" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;238;SetAssureAtoFkycTagAck" total="1" num="0" />
   </Stats>
   <ResultInfo cvgType="LC">
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;337;SetConfirmCbtcBackTag">
-      <CtxCvg ctx="3847402058542082837" ids="340" />
-      <CtxCvg ctx="-4830745867383605369" ids="340" />
-      <CtxCvg ctx="3847402058542083582" ids="340" />
-      <CtxCvg ctx="3847402058542082743" ids="340" />
-    </DynCvg>
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;84;GetAssureRMTag">
-      <CtxCvg ctx="-7917899924165412612" ids="87" cnts="2" />
-      <CtxCvg ctx="-7917899924165411658" ids="87" cnts="2" />
-      <CtxCvg ctx="-7917899924165412424" ids="87" cnts="2" />
-      <CtxCvg ctx="-7917899924165412518" ids="87" cnts="2" />
-    </DynCvg>
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;92;SetAssureRMTag">
-      <CtxCvg ctx="-7917899924165413451" ids="95" />
-      <CtxCvg ctx="-7917899924165412612" ids="95" />
-      <CtxCvg ctx="-7917899924165412424" ids="95" />
-      <CtxCvg ctx="-7917899924165411658" ids="95" />
-      <CtxCvg ctx="-7917899924165412518" ids="95" />
-      <CtxCvg ctx="-7917899924165413545" ids="95" />
-      <CtxCvg ctx="5490313373006223074" ids="95" />
-      <CtxCvg ctx="-7917899924165413357" ids="95" />
-      <CtxCvg ctx="-8392374107995560802" ids="95" />
-      <CtxCvg ctx="-7640508157392947453" ids="95" />
-      <CtxCvg ctx="-2271185691816772199" ids="95" />
-    </DynCvg>
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;288;SetConfirmBCTag">
-      <CtxCvg ctx="3847402058542082837" ids="291" />
-      <CtxCvg ctx="-4830745867383605369" ids="291" />
-      <CtxCvg ctx="3847402058542083582" ids="291" />
-      <CtxCvg ctx="3847402058542082743" ids="291" />
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;100;GetAssureBDTag">
+      <CtxCvg ctx="6881236772726300352" ids="103" cnts="2" />
+      <CtxCvg ctx="-8500515579175417610" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824040194" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824061329" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824061235" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824062074" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824063101" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824063007" ids="103" cnts="2" />
+      <CtxCvg ctx="6881236772726301191" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824062262" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824062168" ids="103" cnts="2" />
+      <CtxCvg ctx="6881236772726300446" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824061141" ids="103" cnts="2" />
+      <CtxCvg ctx="6881236772726300258" ids="103" cnts="2" />
+      <CtxCvg ctx="-8500515579175419309" ids="103" cnts="2" />
+      <CtxCvg ctx="-8500515579175418564" ids="103" cnts="2" />
+      <CtxCvg ctx="-8500515579175417516" ids="103" cnts="2" />
+      <CtxCvg ctx="-8500515579175418470" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824063195" ids="103" cnts="2" />
+      <CtxCvg ctx="2674294406824069883" ids="103" cnts="2" />
+      <CtxCvg ctx="-8500515579175418376" ids="103" cnts="2" />
     </DynCvg>
     <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;141;SetAssurePMTag">
       <CtxCvg ctx="5538622662959827041" ids="144" cnts="2" />
@@ -82,44 +74,87 @@
       <CtxCvg ctx="5538622662959848061" ids="144" />
       <CtxCvg ctx="5538622662959827135" ids="144" />
     </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;125;SetAssureBCTag">
+      <CtxCvg ctx="-8500515579175417516" ids="128" />
+      <CtxCvg ctx="2674294406824040194" ids="128" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;109;SetAssureBDTag">
+      <CtxCvg ctx="-8500515579175417610" ids="112" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;305;SetAssureCbtcBackTag">
+      <CtxCvg ctx="2674294406824061141" ids="308" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;84;GetAssureRMTag">
+      <CtxCvg ctx="-7917899924165412612" ids="87" cnts="2" />
+      <CtxCvg ctx="-7917899924165412424" ids="87" cnts="2" />
+      <CtxCvg ctx="-7917899924165411658" ids="87" cnts="2" />
+      <CtxCvg ctx="-7917899924165412518" ids="87" cnts="2" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;288;SetConfirmBCTag">
+      <CtxCvg ctx="3847402058542082837" ids="291" />
+      <CtxCvg ctx="-4830745867383605369" ids="291" />
+      <CtxCvg ctx="3847402058542083582" ids="291" />
+      <CtxCvg ctx="2674294406824069977" ids="291" />
+      <CtxCvg ctx="3847402058542082743" ids="291" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;92;SetAssureRMTag">
+      <CtxCvg ctx="-7917899924165413451" ids="95" />
+      <CtxCvg ctx="-7917899924165412612" ids="95" />
+      <CtxCvg ctx="-7917899924165412424" ids="95" />
+      <CtxCvg ctx="-7917899924165411658" ids="95" />
+      <CtxCvg ctx="-7917899924165412518" ids="95" />
+      <CtxCvg ctx="5490313373006223074" ids="95" />
+      <CtxCvg ctx="-7917899924165413545" ids="95" />
+      <CtxCvg ctx="-7917899924165413357" ids="95" />
+      <CtxCvg ctx="-8392374107995560802" ids="95" />
+      <CtxCvg ctx="-7640508157392947453" ids="95" />
+      <CtxCvg ctx="-2271185691816772199" ids="95" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;337;SetConfirmCbtcBackTag">
+      <CtxCvg ctx="3847402058542082837" ids="340" />
+      <CtxCvg ctx="-4830745867383605369" ids="340" />
+      <CtxCvg ctx="3847402058542083582" ids="340" />
+      <CtxCvg ctx="2674294406824069977" ids="340" />
+      <CtxCvg ctx="3847402058542082743" ids="340" />
+    </DynCvg>
   </ResultInfo>
   <ResultInfo cvgType="LC" stat="true">
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;133;GetAssurePMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="136" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;84;GetAssureRMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="87" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;189;SetAssureBDTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="192" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;329;GetConfirmCbtcBackTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="332" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;246;GetAssureAtoErrTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="249" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;55;InitAssureInfoTagAckData" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="64 65 59 58 63 62 61 60" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;42;InitAssureInfoTagData" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="50 49 48 46 47 45" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;77;SetAssureOMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="80" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;314;GetAssureCbtcBackTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="317" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;117;GetAssureBCTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="120" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;229;GetAssureAtoFkycTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="232" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;329;GetConfirmCbtcBackTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="332" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;165;GetAssureRMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="168" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;173;SetAssureRMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="176" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;288;SetConfirmBCTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="291" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;55;InitAssureInfoTagAckData" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="64 65 59 58 63 62 61 60" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;69;GetAssureOMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="72" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;220;SetAssurePMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="223" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;92;SetAssureRMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="95" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;296;GetAssureCbtcBackTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="299" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;246;GetAssureAtoErrTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="249" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;205;SetAssureBCTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="208" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;141;SetAssurePMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="144" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;125;SetAssureBCTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="128" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;337;SetConfirmCbtcBackTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="340" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;149;GetAssureOMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="152" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;109;SetAssureBDTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="112" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;305;SetAssureCbtcBackTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="308" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;238;SetAssureAtoFkycTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="241" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;197;GetAssureBCTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="200" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;157;SetAssureOMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="160" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;42;InitAssureInfoTagData" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="50 49 48 46 47 45" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;279;GetConfirmBCTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="282" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;254;SetAssureAtoErrTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="257" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;84;GetAssureRMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="87" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;181;GetAssureBDTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="184" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;263;GetConfirmBDTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="266" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;213;GetAssurePMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="216" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;321;SetAssureCbtcBackTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="324" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;271;SetConfirmBDTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="274" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;77;SetAssureOMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="80" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;189;SetAssureBDTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="192" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;20;InitAssureInfoData" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="34 35 32 33 38 36 37 23 25 24 27 26 29 28 31" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;100;GetAssureBDTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="103" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;238;SetAssureAtoFkycTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="241" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;69;GetAssureOMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="72" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;321;SetAssureCbtcBackTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="324" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;288;SetConfirmBCTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="291" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;305;SetAssureCbtcBackTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="308" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;165;GetAssureRMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="168" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;296;GetAssureCbtcBackTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="299" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;149;GetAssureOMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="152" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;271;SetConfirmBDTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="274" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;220;SetAssurePMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="223" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;157;SetAssureOMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="160" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;133;GetAssurePMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="136" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;141;SetAssurePMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="144" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;197;GetAssureBCTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="200" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;173;SetAssureRMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="176" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;213;GetAssurePMTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="216" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;109;SetAssureBDTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="112" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;229;GetAssureAtoFkycTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="232" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;205;SetAssureBCTagAck" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="208" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;92;SetAssureRMTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="95" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;125;SetAssureBCTag" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="128" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c;20;InitAssureInfoData" file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/AssureInfoData.c" show="true" lns="34 35 32 33 38 36 37 23 25 24 27 26 29 28 31" />
   </ResultInfo>
 </CvgData>

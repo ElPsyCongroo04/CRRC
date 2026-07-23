@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_3585274676_53772_2302955844 = 
+CppTestTranslationUnitInfo __CPTR_tui_3585274676_30448_2316985856 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\ArInfoData.cfe876a6f\\adds\\harness_ArInfoData.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_3585274676_53772_2302955844
+#define __CPTR_tui &__CPTR_tui_3585274676_30448_2316985856
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_3585274676_53772_2302955844 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_3585274676_53772_2302955844 {
-    __CPTR_Initializer_3585274676_53772_2302955844()
+struct __CPTR_Initializer_3585274676_30448_2316985856 {
+    __CPTR_Initializer_3585274676_30448_2316985856()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_3585274676_53772_2302955844()
+    ~__CPTR_Initializer_3585274676_30448_2316985856()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_3585274676_53772_2302955844 __CPTR_initializer_3585274676_53772_2302955844;
+static struct __CPTR_Initializer_3585274676_30448_2316985856 __CPTR_initializer_3585274676_30448_2316985856;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3585274676_53772_2302955844 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3585274676_30448_2316985856 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 29 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_3585274676_53772_2302955844 = 
+CppTestCoverageInfo __CPTR_cui_3585274676_30448_2316985856 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_3585274676_53772_2302955844 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_3585274676_53772_2302955844
-#define __CPTR_fid(ID) ID + __CPTR_cui_3585274676_53772_2302955844.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_3585274676_30448_2316985856
+#define __CPTR_fid(ID) ID + __CPTR_cui_3585274676_30448_2316985856.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]

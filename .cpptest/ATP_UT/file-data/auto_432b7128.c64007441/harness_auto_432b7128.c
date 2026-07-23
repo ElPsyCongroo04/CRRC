@@ -18,22 +18,22 @@ struct __CPTR_Dummy_Type {
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_725317841_3956_2302970232 {
-    __CPTR_Initializer_725317841_3956_2302970232()
+struct __CPTR_Initializer_725317841_30276_2317000999 {
+    __CPTR_Initializer_725317841_30276_2317000999()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_725317841_3956_2302970232()
+    ~__CPTR_Initializer_725317841_30276_2317000999()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_725317841_3956_2302970232 __CPTR_initializer_725317841_3956_2302970232;
+static struct __CPTR_Initializer_725317841_30276_2317000999 __CPTR_initializer_725317841_30276_2317000999;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_725317841_3956_2302970232 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_725317841_30276_2317000999 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 

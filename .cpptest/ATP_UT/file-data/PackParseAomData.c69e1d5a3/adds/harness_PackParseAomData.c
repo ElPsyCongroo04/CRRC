@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_3684952574_56432_2302962667 = 
+CppTestTranslationUnitInfo __CPTR_tui_3684952574_29936_2316993199 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\PackParseAomData.c69e1d5a3\\adds\\harness_PackParseAomData.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_3684952574_56432_2302962667
+#define __CPTR_tui &__CPTR_tui_3684952574_29936_2316993199
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_3684952574_56432_2302962667 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_3684952574_56432_2302962667 {
-    __CPTR_Initializer_3684952574_56432_2302962667()
+struct __CPTR_Initializer_3684952574_29936_2316993199 {
+    __CPTR_Initializer_3684952574_29936_2316993199()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_3684952574_56432_2302962667()
+    ~__CPTR_Initializer_3684952574_29936_2316993199()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_3684952574_56432_2302962667 __CPTR_initializer_3684952574_56432_2302962667;
+static struct __CPTR_Initializer_3684952574_29936_2316993199 __CPTR_initializer_3684952574_29936_2316993199;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3684952574_56432_2302962667 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3684952574_29936_2316993199 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 31 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_3684952574_56432_2302962667 = 
+CppTestCoverageInfo __CPTR_cui_3684952574_29936_2316993199 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_3684952574_56432_2302962667 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_3684952574_56432_2302962667
-#define __CPTR_fid(ID) ID + __CPTR_cui_3684952574_56432_2302962667.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_3684952574_29936_2316993199
+#define __CPTR_fid(ID) ID + __CPTR_cui_3684952574_29936_2316993199.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -67929,7 +67929,7 @@ return SndAomDataStru;
 SleepAwakeLocInfoStruct_T *GetSndAomLocInfo(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[16], 15);cpptestCoverageStmt(1U, 486U, __CPTR_cui, _Insure_funcID, 15);CPPTEST_STACK_TRACE_STMT_INFO(546) 
 
-{SleepAwakeLocInfoStruct_T *__T124450496 =  (&((SndAomDataStru.atpCycleInfoStru).locInfoStru));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124450496;}
+{SleepAwakeLocInfoStruct_T *__T124311360 =  (&((SndAomDataStru.atpCycleInfoStru).locInfoStru));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124311360;}
 } 
 
 void SetSndAomLocValid(UINT8_T value) 

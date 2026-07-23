@@ -4,9 +4,16 @@
     <StorageInfo ownerId="SC" resultId="IDynamicCoverageInfo" ver="2" />
     <StorageInfo ownerId="SC" resultId="StmtCoverageStaticInfo" ver="2" />
   </VersionInfos>
+  <CtxList ids="-313272976688331044 2170576627065934493" uniqueId2MainId="CPP://4150198036076747339 CPP://-3065871705005238308" />
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c;20;TrainIntegrityFunc" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c;20;TrainIntegrityFunc" total="2" num="2" />
   </Stats>
+  <ResultInfo cvgType="SC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c;20;TrainIntegrityFunc">
+      <CtxCvg ctx="-313272976688331044" ids="1" />
+      <CtxCvg ctx="2170576627065934493" ids="2 1" />
+    </DynCvg>
+  </ResultInfo>
   <ResultInfo cvgType="SC" stat="true">
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c;20;TrainIntegrityFunc" infos="2,26,8,26,63, 1,23,8,23,37," file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TrainInteChkManage/TrainInteChkHandle.c" show="true" />
   </ResultInfo>

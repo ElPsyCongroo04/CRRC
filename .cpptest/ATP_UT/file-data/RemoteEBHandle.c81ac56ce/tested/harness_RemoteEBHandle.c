@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_3285200036_57836_2299367013 = 
+CppTestTranslationUnitInfo __CPTR_tui_3285200036_10128_2378032585 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\RemoteEBHandle.c81ac56ce\\tested\\harness_RemoteEBHandle.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_3285200036_57836_2299367013
+#define __CPTR_tui &__CPTR_tui_3285200036_10128_2378032585
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_3285200036_57836_2299367013 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_3285200036_57836_2299367013 {
-    __CPTR_Initializer_3285200036_57836_2299367013()
+struct __CPTR_Initializer_3285200036_10128_2378032585 {
+    __CPTR_Initializer_3285200036_10128_2378032585()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_3285200036_57836_2299367013()
+    ~__CPTR_Initializer_3285200036_10128_2378032585()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_3285200036_57836_2299367013 __CPTR_initializer_3285200036_57836_2299367013;
+static struct __CPTR_Initializer_3285200036_10128_2378032585 __CPTR_initializer_3285200036_10128_2378032585;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3285200036_57836_2299367013 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3285200036_10128_2378032585 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 1 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_3285200036_57836_2299367013 = 
+CppTestCoverageInfo __CPTR_cui_3285200036_10128_2378032585 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_3285200036_57836_2299367013 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_3285200036_57836_2299367013
-#define __CPTR_fid(ID) ID + __CPTR_cui_3285200036_57836_2299367013.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_3285200036_10128_2378032585
+#define __CPTR_fid(ID) ID + __CPTR_cui_3285200036_10128_2378032585.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -62317,7 +62317,7 @@ void TestSuite_RemoteEBHandle_4f9bc12e_test_RemoteEB_14();
 void TestSuite_RemoteEBHandle_4f9bc12e_test_RemoteEB_15(); 
 void TestSuite_RemoteEBHandle_4f9bc12e_test_RemoteEB_16(); 
 void TestSuite_RemoteEBHandle_4f9bc12e_test_RemoteEB_17(); 
-int TestSuite_RemoteEBHandle_4f9bc12e_callTest(const char *name) { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_STMT_INFO(162) cpptestIgnoreCurrStackElement(); CPPTEST_STACK_TRACE_STMT_INFO(163) {int __T122750744 =  TestSuite_RemoteEBHandle_4f9bc12e_callTestStatic(name);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T122750744;}} ;
+int TestSuite_RemoteEBHandle_4f9bc12e_callTest(const char *name) { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_STMT_INFO(162) cpptestIgnoreCurrStackElement(); CPPTEST_STACK_TRACE_STMT_INFO(163) {int __T121717144 =  TestSuite_RemoteEBHandle_4f9bc12e_callTestStatic(name);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T121717144;}} ;
 
 void TestSuite_RemoteEBHandle_4f9bc12e_setUp() 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_EXIT_ROUTINE() 

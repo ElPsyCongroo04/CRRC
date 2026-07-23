@@ -4,34 +4,54 @@
     <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
     <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
   </VersionInfos>
+  <CtxList ids="-285612235082230912 -2202974458932958811 1961553751803162764 1961553751803164839 1961553751803162952 1961553751803162019 1961553751803164745 1961553751803163906 -3570273422744742770 1961553751803164651 1961553751803163812 1961553751803162858 7376624093564577052 1961553751803163697" uniqueId2MainId="CPP://-2977520084267376203 CPP://-5876624215427148007 CPP://-3758329717783937216 CPP://-3758329717783937464 CPP://-3758329717783937278 CPP://-3758329717783937185 CPP://-3758329717783937433 CPP://-3758329717783937371 CPP://5142326781391581638 CPP://-3758329717783937402 CPP://-3758329717783937340 CPP://-3758329717783937247 CPP://-5896925380969835719 CPP://-3758329717783937309" />
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;86;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" total="8" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;35;PowerOffFunc" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;86;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" total="8" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" total="2" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" total="2" num="1" />
   </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint">
+      <CtxCvg ctx="-285612235082230912" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" cnts="2" paths="1;3;4" expect="1" />
+      <CtxCvg ctx="-3570273422744742770" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" cnts="2" paths="1;3;4" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState">
+      <CtxCvg ctx="7376624093564577052" ids="SetPowerOffState" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState">
+      <CtxCvg ctx="1961553751803162019" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803164745" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803163906" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-2202974458932958811" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803164651" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803162764" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803164839" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803163812" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803162858" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803162952" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="1961553751803163697" ids="GetPowerOffState" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;86;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe">
+      <CtxCvg ctx="1961553751803162019" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803164745" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803163906" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="-2202974458932958811" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803164651" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803162764" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803164839" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803163812" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803162858" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803162952" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+      <CtxCvg ctx="1961553751803163697" ids="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" cnts="2" paths="1;8;10" expect="1" />
+    </DynCvg>
+  </ResultInfo>
   <ResultInfo cvgType="PC" stat="true">
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState" show="true">
-      <CvgElem id="SetPowerOffState" pathsNo="1">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState" show="true">
+      <CvgElem id="GetPowerOffState" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="144" locStartPos="4" locEndLn="144" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="60" locStartPos="5" locEndLn="60" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="4">
-          <PathBlckLoc locStartln="63" locStartPos="2" locEndLn="63" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="4">
-          <PathBlckLoc locStartln="68" locStartPos="2" locEndLn="68" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="4" blckTrans="">
-          <PathBlckLoc locStartln="70" locStartPos="0" locEndLn="70" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
+          <PathBlckLoc locStartln="152" locStartPos="4" locEndLn="152" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -69,6 +89,13 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState" show="true">
+      <CvgElem id="SetPowerOffState" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="144" locStartPos="4" locEndLn="144" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;35;PowerOffFunc" show="true">
       <CvgElem id="PowerOffFunc" pathsNo="1">
         <BlckInfo id="1" blckTrans="">
@@ -76,10 +103,19 @@
         </BlckInfo>
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState" show="true">
-      <CvgElem id="GetPowerOffState" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="152" locStartPos="4" locEndLn="152" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="60" locStartPos="5" locEndLn="60" locEndPos="90" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="4">
+          <PathBlckLoc locStartln="63" locStartPos="2" locEndLn="63" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="4">
+          <PathBlckLoc locStartln="68" locStartPos="2" locEndLn="68" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="4" blckTrans="">
+          <PathBlckLoc locStartln="70" locStartPos="0" locEndLn="70" locEndPos="1" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>

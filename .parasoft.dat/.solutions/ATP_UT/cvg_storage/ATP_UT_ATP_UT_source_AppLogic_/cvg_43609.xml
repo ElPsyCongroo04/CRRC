@@ -4,18 +4,54 @@
     <StorageInfo ownerId="LC" resultId="LineCoverageStaticInfo" ver="2" />
     <StorageInfo ownerId="LC" resultId="IDynamicCoverageInfo" ver="2" />
   </VersionInfos>
+  <CtxList ids="-285612235082230912 -2202974458932958811 1961553751803162764 1961553751803164839 1961553751803162952 1961553751803162019 1961553751803164745 1961553751803163906 -3570273422744742770 1961553751803164651 1961553751803163812 1961553751803162858 7376624093564577052 1961553751803163697" uniqueId2MainId="CPP://-2977520084267376203 CPP://-5876624215427148007 CPP://-3758329717783937216 CPP://-3758329717783937464 CPP://-3758329717783937278 CPP://-3758329717783937185 CPP://-3758329717783937433 CPP://-3758329717783937371 CPP://5142326781391581638 CPP://-3758329717783937402 CPP://-3758329717783937340 CPP://-3758329717783937247 CPP://-5896925380969835719 CPP://-3758329717783937309" />
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;86;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" total="15" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;86;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" total="15" num="6" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;35;PowerOffFunc" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" total="3" num="2" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState" total="1" num="1" />
   </Stats>
+  <ResultInfo cvgType="LC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint">
+      <CtxCvg ctx="-285612235082230912" ids="68 60" />
+      <CtxCvg ctx="-3570273422744742770" ids="68 60" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState">
+      <CtxCvg ctx="7376624093564577052" ids="144" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState">
+      <CtxCvg ctx="1961553751803162019" ids="152" />
+      <CtxCvg ctx="1961553751803164745" ids="152" />
+      <CtxCvg ctx="1961553751803163906" ids="152" />
+      <CtxCvg ctx="-2202974458932958811" ids="152" />
+      <CtxCvg ctx="1961553751803164651" ids="152" />
+      <CtxCvg ctx="1961553751803162764" ids="152" />
+      <CtxCvg ctx="1961553751803164839" ids="152" />
+      <CtxCvg ctx="1961553751803163812" ids="152" />
+      <CtxCvg ctx="1961553751803162858" ids="152" />
+      <CtxCvg ctx="1961553751803162952" ids="152" />
+      <CtxCvg ctx="1961553751803163697" ids="152" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;86;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe">
+      <CtxCvg ctx="1961553751803162019" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803164745" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803163906" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="-2202974458932958811" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803164651" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803162764" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803164839" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803163812" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803162858" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803162952" ids="97 94 93 90 129 89" />
+      <CtxCvg ctx="1961553751803163697" ids="97 94 93 90 129 89" />
+    </DynCvg>
+  </ResultInfo>
   <ResultInfo cvgType="LC" stat="true">
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;57;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffHint" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" show="true" lns="68 63 60" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;86;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" show="true" lns="136 100 97 129 108 109 133 132 134 105 112 93 94 89 90" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" show="true" lns="144" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;35;PowerOffFunc" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" show="true" lns="38" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;149;GetPowerOffState" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" show="true" lns="152" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;35;PowerOffFunc" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" show="true" lns="38" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;141;SetPowerOffState" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" show="true" lns="144" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c;86;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWPowerOffManageWPowerOffHandleWc|SelfPowerOffExe" file="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/PowerOffManage/PowerOffHandle.c" show="true" lns="136 100 97 129 108 109 133 132 134 105 112 93 94 89 90" />
   </ResultInfo>
 </CvgData>

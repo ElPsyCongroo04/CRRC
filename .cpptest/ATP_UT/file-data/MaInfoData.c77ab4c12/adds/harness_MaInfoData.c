@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_1322702039_31612_2302955959 = 
+CppTestTranslationUnitInfo __CPTR_tui_1322702039_29824_2316986045 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\MaInfoData.c77ab4c12\\adds\\harness_MaInfoData.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_1322702039_31612_2302955959
+#define __CPTR_tui &__CPTR_tui_1322702039_29824_2316986045
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_1322702039_31612_2302955959 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_1322702039_31612_2302955959 {
-    __CPTR_Initializer_1322702039_31612_2302955959()
+struct __CPTR_Initializer_1322702039_29824_2316986045 {
+    __CPTR_Initializer_1322702039_29824_2316986045()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_1322702039_31612_2302955959()
+    ~__CPTR_Initializer_1322702039_29824_2316986045()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_1322702039_31612_2302955959 __CPTR_initializer_1322702039_31612_2302955959;
+static struct __CPTR_Initializer_1322702039_29824_2316986045 __CPTR_initializer_1322702039_29824_2316986045;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1322702039_31612_2302955959 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1322702039_29824_2316986045 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 35 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_1322702039_31612_2302955959 = 
+CppTestCoverageInfo __CPTR_cui_1322702039_29824_2316986045 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_1322702039_31612_2302955959 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_1322702039_31612_2302955959
-#define __CPTR_fid(ID) ID + __CPTR_cui_1322702039_31612_2302955959.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_1322702039_29824_2316986045
+#define __CPTR_fid(ID) ID + __CPTR_cui_1322702039_29824_2316986045.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -60599,7 +60599,7 @@ return MaInfoDataStru.maData;
 MaDataStruct_T *GetMaData(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[13], 12);cpptestCoverageStmt(1U, 20U, __CPTR_cui, _Insure_funcID, 12);CPPTEST_STACK_TRACE_STMT_INFO(16) 
 
-{MaDataStruct_T *__T120334292 =  (&(MaInfoDataStru.maData));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120334292;}
+{MaDataStruct_T *__T119797092 =  (&(MaInfoDataStru.maData));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119797092;}
 } 
 
 
@@ -60731,7 +60731,7 @@ return (MaInfoDataStru.maData).obstableNum;
 ObstInfo_T *GetMaObstInfo(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[32], 31);cpptestCoverageStmt(1U, 39U, __CPTR_cui, _Insure_funcID, 31);CPPTEST_STACK_TRACE_STMT_INFO(25) 
 
-{ObstInfo_T *__T120363972 =  ((MaInfoDataStru.maData).obstInfo);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120363972;}
+{ObstInfo_T *__T119826772 =  ((MaInfoDataStru.maData).obstInfo);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119826772;}
 } 
 
 
@@ -60746,7 +60746,7 @@ return (MaInfoDataStru.maData).tsrNum;
 TSRInfo_T *GetMaTsrInfo(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[34], 33);cpptestCoverageStmt(1U, 41U, __CPTR_cui, _Insure_funcID, 33);CPPTEST_STACK_TRACE_STMT_INFO(26) 
 
-{TSRInfo_T *__T120366324 =  ((MaInfoDataStru.maData).tsrInfo);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120366324;}
+{TSRInfo_T *__T119829124 =  ((MaInfoDataStru.maData).tsrInfo);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119829124;}
 } 
 
 UINT8_T GetMaSpksNum(void) 
@@ -60760,7 +60760,7 @@ return (MaInfoDataStru.maData).spksNum;
 ObstInfo_T *GetMaSpksInfo(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[36], 35);cpptestCoverageStmt(1U, 43U, __CPTR_cui, _Insure_funcID, 35);CPPTEST_STACK_TRACE_STMT_INFO(27) 
 
-{ObstInfo_T *__T120368676 =  ((MaInfoDataStru.maData).spksInfo);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120368676;}
+{ObstInfo_T *__T119831476 =  ((MaInfoDataStru.maData).spksInfo);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119831476;}
 } 
 #line 1 "__TEST_HARNESS__"
 ;

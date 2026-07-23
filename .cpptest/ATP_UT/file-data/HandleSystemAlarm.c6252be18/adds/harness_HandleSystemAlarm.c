@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_1980115613_58036_2302959090 = 
+CppTestTranslationUnitInfo __CPTR_tui_1980115613_30588_2316989507 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\HandleSystemAlarm.c6252be18\\adds\\harness_HandleSystemAlarm.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_1980115613_58036_2302959090
+#define __CPTR_tui &__CPTR_tui_1980115613_30588_2316989507
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_1980115613_58036_2302959090 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_1980115613_58036_2302959090 {
-    __CPTR_Initializer_1980115613_58036_2302959090()
+struct __CPTR_Initializer_1980115613_30588_2316989507 {
+    __CPTR_Initializer_1980115613_30588_2316989507()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_1980115613_58036_2302959090()
+    ~__CPTR_Initializer_1980115613_30588_2316989507()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_1980115613_58036_2302959090 __CPTR_initializer_1980115613_58036_2302959090;
+static struct __CPTR_Initializer_1980115613_30588_2316989507 __CPTR_initializer_1980115613_30588_2316989507;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1980115613_58036_2302959090 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1980115613_30588_2316989507 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 5 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_1980115613_58036_2302959090 = 
+CppTestCoverageInfo __CPTR_cui_1980115613_30588_2316989507 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_1980115613_58036_2302959090 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_1980115613_58036_2302959090
-#define __CPTR_fid(ID) ID + __CPTR_cui_1980115613_58036_2302959090.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_1980115613_30588_2316989507
+#define __CPTR_fid(ID) ID + __CPTR_cui_1980115613_30588_2316989507.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -61846,7 +61846,7 @@ const HandleSystemAlarmStruct_T AlarmFuncMap[] = {{(ALARM_TYPE_FAOEBLOW), CppTes
 #line 46
 AlarmInfoStruct_T *GetAlarmStruct(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[2], 1);cpptestCoverageStmt(1U, 0U, __CPTR_cui, _Insure_funcID, 1);CPPTEST_STACK_TRACE_STMT_INFO(1) 
-{AlarmInfoStruct_T *__T120366564 =  (SendAlarmErrCode);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120366564;}
+{AlarmInfoStruct_T *__T110660060 =  (SendAlarmErrCode);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T110660060;}
 } 
 
 

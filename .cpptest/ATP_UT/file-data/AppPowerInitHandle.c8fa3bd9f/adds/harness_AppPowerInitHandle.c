@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_3221410852_54676_2302967312 = 
+CppTestTranslationUnitInfo __CPTR_tui_3221410852_26556_2316998116 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\AppPowerInitHandle.c8fa3bd9f\\adds\\harness_AppPowerInitHandle.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_3221410852_54676_2302967312
+#define __CPTR_tui &__CPTR_tui_3221410852_26556_2316998116
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_3221410852_54676_2302967312 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_3221410852_54676_2302967312 {
-    __CPTR_Initializer_3221410852_54676_2302967312()
+struct __CPTR_Initializer_3221410852_26556_2316998116 {
+    __CPTR_Initializer_3221410852_26556_2316998116()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_3221410852_54676_2302967312()
+    ~__CPTR_Initializer_3221410852_26556_2316998116()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_3221410852_54676_2302967312 __CPTR_initializer_3221410852_54676_2302967312;
+static struct __CPTR_Initializer_3221410852_26556_2316998116 __CPTR_initializer_3221410852_26556_2316998116;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3221410852_54676_2302967312 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3221410852_26556_2316998116 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 3 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_3221410852_54676_2302967312 = 
+CppTestCoverageInfo __CPTR_cui_3221410852_26556_2316998116 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_3221410852_54676_2302967312 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_3221410852_54676_2302967312
-#define __CPTR_fid(ID) ID + __CPTR_cui_3221410852_54676_2302967312.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_3221410852_26556_2316998116
+#define __CPTR_fid(ID) ID + __CPTR_cui_3221410852_26556_2316998116.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]

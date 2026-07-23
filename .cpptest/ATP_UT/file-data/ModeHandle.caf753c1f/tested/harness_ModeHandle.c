@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_3567280730_5028_2312864372 = 
+CppTestTranslationUnitInfo __CPTR_tui_3567280730_15304_2317343016 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\ModeHandle.caf753c1f\\tested\\harness_ModeHandle.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_3567280730_5028_2312864372
+#define __CPTR_tui &__CPTR_tui_3567280730_15304_2317343016
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_3567280730_5028_2312864372 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_3567280730_5028_2312864372 {
-    __CPTR_Initializer_3567280730_5028_2312864372()
+struct __CPTR_Initializer_3567280730_15304_2317343016 {
+    __CPTR_Initializer_3567280730_15304_2317343016()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_3567280730_5028_2312864372()
+    ~__CPTR_Initializer_3567280730_15304_2317343016()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_3567280730_5028_2312864372 __CPTR_initializer_3567280730_5028_2312864372;
+static struct __CPTR_Initializer_3567280730_15304_2317343016 __CPTR_initializer_3567280730_15304_2317343016;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3567280730_5028_2312864372 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3567280730_15304_2317343016 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 22 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_3567280730_5028_2312864372 = 
+CppTestCoverageInfo __CPTR_cui_3567280730_15304_2317343016 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_3567280730_5028_2312864372 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_3567280730_5028_2312864372
-#define __CPTR_fid(ID) ID + __CPTR_cui_3567280730_5028_2312864372.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_3567280730_15304_2317343016
+#define __CPTR_fid(ID) ID + __CPTR_cui_3567280730_15304_2317343016.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -75735,7 +75735,7 @@ void TestSuite_ModeHandle_test_FamExitCamCheck_31();
 void TestSuite_ModeHandle_test_EUMModeprocess_16(); 
 void TestSuite_ModeHandle_test_EUMModeprocess_17(); 
 void TestSuite_ModeHandle_test_EUMModeprocess_18(); 
-int TestSuite_ModeHandle_callTest(const char *name) { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_STMT_INFO(6468) cpptestIgnoreCurrStackElement(); CPPTEST_STACK_TRACE_STMT_INFO(6469) {int __T134521604 =  TestSuite_ModeHandle_callTestStatic(name);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T134521604;}} ;
+int TestSuite_ModeHandle_callTest(const char *name) { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_STMT_INFO(6468) cpptestIgnoreCurrStackElement(); CPPTEST_STACK_TRACE_STMT_INFO(6469) {int __T134671124 =  TestSuite_ModeHandle_callTestStatic(name);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T134671124;}} ;
 
 void TestSuite_ModeHandle_setUp() 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() CPPTEST_STACK_TRACE_EXIT_ROUTINE() 

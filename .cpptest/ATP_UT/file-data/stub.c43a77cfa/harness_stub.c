@@ -18,22 +18,22 @@ struct __CPTR_Dummy_Type {
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_1513249386_12016_2312260480 {
-    __CPTR_Initializer_1513249386_12016_2312260480()
+struct __CPTR_Initializer_1513249386_27592_2399820543 {
+    __CPTR_Initializer_1513249386_27592_2399820543()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_1513249386_12016_2312260480()
+    ~__CPTR_Initializer_1513249386_27592_2399820543()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_1513249386_12016_2312260480 __CPTR_initializer_1513249386_12016_2312260480;
+static struct __CPTR_Initializer_1513249386_27592_2399820543 __CPTR_initializer_1513249386_27592_2399820543;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1513249386_12016_2312260480 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1513249386_27592_2399820543 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -471,6 +471,622 @@ const char* _cpptest_strdata[] = {
 # endif
 #else
 # define CppTest_Stub__Call_AddDevComQueueData_AddDevComQueueData AddDevComQueueData
+#endif
+
+#if defined(CPPTEST_STUB_GetReverseInChkType) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_GetReverseInChkType)
+#  define CppTest_Stub__Call_GetReverseInChkType_GetReverseInChkType CppTest_Safe_Stub_GetReverseInChkType_GetReverseInChkType
+#  if defined(CPPTEST_UNDEFINED_GetReverseInChkType)
+#   define CppTest_Safe_Stub_GetReverseInChkType_GetReverseInChkType GetReverseInChkType
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_GetReverseInChkType)
+#  define CppTest_Stub__Call_GetReverseInChkType_GetReverseInChkType CppTest_Auto_Stub_GetReverseInChkType_GetReverseInChkType
+#  if defined(CPPTEST_UNDEFINED_GetReverseInChkType)
+#   define CppTest_Auto_Stub_GetReverseInChkType_GetReverseInChkType GetReverseInChkType
+#  endif
+# else
+#  define CppTest_Stub__Call_GetReverseInChkType_GetReverseInChkType CppTest_Stub_GetReverseInChkType_GetReverseInChkType
+#  if defined(CPPTEST_UNDEFINED_GetReverseInChkType)
+#   define CppTest_Stub_GetReverseInChkType_GetReverseInChkType GetReverseInChkType
+#  endif
+#  define CPPTEST_USER_STUB_GetReverseInChkType
+# endif
+#else
+# define CppTest_Stub__Call_GetReverseInChkType_GetReverseInChkType GetReverseInChkType
+#endif
+
+#if defined(CPPTEST_STUB_SetReversingFalg) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetReversingFalg)
+#  define CppTest_Stub__Call_SetReversingFalg_SetReversingFalg CppTest_Safe_Stub_SetReversingFalg_SetReversingFalg
+#  if defined(CPPTEST_UNDEFINED_SetReversingFalg)
+#   define CppTest_Safe_Stub_SetReversingFalg_SetReversingFalg SetReversingFalg
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetReversingFalg)
+#  define CppTest_Stub__Call_SetReversingFalg_SetReversingFalg CppTest_Auto_Stub_SetReversingFalg_SetReversingFalg
+#  if defined(CPPTEST_UNDEFINED_SetReversingFalg)
+#   define CppTest_Auto_Stub_SetReversingFalg_SetReversingFalg SetReversingFalg
+#  endif
+# else
+#  define CppTest_Stub__Call_SetReversingFalg_SetReversingFalg CppTest_Stub_SetReversingFalg_SetReversingFalg
+#  if defined(CPPTEST_UNDEFINED_SetReversingFalg)
+#   define CppTest_Stub_SetReversingFalg_SetReversingFalg SetReversingFalg
+#  endif
+#  define CPPTEST_USER_STUB_SetReversingFalg
+# endif
+#else
+# define CppTest_Stub__Call_SetReversingFalg_SetReversingFalg SetReversingFalg
+#endif
+
+#if defined(CPPTEST_STUB_OutputEbReason) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_OutputEbReason)
+#  define CppTest_Stub__Call_OutputEbReason_OutputEbReason CppTest_Safe_Stub_OutputEbReason_OutputEbReason
+#  if defined(CPPTEST_UNDEFINED_OutputEbReason)
+#   define CppTest_Safe_Stub_OutputEbReason_OutputEbReason OutputEbReason
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_OutputEbReason)
+#  define CppTest_Stub__Call_OutputEbReason_OutputEbReason CppTest_Auto_Stub_OutputEbReason_OutputEbReason
+#  if defined(CPPTEST_UNDEFINED_OutputEbReason)
+#   define CppTest_Auto_Stub_OutputEbReason_OutputEbReason OutputEbReason
+#  endif
+# else
+#  define CppTest_Stub__Call_OutputEbReason_OutputEbReason CppTest_Stub_OutputEbReason_OutputEbReason
+#  if defined(CPPTEST_UNDEFINED_OutputEbReason)
+#   define CppTest_Stub_OutputEbReason_OutputEbReason OutputEbReason
+#  endif
+#  define CPPTEST_USER_STUB_OutputEbReason
+# endif
+#else
+# define CppTest_Stub__Call_OutputEbReason_OutputEbReason OutputEbReason
+#endif
+
+#if defined(CPPTEST_STUB_RelieveEbReason) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_RelieveEbReason)
+#  define CppTest_Stub__Call_RelieveEbReason_RelieveEbReason CppTest_Safe_Stub_RelieveEbReason_RelieveEbReason
+#  if defined(CPPTEST_UNDEFINED_RelieveEbReason)
+#   define CppTest_Safe_Stub_RelieveEbReason_RelieveEbReason RelieveEbReason
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_RelieveEbReason)
+#  define CppTest_Stub__Call_RelieveEbReason_RelieveEbReason CppTest_Auto_Stub_RelieveEbReason_RelieveEbReason
+#  if defined(CPPTEST_UNDEFINED_RelieveEbReason)
+#   define CppTest_Auto_Stub_RelieveEbReason_RelieveEbReason RelieveEbReason
+#  endif
+# else
+#  define CppTest_Stub__Call_RelieveEbReason_RelieveEbReason CppTest_Stub_RelieveEbReason_RelieveEbReason
+#  if defined(CPPTEST_UNDEFINED_RelieveEbReason)
+#   define CppTest_Stub_RelieveEbReason_RelieveEbReason RelieveEbReason
+#  endif
+#  define CPPTEST_USER_STUB_RelieveEbReason
+# endif
+#else
+# define CppTest_Stub__Call_RelieveEbReason_RelieveEbReason RelieveEbReason
+#endif
+
+#if defined(CPPTEST_STUB_CheckStopPointDistance) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_CheckStopPointDistance)
+#  define CppTest_Stub__Call_CheckStopPointDistance_CheckStopPointDistance CppTest_Safe_Stub_CheckStopPointDistance_CheckStopPointDistance
+#  if defined(CPPTEST_UNDEFINED_CheckStopPointDistance)
+#   define CppTest_Safe_Stub_CheckStopPointDistance_CheckStopPointDistance CheckStopPointDistance
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_CheckStopPointDistance)
+#  define CppTest_Stub__Call_CheckStopPointDistance_CheckStopPointDistance CppTest_Auto_Stub_CheckStopPointDistance_CheckStopPointDistance
+#  if defined(CPPTEST_UNDEFINED_CheckStopPointDistance)
+#   define CppTest_Auto_Stub_CheckStopPointDistance_CheckStopPointDistance CheckStopPointDistance
+#  endif
+# else
+#  define CppTest_Stub__Call_CheckStopPointDistance_CheckStopPointDistance CppTest_Stub_CheckStopPointDistance_CheckStopPointDistance
+#  if defined(CPPTEST_UNDEFINED_CheckStopPointDistance)
+#   define CppTest_Stub_CheckStopPointDistance_CheckStopPointDistance CheckStopPointDistance
+#  endif
+#  define CPPTEST_USER_STUB_CheckStopPointDistance
+# endif
+#else
+# define CppTest_Stub__Call_CheckStopPointDistance_CheckStopPointDistance CheckStopPointDistance
+#endif
+
+#if defined(CPPTEST_STUB_GetInMeaSpksBtn) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_GetInMeaSpksBtn)
+#  define CppTest_Stub__Call_GetInMeaSpksBtn_GetInMeaSpksBtn CppTest_Safe_Stub_GetInMeaSpksBtn_GetInMeaSpksBtn
+#  if defined(CPPTEST_UNDEFINED_GetInMeaSpksBtn)
+#   define CppTest_Safe_Stub_GetInMeaSpksBtn_GetInMeaSpksBtn GetInMeaSpksBtn
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_GetInMeaSpksBtn)
+#  define CppTest_Stub__Call_GetInMeaSpksBtn_GetInMeaSpksBtn CppTest_Auto_Stub_GetInMeaSpksBtn_GetInMeaSpksBtn
+#  if defined(CPPTEST_UNDEFINED_GetInMeaSpksBtn)
+#   define CppTest_Auto_Stub_GetInMeaSpksBtn_GetInMeaSpksBtn GetInMeaSpksBtn
+#  endif
+# else
+#  define CppTest_Stub__Call_GetInMeaSpksBtn_GetInMeaSpksBtn CppTest_Stub_GetInMeaSpksBtn_GetInMeaSpksBtn
+#  if defined(CPPTEST_UNDEFINED_GetInMeaSpksBtn)
+#   define CppTest_Stub_GetInMeaSpksBtn_GetInMeaSpksBtn GetInMeaSpksBtn
+#  endif
+#  define CPPTEST_USER_STUB_GetInMeaSpksBtn
+# endif
+#else
+# define CppTest_Stub__Call_GetInMeaSpksBtn_GetInMeaSpksBtn GetInMeaSpksBtn
+#endif
+
+#if defined(CPPTEST_STUB_ReverseTypeChk) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_ReverseTypeChk)
+#  define CppTest_Stub__Call_ReverseTypeChk_ReverseTypeChk CppTest_Safe_Stub_ReverseTypeChk_ReverseTypeChk
+#  if defined(CPPTEST_UNDEFINED_ReverseTypeChk)
+#   define CppTest_Safe_Stub_ReverseTypeChk_ReverseTypeChk ReverseTypeChk
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_ReverseTypeChk)
+#  define CppTest_Stub__Call_ReverseTypeChk_ReverseTypeChk CppTest_Auto_Stub_ReverseTypeChk_ReverseTypeChk
+#  if defined(CPPTEST_UNDEFINED_ReverseTypeChk)
+#   define CppTest_Auto_Stub_ReverseTypeChk_ReverseTypeChk ReverseTypeChk
+#  endif
+# else
+#  define CppTest_Stub__Call_ReverseTypeChk_ReverseTypeChk CppTest_Stub_ReverseTypeChk_ReverseTypeChk
+#  if defined(CPPTEST_UNDEFINED_ReverseTypeChk)
+#   define CppTest_Stub_ReverseTypeChk_ReverseTypeChk ReverseTypeChk
+#  endif
+#  define CPPTEST_USER_STUB_ReverseTypeChk
+# endif
+#else
+# define CppTest_Stub__Call_ReverseTypeChk_ReverseTypeChk ReverseTypeChk
+#endif
+
+#if defined(CPPTEST_STUB_FamAutoReverse) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_FamAutoReverse)
+#  define CppTest_Stub__Call_FamAutoReverse_FamAutoReverse CppTest_Safe_Stub_FamAutoReverse_FamAutoReverse
+#  if defined(CPPTEST_UNDEFINED_FamAutoReverse)
+#   define CppTest_Safe_Stub_FamAutoReverse_FamAutoReverse FamAutoReverse
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_FamAutoReverse)
+#  define CppTest_Stub__Call_FamAutoReverse_FamAutoReverse CppTest_Auto_Stub_FamAutoReverse_FamAutoReverse
+#  if defined(CPPTEST_UNDEFINED_FamAutoReverse)
+#   define CppTest_Auto_Stub_FamAutoReverse_FamAutoReverse FamAutoReverse
+#  endif
+# else
+#  define CppTest_Stub__Call_FamAutoReverse_FamAutoReverse CppTest_Stub_FamAutoReverse_FamAutoReverse
+#  if defined(CPPTEST_UNDEFINED_FamAutoReverse)
+#   define CppTest_Stub_FamAutoReverse_FamAutoReverse FamAutoReverse
+#  endif
+#  define CPPTEST_USER_STUB_FamAutoReverse
+# endif
+#else
+# define CppTest_Stub__Call_FamAutoReverse_FamAutoReverse FamAutoReverse
+#endif
+
+#if defined(CPPTEST_STUB_FamAnyLocReverse) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_FamAnyLocReverse)
+#  define CppTest_Stub__Call_FamAnyLocReverse_FamAnyLocReverse CppTest_Safe_Stub_FamAnyLocReverse_FamAnyLocReverse
+#  if defined(CPPTEST_UNDEFINED_FamAnyLocReverse)
+#   define CppTest_Safe_Stub_FamAnyLocReverse_FamAnyLocReverse FamAnyLocReverse
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_FamAnyLocReverse)
+#  define CppTest_Stub__Call_FamAnyLocReverse_FamAnyLocReverse CppTest_Auto_Stub_FamAnyLocReverse_FamAnyLocReverse
+#  if defined(CPPTEST_UNDEFINED_FamAnyLocReverse)
+#   define CppTest_Auto_Stub_FamAnyLocReverse_FamAnyLocReverse FamAnyLocReverse
+#  endif
+# else
+#  define CppTest_Stub__Call_FamAnyLocReverse_FamAnyLocReverse CppTest_Stub_FamAnyLocReverse_FamAnyLocReverse
+#  if defined(CPPTEST_UNDEFINED_FamAnyLocReverse)
+#   define CppTest_Stub_FamAnyLocReverse_FamAnyLocReverse FamAnyLocReverse
+#  endif
+#  define CPPTEST_USER_STUB_FamAnyLocReverse
+# endif
+#else
+# define CppTest_Stub__Call_FamAnyLocReverse_FamAnyLocReverse FamAnyLocReverse
+#endif
+
+#if defined(CPPTEST_STUB_AmAutoReverse) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_AmAutoReverse)
+#  define CppTest_Stub__Call_AmAutoReverse_AmAutoReverse CppTest_Safe_Stub_AmAutoReverse_AmAutoReverse
+#  if defined(CPPTEST_UNDEFINED_AmAutoReverse)
+#   define CppTest_Safe_Stub_AmAutoReverse_AmAutoReverse AmAutoReverse
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_AmAutoReverse)
+#  define CppTest_Stub__Call_AmAutoReverse_AmAutoReverse CppTest_Auto_Stub_AmAutoReverse_AmAutoReverse
+#  if defined(CPPTEST_UNDEFINED_AmAutoReverse)
+#   define CppTest_Auto_Stub_AmAutoReverse_AmAutoReverse AmAutoReverse
+#  endif
+# else
+#  define CppTest_Stub__Call_AmAutoReverse_AmAutoReverse CppTest_Stub_AmAutoReverse_AmAutoReverse
+#  if defined(CPPTEST_UNDEFINED_AmAutoReverse)
+#   define CppTest_Stub_AmAutoReverse_AmAutoReverse AmAutoReverse
+#  endif
+#  define CPPTEST_USER_STUB_AmAutoReverse
+# endif
+#else
+# define CppTest_Stub__Call_AmAutoReverse_AmAutoReverse AmAutoReverse
+#endif
+
+#if defined(CPPTEST_STUB_AmCmManReverse) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_AmCmManReverse)
+#  define CppTest_Stub__Call_AmCmManReverse_AmCmManReverse CppTest_Safe_Stub_AmCmManReverse_AmCmManReverse
+#  if defined(CPPTEST_UNDEFINED_AmCmManReverse)
+#   define CppTest_Safe_Stub_AmCmManReverse_AmCmManReverse AmCmManReverse
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_AmCmManReverse)
+#  define CppTest_Stub__Call_AmCmManReverse_AmCmManReverse CppTest_Auto_Stub_AmCmManReverse_AmCmManReverse
+#  if defined(CPPTEST_UNDEFINED_AmCmManReverse)
+#   define CppTest_Auto_Stub_AmCmManReverse_AmCmManReverse AmCmManReverse
+#  endif
+# else
+#  define CppTest_Stub__Call_AmCmManReverse_AmCmManReverse CppTest_Stub_AmCmManReverse_AmCmManReverse
+#  if defined(CPPTEST_UNDEFINED_AmCmManReverse)
+#   define CppTest_Stub_AmCmManReverse_AmCmManReverse AmCmManReverse
+#  endif
+#  define CPPTEST_USER_STUB_AmCmManReverse
+# endif
+#else
+# define CppTest_Stub__Call_AmCmManReverse_AmCmManReverse AmCmManReverse
+#endif
+
+#if defined(CPPTEST_STUB_EnterAmAutoReverse) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_EnterAmAutoReverse)
+#  define CppTest_Stub__Call_EnterAmAutoReverse_EnterAmAutoReverse CppTest_Safe_Stub_EnterAmAutoReverse_EnterAmAutoReverse
+#  if defined(CPPTEST_UNDEFINED_EnterAmAutoReverse)
+#   define CppTest_Safe_Stub_EnterAmAutoReverse_EnterAmAutoReverse EnterAmAutoReverse
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_EnterAmAutoReverse)
+#  define CppTest_Stub__Call_EnterAmAutoReverse_EnterAmAutoReverse CppTest_Auto_Stub_EnterAmAutoReverse_EnterAmAutoReverse
+#  if defined(CPPTEST_UNDEFINED_EnterAmAutoReverse)
+#   define CppTest_Auto_Stub_EnterAmAutoReverse_EnterAmAutoReverse EnterAmAutoReverse
+#  endif
+# else
+#  define CppTest_Stub__Call_EnterAmAutoReverse_EnterAmAutoReverse CppTest_Stub_EnterAmAutoReverse_EnterAmAutoReverse
+#  if defined(CPPTEST_UNDEFINED_EnterAmAutoReverse)
+#   define CppTest_Stub_EnterAmAutoReverse_EnterAmAutoReverse EnterAmAutoReverse
+#  endif
+#  define CPPTEST_USER_STUB_EnterAmAutoReverse
+# endif
+#else
+# define CppTest_Stub__Call_EnterAmAutoReverse_EnterAmAutoReverse EnterAmAutoReverse
+#endif
+
+#if defined(CPPTEST_STUB_SetReversingIdleReverseStep) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetReversingIdleReverseStep)
+#  define CppTest_Stub__Call_SetReversingIdleReverseStep_SetReversingIdleReverseStep CppTest_Safe_Stub_SetReversingIdleReverseStep_SetReversingIdleReverseStep
+#  if defined(CPPTEST_UNDEFINED_SetReversingIdleReverseStep)
+#   define CppTest_Safe_Stub_SetReversingIdleReverseStep_SetReversingIdleReverseStep SetReversingIdleReverseStep
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetReversingIdleReverseStep)
+#  define CppTest_Stub__Call_SetReversingIdleReverseStep_SetReversingIdleReverseStep CppTest_Auto_Stub_SetReversingIdleReverseStep_SetReversingIdleReverseStep
+#  if defined(CPPTEST_UNDEFINED_SetReversingIdleReverseStep)
+#   define CppTest_Auto_Stub_SetReversingIdleReverseStep_SetReversingIdleReverseStep SetReversingIdleReverseStep
+#  endif
+# else
+#  define CppTest_Stub__Call_SetReversingIdleReverseStep_SetReversingIdleReverseStep CppTest_Stub_SetReversingIdleReverseStep_SetReversingIdleReverseStep
+#  if defined(CPPTEST_UNDEFINED_SetReversingIdleReverseStep)
+#   define CppTest_Stub_SetReversingIdleReverseStep_SetReversingIdleReverseStep SetReversingIdleReverseStep
+#  endif
+#  define CPPTEST_USER_STUB_SetReversingIdleReverseStep
+# endif
+#else
+# define CppTest_Stub__Call_SetReversingIdleReverseStep_SetReversingIdleReverseStep SetReversingIdleReverseStep
+#endif
+
+#if defined(CPPTEST_STUB_SetReverseIdleReverseTimer) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetReverseIdleReverseTimer)
+#  define CppTest_Stub__Call_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer CppTest_Safe_Stub_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer
+#  if defined(CPPTEST_UNDEFINED_SetReverseIdleReverseTimer)
+#   define CppTest_Safe_Stub_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer SetReverseIdleReverseTimer
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetReverseIdleReverseTimer)
+#  define CppTest_Stub__Call_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer CppTest_Auto_Stub_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer
+#  if defined(CPPTEST_UNDEFINED_SetReverseIdleReverseTimer)
+#   define CppTest_Auto_Stub_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer SetReverseIdleReverseTimer
+#  endif
+# else
+#  define CppTest_Stub__Call_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer CppTest_Stub_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer
+#  if defined(CPPTEST_UNDEFINED_SetReverseIdleReverseTimer)
+#   define CppTest_Stub_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer SetReverseIdleReverseTimer
+#  endif
+#  define CPPTEST_USER_STUB_SetReverseIdleReverseTimer
+# endif
+#else
+# define CppTest_Stub__Call_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer SetReverseIdleReverseTimer
+#endif
+
+#if defined(CPPTEST_STUB_SetArReversingTag) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetArReversingTag)
+#  define CppTest_Stub__Call_SetArReversingTag_SetArReversingTag CppTest_Safe_Stub_SetArReversingTag_SetArReversingTag
+#  if defined(CPPTEST_UNDEFINED_SetArReversingTag)
+#   define CppTest_Safe_Stub_SetArReversingTag_SetArReversingTag SetArReversingTag
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetArReversingTag)
+#  define CppTest_Stub__Call_SetArReversingTag_SetArReversingTag CppTest_Auto_Stub_SetArReversingTag_SetArReversingTag
+#  if defined(CPPTEST_UNDEFINED_SetArReversingTag)
+#   define CppTest_Auto_Stub_SetArReversingTag_SetArReversingTag SetArReversingTag
+#  endif
+# else
+#  define CppTest_Stub__Call_SetArReversingTag_SetArReversingTag CppTest_Stub_SetArReversingTag_SetArReversingTag
+#  if defined(CPPTEST_UNDEFINED_SetArReversingTag)
+#   define CppTest_Stub_SetArReversingTag_SetArReversingTag SetArReversingTag
+#  endif
+#  define CPPTEST_USER_STUB_SetArReversingTag
+# endif
+#else
+# define CppTest_Stub__Call_SetArReversingTag_SetArReversingTag SetArReversingTag
+#endif
+
+#if defined(CPPTEST_STUB_SetStopActToSaftyFlag) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetStopActToSaftyFlag)
+#  define CppTest_Stub__Call_SetStopActToSaftyFlag_SetStopActToSaftyFlag CppTest_Safe_Stub_SetStopActToSaftyFlag_SetStopActToSaftyFlag
+#  if defined(CPPTEST_UNDEFINED_SetStopActToSaftyFlag)
+#   define CppTest_Safe_Stub_SetStopActToSaftyFlag_SetStopActToSaftyFlag SetStopActToSaftyFlag
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetStopActToSaftyFlag)
+#  define CppTest_Stub__Call_SetStopActToSaftyFlag_SetStopActToSaftyFlag CppTest_Auto_Stub_SetStopActToSaftyFlag_SetStopActToSaftyFlag
+#  if defined(CPPTEST_UNDEFINED_SetStopActToSaftyFlag)
+#   define CppTest_Auto_Stub_SetStopActToSaftyFlag_SetStopActToSaftyFlag SetStopActToSaftyFlag
+#  endif
+# else
+#  define CppTest_Stub__Call_SetStopActToSaftyFlag_SetStopActToSaftyFlag CppTest_Stub_SetStopActToSaftyFlag_SetStopActToSaftyFlag
+#  if defined(CPPTEST_UNDEFINED_SetStopActToSaftyFlag)
+#   define CppTest_Stub_SetStopActToSaftyFlag_SetStopActToSaftyFlag SetStopActToSaftyFlag
+#  endif
+#  define CPPTEST_USER_STUB_SetStopActToSaftyFlag
+# endif
+#else
+# define CppTest_Stub__Call_SetStopActToSaftyFlag_SetStopActToSaftyFlag SetStopActToSaftyFlag
+#endif
+
+#if defined(CPPTEST_STUB_SetArReversingFirstTag) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetArReversingFirstTag)
+#  define CppTest_Stub__Call_SetArReversingFirstTag_SetArReversingFirstTag CppTest_Safe_Stub_SetArReversingFirstTag_SetArReversingFirstTag
+#  if defined(CPPTEST_UNDEFINED_SetArReversingFirstTag)
+#   define CppTest_Safe_Stub_SetArReversingFirstTag_SetArReversingFirstTag SetArReversingFirstTag
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetArReversingFirstTag)
+#  define CppTest_Stub__Call_SetArReversingFirstTag_SetArReversingFirstTag CppTest_Auto_Stub_SetArReversingFirstTag_SetArReversingFirstTag
+#  if defined(CPPTEST_UNDEFINED_SetArReversingFirstTag)
+#   define CppTest_Auto_Stub_SetArReversingFirstTag_SetArReversingFirstTag SetArReversingFirstTag
+#  endif
+# else
+#  define CppTest_Stub__Call_SetArReversingFirstTag_SetArReversingFirstTag CppTest_Stub_SetArReversingFirstTag_SetArReversingFirstTag
+#  if defined(CPPTEST_UNDEFINED_SetArReversingFirstTag)
+#   define CppTest_Stub_SetArReversingFirstTag_SetArReversingFirstTag SetArReversingFirstTag
+#  endif
+#  define CPPTEST_USER_STUB_SetArReversingFirstTag
+# endif
+#else
+# define CppTest_Stub__Call_SetArReversingFirstTag_SetArReversingFirstTag SetArReversingFirstTag
+#endif
+
+#if defined(CPPTEST_STUB_SetRunModeConverse) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetRunModeConverse)
+#  define CppTest_Stub__Call_SetRunModeConverse_SetRunModeConverse CppTest_Safe_Stub_SetRunModeConverse_SetRunModeConverse
+#  if defined(CPPTEST_UNDEFINED_SetRunModeConverse)
+#   define CppTest_Safe_Stub_SetRunModeConverse_SetRunModeConverse SetRunModeConverse
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetRunModeConverse)
+#  define CppTest_Stub__Call_SetRunModeConverse_SetRunModeConverse CppTest_Auto_Stub_SetRunModeConverse_SetRunModeConverse
+#  if defined(CPPTEST_UNDEFINED_SetRunModeConverse)
+#   define CppTest_Auto_Stub_SetRunModeConverse_SetRunModeConverse SetRunModeConverse
+#  endif
+# else
+#  define CppTest_Stub__Call_SetRunModeConverse_SetRunModeConverse CppTest_Stub_SetRunModeConverse_SetRunModeConverse
+#  if defined(CPPTEST_UNDEFINED_SetRunModeConverse)
+#   define CppTest_Stub_SetRunModeConverse_SetRunModeConverse SetRunModeConverse
+#  endif
+#  define CPPTEST_USER_STUB_SetRunModeConverse
+# endif
+#else
+# define CppTest_Stub__Call_SetRunModeConverse_SetRunModeConverse SetRunModeConverse
+#endif
+
+#if defined(CPPTEST_STUB_SetLocalArRelay) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetLocalArRelay)
+#  define CppTest_Stub__Call_SetLocalArRelay_SetLocalArRelay CppTest_Safe_Stub_SetLocalArRelay_SetLocalArRelay
+#  if defined(CPPTEST_UNDEFINED_SetLocalArRelay)
+#   define CppTest_Safe_Stub_SetLocalArRelay_SetLocalArRelay SetLocalArRelay
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetLocalArRelay)
+#  define CppTest_Stub__Call_SetLocalArRelay_SetLocalArRelay CppTest_Auto_Stub_SetLocalArRelay_SetLocalArRelay
+#  if defined(CPPTEST_UNDEFINED_SetLocalArRelay)
+#   define CppTest_Auto_Stub_SetLocalArRelay_SetLocalArRelay SetLocalArRelay
+#  endif
+# else
+#  define CppTest_Stub__Call_SetLocalArRelay_SetLocalArRelay CppTest_Stub_SetLocalArRelay_SetLocalArRelay
+#  if defined(CPPTEST_UNDEFINED_SetLocalArRelay)
+#   define CppTest_Stub_SetLocalArRelay_SetLocalArRelay SetLocalArRelay
+#  endif
+#  define CPPTEST_USER_STUB_SetLocalArRelay
+# endif
+#else
+# define CppTest_Stub__Call_SetLocalArRelay_SetLocalArRelay SetLocalArRelay
+#endif
+
+#if defined(CPPTEST_STUB_SetOppoArRelay) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetOppoArRelay)
+#  define CppTest_Stub__Call_SetOppoArRelay_SetOppoArRelay CppTest_Safe_Stub_SetOppoArRelay_SetOppoArRelay
+#  if defined(CPPTEST_UNDEFINED_SetOppoArRelay)
+#   define CppTest_Safe_Stub_SetOppoArRelay_SetOppoArRelay SetOppoArRelay
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetOppoArRelay)
+#  define CppTest_Stub__Call_SetOppoArRelay_SetOppoArRelay CppTest_Auto_Stub_SetOppoArRelay_SetOppoArRelay
+#  if defined(CPPTEST_UNDEFINED_SetOppoArRelay)
+#   define CppTest_Auto_Stub_SetOppoArRelay_SetOppoArRelay SetOppoArRelay
+#  endif
+# else
+#  define CppTest_Stub__Call_SetOppoArRelay_SetOppoArRelay CppTest_Stub_SetOppoArRelay_SetOppoArRelay
+#  if defined(CPPTEST_UNDEFINED_SetOppoArRelay)
+#   define CppTest_Stub_SetOppoArRelay_SetOppoArRelay SetOppoArRelay
+#  endif
+#  define CPPTEST_USER_STUB_SetOppoArRelay
+# endif
+#else
+# define CppTest_Stub__Call_SetOppoArRelay_SetOppoArRelay SetOppoArRelay
+#endif
+
+#if defined(CPPTEST_STUB_GetOppoAtpComuStatus) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_GetOppoAtpComuStatus)
+#  define CppTest_Stub__Call_GetOppoAtpComuStatus_GetOppoAtpComuStatus CppTest_Safe_Stub_GetOppoAtpComuStatus_GetOppoAtpComuStatus
+#  if defined(CPPTEST_UNDEFINED_GetOppoAtpComuStatus)
+#   define CppTest_Safe_Stub_GetOppoAtpComuStatus_GetOppoAtpComuStatus GetOppoAtpComuStatus
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_GetOppoAtpComuStatus)
+#  define CppTest_Stub__Call_GetOppoAtpComuStatus_GetOppoAtpComuStatus CppTest_Auto_Stub_GetOppoAtpComuStatus_GetOppoAtpComuStatus
+#  if defined(CPPTEST_UNDEFINED_GetOppoAtpComuStatus)
+#   define CppTest_Auto_Stub_GetOppoAtpComuStatus_GetOppoAtpComuStatus GetOppoAtpComuStatus
+#  endif
+# else
+#  define CppTest_Stub__Call_GetOppoAtpComuStatus_GetOppoAtpComuStatus CppTest_Stub_GetOppoAtpComuStatus_GetOppoAtpComuStatus
+#  if defined(CPPTEST_UNDEFINED_GetOppoAtpComuStatus)
+#   define CppTest_Stub_GetOppoAtpComuStatus_GetOppoAtpComuStatus GetOppoAtpComuStatus
+#  endif
+#  define CPPTEST_USER_STUB_GetOppoAtpComuStatus
+# endif
+#else
+# define CppTest_Stub__Call_GetOppoAtpComuStatus_GetOppoAtpComuStatus GetOppoAtpComuStatus
+#endif
+
+#if defined(CPPTEST_STUB_SetReversingCbtcReverseStep) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetReversingCbtcReverseStep)
+#  define CppTest_Stub__Call_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep CppTest_Safe_Stub_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep
+#  if defined(CPPTEST_UNDEFINED_SetReversingCbtcReverseStep)
+#   define CppTest_Safe_Stub_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep SetReversingCbtcReverseStep
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetReversingCbtcReverseStep)
+#  define CppTest_Stub__Call_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep CppTest_Auto_Stub_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep
+#  if defined(CPPTEST_UNDEFINED_SetReversingCbtcReverseStep)
+#   define CppTest_Auto_Stub_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep SetReversingCbtcReverseStep
+#  endif
+# else
+#  define CppTest_Stub__Call_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep CppTest_Stub_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep
+#  if defined(CPPTEST_UNDEFINED_SetReversingCbtcReverseStep)
+#   define CppTest_Stub_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep SetReversingCbtcReverseStep
+#  endif
+#  define CPPTEST_USER_STUB_SetReversingCbtcReverseStep
+# endif
+#else
+# define CppTest_Stub__Call_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep SetReversingCbtcReverseStep
+#endif
+
+#if defined(CPPTEST_STUB_SetSendMmiTrainShuttleInfo) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetSendMmiTrainShuttleInfo)
+#  define CppTest_Stub__Call_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo CppTest_Safe_Stub_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo
+#  if defined(CPPTEST_UNDEFINED_SetSendMmiTrainShuttleInfo)
+#   define CppTest_Safe_Stub_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo SetSendMmiTrainShuttleInfo
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetSendMmiTrainShuttleInfo)
+#  define CppTest_Stub__Call_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo CppTest_Auto_Stub_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo
+#  if defined(CPPTEST_UNDEFINED_SetSendMmiTrainShuttleInfo)
+#   define CppTest_Auto_Stub_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo SetSendMmiTrainShuttleInfo
+#  endif
+# else
+#  define CppTest_Stub__Call_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo CppTest_Stub_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo
+#  if defined(CPPTEST_UNDEFINED_SetSendMmiTrainShuttleInfo)
+#   define CppTest_Stub_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo SetSendMmiTrainShuttleInfo
+#  endif
+#  define CPPTEST_USER_STUB_SetSendMmiTrainShuttleInfo
+# endif
+#else
+# define CppTest_Stub__Call_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo SetSendMmiTrainShuttleInfo
+#endif
+
+#if defined(CPPTEST_STUB_SetCtlToIdleNotice) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetCtlToIdleNotice)
+#  define CppTest_Stub__Call_SetCtlToIdleNotice_SetCtlToIdleNotice CppTest_Safe_Stub_SetCtlToIdleNotice_SetCtlToIdleNotice
+#  if defined(CPPTEST_UNDEFINED_SetCtlToIdleNotice)
+#   define CppTest_Safe_Stub_SetCtlToIdleNotice_SetCtlToIdleNotice SetCtlToIdleNotice
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetCtlToIdleNotice)
+#  define CppTest_Stub__Call_SetCtlToIdleNotice_SetCtlToIdleNotice CppTest_Auto_Stub_SetCtlToIdleNotice_SetCtlToIdleNotice
+#  if defined(CPPTEST_UNDEFINED_SetCtlToIdleNotice)
+#   define CppTest_Auto_Stub_SetCtlToIdleNotice_SetCtlToIdleNotice SetCtlToIdleNotice
+#  endif
+# else
+#  define CppTest_Stub__Call_SetCtlToIdleNotice_SetCtlToIdleNotice CppTest_Stub_SetCtlToIdleNotice_SetCtlToIdleNotice
+#  if defined(CPPTEST_UNDEFINED_SetCtlToIdleNotice)
+#   define CppTest_Stub_SetCtlToIdleNotice_SetCtlToIdleNotice SetCtlToIdleNotice
+#  endif
+#  define CPPTEST_USER_STUB_SetCtlToIdleNotice
+# endif
+#else
+# define CppTest_Stub__Call_SetCtlToIdleNotice_SetCtlToIdleNotice SetCtlToIdleNotice
+#endif
+
+#if defined(CPPTEST_STUB_AddSysAutoReverseErrNo) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_AddSysAutoReverseErrNo)
+#  define CppTest_Stub__Call_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo CppTest_Safe_Stub_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo
+#  if defined(CPPTEST_UNDEFINED_AddSysAutoReverseErrNo)
+#   define CppTest_Safe_Stub_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo AddSysAutoReverseErrNo
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_AddSysAutoReverseErrNo)
+#  define CppTest_Stub__Call_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo CppTest_Auto_Stub_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo
+#  if defined(CPPTEST_UNDEFINED_AddSysAutoReverseErrNo)
+#   define CppTest_Auto_Stub_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo AddSysAutoReverseErrNo
+#  endif
+# else
+#  define CppTest_Stub__Call_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo CppTest_Stub_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo
+#  if defined(CPPTEST_UNDEFINED_AddSysAutoReverseErrNo)
+#   define CppTest_Stub_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo AddSysAutoReverseErrNo
+#  endif
+#  define CPPTEST_USER_STUB_AddSysAutoReverseErrNo
+# endif
+#else
+# define CppTest_Stub__Call_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo AddSysAutoReverseErrNo
+#endif
+
+#if defined(CPPTEST_STUB_ReverseCBTCInit) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_ReverseCBTCInit)
+#  define CppTest_Stub__Call_ReverseCBTCInit_ReverseCBTCInit CppTest_Safe_Stub_ReverseCBTCInit_ReverseCBTCInit
+#  if defined(CPPTEST_UNDEFINED_ReverseCBTCInit)
+#   define CppTest_Safe_Stub_ReverseCBTCInit_ReverseCBTCInit ReverseCBTCInit
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_ReverseCBTCInit)
+#  define CppTest_Stub__Call_ReverseCBTCInit_ReverseCBTCInit CppTest_Auto_Stub_ReverseCBTCInit_ReverseCBTCInit
+#  if defined(CPPTEST_UNDEFINED_ReverseCBTCInit)
+#   define CppTest_Auto_Stub_ReverseCBTCInit_ReverseCBTCInit ReverseCBTCInit
+#  endif
+# else
+#  define CppTest_Stub__Call_ReverseCBTCInit_ReverseCBTCInit CppTest_Stub_ReverseCBTCInit_ReverseCBTCInit
+#  if defined(CPPTEST_UNDEFINED_ReverseCBTCInit)
+#   define CppTest_Stub_ReverseCBTCInit_ReverseCBTCInit ReverseCBTCInit
+#  endif
+#  define CPPTEST_USER_STUB_ReverseCBTCInit
+# endif
+#else
+# define CppTest_Stub__Call_ReverseCBTCInit_ReverseCBTCInit ReverseCBTCInit
+#endif
+
+#if defined(CPPTEST_STUB_ReverseEnterArInit) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_ReverseEnterArInit)
+#  define CppTest_Stub__Call_ReverseEnterArInit_ReverseEnterArInit CppTest_Safe_Stub_ReverseEnterArInit_ReverseEnterArInit
+#  if defined(CPPTEST_UNDEFINED_ReverseEnterArInit)
+#   define CppTest_Safe_Stub_ReverseEnterArInit_ReverseEnterArInit ReverseEnterArInit
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_ReverseEnterArInit)
+#  define CppTest_Stub__Call_ReverseEnterArInit_ReverseEnterArInit CppTest_Auto_Stub_ReverseEnterArInit_ReverseEnterArInit
+#  if defined(CPPTEST_UNDEFINED_ReverseEnterArInit)
+#   define CppTest_Auto_Stub_ReverseEnterArInit_ReverseEnterArInit ReverseEnterArInit
+#  endif
+# else
+#  define CppTest_Stub__Call_ReverseEnterArInit_ReverseEnterArInit CppTest_Stub_ReverseEnterArInit_ReverseEnterArInit
+#  if defined(CPPTEST_UNDEFINED_ReverseEnterArInit)
+#   define CppTest_Stub_ReverseEnterArInit_ReverseEnterArInit ReverseEnterArInit
+#  endif
+#  define CPPTEST_USER_STUB_ReverseEnterArInit
+# endif
+#else
+# define CppTest_Stub__Call_ReverseEnterArInit_ReverseEnterArInit ReverseEnterArInit
+#endif
+
+#if defined(CPPTEST_STUB_SetDoorRevOpenDoorTimer) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetDoorRevOpenDoorTimer)
+#  define CppTest_Stub__Call_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer CppTest_Safe_Stub_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer
+#  if defined(CPPTEST_UNDEFINED_SetDoorRevOpenDoorTimer)
+#   define CppTest_Safe_Stub_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer SetDoorRevOpenDoorTimer
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetDoorRevOpenDoorTimer)
+#  define CppTest_Stub__Call_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer CppTest_Auto_Stub_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer
+#  if defined(CPPTEST_UNDEFINED_SetDoorRevOpenDoorTimer)
+#   define CppTest_Auto_Stub_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer SetDoorRevOpenDoorTimer
+#  endif
+# else
+#  define CppTest_Stub__Call_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer CppTest_Stub_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer
+#  if defined(CPPTEST_UNDEFINED_SetDoorRevOpenDoorTimer)
+#   define CppTest_Stub_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer SetDoorRevOpenDoorTimer
+#  endif
+#  define CPPTEST_USER_STUB_SetDoorRevOpenDoorTimer
+# endif
+#else
+# define CppTest_Stub__Call_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer SetDoorRevOpenDoorTimer
 #endif
 
 #if defined(CPPTEST_STUB_GetInMeaTrainIntegrity) || CPPTEST_ENABLE_ALL_STUBS
@@ -1417,6 +2033,28 @@ const char* _cpptest_strdata[] = {
 # endif
 #else
 # define CppTest_Stub__Call_GetPrtBackEnableTag_GetPrtBackEnableTag GetPrtBackEnableTag
+#endif
+
+#if defined(CPPTEST_STUB_SetPrtBackEnableTag) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetPrtBackEnableTag)
+#  define CppTest_Stub__Call_SetPrtBackEnableTag_SetPrtBackEnableTag CppTest_Safe_Stub_SetPrtBackEnableTag_SetPrtBackEnableTag
+#  if defined(CPPTEST_UNDEFINED_SetPrtBackEnableTag)
+#   define CppTest_Safe_Stub_SetPrtBackEnableTag_SetPrtBackEnableTag SetPrtBackEnableTag
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetPrtBackEnableTag)
+#  define CppTest_Stub__Call_SetPrtBackEnableTag_SetPrtBackEnableTag CppTest_Auto_Stub_SetPrtBackEnableTag_SetPrtBackEnableTag
+#  if defined(CPPTEST_UNDEFINED_SetPrtBackEnableTag)
+#   define CppTest_Auto_Stub_SetPrtBackEnableTag_SetPrtBackEnableTag SetPrtBackEnableTag
+#  endif
+# else
+#  define CppTest_Stub__Call_SetPrtBackEnableTag_SetPrtBackEnableTag CppTest_Stub_SetPrtBackEnableTag_SetPrtBackEnableTag
+#  if defined(CPPTEST_UNDEFINED_SetPrtBackEnableTag)
+#   define CppTest_Stub_SetPrtBackEnableTag_SetPrtBackEnableTag SetPrtBackEnableTag
+#  endif
+#  define CPPTEST_USER_STUB_SetPrtBackEnableTag
+# endif
+#else
+# define CppTest_Stub__Call_SetPrtBackEnableTag_SetPrtBackEnableTag SetPrtBackEnableTag
 #endif
 
 #if defined(CPPTEST_STUB_GetPrtBackStateTag) || CPPTEST_ENABLE_ALL_STUBS
@@ -3993,6 +4631,28 @@ const char* _cpptest_strdata[] = {
 # define CppTest_Stub__Call_GetSysEbLowRsn_GetSysEbLowRsn GetSysEbLowRsn
 #endif
 
+#if defined(CPPTEST_STUB_SetSysEbLowRsn) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetSysEbLowRsn)
+#  define CppTest_Stub__Call_SetSysEbLowRsn_SetSysEbLowRsn CppTest_Safe_Stub_SetSysEbLowRsn_SetSysEbLowRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbLowRsn)
+#   define CppTest_Safe_Stub_SetSysEbLowRsn_SetSysEbLowRsn SetSysEbLowRsn
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetSysEbLowRsn)
+#  define CppTest_Stub__Call_SetSysEbLowRsn_SetSysEbLowRsn CppTest_Auto_Stub_SetSysEbLowRsn_SetSysEbLowRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbLowRsn)
+#   define CppTest_Auto_Stub_SetSysEbLowRsn_SetSysEbLowRsn SetSysEbLowRsn
+#  endif
+# else
+#  define CppTest_Stub__Call_SetSysEbLowRsn_SetSysEbLowRsn CppTest_Stub_SetSysEbLowRsn_SetSysEbLowRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbLowRsn)
+#   define CppTest_Stub_SetSysEbLowRsn_SetSysEbLowRsn SetSysEbLowRsn
+#  endif
+#  define CPPTEST_USER_STUB_SetSysEbLowRsn
+# endif
+#else
+# define CppTest_Stub__Call_SetSysEbLowRsn_SetSysEbLowRsn SetSysEbLowRsn
+#endif
+
 #if defined(CPPTEST_STUB_GetSysEbHighRsn) || CPPTEST_ENABLE_ALL_STUBS
 # if defined(CPPTEST_SAFE_STUB_GetSysEbHighRsn)
 #  define CppTest_Stub__Call_GetSysEbHighRsn_GetSysEbHighRsn CppTest_Safe_Stub_GetSysEbHighRsn_GetSysEbHighRsn
@@ -4013,6 +4673,28 @@ const char* _cpptest_strdata[] = {
 # endif
 #else
 # define CppTest_Stub__Call_GetSysEbHighRsn_GetSysEbHighRsn GetSysEbHighRsn
+#endif
+
+#if defined(CPPTEST_STUB_SetSysEbHighRsn) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetSysEbHighRsn)
+#  define CppTest_Stub__Call_SetSysEbHighRsn_SetSysEbHighRsn CppTest_Safe_Stub_SetSysEbHighRsn_SetSysEbHighRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbHighRsn)
+#   define CppTest_Safe_Stub_SetSysEbHighRsn_SetSysEbHighRsn SetSysEbHighRsn
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetSysEbHighRsn)
+#  define CppTest_Stub__Call_SetSysEbHighRsn_SetSysEbHighRsn CppTest_Auto_Stub_SetSysEbHighRsn_SetSysEbHighRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbHighRsn)
+#   define CppTest_Auto_Stub_SetSysEbHighRsn_SetSysEbHighRsn SetSysEbHighRsn
+#  endif
+# else
+#  define CppTest_Stub__Call_SetSysEbHighRsn_SetSysEbHighRsn CppTest_Stub_SetSysEbHighRsn_SetSysEbHighRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbHighRsn)
+#   define CppTest_Stub_SetSysEbHighRsn_SetSysEbHighRsn SetSysEbHighRsn
+#  endif
+#  define CPPTEST_USER_STUB_SetSysEbHighRsn
+# endif
+#else
+# define CppTest_Stub__Call_SetSysEbHighRsn_SetSysEbHighRsn SetSysEbHighRsn
 #endif
 
 #if defined(CPPTEST_STUB_GetSysEbFaoLowRsn) || CPPTEST_ENABLE_ALL_STUBS
@@ -4037,6 +4719,28 @@ const char* _cpptest_strdata[] = {
 # define CppTest_Stub__Call_GetSysEbFaoLowRsn_GetSysEbFaoLowRsn GetSysEbFaoLowRsn
 #endif
 
+#if defined(CPPTEST_STUB_SetSysEbFaoLowRsn) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetSysEbFaoLowRsn)
+#  define CppTest_Stub__Call_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn CppTest_Safe_Stub_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbFaoLowRsn)
+#   define CppTest_Safe_Stub_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn SetSysEbFaoLowRsn
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetSysEbFaoLowRsn)
+#  define CppTest_Stub__Call_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn CppTest_Auto_Stub_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbFaoLowRsn)
+#   define CppTest_Auto_Stub_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn SetSysEbFaoLowRsn
+#  endif
+# else
+#  define CppTest_Stub__Call_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn CppTest_Stub_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbFaoLowRsn)
+#   define CppTest_Stub_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn SetSysEbFaoLowRsn
+#  endif
+#  define CPPTEST_USER_STUB_SetSysEbFaoLowRsn
+# endif
+#else
+# define CppTest_Stub__Call_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn SetSysEbFaoLowRsn
+#endif
+
 #if defined(CPPTEST_STUB_GetSysEbFaoHighRsn) || CPPTEST_ENABLE_ALL_STUBS
 # if defined(CPPTEST_SAFE_STUB_GetSysEbFaoHighRsn)
 #  define CppTest_Stub__Call_GetSysEbFaoHighRsn_GetSysEbFaoHighRsn CppTest_Safe_Stub_GetSysEbFaoHighRsn_GetSysEbFaoHighRsn
@@ -4057,6 +4761,28 @@ const char* _cpptest_strdata[] = {
 # endif
 #else
 # define CppTest_Stub__Call_GetSysEbFaoHighRsn_GetSysEbFaoHighRsn GetSysEbFaoHighRsn
+#endif
+
+#if defined(CPPTEST_STUB_SetSysEbFaoHighRsn) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_SetSysEbFaoHighRsn)
+#  define CppTest_Stub__Call_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn CppTest_Safe_Stub_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbFaoHighRsn)
+#   define CppTest_Safe_Stub_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn SetSysEbFaoHighRsn
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_SetSysEbFaoHighRsn)
+#  define CppTest_Stub__Call_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn CppTest_Auto_Stub_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbFaoHighRsn)
+#   define CppTest_Auto_Stub_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn SetSysEbFaoHighRsn
+#  endif
+# else
+#  define CppTest_Stub__Call_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn CppTest_Stub_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn
+#  if defined(CPPTEST_UNDEFINED_SetSysEbFaoHighRsn)
+#   define CppTest_Stub_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn SetSysEbFaoHighRsn
+#  endif
+#  define CPPTEST_USER_STUB_SetSysEbFaoHighRsn
+# endif
+#else
+# define CppTest_Stub__Call_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn SetSysEbFaoHighRsn
 #endif
 
 #if defined(CPPTEST_STUB_GetSysCutTractionRsn) || CPPTEST_ENABLE_ALL_STUBS
@@ -4101,6 +4827,28 @@ const char* _cpptest_strdata[] = {
 # endif
 #else
 # define CppTest_Stub__Call_GetSysJumpErrNo_GetSysJumpErrNo GetSysJumpErrNo
+#endif
+
+#if defined(CPPTEST_STUB_AddSysJumpErrNo) || CPPTEST_ENABLE_ALL_STUBS
+# if defined(CPPTEST_SAFE_STUB_AddSysJumpErrNo)
+#  define CppTest_Stub__Call_AddSysJumpErrNo_AddSysJumpErrNo CppTest_Safe_Stub_AddSysJumpErrNo_AddSysJumpErrNo
+#  if defined(CPPTEST_UNDEFINED_AddSysJumpErrNo)
+#   define CppTest_Safe_Stub_AddSysJumpErrNo_AddSysJumpErrNo AddSysJumpErrNo
+#  endif
+# elif defined(CPPTEST_AUTO_STUB_AddSysJumpErrNo)
+#  define CppTest_Stub__Call_AddSysJumpErrNo_AddSysJumpErrNo CppTest_Auto_Stub_AddSysJumpErrNo_AddSysJumpErrNo
+#  if defined(CPPTEST_UNDEFINED_AddSysJumpErrNo)
+#   define CppTest_Auto_Stub_AddSysJumpErrNo_AddSysJumpErrNo AddSysJumpErrNo
+#  endif
+# else
+#  define CppTest_Stub__Call_AddSysJumpErrNo_AddSysJumpErrNo CppTest_Stub_AddSysJumpErrNo_AddSysJumpErrNo
+#  if defined(CPPTEST_UNDEFINED_AddSysJumpErrNo)
+#   define CppTest_Stub_AddSysJumpErrNo_AddSysJumpErrNo AddSysJumpErrNo
+#  endif
+#  define CPPTEST_USER_STUB_AddSysJumpErrNo
+# endif
+#else
+# define CppTest_Stub__Call_AddSysJumpErrNo_AddSysJumpErrNo AddSysJumpErrNo
 #endif
 
 #if defined(CPPTEST_STUB_GetSysCarWashErrNo) || CPPTEST_ENABLE_ALL_STUBS
@@ -69426,6 +70174,998 @@ UINT32_T (*func_ptr)(void);
 
 
 } HandleSystemAlarmStruct_T; 
+#line 46 "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\..\\..\\src\\AppLogic\\PeriodHandle\\ReverseManage\\ReverseHandle.h"
+void CtrlRevFunc(void); 
+#line 59
+void IdleRevFunc(void); 
+#line 72
+void SetReverseInChkType(UINT8_T ReverseType); 
+#line 85
+UINT8_T GetReverseInChkType(void); 
+#line 96
+UINT8_T GetReversingFalg(void); 
+#line 107
+void SetReversingFalg(UINT8_T flag); 
+#line 118
+void SetAtoEnableByKey(UINT8_T aebk); 
+#line 129
+UINT8_T GetAtoEnableByKey(void); 
+#line 142
+void SaveLocationFromAnotherVobc(void); 
+#line 40 "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\..\\..\\src\\AppLogic\\PeriodHandle\\EbTrackCutManage\\EbAndCutOffTrackOut.h"
+void OutputEbReason(const UINT8_T ebType, const UINT32_T ebReason); 
+#line 51
+void RelieveEbReason(const UINT8_T ebType, const UINT32_T ebReason); 
+#line 62
+void RelieveTractionCutoffReason(const UINT32_T cutReason); 
+#line 5 "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\stubs\\stub.c"
+int IsCheckJumpProtectionCoverageTestCase(void) 
+{ 
+return ((((((((((((CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_48") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_49")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_50")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_51")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_52")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_53")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_54")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_55")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_56")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_57")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_58")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_59")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_60")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_61"); 
+#line 21
+} 
+
+UINT32_T g_CheckJumpProtection61_GetRunDrvModeCalls; 
+
+void ResetCheckJumpProtection61StubSpy(void) 
+{ 
+g_CheckJumpProtection61_GetRunDrvModeCalls = 0U; 
+} 
+
+UINT8_T CheckStopPointDistance(void); 
+#if defined(CPPTEST_USER_STUB_CheckStopPointDistance)
+#line 31
+UINT8_T CppTest_Stub_CheckStopPointDistance_CheckStopPointDistance(void) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_58")) 
+
+{ 
+return 170U; 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return 85U; 
+}  
+return 170U; 
+} 
+#endif
+UINT8_T GetInMeaSpksBtn(void); 
+#if defined(CPPTEST_USER_STUB_GetInMeaSpksBtn)
+#line 46
+UINT8_T CppTest_Stub_GetInMeaSpksBtn_GetInMeaSpksBtn(void) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_SpksPrtFunc_2")) 
+
+{ 
+return 85U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_56")) 
+
+{ 
+return 85U; 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return 170U; 
+}  
+return 0U; 
+} 
+#endif
+UINT32_T g_SpksPrtFunc2_OutputEbReasonCalls; 
+UINT8_T g_SpksPrtFunc2_OutputEbReasonType; 
+UINT32_T g_SpksPrtFunc2_OutputEbReasonValue; 
+
+void ResetSpksPrtFunc2StubSpy(void) 
+{ 
+g_SpksPrtFunc2_OutputEbReasonCalls = 0U; 
+g_SpksPrtFunc2_OutputEbReasonType = 0U; 
+g_SpksPrtFunc2_OutputEbReasonValue = 0U; 
+} 
+
+
+void OutputEbReason(const UINT8_T ebType, const UINT32_T ebReason); 
+#if defined(CPPTEST_USER_STUB_OutputEbReason)
+#line 78
+void CppTest_Stub_OutputEbReason_OutputEbReason(const UINT8_T ebType, const UINT32_T ebReason) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_SpksPrtFunc_2")) 
+
+{ 
+++g_SpksPrtFunc2_OutputEbReasonCalls; 
+g_SpksPrtFunc2_OutputEbReasonType = ebType; 
+g_SpksPrtFunc2_OutputEbReasonValue = ebReason; 
+}  
+} 
+#endif
+
+UINT32_T g_EBProcFunc15_GetAomComuStatusCalls; 
+UINT32_T g_EBProcFunc15_RelieveEbReasonCalls; 
+UINT8_T g_EBProcFunc15_RelieveEbType; 
+UINT32_T g_EBProcFunc15_RelieveEbReason; 
+
+void ResetEBProcFunc15StubSpy(void) 
+{ 
+g_EBProcFunc15_GetAomComuStatusCalls = 0U; 
+g_EBProcFunc15_RelieveEbReasonCalls = 0U; 
+g_EBProcFunc15_RelieveEbType = 0U; 
+g_EBProcFunc15_RelieveEbReason = 0U; 
+} 
+
+void RelieveEbReason(const UINT8_T ebType, const UINT32_T ebReason); 
+#if defined(CPPTEST_USER_STUB_RelieveEbReason)
+
+void CppTest_Stub_RelieveEbReason_RelieveEbReason(const UINT8_T 
+ebType, const UINT32_T 
+ebReason) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_EBProcFunc_15")) 
+
+{ 
+++g_EBProcFunc15_RelieveEbReasonCalls; 
+g_EBProcFunc15_RelieveEbType = ebType; 
+g_EBProcFunc15_RelieveEbReason = ebReason; 
+}  
+} 
+#endif
+
+UINT32_T g_CtrlVOBCEnterAR_Target_GetCurAtpCtrlStateCalls; 
+UINT32_T g_CtrlVOBCEnterAR_Target_GetOppoAtpComuStatusCalls; 
+UINT32_T g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoCalls; 
+UINT32_T g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoValue; 
+UINT32_T g_CtrlVOBCEnterAR_Target_ReverseEnterArInitCalls; 
+
+int IsCtrlVOBCEnterARTargetTestCase(void) 
+{ 
+return (((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_75") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_76")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_77")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_78")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_79")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_80")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_81")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_82")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_83"); 
+#line 137
+} 
+
+void ResetCtrlVOBCEnterARTargetStubSpy(void) 
+{ 
+g_CtrlVOBCEnterAR_Target_GetCurAtpCtrlStateCalls = 0U; 
+g_CtrlVOBCEnterAR_Target_GetOppoAtpComuStatusCalls = 0U; 
+g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoCalls = 0U; 
+g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoValue = 0U; 
+g_CtrlVOBCEnterAR_Target_ReverseEnterArInitCalls = 0U; 
+} 
+
+
+UINT32_T g_CtrlRevFunc_ReverseTypeChkCalls; 
+UINT32_T g_CtrlRevFunc_FamAutoReverseCalls; 
+UINT32_T g_CtrlRevFunc_FamAnyLocReverseCalls; 
+UINT32_T g_CtrlRevFunc_AmAutoReverseCalls; 
+UINT32_T g_CtrlRevFunc_AmCmManReverseCalls; 
+UINT32_T g_CtrlRevFunc_EnterAmAutoReverseCalls; 
+UINT32_T g_CtrlRevFunc_ReverseEnterArInitCalls; 
+UINT32_T g_CtrlRevFunc_ReverseCBTCInitCalls; 
+UINT32_T g_CtrlRevFunc_SetReversingIdleReverseStepCalls; 
+UINT8_T g_CtrlRevFunc_SetReversingIdleReverseStepValue; 
+UINT32_T g_CtrlRevFunc_SetReverseIdleReverseTimerCalls; 
+UINT16_T g_CtrlRevFunc_SetReverseIdleReverseTimerValue; 
+
+int IsCtrlRevFuncSpyTestCase(void) 
+{ 
+return (((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_44") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_45")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_46")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_47")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_48")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_49")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_50")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_51")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_52")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_53")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_54")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_55")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_56"); 
+#line 177
+} 
+
+void ResetCtrlRevFuncStubSpy(void) 
+{ 
+g_CtrlRevFunc_ReverseTypeChkCalls = 0U; 
+g_CtrlRevFunc_FamAutoReverseCalls = 0U; 
+g_CtrlRevFunc_FamAnyLocReverseCalls = 0U; 
+g_CtrlRevFunc_AmAutoReverseCalls = 0U; 
+g_CtrlRevFunc_AmCmManReverseCalls = 0U; 
+g_CtrlRevFunc_EnterAmAutoReverseCalls = 0U; 
+g_CtrlRevFunc_ReverseEnterArInitCalls = 0U; 
+g_CtrlRevFunc_ReverseCBTCInitCalls = 0U; 
+g_CtrlRevFunc_SetReversingIdleReverseStepCalls = 0U; 
+g_CtrlRevFunc_SetReversingIdleReverseStepValue = 0U; 
+g_CtrlRevFunc_SetReverseIdleReverseTimerCalls = 0U; 
+g_CtrlRevFunc_SetReverseIdleReverseTimerValue = 0U; 
+} 
+
+void ReverseTypeChk(void); 
+#if defined(CPPTEST_USER_STUB_ReverseTypeChk)
+#line 196
+void CppTest_Stub_ReverseTypeChk_ReverseTypeChk(void) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_ReverseTypeChkCalls; 
+}  
+} 
+#endif
+UINT8_T GetReverseInChkType(void); 
+#if defined(CPPTEST_USER_STUB_GetReverseInChkType)
+#line 205
+UINT8_T CppTest_Stub_GetReverseInChkType_GetReverseInChkType(void) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_52")) 
+{ 
+return 1U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_53")) 
+{ 
+return 2U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_54")) 
+{ 
+return 3U; 
+}  
+return 0U; 
+} 
+#endif
+void FamAutoReverse(void); 
+#if defined(CPPTEST_USER_STUB_FamAutoReverse)
+#line 223
+void CppTest_Stub_FamAutoReverse_FamAutoReverse(void) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_FamAutoReverseCalls; 
+}  
+} 
+#endif
+void FamAnyLocReverse(void); 
+#if defined(CPPTEST_USER_STUB_FamAnyLocReverse)
+#line 232
+void CppTest_Stub_FamAnyLocReverse_FamAnyLocReverse(void) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_FamAnyLocReverseCalls; 
+}  
+} 
+#endif
+void AmAutoReverse(void); 
+#if defined(CPPTEST_USER_STUB_AmAutoReverse)
+#line 241
+void CppTest_Stub_AmAutoReverse_AmAutoReverse(void) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_AmAutoReverseCalls; 
+}  
+} 
+#endif
+void AmCmManReverse(void); 
+#if defined(CPPTEST_USER_STUB_AmCmManReverse)
+#line 250
+void CppTest_Stub_AmCmManReverse_AmCmManReverse(void) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_AmCmManReverseCalls; 
+}  
+} 
+#endif
+void EnterAmAutoReverse(void); 
+#if defined(CPPTEST_USER_STUB_EnterAmAutoReverse)
+#line 259
+void CppTest_Stub_EnterAmAutoReverse_EnterAmAutoReverse(void) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_EnterAmAutoReverseCalls; 
+}  
+} 
+#endif
+void SetReversingIdleReverseStep(const UINT8_T idleReverseStep); 
+#if defined(CPPTEST_USER_STUB_SetReversingIdleReverseStep)
+#line 268
+void CppTest_Stub_SetReversingIdleReverseStep_SetReversingIdleReverseStep(const UINT8_T idleReverseStep) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_SetReversingIdleReverseStepCalls; 
+g_CtrlRevFunc_SetReversingIdleReverseStepValue = idleReverseStep; 
+}  
+} 
+#endif
+void SetReverseIdleReverseTimer(const UINT16_T idleReverseTimer); 
+#if defined(CPPTEST_USER_STUB_SetReverseIdleReverseTimer)
+#line 278
+void CppTest_Stub_SetReverseIdleReverseTimer_SetReverseIdleReverseTimer(const UINT16_T idleReverseTimer) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_SetReverseIdleReverseTimerCalls; 
+g_CtrlRevFunc_SetReverseIdleReverseTimerValue = idleReverseTimer; 
+}  
+} 
+#endif
+
+UINT32_T g_EnterAmAutoReverse_AddSysAutoReverseErrNoCalls; 
+UINT32_T g_EnterAmAutoReverse_AddSysAutoReverseErrNoValue; 
+UINT32_T g_EnterAmAutoReverse_ReverseEnterArInitCalls; 
+UINT32_T g_EnterAmAutoReverse_ReverseCBTCInitCalls; 
+UINT32_T g_EnterAmAutoReverse_SetFamModelInstructCalls; 
+UINT8_T g_EnterAmAutoReverse_SetFamModelInstructValue; 
+static int IsEnterAmAutoReverseSpyTestCase(void) 
+{ 
+return CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_1"); 
+
+} 
+
+void ResetEnterAmAutoReverseStubSpy(void) 
+{ 
+g_EnterAmAutoReverse_AddSysAutoReverseErrNoCalls = 0U; 
+g_EnterAmAutoReverse_AddSysAutoReverseErrNoValue = 0U; 
+g_EnterAmAutoReverse_ReverseEnterArInitCalls = 0U; 
+g_EnterAmAutoReverse_ReverseCBTCInitCalls = 0U; 
+g_EnterAmAutoReverse_SetFamModelInstructCalls = 0U; 
+g_EnterAmAutoReverse_SetFamModelInstructValue = 0U; 
+} 
+
+UINT32_T g_ReverseTypeChk_AddSysAutoReverseErrNoCalls; 
+UINT32_T g_ReverseTypeChk_AddSysAutoReverseErrNoValue; 
+UINT32_T g_ReverseTypeChk_ReverseEnterArInitCalls; 
+UINT32_T g_ReverseTypeChk_ReverseCBTCInitCalls; 
+
+static int IsReverseTypeChkSpyTestCase(void) 
+{ 
+return (((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_1")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_4")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_8"); 
+#line 326
+} 
+
+void ResetReverseTypeChkStubSpy(void) 
+{ 
+g_ReverseTypeChk_AddSysAutoReverseErrNoCalls = 0U; 
+g_ReverseTypeChk_AddSysAutoReverseErrNoValue = 0U; 
+g_ReverseTypeChk_ReverseEnterArInitCalls = 0U; 
+g_ReverseTypeChk_ReverseCBTCInitCalls = 0U; 
+} 
+
+
+UINT32_T g_AmAutoReverse_GetCurAtpCtrlStateCalls; 
+UINT32_T g_AmAutoReverse_GetReversePointCalls; 
+UINT32_T g_AmAutoReverse_GetReversePointTypeCalls; 
+UINT32_T g_AmAutoReverse_GetStopPointIdCalls; 
+UINT32_T g_AmAutoReverse_GetReverseStopPointIdCalls; 
+UINT32_T g_AmAutoReverse_GetMaEndMaTypeCalls; 
+UINT32_T g_AmAutoReverse_GetArReversingFirstTagCalls; 
+UINT32_T g_AmAutoReverse_GetIdleToCtlNoticeCalls; 
+UINT32_T g_AmAutoReverse_GetOppoAtpComuStatusCalls; 
+UINT32_T g_AmAutoReverse_GetInMeaDoorStatusCalls; 
+UINT32_T g_AmAutoReverse_GetRunAtpModeCalls; 
+
+UINT32_T g_AmAutoReverse_SetArReversingTagCalls; 
+UINT8_T g_AmAutoReverse_SetArReversingTagValue; 
+UINT32_T g_AmAutoReverse_SetStopActToSaftyFlagCalls; 
+UINT8_T g_AmAutoReverse_SetStopActToSaftyFlagValue; 
+UINT32_T g_AmAutoReverse_SetArReversingFirstTagCalls; 
+UINT8_T g_AmAutoReverse_SetArReversingFirstTagValue; 
+UINT32_T g_AmAutoReverse_SetRunModeConverseCalls; 
+UINT8_T g_AmAutoReverse_SetRunModeConverseValue; 
+UINT32_T g_AmAutoReverse_SetLocalArRelayCalls; 
+UINT8_T g_AmAutoReverse_SetLocalArRelayValue; 
+UINT32_T g_AmAutoReverse_SetOppoArRelayCalls; 
+UINT8_T g_AmAutoReverse_SetOppoArRelayValue; 
+UINT32_T g_AmAutoReverse_SetOutRunForwardCalls; 
+UINT8_T g_AmAutoReverse_SetOutRunForwardValue; 
+UINT32_T g_AmAutoReverse_SetOutRunForBackwardCalls; 
+UINT8_T g_AmAutoReverse_SetOutRunForBackwardValue; 
+
+extern UINT32_T g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls; 
+extern UINT32_T g_CtrlAutoChangeEnd_SetCtlToIdleNoticeCalls; 
+extern UINT8_T g_CtrlAutoChangeEnd_SetCtlToIdleNoticeValue; 
+extern UINT32_T g_CtrlAutoChangeEnd_SetLocalArRelayCalls; 
+extern UINT8_T g_CtrlAutoChangeEnd_SetLocalArRelayValue; 
+extern UINT32_T g_CtrlAutoChangeEnd_SetOppoArRelayCalls; 
+extern UINT8_T g_CtrlAutoChangeEnd_SetOppoArRelayValue; 
+extern UINT32_T g_CtrlAutoChangeEnd_SetStopActToSaftyFlagCalls; 
+extern UINT8_T g_CtrlAutoChangeEnd_SetStopActToSaftyFlagValue; 
+static int IsCtrlAutoChangeEndSpyTestCase(void); 
+static int IsFamAnyLocReverseSpyTestCase(void); 
+int IsFamAutoReverseSpyTestCase(void); 
+
+
+
+
+UINT32_T g_FamAutoReverse_GetInMeaDoorStatusCalls; 
+UINT32_T g_FamAutoReverse_GetOppoAtpComuStatusCalls; 
+UINT32_T g_FamAutoReverse_GetRunAtpModeCalls; 
+UINT32_T g_FamAutoReverse_SetDoorRevOpenDoorTimerCalls; 
+UINT32_T g_FamAutoReverse_SetDoorRevOpenDoorTimerValue; 
+UINT32_T g_FamAutoReverse_AddSysAutoReverseErrNoCalls; 
+UINT32_T g_FamAutoReverse_AddSysAutoReverseErrNoValue; 
+UINT32_T g_FamAutoReverse_SetCtlToIdleNoticeCalls; 
+UINT8_T g_FamAutoReverse_SetCtlToIdleNoticeValue; 
+UINT32_T g_FamAutoReverse_SetArReversingFirstTagCalls; 
+UINT8_T g_FamAutoReverse_SetArReversingFirstTagValue; 
+UINT32_T g_FamAutoReverse_SetStopActToSaftyFlagCalls; 
+UINT8_T g_FamAutoReverse_SetStopActToSaftyFlagValue; 
+UINT32_T g_FamAutoReverse_SetLocalArRelayCalls; 
+UINT8_T g_FamAutoReverse_SetLocalArRelayValue; 
+UINT32_T g_FamAutoReverse_SetOppoArRelayCalls; 
+UINT8_T g_FamAutoReverse_SetOppoArRelayValue; 
+UINT32_T g_FamAutoReverse_SetOutRunForwardCalls; 
+UINT8_T g_FamAutoReverse_SetOutRunForwardValue; 
+UINT32_T g_FamAutoReverse_SetOutRunForBackwardCalls; 
+UINT8_T g_FamAutoReverse_SetOutRunForBackwardValue; 
+
+
+
+
+UINT32_T g_FamAnyLocReverse_GetOppoAtpComuStatusCalls; 
+UINT32_T g_FamAnyLocReverse_GetRunAtpModeCalls; 
+UINT32_T g_FamAnyLocReverse_SetArReversingFirstTagCalls; 
+UINT8_T g_FamAnyLocReverse_SetArReversingFirstTagValue; 
+UINT32_T g_FamAnyLocReverse_SetStopActToSaftyFlagCalls; 
+UINT8_T g_FamAnyLocReverse_SetStopActToSaftyFlagValue; 
+UINT32_T g_FamAnyLocReverse_SetCtlToIdleNoticeCalls; 
+UINT8_T g_FamAnyLocReverse_SetCtlToIdleNoticeValue; 
+UINT32_T g_FamAnyLocReverse_SetLocalArRelayCalls; 
+UINT8_T g_FamAnyLocReverse_SetLocalArRelayValue; 
+UINT32_T g_FamAnyLocReverse_SetOppoArRelayCalls; 
+UINT8_T g_FamAnyLocReverse_SetOppoArRelayValue; 
+UINT32_T g_FamAnyLocReverse_SetOutRunForwardCalls; 
+UINT8_T g_FamAnyLocReverse_SetOutRunForwardValue; 
+UINT32_T g_FamAnyLocReverse_SetOutRunForBackwardCalls; 
+UINT8_T g_FamAnyLocReverse_SetOutRunForBackwardValue; 
+
+static int IsAmAutoReverseSpyTestCase(void) 
+{ 
+return (((((((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_1")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_4")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16"); 
+#line 443
+} 
+
+void ResetAmAutoReverseStubSpy(void) 
+{ 
+g_AmAutoReverse_GetCurAtpCtrlStateCalls = 0U; 
+g_AmAutoReverse_GetReversePointCalls = 0U; 
+g_AmAutoReverse_GetReversePointTypeCalls = 0U; 
+g_AmAutoReverse_GetStopPointIdCalls = 0U; 
+g_AmAutoReverse_GetReverseStopPointIdCalls = 0U; 
+g_AmAutoReverse_GetMaEndMaTypeCalls = 0U; 
+g_AmAutoReverse_GetArReversingFirstTagCalls = 0U; 
+g_AmAutoReverse_GetIdleToCtlNoticeCalls = 0U; 
+g_AmAutoReverse_GetOppoAtpComuStatusCalls = 0U; 
+g_AmAutoReverse_GetInMeaDoorStatusCalls = 0U; 
+g_AmAutoReverse_GetRunAtpModeCalls = 0U; 
+g_AmAutoReverse_SetArReversingTagCalls = 0U; 
+g_AmAutoReverse_SetArReversingTagValue = 0U; 
+g_AmAutoReverse_SetStopActToSaftyFlagCalls = 0U; 
+g_AmAutoReverse_SetStopActToSaftyFlagValue = 0U; 
+g_AmAutoReverse_SetArReversingFirstTagCalls = 0U; 
+g_AmAutoReverse_SetArReversingFirstTagValue = 0U; 
+g_AmAutoReverse_SetRunModeConverseCalls = 0U; 
+g_AmAutoReverse_SetRunModeConverseValue = 0U; 
+g_AmAutoReverse_SetLocalArRelayCalls = 0U; 
+g_AmAutoReverse_SetLocalArRelayValue = 0U; 
+g_AmAutoReverse_SetOppoArRelayCalls = 0U; 
+g_AmAutoReverse_SetOppoArRelayValue = 0U; 
+g_AmAutoReverse_SetOutRunForwardCalls = 0U; 
+g_AmAutoReverse_SetOutRunForwardValue = 0U; 
+g_AmAutoReverse_SetOutRunForBackwardCalls = 0U; 
+g_AmAutoReverse_SetOutRunForBackwardValue = 0U; 
+} 
+
+void SetArReversingTag(const UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetArReversingTag)
+#line 477
+void CppTest_Stub_SetArReversingTag_SetArReversingTag(const UINT8_T value) 
+{ 
+if (IsAmAutoReverseSpyTestCase()) 
+{ 
+++g_AmAutoReverse_SetArReversingTagCalls; 
+g_AmAutoReverse_SetArReversingTagValue = value; 
+}  
+} 
+#endif
+void SetStopActToSaftyFlag(UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetStopActToSaftyFlag)
+#line 487
+void CppTest_Stub_SetStopActToSaftyFlag_SetStopActToSaftyFlag(UINT8_T value) 
+{ 
+if (IsAmAutoReverseSpyTestCase()) 
+{ 
+++g_AmAutoReverse_SetStopActToSaftyFlagCalls; 
+g_AmAutoReverse_SetStopActToSaftyFlagValue = value; 
+}  
+if (IsCtrlAutoChangeEndSpyTestCase()) 
+{ 
+++g_CtrlAutoChangeEnd_SetStopActToSaftyFlagCalls; 
+g_CtrlAutoChangeEnd_SetStopActToSaftyFlagValue = value; 
+}  
+if (IsFamAnyLocReverseSpyTestCase()) 
+{ 
+++g_FamAnyLocReverse_SetStopActToSaftyFlagCalls; 
+g_FamAnyLocReverse_SetStopActToSaftyFlagValue = value; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_SetStopActToSaftyFlagCalls; 
+g_FamAutoReverse_SetStopActToSaftyFlagValue = value; 
+}  
+} 
+#endif
+void SetArReversingFirstTag(const UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetArReversingFirstTag)
+#line 512
+void CppTest_Stub_SetArReversingFirstTag_SetArReversingFirstTag(const UINT8_T value) 
+{ 
+if (IsAmAutoReverseSpyTestCase()) 
+{ 
+++g_AmAutoReverse_SetArReversingFirstTagCalls; 
+g_AmAutoReverse_SetArReversingFirstTagValue = value; 
+}  
+if (IsFamAnyLocReverseSpyTestCase()) 
+{ 
+++g_FamAnyLocReverse_SetArReversingFirstTagCalls; 
+g_FamAnyLocReverse_SetArReversingFirstTagValue = value; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_SetArReversingFirstTagCalls; 
+g_FamAutoReverse_SetArReversingFirstTagValue = value; 
+}  
+} 
+#endif
+void SetRunModeConverse(const UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetRunModeConverse)
+#line 532
+void CppTest_Stub_SetRunModeConverse_SetRunModeConverse(const UINT8_T value) 
+{ 
+if (IsAmAutoReverseSpyTestCase()) 
+{ 
+++g_AmAutoReverse_SetRunModeConverseCalls; 
+g_AmAutoReverse_SetRunModeConverseValue = value; 
+}  
+} 
+#endif
+void SetLocalArRelay(const UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetLocalArRelay)
+#line 542
+void CppTest_Stub_SetLocalArRelay_SetLocalArRelay(const UINT8_T value) 
+{ 
+if (IsAmAutoReverseSpyTestCase()) 
+{ 
+++g_AmAutoReverse_SetLocalArRelayCalls; 
+g_AmAutoReverse_SetLocalArRelayValue = value; 
+}  
+if (IsCtrlAutoChangeEndSpyTestCase()) 
+{ 
+++g_CtrlAutoChangeEnd_SetLocalArRelayCalls; 
+g_CtrlAutoChangeEnd_SetLocalArRelayValue = value; 
+}  
+if (IsFamAnyLocReverseSpyTestCase()) 
+{ 
+++g_FamAnyLocReverse_SetLocalArRelayCalls; 
+g_FamAnyLocReverse_SetLocalArRelayValue = value; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_SetLocalArRelayCalls; 
+g_FamAutoReverse_SetLocalArRelayValue = value; 
+}  
+} 
+#endif
+void SetOppoArRelay(const UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetOppoArRelay)
+#line 567
+void CppTest_Stub_SetOppoArRelay_SetOppoArRelay(const UINT8_T value) 
+{ 
+if (IsAmAutoReverseSpyTestCase()) 
+{ 
+++g_AmAutoReverse_SetOppoArRelayCalls; 
+g_AmAutoReverse_SetOppoArRelayValue = value; 
+}  
+if (IsCtrlAutoChangeEndSpyTestCase()) 
+{ 
+++g_CtrlAutoChangeEnd_SetOppoArRelayCalls; 
+g_CtrlAutoChangeEnd_SetOppoArRelayValue = value; 
+}  
+if (IsFamAnyLocReverseSpyTestCase()) 
+{ 
+++g_FamAnyLocReverse_SetOppoArRelayCalls; 
+g_FamAnyLocReverse_SetOppoArRelayValue = value; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_SetOppoArRelayCalls; 
+g_FamAutoReverse_SetOppoArRelayValue = value; 
+}  
+} 
+#endif
+UINT8_T GetOppoAtpComuStatus(void); 
+#if defined(CPPTEST_USER_STUB_GetOppoAtpComuStatus)
+#line 592
+UINT8_T CppTest_Stub_GetOppoAtpComuStatus_GetOppoAtpComuStatus(void) 
+{ 
+if (IsCtrlVOBCEnterARTargetTestCase()) 
+{ 
+++g_CtrlVOBCEnterAR_Target_GetOppoAtpComuStatusCalls; 
+if ((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_77") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_80")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_82")) 
+
+
+{ 
+return 2U; 
+}  
+return 1U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_5")) 
+{ 
+++g_FamAutoReverse_GetOppoAtpComuStatusCalls; 
+return 1U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_11")) 
+{ 
+++g_FamAutoReverse_GetOppoAtpComuStatusCalls; 
+return 2U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_15") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_17")) 
+
+{ 
+++g_FamAutoReverse_GetOppoAtpComuStatusCalls; 
+return 1U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7")) 
+{ 
+++g_FamAnyLocReverse_GetOppoAtpComuStatusCalls; 
+return 1U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")) 
+{ 
+++g_FamAnyLocReverse_GetOppoAtpComuStatusCalls; 
+return 2U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_1")) 
+{ 
+++g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls; 
+return 1U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_3")) 
+{ 
+++g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls; 
+return 2U; 
+}  
+if ((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_56") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_62")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_63")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_64")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_65")) 
+
+
+
+
+{ 
+return 2U; 
+}  
+if (((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_52") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_53")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_54")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_55")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_57")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_58")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_59")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0")) 
+#line 661
+{ 
+return 1U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")) 
+
+{ 
+++g_AmAutoReverse_GetOppoAtpComuStatusCalls; 
+return 2U; 
+}  
+if (((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")) 
+
+
+
+{ 
+++g_AmAutoReverse_GetOppoAtpComuStatusCalls; 
+return 1U; 
+}  
+return (UINT8_T)0U; 
+} 
+#endif
+
+UINT32_T g_AmCmManReverse_GetReversingCbtcReverseStepCalls; 
+UINT32_T g_AmCmManReverse_GetIdleToCtlCmpVerCalls; 
+UINT32_T g_AmCmManReverse_GetObcConfigCrcCalls; 
+UINT32_T g_AmCmManReverse_GetIdleToCtlPreSetModeCalls; 
+UINT32_T g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls; 
+UINT32_T g_AmCmManReverse_GetInMeaArBtnCalls; 
+UINT32_T g_AmCmManReverse_GetInMeaArBtnLastCalls; 
+UINT32_T g_AmCmManReverse_GetIdleToCtlNoticeCalls; 
+
+UINT32_T g_AmCmManReverse_SetReversingCbtcReverseStepCalls; 
+UINT8_T g_AmCmManReverse_SetReversingCbtcReverseStepValue; 
+UINT32_T g_AmCmManReverse_SetSendMmiTrainShuttleInfoCalls; 
+UINT8_T g_AmCmManReverse_SetSendMmiTrainShuttleInfoValue; 
+UINT32_T g_AmCmManReverse_SetReversingFalgCalls; 
+UINT8_T g_AmCmManReverse_SetReversingFalgValue; 
+UINT32_T g_AmCmManReverse_SetCtlToIdleNoticeCalls; 
+UINT8_T g_AmCmManReverse_SetCtlToIdleNoticeValue; 
+UINT32_T g_AmCmManReverse_AddSysAutoReverseErrNoCalls; 
+UINT32_T g_AmCmManReverse_AddSysAutoReverseErrNoValue; 
+UINT32_T g_AmCmManReverse_ReverseCBTCInitCalls; 
+
+static int IsAmCmManReverseSpyTestCase(void) 
+{ 
+return (((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_1")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_4")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_8")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_10")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_11")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_12"); 
+#line 718
+} 
+
+void ResetAmCmManReverseStubSpy(void) 
+{ 
+g_AmCmManReverse_GetReversingCbtcReverseStepCalls = 0U; 
+g_AmCmManReverse_GetIdleToCtlCmpVerCalls = 0U; 
+g_AmCmManReverse_GetObcConfigCrcCalls = 0U; 
+g_AmCmManReverse_GetIdleToCtlPreSetModeCalls = 0U; 
+g_AmCmManReverse_GetIdleToCtlZeroSpeedTagCalls = 0U; 
+g_AmCmManReverse_GetInMeaArBtnCalls = 0U; 
+g_AmCmManReverse_GetInMeaArBtnLastCalls = 0U; 
+g_AmCmManReverse_GetIdleToCtlNoticeCalls = 0U; 
+g_AmCmManReverse_SetReversingCbtcReverseStepCalls = 0U; 
+g_AmCmManReverse_SetReversingCbtcReverseStepValue = 0U; 
+g_AmCmManReverse_SetSendMmiTrainShuttleInfoCalls = 0U; 
+g_AmCmManReverse_SetSendMmiTrainShuttleInfoValue = 0U; 
+g_AmCmManReverse_SetReversingFalgCalls = 0U; 
+g_AmCmManReverse_SetReversingFalgValue = 0U; 
+g_AmCmManReverse_SetCtlToIdleNoticeCalls = 0U; 
+g_AmCmManReverse_SetCtlToIdleNoticeValue = 0U; 
+g_AmCmManReverse_AddSysAutoReverseErrNoCalls = 0U; 
+g_AmCmManReverse_AddSysAutoReverseErrNoValue = 0U; 
+g_AmCmManReverse_ReverseCBTCInitCalls = 0U; 
+} 
+
+void SetReversingCbtcReverseStep(const UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetReversingCbtcReverseStep)
+#line 744
+void CppTest_Stub_SetReversingCbtcReverseStep_SetReversingCbtcReverseStep(const UINT8_T value) 
+{ 
+if (IsAmCmManReverseSpyTestCase()) 
+{ 
+++g_AmCmManReverse_SetReversingCbtcReverseStepCalls; 
+g_AmCmManReverse_SetReversingCbtcReverseStepValue = value; 
+}  
+} 
+#endif
+void SetSendMmiTrainShuttleInfo(const UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetSendMmiTrainShuttleInfo)
+#line 754
+void CppTest_Stub_SetSendMmiTrainShuttleInfo_SetSendMmiTrainShuttleInfo(const UINT8_T value) 
+{ 
+if (IsAmCmManReverseSpyTestCase()) 
+{ 
+++g_AmCmManReverse_SetSendMmiTrainShuttleInfoCalls; 
+g_AmCmManReverse_SetSendMmiTrainShuttleInfoValue = value; 
+}  
+} 
+#endif
+void SetReversingFalg(UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetReversingFalg)
+#line 764
+void CppTest_Stub_SetReversingFalg_SetReversingFalg(UINT8_T value) 
+{ 
+if (IsAmCmManReverseSpyTestCase()) 
+{ 
+++g_AmCmManReverse_SetReversingFalgCalls; 
+g_AmCmManReverse_SetReversingFalgValue = value; 
+}  
+} 
+#endif
+void SetCtlToIdleNotice(const UINT8_T value); 
+#if defined(CPPTEST_USER_STUB_SetCtlToIdleNotice)
+#line 774
+void CppTest_Stub_SetCtlToIdleNotice_SetCtlToIdleNotice(const UINT8_T value) 
+{ 
+if (IsAmCmManReverseSpyTestCase()) 
+{ 
+++g_AmCmManReverse_SetCtlToIdleNoticeCalls; 
+g_AmCmManReverse_SetCtlToIdleNoticeValue = value; 
+}  
+if (IsCtrlAutoChangeEndSpyTestCase()) 
+{ 
+++g_CtrlAutoChangeEnd_SetCtlToIdleNoticeCalls; 
+g_CtrlAutoChangeEnd_SetCtlToIdleNoticeValue = value; 
+}  
+if (IsFamAnyLocReverseSpyTestCase()) 
+{ 
+++g_FamAnyLocReverse_SetCtlToIdleNoticeCalls; 
+g_FamAnyLocReverse_SetCtlToIdleNoticeValue = value; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_SetCtlToIdleNoticeCalls; 
+g_FamAutoReverse_SetCtlToIdleNoticeValue = value; 
+}  
+} 
+#endif
+void AddSysAutoReverseErrNo(const UINT32_T value); 
+#if defined(CPPTEST_USER_STUB_AddSysAutoReverseErrNo)
+#line 799
+void CppTest_Stub_AddSysAutoReverseErrNo_AddSysAutoReverseErrNo(const UINT32_T value) 
+{ 
+if (IsCtrlVOBCEnterARTargetTestCase()) 
+{ 
+++g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoCalls; 
+g_CtrlVOBCEnterAR_Target_AddSysAutoReverseErrNoValue = value; 
+}  
+if (IsReverseTypeChkSpyTestCase()) 
+{ 
+++g_ReverseTypeChk_AddSysAutoReverseErrNoCalls; 
+g_ReverseTypeChk_AddSysAutoReverseErrNoValue = value; 
+}  
+if (IsEnterAmAutoReverseSpyTestCase()) 
+{ 
+++g_EnterAmAutoReverse_AddSysAutoReverseErrNoCalls; 
+g_EnterAmAutoReverse_AddSysAutoReverseErrNoValue = value; 
+}  
+if (IsAmCmManReverseSpyTestCase()) 
+{ 
+++g_AmCmManReverse_AddSysAutoReverseErrNoCalls; 
+g_AmCmManReverse_AddSysAutoReverseErrNoValue = value; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_AddSysAutoReverseErrNoCalls; 
+g_FamAutoReverse_AddSysAutoReverseErrNoValue = value; 
+}  
+} 
+#endif
+void ReverseCBTCInit(void); 
+#if defined(CPPTEST_USER_STUB_ReverseCBTCInit)
+#line 829
+void CppTest_Stub_ReverseCBTCInit_ReverseCBTCInit(void) 
+{ 
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_ReverseCBTCInitCalls; 
+}  
+if (IsReverseTypeChkSpyTestCase()) 
+{ 
+++g_ReverseTypeChk_ReverseCBTCInitCalls; 
+}  
+if (IsEnterAmAutoReverseSpyTestCase()) 
+{ 
+++g_EnterAmAutoReverse_ReverseCBTCInitCalls; 
+}  
+if (IsAmCmManReverseSpyTestCase()) 
+{ 
+++g_AmCmManReverse_ReverseCBTCInitCalls; 
+}  
+} 
+#endif
+void ReverseEnterArInit(void); 
+#if defined(CPPTEST_USER_STUB_ReverseEnterArInit)
+#line 850
+void CppTest_Stub_ReverseEnterArInit_ReverseEnterArInit(void) 
+{ 
+if (IsCtrlVOBCEnterARTargetTestCase()) 
+{ 
+++g_CtrlVOBCEnterAR_Target_ReverseEnterArInitCalls; 
+}  
+if (IsCtrlRevFuncSpyTestCase()) 
+{ 
+++g_CtrlRevFunc_ReverseEnterArInitCalls; 
+}  
+if (IsReverseTypeChkSpyTestCase()) 
+{ 
+++g_ReverseTypeChk_ReverseEnterArInitCalls; 
+}  
+if (IsEnterAmAutoReverseSpyTestCase()) 
+{ 
+++g_EnterAmAutoReverse_ReverseEnterArInitCalls; 
+}  
+} 
+#endif
+UINT32_T g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls; 
+
+void ResetCtrlARConditionChkStubSpy(void) 
+{ 
+g_CtrlARConditionChk_GetAtpCtrlStatBetterCalls = 0U; 
+} 
+
+
+UINT32_T g_CtrlAutoChangeEnd_GetCurAtpCtrlStateCalls; 
+UINT32_T g_CtrlAutoChangeEnd_GetIdleToCtlNoticeCalls; 
+UINT32_T g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls; 
+UINT32_T g_CtrlAutoChangeEnd_GetRunAtpModeCalls; 
+UINT32_T g_CtrlAutoChangeEnd_SetCtlToIdleNoticeCalls; 
+UINT8_T g_CtrlAutoChangeEnd_SetCtlToIdleNoticeValue; 
+UINT32_T g_CtrlAutoChangeEnd_SetLocalArRelayCalls; 
+UINT8_T g_CtrlAutoChangeEnd_SetLocalArRelayValue; 
+UINT32_T g_CtrlAutoChangeEnd_SetOppoArRelayCalls; 
+UINT8_T g_CtrlAutoChangeEnd_SetOppoArRelayValue; 
+UINT32_T g_CtrlAutoChangeEnd_SetOutRunForwardCalls; 
+UINT8_T g_CtrlAutoChangeEnd_SetOutRunForwardValue; 
+UINT32_T g_CtrlAutoChangeEnd_SetOutRunForBackwardCalls; 
+UINT8_T g_CtrlAutoChangeEnd_SetOutRunForBackwardValue; 
+UINT32_T g_CtrlAutoChangeEnd_SetStopActToSaftyFlagCalls; 
+UINT8_T g_CtrlAutoChangeEnd_SetStopActToSaftyFlagValue; 
+
+static int IsCtrlAutoChangeEndSpyTestCase(void) 
+{ 
+return (((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_1")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_4"); 
+
+
+
+
+} 
+
+void ResetCtrlAutoChangeEndStubSpy(void) 
+{ 
+g_CtrlAutoChangeEnd_GetCurAtpCtrlStateCalls = 0U; 
+g_CtrlAutoChangeEnd_GetIdleToCtlNoticeCalls = 0U; 
+g_CtrlAutoChangeEnd_GetOppoAtpComuStatusCalls = 0U; 
+g_CtrlAutoChangeEnd_GetRunAtpModeCalls = 0U; 
+g_CtrlAutoChangeEnd_SetCtlToIdleNoticeCalls = 0U; 
+g_CtrlAutoChangeEnd_SetCtlToIdleNoticeValue = 0U; 
+g_CtrlAutoChangeEnd_SetLocalArRelayCalls = 0U; 
+g_CtrlAutoChangeEnd_SetLocalArRelayValue = 0U; 
+g_CtrlAutoChangeEnd_SetOppoArRelayCalls = 0U; 
+g_CtrlAutoChangeEnd_SetOppoArRelayValue = 0U; 
+g_CtrlAutoChangeEnd_SetOutRunForwardCalls = 0U; 
+g_CtrlAutoChangeEnd_SetOutRunForwardValue = 0U; 
+g_CtrlAutoChangeEnd_SetOutRunForBackwardCalls = 0U; 
+g_CtrlAutoChangeEnd_SetOutRunForBackwardValue = 0U; 
+g_CtrlAutoChangeEnd_SetStopActToSaftyFlagCalls = 0U; 
+g_CtrlAutoChangeEnd_SetStopActToSaftyFlagValue = 0U; 
+} 
+
+static int IsFamAnyLocReverseSpyTestCase(void) 
+{ 
+return (((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_1")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_4")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10"); 
+#line 937
+} 
+
+void ResetFamAnyLocReverseStubSpy(void) 
+{ 
+g_FamAnyLocReverse_GetOppoAtpComuStatusCalls = 0U; 
+g_FamAnyLocReverse_GetRunAtpModeCalls = 0U; 
+g_FamAnyLocReverse_SetArReversingFirstTagCalls = 0U; 
+g_FamAnyLocReverse_SetArReversingFirstTagValue = 0U; 
+g_FamAnyLocReverse_SetStopActToSaftyFlagCalls = 0U; 
+g_FamAnyLocReverse_SetStopActToSaftyFlagValue = 0U; 
+g_FamAnyLocReverse_SetCtlToIdleNoticeCalls = 0U; 
+g_FamAnyLocReverse_SetCtlToIdleNoticeValue = 0U; 
+g_FamAnyLocReverse_SetLocalArRelayCalls = 0U; 
+g_FamAnyLocReverse_SetLocalArRelayValue = 0U; 
+g_FamAnyLocReverse_SetOppoArRelayCalls = 0U; 
+g_FamAnyLocReverse_SetOppoArRelayValue = 0U; 
+g_FamAnyLocReverse_SetOutRunForwardCalls = 0U; 
+g_FamAnyLocReverse_SetOutRunForwardValue = 0U; 
+g_FamAnyLocReverse_SetOutRunForBackwardCalls = 0U; 
+g_FamAnyLocReverse_SetOutRunForBackwardValue = 0U; 
+} 
+
+int IsFamAutoReverseSpyTestCase(void) 
+{ 
+return ((((((((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_1")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_4")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_8")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_10")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_11")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_12")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_13")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_14")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_15")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_16")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_17"); 
+#line 979
+} 
+
+void ResetFamAutoReverseStubSpy(void) 
+{ 
+g_FamAutoReverse_GetInMeaDoorStatusCalls = 0U; 
+g_FamAutoReverse_GetOppoAtpComuStatusCalls = 0U; 
+g_FamAutoReverse_GetRunAtpModeCalls = 0U; 
+g_FamAutoReverse_SetDoorRevOpenDoorTimerCalls = 0U; 
+g_FamAutoReverse_SetDoorRevOpenDoorTimerValue = 0U; 
+g_FamAutoReverse_AddSysAutoReverseErrNoCalls = 0U; 
+g_FamAutoReverse_AddSysAutoReverseErrNoValue = 0U; 
+g_FamAutoReverse_SetCtlToIdleNoticeCalls = 0U; 
+g_FamAutoReverse_SetCtlToIdleNoticeValue = 0U; 
+g_FamAutoReverse_SetArReversingFirstTagCalls = 0U; 
+g_FamAutoReverse_SetArReversingFirstTagValue = 0U; 
+g_FamAutoReverse_SetStopActToSaftyFlagCalls = 0U; 
+g_FamAutoReverse_SetStopActToSaftyFlagValue = 0U; 
+g_FamAutoReverse_SetLocalArRelayCalls = 0U; 
+g_FamAutoReverse_SetLocalArRelayValue = 0U; 
+g_FamAutoReverse_SetOppoArRelayCalls = 0U; 
+g_FamAutoReverse_SetOppoArRelayValue = 0U; 
+g_FamAutoReverse_SetOutRunForwardCalls = 0U; 
+g_FamAutoReverse_SetOutRunForwardValue = 0U; 
+g_FamAutoReverse_SetOutRunForBackwardCalls = 0U; 
+g_FamAutoReverse_SetOutRunForBackwardValue = 0U; 
+} 
+
+void SetDoorRevOpenDoorTimer(const UINT32_T openDoorTimer); 
+#if defined(CPPTEST_USER_STUB_SetDoorRevOpenDoorTimer)
+#line 1007
+void CppTest_Stub_SetDoorRevOpenDoorTimer_SetDoorRevOpenDoorTimer(const UINT32_T openDoorTimer) 
+{ 
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_SetDoorRevOpenDoorTimerCalls; 
+g_FamAutoReverse_SetDoorRevOpenDoorTimerValue = openDoorTimer; 
+}  
+} 
+#endif
 #line 36 "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\..\\..\\src\\AppLogic\\DynamicData\\InputDigitalMeasureData.h"
 void InitInMeaInfoData(const UINT8_T value); 
 #line 47
@@ -74240,10 +75980,10 @@ UINT16_T GetSpksIdByPhysicalIndexId(UINT16_T phySecIndexId, UINT32_T * spksDevId
 INT8_T SetSpksStatusByDevId(UINT8_T spksStatus, UINT32_T devId); 
 #line 201
 UINT8_T GetSpksStatusByDevId(UINT32_T devId); 
-#line 88 "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\stubs\\stub.c"
+#line 1100 "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\stubs\\stub.c"
 int MmiIdInquire(); 
 #if defined(CPPTEST_USER_STUB_MmiIdInquire)
-#line 89
+#line 1101
 int CppTest_Stub_MmiIdInquire_MmiIdInquire(void) 
 { 
 return 0; 
@@ -74252,7 +75992,7 @@ return 0;
 
 UINT32_T GetHealFailTime(const UINT8_T SendDevType, const UINT8_T RcvDevType); 
 #if defined(CPPTEST_USER_STUB_GetHealFailTime)
-#line 96
+#line 1108
 UINT32_T CppTest_Stub_GetHealFailTime_GetHealFailTime(const UINT8_T SendDevType, const UINT8_T RcvDevType) 
 { 
 return 0U; 
@@ -74261,7 +76001,7 @@ return 0U;
 
 int SetMmiDevLongId(); 
 #if defined(CPPTEST_USER_STUB_SetMmiDevLongId)
-#line 103
+#line 1115
 int CppTest_Stub_SetMmiDevLongId_SetMmiDevLongId(void) 
 { 
 return 0; 
@@ -74270,7 +76010,7 @@ return 0;
 
 int GetMmiDevLongId(); 
 #if defined(CPPTEST_USER_STUB_GetMmiDevLongId)
-#line 110
+#line 1122
 int CppTest_Stub_GetMmiDevLongId_GetMmiDevLongId(void) 
 { 
 return 0; 
@@ -74279,7 +76019,7 @@ return 0;
 
 UINT32_T GAL_InitDevData(UINT32_T devId); 
 #if defined(CPPTEST_USER_STUB_GAL_InitDevData)
-#line 117
+#line 1129
 UINT32_T CppTest_Stub_GAL_InitDevData_GAL_InitDevData(UINT32_T devId) 
 { 
 return 0U; 
@@ -74288,7 +76028,7 @@ return 0U;
 
 void LOG_WriteTxt(const char * buffer); 
 #if defined(CPPTEST_USER_STUB_LOG_WriteTxt)
-#line 124
+#line 1136
 void CppTest_Stub_LOG_WriteTxt_LOG_WriteTxt(const char *buffer) 
 { 
 } 
@@ -74296,7 +76036,7 @@ void CppTest_Stub_LOG_WriteTxt_LOG_WriteTxt(const char *buffer)
 
 UINT8_T GetMechanicalBrakTestResult(); 
 #if defined(CPPTEST_USER_STUB_GetMechanicalBrakTestResult)
-#line 130
+#line 1142
 UINT8_T CppTest_Stub_GetMechanicalBrakTestResult_GetMechanicalBrakTestResult(void) 
 { 
 return (unsigned char)0; 
@@ -74305,7 +76045,7 @@ return (unsigned char)0;
 
 UINT32_T GetMechanicalBrakTestTime(); 
 #if defined(CPPTEST_USER_STUB_GetMechanicalBrakTestTime)
-#line 137
+#line 1149
 UINT32_T CppTest_Stub_GetMechanicalBrakTestTime_GetMechanicalBrakTestTime(void) 
 { 
 return 0U; 
@@ -74314,7 +76054,7 @@ return 0U;
 
 int CtrlOppoFamReverse(); 
 #if defined(CPPTEST_USER_STUB_CtrlOppoFamReverse)
-#line 144
+#line 1156
 int CppTest_Stub_CtrlOppoFamReverse_CtrlOppoFamReverse(void) 
 { 
 
@@ -74324,7 +76064,7 @@ return 0;
 
 int CtrlSigleAtpEnterAR(); 
 #if defined(CPPTEST_USER_STUB_CtrlSigleAtpEnterAR)
-#line 152
+#line 1164
 int CppTest_Stub_CtrlSigleAtpEnterAR_CtrlSigleAtpEnterAR(void) 
 { 
 
@@ -74334,7 +76074,7 @@ return 0;
 
 int CtrlVOBCReverseBLOC(); 
 #if defined(CPPTEST_USER_STUB_CtrlVOBCReverseBLOC)
-#line 160
+#line 1172
 int CppTest_Stub_CtrlVOBCReverseBLOC_CtrlVOBCReverseBLOC(void) 
 { 
 
@@ -74344,7 +76084,7 @@ return 0;
 
 UINT16_T GetCiAttributeById(UINT16_T CiId); 
 #if defined(CPPTEST_USER_STUB_GetCiAttributeById)
-#line 168
+#line 1180
 UINT16_T CppTest_Stub_GetCiAttributeById_GetCiAttributeById(UINT16_T CiId) 
 { 
 
@@ -74354,7 +76094,7 @@ return 0;
 
 UINT16_T GetStopPtIdBySegDirAttribute(UINT16_T segId, UINT8_T dir, UINT32_T attribute); 
 #if defined(CPPTEST_USER_STUB_GetStopPtIdBySegDirAttribute)
-#line 176
+#line 1188
 UINT16_T CppTest_Stub_GetStopPtIdBySegDirAttribute_GetStopPtIdBySegDirAttribute(UINT16_T segId, UINT8_T dir, UINT32_T attribute) 
 { 
 
@@ -74364,7 +76104,7 @@ return 0;
 
 int CamToRmInit(); 
 #if defined(CPPTEST_USER_STUB_CamToRmInit)
-#line 184
+#line 1196
 int CppTest_Stub_CamToRmInit_CamToRmInit(void) 
 { 
 
@@ -74374,7 +76114,7 @@ return 0;
 
 UINT32_T GetObcSelfCheckTestTime(); 
 #if defined(CPPTEST_USER_STUB_GetObcSelfCheckTestTime)
-#line 192
+#line 1204
 UINT32_T CppTest_Stub_GetObcSelfCheckTestTime_GetObcSelfCheckTestTime(void) 
 { 
 
@@ -74384,7 +76124,7 @@ return 0;
 
 UINT8_T GetSegEscapePlat(UINT16_T segId); 
 #if defined(CPPTEST_USER_STUB_GetSegEscapePlat)
-#line 200
+#line 1212
 UINT8_T CppTest_Stub_GetSegEscapePlat_GetSegEscapePlat(UINT16_T segId) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JudgeTrainDoorEscSide_10")) 
@@ -74450,7 +76190,7 @@ return 0;
 
 void TrainDoorHibProcess(); 
 #if defined(CPPTEST_USER_STUB_TrainDoorHibProcess)
-#line 264
+#line 1276
 void CppTest_Stub_TrainDoorHibProcess_TrainDoorHibProcess(void) 
 { 
 
@@ -74460,7 +76200,7 @@ void CppTest_Stub_TrainDoorHibProcess_TrainDoorHibProcess(void)
 
 int GetEbSyncActFaoReasonLow(); 
 #if defined(CPPTEST_USER_STUB_GetEbSyncActFaoReasonLow)
-#line 272
+#line 1284
 int CppTest_Stub_GetEbSyncActFaoReasonLow_GetEbSyncActFaoReasonLow(void) 
 { 
 
@@ -74471,7 +76211,7 @@ return 0;
 
 int GetEbSyncActReasonHigh(); 
 #if defined(CPPTEST_USER_STUB_GetEbSyncActReasonHigh)
-#line 281
+#line 1293
 int CppTest_Stub_GetEbSyncActReasonHigh_GetEbSyncActReasonHigh(void) 
 { 
 
@@ -74482,7 +76222,7 @@ return 0;
 
 int GetEbSyncActReasonLow(); 
 #if defined(CPPTEST_USER_STUB_GetEbSyncActReasonLow)
-#line 290
+#line 1302
 int CppTest_Stub_GetEbSyncActReasonLow_GetEbSyncActReasonLow(void) 
 { 
 
@@ -74493,7 +76233,7 @@ return 0;
 
 int GetRdInitReason(); 
 #if defined(CPPTEST_USER_STUB_GetRdInitReason)
-#line 299
+#line 1311
 int CppTest_Stub_GetRdInitReason_GetRdInitReason(void) 
 { 
 return 0; 
@@ -74502,7 +76242,7 @@ return 0;
 
 int GetSegIdByCarWashMachineId(); 
 #if defined(CPPTEST_USER_STUB_GetSegIdByCarWashMachineId)
-#line 306
+#line 1318
 int CppTest_Stub_GetSegIdByCarWashMachineId_GetSegIdByCarWashMachineId(void) 
 { 
 
@@ -74513,7 +76253,7 @@ return 0;
 
 int GetSysRunRecErrNo(); 
 #if defined(CPPTEST_USER_STUB_GetSysRunRecErrNo)
-#line 315
+#line 1327
 int CppTest_Stub_GetSysRunRecErrNo_GetSysRunRecErrNo(void) 
 { 
 
@@ -74524,7 +76264,7 @@ return 0;
 
 int GetTrainBackSecLogNo(); 
 #if defined(CPPTEST_USER_STUB_GetTrainBackSecLogNo)
-#line 324
+#line 1336
 int CppTest_Stub_GetTrainBackSecLogNo_GetTrainBackSecLogNo(void) 
 { 
 
@@ -74534,7 +76274,7 @@ return 0;
 
 int IdleVOBCReverse(); 
 #if defined(CPPTEST_USER_STUB_IdleVOBCReverse)
-#line 332
+#line 1344
 int CppTest_Stub_IdleVOBCReverse_IdleVOBCReverse(void) 
 { 
 
@@ -74545,7 +76285,7 @@ return 0;
 
 int InitEbReason(); 
 #if defined(CPPTEST_USER_STUB_InitEbReason)
-#line 341
+#line 1353
 int CppTest_Stub_InitEbReason_InitEbReason(void) 
 { 
 
@@ -74555,7 +76295,7 @@ return 0;
 
 int JumpProtection(); 
 #if defined(CPPTEST_USER_STUB_JumpProtection)
-#line 349
+#line 1361
 int CppTest_Stub_JumpProtection_JumpProtection(void) 
 { 
 
@@ -74565,7 +76305,7 @@ return 0;
 
 int ModeControlJudge(); 
 #if defined(CPPTEST_USER_STUB_ModeControlJudge)
-#line 357
+#line 1369
 int CppTest_Stub_ModeControlJudge_ModeControlJudge(void) 
 { 
 
@@ -74576,7 +76316,7 @@ return 0;
 
 int OverSpeedProtection(); 
 #if defined(CPPTEST_USER_STUB_OverSpeedProtection)
-#line 366
+#line 1378
 int CppTest_Stub_OverSpeedProtection_OverSpeedProtection(void) 
 { 
 
@@ -74587,7 +76327,7 @@ return 0;
 
 int RdToArInit(); 
 #if defined(CPPTEST_USER_STUB_RdToArInit)
-#line 375
+#line 1387
 int CppTest_Stub_RdToArInit_RdToArInit(void) 
 { 
 return 0; 
@@ -74596,7 +76336,7 @@ return 0;
 
 int RdToBlocCmInit(); 
 #if defined(CPPTEST_USER_STUB_RdToBlocCmInit)
-#line 382
+#line 1394
 int CppTest_Stub_RdToBlocCmInit_RdToBlocCmInit(void) 
 { 
 
@@ -74606,7 +76346,7 @@ return 0;
 
 int RdToFAOInit(); 
 #if defined(CPPTEST_USER_STUB_RdToFAOInit)
-#line 390
+#line 1402
 int CppTest_Stub_RdToFAOInit_RdToFAOInit(void) 
 { 
 
@@ -74616,7 +76356,7 @@ return 0;
 
 int RecordEbFaoReasonHigh(); 
 #if defined(CPPTEST_USER_STUB_RecordEbFaoReasonHigh)
-#line 398
+#line 1410
 int CppTest_Stub_RecordEbFaoReasonHigh_RecordEbFaoReasonHigh(void) 
 { 
 
@@ -74626,7 +76366,7 @@ return 0;
 
 int RecordEbFaoReasonLow(); 
 #if defined(CPPTEST_USER_STUB_RecordEbFaoReasonLow)
-#line 406
+#line 1418
 int CppTest_Stub_RecordEbFaoReasonLow_RecordEbFaoReasonLow(void) 
 { 
 
@@ -74637,7 +76377,7 @@ return 0;
 
 int RecordEbReasonHigh(); 
 #if defined(CPPTEST_USER_STUB_RecordEbReasonHigh)
-#line 415
+#line 1427
 int CppTest_Stub_RecordEbReasonHigh_RecordEbReasonHigh(void) 
 { 
 
@@ -74647,7 +76387,7 @@ return 0;
 
 int RecordEbReasonLow(); 
 #if defined(CPPTEST_USER_STUB_RecordEbReasonLow)
-#line 423
+#line 1435
 int CppTest_Stub_RecordEbReasonLow_RecordEbReasonLow(void) 
 { 
 
@@ -74657,7 +76397,7 @@ return 0;
 
 int RecordEbSyncActFaoReasonHigh(); 
 #if defined(CPPTEST_USER_STUB_RecordEbSyncActFaoReasonHigh)
-#line 431
+#line 1443
 int CppTest_Stub_RecordEbSyncActFaoReasonHigh_RecordEbSyncActFaoReasonHigh(void) 
 { 
 
@@ -74667,7 +76407,7 @@ return 0;
 
 int RecordEbSyncActFaoReasonLow(); 
 #if defined(CPPTEST_USER_STUB_RecordEbSyncActFaoReasonLow)
-#line 439
+#line 1451
 int CppTest_Stub_RecordEbSyncActFaoReasonLow_RecordEbSyncActFaoReasonLow(void) 
 { 
 
@@ -74677,7 +76417,7 @@ return 0;
 
 int RecordEbSyncActReasonHigh(); 
 #if defined(CPPTEST_USER_STUB_RecordEbSyncActReasonHigh)
-#line 447
+#line 1459
 int CppTest_Stub_RecordEbSyncActReasonHigh_RecordEbSyncActReasonHigh(void) 
 { 
 
@@ -74687,7 +76427,7 @@ return 0;
 
 int RecordEbSyncActReasonLow(); 
 #if defined(CPPTEST_USER_STUB_RecordEbSyncActReasonLow)
-#line 455
+#line 1467
 int CppTest_Stub_RecordEbSyncActReasonLow_RecordEbSyncActReasonLow(void) 
 { 
 
@@ -74697,7 +76437,7 @@ return 0;
 
 int RollProtection(); 
 #if defined(CPPTEST_USER_STUB_RollProtection)
-#line 463
+#line 1475
 int CppTest_Stub_RollProtection_RollProtection(void) 
 { 
 
@@ -74707,7 +76447,7 @@ return 0;
 
 int SelfPowerOff(); 
 #if defined(CPPTEST_USER_STUB_SelfPowerOff)
-#line 471
+#line 1483
 int CppTest_Stub_SelfPowerOff_SelfPowerOff(void) 
 { 
 
@@ -74718,7 +76458,7 @@ return 0;
 
 int SetEbReason(); 
 #if defined(CPPTEST_USER_STUB_SetEbReason)
-#line 480
+#line 1492
 int CppTest_Stub_SetEbReason_SetEbReason(void) 
 { 
 
@@ -74729,7 +76469,7 @@ return 0;
 
 int SpksEbProtection(); 
 #if defined(CPPTEST_USER_STUB_SpksEbProtection)
-#line 489
+#line 1501
 int CppTest_Stub_SpksEbProtection_SpksEbProtection(void) 
 { 
 
@@ -74739,7 +76479,7 @@ return 0;
 
 int StopEnsureProcess(); 
 #if defined(CPPTEST_USER_STUB_StopEnsureProcess)
-#line 497
+#line 1509
 int CppTest_Stub_StopEnsureProcess_StopEnsureProcess(void) 
 { 
 
@@ -74749,7 +76489,7 @@ return 0;
 
 int TimeManage(); 
 #if defined(CPPTEST_USER_STUB_TimeManage)
-#line 505
+#line 1517
 int CppTest_Stub_TimeManage_TimeManage(void) 
 { 
 return 0; 
@@ -74758,7 +76498,7 @@ return 0;
 
 int TrainDoorHibProcess_A(); 
 #if defined(CPPTEST_USER_STUB_TrainDoorHibProcess_A)
-#line 512
+#line 1524
 int CppTest_Stub_TrainDoorHibProcess_A_TrainDoorHibProcess_A(void) 
 { 
 
@@ -74768,7 +76508,7 @@ return 0;
 
 INT8_T AddCirQueueData(CirQueueStruct_T * pCirQueueStru, const UINT8_T * pDataBuf, UINT32_T dataLen); 
 #if defined(CPPTEST_USER_STUB_AddCirQueueData)
-#line 520
+#line 1532
 INT8_T CppTest_Stub_AddCirQueueData_AddCirQueueData(CirQueueStruct_T *pCirQueueStru, const UINT8_T *pDataBuf, UINT32_T dataLen) 
 { 
 
@@ -74778,7 +76518,7 @@ return 0;
 
 INT8_T AddDevComQueueData(DevComCirQueueStruct_T * pCirQueueStru, const UINT8_T * pDataBuf, UINT32_T dataLen, UINT8_T destDevType, UINT32_T destDevId); 
 #if defined(CPPTEST_USER_STUB_AddDevComQueueData)
-#line 528
+#line 1540
 INT8_T CppTest_Stub_AddDevComQueueData_AddDevComQueueData(DevComCirQueueStruct_T *pCirQueueStru, const UINT8_T *pDataBuf, UINT32_T dataLen, UINT8_T destDevType, UINT32_T destDevId) 
 { 
 
@@ -74788,7 +76528,7 @@ return 0;
 
 PsdInfoStruct_T *GetPsdInfo(UINT8_T * psdNum); 
 #if defined(CPPTEST_USER_STUB_GetPsdInfo)
-#line 536
+#line 1548
 PsdInfoStruct_T *CppTest_Stub_GetPsdInfo_GetPsdInfo(UINT8_T *psdNum) 
 { 
 
@@ -74800,7 +76540,7 @@ return 0;
 
 UINT16_T GetStopSecIdByDevId(UINT32_T devId); 
 #if defined(CPPTEST_USER_STUB_GetStopSecIdByDevId)
-#line 546
+#line 1558
 UINT16_T CppTest_Stub_GetStopSecIdByDevId_GetStopSecIdByDevId(UINT32_T devId) 
 { 
 
@@ -74811,7 +76551,7 @@ return 0;
 
 UINT32_T GetAtpIdByVobcIdExt(const UINT32_T vobcExtDevId); 
 #if defined(CPPTEST_USER_STUB_GetAtpIdByVobcIdExt)
-#line 555
+#line 1567
 UINT32_T CppTest_Stub_GetAtpIdByVobcIdExt_GetAtpIdByVobcIdExt(const UINT32_T vobcExtDevId) 
 { 
 
@@ -74821,7 +76561,7 @@ return 0;
 
 UINT32_T GetAwakeCamTestTime(); 
 #if defined(CPPTEST_USER_STUB_GetAwakeCamTestTime)
-#line 563
+#line 1575
 UINT32_T CppTest_Stub_GetAwakeCamTestTime_GetAwakeCamTestTime(void) 
 { 
 
@@ -74832,7 +76572,7 @@ return 0;
 
 UINT32_T GetCirQueuePkgCount(const CirQueueStruct_T * pCirQueueStru); 
 #if defined(CPPTEST_USER_STUB_GetCirQueuePkgCount)
-#line 572
+#line 1584
 UINT32_T CppTest_Stub_GetCirQueuePkgCount_GetCirQueuePkgCount(const CirQueueStruct_T *pCirQueueStru) 
 { 
 
@@ -74843,7 +76583,7 @@ return 0;
 
 UINT32_T GetCirQueuePkgData(CirQueueStruct_T * pCirQueueStru, UINT8_T * pDataBuf, UINT32_T dataLen); 
 #if defined(CPPTEST_USER_STUB_GetCirQueuePkgData)
-#line 581
+#line 1593
 UINT32_T CppTest_Stub_GetCirQueuePkgData_GetCirQueuePkgData(CirQueueStruct_T *pCirQueueStru, UINT8_T *pDataBuf, UINT32_T dataLen) 
 { 
 
@@ -74854,7 +76594,7 @@ return 0;
 
 UINT32_T GetVobcIdExtByAtoId(UINT32_T atoDevId); 
 #if defined(CPPTEST_USER_STUB_GetVobcIdExtByAtoId)
-#line 590
+#line 1602
 UINT32_T CppTest_Stub_GetVobcIdExtByAtoId_GetVobcIdExtByAtoId(UINT32_T atoDevId) 
 { 
 
@@ -74865,7 +76605,7 @@ return 0;
 
 UINT32_T GetVobcIdExtByAtpId(UINT32_T atpDevId); 
 #if defined(CPPTEST_USER_STUB_GetVobcIdExtByAtpId)
-#line 599
+#line 1611
 UINT32_T CppTest_Stub_GetVobcIdExtByAtpId_GetVobcIdExtByAtpId(UINT32_T atpDevId) 
 { 
 
@@ -74876,7 +76616,7 @@ return 0;
 
 UINT32_T LDB_GetSegmentStartPosOffset(const UINT16_T segId, const UINT8_T dir); 
 #if defined(CPPTEST_USER_STUB_LDB_GetSegmentStartPosOffset)
-#line 608
+#line 1620
 UINT32_T CppTest_Stub_LDB_GetSegmentStartPosOffset_LDB_GetSegmentStartPosOffset(const UINT16_T segId, const UINT8_T dir) 
 { 
 
@@ -74887,7 +76627,7 @@ return 0;
 
 UINT8_T CalcAtpAddInfo(); 
 #if defined(CPPTEST_USER_STUB_CalcAtpAddInfo)
-#line 617
+#line 1629
 UINT8_T CppTest_Stub_CalcAtpAddInfo_CalcAtpAddInfo(void) 
 { 
 
@@ -74897,7 +76637,7 @@ return 0;
 
 UINT8_T CheckIsMAPassMinProtectSec(const UINT16_T stopPointId, const UINT16_T maEndSegId, const UINT32_T maEndSegOffset, const UINT8_T maRundir, const UINT32_T maxprotectLength, UINT8_T * isMaPassProtect); 
 #if defined(CPPTEST_USER_STUB_CheckIsMAPassMinProtectSec)
-#line 625
+#line 1637
 UINT8_T CppTest_Stub_CheckIsMAPassMinProtectSec_CheckIsMAPassMinProtectSec(const UINT16_T stopPointId, const UINT16_T maEndSegId, const UINT32_T maEndSegOffset, const UINT8_T maRundir, const UINT32_T maxprotectLength, UINT8_T *isMaPassProtect) 
 { 
 
@@ -74908,7 +76648,7 @@ return 0;
 
 UINT8_T CheckTrainHeadInStopSec(const UINT16_T segId, UINT8_T * isInStopSec, UINT16_T * stopSecId, UINT16_T * stopSecType); 
 #if defined(CPPTEST_USER_STUB_CheckTrainHeadInStopSec)
-#line 634
+#line 1646
 UINT8_T CppTest_Stub_CheckTrainHeadInStopSec_CheckTrainHeadInStopSec(const UINT16_T segId, UINT8_T *isInStopSec, UINT16_T *stopSecId, UINT16_T *stopSecType) 
 { 
 
@@ -74919,7 +76659,7 @@ return 0;
 
 UINT8_T CheckTrainInExitSec(const UINT16_T headSegId, const UINT32_T headSegOffset, const UINT16_T tailSegId, const UINT32_T tailSegOffset, const UINT8_T tailDir, UINT16_T * trainExitType); 
 #if defined(CPPTEST_USER_STUB_CheckTrainInExitSec)
-#line 643
+#line 1655
 UINT8_T CppTest_Stub_CheckTrainInExitSec_CheckTrainInExitSec(const UINT16_T headSegId, const UINT32_T headSegOffset, const UINT16_T tailSegId, const UINT32_T tailSegOffset, const UINT8_T tailDir, UINT16_T *trainExitType) 
 { 
 
@@ -74929,7 +76669,7 @@ return 0;
 
 UINT8_T GetAccessMaOfReverInfo(const UINT16_T headSegId, const UINT32_T headSegOffset, const UINT16_T maStartsegId, const UINT32_T maStartsegOffset, const UINT16_T maEndsegId, const UINT32_T maEndsegOffset, const UINT8_T maEnddir, UINT16_T * stopPointId, UINT8_T * stopPointType); 
 #if defined(CPPTEST_USER_STUB_GetAccessMaOfReverInfo)
-#line 651
+#line 1663
 UINT8_T CppTest_Stub_GetAccessMaOfReverInfo_GetAccessMaOfReverInfo(const UINT16_T headSegId, const UINT32_T headSegOffset, const UINT16_T maStartsegId, const UINT32_T maStartsegOffset, const UINT16_T maEndsegId, const UINT32_T maEndsegOffset, const UINT8_T maEnddir, UINT16_T *stopPointId, UINT8_T *stopPointType) 
 { 
 
@@ -74940,7 +76680,7 @@ return 0;
 
 UINT8_T GetBaliseIdLoc(const UINT32_T baliseId, UINT16_T * segId, UINT32_T * segOffset); 
 #if defined(CPPTEST_USER_STUB_GetBaliseIdLoc)
-#line 660
+#line 1672
 UINT8_T CppTest_Stub_GetBaliseIdLoc_GetBaliseIdLoc(const UINT32_T baliseId, UINT16_T *segId, UINT32_T *segOffset) 
 { 
 
@@ -74951,7 +76691,7 @@ return 0;
 
 UINT8_T GetLineLimit(const Location_T * headloc, const Location_T * tailLoc, const Location_T * maStartLoc, const Location_T * maEndLoc, UINT8_T * lmtObjectNumFront, LimitObjFront_T  pLmtObjFront[], UINT8_T * lmtObjectNumBetwn, LimitObjBetweenStruct_T * pLmtObjBtw, UINT8_T * objectNumFront, LimitObjFront_T  pObjFront[]); 
 #if defined(CPPTEST_USER_STUB_GetLineLimit)
-#line 669
+#line 1681
 UINT8_T CppTest_Stub_GetLineLimit_GetLineLimit(const Location_T *headloc, const Location_T *tailLoc, const Location_T *maStartLoc, const Location_T *maEndLoc, UINT8_T *lmtObjectNumFront, LimitObjFront_T pLmtObjFront[], UINT8_T *lmtObjectNumBetwn, LimitObjBetweenStruct_T *pLmtObjBtw, UINT8_T *objectNumFront, LimitObjFront_T pObjFront[]) 
 { 
 
@@ -74962,7 +76702,7 @@ return 0;
 
 UINT8_T GetNextPltBtwPoints(const UINT16_T segStartId, const UINT16_T segEndId, const UINT8_T dir, UINT16_T * PlatId); 
 #if defined(CPPTEST_USER_STUB_GetNextPltBtwPoints)
-#line 678
+#line 1690
 UINT8_T CppTest_Stub_GetNextPltBtwPoints_GetNextPltBtwPoints(const UINT16_T segStartId, const UINT16_T segEndId, const UINT8_T dir, UINT16_T *PlatId) 
 { 
 
@@ -74973,7 +76713,7 @@ return 0;
 
 UINT8_T GetObsInfoLoc(const UINT8_T obstableNum, ObstInfo_T  pObstInfo[]); 
 #if defined(CPPTEST_USER_STUB_GetObsInfoLoc)
-#line 687
+#line 1699
 UINT8_T CppTest_Stub_GetObsInfoLoc_GetObsInfoLoc(const UINT8_T obstableNum, ObstInfo_T pObstInfo[]) 
 { 
 
@@ -74984,7 +76724,7 @@ return 0;
 
 UINT8_T GetObstInfo(const Location_T * headloc, const Location_T * tailLoc, const Location_T * maStartLoc, const Location_T * maEndLoc, const UINT8_T maEndType, UINT8_T * lmtObjectNumFront, LimitObjFront_T  pLmtObjFront[], UINT8_T * lmtObjectNumBetwn, LimitObjBetweenStruct_T  pLmtObjBtw[], UINT32_T * distToMAEndPnt, UINT8_T * objectNumFront, LimitObjFront_T  pObjFront[]); 
 #if defined(CPPTEST_USER_STUB_GetObstInfo)
-#line 696
+#line 1708
 UINT8_T CppTest_Stub_GetObstInfo_GetObstInfo(const Location_T *headloc, const Location_T *tailLoc, const Location_T *maStartLoc, const Location_T *maEndLoc, const UINT8_T maEndType, UINT8_T *lmtObjectNumFront, LimitObjFront_T pLmtObjFront[], UINT8_T *lmtObjectNumBetwn, LimitObjBetweenStruct_T pLmtObjBtw[], UINT32_T *distToMAEndPnt, UINT8_T *objectNumFront, LimitObjFront_T pObjFront[]) 
 { 
 
@@ -74995,7 +76735,7 @@ return 0;
 
 UINT8_T GetOpgChannelNum(); 
 #if defined(CPPTEST_USER_STUB_GetOpgChannelNum)
-#line 705
+#line 1717
 UINT8_T CppTest_Stub_GetOpgChannelNum_GetOpgChannelNum(void) 
 { 
 
@@ -75006,7 +76746,7 @@ return 0;
 
 UINT8_T GetOpgConnectCfg(); 
 #if defined(CPPTEST_USER_STUB_GetOpgConnectCfg)
-#line 714
+#line 1726
 UINT8_T CppTest_Stub_GetOpgConnectCfg_GetOpgConnectCfg(void) 
 { 
 
@@ -75017,7 +76757,7 @@ return 0;
 
 UINT8_T GetOpgNum(); 
 #if defined(CPPTEST_USER_STUB_GetOpgNum)
-#line 723
+#line 1735
 UINT8_T CppTest_Stub_GetOpgNum_GetOpgNum(void) 
 { 
 
@@ -75028,7 +76768,7 @@ return 0;
 
 UINT8_T GetOpgType(); 
 #if defined(CPPTEST_USER_STUB_GetOpgType)
-#line 732
+#line 1744
 UINT8_T CppTest_Stub_GetOpgType_GetOpgType(void) 
 { 
 
@@ -75039,7 +76779,7 @@ return 0;
 
 UINT8_T GetReverseDir(UINT8_T oldDir); 
 #if defined(CPPTEST_USER_STUB_GetReverseDir)
-#line 741
+#line 1753
 UINT8_T CppTest_Stub_GetReverseDir_GetReverseDir(UINT8_T oldDir) 
 { 
 
@@ -75050,7 +76790,7 @@ return 0;
 
 UINT8_T GetSearchDoorOpreation(); 
 #if defined(CPPTEST_USER_STUB_GetSearchDoorOpreation)
-#line 750
+#line 1762
 UINT8_T CppTest_Stub_GetSearchDoorOpreation_GetSearchDoorOpreation(void) 
 { 
 
@@ -75061,7 +76801,7 @@ return 0;
 
 UINT8_T GetStaStopAreaPsdInfo(const UINT16_T StopAreaId, const UINT8_T TrainHeadDir, UINT32_T * ciDevName); 
 #if defined(CPPTEST_USER_STUB_GetStaStopAreaPsdInfo)
-#line 759
+#line 1771
 UINT8_T CppTest_Stub_GetStaStopAreaPsdInfo_GetStaStopAreaPsdInfo(const UINT16_T StopAreaId, const UINT8_T TrainHeadDir, UINT32_T *ciDevName) 
 { 
 
@@ -75072,7 +76812,7 @@ return 0;
 
 UINT8_T GetTeethNum(); 
 #if defined(CPPTEST_USER_STUB_GetTeethNum)
-#line 768
+#line 1780
 UINT8_T CppTest_Stub_GetTeethNum_GetTeethNum(void) 
 { 
 
@@ -75083,7 +76823,7 @@ return 0;
 
 UINT8_T GetTimeDiff(INT32_T * UpdatetimeDiff); 
 #if defined(CPPTEST_USER_STUB_GetTimeDiff)
-#line 777
+#line 1789
 UINT8_T CppTest_Stub_GetTimeDiff_GetTimeDiff(INT32_T *UpdatetimeDiff) 
 { 
 
@@ -75093,7 +76833,7 @@ return 0;
 
 UINT16_T GetTrainBelongCiType(); 
 #if defined(CPPTEST_USER_STUB_GetTrainBelongCiType)
-#line 785
+#line 1797
 UINT16_T CppTest_Stub_GetTrainBelongCiType_GetTrainBelongCiType(void) 
 { 
 
@@ -75104,7 +76844,7 @@ return 0;
 
 UINT8_T InitCirQueueData(CirQueueStruct_T * pCirQueueStru, UINT8_T len); 
 #if defined(CPPTEST_USER_STUB_InitCirQueueData)
-#line 794
+#line 1806
 UINT8_T CppTest_Stub_InitCirQueueData_InitCirQueueData(CirQueueStruct_T *pCirQueueStru, UINT8_T len) 
 { 
 
@@ -75115,7 +76855,7 @@ return 0;
 
 UINT8_T LDB_GetGradient(const UINT16_T headSegId, const UINT32_T headSegOffset, const UINT8_T headDir, const UINT16_T tailSegId, const UINT32_T tailsegOffset, const UINT8_T tailDir, INT32_T * Gradient); 
 #if defined(CPPTEST_USER_STUB_LDB_GetGradient)
-#line 803
+#line 1815
 UINT8_T CppTest_Stub_LDB_GetGradient_LDB_GetGradient(const UINT16_T headSegId, const UINT32_T headSegOffset, const UINT8_T headDir, const UINT16_T tailSegId, const UINT32_T tailsegOffset, const UINT8_T tailDir, INT32_T *Gradient) 
 { 
 
@@ -75126,7 +76866,7 @@ return 0;
 
 UINT8_T LDB_GetOperationDir(const UINT8_T dir, UINT8_T * operationDir); 
 #if defined(CPPTEST_USER_STUB_LDB_GetOperationDir)
-#line 812
+#line 1824
 UINT8_T CppTest_Stub_LDB_GetOperationDir_LDB_GetOperationDir(const UINT8_T dir, UINT8_T *operationDir) 
 { 
 
@@ -75137,7 +76877,7 @@ return 0;
 
 UINT8_T LDB_GetOspInAndDist(const UINT16_T headSegId, const UINT32_T headSegOffset, const UINT8_T headDir, const UINT16_T maEndSegId, const UINT32_T maEndSegOffset, const UINT8_T maEndDir, UINT8_T * ospFront, INT32_T * distToOSP); 
 #if defined(CPPTEST_USER_STUB_LDB_GetOspInAndDist)
-#line 821
+#line 1833
 UINT8_T CppTest_Stub_LDB_GetOspInAndDist_LDB_GetOspInAndDist(const UINT16_T headSegId, const UINT32_T headSegOffset, const UINT8_T headDir, const UINT16_T maEndSegId, const UINT32_T maEndSegOffset, const UINT8_T maEndDir, UINT8_T *ospFront, INT32_T *distToOSP) 
 { 
 
@@ -75147,7 +76887,7 @@ return 0;
 
 UINT8_T UpdateObjAndTlsStatus(const ObstInfo_T * obsInfoStru, const UINT8_T obsNum, const TSRInfo_T * tlsInfoStru, const UINT8_T tlsNum); 
 #if defined(CPPTEST_USER_STUB_UpdateObjAndTlsStatus)
-#line 829
+#line 1841
 UINT8_T CppTest_Stub_UpdateObjAndTlsStatus_UpdateObjAndTlsStatus(const ObstInfo_T *obsInfoStru, const UINT8_T obsNum, const TSRInfo_T *tlsInfoStru, const UINT8_T tlsNum) 
 { 
 
@@ -75158,7 +76898,7 @@ return 0;
 
 void AtpPeriodInit(); 
 #if defined(CPPTEST_USER_STUB_AtpPeriodInit)
-#line 838
+#line 1850
 void CppTest_Stub_AtpPeriodInit_AtpPeriodInit(void) 
 { 
 
@@ -75168,7 +76908,7 @@ void CppTest_Stub_AtpPeriodInit_AtpPeriodInit(void)
 
 void InitObjAndTlsStru(const UINT8_T value); 
 #if defined(CPPTEST_USER_STUB_InitObjAndTlsStru)
-#line 846
+#line 1858
 void CppTest_Stub_InitObjAndTlsStru_InitObjAndTlsStru(const UINT8_T value) 
 { 
 
@@ -75178,7 +76918,7 @@ void CppTest_Stub_InitObjAndTlsStru_InitObjAndTlsStru(const UINT8_T value)
 
 void InitPsdAndDoorStru(const UINT8_T value); 
 #if defined(CPPTEST_USER_STUB_InitPsdAndDoorStru)
-#line 854
+#line 1866
 void CppTest_Stub_InitPsdAndDoorStru_InitPsdAndDoorStru(const UINT8_T value) 
 { 
 
@@ -75188,7 +76928,7 @@ void CppTest_Stub_InitPsdAndDoorStru_InitPsdAndDoorStru(const UINT8_T value)
 
 DmuAtpData_T GetDmuAtpData(); 
 #if defined(CPPTEST_USER_STUB_GetDmuAtpData)
-#line 862
+#line 1874
 DmuAtpData_T CppTest_Stub_GetDmuAtpData_GetDmuAtpData(void) 
 { 
 
@@ -75199,7 +76939,7 @@ DmuAtpData_T CppTest_Stub_GetDmuAtpData_GetDmuAtpData(void)
 
 int BackProtection(); 
 #if defined(CPPTEST_USER_STUB_BackProtection)
-#line 871
+#line 1883
 int CppTest_Stub_BackProtection_BackProtection(void) 
 { 
 
@@ -75210,7 +76950,7 @@ return 0;
 
 int BaliseObsProtection(); 
 #if defined(CPPTEST_USER_STUB_BaliseObsProtection)
-#line 880
+#line 1892
 int CppTest_Stub_BaliseObsProtection_BaliseObsProtection(void) 
 { 
 
@@ -75221,7 +76961,7 @@ return 0;
 
 int BlocToCbtcInit(); 
 #if defined(CPPTEST_USER_STUB_BlocToCbtcInit)
-#line 889
+#line 1901
 int CppTest_Stub_BlocToCbtcInit_BlocToCbtcInit(void) 
 { 
 
@@ -75232,7 +76972,7 @@ return 0;
 
 int BrakeFailureProtection(); 
 #if defined(CPPTEST_USER_STUB_BrakeFailureProtection)
-#line 898
+#line 1910
 int CppTest_Stub_BrakeFailureProtection_BrakeFailureProtection(void) 
 { 
 
@@ -75243,7 +76983,7 @@ return 0;
 
 int CbtcExit(); 
 #if defined(CPPTEST_USER_STUB_CbtcExit)
-#line 907
+#line 1919
 int CppTest_Stub_CbtcExit_CbtcExit(void) 
 { 
 
@@ -75253,7 +76993,7 @@ return 0;
 
 int CtrlVobcReverseManage(); 
 #if defined(CPPTEST_USER_STUB_CtrlVobcReverseManage)
-#line 915
+#line 1927
 int CppTest_Stub_CtrlVobcReverseManage_CtrlVobcReverseManage(void) 
 { 
 
@@ -75263,7 +77003,7 @@ return 0;
 
 int CutOffTractionProcess(); 
 #if defined(CPPTEST_USER_STUB_CutOffTractionProcess)
-#line 923
+#line 1935
 int CppTest_Stub_CutOffTractionProcess_CutOffTractionProcess(void) 
 { 
 
@@ -75274,7 +77014,7 @@ return 0;
 
 int DerailmentProtection(); 
 #if defined(CPPTEST_USER_STUB_DerailmentProtection)
-#line 932
+#line 1944
 int CppTest_Stub_DerailmentProtection_DerailmentProtection(void) 
 { 
 
@@ -75285,7 +77025,7 @@ return 0;
 
 int DoubleCtrlCheck(); 
 #if defined(CPPTEST_USER_STUB_DoubleCtrlCheck)
-#line 941
+#line 1953
 int CppTest_Stub_DoubleCtrlCheck_DoubleCtrlCheck(void) 
 { 
 
@@ -75296,7 +77036,7 @@ return 0;
 
 int EBProcess(); 
 #if defined(CPPTEST_USER_STUB_EBProcess)
-#line 950
+#line 1962
 int CppTest_Stub_EBProcess_EBProcess(void) 
 { 
 
@@ -75306,7 +77046,7 @@ return 0;
 
 int EsbEbProtection(); 
 #if defined(CPPTEST_USER_STUB_EsbEbProtection)
-#line 958
+#line 1970
 int CppTest_Stub_EsbEbProtection_EsbEbProtection(void) 
 { 
 
@@ -75316,7 +77056,7 @@ return 0;
 
 int GetCamExitReason(); 
 #if defined(CPPTEST_USER_STUB_GetCamExitReason)
-#line 966
+#line 1978
 int CppTest_Stub_GetCamExitReason_GetCamExitReason(void) 
 { 
 
@@ -75326,7 +77066,7 @@ return 0;
 
 int GetEbReason(); 
 #if defined(CPPTEST_USER_STUB_GetEbReason)
-#line 974
+#line 1986
 int CppTest_Stub_GetEbReason_GetEbReason(void) 
 { 
 
@@ -75336,7 +77076,7 @@ return 0;
 
 int GetEbSyncActFaoReasonHigh(); 
 #if defined(CPPTEST_USER_STUB_GetEbSyncActFaoReasonHigh)
-#line 982
+#line 1994
 int CppTest_Stub_GetEbSyncActFaoReasonHigh_GetEbSyncActFaoReasonHigh(void) 
 { 
 
@@ -75346,7 +77086,7 @@ return 0;
 
 UINT32_T GetLocalDevIdByTrainID(UINT16_T TrainID, DevType_T devType); 
 #if defined(CPPTEST_USER_STUB_GetLocalDevIdByTrainID)
-#line 990
+#line 2002
 UINT32_T CppTest_Stub_GetLocalDevIdByTrainID_GetLocalDevIdByTrainID(UINT16_T TrainID, DevType_T devType) 
 { 
 
@@ -75356,7 +77096,7 @@ return 0;
 
 UINT32_T GetOtherDevIdByTrainID(UINT16_T TrainID, DevType_T devType); 
 #if defined(CPPTEST_USER_STUB_GetOtherDevIdByTrainID)
-#line 998
+#line 2010
 UINT32_T CppTest_Stub_GetOtherDevIdByTrainID_GetOtherDevIdByTrainID(UINT16_T TrainID, DevType_T devType) 
 { 
 
@@ -75367,9 +77107,79 @@ return 0;
 
 UINT8_T GetRunDrvMode(); 
 #if defined(CPPTEST_USER_STUB_GetRunDrvMode)
-#line 1007
+#line 2019
 UINT8_T CppTest_Stub_GetRunDrvMode_GetRunDrvMode(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_42") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_43")) 
+
+{ 
+return ((UINT8_T)2U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_44") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_45")) 
+
+{ 
+return ((UINT8_T)1U); 
+}  
+if (((CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_46") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_47")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_48")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_49")) 
+
+
+
+{ 
+return ((UINT8_T)3U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_41") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_50")) 
+
+{ 
+return 0U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_61")) 
+
+{ 
+++g_CheckJumpProtection61_GetRunDrvModeCalls; 
+if (1U == g_CheckJumpProtection61_GetRunDrvModeCalls) 
+{ 
+return 0U; 
+}  
+return ((UINT8_T)8U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_49")) 
+
+{ 
+return ((UINT8_T)3U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_50")) 
+
+{ 
+return ((UINT8_T)8U); 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return ((UINT8_T)7U); 
+}  
+if ((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_48") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_49")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_50")) 
+
+
+{ 
+return ((UINT8_T)7U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_51")) 
+{ 
+return ((UINT8_T)6U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_52") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_54")) 
+
+{ 
+return ((UINT8_T)1U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_53") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_55")) 
+
+{ 
+return ((UINT8_T)2U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_56")) 
+{ 
+return ((UINT8_T)8U); 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_NonActiveProcess_19")) 
 { 
 return ((UINT8_T)6U); 
@@ -76819,7 +78629,7 @@ if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_NonActiveProcess_9"))
 return ((UINT8_T)5U); 
 }  
 if (((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_14") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_15")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_16")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_17")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_18")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_19")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_20")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_21")) 
-#line 2466
+#line 3548
 { 
 return ((UINT8_T)7U); 
 }  
@@ -76933,9 +78743,72 @@ return (unsigned char)0;
 
 UINT8_T GetRunAtpMode(); 
 #if defined(CPPTEST_USER_STUB_GetRunAtpMode)
-#line 2578
+#line 3660
 UINT8_T CppTest_Stub_GetRunAtpMode_GetRunAtpMode(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_10")) 
+{ 
+++g_FamAutoReverse_GetRunAtpModeCalls; 
+return (UINT8_T)CONTROL_LOCAL_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_11")) 
+{ 
+++g_FamAutoReverse_GetRunAtpModeCalls; 
+return (UINT8_T)CONTROL_OPPO_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_12")) 
+{ 
+++g_FamAutoReverse_GetRunAtpModeCalls; 
+return (UINT8_T)IDLE_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8")) 
+{ 
+++g_FamAnyLocReverse_GetRunAtpModeCalls; 
+return (UINT8_T)CONTROL_LOCAL_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")) 
+{ 
+++g_FamAnyLocReverse_GetRunAtpModeCalls; 
+return (UINT8_T)CONTROL_OPPO_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10")) 
+{ 
+++g_FamAnyLocReverse_GetRunAtpModeCalls; 
+return (UINT8_T)IDLE_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_2")) 
+{ 
+++g_CtrlAutoChangeEnd_GetRunAtpModeCalls; 
+return (UINT8_T)CONTROL_LOCAL_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_3")) 
+{ 
+++g_CtrlAutoChangeEnd_GetRunAtpModeCalls; 
+return (UINT8_T)CONTROL_OPPO_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlAutoChangeEnd_4")) 
+{ 
+++g_CtrlAutoChangeEnd_GetRunAtpModeCalls; 
+return (UINT8_T)IDLE_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")) 
+{ 
+++g_AmAutoReverse_GetRunAtpModeCalls; 
+return (UINT8_T)CONTROL_LOCAL_ATP; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")) 
+{ 
+++g_AmAutoReverse_GetRunAtpModeCalls; 
+return (UINT8_T)CONTROL_OPPO_ATP; 
+}  
+if (((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16")) 
+
+
+
+{ 
+++g_AmAutoReverse_GetRunAtpModeCalls; 
+return (UINT8_T)IDLE_ATP; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_42")) 
 { 
 return (UINT8_T)CONTROL_LOCAL_ATP; 
@@ -77130,7 +79003,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaModeUpTagLast(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaModeUpTagLast)
-#line 2773
+#line 3918
 UINT8_T CppTest_Stub_GetInMeaModeUpTagLast_GetInMeaModeUpTagLast(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeControl_test_PreSetHighestMode_36")) 
@@ -77151,7 +79024,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaModeUpTag(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaModeUpTag)
-#line 2792
+#line 3937
 UINT8_T CppTest_Stub_GetInMeaModeUpTag_GetInMeaModeUpTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeControl_test_PreSetHighestMode_36")) 
@@ -77168,7 +79041,7 @@ return (unsigned char)0;
 
 UINT8_T GetRunPreModeIndex(); 
 #if defined(CPPTEST_USER_STUB_GetRunPreModeIndex)
-#line 2807
+#line 3952
 UINT8_T CppTest_Stub_GetRunPreModeIndex_GetRunPreModeIndex(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_19")) 
@@ -77193,7 +79066,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaModeDownTagLast(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaModeDownTagLast)
-#line 2830
+#line 3975
 UINT8_T CppTest_Stub_GetInMeaModeDownTagLast_GetInMeaModeDownTagLast(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeControl_test_PreSetHighestMode_39")) 
@@ -77214,7 +79087,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaModeDownTag(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaModeDownTag)
-#line 2849
+#line 3994
 UINT8_T CppTest_Stub_GetInMeaModeDownTag_GetInMeaModeDownTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeControl_test_PreSetHighestMode_39")) 
@@ -77231,7 +79104,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaAssureBtn(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaAssureBtn)
-#line 2864
+#line 4009
 UINT8_T CppTest_Stub_GetInMeaAssureBtn_GetInMeaAssureBtn(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMModeProcess_120")) 
@@ -77364,7 +79237,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaAssureBtnLast(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaAssureBtnLast)
-#line 2995
+#line 4140
 UINT8_T CppTest_Stub_GetInMeaAssureBtnLast_GetInMeaAssureBtnLast(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMModeProcess_120")) 
@@ -77473,7 +79346,7 @@ return (unsigned char)0;
 
 UINT8_T GetTrainLocalCabActive(); 
 #if defined(CPPTEST_USER_STUB_GetTrainLocalCabActive)
-#line 3102
+#line 4247
 UINT8_T CppTest_Stub_GetTrainLocalCabActive_GetTrainLocalCabActive(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_AMModeProcess_97")) 
@@ -78188,7 +80061,7 @@ return (unsigned char)0;
 
 UINT8_T GetTrainOppoCabActive(); 
 #if defined(CPPTEST_USER_STUB_GetTrainOppoCabActive)
-#line 3815
+#line 4960
 UINT8_T CppTest_Stub_GetTrainOppoCabActive_GetTrainOppoCabActive(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_NonActiveProcess_19")) 
@@ -78552,7 +80425,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaEUMTag(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaEUMTag)
-#line 4177
+#line 5322
 UINT8_T CppTest_Stub_GetInMeaEUMTag_GetInMeaEUMTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_NonActiveProcess_19")) 
@@ -78693,7 +80566,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaBrakeFailure(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaBrakeFailure)
-#line 4316
+#line 5461
 UINT8_T CppTest_Stub_GetInMeaBrakeFailure_GetInMeaBrakeFailure(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_ActiveProcess_23")) 
@@ -78750,7 +80623,7 @@ return (unsigned char)0;
 
 UINT8_T GetRunModeConverse(); 
 #if defined(CPPTEST_USER_STUB_GetRunModeConverse)
-#line 4371
+#line 5516
 UINT8_T CppTest_Stub_GetRunModeConverse_GetRunModeConverse(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_RDModeProcess_31")) 
@@ -78856,9 +80729,26 @@ return (unsigned char)0;
 
 UINT8_T GetRunPreMode(); 
 #if defined(CPPTEST_USER_STUB_GetRunPreMode)
-#line 4475
+#line 5620
 UINT8_T CppTest_Stub_GetRunPreMode_GetRunPreMode(void) 
 { 
+if ((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_52") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_62")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_1")) 
+
+
+{ 
+return 0U; 
+}  
+if ((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_53") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_58")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66")) 
+
+
+{ 
+return ((UINT8_T)6U); 
+}  
+if (((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_54") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_55")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_56")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_57")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_59")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_63")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_64")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_65")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0")) 
+#line 5646
+{ 
+return ((UINT8_T)5U); 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMModeProcess_123")) 
 { 
 return ((UINT8_T)6U); 
@@ -79253,7 +81143,7 @@ return (unsigned char)0;
 
 UINT8_T GetTrainLocalKeyActive(); 
 #if defined(CPPTEST_USER_STUB_GetTrainLocalKeyActive)
-#line 4870
+#line 6042
 UINT8_T CppTest_Stub_GetTrainLocalKeyActive_GetTrainLocalKeyActive(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_AMModeProcess_97")) 
@@ -79268,7 +81158,7 @@ if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMModeProcess_126"))
 { 
 return 85U; 
 }  
-#line 4903
+#line 6075
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMModeProcess_123")) 
 { 
 return 85U; 
@@ -79647,7 +81537,7 @@ return (unsigned char)0;
 
 UINT8_T GetTrainOppoKeyActive(); 
 #if defined(CPPTEST_USER_STUB_GetTrainOppoKeyActive)
-#line 5280
+#line 6452
 UINT8_T CppTest_Stub_GetTrainOppoKeyActive_GetTrainOppoKeyActive(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMModeProcess_120")) 
@@ -79836,9 +81726,27 @@ return (unsigned char)0;
 
 UINT8_T GetRunCtrlLevel(); 
 #if defined(CPPTEST_USER_STUB_GetRunCtrlLevel)
-#line 5467
+#line 6639
 UINT8_T CppTest_Stub_GetRunCtrlLevel_GetRunCtrlLevel(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_47")) 
+{ 
+return ((UINT8_T)1U); 
+}  
+if ((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_48") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_49")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_50")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_51")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_52")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_53")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_54")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_55")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_56")) 
+#line 6654
+{ 
+return ((UINT8_T)4U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_0")) 
+{ 
+return ((UINT8_T)1U); 
+}  
+if (((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_1") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_4")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_8")) 
+#line 6669
+{ 
+return ((UINT8_T)4U); 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_TacEbPrtFunc_01")) 
 { 
 return ((UINT8_T)1U); 
@@ -80305,7 +82213,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvAtoAMMode(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoAMMode)
-#line 5934
+#line 7137
 UINT8_T CppTest_Stub_GetRcvAtoAMMode_GetRcvAtoAMMode(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMModeProcess_123")) 
@@ -80418,7 +82326,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaADB(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaADB)
-#line 6045
+#line 7248
 UINT8_T CppTest_Stub_GetInMeaADB_GetInMeaADB(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Station_12")) 
@@ -80491,9 +82399,20 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaArBtn(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaArBtn)
-#line 6116
+#line 7319
 UINT8_T CppTest_Stub_GetInMeaArBtn_GetInMeaArBtn(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_5")) 
+{ 
+++g_AmCmManReverse_GetInMeaArBtnCalls; 
+return ((UINT8_T)170U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_6") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_7")) 
+
+{ 
+++g_AmCmManReverse_GetInMeaArBtnCalls; 
+return ((UINT8_T)85U); 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_74")) 
 { 
 return ((UINT8_T)85U); 
@@ -80548,7 +82467,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvAtoFaultTag(void); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoFaultTag)
-#line 6171
+#line 7385
 UINT8_T CppTest_Stub_GetRcvAtoFaultTag_GetRcvAtoFaultTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOInCheck_37")) 
@@ -80670,7 +82589,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvAtoBtnPressedAck(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoBtnPressedAck)
-#line 6291
+#line 7505
 UINT8_T CppTest_Stub_GetRcvAtoBtnPressedAck_GetRcvAtoBtnPressedAck(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMAMToARModeProcess_14")) 
@@ -80703,7 +82622,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtoStartConfirm(); 
 #if defined(CPPTEST_USER_STUB_GetAtoStartConfirm)
-#line 6322
+#line 7536
 UINT8_T CppTest_Stub_GetAtoStartConfirm_GetAtoStartConfirm(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_51")) 
@@ -80844,7 +82763,7 @@ return (unsigned char)0;
 
 UINT8_T GetRunCamEmpower(); 
 #if defined(CPPTEST_USER_STUB_GetRunCamEmpower)
-#line 6461
+#line 7675
 UINT8_T CppTest_Stub_GetRunCamEmpower_GetRunCamEmpower(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_27")) 
@@ -80861,7 +82780,7 @@ return (unsigned char)0;
 
 UINT8_T GetVehicleFireAlarm(); 
 #if defined(CPPTEST_USER_STUB_GetVehicleFireAlarm)
-#line 6476
+#line 7690
 UINT8_T CppTest_Stub_GetVehicleFireAlarm_GetVehicleFireAlarm(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Station_12")) 
@@ -80890,7 +82809,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvAtoFAMMode(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoFAMMode)
-#line 6503
+#line 7717
 UINT8_T CppTest_Stub_GetRcvAtoFAMMode_GetRcvAtoFAMMode(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
@@ -81139,7 +83058,7 @@ return (unsigned char)0;
 
 UINT8_T GetRunFamEmpower(); 
 #if defined(CPPTEST_USER_STUB_GetRunFamEmpower)
-#line 6750
+#line 7964
 UINT8_T CppTest_Stub_GetRunFamEmpower_GetRunFamEmpower(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Station_12")) 
@@ -81388,7 +83307,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvAtoLeaveTrainInfo(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoLeaveTrainInfo)
-#line 6997
+#line 8211
 UINT8_T CppTest_Stub_GetRcvAtoLeaveTrainInfo_GetRcvAtoLeaveTrainInfo(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
@@ -81661,9 +83580,96 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaDoorStatus(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaDoorStatus)
-#line 7268
+#line 8482
 UINT8_T CppTest_Stub_GetInMeaDoorStatus_GetInMeaDoorStatus(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_50")) 
+
+{ 
+return ((UINT8_T)85U); 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return ((UINT8_T)170U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_14")) 
+{ 
+++g_FamAutoReverse_GetInMeaDoorStatusCalls; 
+if (1U == g_FamAutoReverse_GetInMeaDoorStatusCalls) 
+{ 
+return ((UINT8_T)170U); 
+}  
+return ((UINT8_T)85U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_15")) 
+{ 
+++g_FamAutoReverse_GetInMeaDoorStatusCalls; 
+if (2U == g_FamAutoReverse_GetInMeaDoorStatusCalls) 
+{ 
+return ((UINT8_T)85U); 
+}  
+return ((UINT8_T)170U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_16")) 
+{ 
+++g_FamAutoReverse_GetInMeaDoorStatusCalls; 
+if (3U == g_FamAutoReverse_GetInMeaDoorStatusCalls) 
+{ 
+return ((UINT8_T)85U); 
+}  
+return ((UINT8_T)170U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_17")) 
+{ 
+++g_FamAutoReverse_GetInMeaDoorStatusCalls; 
+return ((UINT8_T)170U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_13")) 
+{ 
+++g_FamAutoReverse_GetInMeaDoorStatusCalls; 
+if (1U == g_FamAutoReverse_GetInMeaDoorStatusCalls) 
+{ 
+return ((UINT8_T)170U); 
+}  
+return ((UINT8_T)85U); 
+}  
+if ((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_5") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_10")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_11")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_12")) 
+
+
+
+
+{ 
+++g_FamAutoReverse_GetInMeaDoorStatusCalls; 
+return ((UINT8_T)85U); 
+}  
+if ((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_6") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_8")) 
+
+
+{ 
+++g_FamAutoReverse_GetInMeaDoorStatusCalls; 
+return ((UINT8_T)170U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_1")) 
+{ 
+return ((UINT8_T)85U); 
+}  
+if ((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_2") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_4")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10")) 
+#line 8563
+{ 
+return ((UINT8_T)170U); 
+}  
+if (((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16")) 
+#line 8572
+{ 
+++g_AmAutoReverse_GetInMeaDoorStatusCalls; 
+return ((UINT8_T)170U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")) 
+
+{ 
+++g_AmAutoReverse_GetInMeaDoorStatusCalls; 
+return ((UINT8_T)85U); 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
 { 
 return ((UINT8_T)170U); 
@@ -82069,7 +84075,7 @@ if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_ARModeProcess_27"))
 return ((UINT8_T)85U); 
 }  
 if (((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_71") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_72")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_73")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_18")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_20")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_21")) 
-#line 7681
+#line 8993
 { 
 return ((UINT8_T)170U); 
 }  
@@ -82216,7 +84222,7 @@ return (unsigned char)0;
 
 UINT8_T GetCarWashMode(); 
 #if defined(CPPTEST_USER_STUB_GetCarWashMode)
-#line 7826
+#line 9138
 UINT8_T CppTest_Stub_GetCarWashMode_GetCarWashMode(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
@@ -82477,7 +84483,7 @@ return (unsigned char)0;
 
 UINT8_T GetInFrontOfTheGarage(); 
 #if defined(CPPTEST_USER_STUB_GetInFrontOfTheGarage)
-#line 8085
+#line 9397
 UINT8_T CppTest_Stub_GetInFrontOfTheGarage_GetInFrontOfTheGarage(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_70")) 
@@ -82603,7 +84609,7 @@ return (unsigned char)0;
 
 UINT8_T GetAutoDepSigByPltID(const UINT32_T psdID); 
 #if defined(CPPTEST_USER_STUB_GetAutoDepSigByPltID)
-#line 8209
+#line 9521
 UINT8_T CppTest_Stub_GetAutoDepSigByPltID_GetAutoDepSigByPltID(const UINT32_T psdID) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_82")) 
@@ -82628,7 +84634,7 @@ return (unsigned char)0;
 
 UINT8_T GetIsFrontEndWashPoint(); 
 #if defined(CPPTEST_USER_STUB_GetIsFrontEndWashPoint)
-#line 8232
+#line 9544
 UINT8_T CppTest_Stub_GetIsFrontEndWashPoint_GetIsFrontEndWashPoint(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_72")) 
@@ -82653,7 +84659,7 @@ return (unsigned char)0;
 
 UINT8_T GetIsRearEndWashPoint(); 
 #if defined(CPPTEST_USER_STUB_GetIsRearEndWashPoint)
-#line 8255
+#line 9567
 UINT8_T CppTest_Stub_GetIsRearEndWashPoint_GetIsRearEndWashPoint(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_72")) 
@@ -82690,7 +84696,7 @@ return (unsigned char)0;
 
 UINT8_T GetFrontWashFinish(); 
 #if defined(CPPTEST_USER_STUB_GetFrontWashFinish)
-#line 8290
+#line 9602
 UINT8_T CppTest_Stub_GetFrontWashFinish_GetFrontWashFinish(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_88")) 
@@ -82731,7 +84737,7 @@ return (unsigned char)0;
 
 UINT8_T GetRearWashFinish(); 
 #if defined(CPPTEST_USER_STUB_GetRearWashFinish)
-#line 8329
+#line 9641
 UINT8_T CppTest_Stub_GetRearWashFinish_GetRearWashFinish(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_90")) 
@@ -82760,9 +84766,23 @@ return (unsigned char)0;
 
 UINT8_T GetMarshalTrainType(); 
 #if defined(CPPTEST_USER_STUB_GetMarshalTrainType)
-#line 8356
+#line 9668
 UINT8_T CppTest_Stub_GetMarshalTrainType_GetMarshalTrainType(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_2")) 
+
+{ 
+return 255U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_3")) 
+{ 
+return 204U; 
+}  
+if (((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_1") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_4")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10")) 
+#line 9687
+{ 
+return 221U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_NonActiveProcess_19")) 
 { 
 return 204U; 
@@ -82893,7 +84913,7 @@ return (unsigned char)0;
 
 UINT8_T GetMarshallingSide(); 
 #if defined(CPPTEST_USER_STUB_GetMarshallingSide)
-#line 8487
+#line 9819
 UINT8_T CppTest_Stub_GetMarshallingSide_GetMarshallingSide(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
@@ -82986,7 +85006,7 @@ return (unsigned char)0;
 
 UINT8_T GetMarshallingProcess(); 
 #if defined(CPPTEST_USER_STUB_GetMarshallingProcess)
-#line 8578
+#line 9910
 UINT8_T CppTest_Stub_GetMarshallingProcess_GetMarshallingProcess(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
@@ -83071,9 +85091,17 @@ return (unsigned char)0;
 
 UINT32_T GetSysEbLowRsn(); 
 #if defined(CPPTEST_USER_STUB_GetSysEbLowRsn)
-#line 8661
+#line 9993
 UINT32_T CppTest_Stub_GetSysEbLowRsn_GetSysEbLowRsn(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_1")) 
+{ 
+return 3U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_2")) 
+{ 
+return 2U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_69")) 
 { 
 return 32; 
@@ -83096,7 +85124,7 @@ return 0U;
 
 UINT8_T GetRcvCamStartConfirm(); 
 #if defined(CPPTEST_USER_STUB_GetRcvCamStartConfirm)
-#line 8684
+#line 10024
 UINT8_T CppTest_Stub_GetRcvCamStartConfirm_GetRcvCamStartConfirm(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CamModeProcess_18")) 
@@ -83129,7 +85157,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvCamBtnPressedAck(); 
 #if defined(CPPTEST_USER_STUB_GetRcvCamBtnPressedAck)
-#line 8715
+#line 10055
 UINT8_T CppTest_Stub_GetRcvCamBtnPressedAck_GetRcvCamBtnPressedAck(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CamModeProcess_11")) 
@@ -83142,7 +85170,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvCamAMMode(); 
 #if defined(CPPTEST_USER_STUB_GetRcvCamAMMode)
-#line 8726
+#line 10066
 UINT8_T CppTest_Stub_GetRcvCamAMMode_GetRcvCamAMMode(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CamModeProcess_18")) 
@@ -83171,7 +85199,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvCamLeaveTrainInfo(); 
 #if defined(CPPTEST_USER_STUB_GetRcvCamLeaveTrainInfo)
-#line 8753
+#line 10093
 UINT8_T CppTest_Stub_GetRcvCamLeaveTrainInfo_GetRcvCamLeaveTrainInfo(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CamModeProcess_13")) 
@@ -83184,7 +85212,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvCamParkingFlag(); 
 #if defined(CPPTEST_USER_STUB_GetRcvCamParkingFlag)
-#line 8764
+#line 10104
 UINT8_T CppTest_Stub_GetRcvCamParkingFlag_GetRcvCamParkingFlag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CamModeProcess_21")) 
@@ -83205,7 +85233,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaDirForwardBtn(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaDirForwardBtn)
-#line 8783
+#line 10123
 UINT8_T CppTest_Stub_GetInMeaDirForwardBtn_GetInMeaDirForwardBtn(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_CutTracFunc_11")) 
@@ -83346,7 +85374,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaDirBackBtn(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaDirBackBtn)
-#line 8922
+#line 10262
 UINT8_T CppTest_Stub_GetInMeaDirBackBtn_GetInMeaDirBackBtn(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_CutTracFunc_11")) 
@@ -83476,7 +85504,7 @@ return (unsigned char)0;
 
 UINT8_T GetTrainEbed(); 
 #if defined(CPPTEST_USER_STUB_GetTrainEbed)
-#line 9050
+#line 10390
 UINT8_T CppTest_Stub_GetTrainEbed_GetTrainEbed(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOInCheck_40")) 
@@ -83537,7 +85565,7 @@ return (unsigned char)0;
 
 UINT32_T GetSysCutTractionRsn(); 
 #if defined(CPPTEST_USER_STUB_GetSysCutTractionRsn)
-#line 9109
+#line 10449
 UINT32_T CppTest_Stub_GetSysCutTractionRsn_GetSysCutTractionRsn(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOInCheck_40")) 
@@ -83566,7 +85594,7 @@ return 0U;
 
 UINT8_T GetTrainOutEb(); 
 #if defined(CPPTEST_USER_STUB_GetTrainOutEb)
-#line 9136
+#line 10476
 UINT8_T CppTest_Stub_GetTrainOutEb_GetTrainOutEb(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOInCheck_40")) 
@@ -83599,7 +85627,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaTrainIntegrity(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaTrainIntegrity)
-#line 9167
+#line 10507
 UINT8_T CppTest_Stub_GetInMeaTrainIntegrity_GetInMeaTrainIntegrity(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TrainInteChkHandle_test_TrainIntegrityFunc")) 
@@ -83632,7 +85660,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaLocalCtrlHandleZero(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaLocalCtrlHandleZero)
-#line 9198
+#line 10538
 UINT8_T CppTest_Stub_GetInMeaLocalCtrlHandleZero_GetInMeaLocalCtrlHandleZero(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOExit2RMJuge_23")) 
@@ -83649,7 +85677,7 @@ return (unsigned char)0;
 
 UINT32_T GetPrtBackDist(); 
 #if defined(CPPTEST_USER_STUB_GetPrtBackDist)
-#line 9213
+#line 10553
 UINT32_T CppTest_Stub_GetPrtBackDist_GetPrtBackDist(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_40")) 
@@ -83718,7 +85746,7 @@ return 0U;
 
 UINT8_T GetInMeaEbStatus(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaEbStatus)
-#line 9280
+#line 10620
 UINT8_T CppTest_Stub_GetInMeaEbStatus_GetInMeaEbStatus(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_DerailPrtFunc_3")) 
@@ -83879,7 +85907,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvAtoDoorCtrlMode(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoDoorCtrlMode)
-#line 9439
+#line 10779
 UINT8_T CppTest_Stub_GetRcvAtoDoorCtrlMode_GetRcvAtoDoorCtrlMode(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Station_5")) 
@@ -83892,7 +85920,7 @@ return (unsigned char)0;
 
 UINT32_T GetSysAtpInputErrNo(); 
 #if defined(CPPTEST_USER_STUB_GetSysAtpInputErrNo)
-#line 9450
+#line 10790
 UINT32_T CppTest_Stub_GetSysAtpInputErrNo_GetSysAtpInputErrNo(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Revers_7")) 
@@ -83905,7 +85933,7 @@ return 0U;
 
 UINT8_T GetInMeaCutOffTraction(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaCutOffTraction)
-#line 9461
+#line 10801
 UINT8_T CppTest_Stub_GetInMeaCutOffTraction_GetInMeaCutOffTraction(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_CutTracFunc_0")) 
@@ -83918,7 +85946,7 @@ return (unsigned char)0;
 
 UINT8_T GetTrainOutCutOffTract(); 
 #if defined(CPPTEST_USER_STUB_GetTrainOutCutOffTract)
-#line 9472
+#line 10812
 UINT8_T CppTest_Stub_GetTrainOutCutOffTract_GetTrainOutCutOffTract(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_CutTracFunc_9")) 
@@ -83939,7 +85967,7 @@ return (unsigned char)0;
 
 UINT8_T GetPrtBackEnableTag(); 
 #if defined(CPPTEST_USER_STUB_GetPrtBackEnableTag)
-#line 9491
+#line 10831
 UINT8_T CppTest_Stub_GetPrtBackEnableTag_GetPrtBackEnableTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_CutTracFunc_11")) 
@@ -84000,9 +86028,17 @@ return (unsigned char)0;
 
 UINT32_T GetSysEbHighRsn(); 
 #if defined(CPPTEST_USER_STUB_GetSysEbHighRsn)
-#line 9550
+#line 10890
 UINT32_T CppTest_Stub_GetSysEbHighRsn_GetSysEbHighRsn(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_3")) 
+{ 
+return 3U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_4")) 
+{ 
+return 2U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_EBProcFunc_1")) 
 { 
 return 1; 
@@ -84013,9 +86049,17 @@ return 0U;
 
 UINT32_T GetSysEbFaoLowRsn(); 
 #if defined(CPPTEST_USER_STUB_GetSysEbFaoLowRsn)
-#line 9561
+#line 10909
 UINT32_T CppTest_Stub_GetSysEbFaoLowRsn_GetSysEbFaoLowRsn(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_5")) 
+{ 
+return 3U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_6")) 
+{ 
+return 2U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_EBProcFunc_3")) 
 { 
 return 1; 
@@ -84026,9 +86070,17 @@ return 0U;
 
 UINT32_T GetSysEbFaoHighRsn(); 
 #if defined(CPPTEST_USER_STUB_GetSysEbFaoHighRsn)
-#line 9572
+#line 10928
 UINT32_T CppTest_Stub_GetSysEbFaoHighRsn_GetSysEbFaoHighRsn(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_7")) 
+{ 
+return 3U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_8")) 
+{ 
+return 2U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_EBProcFunc_4")) 
 { 
 return 1; 
@@ -84036,12 +86088,89 @@ return 1;
 return 0U; 
 } 
 #endif
+UINT32_T g_RelieveEbReason_SetCalls; 
+UINT8_T g_RelieveEbReason_SetType; 
+UINT32_T g_RelieveEbReason_SetValue; 
+
+void ResetRelieveEbReasonStubSpy(void) 
+{ 
+g_RelieveEbReason_SetCalls = 0U; 
+g_RelieveEbReason_SetType = 0U; 
+g_RelieveEbReason_SetValue = 0U; 
+} 
+
+void SetSysEbLowRsn(const UINT32_T ebLowRsn); 
+#if defined(CPPTEST_USER_STUB_SetSysEbLowRsn)
+#line 10957
+void CppTest_Stub_SetSysEbLowRsn_SetSysEbLowRsn(const UINT32_T ebLowRsn) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_1") || CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_2")) 
+
+{ 
+++g_RelieveEbReason_SetCalls; 
+g_RelieveEbReason_SetType = (1U); 
+g_RelieveEbReason_SetValue = ebLowRsn; 
+}  
+} 
+#endif
+void SetSysEbHighRsn(const UINT32_T ebHighRsn); 
+#if defined(CPPTEST_USER_STUB_SetSysEbHighRsn)
+#line 10969
+void CppTest_Stub_SetSysEbHighRsn_SetSysEbHighRsn(const UINT32_T ebHighRsn) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_3") || CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_4")) 
+
+{ 
+++g_RelieveEbReason_SetCalls; 
+g_RelieveEbReason_SetType = (2U); 
+g_RelieveEbReason_SetValue = ebHighRsn; 
+}  
+} 
+#endif
+void SetSysEbFaoLowRsn(const UINT32_T ebFaoLowRsn); 
+#if defined(CPPTEST_USER_STUB_SetSysEbFaoLowRsn)
+#line 10981
+void CppTest_Stub_SetSysEbFaoLowRsn_SetSysEbFaoLowRsn(const UINT32_T ebFaoLowRsn) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_5") || CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_6")) 
+
+{ 
+++g_RelieveEbReason_SetCalls; 
+g_RelieveEbReason_SetType = (3U); 
+g_RelieveEbReason_SetValue = ebFaoLowRsn; 
+}  
+} 
+#endif
+void SetSysEbFaoHighRsn(const UINT32_T ebFaoHighRsn); 
+#if defined(CPPTEST_USER_STUB_SetSysEbFaoHighRsn)
+#line 10993
+void CppTest_Stub_SetSysEbFaoHighRsn_SetSysEbFaoHighRsn(const UINT32_T ebFaoHighRsn) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_7") || CppTest_IsCurrentTestCase("TestSuite_EbAndCutOffTrackOut_test_RelieveEbReason_8")) 
+
+{ 
+++g_RelieveEbReason_SetCalls; 
+g_RelieveEbReason_SetType = (4U); 
+g_RelieveEbReason_SetValue = ebFaoHighRsn; 
+}  
+} 
+#endif
 
 UINT8_T GetInMeaArBtnLast(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaArBtnLast)
-#line 9583
+#line 11006
 UINT8_T CppTest_Stub_GetInMeaArBtnLast_GetInMeaArBtnLast(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_6")) 
+{ 
+++g_AmCmManReverse_GetInMeaArBtnLastCalls; 
+return ((UINT8_T)85U); 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_7")) 
+{ 
+++g_AmCmManReverse_GetInMeaArBtnLastCalls; 
+return ((UINT8_T)170U); 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_74")) 
 { 
 return ((UINT8_T)170U); 
@@ -84068,11 +86197,11 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaAtoRelease(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaAtoRelease)
-#line 9610
+#line 11043
 UINT8_T CppTest_Stub_GetInMeaAtoRelease_GetInMeaAtoRelease(void) 
 { 
 if ((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_67") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_68")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_69")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_70")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_71")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_72")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVOBCEnterAR_73")) 
-#line 9620
+#line 11053
 { 
 return ((UINT8_T)170U); 
 }  
@@ -84122,7 +86251,7 @@ return (unsigned char)0;
 
 UINT8_T GetCabChangeTag(); 
 #if defined(CPPTEST_USER_STUB_GetCabChangeTag)
-#line 9668
+#line 11101
 UINT8_T CppTest_Stub_GetCabChangeTag_GetCabChangeTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_IdleRevFunc_32")) 
@@ -84183,7 +86312,7 @@ return (unsigned char)0;
 
 UINT8_T GetRunOppoDrvMode(); 
 #if defined(CPPTEST_USER_STUB_GetRunOppoDrvMode)
-#line 9727
+#line 11160
 UINT8_T CppTest_Stub_GetRunOppoDrvMode_GetRunOppoDrvMode(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_IdleRevFunc_38")) 
@@ -84292,7 +86421,7 @@ return (unsigned char)0;
 
 UINT8_T GetRunOppoCtrlLevel(); 
 #if defined(CPPTEST_USER_STUB_GetRunOppoCtrlLevel)
-#line 9834
+#line 11267
 UINT8_T CppTest_Stub_GetRunOppoCtrlLevel_GetRunOppoCtrlLevel(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_IdleRevFunc_36")) 
@@ -84385,11 +86514,11 @@ return (unsigned char)0;
 
 UINT32_T GetLocalDevIdByTrainDevID(UINT32_T trainDevId, DevType_T devType); 
 #if defined(CPPTEST_USER_STUB_GetLocalDevIdByTrainDevID)
-#line 9925
+#line 11358
 UINT32_T CppTest_Stub_GetLocalDevIdByTrainDevID_GetLocalDevIdByTrainDevID(UINT32_T trainDevId, DevType_T devType) 
 { 
 UINT32_T __return = 0U; 
-#line 9944
+#line 11377
 CPPTEST_CALL_STUB_CALLBACK("GetLocalDevIdByTrainDevID", &__return, trainDevId, devType); 
 
 return __return; 
@@ -84398,11 +86527,11 @@ return __return;
 
 UINT32_T GetOtherDevIdByTrainDevID(UINT32_T trainDevId, DevType_T devType); 
 #if defined(CPPTEST_USER_STUB_GetOtherDevIdByTrainDevID)
-#line 9951
+#line 11384
 UINT32_T CppTest_Stub_GetOtherDevIdByTrainDevID_GetOtherDevIdByTrainDevID(UINT32_T trainDevId, DevType_T devType) 
 { 
 UINT32_T __return = 0U; 
-#line 9970
+#line 11403
 CPPTEST_CALL_STUB_CALLBACK("GetOtherDevIdByTrainDevID", &__return, trainDevId, devType); 
 
 return __return; 
@@ -84411,11 +86540,11 @@ return __return;
 
 UINT32_T GetStopSecDevIdByIdxId(UINT16_T id); 
 #if defined(CPPTEST_USER_STUB_GetStopSecDevIdByIdxId)
-#line 9977
+#line 11410
 UINT32_T CppTest_Stub_GetStopSecDevIdByIdxId_GetStopSecDevIdByIdxId(UINT16_T id) 
 { 
 UINT32_T __return = 0U; 
-#line 9996
+#line 11429
 CPPTEST_CALL_STUB_CALLBACK("GetStopSecDevIdByIdxId", &__return, id); 
 
 return __return; 
@@ -84425,7 +86554,7 @@ return __return;
 
 UINT8_T GetPrtBackSpaceCpsTag(); 
 #if defined(CPPTEST_USER_STUB_GetPrtBackSpaceCpsTag)
-#line 10004
+#line 11437
 UINT8_T CppTest_Stub_GetPrtBackSpaceCpsTag_GetPrtBackSpaceCpsTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_39")) 
@@ -84567,7 +86696,7 @@ return (unsigned char)0;
 
 UINT32_T GetPrtBackPrtDist(); 
 #if defined(CPPTEST_USER_STUB_GetPrtBackPrtDist)
-#line 10144
+#line 11577
 UINT32_T CppTest_Stub_GetPrtBackPrtDist_GetPrtBackPrtDist(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_40")) 
@@ -84588,7 +86717,7 @@ return 0U;
 
 UINT32_T GetTrainPeriodDis(); 
 #if defined(CPPTEST_USER_STUB_GetTrainPeriodDis)
-#line 10163
+#line 11596
 UINT32_T CppTest_Stub_GetTrainPeriodDis_GetTrainPeriodDis(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_39")) 
@@ -84605,7 +86734,7 @@ return 0U;
 
 UINT32_T GetRcvAtoOpWarning(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoOpWarning)
-#line 10178
+#line 11611
 UINT32_T CppTest_Stub_GetRcvAtoOpWarning_GetRcvAtoOpWarning(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_vStopSupervision_5")) 
@@ -84622,9 +86751,18 @@ return 0U;
 
 UINT8_T GetInMeaEsbBtn(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaEsbBtn)
-#line 10193
+#line 11626
 UINT8_T CppTest_Stub_GetInMeaEsbBtn_GetInMeaEsbBtn(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_55")) 
+
+{ 
+return 85U; 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return 170U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_18")) 
 { 
 return 85U; 
@@ -84783,7 +86921,7 @@ return (unsigned char)0;
 
 UINT16_T GetRcvAtoRecommendedSpeed(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoRecommendedSpeed)
-#line 10352
+#line 11794
 UINT16_T CppTest_Stub_GetRcvAtoRecommendedSpeed_GetRcvAtoRecommendedSpeed(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_AtoRecommendSpeedProtect_1")) 
@@ -84796,7 +86934,7 @@ return (unsigned short)0;
 
 UINT8_T GetPrtJumpSta(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpSta)
-#line 10363
+#line 11805
 UINT8_T CppTest_Stub_GetPrtJumpSta_GetPrtJumpSta(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_84")) 
@@ -84921,7 +87059,7 @@ return (unsigned char)0;
 
 UINT32_T GetPrtRollDist(); 
 #if defined(CPPTEST_USER_STUB_GetPrtRollDist)
-#line 10486
+#line 11928
 UINT32_T CppTest_Stub_GetPrtRollDist_GetPrtRollDist(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_RollPrtFunc_11")) 
@@ -84938,7 +87076,7 @@ return 0U;
 
 UINT8_T GetPrtRollStateTag(); 
 #if defined(CPPTEST_USER_STUB_GetPrtRollStateTag)
-#line 10501
+#line 11943
 UINT8_T CppTest_Stub_GetPrtRollStateTag_GetPrtRollStateTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_OverSpdFunc_10")) 
@@ -84975,7 +87113,7 @@ return (unsigned char)0;
 
 UINT8_T GetPrtRollSpaceCpsTag(); 
 #if defined(CPPTEST_USER_STUB_GetPrtRollSpaceCpsTag)
-#line 10536
+#line 11978
 UINT8_T CppTest_Stub_GetPrtRollSpaceCpsTag_GetPrtRollSpaceCpsTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_OverSpdFunc_8")) 
@@ -85024,7 +87162,7 @@ return (unsigned char)0;
 
 UINT8_T GetPrtBackStateTagLast(); 
 #if defined(CPPTEST_USER_STUB_GetPrtBackStateTagLast)
-#line 10583
+#line 12025
 UINT8_T CppTest_Stub_GetPrtBackStateTagLast_GetPrtBackStateTagLast(void) 
 { 
 
@@ -85034,7 +87172,7 @@ return (unsigned char)0;
 
 UINT8_T GetPrtBackStateTag(); 
 #if defined(CPPTEST_USER_STUB_GetPrtBackStateTag)
-#line 10591
+#line 12033
 UINT8_T CppTest_Stub_GetPrtBackStateTag_GetPrtBackStateTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_OverSpdFunc_10")) 
@@ -85091,9 +87229,18 @@ return (unsigned char)0;
 
 UINT8_T GetPrtJumpReq(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpReq)
-#line 10646
+#line 12088
 UINT8_T CppTest_Stub_GetPrtJumpReq_GetPrtJumpReq(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_57")) 
+
+{ 
+return 170U; 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return 85U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_30")) 
 { 
 return 170U; 
@@ -85184,7 +87331,7 @@ return (unsigned char)0;
 
 UINT8_T GetPrtJumpParkingFlg(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpParkingFlg)
-#line 10737
+#line 12188
 UINT8_T CppTest_Stub_GetPrtJumpParkingFlg_GetPrtJumpParkingFlg(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_89")) 
@@ -85286,7 +87433,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaRightDoorStatus(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaRightDoorStatus)
-#line 10837
+#line 12288
 UINT8_T CppTest_Stub_GetInMeaRightDoorStatus_GetInMeaRightDoorStatus(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_19")) 
@@ -85327,7 +87474,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaLeftDoorStatus(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaLeftDoorStatus)
-#line 10876
+#line 12327
 UINT8_T CppTest_Stub_GetInMeaLeftDoorStatus_GetInMeaLeftDoorStatus(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_19")) 
@@ -85364,7 +87511,7 @@ return (unsigned char)0;
 
 UINT8_T GetPrtJumpDir(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpDir)
-#line 10911
+#line 12362
 UINT8_T CppTest_Stub_GetPrtJumpDir_GetPrtJumpDir(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_62")) 
@@ -85413,7 +87560,7 @@ return (unsigned char)0;
 
 UINT8_T GetForwardBackFlag(void); 
 #if defined(CPPTEST_USER_STUB_GetForwardBackFlag)
-#line 10958
+#line 12409
 UINT8_T CppTest_Stub_GetForwardBackFlag_GetForwardBackFlag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_62")) 
@@ -85458,7 +87605,7 @@ return (unsigned char)0;
 
 UINT32_T GetPrtJumpPrtDist(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpPrtDist)
-#line 11001
+#line 12452
 UINT32_T CppTest_Stub_GetPrtJumpPrtDist_GetPrtJumpPrtDist(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_90")) 
@@ -85495,7 +87642,7 @@ return 0U;
 
 INT32_T GetPrtJumpDist(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpDist)
-#line 11036
+#line 12487
 INT32_T CppTest_Stub_GetPrtJumpDist_GetPrtJumpDist(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_90")) 
@@ -85532,7 +87679,7 @@ return 0;
 
 UINT8_T GetPrtjumpTimesBack(); 
 #if defined(CPPTEST_USER_STUB_GetPrtjumpTimesBack)
-#line 11071
+#line 12522
 UINT8_T CppTest_Stub_GetPrtjumpTimesBack_GetPrtjumpTimesBack(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_34")) 
@@ -85553,7 +87700,7 @@ return (unsigned char)0;
 
 UINT8_T GetPrtJumpTimes(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpTimes)
-#line 11090
+#line 12541
 UINT8_T CppTest_Stub_GetPrtJumpTimes_GetPrtJumpTimes(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_34")) 
@@ -85574,7 +87721,7 @@ return (unsigned char)0;
 
 UINT8_T GetTrainLOCHMaxDir(); 
 #if defined(CPPTEST_USER_STUB_GetTrainLOCHMaxDir)
-#line 11109
+#line 12560
 UINT8_T CppTest_Stub_GetTrainLOCHMaxDir_GetTrainLOCHMaxDir(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JudgeTrainDoorEscSide_10")) 
@@ -85623,7 +87770,7 @@ return (unsigned char)0;
 
 UINT8_T GetCcuResetCmd(); 
 #if defined(CPPTEST_USER_STUB_GetCcuResetCmd)
-#line 11156
+#line 12607
 UINT8_T CppTest_Stub_GetCcuResetCmd_GetCcuResetCmd(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CcuResetFunc_03")) 
@@ -85700,7 +87847,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaBrakeHoldStatus(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaBrakeHoldStatus)
-#line 11231
+#line 12682
 UINT8_T CppTest_Stub_GetInMeaBrakeHoldStatus_GetInMeaBrakeHoldStatus(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CcuResetCmdProcess_10")) 
@@ -85737,7 +87884,7 @@ return (unsigned char)0;
 
 UINT8_T GetIsOutputCcuResetCmdFlag(void); 
 #if defined(CPPTEST_USER_STUB_GetIsOutputCcuResetCmdFlag)
-#line 11266
+#line 12717
 UINT8_T CppTest_Stub_GetIsOutputCcuResetCmdFlag_GetIsOutputCcuResetCmdFlag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CcuResetFunc_07")) 
@@ -85762,7 +87909,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaDoorUnlocking(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaDoorUnlocking)
-#line 11289
+#line 12740
 UINT8_T CppTest_Stub_GetInMeaDoorUnlocking_GetInMeaDoorUnlocking(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_DoorHibFunc_001")) 
@@ -85831,7 +87978,7 @@ return (unsigned char)0;
 
 UINT8_T JudgeTrainDoorEscSide(UINT8_T Doorside); 
 #if defined(CPPTEST_USER_STUB_JudgeTrainDoorEscSide)
-#line 11356
+#line 12807
 UINT8_T CppTest_Stub_JudgeTrainDoorEscSide_JudgeTrainDoorEscSide(UINT8_T Doorside) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_DoorHibFunc_001")) 
@@ -85874,7 +88021,7 @@ return (unsigned char)0;
 
 UINT8_T GetTrainDoorHbiCmd(); 
 #if defined(CPPTEST_USER_STUB_GetTrainDoorHbiCmd)
-#line 11397
+#line 12848
 UINT8_T CppTest_Stub_GetTrainDoorHbiCmd_GetTrainDoorHbiCmd(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_DoorHibFunc_001")) 
@@ -85967,7 +88114,7 @@ FaoWashTraInfoStruct_T carwash_0 = {(0)};
 FaoWashTraInfoStruct_T _MT_svar2 = {(0)}; 
 FaoWashTraInfoStruct_T GetWashTrainModeInfo(void); 
 #if defined(CPPTEST_USER_STUB_GetWashTrainModeInfo)
-#line 11488
+#line 12939
 FaoWashTraInfoStruct_T CppTest_Stub_GetWashTrainModeInfo_GetWashTrainModeInfo(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_45")) 
@@ -86298,7 +88445,7 @@ return _MT_svar2;
 
 UINT8_T GetWashCmd(void); 
 #if defined(CPPTEST_USER_STUB_GetWashCmd)
-#line 11817
+#line 13268
 UINT8_T CppTest_Stub_GetWashCmd_GetWashCmd(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_44")) 
@@ -86467,7 +88614,7 @@ return (unsigned char)0;
 
 UINT16_T GetRequestTimerCount(void); 
 #if defined(CPPTEST_USER_STUB_GetRequestTimerCount)
-#line 11984
+#line 13435
 UINT16_T CppTest_Stub_GetRequestTimerCount_GetRequestTimerCount(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_47")) 
@@ -86508,7 +88655,7 @@ return (unsigned short)0;
 
 UINT8_T GetWiperCenteringFeedback(); 
 #if defined(CPPTEST_USER_STUB_GetWiperCenteringFeedback)
-#line 12023
+#line 13474
 UINT8_T CppTest_Stub_GetWiperCenteringFeedback_GetWiperCenteringFeedback(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_53")) 
@@ -86594,7 +88741,7 @@ return (unsigned char)0;
 
 UINT8_T GetLastFrontWashing(void); 
 #if defined(CPPTEST_USER_STUB_GetLastFrontWashing)
-#line 12107
+#line 13558
 UINT8_T CppTest_Stub_GetLastFrontWashing_GetLastFrontWashing(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_39")) 
@@ -86611,7 +88758,7 @@ return (unsigned char)0;
 
 UINT8_T GetLastRearWashing(void); 
 #if defined(CPPTEST_USER_STUB_GetLastRearWashing)
-#line 12122
+#line 13573
 UINT8_T CppTest_Stub_GetLastRearWashing_GetLastRearWashing(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_39")) 
@@ -86628,7 +88775,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaLocalKey(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaLocalKey)
-#line 12137
+#line 13588
 UINT8_T CppTest_Stub_GetInMeaLocalKey_GetInMeaLocalKey(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_39")) 
@@ -86649,7 +88796,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaOppoKey(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaOppoKey)
-#line 12156
+#line 13607
 UINT8_T CppTest_Stub_GetInMeaOppoKey_GetInMeaOppoKey(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_39")) 
@@ -86666,7 +88813,7 @@ return (unsigned char)0;
 
 UINT8_T CheckLeaveCarWashArea(const UINT32_T washDevId, const UINT8_T dir); 
 #if defined(CPPTEST_USER_STUB_CheckLeaveCarWashArea)
-#line 12171
+#line 13622
 UINT8_T CppTest_Stub_CheckLeaveCarWashArea_CheckLeaveCarWashArea(const UINT32_T washDevId, const UINT8_T dir) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_39")) 
@@ -86683,7 +88830,7 @@ return (unsigned char)0;
 
 UINT16_T GetTrainLOCTMinSegId(); 
 #if defined(CPPTEST_USER_STUB_GetTrainLOCTMinSegId)
-#line 12186
+#line 13637
 UINT16_T CppTest_Stub_GetTrainLOCTMinSegId_GetTrainLOCTMinSegId(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckLeaveCarWashArea_2")) 
@@ -86717,7 +88864,7 @@ return (unsigned short)0;
 
 UINT8_T GetNextSegId(UINT16_T segId, UINT8_T dir, UINT16_T * nextSegId); 
 #if defined(CPPTEST_USER_STUB_GetNextSegId)
-#line 12218
+#line 13669
 UINT8_T CppTest_Stub_GetNextSegId_GetNextSegId(UINT16_T segId, UINT8_T dir, UINT16_T *nextSegId) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckLeaveCarWashArea_2")) 
@@ -86738,7 +88885,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvAtoDerailmentStatus(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoDerailmentStatus)
-#line 12237
+#line 13688
 UINT8_T CppTest_Stub_GetRcvAtoDerailmentStatus_GetRcvAtoDerailmentStatus(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_DerailPrtFunc_2")) 
@@ -86831,7 +88978,7 @@ return (unsigned char)0;
 
 UINT8_T GetInInttCouplStopPnt(); 
 #if defined(CPPTEST_USER_STUB_GetInInttCouplStopPnt)
-#line 12328
+#line 13779
 UINT8_T CppTest_Stub_GetInInttCouplStopPnt_GetInInttCouplStopPnt(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_64")) 
@@ -86857,7 +89004,7 @@ return (unsigned char)0;
 
 UINT8_T GetMarMidSideEHookConSttsLst(); 
 #if defined(CPPTEST_USER_STUB_GetMarMidSideEHookConSttsLst)
-#line 12352
+#line 13803
 UINT8_T CppTest_Stub_GetMarMidSideEHookConSttsLst_GetMarMidSideEHookConSttsLst(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Station_8")) 
@@ -86878,7 +89025,7 @@ return (unsigned char)0;
 
 UINT8_T GetMarMidSideEHookConStts(); 
 #if defined(CPPTEST_USER_STUB_GetMarMidSideEHookConStts)
-#line 12371
+#line 13822
 UINT8_T CppTest_Stub_GetMarMidSideEHookConStts_GetMarMidSideEHookConStts(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_NonActiveProcess_20")) 
@@ -86919,7 +89066,7 @@ return (unsigned char)0;
 
 UINT8_T GetIsRetainMarshalArea(); 
 #if defined(CPPTEST_USER_STUB_GetIsRetainMarshalArea)
-#line 12410
+#line 13861
 UINT8_T CppTest_Stub_GetIsRetainMarshalArea_GetIsRetainMarshalArea(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Station_8")) 
@@ -86940,7 +89087,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaLocalECoupConSta(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaLocalECoupConSta)
-#line 12429
+#line 13880
 UINT8_T CppTest_Stub_GetInMeaLocalECoupConSta_GetInMeaLocalECoupConSta(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_EBProcFunc_11")) 
@@ -86965,7 +89112,7 @@ return (unsigned char)0;
 
 UINT8_T GetInMeaLocalECoupConStaLast(); 
 #if defined(CPPTEST_USER_STUB_GetInMeaLocalECoupConStaLast)
-#line 12452
+#line 13903
 UINT8_T CppTest_Stub_GetInMeaLocalECoupConStaLast_GetInMeaLocalECoupConStaLast(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_EBProcFunc_11")) 
@@ -86982,7 +89129,7 @@ return (unsigned char)0;
 
 UINT16_T GetMarEHookSttsChngTimer(); 
 #if defined(CPPTEST_USER_STUB_GetMarEHookSttsChngTimer)
-#line 12467
+#line 13918
 UINT16_T CppTest_Stub_GetMarEHookSttsChngTimer_GetMarEHookSttsChngTimer(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FamExitCamCheck_31")) 
@@ -87051,7 +89198,7 @@ return (unsigned short)0;
 
 UINT8_T GetRcvAtoStartConfirm(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoStartConfirm)
-#line 12534
+#line 13985
 UINT8_T CppTest_Stub_GetRcvAtoStartConfirm_GetRcvAtoStartConfirm(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FamExitCmCheck_35")) 
@@ -87324,7 +89471,7 @@ return (unsigned char)0;
 
 UINT8_T GetFamModelInstruct(); 
 #if defined(CPPTEST_USER_STUB_GetFamModelInstruct)
-#line 12805
+#line 14256
 UINT8_T CppTest_Stub_GetFamModelInstruct_GetFamModelInstruct(void) 
 { 
 return (unsigned char)0; 
@@ -87333,7 +89480,7 @@ return (unsigned char)0;
 
 UINT16_T GetAtpBackRunJumpPrtDisMax(); 
 #if defined(CPPTEST_USER_STUB_GetAtpBackRunJumpPrtDisMax)
-#line 12812
+#line 14263
 UINT16_T CppTest_Stub_GetAtpBackRunJumpPrtDisMax_GetAtpBackRunJumpPrtDisMax(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_79")) 
@@ -87346,7 +89493,7 @@ return (unsigned short)0;
 
 UINT16_T GetOcIdByDevId(const UINT32_T devId); 
 #if defined(CPPTEST_USER_STUB_GetOcIdByDevId)
-#line 12823
+#line 14274
 UINT16_T CppTest_Stub_GetOcIdByDevId_GetOcIdByDevId(const UINT32_T devId) 
 { 
 return (unsigned short)0; 
@@ -87355,7 +89502,7 @@ return (unsigned short)0;
 
 void LogPrintf_T(UINT8_T logLevel, UINT32_T LogSize); 
 #if defined(CPPTEST_USER_STUB_LogPrintf_T)
-#line 12830
+#line 14281
 void CppTest_Stub_LogPrintf_T_LogPrintf_T(UINT8_T logLevel, UINT32_T LogSize) 
 { 
 } 
@@ -87363,7 +89510,7 @@ void CppTest_Stub_LogPrintf_T_LogPrintf_T(UINT8_T logLevel, UINT32_T LogSize)
 
 UINT8_T GetAtpFunMarshalling(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunMarshalling)
-#line 12836
+#line 14287
 UINT8_T CppTest_Stub_GetAtpFunMarshalling_GetAtpFunMarshalling(void) 
 { 
 return (unsigned char)0; 
@@ -87372,7 +89519,7 @@ return (unsigned char)0;
 
 UINT16_T GetAtpBackRunJumpTimeMax(); 
 #if defined(CPPTEST_USER_STUB_GetAtpBackRunJumpTimeMax)
-#line 12843
+#line 14294
 UINT16_T CppTest_Stub_GetAtpBackRunJumpTimeMax_GetAtpBackRunJumpTimeMax(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_90")) 
@@ -87393,7 +89540,7 @@ return (unsigned short)0;
 
 UINT8_T GetOutRunForBackward(); 
 #if defined(CPPTEST_USER_STUB_GetOutRunForBackward)
-#line 12862
+#line 14313
 UINT8_T CppTest_Stub_GetOutRunForBackward_GetOutRunForBackward(void) 
 { 
 return (unsigned char)0; 
@@ -87402,7 +89549,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpFunCarWash(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunCarWash)
-#line 12869
+#line 14320
 UINT8_T CppTest_Stub_GetAtpFunCarWash_GetAtpFunCarWash(void) 
 { 
 return (unsigned char)0; 
@@ -87411,7 +89558,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpWheelDiameterChg(); 
 #if defined(CPPTEST_USER_STUB_GetAtpWheelDiameterChg)
-#line 12876
+#line 14327
 UINT8_T CppTest_Stub_GetAtpWheelDiameterChg_GetAtpWheelDiameterChg(void) 
 { 
 return (unsigned char)0; 
@@ -87420,7 +89567,7 @@ return (unsigned char)0;
 
 UINT16_T GetTeethBNum(); 
 #if defined(CPPTEST_USER_STUB_GetTeethBNum)
-#line 12883
+#line 14334
 UINT16_T CppTest_Stub_GetTeethBNum_GetTeethBNum(void) 
 { 
 return (unsigned short)0; 
@@ -87429,7 +89576,7 @@ return (unsigned short)0;
 
 UINT8_T GetAtpFunWhlChk(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunWhlChk)
-#line 12890
+#line 14341
 UINT8_T CppTest_Stub_GetAtpFunWhlChk_GetAtpFunWhlChk(void) 
 { 
 return (unsigned char)0; 
@@ -87438,7 +89585,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpFunEsbPrt(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunEsbPrt)
-#line 12897
+#line 14348
 UINT8_T CppTest_Stub_GetAtpFunEsbPrt_GetAtpFunEsbPrt(void) 
 { 
 return (unsigned char)0; 
@@ -87447,7 +89594,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpFunSleepAwakeFun(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunSleepAwakeFun)
-#line 12904
+#line 14355
 UINT8_T CppTest_Stub_GetAtpFunSleepAwakeFun_GetAtpFunSleepAwakeFun(void) 
 { 
 return (unsigned char)0; 
@@ -87456,7 +89603,7 @@ return (unsigned char)0;
 
 int GetBlocObsDir(); 
 #if defined(CPPTEST_USER_STUB_GetBlocObsDir)
-#line 12911
+#line 14362
 int CppTest_Stub_GetBlocObsDir_GetBlocObsDir(void) 
 { 
 return 0; 
@@ -87465,7 +89612,7 @@ return 0;
 
 UINT16_T GetAtpWheelDiameterMin(); 
 #if defined(CPPTEST_USER_STUB_GetAtpWheelDiameterMin)
-#line 12918
+#line 14369
 UINT16_T CppTest_Stub_GetAtpWheelDiameterMin_GetAtpWheelDiameterMin(void) 
 { 
 return (unsigned short)0; 
@@ -87474,7 +89621,7 @@ return (unsigned short)0;
 
 UINT8_T GetAtpFunDoorHib(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunDoorHib)
-#line 12925
+#line 14376
 UINT8_T CppTest_Stub_GetAtpFunDoorHib_GetAtpFunDoorHib(void) 
 { 
 return (unsigned char)0; 
@@ -87483,7 +89630,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpFunTrainTSR(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunTrainTSR)
-#line 12932
+#line 14383
 UINT8_T CppTest_Stub_GetAtpFunTrainTSR_GetAtpFunTrainTSR(void) 
 { 
 return (unsigned char)0; 
@@ -87492,7 +89639,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpFunArReverse(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunArReverse)
-#line 12939
+#line 14390
 UINT8_T CppTest_Stub_GetAtpFunArReverse_GetAtpFunArReverse(void) 
 { 
 return (unsigned char)0; 
@@ -87501,7 +89648,7 @@ return (unsigned char)0;
 
 UINT8_T FAOHoldStill(); 
 #if defined(CPPTEST_USER_STUB_FAOHoldStill)
-#line 12946
+#line 14397
 UINT8_T CppTest_Stub_FAOHoldStill_FAOHoldStill(void) 
 { 
 return (unsigned char)0; 
@@ -87510,7 +89657,7 @@ return (unsigned char)0;
 
 int BoardingIndicatorProtectProcess(); 
 #if defined(CPPTEST_USER_STUB_BoardingIndicatorProtectProcess)
-#line 12953
+#line 14404
 int CppTest_Stub_BoardingIndicatorProtectProcess_BoardingIndicatorProtectProcess(void) 
 { 
 return 0; 
@@ -87519,7 +89666,7 @@ return 0;
 
 int ZcEbProtection(); 
 #if defined(CPPTEST_USER_STUB_ZcEbProtection)
-#line 12960
+#line 14411
 int CppTest_Stub_ZcEbProtection_ZcEbProtection(void) 
 { 
 return 0; 
@@ -87528,7 +89675,7 @@ return 0;
 
 void AddSlpAwkFramLocClear(); 
 #if defined(CPPTEST_USER_STUB_AddSlpAwkFramLocClear)
-#line 12967
+#line 14418
 void CppTest_Stub_AddSlpAwkFramLocClear_AddSlpAwkFramLocClear(void) 
 { 
 } 
@@ -87536,7 +89683,7 @@ void CppTest_Stub_AddSlpAwkFramLocClear_AddSlpAwkFramLocClear(void)
 
 UINT16_T GetTeethANum(); 
 #if defined(CPPTEST_USER_STUB_GetTeethANum)
-#line 12973
+#line 14424
 UINT16_T CppTest_Stub_GetTeethANum_GetTeethANum(void) 
 { 
 return (unsigned short)0; 
@@ -87545,7 +89692,7 @@ return (unsigned short)0;
 
 int SetProtectionErrorCode(); 
 #if defined(CPPTEST_USER_STUB_SetProtectionErrorCode)
-#line 12980
+#line 14431
 int CppTest_Stub_SetProtectionErrorCode_SetProtectionErrorCode(void) 
 { 
 return 0; 
@@ -87554,7 +89701,7 @@ return 0;
 
 int CcuResetCmdProcess(); 
 #if defined(CPPTEST_USER_STUB_CcuResetCmdProcess)
-#line 12987
+#line 14438
 int CppTest_Stub_CcuResetCmdProcess_CcuResetCmdProcess(void) 
 { 
 return 0; 
@@ -87563,7 +89710,7 @@ return 0;
 
 int GetIsWashFinishPoint(); 
 #if defined(CPPTEST_USER_STUB_GetIsWashFinishPoint)
-#line 12994
+#line 14445
 int CppTest_Stub_GetIsWashFinishPoint_GetIsWashFinishPoint(void) 
 { 
 return 0; 
@@ -87572,7 +89719,7 @@ return 0;
 
 int InitSysTimeInfo(); 
 #if defined(CPPTEST_USER_STUB_InitSysTimeInfo)
-#line 13001
+#line 14452
 int CppTest_Stub_InitSysTimeInfo_InitSysTimeInfo(void) 
 { 
 return 0; 
@@ -87581,7 +89728,7 @@ return 0;
 
 int vCtrlVobcFaoReverse(); 
 #if defined(CPPTEST_USER_STUB_vCtrlVobcFaoReverse)
-#line 13008
+#line 14459
 int CppTest_Stub_vCtrlVobcFaoReverse_vCtrlVobcFaoReverse(void) 
 { 
 return 0; 
@@ -87590,7 +89737,7 @@ return 0;
 
 int GetjumpStep(); 
 #if defined(CPPTEST_USER_STUB_GetjumpStep)
-#line 13015
+#line 14466
 int CppTest_Stub_GetjumpStep_GetjumpStep(void) 
 { 
 return 0; 
@@ -87601,9 +89748,17 @@ StopPoint_T sp = {(0)};
 
 const StopPoint_T *GetJumpStopPiontDataStru(UINT16_T segID, UINT32_T segOffset, UINT8_T dir); 
 #if defined(CPPTEST_USER_STUB_GetJumpStopPiontDataStru)
-#line 13024
+#line 14475
 const StopPoint_T *CppTest_Stub_GetJumpStopPiontDataStru_GetJumpStopPiontDataStru(UINT16_T segID, UINT32_T segOffset, UINT8_T dir) 
 { 
+if ((CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_2") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_3")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_4")) 
+
+
+{ 
+(sp.spSeg).segId = segID; 
+(sp.spSeg).segOffset = segOffset; 
+return &sp; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_IsInJumpWindow_4")) 
 { 
 (sp.spSeg).segId = segID; 
@@ -87628,7 +89783,7 @@ return 0;
 
 UINT8_T GetSystemMaxAtpCanopySpeed(); 
 #if defined(CPPTEST_USER_STUB_GetSystemMaxAtpCanopySpeed)
-#line 13049
+#line 14508
 UINT8_T CppTest_Stub_GetSystemMaxAtpCanopySpeed_GetSystemMaxAtpCanopySpeed(void) 
 { 
 return (unsigned char)0; 
@@ -87637,7 +89792,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpFunExitAutoSec(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunExitAutoSec)
-#line 13056
+#line 14515
 UINT8_T CppTest_Stub_GetAtpFunExitAutoSec_GetAtpFunExitAutoSec(void) 
 { 
 return (unsigned char)0; 
@@ -87646,7 +89801,7 @@ return (unsigned char)0;
 
 UINT16_T GetSpinTimeMax(); 
 #if defined(CPPTEST_USER_STUB_GetSpinTimeMax)
-#line 13063
+#line 14522
 UINT16_T CppTest_Stub_GetSpinTimeMax_GetSpinTimeMax(void) 
 { 
 return (unsigned short)0; 
@@ -87655,7 +89810,7 @@ return (unsigned short)0;
 
 int TrainBackSec(); 
 #if defined(CPPTEST_USER_STUB_TrainBackSec)
-#line 13070
+#line 14529
 int CppTest_Stub_TrainBackSec_TrainBackSec(void) 
 { 
 return 0; 
@@ -87664,7 +89819,7 @@ return 0;
 
 UINT16_T GetTrainBelongOcType(); 
 #if defined(CPPTEST_USER_STUB_GetTrainBelongOcType)
-#line 13077
+#line 14536
 UINT16_T CppTest_Stub_GetTrainBelongOcType_GetTrainBelongOcType(void) 
 { 
 return (unsigned short)0; 
@@ -87673,15 +89828,35 @@ return (unsigned short)0;
 
 void SetOutRunForward(UINT8_T value); 
 #if defined(CPPTEST_USER_STUB_SetOutRunForward)
-#line 13084
+#line 14543
 void CppTest_Stub_SetOutRunForward_SetOutRunForward(UINT8_T value) 
 { 
+if (IsAmAutoReverseSpyTestCase()) 
+{ 
+++g_AmAutoReverse_SetOutRunForwardCalls; 
+g_AmAutoReverse_SetOutRunForwardValue = value; 
+}  
+if (IsCtrlAutoChangeEndSpyTestCase()) 
+{ 
+++g_CtrlAutoChangeEnd_SetOutRunForwardCalls; 
+g_CtrlAutoChangeEnd_SetOutRunForwardValue = value; 
+}  
+if (IsFamAnyLocReverseSpyTestCase()) 
+{ 
+++g_FamAnyLocReverse_SetOutRunForwardCalls; 
+g_FamAnyLocReverse_SetOutRunForwardValue = value; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_SetOutRunForwardCalls; 
+g_FamAutoReverse_SetOutRunForwardValue = value; 
+}  
 } 
 #endif
 
 void SetSlpAwkSleepStep(UINT8_T value); 
 #if defined(CPPTEST_USER_STUB_SetSlpAwkSleepStep)
-#line 13090
+#line 14569
 void CppTest_Stub_SetSlpAwkSleepStep_SetSlpAwkSleepStep(UINT8_T value) 
 { 
 } 
@@ -87689,7 +89864,7 @@ void CppTest_Stub_SetSlpAwkSleepStep_SetSlpAwkSleepStep(UINT8_T value)
 
 UINT8_T AddSlpAwkLocPowerOnInit(); 
 #if defined(CPPTEST_USER_STUB_AddSlpAwkLocPowerOnInit)
-#line 13096
+#line 14575
 UINT8_T CppTest_Stub_AddSlpAwkLocPowerOnInit_AddSlpAwkLocPowerOnInit(void) 
 { 
 return (unsigned char)0; 
@@ -87698,7 +89873,7 @@ return (unsigned char)0;
 
 UINT8_T GetSlpAwkSleepFlag(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkSleepFlag)
-#line 13103
+#line 14582
 UINT8_T CppTest_Stub_GetSlpAwkSleepFlag_GetSlpAwkSleepFlag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_IdleRevFunc_42")) 
@@ -87711,7 +89886,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpFunEscDoorHib(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunEscDoorHib)
-#line 13114
+#line 14593
 UINT8_T CppTest_Stub_GetAtpFunEscDoorHib_GetAtpFunEscDoorHib(void) 
 { 
 return (unsigned char)0; 
@@ -87720,7 +89895,7 @@ return (unsigned char)0;
 
 UINT16_T GetAtpEbSpeedCam(); 
 #if defined(CPPTEST_USER_STUB_GetAtpEbSpeedCam)
-#line 13121
+#line 14600
 UINT16_T CppTest_Stub_GetAtpEbSpeedCam_GetAtpEbSpeedCam(void) 
 { 
 return (unsigned short)0; 
@@ -87729,7 +89904,7 @@ return (unsigned short)0;
 
 int FAOHold2Revers(); 
 #if defined(CPPTEST_USER_STUB_FAOHold2Revers)
-#line 13128
+#line 14607
 int CppTest_Stub_FAOHold2Revers_FAOHold2Revers(void) 
 { 
 return 0; 
@@ -87738,7 +89913,7 @@ return 0;
 
 UINT8_T GetMeaDisRateLow(); 
 #if defined(CPPTEST_USER_STUB_GetMeaDisRateLow)
-#line 13135
+#line 14614
 UINT8_T CppTest_Stub_GetMeaDisRateLow_GetMeaDisRateLow(void) 
 { 
 return (unsigned char)0; 
@@ -87747,7 +89922,7 @@ return (unsigned char)0;
 
 UINT32_T GetAwakeFailCause(UINT8_T testType, UINT8_T testId); 
 #if defined(CPPTEST_USER_STUB_GetAwakeFailCause)
-#line 13142
+#line 14621
 UINT32_T CppTest_Stub_GetAwakeFailCause_GetAwakeFailCause(UINT8_T testType, UINT8_T testId) 
 { 
 return 0U; 
@@ -87756,7 +89931,7 @@ return 0U;
 
 UINT8_T FramWriteData(UINT8_T  data[], UINT16_T type, UINT16_T len); 
 #if defined(CPPTEST_USER_STUB_FramWriteData)
-#line 13149
+#line 14628
 UINT8_T CppTest_Stub_FramWriteData_FramWriteData(UINT8_T data[], UINT16_T type, UINT16_T len) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_EUMModeprocess_18")) 
@@ -87773,7 +89948,7 @@ return (unsigned char)0;
 
 UINT8_T GetOspInfo(const Location_T * headloc, const Location_T * tailLoc, const Location_T * maStartLoc, const Location_T * maEndLoc, UINT8_T * lmtObjectNumFront, LimitObjFront_T  pLmtObjFront[], UINT8_T * lmtObjectNumBetwn, LimitObjBetweenStruct_T * pLmtObjBtw); 
 #if defined(CPPTEST_USER_STUB_GetOspInfo)
-#line 13164
+#line 14643
 UINT8_T CppTest_Stub_GetOspInfo_GetOspInfo(const Location_T *headloc, const Location_T *tailLoc, const Location_T *maStartLoc, const Location_T *maEndLoc, UINT8_T *lmtObjectNumFront, LimitObjFront_T pLmtObjFront[], UINT8_T *lmtObjectNumBetwn, LimitObjBetweenStruct_T *pLmtObjBtw) 
 { 
 return (unsigned char)0; 
@@ -87782,15 +89957,20 @@ return (unsigned char)0;
 
 void SetFamModelInstruct(UINT8_T value); 
 #if defined(CPPTEST_USER_STUB_SetFamModelInstruct)
-#line 13171
+#line 14650
 void CppTest_Stub_SetFamModelInstruct_SetFamModelInstruct(UINT8_T value) 
 { 
+if (IsEnterAmAutoReverseSpyTestCase()) 
+{ 
+++g_EnterAmAutoReverse_SetFamModelInstructCalls; 
+g_EnterAmAutoReverse_SetFamModelInstructValue = value; 
+}  
 } 
 #endif
 
 UINT8_T GetMeaDisRateInit(); 
 #if defined(CPPTEST_USER_STUB_GetMeaDisRateInit)
-#line 13177
+#line 14661
 UINT8_T CppTest_Stub_GetMeaDisRateInit_GetMeaDisRateInit(void) 
 { 
 return (unsigned char)0; 
@@ -87799,7 +89979,7 @@ return (unsigned char)0;
 
 int TrainIntegrityCheck(); 
 #if defined(CPPTEST_USER_STUB_TrainIntegrityCheck)
-#line 13184
+#line 14668
 int CppTest_Stub_TrainIntegrityCheck_TrainIntegrityCheck(void) 
 { 
 return 0; 
@@ -87808,7 +89988,7 @@ return 0;
 
 void SetSlpAwkSleepFlag(const UINT8_T SleepFlag); 
 #if defined(CPPTEST_USER_STUB_SetSlpAwkSleepFlag)
-#line 13191
+#line 14675
 void CppTest_Stub_SetSlpAwkSleepFlag_SetSlpAwkSleepFlag(const UINT8_T SleepFlag) 
 { 
 } 
@@ -87816,7 +89996,7 @@ void CppTest_Stub_SetSlpAwkSleepFlag_SetSlpAwkSleepFlag(const UINT8_T SleepFlag)
 
 int GetProtectionErrorCode(); 
 #if defined(CPPTEST_USER_STUB_GetProtectionErrorCode)
-#line 13197
+#line 14681
 int CppTest_Stub_GetProtectionErrorCode_GetProtectionErrorCode(void) 
 { 
 return 0; 
@@ -87825,7 +90005,7 @@ return 0;
 
 UINT8_T FramReadData(UINT16_T type, UINT16_T len, UINT8_T  data[]); 
 #if defined(CPPTEST_USER_STUB_FramReadData)
-#line 13204
+#line 14688
 UINT8_T CppTest_Stub_FramReadData_FramReadData(UINT16_T type, UINT16_T len, UINT8_T data[]) 
 { 
 return (unsigned char)0; 
@@ -87834,7 +90014,7 @@ return (unsigned char)0;
 
 UINT8_T GetAtpFunDerailPrt(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunDerailPrt)
-#line 13211
+#line 14695
 UINT8_T CppTest_Stub_GetAtpFunDerailPrt_GetAtpFunDerailPrt(void) 
 { 
 return (unsigned char)0; 
@@ -87843,7 +90023,7 @@ return (unsigned char)0;
 
 int SpeedProtection(); 
 #if defined(CPPTEST_USER_STUB_SpeedProtection)
-#line 13218
+#line 14702
 int CppTest_Stub_SpeedProtection_SpeedProtection(void) 
 { 
 return 0; 
@@ -87852,7 +90032,7 @@ return 0;
 
 int AtoRecommendSpeedProtect(); 
 #if defined(CPPTEST_USER_STUB_AtoRecommendSpeedProtect)
-#line 13225
+#line 14709
 int CppTest_Stub_AtoRecommendSpeedProtect_AtoRecommendSpeedProtect(void) 
 { 
 return 0; 
@@ -87861,7 +90041,7 @@ return 0;
 
 int Seconds2Calendar(); 
 #if defined(CPPTEST_USER_STUB_Seconds2Calendar)
-#line 13232
+#line 14716
 int CppTest_Stub_Seconds2Calendar_Seconds2Calendar(void) 
 { 
 return 0; 
@@ -87870,7 +90050,7 @@ return 0;
 
 int EscDoorHibProcess(); 
 #if defined(CPPTEST_USER_STUB_EscDoorHibProcess)
-#line 13239
+#line 14723
 int CppTest_Stub_EscDoorHibProcess_EscDoorHibProcess(void) 
 { 
 return 0; 
@@ -87879,7 +90059,7 @@ return 0;
 
 UINT16_T GetAtpBackRunJumpDevDisMax(); 
 #if defined(CPPTEST_USER_STUB_GetAtpBackRunJumpDevDisMax)
-#line 13246
+#line 14730
 UINT16_T CppTest_Stub_GetAtpBackRunJumpDevDisMax_GetAtpBackRunJumpDevDisMax(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_IsInJumpWindow_5")) 
@@ -87904,7 +90084,7 @@ return (unsigned short)0;
 
 UINT8_T FAOExit2CMJuge(); 
 #if defined(CPPTEST_USER_STUB_FAOExit2CMJuge)
-#line 13269
+#line 14753
 UINT8_T CppTest_Stub_FAOExit2CMJuge_FAOExit2CMJuge(void) 
 { 
 return (unsigned char)0; 
@@ -87913,7 +90093,7 @@ return (unsigned char)0;
 
 int RemoteEB(); 
 #if defined(CPPTEST_USER_STUB_RemoteEB)
-#line 13276
+#line 14760
 int CppTest_Stub_RemoteEB_RemoteEB(void) 
 { 
 return 0; 
@@ -87922,7 +90102,7 @@ return 0;
 
 UINT16_T GetAtpAimSpdGap(); 
 #if defined(CPPTEST_USER_STUB_GetAtpAimSpdGap)
-#line 13283
+#line 14767
 UINT16_T CppTest_Stub_GetAtpAimSpdGap_GetAtpAimSpdGap(void) 
 { 
 return (unsigned short)0; 
@@ -87931,7 +90111,7 @@ return (unsigned short)0;
 
 UINT8_T GetAtpFunStpEnsure(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunStpEnsure)
-#line 13290
+#line 14774
 UINT8_T CppTest_Stub_GetAtpFunStpEnsure_GetAtpFunStpEnsure(void) 
 { 
 return (unsigned char)0; 
@@ -87940,15 +90120,35 @@ return (unsigned char)0;
 
 void SetOutRunForBackward(UINT8_T value); 
 #if defined(CPPTEST_USER_STUB_SetOutRunForBackward)
-#line 13297
+#line 14781
 void CppTest_Stub_SetOutRunForBackward_SetOutRunForBackward(UINT8_T value) 
 { 
+if (IsAmAutoReverseSpyTestCase()) 
+{ 
+++g_AmAutoReverse_SetOutRunForBackwardCalls; 
+g_AmAutoReverse_SetOutRunForBackwardValue = value; 
+}  
+if (IsCtrlAutoChangeEndSpyTestCase()) 
+{ 
+++g_CtrlAutoChangeEnd_SetOutRunForBackwardCalls; 
+g_CtrlAutoChangeEnd_SetOutRunForBackwardValue = value; 
+}  
+if (IsFamAnyLocReverseSpyTestCase()) 
+{ 
+++g_FamAnyLocReverse_SetOutRunForBackwardCalls; 
+g_FamAnyLocReverse_SetOutRunForBackwardValue = value; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+++g_FamAutoReverse_SetOutRunForBackwardCalls; 
+g_FamAutoReverse_SetOutRunForBackwardValue = value; 
+}  
 } 
 #endif
 
 UINT8_T GetAtpFunSpksPrt(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunSpksPrt)
-#line 13303
+#line 14807
 UINT8_T CppTest_Stub_GetAtpFunSpksPrt_GetAtpFunSpksPrt(void) 
 { 
 return (unsigned char)0; 
@@ -87957,7 +90157,7 @@ return (unsigned char)0;
 
 int PeriodInitAfterModeConv(); 
 #if defined(CPPTEST_USER_STUB_PeriodInitAfterModeConv)
-#line 13310
+#line 14814
 int CppTest_Stub_PeriodInitAfterModeConv_PeriodInitAfterModeConv(void) 
 { 
 return 0; 
@@ -87966,7 +90166,7 @@ return 0;
 
 void LoadSlpAwkConfData(); 
 #if defined(CPPTEST_USER_STUB_LoadSlpAwkConfData)
-#line 13317
+#line 14821
 void CppTest_Stub_LoadSlpAwkConfData_LoadSlpAwkConfData(void) 
 { 
 } 
@@ -87974,7 +90174,7 @@ void CppTest_Stub_LoadSlpAwkConfData_LoadSlpAwkConfData(void)
 
 UINT8_T GetLocCpsSpaceMax(); 
 #if defined(CPPTEST_USER_STUB_GetLocCpsSpaceMax)
-#line 13323
+#line 14827
 UINT8_T CppTest_Stub_GetLocCpsSpaceMax_GetLocCpsSpaceMax(void) 
 { 
 return (unsigned char)0; 
@@ -87983,7 +90183,7 @@ return (unsigned char)0;
 
 UINT8_T GetOpgDefault(); 
 #if defined(CPPTEST_USER_STUB_GetOpgDefault)
-#line 13330
+#line 14834
 UINT8_T CppTest_Stub_GetOpgDefault_GetOpgDefault(void) 
 { 
 return (unsigned char)0; 
@@ -87992,7 +90192,7 @@ return (unsigned char)0;
 
 UINT16_T GetAtpCutTracSpdGap(); 
 #if defined(CPPTEST_USER_STUB_GetAtpCutTracSpdGap)
-#line 13337
+#line 14841
 UINT16_T CppTest_Stub_GetAtpCutTracSpdGap_GetAtpCutTracSpdGap(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_OverSpdFunc_11")) 
@@ -88005,7 +90205,7 @@ return (unsigned short)0;
 
 int CalendarToSeconds(); 
 #if defined(CPPTEST_USER_STUB_CalendarToSeconds)
-#line 13348
+#line 14852
 int CppTest_Stub_CalendarToSeconds_CalendarToSeconds(void) 
 { 
 return 0; 
@@ -88014,7 +90214,7 @@ return 0;
 
 UINT16_T GetSpinAcc(); 
 #if defined(CPPTEST_USER_STUB_GetSpinAcc)
-#line 13355
+#line 14859
 UINT16_T CppTest_Stub_GetSpinAcc_GetSpinAcc(void) 
 { 
 return (unsigned short)0; 
@@ -88023,7 +90223,7 @@ return (unsigned short)0;
 
 UINT8_T GetMeaDisRateHigh(); 
 #if defined(CPPTEST_USER_STUB_GetMeaDisRateHigh)
-#line 13362
+#line 14866
 UINT8_T CppTest_Stub_GetMeaDisRateHigh_GetMeaDisRateHigh(void) 
 { 
 return (unsigned char)0; 
@@ -88032,7 +90232,7 @@ return (unsigned char)0;
 
 void InitSleepAwakeData(); 
 #if defined(CPPTEST_USER_STUB_InitSleepAwakeData)
-#line 13369
+#line 14873
 void CppTest_Stub_InitSleepAwakeData_InitSleepAwakeData(void) 
 { 
 } 
@@ -88040,7 +90240,7 @@ void CppTest_Stub_InitSleepAwakeData_InitSleepAwakeData(void)
 
 int SetIsWashFinishPoint(); 
 #if defined(CPPTEST_USER_STUB_SetIsWashFinishPoint)
-#line 13375
+#line 14879
 int CppTest_Stub_SetIsWashFinishPoint_SetIsWashFinishPoint(void) 
 { 
 return 0; 
@@ -88049,7 +90249,7 @@ return 0;
 
 UINT8_T GetOutRunForward(); 
 #if defined(CPPTEST_USER_STUB_GetOutRunForward)
-#line 13382
+#line 14886
 UINT8_T CppTest_Stub_GetOutRunForward_GetOutRunForward(void) 
 { 
 return (unsigned char)0; 
@@ -88058,7 +90258,7 @@ return (unsigned char)0;
 
 int AddCarWashErrRsn(); 
 #if defined(CPPTEST_USER_STUB_AddCarWashErrRsn)
-#line 13389
+#line 14893
 int CppTest_Stub_AddCarWashErrRsn_AddCarWashErrRsn(void) 
 { 
 return 0; 
@@ -88067,7 +90267,7 @@ return 0;
 
 UINT32_T GetAtpFamOpenDoorTimeMax(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFamOpenDoorTimeMax)
-#line 13396
+#line 14900
 UINT32_T CppTest_Stub_GetAtpFamOpenDoorTimeMax_GetAtpFamOpenDoorTimeMax(void) 
 { 
 return 0U; 
@@ -88076,7 +90276,7 @@ return 0U;
 
 void AddSlpAwkTestTimerCount(UINT8_T testid); 
 #if defined(CPPTEST_USER_STUB_AddSlpAwkTestTimerCount)
-#line 13403
+#line 14907
 void CppTest_Stub_AddSlpAwkTestTimerCount_AddSlpAwkTestTimerCount(UINT8_T testid) 
 { 
 } 
@@ -88084,7 +90284,7 @@ void CppTest_Stub_AddSlpAwkTestTimerCount_AddSlpAwkTestTimerCount(UINT8_T testid
 
 SleepAwakeLocInfoStruct_T *GetSlpAwkLocInfoData(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkLocInfoData)
-#line 13409
+#line 14913
 SleepAwakeLocInfoStruct_T *CppTest_Stub_GetSlpAwkLocInfoData_GetSlpAwkLocInfoData(void) 
 { 
 return 0; 
@@ -88093,9 +90293,13 @@ return 0;
 
 UINT32_T GetAtpRevOpenDoorTimeMax(); 
 #if defined(CPPTEST_USER_STUB_GetAtpRevOpenDoorTimeMax)
-#line 13416
+#line 14920
 UINT32_T CppTest_Stub_GetAtpRevOpenDoorTimeMax_GetAtpRevOpenDoorTimeMax(void) 
 { 
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+return 10U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVobcFamReverse_24")) 
 { 
 return 1; 
@@ -88110,7 +90314,7 @@ return 0U;
 
 UINT8_T GetAtpFunCcuReset(); 
 #if defined(CPPTEST_USER_STUB_GetAtpFunCcuReset)
-#line 13431
+#line 14939
 UINT8_T CppTest_Stub_GetAtpFunCcuReset_GetAtpFunCcuReset(void) 
 { 
 return (unsigned char)0; 
@@ -88119,7 +90323,7 @@ return (unsigned char)0;
 
 int CPPTEST_CALL_STUB_CALLBACK(); 
 #if defined(CPPTEST_USER_STUB_CPPTEST_CALL_STUB_CALLBACK)
-#line 13438
+#line 14946
 int CppTest_Stub_CPPTEST_CALL_STUB_CALLBACK_CPPTEST_CALL_STUB_CALLBACK(void) 
 { 
 return 0; 
@@ -88128,7 +90332,7 @@ return 0;
 
 UINT8_T FAOExit2RMJuge(); 
 #if defined(CPPTEST_USER_STUB_FAOExit2RMJuge)
-#line 13445
+#line 14953
 UINT8_T CppTest_Stub_FAOExit2RMJuge_FAOExit2RMJuge(void) 
 { 
 return (unsigned char)0; 
@@ -88137,7 +90341,7 @@ return (unsigned char)0;
 
 int vStopSupervision(); 
 #if defined(CPPTEST_USER_STUB_vStopSupervision)
-#line 13452
+#line 14960
 int CppTest_Stub_vStopSupervision_vStopSupervision(void) 
 { 
 return 0; 
@@ -88146,7 +90350,7 @@ return 0;
 
 UINT16_T GetPtOperatStopIdBySpSecAndDir(const UINT16_T stopSecId, UINT16_T Dir); 
 #if defined(CPPTEST_USER_STUB_GetPtOperatStopIdBySpSecAndDir)
-#line 13459
+#line 14967
 UINT16_T CppTest_Stub_GetPtOperatStopIdBySpSecAndDir_GetPtOperatStopIdBySpSecAndDir(const UINT16_T stopSecId, UINT16_T Dir) 
 { 
 return (unsigned short)0; 
@@ -88155,7 +90359,7 @@ return (unsigned short)0;
 
 void SetSlpAwkSleepSta(UINT8_T sta); 
 #if defined(CPPTEST_USER_STUB_SetSlpAwkSleepSta)
-#line 13466
+#line 14974
 void CppTest_Stub_SetSlpAwkSleepSta_SetSlpAwkSleepSta(UINT8_T sta) 
 { 
 } 
@@ -88163,7 +90367,7 @@ void CppTest_Stub_SetSlpAwkSleepSta_SetSlpAwkSleepSta(UINT8_T sta)
 
 SleepAwakeDataStruct_T *GetSleepAwakeData(); 
 #if defined(CPPTEST_USER_STUB_GetSleepAwakeData)
-#line 13472
+#line 14980
 SleepAwakeDataStruct_T *CppTest_Stub_GetSleepAwakeData_GetSleepAwakeData(void) 
 { 
 return 0; 
@@ -88172,7 +90376,7 @@ return 0;
 
 UINT8_T GetSlpAwkAwakeSta(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkAwakeSta)
-#line 13479
+#line 14987
 UINT8_T CppTest_Stub_GetSlpAwkAwakeSta_GetSlpAwkAwakeSta(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FamExitCmCheck_35")) 
@@ -88217,7 +90421,7 @@ return (unsigned char)0;
 
 void SetSlpAwkCmd(UINT8_T cmd); 
 #if defined(CPPTEST_USER_STUB_SetSlpAwkCmd)
-#line 13522
+#line 15030
 void CppTest_Stub_SetSlpAwkCmd_SetSlpAwkCmd(UINT8_T cmd) 
 { 
 } 
@@ -88225,7 +90429,7 @@ void CppTest_Stub_SetSlpAwkCmd_SetSlpAwkCmd(UINT8_T cmd)
 
 UINT8_T GetAwakeSTestContinue(UINT8_T testId); 
 #if defined(CPPTEST_USER_STUB_GetAwakeSTestContinue)
-#line 13528
+#line 15036
 UINT8_T CppTest_Stub_GetAwakeSTestContinue_GetAwakeSTestContinue(UINT8_T testId) 
 { 
 return (unsigned char)0; 
@@ -88234,7 +90438,7 @@ return (unsigned char)0;
 
 UINT8_T GetSlpAwkLocValid(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkLocValid)
-#line 13535
+#line 15043
 UINT8_T CppTest_Stub_GetSlpAwkLocValid_GetSlpAwkLocValid(void) 
 { 
 return (unsigned char)0; 
@@ -88243,7 +90447,7 @@ return (unsigned char)0;
 
 UINT8_T GetSlpAwkSleepSta(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkSleepSta)
-#line 13542
+#line 15050
 UINT8_T CppTest_Stub_GetSlpAwkSleepSta_GetSlpAwkSleepSta(void) 
 { 
 return (unsigned char)0; 
@@ -88252,7 +90456,7 @@ return (unsigned char)0;
 
 void SetSlpAwkSleepCond(UINT8_T cond); 
 #if defined(CPPTEST_USER_STUB_SetSlpAwkSleepCond)
-#line 13549
+#line 15057
 void CppTest_Stub_SetSlpAwkSleepCond_SetSlpAwkSleepCond(UINT8_T cond) 
 { 
 } 
@@ -88260,7 +90464,7 @@ void CppTest_Stub_SetSlpAwkSleepCond_SetSlpAwkSleepCond(UINT8_T cond)
 
 UINT32_T GetLongFromBuffer(const UINT8_T  bufferPtr[], EndianOrderType_T endianOrder); 
 #if defined(CPPTEST_USER_STUB_GetLongFromBuffer)
-#line 13555
+#line 15063
 UINT32_T CppTest_Stub_GetLongFromBuffer_GetLongFromBuffer(const UINT8_T bufferPtr[], EndianOrderType_T endianOrder) 
 { 
 return 0U; 
@@ -88269,7 +90473,7 @@ return 0U;
 
 UINT8_T GetOneStopPoint(const Location_T * headloc, const Location_T * tailLoc, const Location_T * maStartLoc, const Location_T * maEndLoc, UINT8_T * lmtObjectNumFront, LimitObjFront_T  pLmtObjFront[], UINT8_T * lmtObjectNumBetwn, LimitObjBetweenStruct_T * pLmtObjBtw); 
 #if defined(CPPTEST_USER_STUB_GetOneStopPoint)
-#line 13562
+#line 15070
 UINT8_T CppTest_Stub_GetOneStopPoint_GetOneStopPoint(const Location_T *headloc, const Location_T *tailLoc, const Location_T *maStartLoc, const Location_T *maEndLoc, UINT8_T *lmtObjectNumFront, LimitObjFront_T pLmtObjFront[], UINT8_T *lmtObjectNumBetwn, LimitObjBetweenStruct_T *pLmtObjBtw) 
 { 
 return (unsigned char)0; 
@@ -88278,7 +90482,7 @@ return (unsigned char)0;
 
 UINT8_T GetAwakeSTestAffect(UINT8_T testId); 
 #if defined(CPPTEST_USER_STUB_GetAwakeSTestAffect)
-#line 13569
+#line 15077
 UINT8_T CppTest_Stub_GetAwakeSTestAffect_GetAwakeSTestAffect(UINT8_T testId) 
 { 
 return (unsigned char)0; 
@@ -88287,7 +90491,7 @@ return (unsigned char)0;
 
 UINT16_T GetAtpEbIntervalTime(); 
 #if defined(CPPTEST_USER_STUB_GetAtpEbIntervalTime)
-#line 13576
+#line 15084
 UINT16_T CppTest_Stub_GetAtpEbIntervalTime_GetAtpEbIntervalTime(void) 
 { 
 return (unsigned short)0; 
@@ -88296,7 +90500,7 @@ return (unsigned short)0;
 
 UINT32_T GetSlpAwkLocCrc(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkLocCrc)
-#line 13583
+#line 15091
 UINT32_T CppTest_Stub_GetSlpAwkLocCrc_GetSlpAwkLocCrc(void) 
 { 
 return 0U; 
@@ -88305,7 +90509,7 @@ return 0U;
 
 UINT8_T GetSlpAwkAwakeStep(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkAwakeStep)
-#line 13590
+#line 15098
 UINT8_T CppTest_Stub_GetSlpAwkAwakeStep_GetSlpAwkAwakeStep(void) 
 { 
 return (unsigned char)0; 
@@ -88314,7 +90518,7 @@ return (unsigned char)0;
 
 UINT8_T GetAwakeLocalSTestEnable(UINT8_T testId); 
 #if defined(CPPTEST_USER_STUB_GetAwakeLocalSTestEnable)
-#line 13597
+#line 15105
 UINT8_T CppTest_Stub_GetAwakeLocalSTestEnable_GetAwakeLocalSTestEnable(UINT8_T testId) 
 { 
 return (unsigned char)0; 
@@ -88323,7 +90527,7 @@ return (unsigned char)0;
 
 void SetSlpAwkAwakeSta(UINT8_T sta); 
 #if defined(CPPTEST_USER_STUB_SetSlpAwkAwakeSta)
-#line 13604
+#line 15112
 void CppTest_Stub_SetSlpAwkAwakeSta_SetSlpAwkAwakeSta(UINT8_T sta) 
 { 
 } 
@@ -88331,7 +90535,7 @@ void CppTest_Stub_SetSlpAwkAwakeSta_SetSlpAwkAwakeSta(UINT8_T sta)
 
 UINT8_T GetSlpAwkSleepCond(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkSleepCond)
-#line 13610
+#line 15118
 UINT8_T CppTest_Stub_GetSlpAwkSleepCond_GetSlpAwkSleepCond(void) 
 { 
 return (unsigned char)0; 
@@ -88340,7 +90544,7 @@ return (unsigned char)0;
 
 UINT8_T GetSlpAwkCmd(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkCmd)
-#line 13617
+#line 15125
 UINT8_T CppTest_Stub_GetSlpAwkCmd_GetSlpAwkCmd(void) 
 { 
 return (unsigned char)0; 
@@ -88349,7 +90553,7 @@ return (unsigned char)0;
 
 UINT32_T GetAtpDoorOpenCloseTime(); 
 #if defined(CPPTEST_USER_STUB_GetAtpDoorOpenCloseTime)
-#line 13624
+#line 15132
 UINT32_T CppTest_Stub_GetAtpDoorOpenCloseTime_GetAtpDoorOpenCloseTime(void) 
 { 
 return 0U; 
@@ -88358,7 +90562,7 @@ return 0U;
 
 UINT8_T GetAwakeOppoSTestEnable(UINT8_T testId); 
 #if defined(CPPTEST_USER_STUB_GetAwakeOppoSTestEnable)
-#line 13631
+#line 15139
 UINT8_T CppTest_Stub_GetAwakeOppoSTestEnable_GetAwakeOppoSTestEnable(UINT8_T testId) 
 { 
 return (unsigned char)0; 
@@ -88367,7 +90571,7 @@ return (unsigned char)0;
 
 UINT8_T GetSpdSmoothNum(); 
 #if defined(CPPTEST_USER_STUB_GetSpdSmoothNum)
-#line 13638
+#line 15146
 UINT8_T CppTest_Stub_GetSpdSmoothNum_GetSpdSmoothNum(void) 
 { 
 return (unsigned char)0; 
@@ -88376,7 +90580,7 @@ return (unsigned char)0;
 
 void SetSlpAwkLocCrc(UINT32_T crc); 
 #if defined(CPPTEST_USER_STUB_SetSlpAwkLocCrc)
-#line 13645
+#line 15153
 void CppTest_Stub_SetSlpAwkLocCrc_SetSlpAwkLocCrc(UINT32_T crc) 
 { 
 } 
@@ -88384,7 +90588,7 @@ void CppTest_Stub_SetSlpAwkLocCrc_SetSlpAwkLocCrc(UINT32_T crc)
 
 UINT8_T GetAtpLocBaliRadiationRadius(); 
 #if defined(CPPTEST_USER_STUB_GetAtpLocBaliRadiationRadius)
-#line 13651
+#line 15159
 UINT8_T CppTest_Stub_GetAtpLocBaliRadiationRadius_GetAtpLocBaliRadiationRadius(void) 
 { 
 return (unsigned char)0; 
@@ -88393,7 +90597,7 @@ return (unsigned char)0;
 
 UINT32_T GetAwakeSTestTimeMax(UINT8_T testId); 
 #if defined(CPPTEST_USER_STUB_GetAwakeSTestTimeMax)
-#line 13658
+#line 15166
 UINT32_T CppTest_Stub_GetAwakeSTestTimeMax_GetAwakeSTestTimeMax(UINT8_T testId) 
 { 
 return 0U; 
@@ -88402,7 +90606,7 @@ return 0U;
 
 void SetSlpAwkLocValid(UINT8_T locValid); 
 #if defined(CPPTEST_USER_STUB_SetSlpAwkLocValid)
-#line 13665
+#line 15173
 void CppTest_Stub_SetSlpAwkLocValid_SetSlpAwkLocValid(UINT8_T locValid) 
 { 
 } 
@@ -88410,7 +90614,7 @@ void CppTest_Stub_SetSlpAwkLocValid_SetSlpAwkLocValid(UINT8_T locValid)
 
 UINT8_T GetSlpAwkSleepStep(); 
 #if defined(CPPTEST_USER_STUB_GetSlpAwkSleepStep)
-#line 13671
+#line 15179
 UINT8_T CppTest_Stub_GetSlpAwkSleepStep_GetSlpAwkSleepStep(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FamExitRmCheck_21")) 
@@ -88427,9 +90631,18 @@ return (unsigned char)0;
 
 UINT8_T GetMaValid(); 
 #if defined(CPPTEST_USER_STUB_GetMaValid)
-#line 13686
+#line 15194
 UINT8_T CppTest_Stub_GetMaValid_GetMaValid(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_46")) 
+{ 
+return 170U; 
+}  
+if (((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_47") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_48")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_49")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_50")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_51")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_52")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_53")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_54")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_55")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_56")) 
+#line 15210
+{ 
+return 85U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_TrainBackSecHandle_test_ExitAutoSecFunc_01")) 
 { 
 return 170U; 
@@ -88636,7 +90849,7 @@ return (unsigned char)0;
 
 UINT8_T GetAomRcvAwakeMaintainBtn(); 
 #if defined(CPPTEST_USER_STUB_GetAomRcvAwakeMaintainBtn)
-#line 13893
+#line 15418
 UINT8_T CppTest_Stub_GetAomRcvAwakeMaintainBtn_GetAomRcvAwakeMaintainBtn(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_EBProcFunc_13")) 
@@ -88677,7 +90890,7 @@ return (unsigned char)0;
 
 UINT32_T CamExitCmCheck(void); 
 #if defined(CPPTEST_USER_STUB_CamExitCmCheck)
-#line 13932
+#line 15457
 UINT32_T CppTest_Stub_CamExitCmCheck_CamExitCmCheck(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CamModeProcess_30")) 
@@ -88700,9 +90913,50 @@ return 0U;
 
 UINT8_T GetMaEndMaType(); 
 #if defined(CPPTEST_USER_STUB_GetMaEndMaType)
-#line 13953
+#line 15478
 UINT8_T CppTest_Stub_GetMaEndMaType_GetMaEndMaType(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_48")) 
+{ 
+return 170U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_49")) 
+{ 
+return 85U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_50")) 
+{ 
+return 255U; 
+}  
+if (((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_0") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_1")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_3")) 
+
+
+
+{ 
+return 170U; 
+}  
+if (((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_4") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_5")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_7")) 
+
+
+
+{ 
+return 255U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_ReverseTypeChk_8")) 
+{ 
+return 0U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_4")) 
+{ 
+++g_AmAutoReverse_GetMaEndMaTypeCalls; 
+return 255U; 
+}  
+if (((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_5") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_6")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_8")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_10")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_11")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_12")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_13")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_14")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_15")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmAutoReverse_16")) 
+#line 15527
+{ 
+++g_AmAutoReverse_GetMaEndMaTypeCalls; 
+return 170U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_TrainBackSecHandle_test_BackSecInChk")) 
 { 
 return 204U; 
@@ -88833,7 +91087,7 @@ return (unsigned char)0;
 
 UINT8_T GetRcvAtoCabDoorCtrlMode(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoCabDoorCtrlMode)
-#line 14084
+#line 15660
 UINT8_T CppTest_Stub_GetRcvAtoCabDoorCtrlMode_GetRcvAtoCabDoorCtrlMode(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Station_12")) 
@@ -88852,7 +91106,7 @@ return (unsigned char)0;
 
 UINT16_T GetMaLen(); 
 #if defined(CPPTEST_USER_STUB_GetMaLen)
-#line 14101
+#line 15677
 UINT16_T CppTest_Stub_GetMaLen_GetMaLen(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_CMAndAMModeCheck_22")) 
@@ -88869,7 +91123,7 @@ return (unsigned short)0;
 
 UINT8_T GetMarMidSideMHookConSttsLst(); 
 #if defined(CPPTEST_USER_STUB_GetMarMidSideMHookConSttsLst)
-#line 14116
+#line 15692
 UINT8_T CppTest_Stub_GetMarMidSideMHookConSttsLst_GetMarMidSideMHookConSttsLst(void) 
 { 
 return (unsigned char)0; 
@@ -88878,7 +91132,7 @@ return (unsigned char)0;
 
 UINT8_T GetMarMidSideMHookConStts(); 
 #if defined(CPPTEST_USER_STUB_GetMarMidSideMHookConStts)
-#line 14123
+#line 15699
 UINT8_T CppTest_Stub_GetMarMidSideMHookConStts_GetMarMidSideMHookConStts(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_NonActiveProcess_19")) 
@@ -88912,7 +91166,7 @@ MaDataStruct_T _ma1 = {(0)};
 
 MaDataStruct_T *GetMaData(); 
 #if defined(CPPTEST_USER_STUB_GetMaData)
-#line 14155
+#line 15731
 MaDataStruct_T *CppTest_Stub_GetMaData_GetMaData(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FamExitRmCheck_23")) 
@@ -88935,7 +91189,7 @@ return &_ma1;
 
 UINT8_T GetStationArea(); 
 #if defined(CPPTEST_USER_STUB_GetStationArea)
-#line 14176
+#line 15752
 UINT8_T CppTest_Stub_GetStationArea_GetStationArea(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
@@ -89076,7 +91330,7 @@ return (unsigned char)0;
 
 UINT8_T GetFaoSpecialCtrl(); 
 #if defined(CPPTEST_USER_STUB_GetFaoSpecialCtrl)
-#line 14315
+#line 15891
 UINT8_T CppTest_Stub_GetFaoSpecialCtrl_GetFaoSpecialCtrl(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_78")) 
@@ -89097,7 +91351,7 @@ return (unsigned char)0;
 
 UINT8_T GetFrontOfTheGaragePoint(); 
 #if defined(CPPTEST_USER_STUB_GetFrontOfTheGaragePoint)
-#line 14334
+#line 15910
 UINT8_T CppTest_Stub_GetFrontOfTheGaragePoint_GetFrontOfTheGaragePoint(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
@@ -89238,7 +91492,7 @@ return (unsigned char)0;
 
 UINT8_T GetRearEndWashPoint(); 
 #if defined(CPPTEST_USER_STUB_GetRearEndWashPoint)
-#line 14473
+#line 16049
 UINT8_T CppTest_Stub_GetRearEndWashPoint_GetRearEndWashPoint(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_65")) 
@@ -89263,7 +91517,7 @@ return (unsigned char)0;
 
 UINT8_T GetFrontEndWashPoint(); 
 #if defined(CPPTEST_USER_STUB_GetFrontEndWashPoint)
-#line 14496
+#line 16072
 UINT8_T CppTest_Stub_GetFrontEndWashPoint_GetFrontEndWashPoint(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_88")) 
@@ -89280,7 +91534,7 @@ return (unsigned char)0;
 
 UINT8_T GetInttCouplPoint(); 
 #if defined(CPPTEST_USER_STUB_GetInttCouplPoint)
-#line 14511
+#line 16087
 UINT8_T CppTest_Stub_GetInttCouplPoint_GetInttCouplPoint(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_FAOModeProcess_98")) 
@@ -89309,9 +91563,27 @@ return (unsigned char)0;
 
 UINT8_T GetTrainStopSteady(); 
 #if defined(CPPTEST_USER_STUB_GetTrainStopSteady)
-#line 14538
+#line 16114
 UINT8_T CppTest_Stub_GetTrainStopSteady_GetTrainStopSteady(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_48")) 
+
+{ 
+return 170U; 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return 85U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_45")) 
+{ 
+return 170U; 
+}  
+if ((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_46") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_47")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_48")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_49")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_50")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_51")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_52")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_53")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_54")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_55")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlRevFunc_56")) 
+#line 16140
+{ 
+return 85U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_89")) 
 { 
 return 85U; 
@@ -89999,9 +92271,25 @@ return (unsigned char)0;
 
 UINT8_T GetMaStartDir(); 
 #if defined(CPPTEST_USER_STUB_GetMaStartDir)
-#line 15226
+#line 16829
 UINT8_T CppTest_Stub_GetMaStartDir_GetMaStartDir(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_4")) 
+{ 
+return 0U; 
+}  
+if (((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_5") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_7")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_10")) 
+
+
+
+{ 
+return 85U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_6") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAnyLocReverse_8")) 
+
+{ 
+return 170U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FaoReverseLocDirByMa_25")) 
 { 
 return 85U; 
@@ -90024,9 +92312,18 @@ return (unsigned char)0;
 
 UINT32_T GetDoorRevOpenDoorTimer(); 
 #if defined(CPPTEST_USER_STUB_GetDoorRevOpenDoorTimer)
-#line 15249
+#line 16868
 UINT32_T CppTest_Stub_GetDoorRevOpenDoorTimer_GetDoorRevOpenDoorTimer(void) 
 { 
+if ((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_7") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_9")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_13")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_14")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_15")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_16")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_FamAutoReverse_17")) 
+#line 16877
+{ 
+return 5U; 
+}  
+if (IsFamAutoReverseSpyTestCase()) 
+{ 
+return 10U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlVobcFamReverse_21")) 
 { 
 return 1; 
@@ -90041,7 +92338,7 @@ return 0U;
 
 UINT8_T GetTailInStationArea(); 
 #if defined(CPPTEST_USER_STUB_GetTailInStationArea)
-#line 15264
+#line 16897
 UINT8_T CppTest_Stub_GetTailInStationArea_GetTailInStationArea(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_73")) 
@@ -90074,7 +92371,7 @@ return (unsigned char)0;
 
 UINT8_T GetPartOfTrainInStationArea(); 
 #if defined(CPPTEST_USER_STUB_GetPartOfTrainInStationArea)
-#line 15295
+#line 16928
 UINT8_T CppTest_Stub_GetPartOfTrainInStationArea_GetPartOfTrainInStationArea(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_90")) 
@@ -90191,7 +92488,7 @@ return (unsigned char)0;
 
 UINT32_T GetSysCarWashErrNo(); 
 #if defined(CPPTEST_USER_STUB_GetSysCarWashErrNo)
-#line 15410
+#line 17043
 UINT32_T CppTest_Stub_GetSysCarWashErrNo_GetSysCarWashErrNo(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CarWashFunc_68")) 
@@ -90204,9 +92501,18 @@ return 0U;
 
 UINT8_T GetPartOfTrainInSleepAwakeArea(); 
 #if defined(CPPTEST_USER_STUB_GetPartOfTrainInSleepAwakeArea)
-#line 15421
+#line 17054
 UINT8_T CppTest_Stub_GetPartOfTrainInSleepAwakeArea_GetPartOfTrainInSleepAwakeArea(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_52")) 
+
+{ 
+return 85U; 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return 170U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_42")) 
 { 
 return 170U; 
@@ -90442,9 +92748,18 @@ return (unsigned char)0;
 
 UINT8_T GetPartOfTrainInRetainMarArea(); 
 #if defined(CPPTEST_USER_STUB_GetPartOfTrainInRetainMarArea)
-#line 15657
+#line 17299
 UINT8_T CppTest_Stub_GetPartOfTrainInRetainMarArea_GetPartOfTrainInRetainMarArea(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_53")) 
+
+{ 
+return 85U; 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return 170U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_42")) 
 { 
 return 170U; 
@@ -90680,9 +92995,18 @@ return (unsigned char)0;
 
 UINT8_T GetPrtJumpAllowCmd(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpAllowCmd)
-#line 15893
+#line 17544
 UINT8_T CppTest_Stub_GetPrtJumpAllowCmd_GetPrtJumpAllowCmd(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_59")) 
+
+{ 
+return 170U; 
+}  
+if (IsCheckJumpProtectionCoverageTestCase()) 
+{ 
+return 85U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_81")) 
 { 
 return 85U; 
@@ -90749,7 +93073,7 @@ return (unsigned char)0;
 
 UINT8_T GetPrtJumpStep(); 
 #if defined(CPPTEST_USER_STUB_GetPrtJumpStep)
-#line 15960
+#line 17620
 UINT8_T CppTest_Stub_GetPrtJumpStep_GetPrtJumpStep(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_90")) 
@@ -90952,7 +93276,7 @@ return (unsigned char)0;
 
 UINT8_T GetJumpAllowPoint(); 
 #if defined(CPPTEST_USER_STUB_GetJumpAllowPoint)
-#line 16161
+#line 17821
 UINT8_T CppTest_Stub_GetJumpAllowPoint_GetJumpAllowPoint(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_89")) 
@@ -91038,7 +93362,7 @@ return (unsigned char)0;
 
 UINT32_T GetSysJumpErrNo(); 
 #if defined(CPPTEST_USER_STUB_GetSysJumpErrNo)
-#line 16245
+#line 17905
 UINT32_T CppTest_Stub_GetSysJumpErrNo_GetSysJumpErrNo(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_JumpPrtFunc_81")) 
@@ -91055,7 +93379,7 @@ return 0U;
 
 void SetTrainLeftDoorHib(UINT8_T TrainLeftDoorHbi); 
 #if defined(CPPTEST_USER_STUB_SetTrainLeftDoorHib)
-#line 16260
+#line 17920
 void CppTest_Stub_SetTrainLeftDoorHib_SetTrainLeftDoorHib(UINT8_T TrainLeftDoorHbi) 
 { 
 } 
@@ -91063,7 +93387,7 @@ void CppTest_Stub_SetTrainLeftDoorHib_SetTrainLeftDoorHib(UINT8_T TrainLeftDoorH
 
 AwakeSyncTestRsnStruct_T *GetAwakeSyncTestRsnStru(); 
 #if defined(CPPTEST_USER_STUB_GetAwakeSyncTestRsnStru)
-#line 16266
+#line 17926
 AwakeSyncTestRsnStruct_T *CppTest_Stub_GetAwakeSyncTestRsnStru_GetAwakeSyncTestRsnStru(void) 
 { 
 return 0; 
@@ -91072,7 +93396,7 @@ return 0;
 
 UINT8_T GetMarSaveDataChgFlag(); 
 #if defined(CPPTEST_USER_STUB_GetMarSaveDataChgFlag)
-#line 16273
+#line 17933
 UINT8_T CppTest_Stub_GetMarSaveDataChgFlag_GetMarSaveDataChgFlag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_EUMModeprocess_18")) 
@@ -91089,7 +93413,7 @@ return (unsigned char)0;
 
 UINT16_T GetAtpBackRunJumpSpeedLimit(); 
 #if defined(CPPTEST_USER_STUB_GetAtpBackRunJumpSpeedLimit)
-#line 16288
+#line 17948
 UINT16_T CppTest_Stub_GetAtpBackRunJumpSpeedLimit_GetAtpBackRunJumpSpeedLimit(void) 
 { 
 return (unsigned short)0; 
@@ -91098,7 +93422,7 @@ return (unsigned short)0;
 
 UINT16_T GetSpksIdByDevId(UINT32_T devId); 
 #if defined(CPPTEST_USER_STUB_GetSpksIdByDevId)
-#line 16295
+#line 17955
 UINT16_T CppTest_Stub_GetSpksIdByDevId_GetSpksIdByDevId(UINT32_T devId) 
 { 
 return (unsigned short)0; 
@@ -91107,7 +93431,7 @@ return (unsigned short)0;
 
 UINT16_T GetAtpDecoupleCmdTimeout(); 
 #if defined(CPPTEST_USER_STUB_GetAtpDecoupleCmdTimeout)
-#line 16302
+#line 17962
 UINT16_T CppTest_Stub_GetAtpDecoupleCmdTimeout_GetAtpDecoupleCmdTimeout(void) 
 { 
 return (unsigned short)0; 
@@ -91116,7 +93440,7 @@ return (unsigned short)0;
 
 int CcuResetFunc(); 
 #if defined(CPPTEST_USER_STUB_CcuResetFunc)
-#line 16309
+#line 17969
 int CppTest_Stub_CcuResetFunc_CcuResetFunc(void) 
 { 
 return 0; 
@@ -91125,7 +93449,7 @@ return 0;
 
 UINT32_T GetAtpAtoConfigCrc(); 
 #if defined(CPPTEST_USER_STUB_GetAtpAtoConfigCrc)
-#line 16316
+#line 17976
 UINT32_T CppTest_Stub_GetAtpAtoConfigCrc_GetAtpAtoConfigCrc(void) 
 { 
 return 0U; 
@@ -91134,7 +93458,7 @@ return 0U;
 
 int ReverseInChk(); 
 #if defined(CPPTEST_USER_STUB_ReverseInChk)
-#line 16323
+#line 17983
 int CppTest_Stub_ReverseInChk_ReverseInChk(void) 
 { 
 return 0; 
@@ -91143,7 +93467,7 @@ return 0;
 
 UINT8_T GetSpksObstInfo(const Location_T * headloc, const Location_T * tailLoc, const Location_T * maStartLoc, const Location_T * maEndLoc, const UINT8_T maEndType, UINT8_T * spksObsNumFront, LimitObjFront_T  pSpksObsFront[], UINT8_T * spksObsNumBetwn, LimitObjBetweenStruct_T  pSpksObsBtw[]); 
 #if defined(CPPTEST_USER_STUB_GetSpksObstInfo)
-#line 16330
+#line 17990
 UINT8_T CppTest_Stub_GetSpksObstInfo_GetSpksObstInfo(const Location_T *headloc, const Location_T *tailLoc, const Location_T *maStartLoc, const Location_T *maEndLoc, const UINT8_T maEndType, UINT8_T *spksObsNumFront, LimitObjFront_T pSpksObsFront[], UINT8_T *spksObsNumBetwn, LimitObjBetweenStruct_T pSpksObsBtw[]) 
 { 
 return (unsigned char)0; 
@@ -91152,7 +93476,7 @@ return (unsigned char)0;
 
 int FaoReverseLocDirByMa(); 
 #if defined(CPPTEST_USER_STUB_FaoReverseLocDirByMa)
-#line 16337
+#line 17997
 int CppTest_Stub_FaoReverseLocDirByMa_FaoReverseLocDirByMa(void) 
 { 
 return 0; 
@@ -91161,7 +93485,7 @@ return 0;
 
 UINT32_T GetAtpAomConfigCrc(); 
 #if defined(CPPTEST_USER_STUB_GetAtpAomConfigCrc)
-#line 16344
+#line 18004
 UINT32_T CppTest_Stub_GetAtpAomConfigCrc_GetAtpAomConfigCrc(void) 
 { 
 return 0U; 
@@ -91170,16 +93494,49 @@ return 0U;
 
 UINT8_T GetAtpBackRunRmCfg(); 
 #if defined(CPPTEST_USER_STUB_GetAtpBackRunRmCfg)
-#line 16351
+#line 18011
 UINT8_T CppTest_Stub_GetAtpBackRunRmCfg_GetAtpBackRunRmCfg(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_46") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_49")) 
+
+{ 
+return 85U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_47") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_48")) 
+
+{ 
+return 170U; 
+}  
 return (unsigned char)0; 
+} 
+#endif
+UINT32_T g_BackPrtFuncTarget_SetPrtBackEnableTagCalls; 
+UINT8_T g_BackPrtFuncTarget_SetPrtBackEnableTagValue; 
+
+void ResetBackPrtFuncTargetStubSpy(void) 
+{ 
+g_BackPrtFuncTarget_SetPrtBackEnableTagCalls = 0U; 
+g_BackPrtFuncTarget_SetPrtBackEnableTagValue = 0U; 
+} 
+
+
+void SetPrtBackEnableTag(const UINT8_T PrtBackEnableTag); 
+#if defined(CPPTEST_USER_STUB_SetPrtBackEnableTag)
+#line 18037
+void CppTest_Stub_SetPrtBackEnableTag_SetPrtBackEnableTag(const UINT8_T PrtBackEnableTag) 
+{ 
+if (((((((((CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_41") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_42")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_43")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_44")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_45")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_46")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_47")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_48")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_49")) || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_BackPrtFunc_50")) 
+#line 18049
+{ 
+++g_BackPrtFuncTarget_SetPrtBackEnableTagCalls; 
+g_BackPrtFuncTarget_SetPrtBackEnableTagValue = PrtBackEnableTag; 
+}  
 } 
 #endif
 
 const FLEX_MARSH_AREA_T *GetFlexMarshAreaDatabyDevId(UINT32_T marshDeviceId); 
 #if defined(CPPTEST_USER_STUB_GetFlexMarshAreaDatabyDevId)
-#line 16358
+#line 18057
 const FLEX_MARSH_AREA_T *CppTest_Stub_GetFlexMarshAreaDatabyDevId_GetFlexMarshAreaDatabyDevId(UINT32_T marshDeviceId) 
 { 
 return 0; 
@@ -91188,7 +93545,7 @@ return 0;
 
 int CtrlVOBCReverseCBTC(); 
 #if defined(CPPTEST_USER_STUB_CtrlVOBCReverseCBTC)
-#line 16365
+#line 18064
 int CppTest_Stub_CtrlVOBCReverseCBTC_CtrlVOBCReverseCBTC(void) 
 { 
 return 0; 
@@ -91197,7 +93554,7 @@ return 0;
 
 UINT16_T GetVobcIdConfigDiamFailNum(); 
 #if defined(CPPTEST_USER_STUB_GetVobcIdConfigDiamFailNum)
-#line 16372
+#line 18071
 UINT16_T CppTest_Stub_GetVobcIdConfigDiamFailNum_GetVobcIdConfigDiamFailNum(void) 
 { 
 return (unsigned short)0; 
@@ -91206,7 +93563,7 @@ return (unsigned short)0;
 
 UINT32_T GetVobcExternDevIdByVobcId(const UINT8_T car_index); 
 #if defined(CPPTEST_USER_STUB_GetVobcExternDevIdByVobcId)
-#line 16379
+#line 18078
 UINT32_T CppTest_Stub_GetVobcExternDevIdByVobcId_GetVobcExternDevIdByVobcId(const UINT8_T car_index) 
 { 
 return 0U; 
@@ -91215,7 +93572,7 @@ return 0U;
 
 UINT32_T GetFlexMarshAreaId(UINT16_T id); 
 #if defined(CPPTEST_USER_STUB_GetFlexMarshAreaId)
-#line 16386
+#line 18085
 UINT32_T CppTest_Stub_GetFlexMarshAreaId_GetFlexMarshAreaId(UINT16_T id) 
 { 
 return 0U; 
@@ -91224,7 +93581,7 @@ return 0U;
 
 int CtrlVOBCEnterArProc(); 
 #if defined(CPPTEST_USER_STUB_CtrlVOBCEnterArProc)
-#line 16393
+#line 18092
 int CppTest_Stub_CtrlVOBCEnterArProc_CtrlVOBCEnterArProc(void) 
 { 
 return 0; 
@@ -91233,16 +93590,43 @@ return 0;
 
 UINT16_T GetAtpBackRunStopPointDis(); 
 #if defined(CPPTEST_USER_STUB_GetAtpBackRunStopPointDis)
-#line 16400
+#line 18099
 UINT16_T CppTest_Stub_GetAtpBackRunStopPointDis_GetAtpBackRunStopPointDis(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_3") || CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_4")) 
+
+{ 
+return 100U; 
+}  
 return (unsigned short)0; 
+} 
+#endif
+UINT32_T g_CheckStopPointDistance_AddSysJumpErrNoCalls; 
+UINT32_T g_CheckStopPointDistance_AddSysJumpErrNoValue; 
+
+void ResetCheckStopPointDistanceStubSpy(void) 
+{ 
+g_CheckStopPointDistance_AddSysJumpErrNoCalls = 0U; 
+g_CheckStopPointDistance_AddSysJumpErrNoValue = 0U; 
+} 
+
+
+void AddSysJumpErrNo(const UINT32_T jumpErrNo); 
+#if defined(CPPTEST_USER_STUB_AddSysJumpErrNo)
+#line 18120
+void CppTest_Stub_AddSysJumpErrNo_AddSysJumpErrNo(const UINT32_T jumpErrNo) 
+{ 
+if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckStopPointDistance_3")) 
+{ 
+++g_CheckStopPointDistance_AddSysJumpErrNoCalls; 
+g_CheckStopPointDistance_AddSysJumpErrNoValue = jumpErrNo; 
+}  
 } 
 #endif
 
 UINT16_T GetAtpPassiveCoupleTimeout(); 
 #if defined(CPPTEST_USER_STUB_GetAtpPassiveCoupleTimeout)
-#line 16407
+#line 18131
 UINT16_T CppTest_Stub_GetAtpPassiveCoupleTimeout_GetAtpPassiveCoupleTimeout(void) 
 { 
 return (unsigned short)0; 
@@ -91251,16 +93635,33 @@ return (unsigned short)0;
 
 UINT32_T GetObcConfigCrc(); 
 #if defined(CPPTEST_USER_STUB_GetObcConfigCrc)
-#line 16414
+#line 18138
 UINT32_T CppTest_Stub_GetObcConfigCrc_GetObcConfigCrc(void) 
 { 
+if (IsCtrlVOBCEnterARTargetTestCase()) 
+{ 
+return 10U; 
+}  
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_0")) 
+{ 
+++g_AmCmManReverse_GetObcConfigCrcCalls; 
+return 0U; 
+}  
+if (((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_1") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_2")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_3")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_AmCmManReverse_4")) 
+
+
+
+{ 
+++g_AmCmManReverse_GetObcConfigCrcCalls; 
+return 1U; 
+}  
 return 0U; 
 } 
 #endif
 
 int CtrlVobcFamReverse(); 
 #if defined(CPPTEST_USER_STUB_CtrlVobcFamReverse)
-#line 16421
+#line 18162
 int CppTest_Stub_CtrlVobcFamReverse_CtrlVobcFamReverse(void) 
 { 
 return 0; 
@@ -91269,7 +93670,7 @@ return 0;
 
 UINT8_T GetStopPointDataStrudir(const UINT16_T stopPointId); 
 #if defined(CPPTEST_USER_STUB_GetStopPointDataStrudir)
-#line 16428
+#line 18169
 UINT8_T CppTest_Stub_GetStopPointDataStrudir_GetStopPointDataStrudir(const UINT16_T stopPointId) 
 { 
 return (unsigned char)0; 
@@ -91278,7 +93679,7 @@ return (unsigned char)0;
 
 int CtrlVobcAutoReverse(); 
 #if defined(CPPTEST_USER_STUB_CtrlVobcAutoReverse)
-#line 16435
+#line 18176
 int CppTest_Stub_CtrlVobcAutoReverse_CtrlVobcAutoReverse(void) 
 { 
 return 0; 
@@ -91287,7 +93688,7 @@ return 0;
 
 UINT32_T GetAtpCamConfigCrc(); 
 #if defined(CPPTEST_USER_STUB_GetAtpCamConfigCrc)
-#line 16442
+#line 18183
 UINT32_T CppTest_Stub_GetAtpCamConfigCrc_GetAtpCamConfigCrc(void) 
 { 
 return 0U; 
@@ -91296,7 +93697,7 @@ return 0U;
 
 int CtrlOppoAtpReverse(); 
 #if defined(CPPTEST_USER_STUB_CtrlOppoAtpReverse)
-#line 16449
+#line 18190
 int CppTest_Stub_CtrlOppoAtpReverse_CtrlOppoAtpReverse(void) 
 { 
 return 0; 
@@ -91305,7 +93706,7 @@ return 0;
 
 UINT16_T GetAtpEbSpeedWash(); 
 #if defined(CPPTEST_USER_STUB_GetAtpEbSpeedWash)
-#line 16456
+#line 18197
 UINT16_T CppTest_Stub_GetAtpEbSpeedWash_GetAtpEbSpeedWash(void) 
 { 
 return (unsigned short)0; 
@@ -91314,7 +93715,7 @@ return (unsigned short)0;
 
 UINT32_T GetStartTime(const UINT8_T SendDevType, const UINT8_T RcvDevType); 
 #if defined(CPPTEST_USER_STUB_GetStartTime)
-#line 16463
+#line 18204
 UINT32_T CppTest_Stub_GetStartTime_GetStartTime(const UINT8_T SendDevType, const UINT8_T RcvDevType) 
 { 
 return 0U; 
@@ -91323,7 +93724,7 @@ return 0U;
 
 UINT32_T GetAtpTacConfigCrc(); 
 #if defined(CPPTEST_USER_STUB_GetAtpTacConfigCrc)
-#line 16470
+#line 18211
 UINT32_T CppTest_Stub_GetAtpTacConfigCrc_GetAtpTacConfigCrc(void) 
 { 
 return 0U; 
@@ -91332,7 +93733,7 @@ return 0U;
 
 SpksInfoStruct_T *GetTacSPKSStatus(); 
 #if defined(CPPTEST_USER_STUB_GetTacSPKSStatus)
-#line 16477
+#line 18218
 SpksInfoStruct_T *CppTest_Stub_GetTacSPKSStatus_GetTacSPKSStatus(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_24")) 
@@ -91467,7 +93868,7 @@ if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtecti
 { 
 return 170U; 
 }  
-#line 16619
+#line 18360
 if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtection_1")) 
 { 
 return 85U; 
@@ -91484,7 +93885,7 @@ if (CppTest_IsCurrentTestCase("TestSuite_ProtectionHandle_test_CheckJumpProtecti
 { 
 return 170U; 
 }  
-#line 16640
+#line 18381
 if (CppTest_IsCurrentTestCase("TesstSuite_ProtectionHandle_test_SpksEbProtection")) 
 { 
 return 85U; 
@@ -91500,9 +93901,14 @@ return 0;
 
 UINT8_T GetRcvAomAwakeMaintainBtn(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAomAwakeMaintainBtn)
-#line 16654
+#line 18395
 UINT8_T CppTest_Stub_GetRcvAomAwakeMaintainBtn_GetRcvAomAwakeMaintainBtn(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_TractionBrakeHandle_test_EBProcFunc_15")) 
+
+{ 
+return 170U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_AMModeProcess_97")) 
 { 
 return 85U; 
@@ -91528,9 +93934,19 @@ return (unsigned char)0;
 #endif
 UINT8_T GetRcvAtoDevFault(); 
 #if defined(CPPTEST_USER_STUB_GetRcvAtoDevFault)
-#line 16680
+#line 18426
 UINT8_T CppTest_Stub_GetRcvAtoDevFault_GetRcvAtoDevFault(void) 
 { 
+if (CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_53") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_63")) 
+
+{ 
+return 85U; 
+}  
+if ((((((((((((((CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_52") || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_54")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_55")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_56")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_57")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_58")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_59")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_60")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_61")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_62")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_64")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_65")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_66")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_CtrlARConditionChk_67")) || CppTest_IsCurrentTestCase("TestSuite_ReverseHandle_test_EnterAmAutoReverse_0")) 
+#line 18448
+{ 
+return 170U; 
+}  
 if (CppTest_IsCurrentTestCase("TestSuite_ModeHandle_test_AMModeProcess_97")) 
 { 
 return 170U; 
@@ -91553,7 +93969,7 @@ return (unsigned char)0;
 #endif
 UINT8_T GetRcvTacAtsCommErrTag(); 
 #if defined(CPPTEST_USER_STUB_GetRcvTacAtsCommErrTag)
-#line 16703
+#line 18472
 UINT8_T CppTest_Stub_GetRcvTacAtsCommErrTag_GetRcvTacAtsCommErrTag(void) 
 { 
 if (CppTest_IsCurrentTestCase("TestSuite_ModeInit_test_FAOHold2Station_12")) 

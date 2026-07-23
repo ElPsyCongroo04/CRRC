@@ -4,10 +4,21 @@
     <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2" />
     <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2" />
   </VersionInfos>
+  <CtxList ids="-285612235082230912 -3570273422744742770" uniqueId2MainId="CPP://-2977520084267376203 CPP://5142326781391581638" />
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;20;GetPowerOffHintFlag" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;27;SetPowerOffHintFlag" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;20;GetPowerOffHintFlag" total="1" num="1" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;27;SetPowerOffHintFlag" total="1" num="1" />
   </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;20;GetPowerOffHintFlag">
+      <CtxCvg ctx="-285612235082230912" ids="GetPowerOffHintFlag" cnts="3" paths="1" expect="1" />
+      <CtxCvg ctx="-3570273422744742770" ids="GetPowerOffHintFlag" cnts="3" paths="1" expect="1" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;27;SetPowerOffHintFlag">
+      <CtxCvg ctx="-285612235082230912" ids="SetPowerOffHintFlag" cnts="2" paths="1" expect="1" />
+      <CtxCvg ctx="-3570273422744742770" ids="SetPowerOffHintFlag" cnts="2" paths="1" expect="1" />
+    </DynCvg>
+  </ResultInfo>
   <ResultInfo cvgType="PC" stat="true">
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/PowerOffData.c;20;GetPowerOffHintFlag" show="true">
       <CvgElem id="GetPowerOffHintFlag" pathsNo="1">

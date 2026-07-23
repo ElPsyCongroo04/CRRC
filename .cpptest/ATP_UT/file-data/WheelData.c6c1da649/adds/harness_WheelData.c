@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_3869995236_55728_2302958922 = 
+CppTestTranslationUnitInfo __CPTR_tui_3869995236_30084_2316988646 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\WheelData.c6c1da649\\adds\\harness_WheelData.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_3869995236_55728_2302958922
+#define __CPTR_tui &__CPTR_tui_3869995236_30084_2316988646
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_3869995236_55728_2302958922 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_3869995236_55728_2302958922 {
-    __CPTR_Initializer_3869995236_55728_2302958922()
+struct __CPTR_Initializer_3869995236_30084_2316988646 {
+    __CPTR_Initializer_3869995236_30084_2316988646()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_3869995236_55728_2302958922()
+    ~__CPTR_Initializer_3869995236_30084_2316988646()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_3869995236_55728_2302958922 __CPTR_initializer_3869995236_55728_2302958922;
+static struct __CPTR_Initializer_3869995236_30084_2316988646 __CPTR_initializer_3869995236_30084_2316988646;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3869995236_55728_2302958922 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_3869995236_30084_2316988646 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 57 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_3869995236_55728_2302958922 = 
+CppTestCoverageInfo __CPTR_cui_3869995236_30084_2316988646 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_3869995236_55728_2302958922 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_3869995236_55728_2302958922
-#define __CPTR_fid(ID) ID + __CPTR_cui_3869995236_55728_2302958922.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_3869995236_30084_2316988646
+#define __CPTR_fid(ID) ID + __CPTR_cui_3869995236_30084_2316988646.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -60228,13 +60228,13 @@ CppTest_Stub__Call_MemorySet_MemorySet(&WheelCheckInfoStru, sizeof(WheelCheckInf
 WheelInfoStruct_T *GetWhlAData(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[3], 2);cpptestCoverageStmt(1U, 5U, __CPTR_cui, _Insure_funcID, 2);CPPTEST_STACK_TRACE_STMT_INFO(6) 
 
-{WheelInfoStruct_T *__T120343336 =  (&(WheelCheckInfoStru.wheelA));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120343336;}
+{WheelInfoStruct_T *__T119358616 =  (&(WheelCheckInfoStru.wheelA));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119358616;}
 } 
 
 WheelInfoStruct_T *GetWhlBData(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[4], 3);cpptestCoverageStmt(1U, 6U, __CPTR_cui, _Insure_funcID, 3);CPPTEST_STACK_TRACE_STMT_INFO(7) 
 
-{WheelInfoStruct_T *__T120344344 =  (&(WheelCheckInfoStru.wheelB));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120344344;}
+{WheelInfoStruct_T *__T119359624 =  (&(WheelCheckInfoStru.wheelB));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119359624;}
 } 
 
 UINT32_T GetWhlPreBaliseId(void) 
@@ -60277,7 +60277,7 @@ WheelCheckInfoStru.BaliDisReal = baliDisReal; CPPTEST_STACK_TRACE_EXIT_ROUTINE()
 WcState_T GetWhlAChkSta(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[11], 10);cpptestCoverageStmt(1U, 13U, __CPTR_cui, _Insure_funcID, 10);CPPTEST_STACK_TRACE_STMT_INFO(11) 
 
-{WcState_T __T120353052 =  ((WheelCheckInfoStru.wheelA).whlChkSta);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120353052;}
+{WcState_T __T119368332 =  ((WheelCheckInfoStru.wheelA).whlChkSta);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119368332;}
 } 
 
 void SetWhlAChkSta(const WcState_T chkSta) 
@@ -60289,7 +60289,7 @@ void SetWhlAChkSta(const WcState_T chkSta)
 WcState_T GetWhlAChkStaLast(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[13], 12);cpptestCoverageStmt(1U, 15U, __CPTR_cui, _Insure_funcID, 12);CPPTEST_STACK_TRACE_STMT_INFO(13) 
 
-{WcState_T __T120356216 =  ((WheelCheckInfoStru.wheelA).whlChkStaLast);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120356216;}
+{WcState_T __T119371496 =  ((WheelCheckInfoStru.wheelA).whlChkStaLast);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119371496;}
 } 
 
 void SetWhlAChkStaLast(void) 
@@ -60373,7 +60373,7 @@ void SetWhlACurWheelVal(const UINT16_T wheelVal)
 UINT16_T GetWhlAWheelVal(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[27], 26);cpptestCoverageStmt(1U, 29U, __CPTR_cui, _Insure_funcID, 26);CPPTEST_STACK_TRACE_STMT_INFO(21) 
 
-{UINT16_T __T120416552 =  (((WheelCheckInfoStru.wheelA).wheelVal)[0U]);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120416552;}
+{UINT16_T __T119431832 =  (((WheelCheckInfoStru.wheelA).wheelVal)[0U]);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119431832;}
 } 
 
 void AddWhlAWheelVal(const UINT16_T wheelVal) 
@@ -60466,7 +60466,7 @@ for (i = 20U - 1U; (cpptestCoverageBlock(4, _Insure_funcID, __CPTR_fid(33)), (cp
 WcState_T GetWhlBChkSta(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[35], 34);cpptestCoverageStmt(1U, 54U, __CPTR_cui, _Insure_funcID, 34);CPPTEST_STACK_TRACE_STMT_INFO(46) 
 
-{WcState_T __T120449636 =  ((WheelCheckInfoStru.wheelB).whlChkSta);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120449636;}
+{WcState_T __T119464916 =  ((WheelCheckInfoStru.wheelB).whlChkSta);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119464916;}
 } 
 
 void SetWhlBChkSta(const WcState_T chkSta) 
@@ -60478,7 +60478,7 @@ void SetWhlBChkSta(const WcState_T chkSta)
 WcState_T GetWhlBChkStaLast(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[37], 36);cpptestCoverageStmt(1U, 56U, __CPTR_cui, _Insure_funcID, 36);CPPTEST_STACK_TRACE_STMT_INFO(48) 
 
-{WcState_T __T120452800 =  ((WheelCheckInfoStru.wheelB).whlChkStaLast);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120452800;}
+{WcState_T __T119468080 =  ((WheelCheckInfoStru.wheelB).whlChkStaLast);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119468080;}
 } 
 
 void SetWhlBChkStaLast(void) 
@@ -60562,7 +60562,7 @@ void SetWhlBCurWheelVal(const UINT16_T wheelVal)
 UINT16_T GetWhlBWheelVal(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[51], 50);cpptestCoverageStmt(1U, 70U, __CPTR_cui, _Insure_funcID, 50);CPPTEST_STACK_TRACE_STMT_INFO(56) 
 
-{UINT16_T __T120473924 =  (((WheelCheckInfoStru.wheelB).wheelVal)[0U]);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T120473924;}
+{UINT16_T __T119489204 =  (((WheelCheckInfoStru.wheelB).wheelVal)[0U]);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T119489204;}
 } 
 
 void AddWhlBWheelVal(const UINT16_T wheelVal) 

@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_1440502734_55104_2302963054 = 
+CppTestTranslationUnitInfo __CPTR_tui_1440502734_30484_2316993654 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\PackParseCamData.ce41a3f73\\adds\\harness_PackParseCamData.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_1440502734_55104_2302963054
+#define __CPTR_tui &__CPTR_tui_1440502734_30484_2316993654
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_1440502734_55104_2302963054 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_1440502734_55104_2302963054 {
-    __CPTR_Initializer_1440502734_55104_2302963054()
+struct __CPTR_Initializer_1440502734_30484_2316993654 {
+    __CPTR_Initializer_1440502734_30484_2316993654()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_1440502734_55104_2302963054()
+    ~__CPTR_Initializer_1440502734_30484_2316993654()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_1440502734_55104_2302963054 __CPTR_initializer_1440502734_55104_2302963054;
+static struct __CPTR_Initializer_1440502734_30484_2316993654 __CPTR_initializer_1440502734_30484_2316993654;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1440502734_55104_2302963054 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1440502734_30484_2316993654 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 124 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_1440502734_55104_2302963054 = 
+CppTestCoverageInfo __CPTR_cui_1440502734_30484_2316993654 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_1440502734_55104_2302963054 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_1440502734_55104_2302963054
-#define __CPTR_fid(ID) ID + __CPTR_cui_1440502734_55104_2302963054.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_1440502734_30484_2316993654
+#define __CPTR_fid(ID) ID + __CPTR_cui_1440502734_30484_2316993654.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -71443,13 +71443,13 @@ return 0U;
 UINT8_T *GetCamSndToAtsStaInfoBuf(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[89], 88);cpptestCoverageStmt(1U, 691U, __CPTR_cui, _Insure_funcID, 88);CPPTEST_STACK_TRACE_STMT_INFO(727) 
 
-{UINT8_T *__T124901600 =  (gCamToAtsStaInfoBuf1);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124901600;}
+{UINT8_T *__T124862656 =  (gCamToAtsStaInfoBuf1);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124862656;}
 } 
 
 UINT32_T GetAtpRcvCamOpWarning(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[90], 89);cpptestCoverageStmt(1U, 692U, __CPTR_cui, _Insure_funcID, 89);CPPTEST_STACK_TRACE_STMT_INFO(728) 
 
-{UINT32_T __T124902832 =  ((UINT32_T)((RcvCamDataStru.cycleInfoStru).AtoOperationWarning));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124902832;}
+{UINT32_T __T124863888 =  ((UINT32_T)((RcvCamDataStru.cycleInfoStru).AtoOperationWarning));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124863888;}
 } 
 
 
@@ -71565,7 +71565,7 @@ return (RcvCamDataStru.ctrlAddInfoStru).washButtonStaus;
 SndAtoInfoDataStruct_T *GetAtpSendCamData(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[107], 106);cpptestCoverageStmt(1U, 711U, __CPTR_cui, _Insure_funcID, 106);CPPTEST_STACK_TRACE_STMT_INFO(736) 
 
-{SndAtoInfoDataStruct_T *__T124926904 =  (&SndCamDataStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124926904;}
+{SndAtoInfoDataStruct_T *__T124887960 =  (&SndCamDataStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124887960;}
 } 
 
 RcvAtoInfoDataStruct_T GetRcvCamDataStru(void) 
@@ -71595,7 +71595,7 @@ CppTest_Stub__Call_MemoryCpy_MemoryCpy(&(SndCamDataStru.psdIsolatStru), sizeof(P
 const PsdIsolatStruct_T *GetPSDIsolatFromCam(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[111], 110);cpptestCoverageStmt(1U, 717U, __CPTR_cui, _Insure_funcID, 110);CPPTEST_STACK_TRACE_STMT_INFO(741) 
 
-{const PsdIsolatStruct_T *__T124935832 =  (&(RcvCamDataStru.psdIsolateStru));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124935832;}
+{const PsdIsolatStruct_T *__T124896888 =  (&(RcvCamDataStru.psdIsolateStru));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124896888;}
 } 
 
 

@@ -4,48 +4,39 @@
     <StorageInfo ownerId="MCDC" resultId="MCDCoverageStaticInfo" ver="2" />
     <StorageInfo ownerId="MCDC" resultId="IDynamicCoverageInfo" ver="2" />
   </VersionInfos>
-  <CtxList ids="7439007155873996951 4668299114784009951 2280983601714526128 4668299114784010790 3847402058542082743 665851840894735791 -1204724689474727134 665851840894735697 4668299114784002257 1166662377782021570 341804384815388165 3847402058542082837 4350481491180392940 -3399826860484268947 487128827488718839 665851840894735906 4668299114784002142 7439007155873998838 -4520545803260036158 -2203190894106228188 -4830745867383605369 665851840895390137 4668299114784010696 7439007155873996206 4668299114784009857 3847402058542083582 7439007155873996112 5551470564675240106 487128827488719772 -6927587915849315046 -1350775023757239259 -5811821974353430372 665851840895388365 1166662377782020825 487128827488719678 4518828354758568465" uniqueId2MainId="CPP://-8491641153857428519 CPP://-2402214012712317886 CPP://2762465901126116297 CPP://-2402214012712317948 CPP://-1995934304685118465 CPP://-704314136753639449 CPP://-2249514967036043528 CPP://-704314136753639418 CPP://-2402214012712317080 CPP://-8856412913634067207 CPP://-2627560879395168520 CPP://-1995934304685118496 CPP://-3747031002532602353 CPP://6179751836593946049 CPP://-8861033569096241453 CPP://-704314136753639480 CPP://-2402214012712317049 CPP://-8491641153857428705 CPP://-5953393911139517280 CPP://-8102486192069415475 CPP://-4819045318999339310 CPP://-704314136753640317 CPP://-2402214012712317917 CPP://-8491641153857428488 CPP://-2402214012712317855 CPP://-1995934304685118527 CPP://-8491641153857428457 CPP://-4820552390775052772 CPP://-8861033569096241546 CPP://-4806988851294073334 CPP://6629556762514153689 CPP://-4543176735728981110 CPP://-704314136753640162 CPP://-8856412913634067176 CPP://-8861033569096241515 CPP://-4806750908007182510" />
+  <CtxList ids="7439007155873996951 4668299114784009951 2280983601714526128 4668299114784010790 665851840894735791 -1204724689474727134 665851840894735697 4668299114784002257 1166662377782021570 341804384815388165 4350481491180392940 -3399826860484268947 665851840894735906 4668299114784002142 7439007155873998838 -2203190894106228188 -8210634064068046065 665851840895390137 4668299114784010696 4668299114784009857 7439007155873996206 7439007155873996112 5551470564675240106 -6927587915849315046 665851840895388365 1166662377782020825 4518828354758568465" uniqueId2MainId="CPP://-8491641153857428519 CPP://-2402214012712317886 CPP://2762465901126116297 CPP://-2402214012712317948 CPP://-704314136753639449 CPP://-2249514967036043528 CPP://-704314136753639418 CPP://-2402214012712317080 CPP://-8856412913634067207 CPP://-2627560879395168520 CPP://-3747031002532602353 CPP://6179751836593946049 CPP://-704314136753639480 CPP://-2402214012712317049 CPP://-8491641153857428705 CPP://-8102486192069415475 CPP://-8446549487719615865 CPP://-704314136753640317 CPP://-2402214012712317917 CPP://-2402214012712317855 CPP://-8491641153857428488 CPP://-8491641153857428457 CPP://-4820552390775052772 CPP://-4806988851294073334 CPP://-704314136753640162 CPP://-8856412913634067176 CPP://-4806750908007182510" />
   <Stats>
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/LampControl/LampControl.c;17;LampLight" total="10" num="0" />
   </Stats>
   <ResultInfo cvgType="MCDC">
     <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/LampControl/LampControl.c;17;LampLight">
-      <CtxCvg ctx="7439007155873996951" ids="LampLight:2 LampLight:4 LampLight:1" cnts="3 3 3" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="7439007155873996951" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="4668299114784009951" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="2280983601714526128" ids="LampLight:2 LampLight:4 LampLight:1" cnts="3 3 3" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="3847402058542082743" ids="LampLight:2 LampLight:4 LampLight:1" cnts="2 2 2" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="2280983601714526128" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="4668299114784010790" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="665851840894735791" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="665851840894735697" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="-1204724689474727134" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="4668299114784002257" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="1166662377782021570" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="341804384815388165" ids="LampLight:2 LampLight:4 LampLight:1" cnts="3 3 3" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="4350481491180392940" ids="LampLight:2 LampLight:4 LampLight:1" cnts="3 3 3" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="3847402058542082837" ids="LampLight:2 LampLight:4 LampLight:1" cnts="2 2 2" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="-3399826860484268947" ids="LampLight:2 LampLight:4 LampLight:1" cnts="3 3 3" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="487128827488718839" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="341804384815388165" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="-3399826860484268947" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="4350481491180392940" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="665851840894735906" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="4668299114784002142" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="7439007155873998838" ids="LampLight:2 LampLight:4 LampLight:1" cnts="3 3 3" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="-4520545803260036158" ids="LampLight:2 LampLight:4 LampLight:1" cnts="2 2 2" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="7439007155873998838" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="-2203190894106228188" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="-4830745867383605369" ids="LampLight:2 LampLight:4 LampLight:1" cnts="2 2 2" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="-8210634064068046065" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="665851840895390137" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 1;X" />
       <CtxCvg ctx="4668299114784010696" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="7439007155873996206" ids="LampLight:2 LampLight:4 LampLight:1" cnts="3 3 3" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="4668299114784009857" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="3847402058542083582" ids="LampLight:2 LampLight:4 LampLight:1" cnts="2 2 2" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="7439007155873996112" ids="LampLight:2 LampLight:4 LampLight:1" cnts="3 3 3" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="7439007155873996206" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
+      <CtxCvg ctx="7439007155873996112" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="5551470564675240106" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="487128827488719772" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="-6927587915849315046" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="-1350775023757239259" ids="LampLight:2 LampLight:4 LampLight:1" cnts="2 2 2" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="-5811821974353430372" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="665851840895388365" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="1166662377782020825" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
       <CtxCvg ctx="4518828354758568465" ids="LampLight:2 LampLight:4 LampLight:1" cnts="2 2 2" decOuts="0 0 1" vals="0 0 0;1" />
-      <CtxCvg ctx="487128827488719678" ids="LampLight:2 LampLight:4 LampLight:1" decOuts="0 0 1" vals="0 0 0;1" />
     </DynCvg>
   </ResultInfo>
   <ResultInfo cvgType="MCDC" stat="true">

@@ -4,10 +4,49 @@
     <StorageInfo ownerId="DC" resultId="DecisionCoverageStaticInfo" ver="2" />
     <StorageInfo ownerId="DC" resultId="IDynamicCoverageInfo" ver="2" />
   </VersionInfos>
+  <CtxList ids="7376624093564578100 7454882097167013579 2215867745521801955 7376624093564578006 2215867745521802049 7454882097167015372 7376624093564578194 7376624093564576307 7376624093564576213 -4069822358953374280 7376624093564579033 7376624093564577167 2215867745521804660 2215867745521803915 7376624093564578939 7454882097167014606 2215867745521803821 -2492774177654094101 2215867745521802982 2215867745521802888 2215867745521803727 2215867745521802794 2215867745521804754 7376624093564577261 3931256704413325081 7454882097167013673 3931256704413324336 7454882097167014418 3931256704413324242 7454882097167014512 7376624093564577052 3931256704413324148" uniqueId2MainId="CPP://-5896925380969835843 CPP://4512990649565922345 CPP://-3261105282998705360 CPP://-5896925380969835812 CPP://-3261105282998705391 CPP://4512990649565922500 CPP://-5896925380969835874 CPP://-5896925380969835688 CPP://-5896925380969835657 CPP://-885312369850385622 CPP://-5896925380969835936 CPP://-5896925380969835750 CPP://-3261105282998705608 CPP://-3261105282998705577 CPP://-5896925380969835905 CPP://4512990649565922469 CPP://-3261105282998705546 CPP://4640209454426804529 CPP://-3261105282998705484 CPP://-3261105282998705453 CPP://-3261105282998705515 CPP://-3261105282998705422 CPP://-3261105282998705639 CPP://-5896925380969835781 CPP://-6010306681876796528 CPP://4512990649565922376 CPP://-6010306681876796497 CPP://4512990649565922407 CPP://-6010306681876796466 CPP://4512990649565922438 CPP://-5896925380969835719 CPP://-6010306681876796435" />
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TractionBrakeManage/TractionBrakeHandle.c;35;CutTracFunc" total="20" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TractionBrakeManage/TractionBrakeHandle.c;122;EBProcFunc" total="26" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TractionBrakeManage/TractionBrakeHandle.c;35;CutTracFunc" total="20" num="20" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TractionBrakeManage/TractionBrakeHandle.c;122;EBProcFunc" total="26" num="26" />
   </Stats>
+  <ResultInfo cvgType="DC">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TractionBrakeManage/TractionBrakeHandle.c;122;EBProcFunc">
+      <CtxCvg ctx="7376624093564578100" ids="EBProcFunc:11>13 EBProcFunc:6>8 EBProcFunc:14>15 EBProcFunc:15>16 EBProcFunc:1>3 EBProcFunc:8>9 EBProcFunc:3>4 EBProcFunc:4>6 EBProcFunc:16>20" />
+      <CtxCvg ctx="7454882097167013579" ids="EBProcFunc:6>8 EBProcFunc:11>12 EBProcFunc:23>29 EBProcFunc:1>3 EBProcFunc:14>23 EBProcFunc:8>9 EBProcFunc:3>4 EBProcFunc:4>6" />
+      <CtxCvg ctx="-2492774177654094101" ids="EBProcFunc:11>13 EBProcFunc:6>8 EBProcFunc:23>29 EBProcFunc:1>3 EBProcFunc:14>23 EBProcFunc:8>9 EBProcFunc:3>4 EBProcFunc:4>6" />
+      <CtxCvg ctx="7376624093564578006" ids="EBProcFunc:11>13 EBProcFunc:6>8 EBProcFunc:14>15 EBProcFunc:15>16 EBProcFunc:1>3 EBProcFunc:8>9 EBProcFunc:3>4 EBProcFunc:4>6 EBProcFunc:16>20" />
+      <CtxCvg ctx="7454882097167015372" ids="EBProcFunc:11>12 EBProcFunc:23>29 EBProcFunc:14>23 EBProcFunc:1>2 EBProcFunc:3>11" />
+      <CtxCvg ctx="7376624093564578194" ids="EBProcFunc:11>13 EBProcFunc:6>8 EBProcFunc:14>15 EBProcFunc:15>16 EBProcFunc:1>3 EBProcFunc:16>17 EBProcFunc:8>9 EBProcFunc:3>4 EBProcFunc:17>19 EBProcFunc:4>5" />
+      <CtxCvg ctx="7376624093564576307" ids="EBProcFunc:11>12 EBProcFunc:1>3 EBProcFunc:14>23 EBProcFunc:24>28 EBProcFunc:23>24 EBProcFunc:3>11" />
+      <CtxCvg ctx="7376624093564577261" ids="EBProcFunc:6>8 EBProcFunc:11>12 EBProcFunc:14>15 EBProcFunc:15>16 EBProcFunc:1>3 EBProcFunc:16>17 EBProcFunc:8>9 EBProcFunc:3>4 EBProcFunc:17>18 EBProcFunc:4>6" />
+      <CtxCvg ctx="7376624093564579033" ids="EBProcFunc:11>12 EBProcFunc:14>15 EBProcFunc:15>16 EBProcFunc:1>3 EBProcFunc:3>11 EBProcFunc:16>20" />
+      <CtxCvg ctx="7454882097167013673" ids="EBProcFunc:11>12 EBProcFunc:6>7 EBProcFunc:23>29 EBProcFunc:1>3 EBProcFunc:14>23 EBProcFunc:8>9 EBProcFunc:3>4 EBProcFunc:4>6" />
+      <CtxCvg ctx="7376624093564576213" ids="EBProcFunc:25>27 EBProcFunc:11>12 EBProcFunc:1>3 EBProcFunc:24>25 EBProcFunc:14>23 EBProcFunc:23>24 EBProcFunc:3>11" />
+      <CtxCvg ctx="7376624093564577167" ids="EBProcFunc:11>12 EBProcFunc:1>3 EBProcFunc:14>23 EBProcFunc:24>28 EBProcFunc:23>24 EBProcFunc:3>11" />
+      <CtxCvg ctx="7376624093564578939" ids="EBProcFunc:11>13 EBProcFunc:6>8 EBProcFunc:14>15 EBProcFunc:1>3 EBProcFunc:15>22 EBProcFunc:3>4 EBProcFunc:4>6 EBProcFunc:8>10" />
+      <CtxCvg ctx="7454882097167014418" ids="EBProcFunc:11>12 EBProcFunc:23>29 EBProcFunc:1>3 EBProcFunc:14>23 EBProcFunc:3>11" />
+      <CtxCvg ctx="7454882097167014606" ids="EBProcFunc:11>12 EBProcFunc:23>29 EBProcFunc:14>23 EBProcFunc:1>2 EBProcFunc:3>11" />
+      <CtxCvg ctx="7376624093564577052" ids="EBProcFunc:25>26 EBProcFunc:11>12 EBProcFunc:1>3 EBProcFunc:24>25 EBProcFunc:14>23 EBProcFunc:23>24 EBProcFunc:3>11" />
+      <CtxCvg ctx="7454882097167014512" ids="EBProcFunc:11>12 EBProcFunc:23>29 EBProcFunc:1>3 EBProcFunc:14>23 EBProcFunc:3>11" />
+    </DynCvg>
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TractionBrakeManage/TractionBrakeHandle.c;35;CutTracFunc">
+      <CtxCvg ctx="2215867745521803821" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="2215867745521801955" ids="CutTracFunc:16>17 CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:15>16 CutTracFunc:13>15 CutTracFunc:11>13 CutTracFunc:7>9 CutTracFunc:17>19" />
+      <CtxCvg ctx="2215867745521802049" ids="CutTracFunc:16>17 CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:15>16 CutTracFunc:13>15 CutTracFunc:17>18 CutTracFunc:11>13 CutTracFunc:7>9" />
+      <CtxCvg ctx="2215867745521802888" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="2215867745521802982" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="2215867745521803727" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="2215867745521802794" ids="CutTracFunc:16>21 CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:15>16 CutTracFunc:13>15 CutTracFunc:11>13 CutTracFunc:7>9" />
+      <CtxCvg ctx="2215867745521804754" ids="CutTracFunc:13>14 CutTracFunc:9>10 CutTracFunc:3>4 CutTracFunc:1>3 CutTracFunc:5>6 CutTracFunc:11>12 CutTracFunc:7>9" />
+      <CtxCvg ctx="3931256704413325081" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="-4069822358953374280" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="2215867745521803915" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="2215867745521804660" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="3931256704413324336" ids="CutTracFunc:3>5 CutTracFunc:1>3 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="3931256704413324242" ids="CutTracFunc:3>5 CutTracFunc:1>2 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+      <CtxCvg ctx="3931256704413324148" ids="CutTracFunc:3>5 CutTracFunc:1>2 CutTracFunc:9>11 CutTracFunc:5>7 CutTracFunc:13>15 CutTracFunc:15>22 CutTracFunc:11>13 CutTracFunc:7>8" />
+    </DynCvg>
+  </ResultInfo>
   <ResultInfo cvgType="DC" stat="true">
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/TractionBrakeManage/TractionBrakeHandle.c;35;CutTracFunc" show="true">
       <CvgElem id="CutTracFunc:3>5">

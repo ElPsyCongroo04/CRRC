@@ -7,15 +7,15 @@
   <Stats>
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;67;GetTrainTypeTracRemoveTimeout" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;243;GetTrainInitHeadLen" total="2" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;45;SetTrainInitType" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;39;GetTrainInitType" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;45;SetTrainInitType" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;199;GetTrainInitTimeEbBrakeBuild" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;184;GetTrainInitTrainWorstEbAcc" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;169;GetTrainInitTrainRotateRate" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;125;GetTrainInitTrainLength" total="2" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;140;GetTrainInitTrainMaxTracAcc" total="2" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;154;GetTrainInitLineMaxGrade" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;52;GetTrainTypeBaliseToHeadDis" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;154;GetTrainInitLineMaxGrade" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;140;GetTrainInitTrainMaxTracAcc" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;257;GetSysMaxTsrSpeedCmps" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;110;GetTrainTypeFrtPsgerToHead" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;96;GetTrainTypeMaxMeasureSpeed" total="2" num="0" />
@@ -26,6 +26,46 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;32;GetAtpTrainConfigStruct" total="1" num="0" />
   </Stats>
   <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;243;GetTrainInitHeadLen" show="true">
+      <CvgElem id="GetTrainInitHeadLen" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="246" locStartPos="4" locEndLn="248" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="251" locStartPos="8" locEndLn="251" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="254" locStartPos="4" locEndLn="254" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;96;GetTrainTypeMaxMeasureSpeed" show="true">
+      <CvgElem id="GetTrainTypeMaxMeasureSpeed" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="99" locStartPos="4" locEndLn="101" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="104" locStartPos="8" locEndLn="104" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="107" locStartPos="4" locEndLn="107" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;23;AccordTrainTypeGetConfig" show="true">
+      <CvgElem id="AccordTrainTypeGetConfig" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="26" locStartPos="4" locEndLn="29" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;39;GetTrainInitType" show="true">
+      <CvgElem id="GetTrainInitType" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="42" locStartPos="4" locEndLn="42" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;214;GetTrainInitTimeTracCut" show="true">
       <CvgElem id="GetTrainInitTimeTracCut" pathsNo="2">
         <BlckInfo id="1" blckTrans="2;3">
@@ -36,6 +76,150 @@
         </BlckInfo>
         <BlckInfo id="3" blckTrans="">
           <PathBlckLoc locStartln="225" locStartPos="4" locEndLn="225" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;229;GetTrainInitMaxLineLimitSpeed" show="true">
+      <CvgElem id="GetTrainInitMaxLineLimitSpeed" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="232" locStartPos="4" locEndLn="234" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="237" locStartPos="8" locEndLn="237" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="240" locStartPos="4" locEndLn="240" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;184;GetTrainInitTrainWorstEbAcc" show="true">
+      <CvgElem id="GetTrainInitTrainWorstEbAcc" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="187" locStartPos="4" locEndLn="189" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="192" locStartPos="8" locEndLn="192" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="195" locStartPos="4" locEndLn="195" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;169;GetTrainInitTrainRotateRate" show="true">
+      <CvgElem id="GetTrainInitTrainRotateRate" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="172" locStartPos="4" locEndLn="174" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="177" locStartPos="8" locEndLn="177" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="180" locStartPos="4" locEndLn="180" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;45;SetTrainInitType" show="true">
+      <CvgElem id="SetTrainInitType" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="48" locStartPos="4" locEndLn="48" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;257;GetSysMaxTsrSpeedCmps" show="true">
+      <CvgElem id="GetSysMaxTsrSpeedCmps" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="260" locStartPos="4" locEndLn="262" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="265" locStartPos="8" locEndLn="265" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="268" locStartPos="4" locEndLn="268" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;110;GetTrainTypeFrtPsgerToHead" show="true">
+      <CvgElem id="GetTrainTypeFrtPsgerToHead" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="113" locStartPos="4" locEndLn="115" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="118" locStartPos="8" locEndLn="118" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="121" locStartPos="4" locEndLn="121" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;67;GetTrainTypeTracRemoveTimeout" show="true">
+      <CvgElem id="GetTrainTypeTracRemoveTimeout" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="70" locStartPos="4" locEndLn="72" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="75" locStartPos="8" locEndLn="75" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="78" locStartPos="4" locEndLn="78" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;125;GetTrainInitTrainLength" show="true">
+      <CvgElem id="GetTrainInitTrainLength" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="128" locStartPos="4" locEndLn="130" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="133" locStartPos="8" locEndLn="133" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="136" locStartPos="4" locEndLn="136" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;32;GetAtpTrainConfigStruct" show="true">
+      <CvgElem id="GetAtpTrainConfigStruct" pathsNo="1">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="35" locStartPos="4" locEndLn="35" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;82;GetTrainTypeEmerBrakeTimeout" show="true">
+      <CvgElem id="GetTrainTypeEmerBrakeTimeout" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="85" locStartPos="4" locEndLn="87" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="90" locStartPos="8" locEndLn="90" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="92" locStartPos="4" locEndLn="92" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;140;GetTrainInitTrainMaxTracAcc" show="true">
+      <CvgElem id="GetTrainInitTrainMaxTracAcc" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="143" locStartPos="4" locEndLn="145" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="148" locStartPos="8" locEndLn="148" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="150" locStartPos="4" locEndLn="150" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;52;GetTrainTypeBaliseToHeadDis" show="true">
+      <CvgElem id="GetTrainTypeBaliseToHeadDis" pathsNo="2">
+        <BlckInfo id="1" blckTrans="2;3">
+          <PathBlckLoc locStartln="55" locStartPos="4" locEndLn="57" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="2" blckTrans="3">
+          <PathBlckLoc locStartln="60" locStartPos="8" locEndLn="60" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
+        </BlckInfo>
+        <BlckInfo id="3" blckTrans="">
+          <PathBlckLoc locStartln="63" locStartPos="4" locEndLn="63" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>
@@ -62,190 +246,6 @@
         </BlckInfo>
         <BlckInfo id="3" blckTrans="">
           <PathBlckLoc locStartln="165" locStartPos="4" locEndLn="165" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;23;AccordTrainTypeGetConfig" show="true">
-      <CvgElem id="AccordTrainTypeGetConfig" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="26" locStartPos="4" locEndLn="29" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;110;GetTrainTypeFrtPsgerToHead" show="true">
-      <CvgElem id="GetTrainTypeFrtPsgerToHead" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="113" locStartPos="4" locEndLn="115" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="118" locStartPos="8" locEndLn="118" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="121" locStartPos="4" locEndLn="121" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;257;GetSysMaxTsrSpeedCmps" show="true">
-      <CvgElem id="GetSysMaxTsrSpeedCmps" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="260" locStartPos="4" locEndLn="262" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="265" locStartPos="8" locEndLn="265" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="268" locStartPos="4" locEndLn="268" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;82;GetTrainTypeEmerBrakeTimeout" show="true">
-      <CvgElem id="GetTrainTypeEmerBrakeTimeout" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="85" locStartPos="4" locEndLn="87" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="90" locStartPos="8" locEndLn="90" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="92" locStartPos="4" locEndLn="92" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;32;GetAtpTrainConfigStruct" show="true">
-      <CvgElem id="GetAtpTrainConfigStruct" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="35" locStartPos="4" locEndLn="35" locEndPos="24" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;184;GetTrainInitTrainWorstEbAcc" show="true">
-      <CvgElem id="GetTrainInitTrainWorstEbAcc" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="187" locStartPos="4" locEndLn="189" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="192" locStartPos="8" locEndLn="192" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="195" locStartPos="4" locEndLn="195" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;39;GetTrainInitType" show="true">
-      <CvgElem id="GetTrainInitType" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="42" locStartPos="4" locEndLn="42" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;169;GetTrainInitTrainRotateRate" show="true">
-      <CvgElem id="GetTrainInitTrainRotateRate" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="172" locStartPos="4" locEndLn="174" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="177" locStartPos="8" locEndLn="177" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="180" locStartPos="4" locEndLn="180" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;96;GetTrainTypeMaxMeasureSpeed" show="true">
-      <CvgElem id="GetTrainTypeMaxMeasureSpeed" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="99" locStartPos="4" locEndLn="101" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="104" locStartPos="8" locEndLn="104" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="107" locStartPos="4" locEndLn="107" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;140;GetTrainInitTrainMaxTracAcc" show="true">
-      <CvgElem id="GetTrainInitTrainMaxTracAcc" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="143" locStartPos="4" locEndLn="145" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="148" locStartPos="8" locEndLn="148" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="150" locStartPos="4" locEndLn="150" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;67;GetTrainTypeTracRemoveTimeout" show="true">
-      <CvgElem id="GetTrainTypeTracRemoveTimeout" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="70" locStartPos="4" locEndLn="72" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="75" locStartPos="8" locEndLn="75" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="78" locStartPos="4" locEndLn="78" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;243;GetTrainInitHeadLen" show="true">
-      <CvgElem id="GetTrainInitHeadLen" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="246" locStartPos="4" locEndLn="248" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="251" locStartPos="8" locEndLn="251" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="254" locStartPos="4" locEndLn="254" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;45;SetTrainInitType" show="true">
-      <CvgElem id="SetTrainInitType" pathsNo="1">
-        <BlckInfo id="1" blckTrans="">
-          <PathBlckLoc locStartln="48" locStartPos="4" locEndLn="48" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;52;GetTrainTypeBaliseToHeadDis" show="true">
-      <CvgElem id="GetTrainTypeBaliseToHeadDis" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="55" locStartPos="4" locEndLn="57" locEndPos="25" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="60" locStartPos="8" locEndLn="60" locEndPos="59" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="63" locStartPos="4" locEndLn="63" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;229;GetTrainInitMaxLineLimitSpeed" show="true">
-      <CvgElem id="GetTrainInitMaxLineLimitSpeed" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="232" locStartPos="4" locEndLn="234" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="237" locStartPos="8" locEndLn="237" locEndPos="64" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="240" locStartPos="4" locEndLn="240" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c;125;GetTrainInitTrainLength" show="true">
-      <CvgElem id="GetTrainInitTrainLength" pathsNo="2">
-        <BlckInfo id="1" blckTrans="2;3">
-          <PathBlckLoc locStartln="128" locStartPos="4" locEndLn="130" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="2" blckTrans="3">
-          <PathBlckLoc locStartln="133" locStartPos="8" locEndLn="133" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
-        </BlckInfo>
-        <BlckInfo id="3" blckTrans="">
-          <PathBlckLoc locStartln="136" locStartPos="4" locEndLn="136" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PowerOnHandle/TrainInitHandle.c" />
         </BlckInfo>
       </CvgElem>
     </StatCvg>

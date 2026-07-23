@@ -5,9 +5,9 @@
     <StorageInfo ownerId="MCDC" resultId="IDynamicCoverageInfo" ver="2" />
   </VersionInfos>
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2012;SetSendCamMaInfo" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1465;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamAtsCmdInfo" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2193;SetSendCamSnowModeCmd" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2012;SetSendCamMaInfo" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1498;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo" total="9" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;686;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfoChk" total="38" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;117;InitSndCamInfoData" total="3" num="0" />
@@ -19,12 +19,36 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;564;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo" total="4" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;625;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfo" total="7" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1035;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare" total="22" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;407;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo" total="4" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1741;GetRcvCamLocalDoorCtrlMode" total="2" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;407;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo" total="4" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;532;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo" total="4" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;202;CamMsgRcv" total="19" num="0" />
   </Stats>
   <ResultInfo cvgType="MCDC" stat="true">
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2012;SetSendCamMaInfo" show="true">
+      <CvgElem id="SetSendCamMaInfo:1" condNo="0">
+        <Loc locStartln="2015" locStartPos="8" locEndLn="2015" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;532;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo:3" condNo="0">
+        <Loc locStartln="546" locStartPos="9" locEndLn="546" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo:3" condNo="1">
+        <Loc locStartln="547" locStartPos="12" locEndLn="547" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo:1" condNo="1">
+        <Loc locStartln="539" locStartPos="37" locEndLn="539" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo:1" condNo="0">
+        <Loc locStartln="539" locStartPos="9" locEndLn="539" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2193;SetSendCamSnowModeCmd" show="true">
+      <CvgElem id="SetSendCamSnowModeCmd:1" condNo="0">
+        <Loc locStartln="2196" locStartPos="8" locEndLn="2196" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;863;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfoChk" show="true">
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfoChk:20" condNo="2">
         <Loc locStartln="953" locStartPos="17" locEndLn="953" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
@@ -143,6 +167,83 @@
         <Loc locStartln="663" locStartPos="12" locEndLn="663" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;117;InitSndCamInfoData" show="true">
+      <CvgElem id="InitSndCamInfoData:6" condNo="0">
+        <Loc locStartln="140" locStartPos="24" locEndLn="140" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="InitSndCamInfoData:2" condNo="0">
+        <Loc locStartln="133" locStartPos="27" locEndLn="133" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="InitSndCamInfoData:10" condNo="0">
+        <Loc locStartln="155" locStartPos="24" locEndLn="155" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;407;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo:3" condNo="0">
+        <Loc locStartln="513" locStartPos="9" locEndLn="513" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo:3" condNo="1">
+        <Loc locStartln="514" locStartPos="12" locEndLn="514" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo:1" condNo="0">
+        <Loc locStartln="416" locStartPos="9" locEndLn="416" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo:1" condNo="1">
+        <Loc locStartln="416" locStartPos="37" locEndLn="416" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;979;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:2" condNo="0">
+        <Loc locStartln="992" locStartPos="13" locEndLn="992" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:2" condNo="1">
+        <Loc locStartln="992" locStartPos="69" locEndLn="992" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:1" condNo="0">
+        <Loc locStartln="987" locStartPos="8" locEndLn="987" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:7" condNo="1">
+        <Loc locStartln="1004" locStartPos="20" locEndLn="1004" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:7" condNo="0">
+        <Loc locStartln="1003" locStartPos="17" locEndLn="1003" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:10" condNo="0">
+        <Loc locStartln="1016" locStartPos="12" locEndLn="1016" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:5" condNo="0">
+        <Loc locStartln="999" locStartPos="30" locEndLn="999" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1498;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:14" condNo="0">
+        <Loc locStartln="1590" locStartPos="13" locEndLn="1590" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:14" condNo="1">
+        <Loc locStartln="1590" locStartPos="41" locEndLn="1590" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:8" condNo="0">
+        <Loc locStartln="1574" locStartPos="13" locEndLn="1574" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:8" condNo="1">
+        <Loc locStartln="1574" locStartPos="39" locEndLn="1574" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:7" condNo="0">
+        <Loc locStartln="1559" locStartPos="8" locEndLn="1559" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:16" condNo="0">
+        <Loc locStartln="1593" locStartPos="25" locEndLn="1593" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:2" condNo="0">
+        <Loc locStartln="1522" locStartPos="12" locEndLn="1522" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:1" condNo="0">
+        <Loc locStartln="1519" locStartPos="8" locEndLn="1519" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:10" condNo="0">
+        <Loc locStartln="1577" locStartPos="25" locEndLn="1577" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;202;CamMsgRcv" show="true">
       <CvgElem id="CamMsgRcv:7" condNo="1">
         <Loc locStartln="255" locStartPos="38" locEndLn="255" locEndPos="65" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
@@ -202,14 +303,115 @@
         <Loc locStartln="223" locStartPos="8" locEndLn="223" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2012;SetSendCamMaInfo" show="true">
-      <CvgElem id="SetSendCamMaInfo:1" condNo="0">
-        <Loc locStartln="2015" locStartPos="8" locEndLn="2015" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1035;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:7" condNo="0">
+        <Loc locStartln="1090" locStartPos="8" locEndLn="1090" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:24" condNo="0">
+        <Loc locStartln="1178" locStartPos="8" locEndLn="1178" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:38" condNo="0">
+        <Loc locStartln="1242" locStartPos="9" locEndLn="1242" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:38" condNo="1">
+        <Loc locStartln="1242" locStartPos="59" locEndLn="1242" locEndPos="101" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:13" condNo="0">
+        <Loc locStartln="1135" locStartPos="9" locEndLn="1135" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:13" condNo="1">
+        <Loc locStartln="1135" locStartPos="41" locEndLn="1135" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:26" condNo="0">
+        <Loc locStartln="1185" locStartPos="8" locEndLn="1185" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:18" condNo="0">
+        <Loc locStartln="1157" locStartPos="7" locEndLn="1157" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:28" condNo="0">
+        <Loc locStartln="1192" locStartPos="8" locEndLn="1192" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:19" condNo="0">
+        <Loc locStartln="1163" locStartPos="11" locEndLn="1163" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:16" condNo="0">
+        <Loc locStartln="1150" locStartPos="8" locEndLn="1150" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:47" condNo="0">
+        <Loc locStartln="1273" locStartPos="8" locEndLn="1273" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:35" condNo="0">
+        <Loc locStartln="1227" locStartPos="8" locEndLn="1227" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:32" condNo="0">
+        <Loc locStartln="1210" locStartPos="7" locEndLn="1210" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:41" condNo="0">
+        <Loc locStartln="1251" locStartPos="8" locEndLn="1251" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:42" condNo="0">
+        <Loc locStartln="1254" locStartPos="12" locEndLn="1254" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:30" condNo="0">
+        <Loc locStartln="1199" locStartPos="8" locEndLn="1199" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:4" condNo="0">
+        <Loc locStartln="1078" locStartPos="8" locEndLn="1078" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:10" condNo="0">
+        <Loc locStartln="1111" locStartPos="8" locEndLn="1111" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:1" condNo="1">
+        <Loc locStartln="1060" locStartPos="60" locEndLn="1060" locEndPos="104" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:1" condNo="0">
+        <Loc locStartln="1060" locStartPos="9" locEndLn="1060" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:22" condNo="0">
+        <Loc locStartln="1171" locStartPos="8" locEndLn="1171" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1465;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamAtsCmdInfo" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamAtsCmdInfo:1" condNo="0">
-        <Loc locStartln="1480" locStartPos="8" locEndLn="1480" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;564;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo:1" condNo="0">
+        <Loc locStartln="571" locStartPos="9" locEndLn="571" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo:1" condNo="1">
+        <Loc locStartln="571" locStartPos="38" locEndLn="571" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo:3" condNo="0">
+        <Loc locStartln="607" locStartPos="9" locEndLn="607" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo:3" condNo="1">
+        <Loc locStartln="608" locStartPos="12" locEndLn="608" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1616;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:2" condNo="1">
+        <Loc locStartln="1650" locStartPos="48" locEndLn="1650" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:2" condNo="0">
+        <Loc locStartln="1650" locStartPos="14" locEndLn="1650" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="1">
+        <Loc locStartln="1644" locStartPos="9" locEndLn="1644" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="0">
+        <Loc locStartln="1643" locStartPos="9" locEndLn="1643" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="3">
+        <Loc locStartln="1646" locStartPos="10" locEndLn="1646" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="2">
+        <Loc locStartln="1645" locStartPos="9" locEndLn="1645" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="4">
+        <Loc locStartln="1646" locStartPos="55" locEndLn="1646" locEndPos="99" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:3" condNo="1">
+        <Loc locStartln="1653" locStartPos="60" locEndLn="1653" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:3" condNo="0">
+        <Loc locStartln="1653" locStartPos="17" locEndLn="1653" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1741;GetRcvCamLocalDoorCtrlMode" show="true">
@@ -220,38 +422,17 @@
         <Loc locStartln="1753" locStartPos="8" locEndLn="1753" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1498;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:14" condNo="0">
-        <Loc locStartln="1590" locStartPos="13" locEndLn="1590" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:14" condNo="1">
-        <Loc locStartln="1590" locStartPos="41" locEndLn="1590" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:8" condNo="0">
-        <Loc locStartln="1574" locStartPos="13" locEndLn="1574" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:8" condNo="1">
-        <Loc locStartln="1574" locStartPos="39" locEndLn="1574" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:7" condNo="0">
-        <Loc locStartln="1559" locStartPos="8" locEndLn="1559" locEndPos="23" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:16" condNo="0">
-        <Loc locStartln="1593" locStartPos="25" locEndLn="1593" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:2" condNo="0">
-        <Loc locStartln="1522" locStartPos="12" locEndLn="1522" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:1" condNo="0">
-        <Loc locStartln="1519" locStartPos="8" locEndLn="1519" locEndPos="22" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamMaInfo:10" condNo="0">
-        <Loc locStartln="1577" locStartPos="25" locEndLn="1577" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1465;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamAtsCmdInfo" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|SndCamAtsCmdInfo:1" condNo="0">
+        <Loc locStartln="1480" locStartPos="8" locEndLn="1480" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;2193;SetSendCamSnowModeCmd" show="true">
-      <CvgElem id="SetSendCamSnowModeCmd:1" condNo="0">
-        <Loc locStartln="2196" locStartPos="8" locEndLn="2196" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1293;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData:1" condNo="0">
+        <Loc locStartln="1303" locStartPos="8" locEndLn="1303" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData:3" condNo="0">
+        <Loc locStartln="1319" locStartPos="8" locEndLn="1319" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;686;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfoChk" show="true">
@@ -370,34 +551,6 @@
         <Loc locStartln="739" locStartPos="13" locEndLn="739" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;407;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo:3" condNo="0">
-        <Loc locStartln="513" locStartPos="9" locEndLn="513" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo:3" condNo="1">
-        <Loc locStartln="514" locStartPos="12" locEndLn="514" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo:1" condNo="0">
-        <Loc locStartln="416" locStartPos="9" locEndLn="416" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCycleInfo:1" condNo="1">
-        <Loc locStartln="416" locStartPos="37" locEndLn="416" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;532;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo:3" condNo="0">
-        <Loc locStartln="546" locStartPos="9" locEndLn="546" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo:3" condNo="1">
-        <Loc locStartln="547" locStartPos="12" locEndLn="547" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo:1" condNo="1">
-        <Loc locStartln="539" locStartPos="37" locEndLn="539" locEndPos="60" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAtsCmdInfo:1" condNo="0">
-        <Loc locStartln="539" locStartPos="9" locEndLn="539" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;354;CamMsgSnd" show="true">
       <CvgElem id="CamMsgSnd:1" condNo="0">
         <Loc locStartln="386" locStartPos="9" locEndLn="386" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
@@ -407,159 +560,6 @@
       </CvgElem>
       <CvgElem id="CamMsgSnd:1" condNo="1">
         <Loc locStartln="387" locStartPos="13" locEndLn="387" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1035;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:7" condNo="0">
-        <Loc locStartln="1090" locStartPos="8" locEndLn="1090" locEndPos="39" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:24" condNo="0">
-        <Loc locStartln="1178" locStartPos="8" locEndLn="1178" locEndPos="37" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:38" condNo="0">
-        <Loc locStartln="1242" locStartPos="9" locEndLn="1242" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:38" condNo="1">
-        <Loc locStartln="1242" locStartPos="59" locEndLn="1242" locEndPos="101" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:13" condNo="0">
-        <Loc locStartln="1135" locStartPos="9" locEndLn="1135" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:13" condNo="1">
-        <Loc locStartln="1135" locStartPos="41" locEndLn="1135" locEndPos="73" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:26" condNo="0">
-        <Loc locStartln="1185" locStartPos="8" locEndLn="1185" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:18" condNo="0">
-        <Loc locStartln="1157" locStartPos="7" locEndLn="1157" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:28" condNo="0">
-        <Loc locStartln="1192" locStartPos="8" locEndLn="1192" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:19" condNo="0">
-        <Loc locStartln="1163" locStartPos="11" locEndLn="1163" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:16" condNo="0">
-        <Loc locStartln="1150" locStartPos="8" locEndLn="1150" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:47" condNo="0">
-        <Loc locStartln="1273" locStartPos="8" locEndLn="1273" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:35" condNo="0">
-        <Loc locStartln="1227" locStartPos="8" locEndLn="1227" locEndPos="35" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:32" condNo="0">
-        <Loc locStartln="1210" locStartPos="7" locEndLn="1210" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:41" condNo="0">
-        <Loc locStartln="1251" locStartPos="8" locEndLn="1251" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:42" condNo="0">
-        <Loc locStartln="1254" locStartPos="12" locEndLn="1254" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:30" condNo="0">
-        <Loc locStartln="1199" locStartPos="8" locEndLn="1199" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:4" condNo="0">
-        <Loc locStartln="1078" locStartPos="8" locEndLn="1078" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:10" condNo="0">
-        <Loc locStartln="1111" locStartPos="8" locEndLn="1111" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:1" condNo="1">
-        <Loc locStartln="1060" locStartPos="60" locEndLn="1060" locEndPos="104" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:1" condNo="0">
-        <Loc locStartln="1060" locStartPos="9" locEndLn="1060" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamInfoPrepare:22" condNo="0">
-        <Loc locStartln="1171" locStartPos="8" locEndLn="1171" locEndPos="38" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;564;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo:1" condNo="0">
-        <Loc locStartln="571" locStartPos="9" locEndLn="571" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo:1" condNo="1">
-        <Loc locStartln="571" locStartPos="38" locEndLn="571" locEndPos="61" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo:3" condNo="0">
-        <Loc locStartln="607" locStartPos="9" locEndLn="607" locEndPos="19" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamCtrlAddInfo:3" condNo="1">
-        <Loc locStartln="608" locStartPos="12" locEndLn="608" locEndPos="71" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;117;InitSndCamInfoData" show="true">
-      <CvgElem id="InitSndCamInfoData:6" condNo="0">
-        <Loc locStartln="140" locStartPos="24" locEndLn="140" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="InitSndCamInfoData:2" condNo="0">
-        <Loc locStartln="133" locStartPos="27" locEndLn="133" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="InitSndCamInfoData:10" condNo="0">
-        <Loc locStartln="155" locStartPos="24" locEndLn="155" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1616;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:2" condNo="1">
-        <Loc locStartln="1650" locStartPos="48" locEndLn="1650" locEndPos="70" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:2" condNo="0">
-        <Loc locStartln="1650" locStartPos="14" locEndLn="1650" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="1">
-        <Loc locStartln="1644" locStartPos="9" locEndLn="1644" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="0">
-        <Loc locStartln="1643" locStartPos="9" locEndLn="1643" locEndPos="29" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="3">
-        <Loc locStartln="1646" locStartPos="10" locEndLn="1646" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="2">
-        <Loc locStartln="1645" locStartPos="9" locEndLn="1645" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:1" condNo="4">
-        <Loc locStartln="1646" locStartPos="55" locEndLn="1646" locEndPos="99" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:3" condNo="1">
-        <Loc locStartln="1653" locStartPos="60" locEndLn="1653" locEndPos="96" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|CamEnable:3" condNo="0">
-        <Loc locStartln="1653" locStartPos="17" locEndLn="1653" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;979;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:2" condNo="0">
-        <Loc locStartln="992" locStartPos="13" locEndLn="992" locEndPos="63" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:2" condNo="1">
-        <Loc locStartln="992" locStartPos="69" locEndLn="992" locEndPos="119" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:1" condNo="0">
-        <Loc locStartln="987" locStartPos="8" locEndLn="987" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:7" condNo="1">
-        <Loc locStartln="1004" locStartPos="20" locEndLn="1004" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:7" condNo="0">
-        <Loc locStartln="1003" locStartPos="17" locEndLn="1003" locEndPos="83" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:10" condNo="0">
-        <Loc locStartln="1016" locStartPos="12" locEndLn="1016" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|RcvCamAlarmInfoChk:5" condNo="0">
-        <Loc locStartln="999" locStartPos="30" locEndLn="999" locEndPos="77" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c;1293;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData:1" condNo="0">
-        <Loc locStartln="1303" locStartPos="8" locEndLn="1303" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWRcvSendManageWPackParseCamDataWc|PackSndCamData:3" condNo="0">
-        <Loc locStartln="1319" locStartPos="8" locEndLn="1319" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/RcvSendManage/PackParseCamData.c" />
       </CvgElem>
     </StatCvg>
   </ResultInfo>

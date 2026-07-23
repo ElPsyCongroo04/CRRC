@@ -9,8 +9,8 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1054;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult" total="8" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1161;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest" total="10" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;88;AddSlpAwkLocPowerOnInit" total="2" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;660;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFiveAwakeSuc" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;610;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFourHandoff" total="3" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;660;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFiveAwakeSuc" total="2" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;237;AwakeManage" total="7" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1290;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart" total="3" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;328;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepZeroDataCheck" total="7" num="0" />
@@ -24,9 +24,63 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1515;SlpAwkTestTimeOut" total="1" num="0" />
   </Stats>
   <ResultInfo cvgType="MCDC" stat="true">
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1515;SlpAwkTestTimeOut" show="true">
-      <CvgElem id="SlpAwkTestTimeOut:1" condNo="0">
-        <Loc locStartln="1521" locStartPos="5" locEndLn="1521" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;88;AddSlpAwkLocPowerOnInit" show="true">
+      <CvgElem id="AddSlpAwkLocPowerOnInit:4" condNo="0">
+        <Loc locStartln="192" locStartPos="5" locEndLn="192" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="AddSlpAwkLocPowerOnInit:1" condNo="0">
+        <Loc locStartln="98" locStartPos="5" locEndLn="98" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;434;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc:1" condNo="0">
+        <Loc locStartln="437" locStartPos="7" locEndLn="437" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc:1" condNo="3">
+        <Loc locStartln="439" locStartPos="6" locEndLn="439" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc:1" condNo="2">
+        <Loc locStartln="438" locStartPos="6" locEndLn="438" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc:1" condNo="1">
+        <Loc locStartln="437" locStartPos="50" locEndLn="437" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1290;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart:5" condNo="0">
+        <Loc locStartln="1310" locStartPos="11" locEndLn="1310" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart:1" condNo="0">
+        <Loc locStartln="1296" locStartPos="5" locEndLn="1296" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart:3" condNo="0">
+        <Loc locStartln="1304" locStartPos="6" locEndLn="1304" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1054;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:11" condNo="0">
+        <Loc locStartln="1109" locStartPos="6" locEndLn="1109" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:-1" condNo="0">
+        <Loc locStartln="1067" locStartPos="15" locEndLn="1067" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:5" condNo="0">
+        <Loc locStartln="1089" locStartPos="12" locEndLn="1089" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:3" condNo="0">
+        <Loc locStartln="1079" locStartPos="7" locEndLn="1079" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:12" condNo="0">
+        <Loc locStartln="1112" locStartPos="7" locEndLn="1112" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:1" condNo="0">
+        <Loc locStartln="1070" locStartPos="5" locEndLn="1070" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:2" condNo="0">
+        <Loc locStartln="1076" locStartPos="6" locEndLn="1076" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:14" condNo="0">
+        <Loc locStartln="1121" locStartPos="8" locEndLn="1121" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;328;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepZeroDataCheck" show="true">
@@ -52,36 +106,24 @@
         <Loc locStartln="338" locStartPos="6" locEndLn="338" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;855;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:8" condNo="0">
-        <Loc locStartln="887" locStartPos="11" locEndLn="887" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;914;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:2" condNo="0">
+        <Loc locStartln="924" locStartPos="6" locEndLn="924" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-1" condNo="0">
-        <Loc locStartln="865" locStartPos="14" locEndLn="865" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:1" condNo="1">
+        <Loc locStartln="920" locStartPos="6" locEndLn="920" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-2" condNo="0">
-        <Loc locStartln="866" locStartPos="14" locEndLn="866" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:1" condNo="0">
+        <Loc locStartln="919" locStartPos="6" locEndLn="919" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:6" condNo="0">
-        <Loc locStartln="883" locStartPos="11" locEndLn="883" locEndPos="98" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:1" condNo="2">
+        <Loc locStartln="921" locStartPos="6" locEndLn="921" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:4" condNo="0">
-        <Loc locStartln="877" locStartPos="12" locEndLn="877" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:7" condNo="1">
+        <Loc locStartln="944" locStartPos="34" locEndLn="944" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:2" condNo="0">
-        <Loc locStartln="873" locStartPos="20" locEndLn="873" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-5" condNo="0">
-        <Loc locStartln="869" locStartPos="14" locEndLn="869" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-6" condNo="0">
-        <Loc locStartln="870" locStartPos="14" locEndLn="870" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-3" condNo="0">
-        <Loc locStartln="867" locStartPos="14" locEndLn="867" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-4" condNo="0">
-        <Loc locStartln="868" locStartPos="14" locEndLn="868" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:7" condNo="0">
+        <Loc locStartln="944" locStartPos="6" locEndLn="944" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;610;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFourHandoff" show="true">
@@ -93,6 +135,20 @@
       </CvgElem>
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFourHandoff:1" condNo="0">
         <Loc locStartln="614" locStartPos="5" locEndLn="614" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;476;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData:3" condNo="0">
+        <Loc locStartln="496" locStartPos="7" locEndLn="496" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData:1" condNo="0">
+        <Loc locStartln="482" locStartPos="5" locEndLn="482" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData:2" condNo="0">
+        <Loc locStartln="485" locStartPos="6" locEndLn="485" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData:9" condNo="0">
+        <Loc locStartln="515" locStartPos="6" locEndLn="515" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;237;AwakeManage" show="true">
@@ -118,29 +174,9 @@
         <Loc locStartln="252" locStartPos="6" locEndLn="252" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1290;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart:5" condNo="0">
-        <Loc locStartln="1310" locStartPos="11" locEndLn="1310" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart:1" condNo="0">
-        <Loc locStartln="1296" locStartPos="5" locEndLn="1296" locEndPos="40" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepThreeTestStart:3" condNo="0">
-        <Loc locStartln="1304" locStartPos="6" locEndLn="1304" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;476;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData:3" condNo="0">
-        <Loc locStartln="496" locStartPos="7" locEndLn="496" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData:1" condNo="0">
-        <Loc locStartln="482" locStartPos="5" locEndLn="482" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData:2" condNo="0">
-        <Loc locStartln="485" locStartPos="6" locEndLn="485" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepOneLocatData:9" condNo="0">
-        <Loc locStartln="515" locStartPos="6" locEndLn="515" locEndPos="33" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1515;SlpAwkTestTimeOut" show="true">
+      <CvgElem id="SlpAwkTestTimeOut:1" condNo="0">
+        <Loc locStartln="1521" locStartPos="5" locEndLn="1521" locEndPos="67" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;695;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeObcSelfCheck" show="true">
@@ -211,96 +247,12 @@
         <Loc locStartln="803" locStartPos="5" locEndLn="803" locEndPos="53" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;914;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:2" condNo="0">
-        <Loc locStartln="924" locStartPos="6" locEndLn="924" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;660;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFiveAwakeSuc" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFiveAwakeSuc:1" condNo="1">
+        <Loc locStartln="662" locStartPos="45" locEndLn="662" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:1" condNo="1">
-        <Loc locStartln="920" locStartPos="6" locEndLn="920" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:1" condNo="0">
-        <Loc locStartln="919" locStartPos="6" locEndLn="919" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:1" condNo="2">
-        <Loc locStartln="921" locStartPos="6" locEndLn="921" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:7" condNo="1">
-        <Loc locStartln="944" locStartPos="34" locEndLn="944" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailCauseDispose:7" condNo="0">
-        <Loc locStartln="944" locStartPos="6" locEndLn="944" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1161;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:5" condNo="0">
-        <Loc locStartln="1194" locStartPos="9" locEndLn="1194" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:5" condNo="1">
-        <Loc locStartln="1195" locStartPos="9" locEndLn="1195" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:-1" condNo="0">
-        <Loc locStartln="1173" locStartPos="15" locEndLn="1173" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:20" condNo="0">
-        <Loc locStartln="1246" locStartPos="7" locEndLn="1246" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:22" condNo="0">
-        <Loc locStartln="1254" locStartPos="8" locEndLn="1254" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:9" condNo="0">
-        <Loc locStartln="1204" locStartPos="8" locEndLn="1204" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:10" condNo="0">
-        <Loc locStartln="1208" locStartPos="10" locEndLn="1208" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:10" condNo="1">
-        <Loc locStartln="1209" locStartPos="10" locEndLn="1209" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:1" condNo="0">
-        <Loc locStartln="1176" locStartPos="5" locEndLn="1176" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:2" condNo="0">
-        <Loc locStartln="1179" locStartPos="6" locEndLn="1179" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1054;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:11" condNo="0">
-        <Loc locStartln="1109" locStartPos="6" locEndLn="1109" locEndPos="36" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:-1" condNo="0">
-        <Loc locStartln="1067" locStartPos="15" locEndLn="1067" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:5" condNo="0">
-        <Loc locStartln="1089" locStartPos="12" locEndLn="1089" locEndPos="84" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:3" condNo="0">
-        <Loc locStartln="1079" locStartPos="7" locEndLn="1079" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:12" condNo="0">
-        <Loc locStartln="1112" locStartPos="7" locEndLn="1112" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:1" condNo="0">
-        <Loc locStartln="1070" locStartPos="5" locEndLn="1070" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:2" condNo="0">
-        <Loc locStartln="1076" locStartPos="6" locEndLn="1076" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeTestResult:14" condNo="0">
-        <Loc locStartln="1121" locStartPos="8" locEndLn="1121" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;434;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc:1" condNo="0">
-        <Loc locStartln="437" locStartPos="7" locEndLn="437" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc:1" condNo="3">
-        <Loc locStartln="439" locStartPos="6" locEndLn="439" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc:1" condNo="2">
-        <Loc locStartln="438" locStartPos="6" locEndLn="438" locEndPos="42" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
-      </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailInfoFunc:1" condNo="1">
-        <Loc locStartln="437" locStartPos="50" locEndLn="437" locEndPos="86" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFiveAwakeSuc:1" condNo="0">
+        <Loc locStartln="662" locStartPos="7" locEndLn="662" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;967;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeDataInitCheck" show="true">
@@ -472,20 +424,36 @@
         <Loc locStartln="1437" locStartPos="7" locEndLn="1437" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;660;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFiveAwakeSuc" show="true">
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFiveAwakeSuc:1" condNo="1">
-        <Loc locStartln="662" locStartPos="45" locEndLn="662" locEndPos="79" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;855;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:8" condNo="0">
+        <Loc locStartln="887" locStartPos="11" locEndLn="887" locEndPos="89" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepFiveAwakeSuc:1" condNo="0">
-        <Loc locStartln="662" locStartPos="7" locEndLn="662" locEndPos="41" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-1" condNo="0">
+        <Loc locStartln="865" locStartPos="14" locEndLn="865" locEndPos="51" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;88;AddSlpAwkLocPowerOnInit" show="true">
-      <CvgElem id="AddSlpAwkLocPowerOnInit:4" condNo="0">
-        <Loc locStartln="192" locStartPos="5" locEndLn="192" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-2" condNo="0">
+        <Loc locStartln="866" locStartPos="14" locEndLn="866" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
-      <CvgElem id="AddSlpAwkLocPowerOnInit:1" condNo="0">
-        <Loc locStartln="98" locStartPos="5" locEndLn="98" locEndPos="26" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:6" condNo="0">
+        <Loc locStartln="883" locStartPos="11" locEndLn="883" locEndPos="98" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:4" condNo="0">
+        <Loc locStartln="877" locStartPos="12" locEndLn="877" locEndPos="97" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:2" condNo="0">
+        <Loc locStartln="873" locStartPos="20" locEndLn="873" locEndPos="58" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-5" condNo="0">
+        <Loc locStartln="869" locStartPos="14" locEndLn="869" locEndPos="57" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-6" condNo="0">
+        <Loc locStartln="870" locStartPos="14" locEndLn="870" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-3" condNo="0">
+        <Loc locStartln="867" locStartPos="14" locEndLn="867" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeFailProc:-4" condNo="0">
+        <Loc locStartln="868" locStartPos="14" locEndLn="868" locEndPos="43" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;538;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepTwoTestRequest" show="true">
@@ -533,6 +501,38 @@
       </CvgElem>
       <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|AwakeStepTwoTestRequest:-12" condNo="0">
         <Loc locStartln="570" locStartPos="24" locEndLn="570" locEndPos="62" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c;1161;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest" show="true">
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:5" condNo="0">
+        <Loc locStartln="1194" locStartPos="9" locEndLn="1194" locEndPos="45" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:5" condNo="1">
+        <Loc locStartln="1195" locStartPos="9" locEndLn="1195" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:-1" condNo="0">
+        <Loc locStartln="1173" locStartPos="15" locEndLn="1173" locEndPos="55" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:20" condNo="0">
+        <Loc locStartln="1246" locStartPos="7" locEndLn="1246" locEndPos="31" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:22" condNo="0">
+        <Loc locStartln="1254" locStartPos="8" locEndLn="1254" locEndPos="30" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:9" condNo="0">
+        <Loc locStartln="1204" locStartPos="8" locEndLn="1204" locEndPos="49" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:10" condNo="0">
+        <Loc locStartln="1208" locStartPos="10" locEndLn="1208" locEndPos="48" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:10" condNo="1">
+        <Loc locStartln="1209" locStartPos="10" locEndLn="1209" locEndPos="47" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:1" condNo="0">
+        <Loc locStartln="1176" locStartPos="5" locEndLn="1176" locEndPos="27" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
+      </CvgElem>
+      <CvgElem id="DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWSleepWakeManageWAwakeFuncWc|OpenCloseDoorTest:2" condNo="0">
+        <Loc locStartln="1179" locStartPos="6" locEndLn="1179" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/SleepWakeManage/AwakeFunc.c" />
       </CvgElem>
     </StatCvg>
   </ResultInfo>

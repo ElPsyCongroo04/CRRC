@@ -71,6 +71,7 @@ CPPTEST_TEST(TestSuite_TractionBrakeHandle_test_EBProcFunc_11);
 CPPTEST_TEST(TestSuite_TractionBrakeHandle_test_EBProcFunc_12);
 CPPTEST_TEST(TestSuite_TractionBrakeHandle_test_EBProcFunc_13);
 CPPTEST_TEST(TestSuite_TractionBrakeHandle_test_EBProcFunc_14);
+CPPTEST_TEST(TestSuite_TractionBrakeHandle_test_EBProcFunc_15);
 CPPTEST_TEST(TestSuite_TractionBrakeHandle_test_CutTracFunc_12);
 CPPTEST_TEST(TestSuite_TractionBrakeHandle_test_CutTracFunc_13);
 CPPTEST_TEST_SUITE_END();
@@ -145,6 +146,12 @@ void TestSuite_TractionBrakeHandle_test_EBProcFunc_11();
 void TestSuite_TractionBrakeHandle_test_EBProcFunc_12();
 void TestSuite_TractionBrakeHandle_test_EBProcFunc_13();
 void TestSuite_TractionBrakeHandle_test_EBProcFunc_14();
+void TestSuite_TractionBrakeHandle_test_EBProcFunc_15();
+extern UINT32_T g_EBProcFunc15_GetAomComuStatusCalls;
+extern UINT32_T g_EBProcFunc15_RelieveEbReasonCalls;
+extern UINT8_T g_EBProcFunc15_RelieveEbType;
+extern UINT32_T g_EBProcFunc15_RelieveEbReason;
+extern void ResetEBProcFunc15StubSpy(void);
 void TestSuite_TractionBrakeHandle_test_CutTracFunc_12();
 void TestSuite_TractionBrakeHandle_test_CutTracFunc_13();
 CPPTEST_TEST_SUITE_REGISTRATION(TestSuite_TractionBrakeHandle);
@@ -2698,6 +2705,40 @@ void TestSuite_TractionBrakeHandle_test_EBProcFunc_14()
     }
 }
 /* CPPTEST_TEST_CASE_END test_EBProcFunc_14 */
+
+/* CPPTEST_TEST_CASE_BEGIN test_EBProcFunc_15 */
+/* CPPTEST_TEST_CASE_CONTEXT void EBProcFunc(void) */
+/**
+ * =测试目的=
+ *   验证EBProcFunc在AOM唤醒维护按钮条件为假时按逻辑或规则短路。
+ * - 满足if ((ATP_FALSE == GetRcvAomAwakeMaintainBtn()) || (ATP_COM_FAULT == GetAomComuStatus())) [1,x] -> 1
+ *
+ * =被测函数=
+ *   EBProcFunc
+ *
+ * =初始条件=
+ *   GetRcvAomAwakeMaintainBtn用户桩返回ATP_FALSE，列车处于非零速状态。
+ *
+ * =操作步骤=
+ * - 复位EBProcFunc_15专用Getter计数和RelieveEbReason Spy。
+ * - 调用EBProcFunc。
+ * - 检查GetAomComuStatus未求值，并检查目标EB原因被缓解。
+ *
+ * =预期结果=
+ * - 第一个子条件为真，GetAomComuStatus因短路不执行。
+ * - RelieveEbReason调用一次，参数为EB_TYPE_FAO_LOW和EB_TRAIN_CHECK_ENB。
+ */
+void TestSuite_TractionBrakeHandle_test_EBProcFunc_15()
+{
+    ResetEBProcFunc15StubSpy();
+    EBProcFunc();
+    CPPTEST_ASSERT_UINTEGER_EQUAL(0U, g_EBProcFunc15_GetAomComuStatusCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(1U, g_EBProcFunc15_RelieveEbReasonCalls);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TYPE_FAO_LOW, g_EBProcFunc15_RelieveEbType);
+    CPPTEST_ASSERT_UINTEGER_EQUAL(EB_TRAIN_CHECK_ENB, g_EBProcFunc15_RelieveEbReason);
+}
+/* CPPTEST_TEST_CASE_END test_EBProcFunc_15 */
+
 
 /* CPPTEST_TEST_CASE_BEGIN test_CutTracFunc_12 */
 /* CPPTEST_TEST_CASE_CONTEXT void CutTracFunc(void) */

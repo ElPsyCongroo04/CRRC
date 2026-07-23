@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_54532090_39708_2302959863 = 
+CppTestTranslationUnitInfo __CPTR_tui_54532090_30668_2316990447 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\AppPeriodHandle.c3cbfa0f5\\adds\\harness_AppPeriodHandle.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_54532090_39708_2302959863
+#define __CPTR_tui &__CPTR_tui_54532090_30668_2316990447
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_54532090_39708_2302959863 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_54532090_39708_2302959863 {
-    __CPTR_Initializer_54532090_39708_2302959863()
+struct __CPTR_Initializer_54532090_30668_2316990447 {
+    __CPTR_Initializer_54532090_30668_2316990447()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_54532090_39708_2302959863()
+    ~__CPTR_Initializer_54532090_30668_2316990447()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_54532090_39708_2302959863 __CPTR_initializer_54532090_39708_2302959863;
+static struct __CPTR_Initializer_54532090_30668_2316990447 __CPTR_initializer_54532090_30668_2316990447;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_54532090_39708_2302959863 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_54532090_30668_2316990447 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 3 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_54532090_39708_2302959863 = 
+CppTestCoverageInfo __CPTR_cui_54532090_30668_2316990447 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_54532090_39708_2302959863 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_54532090_39708_2302959863
-#define __CPTR_fid(ID) ID + __CPTR_cui_54532090_39708_2302959863.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_54532090_30668_2316990447
+#define __CPTR_fid(ID) ID + __CPTR_cui_54532090_30668_2316990447.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]

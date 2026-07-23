@@ -13,13 +13,13 @@ struct __CPTR_Dummy_Type {
     char nonEmpty;
 };
 
-CppTestTranslationUnitInfo __CPTR_tui_1814760593_47536_2302963212 = 
+CppTestTranslationUnitInfo __CPTR_tui_1814760593_6044_2316993739 = 
 {
     0U, 
     "D:\\CRRC\\ATP-UT1-2607-copy\\ATP\\ATP\\test\\UT1\\.cpptest\\ATP_UT\\file-data\\PackParseHMIInfoData.c8c909db6\\adds\\harness_PackParseHMIInfoData.ildb"
 };
 
-#define __CPTR_tui &__CPTR_tui_1814760593_47536_2302963212
+#define __CPTR_tui &__CPTR_tui_1814760593_6044_2316993739
 
 
 
@@ -29,22 +29,22 @@ CppTestTranslationUnitInfo __CPTR_tui_1814760593_47536_2302963212 =
 extern "C" void __CPTR_Initialize(void);
 extern "C" void __CPTR_Finalize(void);
 
-struct __CPTR_Initializer_1814760593_47536_2302963212 {
-    __CPTR_Initializer_1814760593_47536_2302963212()
+struct __CPTR_Initializer_1814760593_6044_2316993739 {
+    __CPTR_Initializer_1814760593_6044_2316993739()
     {
         CPPTEST_INITIALIZE_RUNTIME();
     }
-    ~__CPTR_Initializer_1814760593_47536_2302963212()
+    ~__CPTR_Initializer_1814760593_6044_2316993739()
     {
         CPPTEST_FINALIZE_RUNTIME();
     }
 };
 
 #if CPPTEST_USE_GLOBAL_OBJECTS_TO_INIT_RUNTIME
-static struct __CPTR_Initializer_1814760593_47536_2302963212 __CPTR_initializer_1814760593_47536_2302963212;
+static struct __CPTR_Initializer_1814760593_6044_2316993739 __CPTR_initializer_1814760593_6044_2316993739;
 #endif
 
-#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1814760593_47536_2302963212 __CPTR_main_initializer
+#define CPPTEST_ENTER_MAIN_ROUTINE() __CPTR_Initializer_1814760593_6044_2316993739 __CPTR_main_initializer
 
 #define CPPTEST_EXIT_MAIN_ROUTINE()
 
@@ -64,7 +64,7 @@ static unsigned char _coverage_code[_coverage_code_size];
 #define _coverage_func_size (1 + 96 / (sizeof(unsigned char) * 8))
 static unsigned char _coverage_func_code[_coverage_func_size];
 
-CppTestCoverageInfo __CPTR_cui_1814760593_47536_2302963212 = 
+CppTestCoverageInfo __CPTR_cui_1814760593_6044_2316993739 = 
 { 
     0, 
     _coverage_code, 
@@ -76,8 +76,8 @@ CppTestCoverageInfo __CPTR_cui_1814760593_47536_2302963212 =
     0
 };
 
-#define __CPTR_cui &__CPTR_cui_1814760593_47536_2302963212
-#define __CPTR_fid(ID) ID + __CPTR_cui_1814760593_47536_2302963212.funcIdOffset
+#define __CPTR_cui &__CPTR_cui_1814760593_6044_2316993739
+#define __CPTR_fid(ID) ID + __CPTR_cui_1814760593_6044_2316993739.funcIdOffset
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -71592,7 +71592,7 @@ SndMmiInfoDataStru.FaoFault = FaoFault; CPPTEST_STACK_TRACE_EXIT_ROUTINE()
 UINT32_T *GetSendMmiFaoFaultPtr(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[24], 23);cpptestCoverageStmt(1U, 605U, __CPTR_cui, _Insure_funcID, 23);CPPTEST_STACK_TRACE_STMT_INFO(698) 
 
-{UINT32_T *__T125096368 =  (&(SndMmiInfoDataStru.FaoFault));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T125096368;}
+{UINT32_T *__T124737128 =  (&(SndMmiInfoDataStru.FaoFault));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124737128;}
 } 
 
 void SetSendMmiFaoEstbFail(const UINT32_T FaoEstbFail) 
@@ -71604,21 +71604,21 @@ SndMmiInfoDataStru.FaoEstbFail = FaoEstbFail; CPPTEST_STACK_TRACE_EXIT_ROUTINE()
 UINT32_T *GetSendMmiFaoEstbFailPtr(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[26], 25);cpptestCoverageStmt(1U, 607U, __CPTR_cui, _Insure_funcID, 25);CPPTEST_STACK_TRACE_STMT_INFO(700) 
 
-{UINT32_T *__T125098972 =  (&(SndMmiInfoDataStru.FaoEstbFail));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T125098972;}
+{UINT32_T *__T124739732 =  (&(SndMmiInfoDataStru.FaoEstbFail));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124739732;}
 } 
 
 
 UINT32_T GetRcvMmiDriverNum(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[27], 26);cpptestCoverageStmt(1U, 608U, __CPTR_cui, _Insure_funcID, 26);CPPTEST_STACK_TRACE_STMT_INFO(701) 
 
-{UINT32_T __T125099980 =  ((UINT32_T)(RcvMmiInfoDataStru.driverNum));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T125099980;}
+{UINT32_T __T124740740 =  ((UINT32_T)(RcvMmiInfoDataStru.driverNum));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124740740;}
 } 
 
 
 UINT32_T GetRcvMmiTrainNum(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[28], 27);cpptestCoverageStmt(1U, 609U, __CPTR_cui, _Insure_funcID, 27);CPPTEST_STACK_TRACE_STMT_INFO(702) 
 
-{UINT32_T __T125100988 =  ((UINT32_T)(RcvMmiInfoDataStru.trainNum));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T125100988;}
+{UINT32_T __T124741748 =  ((UINT32_T)(RcvMmiInfoDataStru.trainNum));CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124741748;}
 } 
 
 UINT8_T GetRcvMmiWhlSet(void) 
@@ -72105,7 +72105,7 @@ SndMmiInfoDataStru.allowDailyInspection = value; CPPTEST_STACK_TRACE_EXIT_ROUTIN
 SndMmiInfoDataStruct_T *GetHMIInfoForSendToTAC(void) 
 { CPPTEST_STACK_TRACE_FUNC_START_INFO() unsigned int _Insure_funcID = cpptestCoverageFunction(__CPTR_cui, _cpptest_strdata[97], 96);cpptestCoverageStmt(1U, 680U, __CPTR_cui, _Insure_funcID, 96);CPPTEST_STACK_TRACE_STMT_INFO(757) 
 
-{SndMmiInfoDataStruct_T *__T125259660 =  (&SndMmiInfoDataStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T125259660;}
+{SndMmiInfoDataStruct_T *__T124900420 =  (&SndMmiInfoDataStru);CPPTEST_STACK_TRACE_EXIT_ROUTINE() return __T124900420;}
 } 
 #line 1 "__TEST_HARNESS__"
 ;

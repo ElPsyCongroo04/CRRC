@@ -5,8 +5,8 @@
     <StorageInfo ownerId="SCC" resultId="SCCoverageStaticInfo" ver="2" />
   </VersionInfos>
   <Stats>
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c;113;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWMaManageWMaHandleWc|MAL_SearchCloseStationInRange" total="50" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c;38;RetreatMaEndLoc" total="12" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c;113;DWWCRRCWATPWUT1W2607WcopyWATPWATPWsrcWAppLogicWPeriodHandleWMaManageWMaHandleWc|MAL_SearchCloseStationInRange" total="50" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c;316;SwitchInfoParseAndUpDate" total="6" num="0" />
   </Stats>
   <ResultInfo cvgType="SCC" stat="true">
@@ -87,17 +87,6 @@
         <Loc locStartln="150" locStartPos="119" locEndLn="150" locEndPos="142" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c;316;SwitchInfoParseAndUpDate" show="true">
-      <CvgElem id="SwitchInfoParseAndUpDate:8|1">
-        <Loc locStartln="345" locStartPos="5" locEndLn="345" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
-      </CvgElem>
-      <CvgElem id="SwitchInfoParseAndUpDate:4|1">
-        <Loc locStartln="330" locStartPos="6" locEndLn="330" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
-      </CvgElem>
-      <CvgElem id="SwitchInfoParseAndUpDate:2|1">
-        <Loc locStartln="327" locStartPos="24" locEndLn="327" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
-      </CvgElem>
-    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c;38;RetreatMaEndLoc" show="true">
       <CvgElem id="RetreatMaEndLoc:3|2">
         <Loc locStartln="78" locStartPos="3" locEndLn="78" locEndPos="54" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
@@ -116,6 +105,17 @@
       </CvgElem>
       <CvgElem id="RetreatMaEndLoc:1|1">
         <Loc locStartln="67" locStartPos="5" locEndLn="67" locEndPos="98" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c;316;SwitchInfoParseAndUpDate" show="true">
+      <CvgElem id="SwitchInfoParseAndUpDate:8|1">
+        <Loc locStartln="345" locStartPos="5" locEndLn="345" locEndPos="21" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
+      </CvgElem>
+      <CvgElem id="SwitchInfoParseAndUpDate:4|1">
+        <Loc locStartln="330" locStartPos="6" locEndLn="330" locEndPos="56" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
+      </CvgElem>
+      <CvgElem id="SwitchInfoParseAndUpDate:2|1">
+        <Loc locStartln="327" locStartPos="24" locEndLn="327" locEndPos="50" locFile="ATP_UT/ATP_UT/source/AppLogic/PeriodHandle/MaManage/MaHandle.c" />
       </CvgElem>
     </StatCvg>
   </ResultInfo>

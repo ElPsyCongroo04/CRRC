@@ -13,28 +13,12 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;434;AddWhlBPulseCount" total="2" num="0" />
   </Stats>
   <ResultInfo cvgType="MCDC" stat="true">
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;419;GetWhlBPulseCount" show="true">
-      <CvgElem id="GetWhlBPulseCount:1" condNo="1">
-        <Loc locStartln="424" locStartPos="42" locEndLn="424" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
-      </CvgElem>
-      <CvgElem id="GetWhlBPulseCount:1" condNo="0">
-        <Loc locStartln="424" locStartPos="9" locEndLn="424" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
-      </CvgElem>
-    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;245;AddWhlAPulseCount" show="true">
       <CvgElem id="AddWhlAPulseCount:4" condNo="0">
         <Loc locStartln="259" locStartPos="41" locEndLn="259" locEndPos="46" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
       </CvgElem>
       <CvgElem id="AddWhlAPulseCount:1" condNo="0">
         <Loc locStartln="251" locStartPos="8" locEndLn="251" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
-      </CvgElem>
-    </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;230;GetWhlAPulseCount" show="true">
-      <CvgElem id="GetWhlAPulseCount:1" condNo="0">
-        <Loc locStartln="235" locStartPos="9" locEndLn="235" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
-      </CvgElem>
-      <CvgElem id="GetWhlAPulseCount:1" condNo="1">
-        <Loc locStartln="235" locStartPos="42" locEndLn="235" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
       </CvgElem>
     </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;434;AddWhlBPulseCount" show="true">
@@ -45,6 +29,14 @@
         <Loc locStartln="440" locStartPos="8" locEndLn="440" locEndPos="34" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
       </CvgElem>
     </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;182;AddWhlAWheelVal" show="true">
+      <CvgElem id="AddWhlAWheelVal:1" condNo="0">
+        <Loc locStartln="188" locStartPos="8" locEndLn="188" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
+      </CvgElem>
+      <CvgElem id="AddWhlAWheelVal:4" condNo="0">
+        <Loc locStartln="196" locStartPos="39" locEndLn="196" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
+      </CvgElem>
+    </StatCvg>
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;371;AddWhlBWheelVal" show="true">
       <CvgElem id="AddWhlBWheelVal:4" condNo="0">
         <Loc locStartln="385" locStartPos="39" locEndLn="385" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
@@ -53,12 +45,20 @@
         <Loc locStartln="377" locStartPos="8" locEndLn="377" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
       </CvgElem>
     </StatCvg>
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;182;AddWhlAWheelVal" show="true">
-      <CvgElem id="AddWhlAWheelVal:1" condNo="0">
-        <Loc locStartln="188" locStartPos="8" locEndLn="188" locEndPos="32" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;230;GetWhlAPulseCount" show="true">
+      <CvgElem id="GetWhlAPulseCount:1" condNo="0">
+        <Loc locStartln="235" locStartPos="9" locEndLn="235" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
       </CvgElem>
-      <CvgElem id="AddWhlAWheelVal:4" condNo="0">
-        <Loc locStartln="196" locStartPos="39" locEndLn="196" locEndPos="44" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
+      <CvgElem id="GetWhlAPulseCount:1" condNo="1">
+        <Loc locStartln="235" locStartPos="42" locEndLn="235" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c;419;GetWhlBPulseCount" show="true">
+      <CvgElem id="GetWhlBPulseCount:1" condNo="1">
+        <Loc locStartln="424" locStartPos="42" locEndLn="424" locEndPos="52" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
+      </CvgElem>
+      <CvgElem id="GetWhlBPulseCount:1" condNo="0">
+        <Loc locStartln="424" locStartPos="9" locEndLn="424" locEndPos="18" locFile="ATP_UT/ATP_UT/source/AppLogic/DynamicData/WheelData.c" />
       </CvgElem>
     </StatCvg>
   </ResultInfo>

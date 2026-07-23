@@ -8,8 +8,8 @@
   <Stats>
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;113;GetDoorEnable" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;63;SetDoorLeftCtlCmd" total="1" num="1" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;56;GetDoorLeftCtlCmd" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;150;GetDoorFamOpenDoorTimer" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;56;GetDoorLeftCtlCmd" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;169;SetDoorRevOpenDoorTimer" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;126;GetDoorRemoteOpenReq" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;156;SetDoorFamOpenDoorTimer" total="1" num="0" />
@@ -25,13 +25,13 @@
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;105;SetOutRightDoorEnable" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;84;GetOutLeftDoorEnable" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;144;SetDoorRemoteCloseReq" total="1" num="0" />
-    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;91;SetOutLeftDoorEnable" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;132;SetDoorRemoteOpenReq" total="1" num="0" />
+    <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;91;SetOutLeftDoorEnable" total="1" num="0" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;35;SetDoorLeftPsdCtlCmd" total="1" num="1" />
     <ElemStats elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;28;GetDoorLeftPsdCtlCmd" total="1" num="0" />
   </Stats>
   <ResultInfo cvgType="SC">
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;49;SetDoorRightPsdCtlCmd">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;63;SetDoorLeftCtlCmd">
       <CtxCvg ctx="4350481491180392940" ids="1" />
       <CtxCvg ctx="-3399826860484268947" ids="1" />
       <CtxCvg ctx="7439007155873996951" ids="1" />
@@ -42,7 +42,7 @@
       <CtxCvg ctx="7439007155873996112" ids="1" />
       <CtxCvg ctx="341804384815388165" ids="1" />
     </DynCvg>
-    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;63;SetDoorLeftCtlCmd">
+    <DynCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;49;SetDoorRightPsdCtlCmd">
       <CtxCvg ctx="4350481491180392940" ids="1" />
       <CtxCvg ctx="-3399826860484268947" ids="1" />
       <CtxCvg ctx="7439007155873996951" ids="1" />
@@ -77,28 +77,28 @@
     </DynCvg>
   </ResultInfo>
   <ResultInfo cvgType="SC" stat="true">
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;163;GetDoorRevOpenDoorTimer" infos="1,166,4,166,45," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;63;SetDoorLeftCtlCmd" infos="1,66,4,66,53," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;42;GetDoorRightPsdCtlCmd" infos="1,45,4,45,43," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;35;SetDoorLeftPsdCtlCmd" infos="1,38,4,38,51," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;84;GetOutLeftDoorEnable" infos="1,87,4,87,46," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;70;GetDoorRightCtlCmd" infos="1,73,4,73,44," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;113;GetDoorEnable" infos="1,116,4,116,39," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;91;SetOutLeftDoorEnable" infos="1,94,4,94,59," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;28;GetDoorLeftPsdCtlCmd" infos="1,31,4,31,42," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;19;InitDoorInfoData" infos="1,22,4,22,97, 2,23,4,23,53, 3,24,4,24,53," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;77;SetDoorRightCtlCmd" infos="1,80,4,80,55," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;49;SetDoorRightPsdCtlCmd" infos="1,52,4,52,53," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;105;SetOutRightDoorEnable" infos="1,108,4,108,61," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;144;SetDoorRemoteCloseReq" infos="1,147,4,147,47," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;126;GetDoorRemoteOpenReq" infos="1,129,4,129,42," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;138;GetDoorRemoteCloseReq" infos="1,141,4,141,43," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;56;GetDoorLeftCtlCmd" infos="1,59,4,59,43," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;98;GetOutRightDoorEnable" infos="1,101,4,101,47," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;150;GetDoorFamOpenDoorTimer" infos="1,153,4,153,45," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;169;SetDoorRevOpenDoorTimer" infos="1,172,4,172,54," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;132;SetDoorRemoteOpenReq" infos="1,135,4,135,45," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
-    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;156;SetDoorFamOpenDoorTimer" infos="1,159,4,159,54," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;42;GetDoorRightPsdCtlCmd" infos="1,45,4,45,43," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;113;GetDoorEnable" infos="1,116,4,116,39," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;84;GetOutLeftDoorEnable" infos="1,87,4,87,46," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
     <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;120;SetDoorEnable" infos="1,123,4,123,45," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;163;GetDoorRevOpenDoorTimer" infos="1,166,4,166,45," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;144;SetDoorRemoteCloseReq" infos="1,147,4,147,47," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;98;GetOutRightDoorEnable" infos="1,101,4,101,47," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;132;SetDoorRemoteOpenReq" infos="1,135,4,135,45," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;56;GetDoorLeftCtlCmd" infos="1,59,4,59,43," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;169;SetDoorRevOpenDoorTimer" infos="1,172,4,172,54," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;19;InitDoorInfoData" infos="2,23,4,23,53, 3,24,4,24,53, 1,22,4,22,97," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;156;SetDoorFamOpenDoorTimer" infos="1,159,4,159,54," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;70;GetDoorRightCtlCmd" infos="1,73,4,73,44," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;105;SetOutRightDoorEnable" infos="1,108,4,108,61," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;126;GetDoorRemoteOpenReq" infos="1,129,4,129,42," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;77;SetDoorRightCtlCmd" infos="1,80,4,80,55," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;150;GetDoorFamOpenDoorTimer" infos="1,153,4,153,45," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;49;SetDoorRightPsdCtlCmd" infos="1,52,4,52,53," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;35;SetDoorLeftPsdCtlCmd" infos="1,38,4,38,51," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;28;GetDoorLeftPsdCtlCmd" infos="1,31,4,31,42," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;138;GetDoorRemoteCloseReq" infos="1,141,4,141,43," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
+    <StatCvg elem="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c;63;SetDoorLeftCtlCmd" infos="1,66,4,66,53," file="ATP_UT/ATP_UT/source/AppLogic/DynamicData/DoorInfoData.c" show="true" />
   </ResultInfo>
 </CvgData>
